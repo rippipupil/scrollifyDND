@@ -94,5 +94,77 @@
  },
  "boots-of-the-winterlands": {
   "text": "Objeto maravilloso\nEstas botas forradas de piel son ajustadas y dan calor. Mientras las llevas, obtienes los siguientes beneficios.\n**Resistencia al frío.** Tienes Resistencia al daño de frío y puedes soportar temperaturas de 0 grados Fahrenheit (unos -18 °C) o inferiores sin ninguna protección adicional.\n**Caminante invernal.** Ignoras el Terreno difícil creado por hielo o nieve."
+ },
+ "bowl-of-commanding-water-elementals": {
+  "text": "Objeto maravilloso\nMientras este cuenco está lleno de agua y te encuentras a 1,5 m o menos de él, puedes usar una acción de Magia para invocar a un Elemental de agua. El elemental aparece en un espacio desocupado lo más cerca posible del cuenco, entiende tus idiomas, obedece tus órdenes y actúa inmediatamente después de ti en tu cuenta de Iniciativa. El elemental desaparece tras 1 hora, cuando muere o cuando lo despides con una acción adicional. El cuenco no puede usarse de este modo de nuevo hasta el siguiente amanecer.\nEl cuenco mide unos 30 cm de diámetro y la mitad de profundidad. Tiene una capacidad de unos 11 litros."
+ },
+ "bracers-of-archery": {
+  "text": "Objeto maravilloso\nMientras llevas estos brazales, tienes competencia con el arco largo y el arco corto, y obtienes un bonificador de +2 a las tiradas de daño realizadas con esas armas."
+ },
+ "bracers-of-defense": {
+  "text": "Objeto maravilloso\nMientras llevas estos brazales, obtienes un bonificador de +2 a la Clase de armadura si no llevas armadura ni usas escudo."
+ },
+ "brazier-of-commanding-fire-elementals": {
+  "text": "Objeto maravilloso\nMientras te encuentras a 1,5 m o menos de este brasero, puedes usar una acción de Magia para invocar a un Elemental de fuego. El elemental aparece en un espacio desocupado lo más cerca posible del brasero, entiende tus idiomas, obedece tus órdenes y actúa inmediatamente después de ti en tu cuenta de Iniciativa. El elemental desaparece tras 1 hora, cuando muere o cuando lo despides con una acción adicional. El brasero no puede usarse de este modo de nuevo hasta el siguiente amanecer."
+ },
+ "brooch-of-shielding": {
+  "text": "Objeto maravilloso\nMientras llevas este broche, tienes Resistencia al daño de fuerza y Inmunidad al daño del conjuro _proyectil mágico_."
+ },
+ "broom-of-flying": {
+  "text": "Objeto maravilloso\nEsta escoba de madera funciona como una escoba corriente hasta que te pones a horcajadas sobre ella y usas una acción de Magia para hacer que flote bajo ti; entonces puede montarse en el aire. Tiene una Velocidad volando de 15 m. Puede transportar hasta 200 kg, pero su Velocidad volando pasa a ser de 9 m mientras lleve más de 100 kg. La escoba deja de flotar cuando aterrizas o cuando dejas de montarla.\nComo acción de Magia, puedes enviar la escoba a viajar sola hasta un destino situado a 1,5 km o menos de ti, si nombras el lugar y lo conoces. La escoba vuelve a ti cuando usas una acción de Magia y una palabra de mando, si la escoba sigue estando a 1,5 km o menos de ti."
+ },
+ "candle-of-invocation": {
+  "text": "Objeto maravilloso\nLa magia de esta vela se activa cuando se enciende, lo cual requiere una acción de Magia. Tras arder durante 4 horas, la vela se destruye. Puedes apagarla antes para usarla más adelante. Descuenta el tiempo que ardió, en incrementos de 1 minuto, de su tiempo total de combustión.\nMientras está encendida, la vela emite Luz tenue en un radio de 9 m. Mientras estás dentro de esa luz, tienes Ventaja en las Pruebas d20. Además, un Clérigo o Druida situado en la luz puede lanzar conjuros de nivel 1 que tenga preparados sin gastar espacios de conjuro.\nComo alternativa, cuando enciendes la vela por primera vez, puedes lanzar _portal_ con ella. Hacerlo destruye la vela. El portal creado por el conjuro conecta con un Plano Exterior concreto elegido por el DM o determinado tirando en la tabla siguiente.\n\n| d100 | Plano Exterior | d100 | Plano Exterior |\n|---|---|---|---|\n| 01-05 | Abismo | 55-59 | Gehenna |\n| 06-10 | Aqueronte | 60-64 | Hades |\n| 11-17 | Arborea | 65-69 | Limbo |\n| 18-25 | Arcadia | 70-77 | Mechanus |\n| 26-33 | Tierras Bestiales | 78-85 | Monte Celestia |\n| 34-41 | Bitopía | 86-90 | Nueve Infiernos |\n| 42-46 | Carceri | 91-95 | Pandemónium |\n| 47-54 | Elíseo | 96-00 | Ysgard |"
+ },
+ "cape-of-the-mountebank": {
+  "text": "Objeto maravilloso\nEsta capa huele ligeramente a azufre. Mientras la llevas, puedes usarla para lanzar _puerta dimensional_ como acción de Magia. Esta propiedad no puede usarse de nuevo hasta el siguiente amanecer.\nCuando te teletransportas con ese conjuro, dejas atrás una nube de humo. El espacio que abandonaste está Ligeramente oscuro por ese humo hasta el final de tu siguiente turno."
+ },
+ "carpet-of-flying": {
+  "text": "Objeto maravilloso\nPuedes hacer que esta alfombra flote y vuele usando una acción de Magia y la palabra de mando de la alfombra. Se mueve según tus indicaciones si te encuentras a 9 m o menos de ella.\nExisten cuatro tamaños de Alfombra voladora. El DM elige el tamaño de una alfombra concreta o lo determina al azar tirando en la tabla siguiente. Una alfombra puede transportar hasta el doble del peso indicado en la tabla, pero su Velocidad volando se reduce a la mitad si transporta más de su capacidad normal.\n\n| d100 | Tamaño | Capacidad | Velocidad volando |\n|---|---|---|---|\n| 21-55 | 1,2 m × 1,8 m | 200 kg | 18 m |\n| 81-00 | 1,8 m × 2,7 m | 400 kg | 9 m |"
+ },
+ "censer-of-controlling-air-elementals": {
+  "text": "Objeto maravilloso\nMientras balanceas suavemente este incensario, puedes usar una acción de Magia para invocar a un Elemental de aire. El elemental aparece en un espacio desocupado lo más cerca posible del incensario, entiende tus idiomas, obedece tus órdenes y actúa inmediatamente después de ti en tu cuenta de Iniciativa. El elemental desaparece tras 1 hora, cuando muere o cuando lo despides con una acción adicional. El incensario no puede usarse de este modo de nuevo hasta el siguiente amanecer."
+ },
+ "chime-of-opening": {
+  "text": "Objeto maravilloso\nEste tubo de metal hueco mide unos 30 cm de largo y pesa 0,5 kg. Como acción de Magia, puedes golpear la campanilla para lanzar _apertura_. El sonido habitual de golpeteo del conjuro se sustituye por el tono claro y resonante de la campanilla, que se oye hasta a 90 m.\nLa campanilla puede usarse 10 veces. Tras la décima vez, se agrieta y queda inservible."
+ },
+ "circlet-of-blasting": {
+  "text": "Objeto maravilloso\nMientras llevas esta diadema, puedes lanzar con ella _rayo abrasador_ (+5 para impactar). La diadema no puede lanzar este conjuro de nuevo hasta el siguiente amanecer."
+ },
+ "cloak-of-arachnida": {
+  "text": "Objeto maravilloso\nEsta fina prenda está hecha de seda negra entretejida con tenues hilos plateados. Mientras la llevas, obtienes los siguientes beneficios.\n**Resistencia al veneno.** Tienes Resistencia al daño de veneno.\n**Trepar cual arácnido.** Tienes una Velocidad trepando igual a tu Velocidad y puedes moverte hacia arriba, hacia abajo y a través de superficies verticales y a lo largo de techos, dejando las manos libres.\n**Andar arácnido.** No puedes quedar atrapado en telarañas de ningún tipo y puedes moverte a través de ellas como si fueran Terreno difícil.\n**Telaraña.** Puedes lanzar _telaraña_ (CD de salvación 13). La telaraña creada por el conjuro llena el doble de su área normal. Una vez usada, esta propiedad no puede usarse de nuevo hasta el siguiente amanecer."
+ },
+ "cloak-of-displacement": {
+  "text": "Objeto maravilloso\nMientras llevas esta capa, proyecta mágicamente una ilusión que hace que parezca que estás en un lugar cercano a tu ubicación real, haciendo que cualquier criatura tenga Desventaja en las tiradas de ataque contra ti. Si recibes daño, la propiedad deja de funcionar hasta el comienzo de tu siguiente turno. Esta propiedad queda suprimida mientras tu Velocidad sea 0."
+ },
+ "cloak-of-elvenkind": {
+  "text": "Objeto maravilloso\nMientras llevas esta capa, las pruebas de Sabiduría (Percepción) realizadas para percibirte tienen Desventaja, y tú tienes Ventaja en las pruebas de Destreza (Sigilo)."
+ },
+ "cloak-of-protection": {
+  "text": "Objeto maravilloso\nObtienes un bonificador de +1 a la Clase de armadura y a las tiradas de salvación mientras llevas esta capa."
+ },
+ "cloak-of-the-bat": {
+  "text": "Objeto maravilloso\nMientras llevas esta capa, tienes Ventaja en las pruebas de Destreza (Sigilo). En un área de Luz tenue u Oscuridad, puedes agarrar los bordes de la capa y usarla para obtener una Velocidad volando de 12 m. Si alguna vez no logras agarrar los bordes de la capa mientras vuelas de este modo, o si ya no estás en Luz tenue u Oscuridad, pierdes esta Velocidad volando.\nMientras llevas la capa en un área de Luz tenue u Oscuridad, puedes lanzar _polimorfar_ sobre ti mismo, transformándote en un Murciélago. Mientras estés en esa forma, conservas tus puntuaciones de Inteligencia, Sabiduría y Carisma. La capa no puede usarse de este modo de nuevo hasta el siguiente amanecer."
+ },
+ "cloak-of-the-manta-ray": {
+  "text": "Objeto maravilloso\nMientras llevas esta capa, puedes respirar bajo el agua y tienes una Velocidad nadando de 18 m."
+ },
+ "crystal-ball": {
+  "text": "Objeto maravilloso\nMientras tocas este orbe de cristal, puedes lanzar con él _escudriñamiento_ (CD de salvación 17)."
+ },
+ "crystal-ball-of-mind-reading": {
+  "text": "Objeto maravilloso\nMientras tocas este orbe de cristal, puedes lanzar con él _escudriñamiento_ (CD de salvación 17). Además, puedes lanzar _detectar pensamientos_ (CD de salvación 17) con objetivo en criaturas que puedas ver a 9 m o menos del sensor del conjuro. No necesitas mantener la Concentración en este conjuro _detectar pensamientos_ durante su duración, pero termina si termina el conjuro _escudriñamiento_."
+ },
+ "crystal-ball-of-telepathy": {
+  "text": "Objeto maravilloso\nMientras tocas este orbe de cristal, puedes lanzar con él _escudriñamiento_ (CD de salvación 17). Además, puedes comunicarte telepáticamente con criaturas que puedas ver a 9 m o menos del sensor del conjuro. También puedes lanzar _sugestión_ (CD de salvación 17) a través del sensor sobre una de esas criaturas. No necesitas mantener la Concentración en esta _sugestión_ durante su duración, pero termina si termina _escudriñamiento_. No puedes lanzar _sugestión_ de este modo de nuevo hasta el siguiente amanecer."
+ },
+ "crystal-ball-of-true-seeing": {
+  "text": "Objeto maravilloso\nMientras tocas este orbe de cristal, puedes lanzar con él _escudriñamiento_ (CD de salvación 17). Además, tienes Visión verdadera con un alcance de 36 m centrada en el sensor del conjuro."
+ },
+ "cube-of-force": {
+  "text": "Objeto maravilloso\nEste cubo mide unos 2,5 cm de lado. Cada cara tiene una marca distinta. Puedes pulsar una de esas caras, gastar el número de cargas que requiere y lanzar así el conjuro asociado a ella (CD de salvación 17), como se muestra en la tabla Caras del Cubo de fuerza.\nEl cubo comienza con 10 cargas y recupera 1d6 cargas gastadas cada día al amanecer.\n\n**Caras del Cubo de fuerza**\n\n| Conjuro | Coste en cargas |\n|---|---|\n| Armadura de mago | 1 |\n| Escudo | 1 |\n| Pequeña choza | 3 |\n| Santuario privado | 4 |\n| Esfera resistente | 4 |\n| Muro de fuerza | 5 |"
+ },
+ "cubic-gate": {
+  "text": "Objeto maravilloso\nEste cubo mide 7,5 cm de lado y irradia una energía mágica palpable. Cada una de las seis caras del cubo está vinculada a un plano de existencia distinto, uno de los cuales es el Plano Material. Las otras caras están vinculadas a planos que determina el DM.\nEl cubo tiene 3 cargas y recupera 1d3 cargas gastadas cada día al amanecer. Como acción de Magia, puedes gastar 1 de las cargas del cubo para lanzar con él uno de los siguientes conjuros.\n**Portal.** Al pulsar una cara del cubo, lanzas _portal_, abriendo un portal al plano de existencia vinculado a esa cara.\n**Desplazamiento entre planos.** Al pulsar una cara del cubo dos veces, lanzas _desplazamiento entre planos_, transportando a los objetivos al plano de existencia vinculado a esa cara."
  }
 }

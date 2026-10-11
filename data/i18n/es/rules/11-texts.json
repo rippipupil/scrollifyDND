@@ -274,5 +274,92 @@
  },
  "rule-malnutrition": {
   "text": "Una criatura necesita una cantidad de comida al día según su tamaño, como se muestra en la tabla de Necesidades de comida al día. Una criatura que come pero consume menos de la mitad de la comida necesaria para un día debe superar una tirada de salvación de Constitución CD 10 o obtener 1 nivel de agotamiento al final del día. Una criatura que no come nada durante 5 días obtiene automáticamente 1 nivel de agotamiento al final del quinto día, así como un nivel adicional al final de cada día posterior sin comida.\n\nEl agotamiento causado por la desnutrición no puede eliminarse hasta que la criatura coma la cantidad completa de comida necesaria para un día. _Véase también_ \"Agotamiento\".\n\n**Necesidades de comida al día**\n\n| Tamaño | Comida | Tamaño | Comida |\n| Diminuto | 0,125 kg | Grande | 2 kg |\n| Pequeño | 0,5 kg | Enorme | 8 kg |\n| Mediano | 0,5 kg | Gargantuesco | 32 kg |"
+ },
+ "rule-monster": {
+  "text": "Un monstruo es una criatura controlada por el DJ, aunque la criatura sea benévola. _Véase también_ \"Criatura\" y \"PNJ\"."
+ },
+ "rule-nonplayer-character": {
+  "text": "Un personaje no jugador (PNJ) es un monstruo que tiene un nombre propio y una personalidad distintiva. _Véase también_ \"Monstruo\"."
+ },
+ "rule-object": {
+  "text": "Un objeto es una cosa inanimada y diferenciada. Las cosas compuestas, como los edificios, constan de más de un objeto. _Véase también_ \"Romper objetos\"."
+ },
+ "rule-occupied-space": {
+  "text": "Un espacio está ocupado si hay una criatura en él o si está completamente lleno de objetos."
+ },
+ "rule-opportunity-attacks": {
+  "text": "Puedes hacer un ataque de oportunidad cuando una criatura que puedes ver sale de tu alcance usando su acción, su acción adicional, su Reacción o una de sus velocidades. Para hacer el ataque de oportunidad, realiza una Reacción para hacer un ataque cuerpo a cuerpo con un arma o un Ataque sin armas contra la criatura que lo provoca. El ataque se produce justo antes de que la criatura salga de tu alcance. _Véase también_ \"Cómo jugar\" (\"Combate\")."
+ },
+ "rule-passive-perception": {
+  "text": "La Percepción pasiva es una puntuación que refleja la consciencia general de una criatura sobre su entorno. El DJ usa esta puntuación para determinar si una criatura nota algo sin hacer conscientemente una prueba de Sabiduría (Percepción).\n\nLa Percepción pasiva de una criatura es igual a 10 más el bonificador de su prueba de Sabiduría (Percepción). Si la criatura tiene ventaja en esas pruebas, aumenta la puntuación en 5. Si tiene desventaja en ellas, reduce la puntuación en 5. Por ejemplo, un personaje de nivel 1 con Sabiduría 15 y competencia en Percepción tiene una Percepción pasiva de 14 (10 + 2 + 2). Si ese personaje tiene ventaja en las pruebas de Sabiduría (Percepción), la puntuación pasa a ser 19."
+ },
+ "rule-per-day": {
+  "text": "Si una regla dice que puedes usar algo un cierto número de veces al día, significa que debes terminar un Descanso largo para volver a usarlo después de agotar los usos."
+ },
+ "rule-player-character": {
+  "text": "Un personaje jugador es un personaje controlado por un jugador. _Véase también_ \"Creación de personajes\"."
+ },
+ "rule-possession": {
+  "text": "Algunos efectos hacen que una criatura sea poseída por otra criatura o entidad. Un efecto de posesión define cómo opera la posesión. La posesión puede impedirse con el conjuro _Protección contra el bien y el mal_ y terminarse con el conjuro _Disipar el bien y el mal_."
+ },
+ "rule-proficiency": {
+  "text": "Si tienes competencia con algo, puedes sumar tu bonificador por competencia a cualquier prueba d20 que hagas usando ese algo. Una criatura puede tener competencia en una habilidad o en una tirada de salvación, o con un arma o una herramienta. _Véase también_ \"Cómo jugar\" (\"Competencia\")."
+ },
+ "rule-reach": {
+  "text": "Una criatura tiene un alcance de 1,5 metros a menos que una regla diga otra cosa."
+ },
+ "rule-reaction": {
+  "text": "Una Reacción es una acción especial que se realiza en respuesta a un desencadenante definido en la descripción de la Reacción. Puedes realizar una Reacción en el turno de otra criatura y, si la realizas en tu turno, puedes hacerlo aunque también realices una acción, una acción adicional o ambas. Una vez que realizas una Reacción, no puedes realizar otra hasta el comienzo de tu próximo turno. El ataque de oportunidad es una Reacción disponible para todas las criaturas. _Véase también_ \"Ataques de oportunidad\" y \"Cómo jugar\" (\"Acciones\")."
+ },
+ "rule-ready": {
+  "text": "Realizas la acción de Preparar para esperar una circunstancia concreta antes de actuar. Para ello, realizas esta acción en tu turno, lo que te permite actuar realizando una Reacción antes del comienzo de tu próximo turno.\n\nPrimero, decides qué circunstancia perceptible activará tu Reacción. Luego, eliges la acción que realizarás en respuesta a ese desencadenante, o eliges moverte hasta tu velocidad en respuesta a él. Algunos ejemplos son \"Si el cultista pisa la trampilla, tiro de la palanca que la abre\" y \"Si el zombi se pone a mi lado, me alejo\".\n\nCuando se produce el desencadenante, puedes realizar tu Reacción justo después de que el desencadenante termine o ignorar el desencadenante.\n\nCuando Preparas un conjuro, lo lanzas con normalidad (gastando los recursos usados para lanzarlo) pero retienes su energía, que liberas con tu Reacción cuando se produce el desencadenante. Para poder prepararse, un conjuro debe tener un tiempo de lanzamiento de una acción, y retener la magia del conjuro requiere Concentración, que puedes mantener hasta el comienzo de tu próximo turno. Si tu Concentración se rompe, el conjuro se disipa sin surtir efecto."
+ },
+ "rule-resistance": {
+  "text": "Si tienes resistencia a un tipo de daño, el daño de ese tipo se reduce a la mitad contra ti (redondeando hacia abajo). La resistencia se aplica solo una vez a una instancia de daño. _Véase también_ \"Cómo jugar\" (\"Daño y curación\")."
+ },
+ "rule-ritual": {
+  "text": "Si tienes preparado un conjuro que tiene la etiqueta de Ritual, puedes lanzarlo como Ritual. La versión de Ritual de un conjuro tarda 10 minutos más en lanzarse de lo normal. Además, no gasta un espacio de conjuro, lo que significa que la versión de Ritual de un conjuro no puede lanzarse a un nivel superior. _Véase también_ \"Conjuros\"."
+ },
+ "rule-round-down": {
+  "text": "Siempre que dividas o multipliques un número en el juego, redondea hacia abajo si obtienes una fracción, incluso si la fracción es una mitad o más. Algunas reglas hacen una excepción y te dicen que redondees hacia arriba."
+ },
+ "rule-save": {
+  "text": "Salvación es otro nombre para una tirada de salvación. _Véase también_ \"Tirada de salvación\"."
+ },
+ "rule-saving-throw": {
+  "text": "Una tirada de salvación —también llamada salvación— representa un intento de evitar o resistir una amenaza. Normalmente haces una tirada de salvación solo cuando una regla te obliga a ello, pero puedes decidir fallar la salvación sin tirar. El resultado de una salvación se detalla en el efecto que la permitió. Si un objetivo se ve obligado a hacer una salvación y carece de la puntuación de característica que esta usa, falla automáticamente. _Véase también_ \"Cómo jugar\" (\"Pruebas d20\")."
+ },
+ "rule-search": {
+  "text": "Cuando realizas la acción de Buscar, haces una prueba de Sabiduría para discernir algo que no es obvio. La tabla de Búsqueda sugiere qué habilidades son aplicables cuando realizas esta acción, según lo que intentes detectar.\n\n**Búsqueda**\n\n| Habilidad | Cosa que detectar |\n| Perspicacia | Estado de ánimo de una criatura |\n| Medicina | Dolencia o causa de muerte de una criatura |\n| Percepción | Criatura u objeto oculto |\n| Supervivencia | Rastros o comida |"
+ },
+ "rule-shape-shifting": {
+  "text": "Si un efecto, como Forma salvaje o el conjuro _Polimorfar_, te permite cambiar de forma, su descripción especifica qué te ocurre. A menos que esa descripción diga otra cosa, cualquier efecto en curso sobre ti —estados, conjuros, maldiciones y similares— se mantiene al pasar de una forma a otra. Vuelves a tu verdadera forma si mueres."
+ },
+ "rule-short-rest": {
+  "text": "Un Descanso corto es un periodo de inactividad de 1 hora, durante el cual una criatura no hace nada más extenuante que leer, conversar, comer o hacer guardia. Para comenzar un Descanso corto, debes tener al menos 1 punto de golpe.\n\n_Beneficios del descanso._ Cuando terminas el descanso, obtienes los siguientes beneficios:\n\n**Gastar dados de golpe.** Puedes gastar uno o más de tus dados de golpe para recuperar puntos de golpe. Por cada dado de golpe que gastes de este modo, tira el dado y suma tu modificador de Constitución. Recuperas puntos de golpe iguales al total (mínimo de 1 punto de golpe). Puedes decidir gastar un dado de golpe adicional después de cada tirada.\n\n**Rasgo especial.** Algunos rasgos se recargan con un Descanso corto. Si tienes un rasgo así, se recarga de la manera especificada en su descripción.\n\n_Interrumpir el descanso._ Un Descanso corto se detiene por las siguientes interrupciones:\n\n- Tirar iniciativa\n- Lanzar un conjuro que no sea un truco\n- Sufrir cualquier daño\n\nUn Descanso corto interrumpido no otorga ningún beneficio."
+ },
+ "rule-simultaneous-effects": {
+  "text": "Si dos o más cosas ocurren al mismo tiempo en un turno, la persona de la mesa de juego —jugador o DJ— a la que le toca el turno decide el orden en que ocurren. Por ejemplo, si dos efectos ocurren al comienzo del turno de un personaje jugador, el jugador decide cuál de los efectos ocurre primero."
+ },
+ "rule-size": {
+  "text": "Una criatura o un objeto pertenece a una categoría de tamaño: Diminuto, Pequeño, Mediano, Grande, Enorme o Gargantuesco. El tamaño de una criatura determina cuánto espacio ocupa en combate. El tamaño de un objeto afecta a sus puntos de golpe. _Véase también_ \"Romper objetos\" y \"Cómo jugar\" (\"Combate\")."
+ },
+ "rule-skill": {
+  "text": "Una habilidad es un área de especialización asociada a una prueba de característica. Si tienes competencia en una habilidad, puedes sumar tu bonificador por competencia cuando haces una prueba de característica asociada a esa habilidad. _Véase también_ \"Cómo jugar\" (\"Competencia\")."
+ },
+ "rule-speed": {
+  "text": "Una criatura tiene una velocidad, que es la distancia en metros que la criatura puede recorrer cuando se mueve en su turno. _Véase también_ \"Trepar\", \"Arrastrarse\", \"Volar\", \"Saltar\", \"Nadar\" y \"Cómo jugar\" (\"Combate\").\n\n_Velocidades especiales._ Algunas criaturas tienen velocidades especiales, como velocidad excavando, velocidad trepando, velocidad volando o velocidad nadando, cada una de las cuales se define en este glosario. Si tienes más de una velocidad, elige cuál usar cuando te muevas; puedes cambiar de una velocidad a otra durante tu movimiento. Cada vez que cambies, resta la distancia ya recorrida de la nueva velocidad. El resultado determina cuánto más puedes moverte. Si el resultado es 0 o menos, no puedes usar la nueva velocidad durante el movimiento en curso. Por ejemplo, si tienes una velocidad de 9 y una velocidad volando de 12, podrías volar 3 metros, caminar 3 metros y saltar al aire para volar 6 metros más.\n\n_Cambios en tus velocidades._ Si un efecto aumenta o reduce tu velocidad durante un tiempo, cualquier velocidad especial que tengas aumenta o se reduce en una cantidad igual durante el mismo tiempo. Por ejemplo, si tu velocidad se reduce a 0 y tienes velocidad trepando, tu velocidad trepando también se reduce a 0. Del mismo modo, si tu velocidad se reduce a la mitad y tienes velocidad volando, tu velocidad volando también se reduce a la mitad."
+ },
+ "rule-spell": {
+  "text": "Un conjuro es un efecto mágico que tiene las características descritas en \"Conjuros\"."
+ },
+ "rule-spell-attack": {
+  "text": "Un ataque de conjuro es una tirada de ataque hecha como parte de un conjuro u otro efecto mágico. _Véase también_ \"Conjuros\" (\"Lanzar conjuros\")."
+ },
+ "rule-spellcasting-focus": {
+  "text": "Un foco para lanzar conjuros es un objeto que ciertas criaturas pueden usar en lugar de los componentes materiales de un conjuro si el conjuro no consume esos materiales y no tienen un coste especificado. Algunas clases permiten a sus miembros usar ciertos tipos de focos para lanzar conjuros. _Véase también_ \"Conjuros\" (\"Lanzar conjuros\")."
+ },
+ "rule-sphere": {
+  "text": "Una esfera es un área de efecto que se extiende en líneas rectas desde un punto de origen hacia fuera en todas direcciones. El efecto que crea una esfera especifica la distancia a la que se extiende como el radio de la esfera.\n\nEl punto de origen de una esfera se incluye en el área de efecto de la esfera."
  }
 }
