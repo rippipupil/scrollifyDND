@@ -1,0 +1,419 @@
+{
+ "rule-ability-check": {
+  "name": "Prueba de característica"
+ },
+ "rule-ability-score-and-modifier": {
+  "name": "Puntuación de característica y modificador"
+ },
+ "rule-action": {
+  "name": "Acción"
+ },
+ "rule-advantage": {
+  "name": "Ventaja"
+ },
+ "rule-adventure": {
+  "name": "Aventura"
+ },
+ "rule-alignment": {
+  "name": "Alineamiento"
+ },
+ "rule-ally": {
+  "name": "Aliado"
+ },
+ "rule-area-of-effect": {
+  "name": "Área de efecto"
+ },
+ "rule-armor-class": {
+  "name": "Clase de armadura"
+ },
+ "rule-armor-training": {
+  "name": "Entrenamiento con armaduras"
+ },
+ "rule-attack": {
+  "name": "Atacar"
+ },
+ "rule-attack-roll": {
+  "name": "Tirada de ataque"
+ },
+ "rule-attitude": {
+  "name": "Actitud"
+ },
+ "rule-attunement": {
+  "name": "Sintonización"
+ },
+ "rule-blindsight": {
+  "name": "Vista ciega"
+ },
+ "rule-bloodied": {
+  "name": "Ensangrentado"
+ },
+ "rule-bonus-action": {
+  "name": "Acción adicional"
+ },
+ "rule-breaking-objects": {
+  "name": "Romper objetos"
+ },
+ "rule-bright-light": {
+  "name": "Luz brillante"
+ },
+ "rule-burning": {
+  "name": "Ardiendo"
+ },
+ "rule-burrow-speed": {
+  "name": "Velocidad excavando"
+ },
+ "rule-campaign": {
+  "name": "Campaña"
+ },
+ "rule-cantrip": {
+  "name": "Truco"
+ },
+ "rule-carrying-capacity": {
+  "name": "Capacidad de carga"
+ },
+ "rule-challenge-rating": {
+  "name": "Valor de desafío"
+ },
+ "rule-character-sheet": {
+  "name": "Hoja de personaje"
+ },
+ "rule-climbing": {
+  "name": "Trepar"
+ },
+ "rule-climb-speed": {
+  "name": "Velocidad trepando"
+ },
+ "rule-concentration": {
+  "name": "Concentración"
+ },
+ "rule-condition": {
+  "name": "Estado"
+ },
+ "rule-cone": {
+  "name": "Cono"
+ },
+ "rule-cover": {
+  "name": "Cobertura"
+ },
+ "rule-crawling": {
+  "name": "Arrastrarse"
+ },
+ "rule-creature": {
+  "name": "Criatura"
+ },
+ "rule-creature-type": {
+  "name": "Tipo de criatura"
+ },
+ "rule-critical-hit": {
+  "name": "Impacto crítico"
+ },
+ "rule-cube": {
+  "name": "Cubo"
+ },
+ "rule-curses": {
+  "name": "Maldiciones"
+ },
+ "rule-cylinder": {
+  "name": "Cilindro"
+ },
+ "rule-d20-test": {
+  "name": "Prueba d20"
+ },
+ "rule-damage": {
+  "name": "Daño"
+ },
+ "rule-damage-roll": {
+  "name": "Tirada de daño"
+ },
+ "rule-damage-threshold": {
+  "name": "Umbral de daño"
+ },
+ "rule-damage-types": {
+  "name": "Tipos de daño"
+ },
+ "rule-darkness": {
+  "name": "Oscuridad"
+ },
+ "rule-darkvision": {
+  "name": "Visión en la oscuridad"
+ },
+ "rule-dash": {
+  "name": "Correr"
+ },
+ "rule-dead": {
+  "name": "Muerto"
+ },
+ "rule-death-saving-throw": {
+  "name": "Tirada de salvación contra muerte"
+ },
+ "rule-dehydration": {
+  "name": "Deshidratación"
+ },
+ "rule-difficult-terrain": {
+  "name": "Terreno difícil"
+ },
+ "rule-difficulty-class": {
+  "name": "Clase de dificultad"
+ },
+ "rule-dim-light": {
+  "name": "Luz tenue"
+ },
+ "rule-disadvantage": {
+  "name": "Desventaja"
+ },
+ "rule-disengage": {
+  "name": "Retirarse"
+ },
+ "rule-dodge": {
+  "name": "Esquivar"
+ },
+ "rule-emanation": {
+  "name": "Emanación"
+ },
+ "rule-encounter": {
+  "name": "Encuentro"
+ },
+ "rule-enemy": {
+  "name": "Enemigo"
+ },
+ "rule-experience-points": {
+  "name": "Puntos de experiencia"
+ },
+ "rule-expertise": {
+  "name": "Pericia"
+ },
+ "rule-falling": {
+  "name": "Caída"
+ },
+ "rule-flying": {
+  "name": "Volar"
+ },
+ "rule-fly-speed": {
+  "name": "Velocidad volando"
+ },
+ "rule-friendly": {
+  "name": "Amistoso"
+ },
+ "rule-grappling": {
+  "name": "Agarrar"
+ },
+ "rule-hazard": {
+  "name": "Peligro"
+ },
+ "rule-healing": {
+  "name": "Curación"
+ },
+ "rule-heavily-obscured": {
+  "name": "Muy oscuro"
+ },
+ "rule-help": {
+  "name": "Ayudar"
+ },
+ "rule-heroic-inspiration": {
+  "name": "Inspiración heroica"
+ },
+ "rule-hide": {
+  "name": "Esconderse"
+ },
+ "rule-high-jump": {
+  "name": "Salto de altura"
+ },
+ "rule-hit-point-dice": {
+  "name": "Dados de golpe"
+ },
+ "rule-hit-points": {
+  "name": "Puntos de golpe"
+ },
+ "rule-hostile": {
+  "name": "Hostil"
+ },
+ "rule-hover": {
+  "name": "Flotar"
+ },
+ "rule-illusions": {
+  "name": "Ilusiones"
+ },
+ "rule-immunity": {
+  "name": "Inmunidad"
+ },
+ "rule-improvised-weapons": {
+  "name": "Armas improvisadas"
+ },
+ "rule-indifferent": {
+  "name": "Indiferente"
+ },
+ "rule-influence": {
+  "name": "Influir"
+ },
+ "rule-initiative": {
+  "name": "Iniciativa"
+ },
+ "rule-jumping": {
+  "name": "Saltar"
+ },
+ "rule-knocking-out-a-creature": {
+  "name": "Dejar inconsciente a una criatura"
+ },
+ "rule-lightly-obscured": {
+  "name": "Ligeramente oscuro"
+ },
+ "rule-line": {
+  "name": "Línea"
+ },
+ "rule-long-jump": {
+  "name": "Salto de longitud"
+ },
+ "rule-long-rest": {
+  "name": "Descanso largo"
+ },
+ "rule-magic": {
+  "name": "Magia"
+ },
+ "rule-magical-effect": {
+  "name": "Efecto mágico"
+ },
+ "rule-malnutrition": {
+  "name": "Desnutrición"
+ },
+ "rule-monster": {
+  "name": "Monstruo"
+ },
+ "rule-nonplayer-character": {
+  "name": "Personaje no jugador"
+ },
+ "rule-object": {
+  "name": "Objeto"
+ },
+ "rule-occupied-space": {
+  "name": "Espacio ocupado"
+ },
+ "rule-opportunity-attacks": {
+  "name": "Ataques de oportunidad"
+ },
+ "rule-passive-perception": {
+  "name": "Percepción pasiva"
+ },
+ "rule-per-day": {
+  "name": "Al día"
+ },
+ "rule-player-character": {
+  "name": "Personaje jugador"
+ },
+ "rule-possession": {
+  "name": "Posesión"
+ },
+ "rule-proficiency": {
+  "name": "Competencia"
+ },
+ "rule-reach": {
+  "name": "Alcance cuerpo a cuerpo"
+ },
+ "rule-reaction": {
+  "name": "Reacción"
+ },
+ "rule-ready": {
+  "name": "Preparar"
+ },
+ "rule-resistance": {
+  "name": "Resistencia"
+ },
+ "rule-ritual": {
+  "name": "Ritual"
+ },
+ "rule-round-down": {
+  "name": "Redondear hacia abajo"
+ },
+ "rule-save": {
+  "name": "Salvación"
+ },
+ "rule-saving-throw": {
+  "name": "Tirada de salvación"
+ },
+ "rule-search": {
+  "name": "Buscar"
+ },
+ "rule-shape-shifting": {
+  "name": "Cambiar de forma"
+ },
+ "rule-short-rest": {
+  "name": "Descanso corto"
+ },
+ "rule-simultaneous-effects": {
+  "name": "Efectos simultáneos"
+ },
+ "rule-size": {
+  "name": "Tamaño"
+ },
+ "rule-skill": {
+  "name": "Habilidad"
+ },
+ "rule-speed": {
+  "name": "Velocidad"
+ },
+ "rule-spell": {
+  "name": "Conjuro"
+ },
+ "rule-spell-attack": {
+  "name": "Ataque de conjuro"
+ },
+ "rule-spellcasting-focus": {
+  "name": "Foco para lanzar conjuros"
+ },
+ "rule-sphere": {
+  "name": "Esfera"
+ },
+ "rule-stable": {
+  "name": "Estable"
+ },
+ "rule-stat-block": {
+  "name": "Bloque de estadísticas"
+ },
+ "rule-study": {
+  "name": "Estudiar"
+ },
+ "rule-suffocation": {
+  "name": "Asfixia"
+ },
+ "rule-surprise": {
+  "name": "Sorpresa"
+ },
+ "rule-swimming": {
+  "name": "Nadar"
+ },
+ "rule-target": {
+  "name": "Objetivo"
+ },
+ "rule-telepathy": {
+  "name": "Telepatía"
+ },
+ "rule-teleportation": {
+  "name": "Teletransporte"
+ },
+ "rule-temporary-hit-points": {
+  "name": "Puntos de golpe temporales"
+ },
+ "rule-tremorsense": {
+  "name": "Sentido de la vibración"
+ },
+ "rule-truesight": {
+  "name": "Visión verdadera"
+ },
+ "rule-unarmed-strike": {
+  "name": "Ataque sin armas"
+ },
+ "rule-unoccupied-space": {
+  "name": "Espacio desocupado"
+ },
+ "rule-utilize": {
+  "name": "Usar"
+ },
+ "rule-vulnerability": {
+  "name": "Vulnerabilidad"
+ },
+ "rule-weapon": {
+  "name": "Arma"
+ },
+ "rule-weapon-attack": {
+  "name": "Ataque con arma"
+ }
+}
