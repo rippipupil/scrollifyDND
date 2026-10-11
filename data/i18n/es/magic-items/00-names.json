@@ -1,0 +1,788 @@
+{
+ "adamantine-armor": {
+  "name": "Armadura de adamantina"
+ },
+ "ammunition": {
+  "name": "Munición"
+ },
+ "ammunition-1": {
+  "name": "Munición +1"
+ },
+ "ammunition-2": {
+  "name": "Munición +2"
+ },
+ "ammunition-3": {
+  "name": "Munición +3"
+ },
+ "ammunition-of-slaying": {
+  "name": "Munición asesina"
+ },
+ "amulet-of-health": {
+  "name": "Amuleto de salud"
+ },
+ "amulet-of-proof-against-detection-and-location": {
+  "name": "Amuleto a prueba de detección y localización"
+ },
+ "amulet-of-the-planes": {
+  "name": "Amuleto de los planos"
+ },
+ "animated-shield": {
+  "name": "Escudo animado"
+ },
+ "apparatus-of-the-crab": {
+  "name": "Aparato del cangrejo"
+ },
+ "armor": {
+  "name": "Armadura"
+ },
+ "armor-1": {
+  "name": "Armadura +1"
+ },
+ "armor-2": {
+  "name": "Armadura +2"
+ },
+ "armor-3": {
+  "name": "Armadura +3"
+ },
+ "armor-of-invulnerability": {
+  "name": "Armadura de invulnerabilidad"
+ },
+ "armor-of-resistance": {
+  "name": "Armadura de resistencia"
+ },
+ "armor-of-vulnerability": {
+  "name": "Armadura de vulnerabilidad"
+ },
+ "arrow-catching-shield": {
+  "name": "Escudo atrapaflechas"
+ },
+ "bag-of-beans": {
+  "name": "Bolsa de alubias"
+ },
+ "bag-of-devouring": {
+  "name": "Bolsa devoradora"
+ },
+ "bag-of-holding": {
+  "name": "Bolsa de contención"
+ },
+ "bag-of-tricks": {
+  "name": "Bolsa de trucos"
+ },
+ "bead-of-force": {
+  "name": "Cuenta de fuerza"
+ },
+ "belt-of-dwarvenkind": {
+  "name": "Cinturón de los enanos"
+ },
+ "belt-of-giant-strength": {
+  "name": "Cinturón de fuerza de gigante"
+ },
+ "berserker-axe": {
+  "name": "Hacha del berserker"
+ },
+ "boots-of-elvenkind": {
+  "name": "Botas élficas"
+ },
+ "boots-of-levitation": {
+  "name": "Botas de levitación"
+ },
+ "boots-of-speed": {
+  "name": "Botas de velocidad"
+ },
+ "boots-of-striding-and-springing": {
+  "name": "Botas de zancadas y brincos"
+ },
+ "boots-of-the-winterlands": {
+  "name": "Botas de las tierras invernales"
+ },
+ "bowl-of-commanding-water-elementals": {
+  "name": "Cuenco de dominio de elementales de agua"
+ },
+ "bracers-of-archery": {
+  "name": "Brazales de arquería"
+ },
+ "bracers-of-defense": {
+  "name": "Brazales de defensa"
+ },
+ "brazier-of-commanding-fire-elementals": {
+  "name": "Brasero de dominio de elementales de fuego"
+ },
+ "brooch-of-shielding": {
+  "name": "Broche escudo"
+ },
+ "broom-of-flying": {
+  "name": "Escoba voladora"
+ },
+ "candle-of-invocation": {
+  "name": "Vela de invocación"
+ },
+ "cape-of-the-mountebank": {
+  "name": "Capa del charlatán"
+ },
+ "carpet-of-flying": {
+  "name": "Alfombra voladora"
+ },
+ "censer-of-controlling-air-elementals": {
+  "name": "Incensario de control de elementales de aire"
+ },
+ "chime-of-opening": {
+  "name": "Campanilla de apertura"
+ },
+ "circlet-of-blasting": {
+  "name": "Diadema explosiva"
+ },
+ "cloak-of-arachnida": {
+  "name": "Capa arácnida"
+ },
+ "cloak-of-displacement": {
+  "name": "Capa de desplazamiento"
+ },
+ "cloak-of-elvenkind": {
+  "name": "Capa élfica"
+ },
+ "cloak-of-protection": {
+  "name": "Capa de protección"
+ },
+ "cloak-of-the-bat": {
+  "name": "Capa del murciélago"
+ },
+ "cloak-of-the-manta-ray": {
+  "name": "Capa de la mantarraya"
+ },
+ "crystal-ball": {
+  "name": "Bola de cristal"
+ },
+ "crystal-ball-of-mind-reading": {
+  "name": "Bola de cristal de lectura mental"
+ },
+ "crystal-ball-of-telepathy": {
+  "name": "Bola de cristal de telepatía"
+ },
+ "crystal-ball-of-true-seeing": {
+  "name": "Bola de cristal de visión verdadera"
+ },
+ "cube-of-force": {
+  "name": "Cubo de fuerza"
+ },
+ "cubic-gate": {
+  "name": "Portal cúbico"
+ },
+ "dagger-of-venom": {
+  "name": "Daga venenosa"
+ },
+ "dancing-sword": {
+  "name": "Espada danzarina"
+ },
+ "decanter-of-endless-water": {
+  "name": "Garrafa de agua inagotable"
+ },
+ "deck-of-illusions": {
+  "name": "Baraja de ilusiones"
+ },
+ "defender": {
+  "name": "Defensora"
+ },
+ "demon-armor": {
+  "name": "Armadura demoníaca"
+ },
+ "dimensional-shackles": {
+  "name": "Grilletes dimensionales"
+ },
+ "dragon-orb": {
+  "name": "Orbe de dragón"
+ },
+ "dragon-scale-mail": {
+  "name": "Cota de escamas de dragón"
+ },
+ "dragon-slayer": {
+  "name": "Matadragones"
+ },
+ "dust-of-disappearance": {
+  "name": "Polvo de desaparición"
+ },
+ "dust-of-dryness": {
+  "name": "Polvo de sequedad"
+ },
+ "dust-of-sneezing-and-choking": {
+  "name": "Polvo de estornudos y asfixia"
+ },
+ "dwarven-plate": {
+  "name": "Placas enanas"
+ },
+ "dwarven-thrower": {
+  "name": "Lanzador enano"
+ },
+ "efficient-quiver": {
+  "name": "Carcaj eficiente"
+ },
+ "efreeti-bottle": {
+  "name": "Botella de efrit"
+ },
+ "elemental-gem": {
+  "name": "Gema elemental"
+ },
+ "elven-chain": {
+  "name": "Cota élfica"
+ },
+ "eversmoking-bottle": {
+  "name": "Botella humeante"
+ },
+ "eyes-of-charming": {
+  "name": "Ojos hechizadores"
+ },
+ "eyes-of-minute-seeing": {
+  "name": "Ojos de visión minuciosa"
+ },
+ "eyes-of-the-eagle": {
+  "name": "Ojos de águila"
+ },
+ "feather-token": {
+  "name": "Talismán de pluma"
+ },
+ "figurine-of-wondrous-power": {
+  "name": "Figurilla de poder maravilloso"
+ },
+ "flame-tongue": {
+  "name": "Lengua de fuego"
+ },
+ "folding-boat": {
+  "name": "Bote plegable"
+ },
+ "frost-brand": {
+  "name": "Marca de escarcha"
+ },
+ "gauntlets-of-ogre-power": {
+  "name": "Guanteletes de poder de ogro"
+ },
+ "gem-of-brightness": {
+  "name": "Gema de luminosidad"
+ },
+ "gem-of-seeing": {
+  "name": "Gema de la visión"
+ },
+ "giant-slayer": {
+  "name": "Matagigantes"
+ },
+ "glamoured-studded-leather": {
+  "name": "Cuero tachonado encantado"
+ },
+ "gloves-of-missile-snaring": {
+  "name": "Guantes atrapaproyectiles"
+ },
+ "gloves-of-swimming-and-climbing": {
+  "name": "Guantes de natación y escalada"
+ },
+ "goggles-of-night": {
+  "name": "Anteojos nocturnos"
+ },
+ "hammer-of-thunderbolts": {
+  "name": "Martillo de los truenos"
+ },
+ "handy-haversack": {
+  "name": "Morral práctico"
+ },
+ "hat-of-disguise": {
+  "name": "Sombrero de disfraz"
+ },
+ "headband-of-intellect": {
+  "name": "Cinta de intelecto"
+ },
+ "helm-of-brilliance": {
+  "name": "Yelmo de brillantez"
+ },
+ "helm-of-comprehending-languages": {
+  "name": "Yelmo de comprensión idiomática"
+ },
+ "helm-of-telepathy": {
+  "name": "Yelmo de telepatía"
+ },
+ "helm-of-teleportation": {
+  "name": "Yelmo de teletransporte"
+ },
+ "holy-avenger": {
+  "name": "Vengadora sagrada"
+ },
+ "horn-of-blasting": {
+  "name": "Cuerno explosivo"
+ },
+ "horn-of-valhalla": {
+  "name": "Cuerno del Valhalla"
+ },
+ "horn-of-valhalla-1": {
+  "name": "Cuerno del Valhalla de plata"
+ },
+ "horn-of-valhalla-2": {
+  "name": "Cuerno del Valhalla de latón"
+ },
+ "horn-of-valhalla-3": {
+  "name": "Cuerno del Valhalla de bronce"
+ },
+ "horn-of-valhalla-4": {
+  "name": "Cuerno del Valhalla de hierro"
+ },
+ "horseshoes-of-a-zephyr": {
+  "name": "Herraduras del céfiro"
+ },
+ "horseshoes-of-speed": {
+  "name": "Herraduras de velocidad"
+ },
+ "immovable-rod": {
+  "name": "Vara inamovible"
+ },
+ "instant-fortress": {
+  "name": "Fortaleza instantánea"
+ },
+ "ioun-stone": {
+  "name": "Piedra ioun"
+ },
+ "iron-bands": {
+  "name": "Bandas de hierro"
+ },
+ "iron-flask": {
+  "name": "Frasco de hierro"
+ },
+ "javelin-of-lightning": {
+  "name": "Jabalina relampagueante"
+ },
+ "lantern-of-revealing": {
+  "name": "Farol revelador"
+ },
+ "luck-blade": {
+  "name": "Hoja de la suerte"
+ },
+ "mace-of-disruption": {
+  "name": "Maza disruptora"
+ },
+ "mace-of-smiting": {
+  "name": "Maza castigadora"
+ },
+ "mace-of-terror": {
+  "name": "Maza del terror"
+ },
+ "mantle-of-spell-resistance": {
+  "name": "Manto de resistencia a conjuros"
+ },
+ "manual-of-bodily-health": {
+  "name": "Manual de salud corporal"
+ },
+ "manual-of-gainful-exercise": {
+  "name": "Manual de ejercicio provechoso"
+ },
+ "manual-of-golems": {
+  "name": "Manual de gólems"
+ },
+ "manual-of-quickness-of-action": {
+  "name": "Manual de rapidez de acción"
+ },
+ "marvelous-pigments": {
+  "name": "Pigmentos maravillosos"
+ },
+ "medallion-of-thoughts": {
+  "name": "Medallón de pensamientos"
+ },
+ "mirror-of-life-trapping": {
+  "name": "Espejo atrapavidas"
+ },
+ "mithral-armor": {
+  "name": "Armadura de mithril"
+ },
+ "mysterious-deck": {
+  "name": "Baraja misteriosa"
+ },
+ "necklace-of-adaptation": {
+  "name": "Collar de adaptación"
+ },
+ "necklace-of-fireballs": {
+  "name": "Collar de bolas de fuego"
+ },
+ "necklace-of-prayer-beads": {
+  "name": "Collar de cuentas de oración"
+ },
+ "nine-lives-stealer": {
+  "name": "Ladrona de nueve vidas"
+ },
+ "oathbow": {
+  "name": "Arco del juramento"
+ },
+ "oil-of-etherealness": {
+  "name": "Aceite etéreo"
+ },
+ "oil-of-sharpness": {
+  "name": "Aceite de afilado"
+ },
+ "oil-of-slipperiness": {
+  "name": "Aceite resbaladizo"
+ },
+ "pearl-of-power": {
+  "name": "Perla de poder"
+ },
+ "periapt-of-health": {
+  "name": "Talismán de salud"
+ },
+ "periapt-of-proof-against-poison": {
+  "name": "Talismán a prueba de venenos"
+ },
+ "periapt-of-wound-closure": {
+  "name": "Talismán de cierre de heridas"
+ },
+ "philter-of-love": {
+  "name": "Filtro de amor"
+ },
+ "pipes-of-haunting": {
+  "name": "Flautas espectrales"
+ },
+ "pipes-of-the-sewers": {
+  "name": "Flautas de las alcantarillas"
+ },
+ "plate-armor-of-etherealness": {
+  "name": "Armadura de placas etérea"
+ },
+ "portable-hole": {
+  "name": "Agujero portátil"
+ },
+ "potion-of-animal-friendship": {
+  "name": "Poción de amistad con los animales"
+ },
+ "potion-of-clairvoyance": {
+  "name": "Poción de clarividencia"
+ },
+ "potion-of-climbing": {
+  "name": "Poción de trepar"
+ },
+ "potion-of-diminution": {
+  "name": "Poción de disminución"
+ },
+ "potion-of-flying": {
+  "name": "Poción de vuelo"
+ },
+ "potion-of-growth": {
+  "name": "Poción de crecimiento"
+ },
+ "potions-of-healing": {
+  "name": "Pociones de curación"
+ },
+ "potion-of-gaseous-form": {
+  "name": "Poción de forma gaseosa"
+ },
+ "potion-of-heroism": {
+  "name": "Poción de heroísmo"
+ },
+ "potion-of-giant-strength": {
+  "name": "Poción de fuerza de gigante"
+ },
+ "potion-of-invisibility": {
+  "name": "Poción de invisibilidad"
+ },
+ "potion-of-mind-reading": {
+  "name": "Poción de lectura mental"
+ },
+ "potion-of-poison": {
+  "name": "Poción de veneno"
+ },
+ "potion-of-resistance": {
+  "name": "Poción de resistencia"
+ },
+ "potion-of-speed": {
+  "name": "Poción de velocidad"
+ },
+ "potion-of-water-breathing": {
+  "name": "Poción de respirar bajo el agua"
+ },
+ "ring-of-animal-influence": {
+  "name": "Anillo de influencia animal"
+ },
+ "ring-of-djinni-summoning": {
+  "name": "Anillo de invocación de djinn"
+ },
+ "ring-of-elemental-command": {
+  "name": "Anillo de dominio elemental"
+ },
+ "ring-of-evasion": {
+  "name": "Anillo de evasión"
+ },
+ "ring-of-feather-falling": {
+  "name": "Anillo de caída de pluma"
+ },
+ "ring-of-free-action": {
+  "name": "Anillo de acción libre"
+ },
+ "ring-of-invisibility": {
+  "name": "Anillo de invisibilidad"
+ },
+ "ring-of-jumping": {
+  "name": "Anillo de salto"
+ },
+ "ring-of-mind-shielding": {
+  "name": "Anillo de escudo mental"
+ },
+ "ring-of-protection": {
+  "name": "Anillo de protección"
+ },
+ "ring-of-regeneration": {
+  "name": "Anillo de regeneración"
+ },
+ "ring-of-resistance": {
+  "name": "Anillo de resistencia"
+ },
+ "ring-of-shooting-stars": {
+  "name": "Anillo de estrellas fugaces"
+ },
+ "ring-of-spell-storing": {
+  "name": "Anillo de almacenamiento de conjuros"
+ },
+ "ring-of-spell-turning": {
+  "name": "Anillo de reflejo de conjuros"
+ },
+ "ring-of-swimming": {
+  "name": "Anillo de natación"
+ },
+ "ring-of-telekinesis": {
+  "name": "Anillo de telequinesis"
+ },
+ "ring-of-the-ram": {
+  "name": "Anillo del carnero"
+ },
+ "ring-of-three-wishes": {
+  "name": "Anillo de los tres deseos"
+ },
+ "ring-of-warmth": {
+  "name": "Anillo de calor"
+ },
+ "ring-of-water-walking": {
+  "name": "Anillo de caminar sobre el agua"
+ },
+ "ring-of-x-ray-vision": {
+  "name": "Anillo de visión de rayos X"
+ },
+ "robe-of-eyes": {
+  "name": "Túnica de ojos"
+ },
+ "robe-of-scintillating-colors": {
+  "name": "Túnica de colores centelleantes"
+ },
+ "robe-of-stars": {
+  "name": "Túnica de estrellas"
+ },
+ "robe-of-the-archmagi": {
+  "name": "Túnica de los archimagos"
+ },
+ "robe-of-useful-items": {
+  "name": "Túnica de objetos útiles"
+ },
+ "rod-of-absorption": {
+  "name": "Vara de absorción"
+ },
+ "rod-of-alertness": {
+  "name": "Vara de alerta"
+ },
+ "rod-of-lordly-might": {
+  "name": "Vara de poder señorial"
+ },
+ "rod-of-rulership": {
+  "name": "Vara de dominio"
+ },
+ "rod-of-security": {
+  "name": "Vara de seguridad"
+ },
+ "rope-of-climbing": {
+  "name": "Cuerda trepadora"
+ },
+ "rope-of-entanglement": {
+  "name": "Cuerda enredadora"
+ },
+ "scarab-of-protection": {
+  "name": "Escarabajo de protección"
+ },
+ "scimitar-of-speed": {
+  "name": "Cimitarra de velocidad"
+ },
+ "shield": {
+  "name": "Escudo"
+ },
+ "shield-1": {
+  "name": "Escudo +1"
+ },
+ "shield-2": {
+  "name": "Escudo +2"
+ },
+ "shield-3": {
+  "name": "Escudo +3"
+ },
+ "shield-of-missile-attraction": {
+  "name": "Escudo atraeproyectiles"
+ },
+ "slippers-of-spider-climbing": {
+  "name": "Zapatillas trepadoras"
+ },
+ "sovereign-glue": {
+  "name": "Pegamento soberano"
+ },
+ "spellguard-shield": {
+  "name": "Escudo guardaconjuros"
+ },
+ "spell-scroll": {
+  "name": "Pergamino de conjuro"
+ },
+ "sphere-of-annihilation": {
+  "name": "Esfera de aniquilación"
+ },
+ "staff-of-charming": {
+  "name": "Bastón de hechizo"
+ },
+ "staff-of-fire": {
+  "name": "Bastón de fuego"
+ },
+ "staff-of-frost": {
+  "name": "Bastón de escarcha"
+ },
+ "staff-of-healing": {
+  "name": "Bastón de curación"
+ },
+ "staff-of-power": {
+  "name": "Bastón de poder"
+ },
+ "staff-of-striking": {
+  "name": "Bastón de golpeo"
+ },
+ "staff-of-swarming-insects": {
+  "name": "Bastón de enjambres de insectos"
+ },
+ "staff-of-the-magi": {
+  "name": "Bastón de los magos"
+ },
+ "staff-of-the-python": {
+  "name": "Bastón de la pitón"
+ },
+ "staff-of-the-woodlands": {
+  "name": "Bastón de los bosques"
+ },
+ "staff-of-thunder-and-lightning": {
+  "name": "Bastón del trueno y el relámpago"
+ },
+ "staff-of-withering": {
+  "name": "Bastón marchitador"
+ },
+ "stone-of-controlling-earth-elementals": {
+  "name": "Piedra de control de elementales de tierra"
+ },
+ "stone-of-good-luck-(luckstone)": {
+  "name": "Piedra de la buena suerte (piedra de la suerte)"
+ },
+ "sun-blade": {
+  "name": "Hoja solar"
+ },
+ "sword-of-life-stealing": {
+  "name": "Espada robavidas"
+ },
+ "sword-of-sharpness": {
+  "name": "Espada afilada"
+ },
+ "sword-of-wounding": {
+  "name": "Espada hiriente"
+ },
+ "talisman-of-pure-good": {
+  "name": "Talismán del bien puro"
+ },
+ "talisman-of-the-sphere": {
+  "name": "Talismán de la esfera"
+ },
+ "talisman-of-ultimate-evil": {
+  "name": "Talismán del mal supremo"
+ },
+ "tome-of-clear-thought": {
+  "name": "Tomo del pensamiento claro"
+ },
+ "tome-of-leadership-and-influence": {
+  "name": "Tomo de liderazgo e influencia"
+ },
+ "tome-of-understanding": {
+  "name": "Tomo de la comprensión"
+ },
+ "trident-of-fish-command": {
+  "name": "Tridente de dominio de peces"
+ },
+ "universal-solvent": {
+  "name": "Disolvente universal"
+ },
+ "vicious-weapon": {
+  "name": "Arma despiadada"
+ },
+ "vorpal-sword": {
+  "name": "Espada vorpal"
+ },
+ "wand-of-binding": {
+  "name": "Varita de atadura"
+ },
+ "wand-of-enemy-detection": {
+  "name": "Varita de detección de enemigos"
+ },
+ "wand-of-fear": {
+  "name": "Varita de miedo"
+ },
+ "wand-of-fireballs": {
+  "name": "Varita de bolas de fuego"
+ },
+ "wand-of-lightning-bolts": {
+  "name": "Varita de relámpagos"
+ },
+ "wand-of-magic-detection": {
+  "name": "Varita de detección de magia"
+ },
+ "wand-of-magic-missiles": {
+  "name": "Varita de proyectiles mágicos"
+ },
+ "wand-of-paralysis": {
+  "name": "Varita de parálisis"
+ },
+ "wand-of-polymorph": {
+  "name": "Varita de polimorfar"
+ },
+ "wand-of-secrets": {
+  "name": "Varita de secretos"
+ },
+ "wand-of-the-war-mage": {
+  "name": "Varita del mago de guerra"
+ },
+ "wand-of-the-war-mage-1": {
+  "name": "Varita del mago de guerra +1"
+ },
+ "wand-of-the-war-mage-2": {
+  "name": "Varita del mago de guerra +2"
+ },
+ "wand-of-the-war-mage-3": {
+  "name": "Varita del mago de guerra +3"
+ },
+ "wand-of-web": {
+  "name": "Varita de telarañas"
+ },
+ "wand-of-wonder": {
+  "name": "Varita de maravillas"
+ },
+ "weapon": {
+  "name": "Arma"
+ },
+ "weapon-1": {
+  "name": "Arma +1"
+ },
+ "weapon-2": {
+  "name": "Arma +2"
+ },
+ "weapon-3": {
+  "name": "Arma +3"
+ },
+ "weapon-of-warning": {
+  "name": "Arma de alerta"
+ },
+ "well-of-many-worlds": {
+  "name": "Pozo de los muchos mundos"
+ },
+ "wind-fan": {
+  "name": "Abanico de viento"
+ },
+ "winged-boots": {
+  "name": "Botas aladas"
+ },
+ "wings-of-flying": {
+  "name": "Alas de vuelo"
+ }
+}

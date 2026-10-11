@@ -1,0 +1,1025 @@
+{
+ "aboleth": {
+  "name": "Aboleth"
+ },
+ "air-elemental": {
+  "name": "Elemental de aire"
+ },
+ "animated-armor": {
+  "name": "Armadura animada"
+ },
+ "animated-flying-sword": {
+  "name": "Espada voladora animada"
+ },
+ "animated-rug-of-smothering": {
+  "name": "Alfombra asfixiante animada"
+ },
+ "ankheg": {
+  "name": "Ankheg"
+ },
+ "assassin": {
+  "name": "Asesino"
+ },
+ "awakened-shrub": {
+  "name": "Arbusto despertado"
+ },
+ "awakened-tree": {
+  "name": "Árbol despertado"
+ },
+ "axe-beak": {
+  "name": "Pico hacha"
+ },
+ "azer-sentinel": {
+  "name": "Centinela azer"
+ },
+ "balor": {
+  "name": "Balor"
+ },
+ "bandit": {
+  "name": "Bandido"
+ },
+ "bandit-captain": {
+  "name": "Capitán bandido"
+ },
+ "barbed-devil": {
+  "name": "Diablo espinoso"
+ },
+ "basilisk": {
+  "name": "Basilisco"
+ },
+ "bearded-devil": {
+  "name": "Diablo barbado"
+ },
+ "behir": {
+  "name": "Behir"
+ },
+ "berserker": {
+  "name": "Berserker"
+ },
+ "black-dragon-wyrmling": {
+  "name": "Dragón negro recién nacido"
+ },
+ "young-black-dragon": {
+  "name": "Dragón negro joven"
+ },
+ "adult-black-dragon": {
+  "name": "Dragón negro adulto"
+ },
+ "ancient-black-dragon": {
+  "name": "Dragón negro anciano"
+ },
+ "black-pudding": {
+  "name": "Pudin negro"
+ },
+ "blink-dog": {
+  "name": "Perro intermitente"
+ },
+ "blue-dragon-wyrmling": {
+  "name": "Dragón azul recién nacido"
+ },
+ "young-blue-dragon": {
+  "name": "Dragón azul joven"
+ },
+ "adult-blue-dragon": {
+  "name": "Dragón azul adulto"
+ },
+ "ancient-blue-dragon": {
+  "name": "Dragón azul anciano"
+ },
+ "bone-devil": {
+  "name": "Diablo óseo"
+ },
+ "brass-dragon-wyrmling": {
+  "name": "Dragón de latón recién nacido"
+ },
+ "young-brass-dragon": {
+  "name": "Dragón de latón joven"
+ },
+ "adult-brass-dragon": {
+  "name": "Dragón de latón adulto"
+ },
+ "ancient-brass-dragon": {
+  "name": "Dragón de latón anciano"
+ },
+ "bronze-dragon-wyrmling": {
+  "name": "Dragón de bronce recién nacido"
+ },
+ "young-bronze-dragon": {
+  "name": "Dragón de bronce joven"
+ },
+ "adult-bronze-dragon": {
+  "name": "Dragón de bronce adulto"
+ },
+ "ancient-bronze-dragon": {
+  "name": "Dragón de bronce anciano"
+ },
+ "bugbear-stalker": {
+  "name": "Osgo acechador"
+ },
+ "bugbear-warrior": {
+  "name": "Osgo guerrero"
+ },
+ "bulette": {
+  "name": "Bulette"
+ },
+ "centaur-trooper": {
+  "name": "Centauro soldado"
+ },
+ "chain-devil": {
+  "name": "Diablo de las cadenas"
+ },
+ "chimera": {
+  "name": "Quimera"
+ },
+ "chuul": {
+  "name": "Chuul"
+ },
+ "clay-golem": {
+  "name": "Gólem de arcilla"
+ },
+ "cloaker": {
+  "name": "Capa siniestra"
+ },
+ "cloud-giant": {
+  "name": "Gigante de las nubes"
+ },
+ "cockatrice": {
+  "name": "Cocatriz"
+ },
+ "commoner": {
+  "name": "Plebeyo"
+ },
+ "copper-dragon-wyrmling": {
+  "name": "Dragón de cobre recién nacido"
+ },
+ "young-copper-dragon": {
+  "name": "Dragón de cobre joven"
+ },
+ "adult-copper-dragon": {
+  "name": "Dragón de cobre adulto"
+ },
+ "ancient-copper-dragon": {
+  "name": "Dragón de cobre anciano"
+ },
+ "couatl": {
+  "name": "Couatl"
+ },
+ "swarm-of-crawling-claws": {
+  "name": "Enjambre de garras reptantes"
+ },
+ "cultist": {
+  "name": "Sectario"
+ },
+ "cultist-fanatic": {
+  "name": "Sectario fanático"
+ },
+ "darkmantle": {
+  "name": "Manto oscuro"
+ },
+ "death-dog": {
+  "name": "Perro de la muerte"
+ },
+ "deva": {
+  "name": "Deva"
+ },
+ "djinni": {
+  "name": "Djinn"
+ },
+ "doppelganger": {
+  "name": "Doppelganger"
+ },
+ "dragon-turtle": {
+  "name": "Tortuga dragón"
+ },
+ "dretch": {
+  "name": "Dretch"
+ },
+ "drider": {
+  "name": "Drider"
+ },
+ "druid": {
+  "name": "Druida"
+ },
+ "dryad": {
+  "name": "Dríade"
+ },
+ "earth-elemental": {
+  "name": "Elemental de tierra"
+ },
+ "efreeti": {
+  "name": "Efrit"
+ },
+ "erinyes": {
+  "name": "Erinia"
+ },
+ "ettercap": {
+  "name": "Ettercap"
+ },
+ "ettin": {
+  "name": "Ettin"
+ },
+ "fire-elemental": {
+  "name": "Elemental de fuego"
+ },
+ "fire-giant": {
+  "name": "Gigante de fuego"
+ },
+ "flesh-golem": {
+  "name": "Gólem de carne"
+ },
+ "frost-giant": {
+  "name": "Gigante de escarcha"
+ },
+ "shrieker-fungus": {
+  "name": "Hongo chillón"
+ },
+ "violet-fungus": {
+  "name": "Hongo violeta"
+ },
+ "gargoyle": {
+  "name": "Gárgola"
+ },
+ "gelatinous-cube": {
+  "name": "Cubo gelatinoso"
+ },
+ "ghast": {
+  "name": "Ghast"
+ },
+ "ghost": {
+  "name": "Fantasma"
+ },
+ "ghoul": {
+  "name": "Necrófago"
+ },
+ "gibbering-mouther": {
+  "name": "Farfullador"
+ },
+ "glabrezu": {
+  "name": "Glabrezu"
+ },
+ "gladiator": {
+  "name": "Gladiador"
+ },
+ "gnoll-warrior": {
+  "name": "Gnoll guerrero"
+ },
+ "goblin-minion": {
+  "name": "Trasgo esbirro"
+ },
+ "goblin-warrior": {
+  "name": "Trasgo guerrero"
+ },
+ "goblin-boss": {
+  "name": "Jefe trasgo"
+ },
+ "gold-dragon-wyrmling": {
+  "name": "Dragón de oro recién nacido"
+ },
+ "young-gold-dragon": {
+  "name": "Dragón de oro joven"
+ },
+ "adult-gold-dragon": {
+  "name": "Dragón de oro adulto"
+ },
+ "ancient-gold-dragon": {
+  "name": "Dragón de oro anciano"
+ },
+ "gorgon": {
+  "name": "Gorgona"
+ },
+ "gray-ooze": {
+  "name": "Cieno gris"
+ },
+ "green-dragon-wyrmling": {
+  "name": "Dragón verde recién nacido"
+ },
+ "young-green-dragon": {
+  "name": "Dragón verde joven"
+ },
+ "adult-green-dragon": {
+  "name": "Dragón verde adulto"
+ },
+ "ancient-green-dragon": {
+  "name": "Dragón verde anciano"
+ },
+ "green-hag": {
+  "name": "Saga verde"
+ },
+ "grick": {
+  "name": "Grick"
+ },
+ "griffon": {
+  "name": "Grifo"
+ },
+ "grimlock": {
+  "name": "Grimlock"
+ },
+ "guardian-naga": {
+  "name": "Naga guardiana"
+ },
+ "guard": {
+  "name": "Guardia"
+ },
+ "guard-captain": {
+  "name": "Capitán de la guardia"
+ },
+ "half-dragon": {
+  "name": "Semidragón"
+ },
+ "harpy": {
+  "name": "Arpía"
+ },
+ "hell-hound": {
+  "name": "Sabueso infernal"
+ },
+ "hezrou": {
+  "name": "Hezrou"
+ },
+ "hill-giant": {
+  "name": "Gigante de las colinas"
+ },
+ "hippogriff": {
+  "name": "Hipogrifo"
+ },
+ "hobgoblin-warrior": {
+  "name": "Hobgoblin guerrero"
+ },
+ "hobgoblin-captain": {
+  "name": "Capitán hobgoblin"
+ },
+ "homunculus": {
+  "name": "Homúnculo"
+ },
+ "horned-devil": {
+  "name": "Diablo astado"
+ },
+ "hydra": {
+  "name": "Hidra"
+ },
+ "ice-devil": {
+  "name": "Diablo gélido"
+ },
+ "imp": {
+  "name": "Diablillo"
+ },
+ "incubus": {
+  "name": "Íncubo"
+ },
+ "invisible-stalker": {
+  "name": "Acechador invisible"
+ },
+ "iron-golem": {
+  "name": "Gólem de hierro"
+ },
+ "knight": {
+  "name": "Caballero"
+ },
+ "kobold-warrior": {
+  "name": "Kobold guerrero"
+ },
+ "kraken": {
+  "name": "Kraken"
+ },
+ "lamia": {
+  "name": "Lamia"
+ },
+ "lemure": {
+  "name": "Lémur"
+ },
+ "lich": {
+  "name": "Liche"
+ },
+ "mage": {
+  "name": "Mago"
+ },
+ "archmage": {
+  "name": "Archimago"
+ },
+ "magmin": {
+  "name": "Magmin"
+ },
+ "manticore": {
+  "name": "Mantícora"
+ },
+ "marilith": {
+  "name": "Marilith"
+ },
+ "medusa": {
+  "name": "Medusa"
+ },
+ "dust-mephit": {
+  "name": "Mefit de polvo"
+ },
+ "ice-mephit": {
+  "name": "Mefit de hielo"
+ },
+ "magma-mephit": {
+  "name": "Mefit de magma"
+ },
+ "steam-mephit": {
+  "name": "Mefit de vapor"
+ },
+ "merfolk-skirmisher": {
+  "name": "Tritón hostigador"
+ },
+ "merrow": {
+  "name": "Merrow"
+ },
+ "mimic": {
+  "name": "Mimeto"
+ },
+ "minotaur-of-baphomet": {
+  "name": "Minotauro de Baphomet"
+ },
+ "mummy": {
+  "name": "Momia"
+ },
+ "mummy-lord": {
+  "name": "Señor momia"
+ },
+ "nalfeshnee": {
+  "name": "Nalfeshnee"
+ },
+ "night-hag": {
+  "name": "Saga nocturna"
+ },
+ "nightmare": {
+  "name": "Pesadilla"
+ },
+ "noble": {
+  "name": "Noble"
+ },
+ "ochre-jelly": {
+  "name": "Jalea ocre"
+ },
+ "ogre": {
+  "name": "Ogro"
+ },
+ "oni": {
+  "name": "Oni"
+ },
+ "otyugh": {
+  "name": "Otyugh"
+ },
+ "owlbear": {
+  "name": "Oso lechuza"
+ },
+ "pegasus": {
+  "name": "Pegaso"
+ },
+ "phase-spider": {
+  "name": "Araña de fase"
+ },
+ "pirate": {
+  "name": "Pirata"
+ },
+ "pirate-captain": {
+  "name": "Capitán pirata"
+ },
+ "pit-fiend": {
+  "name": "Diablo de la sima"
+ },
+ "planetar": {
+  "name": "Planetar"
+ },
+ "priest-acolyte": {
+  "name": "Sacerdote acólito"
+ },
+ "priest": {
+  "name": "Sacerdote"
+ },
+ "pseudodragon": {
+  "name": "Pseudodragón"
+ },
+ "purple-worm": {
+  "name": "Gusano púrpura"
+ },
+ "quasit": {
+  "name": "Quasit"
+ },
+ "rakshasa": {
+  "name": "Rakshasa"
+ },
+ "red-dragon-wyrmling": {
+  "name": "Dragón rojo recién nacido"
+ },
+ "young-red-dragon": {
+  "name": "Dragón rojo joven"
+ },
+ "adult-red-dragon": {
+  "name": "Dragón rojo adulto"
+ },
+ "ancient-red-dragon": {
+  "name": "Dragón rojo anciano"
+ },
+ "remorhaz": {
+  "name": "Remorhaz"
+ },
+ "roc": {
+  "name": "Roc"
+ },
+ "roper": {
+  "name": "Enredador"
+ },
+ "rust-monster": {
+  "name": "Monstruo corrosivo"
+ },
+ "sahuagin-warrior": {
+  "name": "Sahuagin guerrero"
+ },
+ "salamander": {
+  "name": "Salamandra"
+ },
+ "satyr": {
+  "name": "Sátiro"
+ },
+ "scout": {
+  "name": "Explorador"
+ },
+ "sea-hag": {
+  "name": "Saga marina"
+ },
+ "shadow": {
+  "name": "Sombra"
+ },
+ "shambling-mound": {
+  "name": "Montículo errante"
+ },
+ "shield-guardian": {
+  "name": "Guardián escudo"
+ },
+ "silver-dragon-wyrmling": {
+  "name": "Dragón de plata recién nacido"
+ },
+ "young-silver-dragon": {
+  "name": "Dragón de plata joven"
+ },
+ "adult-silver-dragon": {
+  "name": "Dragón de plata adulto"
+ },
+ "ancient-silver-dragon": {
+  "name": "Dragón de plata anciano"
+ },
+ "skeleton": {
+  "name": "Esqueleto"
+ },
+ "warhorse-skeleton": {
+  "name": "Esqueleto de caballo de guerra"
+ },
+ "minotaur-skeleton": {
+  "name": "Esqueleto de minotauro"
+ },
+ "solar": {
+  "name": "Solar"
+ },
+ "specter": {
+  "name": "Espectro"
+ },
+ "sphinx-of-wonder": {
+  "name": "Esfinge del asombro"
+ },
+ "sphinx-of-lore": {
+  "name": "Esfinge del saber"
+ },
+ "sphinx-of-valor": {
+  "name": "Esfinge del valor"
+ },
+ "spirit-naga": {
+  "name": "Naga espiritual"
+ },
+ "sprite": {
+  "name": "Duendecillo"
+ },
+ "spy": {
+  "name": "Espía"
+ },
+ "stirge": {
+  "name": "Estirge"
+ },
+ "stone-giant": {
+  "name": "Gigante de piedra"
+ },
+ "stone-golem": {
+  "name": "Gólem de piedra"
+ },
+ "storm-giant": {
+  "name": "Gigante de las tormentas"
+ },
+ "succubus": {
+  "name": "Súcubo"
+ },
+ "tarrasque": {
+  "name": "Tarasca"
+ },
+ "tough": {
+  "name": "Matón"
+ },
+ "tough-boss": {
+  "name": "Jefe de matones"
+ },
+ "treant": {
+  "name": "Ent"
+ },
+ "troll": {
+  "name": "Trol"
+ },
+ "troll-limb": {
+  "name": "Miembro de trol"
+ },
+ "unicorn": {
+  "name": "Unicornio"
+ },
+ "vampire-familiar": {
+  "name": "Familiar vampírico"
+ },
+ "vampire-spawn": {
+  "name": "Engendro vampírico"
+ },
+ "vampire-vampire": {
+  "name": "Vampiro (forma de vampiro)"
+ },
+ "vampire-bat": {
+  "name": "Vampiro (forma de murciélago)"
+ },
+ "vampire-mist": {
+  "name": "Vampiro (forma de niebla)"
+ },
+ "vrock": {
+  "name": "Vrock"
+ },
+ "warrior-infantry": {
+  "name": "Guerrero de infantería"
+ },
+ "warrior-veteran": {
+  "name": "Guerrero veterano"
+ },
+ "water-elemental": {
+  "name": "Elemental de agua"
+ },
+ "werebear-human": {
+  "name": "Hombre oso (forma humana)"
+ },
+ "werebear-hybrid": {
+  "name": "Hombre oso (forma híbrida)"
+ },
+ "werebear-bear": {
+  "name": "Hombre oso (forma de oso)"
+ },
+ "wereboar-human": {
+  "name": "Hombre jabalí (forma humana)"
+ },
+ "wereboar-hybrid": {
+  "name": "Hombre jabalí (forma híbrida)"
+ },
+ "wereboar-boar": {
+  "name": "Hombre jabalí (forma de jabalí)"
+ },
+ "wererat-human": {
+  "name": "Hombre rata (forma humana)"
+ },
+ "wererat-hybrid": {
+  "name": "Hombre rata (forma híbrida)"
+ },
+ "wererat-rat": {
+  "name": "Hombre rata (forma de rata)"
+ },
+ "weretiger-human": {
+  "name": "Hombre tigre (forma humana)"
+ },
+ "weretiger-hybrid": {
+  "name": "Hombre tigre (forma híbrida)"
+ },
+ "weretiger-tiger": {
+  "name": "Hombre tigre (forma de tigre)"
+ },
+ "werewolf-human": {
+  "name": "Hombre lobo (forma humana)"
+ },
+ "werewolf-hybrid": {
+  "name": "Hombre lobo (forma híbrida)"
+ },
+ "werewolf-wolf": {
+  "name": "Hombre lobo (forma de lobo)"
+ },
+ "white-dragon-wyrmling": {
+  "name": "Dragón blanco recién nacido"
+ },
+ "young-white-dragon": {
+  "name": "Dragón blanco joven"
+ },
+ "adult-white-dragon": {
+  "name": "Dragón blanco adulto"
+ },
+ "ancient-white-dragon": {
+  "name": "Dragón blanco anciano"
+ },
+ "wight": {
+  "name": "Tumulario"
+ },
+ "will-o-wisp": {
+  "name": "Fuego fatuo"
+ },
+ "winter-wolf": {
+  "name": "Lobo invernal"
+ },
+ "worg": {
+  "name": "Huargo"
+ },
+ "wraith": {
+  "name": "Aparición"
+ },
+ "wyvern": {
+  "name": "Guiverno"
+ },
+ "xorn": {
+  "name": "Xorn"
+ },
+ "zombie": {
+  "name": "Zombi"
+ },
+ "ogre-zombie": {
+  "name": "Ogro zombi"
+ },
+ "allosaurus": {
+  "name": "Alosaurio"
+ },
+ "ankylosaurus": {
+  "name": "Anquilosaurio"
+ },
+ "ape": {
+  "name": "Simio"
+ },
+ "archelon": {
+  "name": "Archelon"
+ },
+ "baboon": {
+  "name": "Babuino"
+ },
+ "badger": {
+  "name": "Tejón"
+ },
+ "bat": {
+  "name": "Murciélago"
+ },
+ "black-bear": {
+  "name": "Oso negro"
+ },
+ "blood-hawk": {
+  "name": "Halcón sangriento"
+ },
+ "boar": {
+  "name": "Jabalí"
+ },
+ "brown-bear": {
+  "name": "Oso pardo"
+ },
+ "camel": {
+  "name": "Camello"
+ },
+ "cat": {
+  "name": "Gato"
+ },
+ "constrictor-snake": {
+  "name": "Serpiente constrictora"
+ },
+ "crab": {
+  "name": "Cangrejo"
+ },
+ "crocodile": {
+  "name": "Cocodrilo"
+ },
+ "deer": {
+  "name": "Ciervo"
+ },
+ "dire-wolf": {
+  "name": "Lobo terrible"
+ },
+ "draft-horse": {
+  "name": "Caballo de tiro"
+ },
+ "eagle": {
+  "name": "Águila"
+ },
+ "elephant": {
+  "name": "Elefante"
+ },
+ "elk": {
+  "name": "Alce"
+ },
+ "flying-snake": {
+  "name": "Serpiente voladora"
+ },
+ "frog": {
+  "name": "Rana"
+ },
+ "giant-ape": {
+  "name": "Simio gigante"
+ },
+ "giant-badger": {
+  "name": "Tejón gigante"
+ },
+ "giant-bat": {
+  "name": "Murciélago gigante"
+ },
+ "giant-boar": {
+  "name": "Jabalí gigante"
+ },
+ "giant-centipede": {
+  "name": "Ciempiés gigante"
+ },
+ "giant-constrictor-snake": {
+  "name": "Serpiente constrictora gigante"
+ },
+ "giant-crab": {
+  "name": "Cangrejo gigante"
+ },
+ "giant-crocodile": {
+  "name": "Cocodrilo gigante"
+ },
+ "giant-eagle": {
+  "name": "Águila gigante"
+ },
+ "giant-elk": {
+  "name": "Alce gigante"
+ },
+ "giant-fire-beetle": {
+  "name": "Escarabajo de fuego gigante"
+ },
+ "giant-frog": {
+  "name": "Rana gigante"
+ },
+ "giant-goat": {
+  "name": "Cabra gigante"
+ },
+ "giant-hyena": {
+  "name": "Hiena gigante"
+ },
+ "giant-lizard": {
+  "name": "Lagarto gigante"
+ },
+ "giant-octopus": {
+  "name": "Pulpo gigante"
+ },
+ "giant-owl": {
+  "name": "Búho gigante"
+ },
+ "giant-rat": {
+  "name": "Rata gigante"
+ },
+ "giant-scorpion": {
+  "name": "Escorpión gigante"
+ },
+ "giant-seahorse": {
+  "name": "Caballito de mar gigante"
+ },
+ "giant-shark": {
+  "name": "Tiburón gigante"
+ },
+ "giant-spider": {
+  "name": "Araña gigante"
+ },
+ "giant-toad": {
+  "name": "Sapo gigante"
+ },
+ "giant-venomous-snake": {
+  "name": "Serpiente venenosa gigante"
+ },
+ "giant-vulture": {
+  "name": "Buitre gigante"
+ },
+ "giant-wasp": {
+  "name": "Avispa gigante"
+ },
+ "giant-weasel": {
+  "name": "Comadreja gigante"
+ },
+ "giant-wolf-spider": {
+  "name": "Araña lobo gigante"
+ },
+ "goat": {
+  "name": "Cabra"
+ },
+ "hawk": {
+  "name": "Halcón"
+ },
+ "hippopotamus": {
+  "name": "Hipopótamo"
+ },
+ "hunter-shark": {
+  "name": "Tiburón cazador"
+ },
+ "hyena": {
+  "name": "Hiena"
+ },
+ "jackal": {
+  "name": "Chacal"
+ },
+ "killer-whale": {
+  "name": "Orca"
+ },
+ "lion": {
+  "name": "León"
+ },
+ "lizard": {
+  "name": "Lagarto"
+ },
+ "mammoth": {
+  "name": "Mamut"
+ },
+ "mastiff": {
+  "name": "Mastín"
+ },
+ "mule": {
+  "name": "Mula"
+ },
+ "owl": {
+  "name": "Búho"
+ },
+ "panther": {
+  "name": "Pantera"
+ },
+ "piranha": {
+  "name": "Piraña"
+ },
+ "plesiosaurus": {
+  "name": "Plesiosaurio"
+ },
+ "polar-bear": {
+  "name": "Oso polar"
+ },
+ "pony": {
+  "name": "Poni"
+ },
+ "pteranodon": {
+  "name": "Pteranodon"
+ },
+ "rat": {
+  "name": "Rata"
+ },
+ "raven": {
+  "name": "Cuervo"
+ },
+ "reef-shark": {
+  "name": "Tiburón de arrecife"
+ },
+ "rhinoceros": {
+  "name": "Rinoceronte"
+ },
+ "riding-horse": {
+  "name": "Caballo de monta"
+ },
+ "saber-toothed-tiger": {
+  "name": "Tigre dientes de sable"
+ },
+ "scorpion": {
+  "name": "Escorpión"
+ },
+ "seahorse": {
+  "name": "Caballito de mar"
+ },
+ "spider": {
+  "name": "Araña"
+ },
+ "swarm-of-bats": {
+  "name": "Enjambre de murciélagos"
+ },
+ "swarm-of-insects": {
+  "name": "Enjambre de insectos"
+ },
+ "swarm-of-piranhas": {
+  "name": "Enjambre de pirañas"
+ },
+ "swarm-of-rats": {
+  "name": "Enjambre de ratas"
+ },
+ "swarm-of-ravens": {
+  "name": "Enjambre de cuervos"
+ },
+ "swarm-of-venomous-snakes": {
+  "name": "Enjambre de serpientes venenosas"
+ },
+ "tiger": {
+  "name": "Tigre"
+ },
+ "triceratops": {
+  "name": "Triceratops"
+ },
+ "tyrannosaurus-rex": {
+  "name": "Tiranosaurio rex"
+ },
+ "venomous-snake": {
+  "name": "Serpiente venenosa"
+ },
+ "vulture": {
+  "name": "Buitre"
+ },
+ "warhorse": {
+  "name": "Caballo de guerra"
+ },
+ "weasel": {
+  "name": "Comadreja"
+ },
+ "wolf": {
+  "name": "Lobo"
+ }
+}
