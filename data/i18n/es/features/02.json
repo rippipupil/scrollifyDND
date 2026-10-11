@@ -298,5 +298,145 @@
  "thief-fast-hands": {
   "name": "Manos rápidas",
   "text": "Como Acción adicional, puedes hacer una de las siguientes cosas.\nJuego de manos. Realiza una prueba de Destreza (Juego de manos) para forzar una cerradura o desarmar una trampa con Herramientas de ladrón, o para robar un bolsillo.\nUsar un objeto. Realiza la acción de Usar, o la acción de Magia para usar un objeto mágico que requiera esa acción."
+ },
+ "thief-second-story-work": {
+  "name": "Trabajo en las alturas",
+  "text": "Te has entrenado para acceder a lugares especialmente difíciles de alcanzar, lo que te otorga estos beneficios.\nTrepador. Obtienes una Velocidad trepando igual a tu Velocidad.\nSaltador. Puedes determinar tu distancia de salto usando tu Destreza en lugar de tu Fuerza."
+ },
+ "thief-supreme-sneak": {
+  "name": "Sigilo supremo",
+  "text": "Obtienes la siguiente opción de Golpe astuto.\nAtaque sigiloso (Coste: 1d6). Si tienes el estado Invisible por la acción de Esconderse, este ataque no pone fin a ese estado si terminas el turno tras Cobertura de tres cuartos o Cobertura total."
+ },
+ "thief-use-magic-device": {
+  "name": "Uso de objeto mágico",
+  "text": "Has aprendido a sacar el máximo partido a los objetos mágicos, lo que te otorga los siguientes beneficios.\nSintonización. Puedes sintonizarte con hasta cuatro objetos mágicos a la vez.\nCargas. Siempre que uses una propiedad de un objeto mágico que gaste cargas, tira 1d6. Con un resultado de 6, usas la propiedad sin gastar las cargas.\nPergaminos. Puedes usar cualquier Pergamino de conjuro, usando Inteligencia como tu aptitud mágica para el conjuro. Si el conjuro es un truco o un conjuro de nivel 1, puedes lanzarlo con fiabilidad.\nSi el pergamino contiene un conjuro de nivel superior, primero debes superar una prueba de Inteligencia (Arcanos) (CD 10 más el nivel del conjuro). Si superas la prueba, lanzas el conjuro del pergamino. Si fallas la prueba, el pergamino se desintegra."
+ },
+ "thief-thiefs-reflexes": {
+  "name": "Reflejos de ladrón",
+  "text": "Eres experto en tender emboscadas y escapar rápidamente del peligro. Puedes realizar dos turnos durante la primera ronda de cualquier combate. Realizas tu primer turno con tu Iniciativa normal y tu segundo turno con tu Iniciativa menos 10."
+ },
+ "sorcerer-spellcasting": {
+  "name": "Lanzamiento de conjuros",
+  "text": "Aprovechando tu magia innata, puedes lanzar conjuros. Consulta \"Conjuros\" para las reglas de lanzamiento de conjuros. La información siguiente detalla cómo usas esas reglas con los conjuros de Hechicero, que aparecen en la lista de conjuros de Hechicero más adelante en la descripción de la clase.\nTrucos. Conoces cuatro trucos de Hechicero de tu elección. Se recomiendan _Luz_, _Prestidigitación_, _Agarre electrizante_ y _Estallido hechicero_. Siempre que ganes un nivel de Hechicero, puedes sustituir uno de tus trucos de este rasgo por otro truco de Hechicero de tu elección.\nCuando alcanzas los niveles 4 y 10 de Hechicero, aprendes otro truco de Hechicero de tu elección, como se muestra en la columna Trucos de la tabla Rasgos del Hechicero.\nEspacios de conjuro. La tabla Rasgos del Hechicero muestra cuántos espacios de conjuro tienes para lanzar tus conjuros de nivel 1 o superior. Recuperas todos los espacios gastados cuando terminas un Descanso largo.\nConjuros preparados de nivel 1 o superior. Preparas la lista de conjuros de nivel 1 o superior que tienes disponibles para lanzar con este rasgo. Para empezar, elige dos conjuros de Hechicero de nivel 1. Se recomiendan _Manos ardientes_ y _Detectar magia_.\nEl número de conjuros de tu lista aumenta a medida que ganas niveles de Hechicero, como se muestra en la columna Conjuros preparados de la tabla Rasgos del Hechicero. Siempre que ese número aumente, elige conjuros de Hechicero adicionales hasta que el número de conjuros de tu lista coincida con el de la tabla Rasgos del Hechicero. Los conjuros elegidos deben ser de un nivel para el que tengas espacios de conjuro. Por ejemplo, si eres un Hechicero de nivel 3, tu lista de conjuros preparados puede incluir seis conjuros de Hechicero de nivel 1 o 2 en cualquier combinación.\nSi otro rasgo de Hechicero te otorga conjuros que siempre tienes preparados, esos conjuros no cuentan para el número de conjuros que puedes preparar con este rasgo, pero por lo demás cuentan como conjuros de Hechicero para ti.\nCambiar tus conjuros preparados. Siempre que ganes un nivel de Hechicero, puedes sustituir un conjuro de tu lista por otro conjuro de Hechicero para el que tengas espacios de conjuro.\nAptitud mágica. Carisma es tu aptitud mágica para tus conjuros de Hechicero.\nFoco para lanzar conjuros. Puedes usar un foco arcano como foco para lanzar conjuros de Hechicero."
+ },
+ "sorcerer-innate-sorcery": {
+  "name": "Hechicería innata",
+  "text": "Un suceso de tu pasado dejó en ti una marca indeleble, infundiéndote una magia latente. Como Acción adicional, puedes liberar esa magia durante 1 minuto, tiempo durante el cual obtienes los siguientes beneficios: - La CD de salvación de conjuros de tus conjuros de Hechicero aumenta en 1.\n- Tienes Ventaja en las tiradas de ataque de los conjuros de Hechicero que lances.\nPuedes usar este rasgo dos veces, y recuperas todos los usos gastados cuando terminas un Descanso largo."
+ },
+ "sorcerer-font-of-magic": {
+  "name": "Fuente de magia",
+  "text": "Puedes aprovechar el manantial de magia que hay en tu interior. Este manantial está representado por los puntos de hechicería, que te permiten crear una variedad de efectos mágicos.\nTienes 2 puntos de hechicería, y obtienes más a medida que alcanzas niveles superiores, como se muestra en la columna Puntos de hechicería de la tabla Rasgos del Hechicero. No puedes tener más puntos de hechicería que el número indicado en la tabla para tu nivel. Recuperas todos los puntos de hechicería gastados cuando terminas un Descanso largo.\nPuedes usar tus puntos de hechicería para alimentar las opciones siguientes, así como otros rasgos, como Metamagia, que usan esos puntos.\nConvertir espacios de conjuro en puntos de hechicería. Puedes gastar un espacio de conjuro para obtener una cantidad de puntos de hechicería igual al nivel del espacio (no requiere acción).\nCrear espacios de conjuro. Como Acción adicional, puedes transformar puntos de hechicería no gastados en un espacio de conjuro. La tabla Crear espacios de conjuro muestra el coste de crear un espacio de conjuro de un nivel dado, y enumera el nivel mínimo de Hechicero que debes tener para crear un espacio. No puedes crear un espacio de conjuro superior a nivel 5.\nCualquier espacio de conjuro que crees con este rasgo desaparece cuando terminas un Descanso largo.\nCrear espacios de conjuro Nivel del espacio de conjuro | Coste en puntos de hechicería | Nivel mín. de Hechicero\n1 | 2 | 2\n2 | 3 | 3\n3 | 5 | 5\n4 | 6 | 7\n5 | 7 | 9"
+ },
+ "sorcerer-metamagic": {
+  "name": "Metamagia",
+  "text": "Como tu magia fluye desde tu interior, puedes alterar tus conjuros para adaptarlos a tus necesidades; obtienes dos opciones de Metamagia de tu elección de \"Opciones de Metamagia\" más adelante en la descripción de esta clase. Usas las opciones elegidas para modificar temporalmente los conjuros que lanzas. Para usar una opción, debes gastar la cantidad de puntos de hechicería que cuesta.\nSolo puedes usar una opción de Metamagia en un conjuro cuando lo lanzas, a menos que se indique lo contrario en una de esas opciones.\nSiempre que ganes un nivel de Hechicero, puedes sustituir una de tus opciones de Metamagia por una que no conozcas. Obtienes dos opciones más en el nivel 10 de Hechicero y dos más en el nivel 17 de Hechicero."
+ },
+ "sorcerer-subclass": {
+  "name": "Subclase de Hechicero",
+  "text": "Obtienes una subclase de Hechicero de tu elección. La subclase Hechicería Dracónica se detalla tras la descripción de esta clase. Una subclase es una especialización que te otorga rasgos en ciertos niveles de Hechicero.\nDurante el resto de tu carrera, obtienes cada uno de los rasgos de tu subclase que sean de tu nivel de Hechicero o inferior."
+ },
+ "sorcerer-ability-score-improvement": {
+  "name": "Mejora de característica",
+  "text": "Obtienes la dote Mejora de característica (consulta \"Dotes\") u otra dote de tu elección para la que cumplas los requisitos. Vuelves a obtener este rasgo en los niveles 8, 12 y 16 de Hechicero."
+ },
+ "sorcerer-sorcerous-restoration": {
+  "name": "Restauración hechicera",
+  "text": "Cuando terminas un Descanso corto, puedes recuperar puntos de hechicería gastados, pero no más de una cantidad igual a la mitad de tu nivel de Hechicero (redondeando hacia abajo). Una vez que uses este rasgo, no puedes volver a hacerlo hasta que termines un Descanso largo."
+ },
+ "sorcerer-sorcery-incarnate": {
+  "name": "Hechicería encarnada",
+  "text": "Si no te quedan usos de Hechicería innata, puedes usarla si gastas 2 puntos de hechicería cuando realizas la Acción adicional para activarla.\nAdemás, mientras tu rasgo Hechicería innata esté activo, puedes usar hasta dos de tus opciones de Metamagia en cada conjuro que lances."
+ },
+ "sorcerer-epic-boon": {
+  "name": "Don épico",
+  "text": "Obtienes una dote de Don épico (consulta \"Dotes\") u otra dote de tu elección para la que cumplas los requisitos. Se recomienda Don de viaje dimensional."
+ },
+ "sorcerer-arcane-apotheosis": {
+  "name": "Apoteosis arcana",
+  "text": "Mientras tu rasgo Hechicería innata esté activo, puedes usar una opción de Metamagia en cada uno de tus turnos sin gastar puntos de hechicería en ella."
+ },
+ "draconic-sorcery-draconic-resilience": {
+  "name": "Resiliencia dracónica",
+  "text": "La magia de tu cuerpo manifiesta rasgos físicos de tu don dracónico. Tu máximo de puntos de golpe aumenta en 3, y aumenta en 1 siempre que ganes otro nivel de Hechicero.\nPartes de tu cuerpo también están cubiertas por escamas de aspecto dracónico. Mientras no lleves armadura, tu Clase de armadura base es igual a 10 más tus modificadores de Destreza y Carisma."
+ },
+ "draconic-sorcery-draconic-spells": {
+  "name": "Conjuros dracónicos",
+  "text": "Cuando alcanzas un nivel de Hechicero especificado en la tabla Conjuros dracónicos, a partir de entonces siempre tienes preparados los conjuros indicados.\nConjuros dracónicos Nivel de Hechicero | Conjuros\n3 | _Alterar el propio aspecto_, _Orbe cromático_, _Orden imperiosa_, _Aliento de dragón_\n5 | _Miedo_, _Volar_ 7 | _Ojo arcano_, _Hechizar monstruo_\n9 | _Conocimiento de leyendas_, _Invocar dragón_"
+ },
+ "draconic-sorcery-elemental-affinity": {
+  "name": "Afinidad elemental",
+  "text": "Tu magia dracónica tiene afinidad con un tipo de daño asociado a los dragones. Elige uno de esos tipos: ácido, frío, fuego, relámpago o veneno.\nTienes Resistencia a ese tipo de daño, y cuando lanzas un conjuro que inflige daño de ese tipo, puedes añadir tu modificador de Carisma a una tirada de daño de ese conjuro."
+ },
+ "draconic-sorcery-dragon-wings": {
+  "name": "Alas de dragón",
+  "text": "Como Acción adicional, puedes hacer que te aparezcan alas dracónicas en la espalda. Las alas duran 1 hora o hasta que las hagas desaparecer (no requiere acción). Mientras duran, tienes una Velocidad volando de 18 m.\nUna vez que uses este rasgo, no puedes volver a usarlo hasta que termines un Descanso largo, a menos que gastes 3 puntos de hechicería (no requiere acción) para restablecer tu uso de él."
+ },
+ "draconic-sorcery-dragon-companion": {
+  "name": "Compañero dragón",
+  "text": "Puedes lanzar _Invocar dragón_ sin componente Material. También puedes lanzarlo una vez sin espacio de conjuro, y recuperas la capacidad de lanzarlo de este modo cuando terminas un Descanso largo.\nSiempre que empieces a lanzar el conjuro, puedes modificarlo para que no requiera Concentración. Si lo haces, la duración del conjuro pasa a ser de 1 minuto en ese lanzamiento."
+ },
+ "warlock-eldritch-invocations": {
+  "name": "Invocaciones sobrenaturales",
+  "text": "Has desenterrado Invocaciones sobrenaturales, fragmentos de conocimiento prohibido que te infunden una capacidad mágica duradera u otras enseñanzas. Obtienes una invocación de tu elección, como Pacto del Tomo. Las invocaciones se describen en la sección \"Opciones de Invocaciones sobrenaturales\" más adelante en la descripción de esta clase.\nRequisitos previos. Si una invocación tiene un requisito previo, debes cumplirlo para aprender esa invocación. Por ejemplo, si una invocación requiere que seas un Brujo de nivel 5 o superior, puedes seleccionar la invocación una vez alcances el nivel 5 de Brujo.\nSustituir y obtener invocaciones. Siempre que ganes un nivel de Brujo, puedes sustituir una de tus invocaciones por otra para la que cumplas los requisitos. No puedes sustituir una invocación si es un requisito previo de otra invocación que tengas.\nCuando alcanzas ciertos niveles de Brujo, obtienes más invocaciones de tu elección, como se muestra en la columna Invocaciones de la tabla Rasgos del Brujo.\nNo puedes elegir la misma invocación más de una vez a menos que su descripción diga lo contrario."
+ },
+ "warlock-pact-magic": {
+  "name": "Magia del pacto",
+  "text": "Mediante una ceremonia oculta, has formado un pacto con una entidad misteriosa para obtener poderes mágicos.\nLa entidad es una voz en las sombras, de identidad incierta, pero su don para ti es concreto: la capacidad de lanzar conjuros. Consulta \"Conjuros\" para las reglas de lanzamiento de conjuros.\nLa información siguiente detalla cómo usas esas reglas con los conjuros de Brujo, que aparecen en la lista de conjuros de Brujo más adelante en la descripción de la clase.\nTrucos. Conoces dos trucos de Brujo de tu elección. Se recomiendan _Descarga sobrenatural_ y _Prestidigitación_.\nSiempre que ganes un nivel de Brujo, puedes sustituir uno de tus trucos de este rasgo por otro truco de Brujo de tu elección.\nCuando alcanzas los niveles 4 y 10 de Brujo, aprendes otro truco de Brujo de tu elección, como se muestra en la columna Trucos de la tabla Rasgos del Brujo.\nEspacios de conjuro. La tabla Rasgos del Brujo muestra cuántos espacios de conjuro tienes para lanzar tus conjuros de Brujo de niveles 1 a 5. La tabla también muestra el nivel de esos espacios, que son todos del mismo nivel. Recuperas todos los espacios de conjuro de Magia del pacto gastados cuando terminas un Descanso corto o largo.\nPor ejemplo, cuando eres un Brujo de nivel 5, tienes dos espacios de conjuro de nivel 3. Para lanzar el conjuro de nivel 1 _Hechizar persona_, debes gastar uno de esos espacios, y lo lanzas como un conjuro de nivel 3.\nConjuros preparados de nivel 1 o superior. Preparas la lista de conjuros de nivel 1 o superior que tienes disponibles para lanzar con este rasgo. Para empezar, elige dos conjuros de Brujo de nivel 1. Se recomiendan _Hechizar persona_ y _Maleficio_.\nEl número de conjuros de tu lista aumenta a medida que ganas niveles de Brujo, como se muestra en la columna Conjuros preparados de la tabla Rasgos del Brujo. Siempre que ese número aumente, elige conjuros de Brujo adicionales hasta que el número de conjuros de tu lista coincida con el de la tabla. Los conjuros elegidos deben ser de un nivel no superior al que se muestra en la columna Nivel de espacio de la tabla para tu nivel. Cuando alcanzas el nivel 6, por ejemplo, aprendes un nuevo conjuro de Brujo, que puede ser de niveles 1 a 3.\nSi otro rasgo de Brujo te otorga conjuros que siempre tienes preparados, esos conjuros no cuentan para el número de conjuros que puedes preparar con este rasgo, pero por lo demás cuentan como conjuros de Brujo para ti.\nCambiar tus conjuros preparados. Siempre que ganes un nivel de Brujo, puedes sustituir un conjuro de tu lista por otro conjuro de Brujo de un nivel permitido.\nAptitud mágica. Carisma es la aptitud mágica para tus conjuros de Brujo.\nFoco para lanzar conjuros. Puedes usar un foco arcano como foco para lanzar conjuros de Brujo."
+ },
+ "warlock-magical-cunning": {
+  "name": "Astucia mágica",
+  "text": "Puedes realizar un rito esotérico durante 1 minuto. Al final de este, recuperas espacios de conjuro de Magia del pacto gastados, pero no más de una cantidad igual a la mitad de tu máximo (redondeando hacia arriba). Una vez que uses este rasgo, no puedes volver a hacerlo hasta que termines un Descanso largo."
+ },
+ "warlock-subclass": {
+  "name": "Subclase de Brujo",
+  "text": "Obtienes una subclase de Brujo de tu elección. La subclase Patrón Infernal se detalla tras la descripción de esta clase. Una subclase es una especialización que te otorga rasgos en ciertos niveles de Brujo. Durante el resto de tu carrera, obtienes cada uno de los rasgos de tu subclase que sean de tu nivel de Brujo o inferior."
+ },
+ "warlock-ability-score-improvement": {
+  "name": "Mejora de característica",
+  "text": "Obtienes la dote Mejora de característica (consulta \"Dotes\") u otra dote de tu elección para la que cumplas los requisitos. Vuelves a obtener este rasgo en los niveles 8, 12 y 16 de Brujo."
+ },
+ "warlock-contact-patron": {
+  "name": "Contactar con el patrón",
+  "text": "En el pasado, solías contactar con tu patrón a través de intermediarios. Ahora puedes comunicarte directamente; siempre tienes preparado el conjuro _Contactar con otro plano_. Con este rasgo, puedes lanzar el conjuro sin gastar un espacio de conjuro para contactar con tu patrón, y superas automáticamente la tirada de salvación del conjuro.\nUna vez que lances el conjuro con este rasgo, no puedes volver a hacerlo de este modo hasta que termines un Descanso largo."
+ },
+ "warlock-mystic-arcanum": {
+  "name": "Arcano místico",
+  "text": "Tu patrón te otorga un secreto mágico llamado arcano. Elige un conjuro de Brujo de nivel 6 como este arcano.\nPuedes lanzar tu conjuro arcano una vez sin gastar un espacio de conjuro, y debes terminar un Descanso largo antes de poder lanzarlo de este modo otra vez.\nComo se muestra en la tabla Rasgos del Brujo, obtienes otro conjuro de Brujo de tu elección que puede lanzarse de este modo cuando alcanzas los niveles 13 de Brujo (conjuro de nivel 7), 15 (conjuro de nivel 8) y 17 (conjuro de nivel 9). Recuperas todos los usos de tu Arcano místico cuando terminas un Descanso largo.\nSiempre que ganes un nivel de Brujo, puedes sustituir uno de tus conjuros arcanos por otro conjuro de Brujo del mismo nivel."
+ },
+ "warlock-epic-boon": {
+  "name": "Don épico",
+  "text": "Obtienes una dote de Don épico (consulta \"Dotes\") u otra dote de tu elección para la que cumplas los requisitos. Se recomienda Don del destino."
+ },
+ "warlock-eldritch-master": {
+  "name": "Maestro sobrenatural",
+  "text": "Cuando usas tu rasgo Astucia mágica, recuperas todos tus espacios de conjuro de Magia del pacto gastados."
+ },
+ "fiend-patron-dark-ones-blessing": {
+  "name": "Bendición del Oscuro",
+  "text": "Cuando reduces a un enemigo a 0 puntos de golpe, obtienes puntos de golpe temporales iguales a tu modificador de Carisma más tu nivel de Brujo (mínimo 1 punto de golpe temporal). También obtienes este beneficio si otra persona reduce a 0 puntos de golpe a un enemigo que esté a 3 m o menos de ti."
+ },
+ "fiend-patron-fiend-spells": {
+  "name": "Conjuros infernales",
+  "text": "La magia de tu patrón garantiza que siempre tengas ciertos conjuros listos; cuando alcanzas un nivel de Brujo especificado en la tabla Conjuros infernales, a partir de entonces siempre tienes preparados los conjuros indicados.\nConjuros infernales Nivel de Brujo | Conjuros\n3 | _Manos ardientes_, _Orden imperiosa_, _Rayo abrasador_, _Sugestión_\n5 | _Bola de fuego_, _Nube apestosa_\n7 | _Escudo de fuego_, _Muro de fuego_\n9 | _Geas_, _Plaga de insectos_"
+ },
+ "fiend-patron-dark-ones-own-luck": {
+  "name": "La suerte del Oscuro",
+  "text": "Puedes invocar a tu patrón infernal para alterar el destino a tu favor. Cuando realizas una prueba de característica o una tirada de salvación, puedes usar este rasgo para añadir 1d10 a tu tirada. Puedes hacerlo después de ver la tirada pero antes de que ocurra cualquiera de sus efectos.\nPuedes usar este rasgo una cantidad de veces igual a tu modificador de Carisma (mínimo una vez), pero no más de una vez por tirada. Recuperas todos los usos gastados cuando terminas un Descanso largo."
+ },
+ "fiend-patron-fiendish-resilience": {
+  "name": "Resiliencia infernal",
+  "text": "Elige un tipo de daño, distinto del de fuerza, siempre que termines un Descanso corto o largo. Tienes Resistencia a ese tipo de daño hasta que elijas uno diferente con este rasgo."
+ },
+ "fiend-patron-hurl-through-hell": {
+  "name": "Arrojar a través del infierno",
+  "text": "Una vez por turno, cuando impactas a una criatura con una tirada de ataque, puedes intentar transportarla instantáneamente a través de los Planos Inferiores. El objetivo debe superar una tirada de salvación de Carisma contra tu CD de salvación de conjuros, o desaparece y es lanzado a través de un paisaje de pesadilla. El objetivo sufre 8d10 de daño psíquico si no es un infernal, y tiene el estado Incapacitado hasta el final de tu siguiente turno, cuando regresa al espacio que ocupaba previamente o al espacio desocupado más cercano.\nUna vez que uses este rasgo, no puedes volver a usarlo hasta que termines un Descanso largo, a menos que gastes un espacio de conjuro de Magia del pacto (no requiere acción) para restablecer tu uso de él."
+ },
+ "wizard-spellcasting": {
+  "name": "Lanzamiento de conjuros",
+  "text": "Como estudiante de la magia arcana, has aprendido a lanzar conjuros. Consulta \"Conjuros\" para las reglas de lanzamiento de conjuros.\nLa información siguiente detalla cómo usas esas reglas con los conjuros de Mago, que aparecen en la lista de conjuros de Mago más adelante en la descripción de la clase.\nTrucos. Conoces tres trucos de Mago de tu elección. Se recomiendan _Luz_, _Mano de mago_ y _Rayo de escarcha_.\nSiempre que termines un Descanso largo, puedes sustituir uno de tus trucos de este rasgo por otro truco de Mago de tu elección.\notro truco de Mago de tu elección, como se muestra en la columna Trucos de la tabla Rasgos del Mago.\nLibro de conjuros. Tu aprendizaje como mago culminó con la creación de un libro único: tu libro de conjuros. Es un objeto Diminuto que pesa 1,5 kg, contiene 100 páginas y solo puede ser leído por ti o por alguien que lance _Identificar_. Tú determinas el aspecto y los materiales del libro, como un tomo con los bordes dorados o una colección de vitela atada con cordel.\nEl libro contiene los conjuros de nivel 1 o superior que conoces. Empieza con seis conjuros de Mago de nivel 1 de tu elección.\nSe recomiendan _Detectar magia_, _Caída de pluma_, _Armadura de mago_, _Proyectil mágico_, _Dormir_ y _Onda atronadora_.\nSiempre que ganes un nivel de Mago después del 1, añade dos conjuros de Mago de tu elección a tu libro de conjuros. Cada uno de estos conjuros debe ser de un nivel para el que tengas espacios de conjuro, como se muestra en la tabla Rasgos del Mago.\nLos conjuros son la culminación de la investigación arcana que realizas con regularidad.\nEspacios de conjuro. La tabla Rasgos del Mago muestra cuántos espacios de conjuro tienes para lanzar tus conjuros de nivel 1 o superior. Recuperas todos los espacios gastados cuando terminas un Descanso largo.\nConjuros preparados de nivel 1 o superior. Preparas la lista de conjuros de nivel 1 o superior que tienes disponibles para lanzar con este rasgo. Para ello, elige cuatro conjuros de tu libro de conjuros. Los conjuros elegidos deben ser de un nivel para el que tengas espacios de conjuro.\nEl número de conjuros de tu lista aumenta a medida que ganas niveles de Mago, como se muestra en la columna Conjuros preparados de la tabla Rasgos del Mago. Siempre que ese número aumente, elige conjuros de Mago adicionales hasta que el número de conjuros de tu lista coincida con el de la tabla. Los conjuros elegidos deben ser de un nivel para el que tengas espacios de conjuro. Por ejemplo, si eres un Mago de nivel 3, tu lista de conjuros preparados puede incluir seis conjuros de niveles 1 y 2 en cualquier combinación, elegidos de tu libro de conjuros.\nSi otro rasgo de Mago te otorga conjuros que siempre tienes preparados, esos conjuros no cuentan para el número de conjuros que puedes preparar con este rasgo, pero por lo demás cuentan como conjuros de Mago para ti.\nCambiar tus conjuros preparados. Siempre que termines un Descanso largo, puedes cambiar tu lista de conjuros preparados, sustituyendo cualquiera de los conjuros de ella por conjuros de tu libro de conjuros.\nAptitud mágica. Inteligencia es tu aptitud mágica para tus conjuros de Mago.\nFoco para lanzar conjuros. Puedes usar un foco arcano o tu libro de conjuros como foco para lanzar conjuros de Mago."
+ },
+ "wizard-ritual-adept": {
+  "name": "Adepto de rituales",
+  "text": "Puedes lanzar cualquier conjuro como Ritual si ese conjuro tiene la etiqueta Ritual y está en tu libro de conjuros. No necesitas tener el conjuro preparado, pero debes leer del libro para lanzar un conjuro de este modo."
  }
 }
