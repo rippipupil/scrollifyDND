@@ -95,3 +95,19 @@ test('conditions, masteries and weapon properties are translated', () => {
     expect(all[k].filter((e) => !e.name.es || !e.text?.es).map((e) => e.id)).toEqual([]);
   }
 });
+
+test('species text comes from SRD markdown and includes every trait', () => {
+  const db = all.species.find((s) => s.id === 'dragonborn')!;
+  expect(db.text!.en).toContain('_Breath Weapon._');
+  expect(db.text!.en).toContain('| Black | Acid | Gold | Fire |');
+  expect(all.species.find((s) => s.id === 'tiefling')!.data.size).toBe('Small or Medium');
+});
+
+test('species traits are split and aligned EN/ES', () => {
+  const db = all.species.find((s) => s.id === 'dragonborn')!;
+  const names = db.data.traits.map((t: any) => t.name.en);
+  expect(names).toEqual(['Draconic Ancestry', 'Breath Weapon', 'Damage Resistance', 'Darkvision', 'Draconic Flight']);
+  expect(db.data.traits[1].name.es).toBe('Arma de aliento');
+  expect(db.data.traits[1].text.en).toContain('Long Rest');
+  for (const sp of all.species) expect(sp.data.traits.every((t: any) => t.name.es)).toBe(true);
+});

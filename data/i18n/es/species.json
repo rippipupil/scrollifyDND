@@ -1,0 +1,110 @@
+{
+ "dragonborn": {
+  "name": "Dracónido",
+  "text": "**Tipo de criatura:** humanoide\n**Tamaño:** Mediano (entre 1,5 y 2,1 metros de altura)\n**Velocidad:** 9 metros\n\nComo dracónido, tienes estos rasgos especiales.\n\n_Ascendencia dracónica._ Tu linaje procede de un progenitor dragón. Elige el tipo de dragón de la tabla de ancestros dracónicos. Tu elección afecta a tus rasgos Arma de aliento y Resistencia al daño, así como a tu aspecto.\n\n**Ancestros dracónicos**\n\n| Dragón | Tipo de daño | Dragón | Tipo de daño |\n| Negro | Ácido | Oro | Fuego |\n| Azul | Relámpago | Verde | Veneno |\n| Latón | Fuego | Rojo | Fuego |\n| Bronce | Relámpago | Plata | Frío |\n| Cobre | Ácido | Blanco | Frío |\n\n_Arma de aliento._ Cuando realizas la acción de Ataque en tu turno, puedes sustituir uno de tus ataques por una exhalación de energía mágica en un cono de 4,5 metros o en una línea de 9 metros de largo y 1,5 metros de ancho (elige la forma cada vez). Cada criatura en esa zona debe hacer una tirada de salvación de Destreza (CD 8 más tu modificador de Constitución y tu bonificador por competencia). Si la falla, recibe 1d10 de daño del tipo determinado por tu rasgo Ascendencia dracónica. Si la supera, recibe la mitad. Este daño aumenta en 1d10 cuando alcanzas los niveles de personaje 5 (2d10), 11 (3d10) y 17 (4d10).\n\nPuedes usar esta Arma de aliento un número de veces igual a tu bonificador por competencia, y recuperas todos los usos gastados cuando terminas un descanso largo.\n\n_Resistencia al daño._ Tienes resistencia al tipo de daño determinado por tu rasgo Ascendencia dracónica.\n\n_Visión en la oscuridad._ Tienes visión en la oscuridad con un alcance de 18 metros.\n\n_Vuelo dracónico._ Cuando alcanzas el nivel de personaje 5, puedes canalizar magia dracónica para volar temporalmente. Como acción adicional, te salen en la espalda unas alas espectrales que duran 10 minutos o hasta que las repliegues (no requiere acción) o quedes Incapacitado. Durante ese tiempo, tienes una velocidad volando igual a tu velocidad. Tus alas parecen hechas de la misma energía que tu Arma de aliento. Una vez usado este rasgo, no puedes volver a usarlo hasta que termines un descanso largo."
+ },
+ "dwarf": {
+  "name": "Enano",
+  "text": "**Tipo de criatura:** humanoide\n**Tamaño:** Mediano (entre 1,2 y 1,5 metros de altura)\n**Velocidad:** 9 metros\n\nComo enano, tienes estos rasgos especiales.\n\n_Visión en la oscuridad._ Tienes visión en la oscuridad con un alcance de 36 metros.\n\n_Resistencia enana._ Tienes resistencia al daño de veneno. También tienes ventaja en las tiradas de salvación para evitar o terminar el estado Envenenado.\n\n_Dureza enana._ Tus puntos de golpe máximos aumentan en 1, y vuelven a aumentar en 1 cada vez que subes de nivel.\n\n_Afinidad con la piedra._ Como acción adicional, obtienes sentido de la vibración con un alcance de 18 metros durante 10 minutos. Debes estar sobre una superficie de piedra o tocándola para usar este sentido. La piedra puede ser natural o trabajada.\n\nPuedes usar esta acción adicional un número de veces igual a tu bonificador por competencia, y recuperas todos los usos gastados cuando terminas un descanso largo."
+ },
+ "elf": {
+  "name": "Elfo",
+  "text": "**Tipo de criatura:** humanoide\n**Tamaño:** Mediano (entre 1,5 y 1,8 metros de altura)\n**Velocidad:** 9 metros\n\nComo elfo, tienes estos rasgos especiales.\n\n_Visión en la oscuridad._ Tienes visión en la oscuridad con un alcance de 18 metros.\n\n_Linaje élfico._ Formas parte de un linaje que te otorga capacidades sobrenaturales. Elige un linaje de la tabla de linajes élficos. Obtienes el beneficio de nivel 1 de ese linaje.\n\nCuando alcanzas los niveles de personaje 3 y 5, aprendes un conjuro de nivel superior, como se indica en la tabla. Siempre tienes ese conjuro preparado. Puedes lanzarlo una vez sin espacio de conjuro y recuperas esa capacidad cuando terminas un descanso largo. También puedes lanzarlo usando cualquier espacio de conjuro del nivel apropiado que tengas.\n\nLa Inteligencia, la Sabiduría o el Carisma es tu característica para lanzar los conjuros de este rasgo (elígela al escoger el linaje).\n\n**Linajes élficos**\n\n| Linaje | Nivel 1 | Nivel 3 | Nivel 5 |\n| Drow | El alcance de tu visión en la oscuridad aumenta a 36 metros. También conoces el truco *luces danzantes*. | Fuego feérico | Oscuridad |\n| Alto elfo | Conoces el truco *prestidigitación*. Cada vez que terminas un descanso largo, puedes sustituirlo por otro truco de la lista de conjuros de mago. | Detectar magia | Paso brumoso |\n| Elfo silvano | Tu velocidad aumenta a 10,5 metros. También conoces el truco *druidismo*. | Zancada prodigiosa | Pasar sin rastro |\n\n_Ascendencia feérica._ Tienes ventaja en las tiradas de salvación para evitar o terminar el estado Hechizado.\n\n_Sentidos agudos._ Tienes competencia en la habilidad Perspicacia, Percepción o Supervivencia.\n\n_Trance._ No necesitas dormir, y la magia no puede dormirte. Puedes terminar un descanso largo en 4 horas si las pasas en una meditación similar al trance, durante la cual conservas la consciencia."
+ },
+ "gnome": {
+  "name": "Gnomo",
+  "text": "**Tipo de criatura:** humanoide\n**Tamaño:** Pequeño (entre 90 centímetros y 1,2 metros de altura)\n**Velocidad:** 9 metros\n\nComo gnomo, tienes estos rasgos especiales.\n\n_Visión en la oscuridad._ Tienes visión en la oscuridad con un alcance de 18 metros.\n\n_Astucia gnómica._ Tienes ventaja en las tiradas de salvación de Inteligencia, Sabiduría y Carisma.\n\n_Linaje gnómico._ Formas parte de un linaje que te otorga capacidades sobrenaturales. Elige una de las siguientes opciones; elijas la que elijas, la Inteligencia, la Sabiduría o el Carisma es tu característica para lanzar los conjuros de este rasgo (elígela al escoger el linaje):\n\n**Gnomo de los bosques.** Conoces el truco *ilusión menor*. También tienes siempre preparado el conjuro *hablar con los animales*. Puedes lanzarlo sin espacio de conjuro un número de veces igual a tu bonificador por competencia, y recuperas todos los usos gastados cuando terminas un descanso largo. También puedes usar cualquier espacio de conjuro que tengas para lanzarlo.\n\n**Gnomo de las rocas.** Conoces los trucos *reparar* y *prestidigitación*. Además, puedes pasar 10 minutos lanzando *prestidigitación* para crear un dispositivo mecánico Diminuto (CA 5, 1 PG), como un juguete, un encendedor o una caja de música. Al crearlo, determinas su función eligiendo un efecto de *prestidigitación*; el dispositivo produce ese efecto cada vez que tú u otra criatura realizáis una acción adicional para activarlo tocándolo. Si el efecto elegido tiene opciones, eliges una de ellas al crear el dispositivo. Por ejemplo, si eliges el efecto de encender o apagar fuego, determinas si el dispositivo enciende o apaga el fuego; no hace ambas cosas. Puedes tener tres dispositivos así a la vez, y cada uno se desmonta 8 horas después de su creación o cuando lo desarmas tocándolo como acción de Usar."
+ },
+ "goliath": {
+  "name": "Goliat",
+  "text": "**Tipo de criatura:** humanoide\n**Tamaño:** Mediano (entre 2,1 y 2,4 metros de altura)\n**Velocidad:** 10,5 metros\n\nComo goliat, tienes estos rasgos especiales.\n\n_Ascendencia gigante._ Desciendes de los gigantes. Elige uno de los siguientes beneficios, un don sobrenatural de tu ascendencia; puedes usar el beneficio elegido un número de veces igual a tu bonificador por competencia, y recuperas todos los usos gastados cuando terminas un descanso largo:\n\n**Paseo de las nubes (gigante de las nubes).** Como acción adicional, te teletransportas mágicamente hasta 9 metros a un espacio desocupado que puedas ver.\n\n**Quemadura del fuego (gigante de fuego).** Cuando impactes a un objetivo con una tirada de ataque y le inflijas daño, también puedes infligirle 1d10 de daño de fuego.\n\n**Frío de la escarcha (gigante de escarcha).** Cuando impactes a un objetivo con una tirada de ataque y le inflijas daño, también puedes infligirle 1d6 de daño de frío y reducir su velocidad en 3 metros hasta el comienzo de tu siguiente turno.\n\n**Caída de la colina (gigante de las colinas).** Cuando impactes a una criatura Grande o más pequeña con una tirada de ataque y le inflijas daño, puedes dejarla Derribada.\n\n**Aguante de la piedra (gigante de piedra).** Cuando recibas daño, puedes usar tu reacción para tirar 1d12. Suma tu modificador de Constitución al resultado y reduce el daño en ese total.\n\n**Trueno de la tormenta (gigante de las tormentas).** Cuando recibas daño de una criatura a 18 metros o menos de ti, puedes usar tu reacción para infligirle 1d8 de daño de trueno.\n\n_Forma grande._ A partir del nivel de personaje 5, puedes cambiar tu tamaño a Grande como acción adicional si estás en un espacio lo bastante amplio. Esta transformación dura 10 minutos o hasta que la termines (no requiere acción). Mientras dura, tienes ventaja en las pruebas de Fuerza y tu velocidad aumenta en 3 metros. Una vez usado este rasgo, no puedes volver a usarlo hasta que termines un descanso largo.\n\n_Complexión poderosa._ Tienes ventaja en cualquier prueba de característica que hagas para terminar el estado Agarrado. Además, cuentas como si fueras un tamaño mayor al determinar tu capacidad de carga."
+ },
+ "halfling": {
+  "name": "Mediano",
+  "text": "**Tipo de criatura:** humanoide\n**Tamaño:** Pequeño (entre 60 y 90 centímetros de altura)\n**Velocidad:** 9 metros\n\nComo mediano, tienes estos rasgos especiales.\n\n_Valiente._ Tienes ventaja en las tiradas de salvación para evitar o terminar el estado Asustado.\n\n_Agilidad de mediano._ Puedes moverte a través del espacio de cualquier criatura que sea al menos un tamaño mayor que tú, pero no puedes detenerte en ese espacio.\n\n_Suerte._ Cuando saques un 1 en el d20 de una prueba d20, puedes repetir la tirada y debes usar el nuevo resultado.\n\n_Sigilo natural._ Puedes realizar la acción de Esconderse aunque solo te oculte una criatura que sea al menos un tamaño mayor que tú."
+ },
+ "human": {
+  "name": "Humano",
+  "text": "**Tipo de criatura:** humanoide\n**Tamaño:** Mediano (entre 1,2 y 2,1 metros de altura) o Pequeño (entre 60 centímetros y 1,2 metros de altura), a elegir al escoger esta especie\n**Velocidad:** 9 metros\n\nComo humano, tienes estos rasgos especiales.\n\n_Ingenioso._ Obtienes Inspiración heroica cada vez que terminas un descanso largo.\n\n_Hábil._ Obtienes competencia en una habilidad de tu elección.\n\n_Versátil._ Obtienes una dote de origen de tu elección (consulta «Dotes»). Se recomienda Habilidoso."
+ },
+ "orc": {
+  "name": "Orco",
+  "text": "**Tipo de criatura:** humanoide\n**Tamaño:** Mediano (entre 1,8 y 2,1 metros de altura)\n**Velocidad:** 9 metros\n\nComo orco, tienes estos rasgos especiales.\n\n_Descarga de adrenalina._ Puedes realizar la acción de Correr como acción adicional. Cuando lo haces, obtienes una cantidad de puntos de golpe temporales igual a tu bonificador por competencia.\n\nPuedes usar este rasgo un número de veces igual a tu bonificador por competencia, y recuperas todos los usos gastados cuando terminas un descanso corto o largo.\n\n_Visión en la oscuridad._ Tienes visión en la oscuridad con un alcance de 36 metros.\n\n_Aguante incansable._ Cuando te quedas a 0 puntos de golpe pero no mueres en el acto, puedes quedarte a 1 punto de golpe en su lugar. Una vez usado este rasgo, no puedes volver a usarlo hasta que termines un descanso largo."
+ },
+ "tiefling": {
+  "name": "Tiflin",
+  "text": "**Tipo de criatura:** humanoide\n**Tamaño:** Mediano (entre 1,2 y 2,1 metros de altura) o Pequeño (entre 90 centímetros y 1,2 metros de altura), a elegir al escoger esta especie\n**Velocidad:** 9 metros\n\nComo tiflin, tienes los siguientes rasgos especiales.\n\n_Visión en la oscuridad._ Tienes visión en la oscuridad con un alcance de 18 metros.\n\n_Legado infernal._ Recibes un legado que te otorga capacidades sobrenaturales. Elige un legado de la tabla de legados infernales. Obtienes el beneficio de nivel 1 del legado elegido.\n\nCuando alcanzas los niveles de personaje 3 y 5, aprendes un conjuro de nivel superior, como se indica en la tabla. Siempre tienes ese conjuro preparado. Puedes lanzarlo una vez sin espacio de conjuro y recuperas esa capacidad cuando terminas un descanso largo. También puedes lanzarlo usando cualquier espacio de conjuro del nivel apropiado que tengas.\n\nLa Inteligencia, la Sabiduría o el Carisma es tu característica para lanzar los conjuros de este rasgo (elígela al escoger el legado).\n\n**Legados infernales**\n\n| Legado | Nivel 1 | Nivel 3 | Nivel 5 |\n| Abisal | Tienes resistencia al daño de veneno. También conoces el truco *rociada venenosa*. | Rayo de enfermedad | Inmovilizar persona |\n| Ctónico | Tienes resistencia al daño necrótico. También conoces el truco *toque gélido*. | Falsa vida | Rayo de debilitamiento |\n| Infernal | Tienes resistencia al daño de fuego. También conoces el truco *descarga de fuego*. | Reprensión infernal | Oscuridad |\n\n_Presencia de otro mundo._ Conoces el truco *taumaturgia*. Cuando lo lanzas con este rasgo, el conjuro usa la misma característica para lanzar conjuros que tu rasgo Legado infernal."
+ },
+ "draconic-ancestor-black": {
+  "name": "Ancestro dracónico: negro"
+ },
+ "draconic-ancestor-blue": {
+  "name": "Ancestro dracónico: azul"
+ },
+ "draconic-ancestor-brass": {
+  "name": "Ancestro dracónico: latón"
+ },
+ "draconic-ancestor-bronze": {
+  "name": "Ancestro dracónico: bronce"
+ },
+ "draconic-ancestor-copper": {
+  "name": "Ancestro dracónico: cobre"
+ },
+ "draconic-ancestor-gold": {
+  "name": "Ancestro dracónico: oro"
+ },
+ "draconic-ancestor-green": {
+  "name": "Ancestro dracónico: verde"
+ },
+ "draconic-ancestor-red": {
+  "name": "Ancestro dracónico: rojo"
+ },
+ "draconic-ancestor-silver": {
+  "name": "Ancestro dracónico: plata"
+ },
+ "draconic-ancestor-white": {
+  "name": "Ancestro dracónico: blanco"
+ },
+ "elven-lineage-drow": {
+  "name": "Linaje élfico: drow"
+ },
+ "elven-lineage-high-elf": {
+  "name": "Linaje élfico: alto elfo"
+ },
+ "elven-lineage-wood-elf": {
+  "name": "Linaje élfico: elfo silvano"
+ },
+ "gnomish-lineage-forest-gnome": {
+  "name": "Linaje gnómico: gnomo de los bosques"
+ },
+ "gnomish-lineage-rock-gnome": {
+  "name": "Linaje gnómico: gnomo de las rocas"
+ },
+ "giant-ancestry-clouds-jaunt": {
+  "name": "Ascendencia gigante: paseo de las nubes"
+ },
+ "giant-ancestry-fires-burn": {
+  "name": "Ascendencia gigante: quemadura del fuego"
+ },
+ "giant-ancestry-frosts-chill": {
+  "name": "Ascendencia gigante: frío de la escarcha"
+ },
+ "giant-ancestry-hills-tumble": {
+  "name": "Ascendencia gigante: caída de la colina"
+ },
+ "giant-ancestry-stones-endurance": {
+  "name": "Ascendencia gigante: aguante de la piedra"
+ },
+ "giant-ancestry-storms-thunder": {
+  "name": "Ascendencia gigante: trueno de la tormenta"
+ },
+ "fiendish-legacy-abyssal": {
+  "name": "Legado infernal: abisal"
+ },
+ "fiendish-legacy-chthonic": {
+  "name": "Legado infernal: ctónico"
+ },
+ "fiendish-legacy-infernal": {
+  "name": "Legado infernal: infernal"
+ }
+}

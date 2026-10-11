@@ -70,3 +70,26 @@ export function parseSpellsMd(file: string): Map<string, MdSpell> {
   }
   return out;
 }
+
+/** Generic "#### Title" sections between a start marker and the next "## " heading. */
+export function parseMdSections(file: string, startMarker: string): Map<string, MdSpell> {
+  const md = fs.readFileSync(file, 'utf8');
+  const start = md.indexOf(startMarker);
+  if (start < 0) return new Map();
+  let body = md.slice(start + startMarker.length);
+  const end = body.search(/^## /m);
+  if (end >= 0) body = body.slice(0, end);
+  const out = new Map<string, MdSpell>();
+  for (const part of body.split(/^#### /m).slice(1)) {
+    const nl = part.indexOf('\n');
+    const name = part.slice(0, nl).trim();
+    const text = part
+      .slice(nl + 1)
+      .replace(/<table>[\s\S]*?<\/table>/g, (t) => `\n\n${htmlTableToPipes(t)}\n\n`)
+      .replace(/^• /gm, '- ')
+      .replace(/\n{3,}/g, '\n\n')
+      .trim();
+    out.set(slug(name), { name, text: joinSoftBreaks(text) });
+  }
+  return out;
+}

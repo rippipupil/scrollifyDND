@@ -5,7 +5,7 @@
 import * as fs from 'node:fs';
 import * as path from 'node:path';
 import { autoEs } from './auto-es.ts';
-import { htmlTableToPipes, parseSpellsMd, type MdSpell } from './spells-md.ts';
+import { htmlTableToPipes, parseMdSections, parseSpellsMd, type MdSpell } from './spells-md.ts';
 
 type Loc = { en: string; es?: string };
 type Entry = {
@@ -312,7 +312,7 @@ export function buildSubclasses(src: string, es: EsMap): Entry[] {
   });
 }
 
-export function buildSpecies(src: string, es: EsMap, esTraits: EsMap): Entry[] {
+export function buildSpecies(src: string, es: EsMap, esTraits: EsMap, md: Map<string, MdSpell> = new Map()): Entry[] {
   const traits = readJson(src, '5e-SRD-Traits.json');
   const subspecies = readJson(src, '5e-SRD-Subspecies.json');
   const traitById = new Map(traits.map((t) => [t.index, t]));
@@ -327,20 +327,21 @@ export function buildSpecies(src: string, es: EsMap, esTraits: EsMap): Entry[] {
           return `### ${name}\n\n${body}`;
         })
         .join('\n\n');
-    const header = `**Creature Type:** ${sp.type} · **Size:** ${sp.size} · **Speed:** ${sp.speed} ft.`;
+    const size = sp.size ?? (sp.size_options?.from?.options ?? []).map((o: any) => o.size).join(' or ');
+    const header = `**Creature Type:** ${sp.type} · **Size:** ${size} · **Speed:** ${sp.speed} ft.`;
     const e = es[sp.index];
-    const esHeader = e?.header;
+    const enText = md.get(sp.index)?.text ?? `${header}\n\n${traitText('en')}`;
     const entry: Entry = {
       id: sp.index,
       category: 'species',
       name: loc(sp.name, e?.name),
-      text: loc(`${header}\n\n${traitText('en')}`, esHeader ? `${esHeader}\n\n${traitText('es')}` : undefined),
+      text: loc(enText, e?.text),
       source: 'srd',
       data: {
         type: sp.type,
-        size: sp.size,
+        size,
         speed: sp.speed,
-        traits: tlist.map((t: any) => ({ id: t.index, name: loc(t.name, esTraits[t.index]?.name), text: loc(cleanText(t.description), esTraits[t.index]?.text) })),
+        traits: md.get(sp.index) ? alignTraits(splitTraits(enText), e?.text ? splitTraits(e.text) : []) : tlist.map((t: any) => ({ id: t.index, name: loc(t.name, esTraits[t.index]?.name), text: loc(cleanText(t.description), esTraits[t.index]?.text) })),
         subspecies: subspecies
           .filter((s) => s.species?.index === sp.index)
           .map((s) => ({ id: s.index, name: loc(s.name, es[s.index]?.name), damageType: s.damage_type?.index })),
@@ -349,6 +350,25 @@ export function buildSpecies(src: string, es: EsMap, esTraits: EsMap): Entry[] {
     };
     return entry;
   });
+}
+
+/** Splits species text into "_Trait._ body" blocks (body runs until the next trait or table heading). */
+export function splitTraits(text: string): { name: string; text: string }[] {
+  const out: { name: string; text: string }[] = [];
+  for (const para of text.split(/\n\n/)) {
+    const m = /^_([^_]+?)\._\s*([\s\S]*)$/.exec(para);
+    if (m) out.push({ name: m[1], text: m[2] });
+    else if (out.length) out[out.length - 1].text += `\n\n${para}`;
+  }
+  return out;
+}
+
+function alignTraits(en: { name: string; text: string }[], es: { name: string; text: string }[]) {
+  return en.map((t, i) => ({
+    id: slugify(t.name),
+    name: loc(t.name, es.length === en.length ? es[i].name : undefined),
+    text: loc(t.text, es.length === en.length ? es[i].text : undefined),
+  }));
 }
 
 export function buildBackgrounds(src: string, es: EsMap): Entry[] {
@@ -485,7 +505,7 @@ export function buildAll(p: BuildPaths): Record<string, Entry[]> {
     classes: buildClasses(p.srd, es('classes.json')),
     subclasses: buildSubclasses(p.srd, es('subclasses.json')),
     features: buildFeatures(p.srd, es('features.json')),
-    species: buildSpecies(p.srd, es('species.json'), es('traits.json')),
+    species: buildSpecies(p.srd, es('species.json'), es('traits.json'), parseMdSections(path.join(p.md, 'character-origins.md'), '### Species Descriptions')),
     backgrounds: buildBackgrounds(p.srd, es('backgrounds.json')),
     feats: buildSimple(p.srd, '5e-SRD-Feats.json', 'feat', es('feats.json'), (f) => ({
       type: f.type,
