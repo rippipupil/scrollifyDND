@@ -4,6 +4,8 @@
  */
 import * as fs from 'node:fs';
 import * as path from 'node:path';
+import { autoEs } from './auto-es.ts';
+import { parseSpellsMd, type MdSpell } from './spells-md.ts';
 
 type Loc = { en: string; es?: string };
 type Entry = {
@@ -33,9 +35,17 @@ function readJson(dir: string, file: string): any[] {
   return JSON.parse(fs.readFileSync(path.join(dir, file), 'utf8'));
 }
 
+/** Loads `<name>.json` plus every `<name>/*.json` part file, merged by id. */
 function loadEs(i18nDir: string, file: string): EsMap {
-  const p = path.join(i18nDir, file);
-  return fs.existsSync(p) ? JSON.parse(fs.readFileSync(p, 'utf8')) : {};
+  const merged: EsMap = {};
+  const add = (p: string) => {
+    for (const [id, v] of Object.entries(JSON.parse(fs.readFileSync(p, 'utf8')) as EsMap)) merged[id] = { ...merged[id], ...v };
+  };
+  const single = path.join(i18nDir, file);
+  if (fs.existsSync(single)) add(single);
+  const dir = path.join(i18nDir, file.replace(/\.json$/, ''));
+  if (fs.existsSync(dir)) for (const f of fs.readdirSync(dir).filter((x) => x.endsWith('.json')).sort()) add(path.join(dir, f));
+  return merged;
 }
 
 const loc = (en: string | undefined, es?: string): Loc => (es ? { en: en ?? '', es } : { en: en ?? '' });
@@ -71,34 +81,55 @@ function withEs(entry: Entry, es: EsMap): Entry {
   return out;
 }
 
-export function buildSpells(src: string, es: EsMap): Entry[] {
-  return readJson(src, '5e-SRD-Spells.json').map((s) =>
-    withEs(
+function cleanMaterial(m: string | undefined): string | undefined {
+  if (!m) return undefined;
+  const t = m.trim();
+  return t.startsWith('(') && !t.endsWith(')') ? t.slice(1) : t;
+}
+
+function fillAuto(l: Loc | undefined): Loc | undefined {
+  if (!l || l.es) return l;
+  const es = autoEs(l.en);
+  return es ? { en: l.en, es } : l;
+}
+
+export function buildSpells(src: string, es: EsMap, md: Map<string, MdSpell> = new Map()): Entry[] {
+  return readJson(src, '5e-SRD-Spells.json').map((s) => {
+    const clean = md.get(s.index) ?? md.get(slugify(s.name));
+    const e = withEs(
       {
         id: s.index,
         category: 'spell',
         name: loc(s.name),
-        text: loc(cleanText(s.description)),
+        text: loc(clean?.text ?? cleanText(s.description)),
         source: 'srd',
         data: {
           level: s.level,
           school: s.school.index,
           classes: ids(s.classes),
           castingTime: loc(s.casting_time),
-          range: loc(s.range),
+          range: loc(String(s.range).replace(/\s+Component:.*$/i, '')),
           components: s.components ?? [],
-          material: s.material ? loc(s.material) : undefined,
+          material: s.material ? loc(cleanMaterial(s.material)) : undefined,
           duration: loc(s.duration),
           concentration: !!s.concentration,
           ritual: !!s.ritual,
-          higherLevel: s.higher_level ? loc(cleanText(s.higher_level)) : undefined,
+          higherLevel: clean?.higherLevel
+            ? loc(clean.higherLevel)
+            : s.higher_level
+              ? loc(cleanText(s.higher_level))
+              : undefined,
           attackType: s.attack_type,
           damageType: s.damage?.damage_type?.index,
         },
       },
       es,
-    ),
-  );
+    );
+    e.data.castingTime = fillAuto(e.data.castingTime);
+    e.data.range = fillAuto(e.data.range);
+    e.data.duration = fillAuto(e.data.duration);
+    return e;
+  });
 }
 
 function costText(c: any): string | undefined {
@@ -455,7 +486,7 @@ export interface BuildPaths {
 export function buildAll(p: BuildPaths): Record<string, Entry[]> {
   const es = (f: string) => loadEs(p.i18n, f);
   return {
-    spells: buildSpells(p.srd, es('spells.json')),
+    spells: buildSpells(p.srd, es('spells.json'), parseSpellsMd(path.join(p.md, 'spells.md'))),
     equipment: buildEquipment(p.srd, es('equipment.json')),
     'magic-items': buildMagicItems(p.srd, es('magic-items.json')),
     classes: buildClasses(p.srd, es('classes.json')),

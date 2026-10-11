@@ -67,3 +67,18 @@ test('slugify', () => {
   expect(slugify("Tasha's Hideous Laughter")).toBe('tashas-hideous-laughter');
   expect(slugify('Esfera flamígera')).toBe('esfera-flamigera');
 });
+
+test('spell formulaic fields get automatic Spanish', () => {
+  const s = all.spells.find((x) => x.id === 'fireball')!;
+  expect(s.data.castingTime.es).toBe('Acción');
+  expect(s.data.range.es).toBe('45 m');
+  expect(s.data.duration.es).toBe('Instantánea');
+  expect(all.spells.find((x) => x.id === 'arcane-lock')!.data.material.en.startsWith('(')).toBe(false);
+  expect(all.spells.every((x) => !x.data.range.en.includes('Component'))).toBe(true);
+});
+
+test('spell text comes from clean SRD markdown when available', () => {
+  const cw = all.spells.find((x) => x.id === 'control-water')!;
+  expect(cw.text!.en).not.toContain('Precipitation');
+  expect(all.spells.find((x) => x.id === 'fireball')!.data.higherLevel.en).toMatch(/^The damage increases by 1d6/);
+});
