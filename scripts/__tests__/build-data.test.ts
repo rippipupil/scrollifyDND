@@ -111,3 +111,14 @@ test('species traits are split and aligned EN/ES', () => {
   expect(db.data.traits[1].text.en).toContain('Long Rest');
   for (const sp of all.species) expect(sp.data.traits.every((t: any) => t.name.es)).toBe(true);
 });
+
+test('external index has links and facts only', () => {
+  const sb = all.external.find((e) => e.name.en === 'Silvery Barbs')!;
+  expect(sb.category).toBe('spell');
+  expect(sb.source).toBe('external');
+  expect(sb.text).toBeUndefined();
+  expect(sb.data.level).toBe(1);
+  expect(sb.external!.aidedd).toBe('https://www.aidedd.org/spell/silvery-barbs');
+  expect(sb.external!.wikidot).toBe('http://dnd2024.wikidot.com/spell:silvery-barbs');
+  expect(all.external.some((e) => e.name.en === 'Aasimar' && e.category === 'species')).toBe(true);
+});

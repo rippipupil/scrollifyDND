@@ -1,0 +1,1891 @@
+[
+ {
+  "category": "spell",
+  "name": {
+   "en": "Silvery Barbs",
+   "es": "Púas plateadas"
+  },
+  "book": "Strixhaven",
+  "data": {
+   "level": 1,
+   "school": "enchantment",
+   "classes": [
+    "bard",
+    "sorcerer",
+    "wizard"
+   ]
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Blade Ward",
+   "es": "Custodia contra las armas"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "level": 0,
+   "school": "abjuration",
+   "classes": [
+    "bard",
+    "sorcerer",
+    "warlock",
+    "wizard"
+   ]
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Friends",
+   "es": "Amigos"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "level": 0,
+   "school": "enchantment",
+   "classes": [
+    "bard",
+    "sorcerer",
+    "warlock",
+    "wizard"
+   ]
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Thorn Whip",
+   "es": "Látigo de espinas"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "level": 0,
+   "school": "transmutation",
+   "classes": [
+    "druid"
+   ]
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Toll the Dead",
+   "es": "Doblar por los muertos"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "level": 0,
+   "school": "necromancy",
+   "classes": [
+    "cleric",
+    "warlock",
+    "wizard"
+   ]
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Word of Radiance",
+   "es": "Palabra radiante"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "level": 0,
+   "school": "evocation",
+   "classes": [
+    "cleric"
+   ]
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Armor of Agathys",
+   "es": "Armadura de Agathys"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "level": 1,
+   "school": "abjuration",
+   "classes": [
+    "warlock"
+   ]
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Arms of Hadar",
+   "es": "Brazos de Hadar"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "level": 1,
+   "school": "conjuration",
+   "classes": [
+    "warlock"
+   ]
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Compelled Duel",
+   "es": "Duelo obligado"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "level": 1,
+   "school": "enchantment",
+   "classes": [
+    "paladin"
+   ]
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Hail of Thorns",
+   "es": "Granizo de espinas"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "level": 1,
+   "school": "conjuration",
+   "classes": [
+    "ranger"
+   ]
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Thunderous Smite",
+   "es": "Castigo atronador"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "level": 1,
+   "school": "evocation",
+   "classes": [
+    "paladin"
+   ]
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Witch Bolt",
+   "es": "Saeta de bruja"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "level": 1,
+   "school": "evocation",
+   "classes": [
+    "sorcerer",
+    "warlock",
+    "wizard"
+   ]
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Wrathful Smite",
+   "es": "Castigo iracundo"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "level": 1,
+   "school": "necromancy",
+   "classes": [
+    "paladin"
+   ]
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Arcane Vigor",
+   "es": "Vigor arcano"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "level": 2,
+   "school": "abjuration",
+   "classes": [
+    "sorcerer",
+    "wizard"
+   ]
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Branding Smite",
+   "es": "Castigo marcador"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "level": 2,
+   "school": "evocation",
+   "classes": [
+    "paladin"
+   ]
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Cordon of Arrows",
+   "es": "Cordón de flechas"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "level": 2,
+   "school": "transmutation",
+   "classes": [
+    "ranger"
+   ]
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Crown of Madness",
+   "es": "Corona de locura"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "level": 2,
+   "school": "enchantment",
+   "classes": [
+    "bard",
+    "sorcerer",
+    "warlock",
+    "wizard"
+   ]
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Summon Beast",
+   "es": "Invocar bestia"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "level": 2,
+   "school": "conjuration",
+   "classes": [
+    "druid",
+    "ranger"
+   ]
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Tasha's Mind Whip",
+   "es": "Látigo mental de Tasha"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "level": 2,
+   "school": "enchantment",
+   "classes": [
+    "sorcerer",
+    "wizard"
+   ]
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Aura of Vitality",
+   "es": "Aura de vitalidad"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "level": 3,
+   "school": "abjuration",
+   "classes": [
+    "cleric",
+    "paladin"
+   ]
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Blinding Smite",
+   "es": "Castigo cegador"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "level": 3,
+   "school": "evocation",
+   "classes": [
+    "paladin"
+   ]
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Conjure Barrage",
+   "es": "Conjurar andanada"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "level": 3,
+   "school": "conjuration",
+   "classes": [
+    "ranger"
+   ]
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Crusader's Mantle",
+   "es": "Manto del cruzado"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "level": 3,
+   "school": "evocation",
+   "classes": [
+    "paladin"
+   ]
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Elemental Weapon",
+   "es": "Arma elemental"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "level": 3,
+   "school": "transmutation",
+   "classes": [
+    "druid",
+    "paladin",
+    "ranger"
+   ]
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Feign Death",
+   "es": "Fingir muerte"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "level": 3,
+   "school": "necromancy",
+   "classes": [
+    "bard",
+    "cleric",
+    "druid",
+    "wizard"
+   ]
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Hunger of Hadar",
+   "es": "Hambre de Hadar"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "level": 3,
+   "school": "conjuration",
+   "classes": [
+    "warlock"
+   ]
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Lightning Arrow",
+   "es": "Flecha relampagueante"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "level": 3,
+   "school": "transmutation",
+   "classes": [
+    "ranger"
+   ]
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Spirit Shroud",
+   "es": "Mortaja espiritual"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "level": 3,
+   "school": "necromancy",
+   "classes": [
+    "cleric",
+    "paladin",
+    "warlock",
+    "wizard"
+   ]
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Summon Fey",
+   "es": "Invocar feérico"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "level": 3,
+   "school": "conjuration",
+   "classes": [
+    "druid",
+    "ranger",
+    "warlock",
+    "wizard"
+   ]
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Summon Undead",
+   "es": "Invocar muerto viviente"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "level": 3,
+   "school": "necromancy",
+   "classes": [
+    "warlock",
+    "wizard"
+   ]
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Aura of Purity",
+   "es": "Aura de pureza"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "level": 4,
+   "school": "abjuration",
+   "classes": [
+    "paladin"
+   ]
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Fount of Moonlight",
+   "es": "Fuente de luz de luna"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "level": 4,
+   "school": "evocation",
+   "classes": [
+    "bard",
+    "druid"
+   ]
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Staggering Smite",
+   "es": "Castigo abrumador"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "level": 4,
+   "school": "enchantment",
+   "classes": [
+    "paladin"
+   ]
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Summon Aberration",
+   "es": "Invocar aberración"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "level": 4,
+   "school": "conjuration",
+   "classes": [
+    "warlock",
+    "wizard"
+   ]
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Summon Construct",
+   "es": "Invocar constructo"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "level": 4,
+   "school": "conjuration",
+   "classes": [
+    "wizard"
+   ]
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Summon Elemental",
+   "es": "Invocar elemental"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "level": 4,
+   "school": "conjuration",
+   "classes": [
+    "druid",
+    "ranger",
+    "wizard"
+   ]
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Banishing Smite",
+   "es": "Castigo desterrador"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "level": 5,
+   "school": "conjuration",
+   "classes": [
+    "paladin"
+   ]
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Circle of Power",
+   "es": "Círculo de poder"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "level": 5,
+   "school": "abjuration",
+   "classes": [
+    "paladin"
+   ]
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Destructive Wave",
+   "es": "Ola destructora"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "level": 5,
+   "school": "evocation",
+   "classes": [
+    "paladin"
+   ]
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Jallarzi's Storm of Radiance",
+   "es": "Tormenta radiante de Jallarzi"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "level": 5,
+   "school": "evocation",
+   "classes": [
+    "warlock",
+    "wizard"
+   ]
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Steel Wind Strike",
+   "es": "Golpe de viento de acero"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "level": 5,
+   "school": "conjuration",
+   "classes": [
+    "ranger",
+    "wizard"
+   ]
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Summon Celestial",
+   "es": "Invocar celestial"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "level": 5,
+   "school": "conjuration",
+   "classes": [
+    "cleric",
+    "paladin"
+   ]
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Swift Quiver",
+   "es": "Carcaj veloz"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "level": 5,
+   "school": "transmutation",
+   "classes": [
+    "ranger"
+   ]
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Synaptic Static",
+   "es": "Estática sináptica"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "level": 5,
+   "school": "enchantment",
+   "classes": [
+    "bard",
+    "sorcerer",
+    "warlock",
+    "wizard"
+   ]
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Yolande's Regal Presence",
+   "es": "Presencia regia de Yolande"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "level": 5,
+   "school": "enchantment",
+   "classes": [
+    "bard",
+    "wizard"
+   ]
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Summon Fiend",
+   "es": "Invocar infernal"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "level": 6,
+   "school": "conjuration",
+   "classes": [
+    "warlock",
+    "wizard"
+   ]
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Tasha's Bubbling Cauldron",
+   "es": "Caldero burbujeante de Tasha"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "level": 6,
+   "school": "conjuration",
+   "classes": [
+    "warlock",
+    "wizard"
+   ]
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Power Word Fortify",
+   "es": "Palabra de poder: fortalecer"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "level": 7,
+   "school": "enchantment",
+   "classes": [
+    "bard",
+    "cleric"
+   ]
+  }
+ },
+ {
+  "category": "species",
+  "name": {
+   "en": "Aasimar",
+   "es": "Aasimar"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "size": "Small or Medium",
+   "speed": 30,
+   "darkvision": 60
+  }
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "Artisan",
+   "es": "Artesano"
+  },
+  "book": "PHB 2024"
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "Charlatan",
+   "es": "Charlatán"
+  },
+  "book": "PHB 2024"
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "Entertainer",
+   "es": "Artista"
+  },
+  "book": "PHB 2024"
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "Farmer",
+   "es": "Granjero"
+  },
+  "book": "PHB 2024"
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "Guard",
+   "es": "Guardia"
+  },
+  "book": "PHB 2024"
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "Guide",
+   "es": "Guía"
+  },
+  "book": "PHB 2024"
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "Hermit",
+   "es": "Ermitaño"
+  },
+  "book": "PHB 2024"
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "Merchant",
+   "es": "Mercader"
+  },
+  "book": "PHB 2024"
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "Noble",
+   "es": "Noble"
+  },
+  "book": "PHB 2024"
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "Sailor",
+   "es": "Marinero"
+  },
+  "book": "PHB 2024"
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "Scribe",
+   "es": "Escriba"
+  },
+  "book": "PHB 2024"
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "Wayfarer",
+   "es": "Vagabundo"
+  },
+  "book": "PHB 2024"
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Crafter",
+   "es": "Artesano"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "type": "origin"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Healer",
+   "es": "Sanador"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "type": "origin"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Lucky",
+   "es": "Afortunado"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "type": "origin"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Musician",
+   "es": "Músico"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "type": "origin"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Tavern Brawler",
+   "es": "Camorrista de taberna"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "type": "origin"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Tough",
+   "es": "Duro"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "type": "origin"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Actor",
+   "es": "Actor"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "type": "general"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Athlete",
+   "es": "Atleta"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "type": "general"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Charger",
+   "es": "Cargador"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "type": "general"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Chef",
+   "es": "Cocinero"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "type": "general"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Crossbow Expert",
+   "es": "Experto en ballestas"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "type": "general"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Crusher",
+   "es": "Aplastador"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "type": "general"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Defensive Duelist",
+   "es": "Duelista defensivo"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "type": "general"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Dual Wielder",
+   "es": "Combatiente con dos armas"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "type": "general"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Durable",
+   "es": "Duradero"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "type": "general"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Elemental Adept",
+   "es": "Adepto elemental"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "type": "general"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Fey Touched",
+   "es": "Tocado por los feéricos"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "type": "general"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Great Weapon Master",
+   "es": "Maestro de armas grandes"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "type": "general"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Heavily Armored",
+   "es": "Armadura pesada"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "type": "general"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Heavy Armor Master",
+   "es": "Maestro de armadura pesada"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "type": "general"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Inspiring Leader",
+   "es": "Líder inspirador"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "type": "general"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Keen Mind",
+   "es": "Mente aguda"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "type": "general"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Lightly Armored",
+   "es": "Armadura ligera"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "type": "general"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Mage Slayer",
+   "es": "Asesino de magos"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "type": "general"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Martial Weapon Training",
+   "es": "Entrenamiento con armas marciales"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "type": "general"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Medium Armor Master",
+   "es": "Maestro de armadura media"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "type": "general"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Moderately Armored",
+   "es": "Armadura moderada"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "type": "general"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Mounted Combatant",
+   "es": "Combatiente montado"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "type": "general"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Observant",
+   "es": "Observador"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "type": "general"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Piercer",
+   "es": "Perforador"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "type": "general"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Poisoner",
+   "es": "Envenenador"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "type": "general"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Polearm Master",
+   "es": "Maestro de armas de asta"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "type": "general"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Resilient",
+   "es": "Resiliente"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "type": "general"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Ritual Caster",
+   "es": "Lanzador de rituales"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "type": "general"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Sentinel",
+   "es": "Centinela"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "type": "general"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Shadow Touched",
+   "es": "Tocado por las sombras"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "type": "general"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Sharpshooter",
+   "es": "Tirador de primera"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "type": "general"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Shield Master",
+   "es": "Maestro del escudo"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "type": "general"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Skill Expert",
+   "es": "Experto en habilidades"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "type": "general"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Skulker",
+   "es": "Merodeador"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "type": "general"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Slasher",
+   "es": "Cortador"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "type": "general"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Speedy",
+   "es": "Veloz"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "type": "general"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Spell Sniper",
+   "es": "Francotirador de conjuros"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "type": "general"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Telekinetic",
+   "es": "Telequinético"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "type": "general"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Telepathic",
+   "es": "Telépata"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "type": "general"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "War Caster",
+   "es": "Lanzador de guerra"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "type": "general"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Weapon Master",
+   "es": "Maestro de armas"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "type": "general"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Blind Fighting",
+   "es": "Combate a ciegas"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "type": "fighting-style"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Dueling",
+   "es": "Duelo"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "type": "fighting-style"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Interception",
+   "es": "Intercepción"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "type": "fighting-style"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Protection",
+   "es": "Protección"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "type": "fighting-style"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Thrown Weapon Fighting",
+   "es": "Combate con armas arrojadizas"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "type": "fighting-style"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Unarmed Fighting",
+   "es": "Combate sin armas"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "type": "fighting-style"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Path of the Wild Heart",
+   "es": "Senda del Corazón Salvaje"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "classId": "barbarian",
+   "casterType": null
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Path of the World Tree",
+   "es": "Senda del Árbol del Mundo"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "classId": "barbarian",
+   "casterType": null
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Path of the Zealot",
+   "es": "Senda del Fanático"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "classId": "barbarian",
+   "casterType": null
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "College of Dance",
+   "es": "Colegio de la Danza"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "classId": "bard",
+   "casterType": null
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "College of Glamour",
+   "es": "Colegio del Glamur"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "classId": "bard",
+   "casterType": null
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "College of Valor",
+   "es": "Colegio del Valor"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "classId": "bard",
+   "casterType": null
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Light Domain",
+   "es": "Dominio de la Luz"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "classId": "cleric",
+   "casterType": null
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Trickery Domain",
+   "es": "Dominio del Engaño"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "classId": "cleric",
+   "casterType": null
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "War Domain",
+   "es": "Dominio de la Guerra"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "classId": "cleric",
+   "casterType": null
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Circle of the Moon",
+   "es": "Círculo de la Luna"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "classId": "druid",
+   "casterType": null
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Circle of the Sea",
+   "es": "Círculo del Mar"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "classId": "druid",
+   "casterType": null
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Circle of the Stars",
+   "es": "Círculo de las Estrellas"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "classId": "druid",
+   "casterType": null
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Battle Master",
+   "es": "Maestro de batalla"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "classId": "fighter",
+   "casterType": null
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Eldritch Knight",
+   "es": "Caballero arcano"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "classId": "fighter",
+   "casterType": "third"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Psi Warrior",
+   "es": "Guerrero psiónico"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "classId": "fighter",
+   "casterType": null
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Warrior of Mercy",
+   "es": "Guerrero de la Misericordia"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "classId": "monk",
+   "casterType": null
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Warrior of Shadow",
+   "es": "Guerrero de la Sombra"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "classId": "monk",
+   "casterType": null
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Warrior of the Elements",
+   "es": "Guerrero de los Elementos"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "classId": "monk",
+   "casterType": null
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Oath of Glory",
+   "es": "Juramento de Gloria"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "classId": "paladin",
+   "casterType": null
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Oath of the Ancients",
+   "es": "Juramento de los Antiguos"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "classId": "paladin",
+   "casterType": null
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Oath of Vengeance",
+   "es": "Juramento de Venganza"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "classId": "paladin",
+   "casterType": null
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Beast Master",
+   "es": "Señor de las bestias"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "classId": "ranger",
+   "casterType": null
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Fey Wanderer",
+   "es": "Errante feérico"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "classId": "ranger",
+   "casterType": null
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Gloom Stalker",
+   "es": "Acechador sombrío"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "classId": "ranger",
+   "casterType": null
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Arcane Trickster",
+   "es": "Embaucador arcano"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "classId": "rogue",
+   "casterType": "third"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Assassin",
+   "es": "Asesino"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "classId": "rogue",
+   "casterType": null
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Soulknife",
+   "es": "Cuchillo del alma"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "classId": "rogue",
+   "casterType": null
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Aberrant Sorcery",
+   "es": "Hechicería Aberrante"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "classId": "sorcerer",
+   "casterType": null
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Clockwork Sorcery",
+   "es": "Hechicería Mecánica"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "classId": "sorcerer",
+   "casterType": null
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Wild Magic Sorcery",
+   "es": "Hechicería de Magia Salvaje"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "classId": "sorcerer",
+   "casterType": null
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Archfey Patron",
+   "es": "Patrón Archifeérico"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "classId": "warlock",
+   "casterType": null
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Celestial Patron",
+   "es": "Patrón Celestial"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "classId": "warlock",
+   "casterType": null
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Great Old One Patron",
+   "es": "Patrón Primigenio"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "classId": "warlock",
+   "casterType": null
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Abjurer",
+   "es": "Abjurador"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "classId": "wizard",
+   "casterType": null
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Diviner",
+   "es": "Adivino"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "classId": "wizard",
+   "casterType": null
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Illusionist",
+   "es": "Ilusionista"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "classId": "wizard",
+   "casterType": null
+  }
+ }
+]

@@ -460,7 +460,6 @@ export function buildExternal(dir: string): Entry[] {
     .flatMap((f) => JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8')) as any[])
     .map((x) => {
       const slugEn = x.slugEn ?? slugify(x.name.en);
-      const slugEs = x.slugEs ?? slugify(x.name.es ?? x.name.en);
       const kind = x.category === 'spell' ? 'spell' : x.category === 'magic-item' ? 'magic-item' : null;
       const external: Record<string, string> = {
         nivel20: `https://www.google.com/search?q=${encodeURIComponent(`site:nivel20.com ${x.name.es ?? x.name.en}`)}`,
@@ -471,7 +470,7 @@ export function buildExternal(dir: string): Entry[] {
       };
       if (kind) {
         external.aidedd = `https://www.aidedd.org/${kind}/${slugEn}`;
-        external.aideddEs = `https://www.aidedd.org/${kind}/es/${slugEs}`;
+        external.aideddEs = `https://www.google.com/search?q=${encodeURIComponent(`site:aidedd.org/${kind}/es ${x.name.es ?? x.name.en}`)}`;
       } else {
         external.aidedd = `https://www.google.com/search?q=${encodeURIComponent(`site:aidedd.org ${x.name.en}`)}`;
       }
