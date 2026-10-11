@@ -2,4 +2,5 @@ module.exports = {
   preset: 'jest-expo',
   testMatch: ['**/?(*.)test.[jt]s?(x)'],
   testPathIgnorePatterns: ['/node_modules/', '/.superpowers/'],
+  setupFiles: ['<rootDir>/jest.setup.js'],
 };
