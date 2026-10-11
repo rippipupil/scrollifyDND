@@ -1,0 +1,438 @@
+{
+ "barbarian-rage": {
+  "name": "Furia",
+  "text": "Puedes imbuirte de un poder primigenio llamado Furia, una fuerza que te otorga un vigor y una resistencia extraordinarios. Puedes entrar en ella como Acción adicional si no llevas armadura pesada.\nPuedes entrar en Furia el número de veces indicado para tu nivel de Bárbaro en la columna Furias de la tabla Rasgos de Bárbaro. Recuperas un uso gastado cuando terminas un Descanso corto y recuperas todos los usos gastados cuando terminas un Descanso largo.\nMientras está activa, tu Furia sigue las reglas siguientes.\n**Resistencia al daño.** Tienes Resistencia al daño contundente, perforante y cortante.\n**Daño de Furia.** Cuando realizas un ataque usando Fuerza (ya sea con un arma o con un Ataque sin armas) e infliges daño al objetivo, obtienes una bonificación al daño que aumenta a medida que subes de nivel como Bárbaro, como se indica en la columna Daño de Furia de la tabla Rasgos de Bárbaro.\n**Ventaja en Fuerza.** Tienes Ventaja en las pruebas de Fuerza y en las tiradas de salvación de Fuerza.\n**Sin Concentración ni conjuros.** No puedes mantener la Concentración ni lanzar conjuros.\n**Duración.** La Furia dura hasta el final de tu siguiente turno y termina antes de tiempo si te pones una armadura pesada o tienes el estado Incapacitado. Si tu Furia sigue activa en tu siguiente turno, puedes prolongarla otra ronda haciendo una de las siguientes cosas:\n- Realizar una tirada de ataque contra un enemigo.\n- Obligar a un enemigo a realizar una tirada de salvación.\n- Usar una Acción adicional para prolongar tu Furia.\nCada vez que se prolonga la Furia, dura hasta el final de tu siguiente turno. Puedes mantener una Furia durante un máximo de 10 minutos."
+ },
+ "barbarian-unarmored-defense": {
+  "name": "Defensa sin armadura",
+  "text": "Mientras no lleves ninguna armadura, tu Clase de armadura base es igual a 10 más tus modificadores de Destreza y Constitución. Puedes usar un Escudo y seguir obteniendo este beneficio."
+ },
+ "barbarian-weapon-mastery": {
+  "name": "Maestría con armas",
+  "text": "Tu entrenamiento con las armas te permite usar las propiedades de maestría de dos tipos de armas cuerpo a cuerpo simples o marciales a tu elección, como Hachas grandes y Hachas de mano. Cada vez que termines un Descanso largo, puedes practicar ejercicios con armas y cambiar una de esas elecciones.\nCuando alcanzas ciertos niveles de Bárbaro, obtienes la capacidad de usar las propiedades de maestría de más tipos de armas, como se indica en la columna Maestría con armas de la tabla Rasgos de Bárbaro."
+ },
+ "barbarian-danger-sense": {
+  "name": "Sentido del peligro",
+  "text": "Obtienes un sentido extraordinario para detectar cuándo las cosas no son como deberían, lo que te da ventaja al esquivar peligros. Tienes Ventaja en las tiradas de salvación de Destreza a menos que tengas el estado Incapacitado."
+ },
+ "barbarian-reckless-attack": {
+  "name": "Ataque temerario",
+  "text": "Puedes dejar de lado toda preocupación por la defensa para atacar con mayor ferocidad. Cuando realizas tu primera tirada de ataque en tu turno, puedes decidir atacar de forma temeraria. Hacerlo te da Ventaja en las tiradas de ataque que usen Fuerza hasta el comienzo de tu siguiente turno, pero las tiradas de ataque contra ti tienen Ventaja durante ese tiempo."
+ },
+ "barbarian-subclass": {
+  "name": "Subclase de Bárbaro",
+  "text": "Obtienes una subclase de Bárbaro de tu elección. Una subclase es una especialización que te otorga rasgos en ciertos niveles de Bárbaro. Durante el resto de tu carrera, obtienes cada uno de los rasgos de tu subclase que sean de tu nivel de Bárbaro o inferior."
+ },
+ "barbarian-primal-knowledge": {
+  "name": "Conocimiento primigenio",
+  "text": "Obtienes competencia en otra habilidad de tu elección de la lista de habilidades disponibles para los Bárbaros en el nivel 1.\nAdemás, mientras tu Furia está activa, puedes canalizar poder primigenio cuando intentas ciertas tareas: siempre que realices una prueba de característica usando una de las siguientes habilidades, puedes hacerla como una prueba de Fuerza aunque normalmente use otra característica: Acrobacias, Intimidación, Percepción, Sigilo o Supervivencia. Cuando usas esta capacidad, tu Fuerza representa el poder primigenio que corre por ti, afinando tu agilidad, tu porte y tus sentidos."
+ },
+ "barbarian-ability-score-improvement": {
+  "name": "Mejora de característica",
+  "text": "Obtienes la dote Mejora de característica (véase \"Dotes\") u otra dote de tu elección para la que cumplas los requisitos. Obtienes este rasgo de nuevo en los niveles de Bárbaro 8, 12 y 16."
+ },
+ "barbarian-extra-attack": {
+  "name": "Ataque adicional",
+  "text": "Puedes atacar dos veces, en lugar de una, siempre que realices la acción de Ataque en tu turno."
+ },
+ "barbarian-fast-movement": {
+  "name": "Movimiento rápido",
+  "text": "Tu Velocidad aumenta 3 m mientras no lleves armadura pesada."
+ },
+ "barbarian-feral-instinct": {
+  "name": "Instinto feral",
+  "text": "Tus instintos están tan afinados que tienes Ventaja en las tiradas de Iniciativa."
+ },
+ "barbarian-instinctive-pounce": {
+  "name": "Abalanzamiento instintivo",
+  "text": "Como parte de la Acción adicional que usas para entrar en Furia, puedes moverte hasta la mitad de tu Velocidad."
+ },
+ "barbarian-brutal-strike": {
+  "name": "Golpe brutal",
+  "text": "Si usas Ataque temerario, puedes renunciar a la Ventaja en una tirada de ataque basada en Fuerza de tu elección en tu turno. La tirada de ataque elegida no debe tener Desventaja. Si la tirada de ataque elegida impacta, el objetivo sufre 1d10 de daño adicional del mismo tipo que el infligido por el arma o el Ataque sin armas, y puedes provocar un efecto de Golpe brutal de tu elección. Tienes las siguientes opciones de efecto.\nGolpe contundente. El objetivo es empujado 4,5 m en línea recta alejándose de ti. Después puedes moverte hasta la mitad de tu Velocidad en línea recta hacia el objetivo sin provocar Ataques de oportunidad.\nGolpe en el tendón. La Velocidad del objetivo se reduce en 4,5 m hasta el comienzo de tu siguiente turno. Un objetivo solo puede verse afectado por un Golpe en el tendón a la vez: el más reciente."
+ },
+ "barbarian-relentless-rage": {
+  "name": "Furia implacable",
+  "text": "Tu Furia puede mantenerte luchando a pesar de heridas graves. Si te reducen a 0 puntos de golpe mientras tu Furia está activa y no mueres en el acto, puedes realizar una tirada de salvación de Constitución con CD 10. Si tienes éxito, tus puntos de golpe pasan a ser, en cambio, una cantidad igual al doble de tu nivel de Bárbaro.\nCada vez que uses este rasgo después de la primera, la CD aumenta en 5. Cuando terminas un Descanso corto o largo, la CD se restablece a 10."
+ },
+ "barbarian-improved-brutal-strike-1": {
+  "name": "Golpe brutal mejorado",
+  "text": "Has perfeccionado nuevas formas de atacar con furia. Los siguientes efectos pasan a estar entre tus opciones de Golpe brutal.\nGolpe aturdidor. El objetivo tiene Desventaja en la siguiente tirada de salvación que realice y no puede realizar Ataques de oportunidad hasta el comienzo de tu siguiente turno.\nGolpe demoledor. Antes del comienzo de tu siguiente turno, la siguiente tirada de ataque realizada por otra criatura contra el objetivo obtiene una bonificación de +5 a la tirada. Una tirada de ataque solo puede obtener una bonificación de Golpe demoledor."
+ },
+ "barbarian-persistent-rage": {
+  "name": "Furia persistente",
+  "text": "Cuando tiras Iniciativa, puedes recuperar todos los usos gastados de Furia. Después de recuperar usos de Furia de esta manera, no puedes volver a hacerlo hasta que termines un Descanso largo.\nAdemás, tu Furia es tan feroz que ahora dura 10 minutos sin que tengas que hacer nada para prolongarla de ronda en ronda. Tu Furia termina antes de tiempo si tienes el estado Inconsciente (no solo el estado Incapacitado) o te pones una armadura pesada."
+ },
+ "barbarian-improved-brutal-strike-2": {
+  "name": "Golpe brutal mejorado",
+  "text": "El daño adicional de tu Golpe brutal aumenta a 2d10. Además, puedes usar dos efectos de Golpe brutal distintos siempre que uses tu rasgo Golpe brutal."
+ },
+ "barbarian-indomitable-might": {
+  "name": "Poderío indomable",
+  "text": "Si tu total en una prueba de Fuerza o en una tirada de salvación de Fuerza es inferior a tu puntuación de Fuerza, puedes usar esa puntuación en lugar del total."
+ },
+ "barbarian-epic-boon": {
+  "name": "Don épico",
+  "text": "Obtienes una dote de Don épico (véase \"Dotes\") u otra dote de tu elección para la que cumplas los requisitos. Se recomienda el Don de ofensiva irresistible."
+ },
+ "barbarian-primal-champion": {
+  "name": "Campeón primigenio",
+  "text": "Encarnas el poder primigenio. Tus puntuaciones de Fuerza y Constitución aumentan en 4, hasta un máximo de 25."
+ },
+ "berserker-frenzy": {
+  "name": "Frenesí",
+  "text": "Si usas Ataque temerario mientras tu Furia está activa, infliges daño adicional al primer objetivo al que impactes en tu turno con un ataque basado en Fuerza. Para determinar el daño adicional, tira un número de d6 igual a tu bonificación de Daño de Furia y súmalos. El daño es del mismo tipo que el del arma o Ataque sin armas usado para el ataque."
+ },
+ "berserker-mindless-rage": {
+  "name": "Furia irreflexiva",
+  "text": "Tienes Inmunidad a los estados Hechizado y Asustado mientras tu Furia está activa. Si estás Hechizado o Asustado cuando entras en Furia, el estado termina sobre ti."
+ },
+ "berserker-retaliation": {
+  "name": "Represalia",
+  "text": "Cuando recibes daño de una criatura que se encuentra a 1,5 m o menos de ti, puedes usar una Reacción para realizar un ataque cuerpo a cuerpo contra esa criatura, usando un arma o un Ataque sin armas."
+ },
+ "berserker-intimidating-presence": {
+  "name": "Presencia intimidante",
+  "text": "Como Acción adicional, puedes infundir terror en los demás con tu presencia amenazadora y tu poder primigenio.\nCuando lo haces, cada criatura de tu elección en una Emanación de 9 m que se origine en ti debe realizar una tirada de salvación de Sabiduría (CD 8 más tu modificador de Fuerza y tu bonificador por competencia). Si falla la salvación, la criatura tiene el estado Asustado durante 1 minuto. Al final de cada uno de los turnos de la criatura Asustada, esta repite la salvación y, si tiene éxito, el efecto termina sobre ella.\nUna vez que uses este rasgo, no puedes volver a usarlo hasta que termines un Descanso largo, a menos que gastes un uso de tu Furia (sin necesidad de acción) para restablecer tu uso de este rasgo."
+ },
+ "bard-bardic-inspiration": {
+  "name": "Inspiración bárdica",
+  "text": "Puedes inspirar sobrenaturalmente a los demás mediante palabras, música o danza. Esta inspiración está representada por tu dado de Inspiración bárdica, que es un d6.\nUso de la Inspiración bárdica. Como Acción adicional, puedes inspirar a otra criatura a 18 m o menos de ti que pueda verte u oírte. Esa criatura obtiene uno de tus dados de Inspiración bárdica. Una criatura solo puede tener un dado de Inspiración bárdica a la vez.\nUna vez durante la siguiente hora, cuando la criatura falle una Prueba d20, puede tirar el dado de Inspiración bárdica y sumar el número obtenido al d20, lo que podría convertir el fallo en un éxito. Un dado de Inspiración bárdica se gasta al tirarlo.\nNúmero de usos. Puedes conceder un dado de Inspiración bárdica un número de veces igual a tu modificador de Carisma (mínimo una vez) y recuperas todos los usos gastados cuando terminas un Descanso largo.\nA niveles superiores. Tu dado de Inspiración bárdica cambia cuando alcanzas ciertos niveles de Bardo, como se indica en la columna Dado bárdico de la tabla Rasgos de Bardo. El dado pasa a ser un d8 en el nivel 5, un d10 en el nivel 10 y un d12 en el nivel 15."
+ },
+ "bard-spellcasting": {
+  "name": "Lanzamiento de conjuros",
+  "text": "Has aprendido a lanzar conjuros mediante tus artes bárdicas. Consulta \"Conjuros\" para las reglas de lanzamiento de conjuros. La información siguiente detalla cómo usas esas reglas con los conjuros de Bardo, que aparecen en la lista de conjuros de Bardo más adelante en la descripción de la clase.\nTrucos. Conoces dos trucos de tu elección de la lista de conjuros de Bardo. Se recomiendan Luces danzantes y Burla cruel.\nSiempre que obtengas un nivel de Bardo, puedes sustituir uno de tus trucos por otro truco de tu elección de la lista de conjuros de Bardo.\nCuando alcanzas los niveles de Bardo 4 y 10, aprendes otro truco de tu elección de la lista de conjuros de Bardo, como se indica en la columna Trucos de la tabla Rasgos de Bardo.\nEspacios de conjuro. La tabla Rasgos de Bardo muestra cuántos espacios de conjuro tienes para lanzar tus conjuros de nivel 1 o superior. Recuperas todos los espacios gastados cuando terminas un Descanso largo.\nConjuros preparados de nivel 1 o superior. Preparas la lista de conjuros de nivel 1 o superior que tienes disponibles para lanzar con este rasgo. Para empezar, elige cuatro conjuros de nivel 1 de la lista de conjuros de Bardo. Se recomiendan Hechizar persona, Rociada de color, Susurros discordantes y Palabra curativa.\nEl número de conjuros de tu lista aumenta a medida que obtienes niveles de Bardo, como se indica en la columna Conjuros preparados de la tabla Rasgos de Bardo. Siempre que ese número aumente, elige conjuros adicionales de la lista de conjuros de Bardo hasta que el número de conjuros de tu lista coincida con el de la tabla. Los conjuros elegidos deben ser de un nivel para el que tengas espacios de conjuro.\nPor ejemplo, si eres un Bardo de nivel 3, tu lista de conjuros preparados puede incluir seis conjuros de niveles 1 y 2 en cualquier combinación.\nSi otro rasgo de Bardo te da conjuros que siempre tienes preparados, esos conjuros no cuentan para el número de conjuros que puedes preparar con este rasgo, pero por lo demás cuentan como conjuros de Bardo para ti.\nCambiar tus conjuros preparados. Siempre que obtengas un nivel de Bardo, puedes sustituir un conjuro de tu lista por otro conjuro de Bardo para el que tengas espacios de conjuro.\nAptitud mágica. Carisma es tu aptitud mágica para tus conjuros de Bardo.\nFoco para lanzar conjuros. Puedes usar un Instrumento musical como Foco para lanzar conjuros de Bardo."
+ },
+ "bard-expertise": {
+  "name": "Pericia",
+  "text": "Obtienes Pericia (véase \"Glosario de reglas\") en dos de tus competencias en habilidades de tu elección. Se recomiendan Interpretación y Persuasión si tienes competencia en ellas.\nEn el nivel 9 de Bardo, obtienes Pericia en dos competencias en habilidades más de tu elección."
+ },
+ "bard-jack-of-all-trades": {
+  "name": "Aprendiz de todo",
+  "text": "Puedes añadir la mitad de tu bonificador por competencia (redondeado hacia abajo) a cualquier prueba de característica que realices que use una competencia en una habilidad que no tengas y que no use ya tu bonificador por competencia.\nPor ejemplo, si realizas una prueba de Fuerza (Atletismo) y no tienes competencia en Atletismo, puedes añadir la mitad de tu bonificador por competencia a la prueba."
+ },
+ "bard-subclass": {
+  "name": "Subclase de Bardo",
+  "text": "Obtienes una subclase de Bardo de tu elección. Una subclase es una especialización que te otorga rasgos en ciertos niveles de Bardo. Durante el resto de tu carrera, obtienes cada uno de los rasgos de tu subclase que sean de tu nivel de Bardo o inferior."
+ },
+ "bard-ability-score-improvement": {
+  "name": "Mejora de característica",
+  "text": "Obtienes la dote Mejora de característica (véase \"Dotes\") u otra dote de tu elección para la que cumplas los requisitos. Obtienes este rasgo de nuevo en los niveles de Bardo 8, 12 y 16."
+ },
+ "bard-font-of-inspiration": {
+  "name": "Fuente de inspiración",
+  "text": "Ahora recuperas todos tus usos gastados de Inspiración bárdica cuando terminas un Descanso corto o largo.\nAdemás, puedes gastar un espacio de conjuro (sin necesidad de acción) para recuperar un uso gastado de Inspiración bárdica."
+ },
+ "bard-countercharm": {
+  "name": "Contrahechizo",
+  "text": "Puedes usar notas musicales o palabras de poder para interrumpir efectos que influyen en la mente. Si tú o una criatura a 9 m o menos de ti fallan una tirada de salvación contra un efecto que aplica el estado Hechizado o Asustado, puedes usar una Reacción para que se repita la salvación, y la nueva tirada tiene Ventaja."
+ },
+ "bard-magical-secrets": {
+  "name": "Secretos mágicos",
+  "text": "Has aprendido secretos de diversas tradiciones mágicas. Siempre que alcances un nivel de Bardo (incluido este) y aumente el número de Conjuros preparados de la tabla Rasgos de Bardo, puedes elegir cualquiera de tus nuevos conjuros preparados de las listas de conjuros de Bardo, Clérigo, Druida y Mago, y los conjuros elegidos cuentan como conjuros de Bardo para ti (consulta la sección de cada clase para su lista de conjuros). Además, siempre que sustituyas un conjuro preparado de esta clase, puedes sustituirlo por un conjuro de esas listas."
+ },
+ "bard-superior-inspiration": {
+  "name": "Inspiración superior",
+  "text": "Cuando tiras Iniciativa, recuperas usos gastados de Inspiración bárdica hasta tener dos, si tienes menos de esa cantidad."
+ },
+ "bard-epic-boon": {
+  "name": "Don épico",
+  "text": "Obtienes una dote de Don épico (véase \"Dotes\") u otra dote de tu elección para la que cumplas los requisitos. Se recomienda el Don de recuperación de conjuros."
+ },
+ "bard-words-of-creation": {
+  "name": "Palabras de creación",
+  "text": "Has dominado dos de las Palabras de creación: las palabras de la vida y de la muerte. Por ello, siempre tienes preparados los conjuros Palabra de poder: curar y Palabra de poder: matar. Cuando lanzas cualquiera de los dos conjuros, puedes elegir como objetivo a una segunda criatura si se encuentra a 3 m o menos del primer objetivo."
+ },
+ "lore-bonus-proficiencies": {
+  "name": "Competencias adicionales",
+  "text": "Obtienes competencia en tres habilidades de tu elección."
+ },
+ "lore-cutting-words": {
+  "name": "Palabras hirientes",
+  "text": "Aprendes a usar tu ingenio para distraer, confundir y minar sobrenaturalmente la confianza y la competencia de los demás. Cuando una criatura que puedes ver a 18 m o menos de ti realiza una tirada de daño o tiene éxito en una prueba de característica o tirada de ataque, puedes usar una Reacción para gastar un uso de tu Inspiración bárdica; tira tu dado de Inspiración bárdica y resta el número obtenido de la tirada de la criatura, reduciendo el daño o convirtiendo posiblemente el éxito en un fallo."
+ },
+ "lore-magical-discoveries": {
+  "name": "Descubrimientos mágicos",
+  "text": "Aprendes dos conjuros de tu elección. Estos conjuros pueden proceder de la lista de conjuros de Clérigo, Druida o Mago, o de cualquier combinación de ellas (consulta la sección de cada clase para su lista de conjuros). Un conjuro que elijas debe ser un truco o un conjuro para el que tengas espacios de conjuro, como se indica en la tabla Rasgos de Bardo.\nSiempre tienes preparados los conjuros elegidos y, siempre que obtengas un nivel de Bardo, puedes sustituir uno de ellos por otro conjuro que cumpla estos requisitos."
+ },
+ "lore-peerless-skill": {
+  "name": "Habilidad sin igual",
+  "text": "Cuando realizas una prueba de característica o una tirada de ataque y fallas, puedes gastar un uso de Inspiración bárdica; tira el dado de Inspiración bárdica y suma el número obtenido al d20, lo que podría convertir un fallo en un éxito. Si aun así fallas, la Inspiración bárdica no se gasta."
+ },
+ "cleric-spellcasting": {
+  "name": "Lanzamiento de conjuros",
+  "text": "Has aprendido a lanzar conjuros mediante la oración y la meditación. Consulta \"Conjuros\" para las reglas de lanzamiento de conjuros. La información siguiente detalla cómo usas esas reglas con los conjuros de Clérigo, que aparecen en la lista de conjuros de Clérigo más adelante en la descripción de la clase.\nTrucos. Conoces tres trucos de tu elección de la lista de conjuros de Clérigo. Se recomiendan Orientación, Llama sagrada y Taumaturgia.\nSiempre que obtengas un nivel de Clérigo, puedes sustituir uno de tus trucos por otro truco de tu elección de la lista de conjuros de Clérigo.\nCuando alcanzas los niveles de Clérigo 4 y 10, aprendes otro truco de tu elección de la lista de conjuros de Clérigo, como se indica en la columna Trucos de la tabla Rasgos de Clérigo.\nEspacios de conjuro. La tabla Rasgos de Clérigo muestra cuántos espacios de conjuro tienes para lanzar tus conjuros de nivel 1 o superior. Recuperas todos los espacios gastados cuando terminas un Descanso largo.\nConjuros preparados de nivel 1 o superior. Preparas la lista de conjuros de nivel 1 o superior que tienes disponibles para lanzar con este rasgo. Para empezar, elige cuatro conjuros de nivel 1 de la lista de conjuros de Clérigo. Se recomiendan Bendición, Curar heridas, Saeta guía y Escudo de la fe.\nEl número de conjuros de tu lista aumenta a medida que obtienes niveles de Clérigo, como se indica en la columna Conjuros preparados de la tabla Rasgos de Clérigo. Siempre que ese número aumente, elige conjuros adicionales de la lista de conjuros de Clérigo hasta que el número de conjuros de tu lista coincida con el de la tabla. Los conjuros elegidos deben ser de un nivel para el que tengas espacios de conjuro. Por ejemplo, si eres un Clérigo de nivel 3, tu lista de conjuros preparados puede incluir seis conjuros de niveles 1 y 2 en cualquier combinación.\nSi otro rasgo de Clérigo te da conjuros que siempre tienes preparados, esos conjuros no cuentan para el número de conjuros que puedes preparar con este rasgo, pero por lo demás cuentan como conjuros de Clérigo para ti.\nCambiar tus conjuros preparados. Siempre que termines un Descanso largo, puedes cambiar tu lista de conjuros preparados, sustituyendo cualquiera de los conjuros por otros conjuros de Clérigo para los que tengas espacios de conjuro.\nAptitud mágica. Sabiduría es tu aptitud mágica para tus conjuros de Clérigo.\nFoco para lanzar conjuros. Puedes usar un Símbolo sagrado como Foco para lanzar conjuros de Clérigo."
+ },
+ "cleric-divine-order": {
+  "name": "Orden divina",
+  "text": "Te has dedicado a uno de los siguientes roles sagrados de tu elección.\nProtector. Entrenado para el combate, obtienes competencia con armas marciales y entrenamiento con armadura pesada.\nTaumaturgo. Conoces un truco adicional de la lista de conjuros de Clérigo. Además, tu conexión mística con lo divino te da una bonificación a tus pruebas de Inteligencia (Arcanos o Religión). La bonificación es igual a tu modificador de Sabiduría (mínimo de +1)."
+ },
+ "cleric-channel-divinity": {
+  "name": "Canalizar divinidad",
+  "text": "Puedes canalizar energía divina directamente desde los Planos Exteriores para alimentar efectos mágicos. Empiezas con dos de esos efectos: Chispa divina y Expulsar muertos vivientes, cada uno de los cuales se describe a continuación. Cada vez que uses el Canalizar divinidad de esta clase, elige qué efecto de Canalizar divinidad de esta clase quieres crear. Obtienes opciones de efecto adicionales en niveles de Clérigo superiores.\nPuedes usar el Canalizar divinidad de esta clase dos veces. Recuperas uno de sus usos gastados cuando terminas un Descanso corto y recuperas todos los usos gastados cuando terminas un Descanso largo. Obtienes usos adicionales cuando alcanzas ciertos niveles de Clérigo, como se indica en la columna Canalizar divinidad de la tabla Rasgos de Clérigo.\nSi un efecto de Canalizar divinidad requiere una tirada de salvación, la CD es igual a la CD de salvación de conjuros del rasgo Lanzamiento de conjuros de esta clase.\nChispa divina. Como acción de Magia, apuntas tu Símbolo sagrado a otra criatura que puedas ver a 9 m o menos de ti y concentras energía divina sobre ella.\nTira 1d8 y suma tu modificador de Sabiduría. O bien restauras a la criatura puntos de golpe iguales a ese total, o bien la obligas a realizar una tirada de salvación de Constitución. Si falla la salvación, la criatura sufre daño necrótico o radiante (a tu elección) igual a ese total. Si tiene éxito, la criatura sufre la mitad de ese daño (redondeado hacia abajo).\nTiras un d8 adicional cuando alcanzas los niveles de Clérigo 7 (2d8), 13 (3d8) y 18 (4d8).\nExpulsar muertos vivientes. Como acción de Magia, presentas tu Símbolo sagrado y reprendes a las criaturas Muertos vivientes. Cada Muerto viviente de tu elección a 9 m o menos de ti debe realizar una tirada de salvación de Sabiduría. Si la criatura falla la salvación, tiene los estados Asustado e Incapacitado durante 1 minuto. Mientras dure, intenta alejarse de ti tanto como pueda en sus turnos. Este efecto termina antes de tiempo sobre la criatura si sufre cualquier daño, si tienes el estado Incapacitado o si mueres."
+ },
+ "cleric-subclass": {
+  "name": "Subclase de Clérigo",
+  "text": "Obtienes una subclase de Clérigo de tu elección. Una subclase es una especialización que te otorga rasgos en ciertos niveles de Clérigo. Durante el resto de tu carrera, obtienes cada uno de los rasgos de tu subclase que sean de tu nivel de Clérigo o inferior."
+ },
+ "cleric-ability-score-improvement": {
+  "name": "Mejora de característica",
+  "text": "Obtienes la dote Mejora de característica (véase \"Dotes\") u otra dote de tu elección para la que cumplas los requisitos. Obtienes este rasgo de nuevo en los niveles de Clérigo 8, 12 y 16."
+ },
+ "cleric-sear-undead": {
+  "name": "Abrasar muertos vivientes",
+  "text": "Siempre que uses Expulsar muertos vivientes, puedes tirar un número de d8 igual a tu modificador de Sabiduría (mínimo 1d8) y sumar las tiradas. Cada Muerto viviente que falle su tirada de salvación contra ese uso de Expulsar muertos vivientes sufre daño radiante igual al total de la tirada. Este daño no pone fin al efecto de expulsión."
+ },
+ "cleric-blessed-strikes": {
+  "name": "Golpes bendecidos",
+  "text": "El poder divino te infunde en la batalla. Obtienes una de las siguientes opciones a tu elección (si obtienes cualquiera de las dos opciones de una subclase de Clérigo de un libro anterior, usa solo la opción que elijas para este rasgo).\nGolpe divino. Una vez en cada uno de tus turnos, cuando impactas a una criatura con una tirada de ataque usando un arma, puedes hacer que el objetivo sufra 1d8 de daño necrótico o radiante adicional (a tu elección).\nLanzamiento de conjuros potente. Suma tu modificador de Sabiduría al daño que inflijas con cualquier truco de Clérigo."
+ },
+ "cleric-divine-intervention": {
+  "name": "Intervención divina",
+  "text": "Puedes pedir a tu deidad o panteón que intervenga en tu favor. Como acción de Magia, elige cualquier conjuro de Clérigo de nivel 5 o inferior que no requiera una Reacción para lanzarse. Como parte de la misma acción, lanzas ese conjuro sin gastar un espacio de conjuro ni necesitar componentes materiales. No puedes volver a usar este rasgo hasta que termines un Descanso largo."
+ },
+ "cleric-improved-blessed-strikes": {
+  "name": "Golpes bendecidos mejorados",
+  "text": "La opción que elegiste para Golpes bendecidos se vuelve más poderosa.\nGolpe divino. El daño adicional de tu Golpe divino aumenta a 2d8.\nLanzamiento de conjuros potente. Cuando lanzas un truco de Clérigo e infliges daño con él a una criatura, puedes dar vitalidad a ti mismo o a otra criatura a 18 m o menos de ti, concediéndole una cantidad de puntos de golpe temporales igual al doble de tu modificador de Sabiduría."
+ },
+ "cleric-epic-boon": {
+  "name": "Don épico",
+  "text": "Obtienes una dote de Don épico (véase \"Dotes\") u otra dote de tu elección para la que cumplas los requisitos. Se recomienda el Don del destino."
+ },
+ "cleric-greater-divine-intervention": {
+  "name": "Intervención divina mayor",
+  "text": "Puedes pedir una intervención divina aún más poderosa. Cuando uses tu rasgo Intervención divina, puedes elegir Deseo al seleccionar un conjuro.\nSi lo haces, no puedes volver a usar Intervención divina hasta que termines 2d4 Descansos largos."
+ },
+ "life-disciple-of-life": {
+  "name": "Discípulo de la vida",
+  "text": "Cuando un conjuro que lanzas con un espacio de conjuro restaura puntos de golpe a una criatura, esa criatura recupera puntos de golpe adicionales en el turno en que lanzas el conjuro. Los puntos de golpe adicionales son iguales a 2 más el nivel del espacio de conjuro."
+ },
+ "life-domain-spells": {
+  "name": "Conjuros del Dominio de la Vida",
+  "text": "Tu conexión con este dominio divino te asegura tener siempre ciertos conjuros listos. Cuando alcanzas un nivel de Clérigo especificado en la tabla Conjuros del Dominio de la Vida, a partir de entonces siempre tienes preparados los conjuros indicados.\nConjuros del Dominio de la Vida\nNivel de Clérigo | Conjuros preparados\n3 | Auxilio, Bendición, Curar heridas, Restablecimiento menor\n5 | Palabra curativa en masa, Revivificar\n7 | Aura de vida, Custodia contra la muerte\n9 | Restablecimiento mayor, Curar heridas en masa"
+ },
+ "life-preserve-life": {
+  "name": "Preservar la vida",
+  "text": "Como acción de Magia, presentas tu Símbolo sagrado y gastas un uso de tu Canalizar divinidad para evocar energía curativa que puede restaurar una cantidad de puntos de golpe igual a cinco veces tu nivel de Clérigo. Elige criaturas Ensangrentadas a 9 m o menos de ti (lo que puede incluirte a ti) y reparte esos puntos de golpe entre ellas. Este rasgo no puede restaurar a una criatura más allá de la mitad de su máximo de puntos de golpe."
+ },
+ "life-blessed-healer": {
+  "name": "Sanador bendecido",
+  "text": "Los conjuros de curación que lanzas sobre otros también te curan a ti. Inmediatamente después de lanzar un conjuro con un espacio de conjuro que restaure puntos de golpe a una o más criaturas distintas de ti, recuperas puntos de golpe iguales a 2 más el nivel del espacio de conjuro."
+ },
+ "life-supreme-healing": {
+  "name": "Curación suprema",
+  "text": "Cuando normalmente tirarías uno o más dados para restaurar puntos de golpe a una criatura con un conjuro o con Canalizar divinidad, no tires esos dados para la curación; en su lugar, usa el número más alto posible de cada dado. Por ejemplo, en lugar de restaurar 2d6 puntos de golpe a una criatura con un conjuro, restauras 12."
+ },
+ "druid-spellcasting": {
+  "name": "Lanzamiento de conjuros",
+  "text": "Has aprendido a lanzar conjuros estudiando las fuerzas místicas de la naturaleza. Consulta \"Conjuros\" para las reglas de lanzamiento de conjuros. La información siguiente detalla cómo usas esas reglas con los conjuros de Druida, que aparecen en la lista de conjuros de Druida más adelante en la descripción de la clase.\nTrucos. Conoces dos trucos de tu elección de la lista de conjuros de Druida. Se recomiendan Druidismo y Producir llama.\nSiempre que obtengas un nivel de Druida, puedes sustituir uno de tus trucos por otro truco de tu elección de la lista de conjuros de Druida.\nCuando alcanzas los niveles de Druida 4 y 10, aprendes otro truco de tu elección de la lista de conjuros de Druida, como se indica en la columna Trucos de la tabla Rasgos de Druida.\nEspacios de conjuro. La tabla Rasgos de Druida muestra cuántos espacios de conjuro tienes para lanzar tus conjuros de nivel 1 o superior. Recuperas todos los espacios gastados cuando terminas un Descanso largo.\nConjuros preparados de nivel 1 o superior. Preparas la lista de conjuros de nivel 1 o superior que tienes disponibles para lanzar con este rasgo. Para empezar, elige cuatro conjuros de nivel 1 de la lista de conjuros de Druida. Se recomiendan Amistad con los animales, Curar heridas, Fuego feérico y Onda atronadora.\nEl número de conjuros de tu lista aumenta a medida que obtienes niveles de Druida, como se indica en la columna Conjuros preparados de la tabla Rasgos de Druida. Siempre que ese número aumente, elige conjuros adicionales de la lista de conjuros de Druida hasta que el número de conjuros de tu lista coincida con el de la tabla. Los conjuros elegidos deben ser de un nivel para el que tengas espacios de conjuro. Por ejemplo, si eres un Druida de nivel 3, tu lista de conjuros preparados puede incluir seis conjuros de niveles 1 y 2 en cualquier combinación.\nSi otro rasgo de Druida te da conjuros que siempre tienes preparados, esos conjuros no cuentan para el número de conjuros que puedes preparar con este rasgo, pero por lo demás cuentan como conjuros de Druida para ti.\nCambiar tus conjuros preparados. Siempre que termines un Descanso largo, puedes cambiar tu lista de conjuros preparados, sustituyendo cualquiera de los conjuros por otros conjuros de Druida para los que tengas espacios de conjuro.\nAptitud mágica. Sabiduría es tu aptitud mágica para tus conjuros de Druida.\nFoco para lanzar conjuros. Puedes usar un Foco druídico como Foco para lanzar conjuros de Druida."
+ },
+ "druid-druidic": {
+  "name": "Druídico",
+  "text": "Conoces el druídico, el idioma secreto de los Druidas. Mientras aprendías esta lengua ancestral, también desbloqueaste la magia de comunicarte con los animales; siempre tienes preparado el conjuro Hablar con los animales.\nPuedes usar el druídico para dejar mensajes ocultos. Tú y los demás que conozcan el druídico detectáis automáticamente un mensaje así. Los demás detectan la presencia del mensaje con una prueba de Inteligencia (Investigación) con CD 15 exitosa, pero no pueden descifrarlo sin magia."
+ },
+ "druid-primal-order": {
+  "name": "Orden primigenio",
+  "text": "Te has dedicado a uno de los siguientes roles sagrados de tu elección.\nMago. Conoces un truco adicional de la lista de conjuros de Druida. Además, tu conexión mística con la naturaleza te da una bonificación a tus pruebas de Inteligencia (Arcanos o Naturaleza). La bonificación es igual a tu modificador de Sabiduría (bonificación mínima de +1).\nGuardián. Entrenado para el combate, obtienes competencia con armas marciales y entrenamiento con armadura intermedia."
+ },
+ "druid-wild-shape": {
+  "name": "Forma salvaje",
+  "text": "El poder de la naturaleza te permite adoptar la forma de un animal. Como Acción adicional, cambias de forma a una forma de Bestia que hayas aprendido para este rasgo (véase \"Formas conocidas\" más abajo). Permaneces en esa forma durante un número de horas igual a la mitad de tu nivel de Druida o hasta que uses Forma salvaje de nuevo, tengas el estado Incapacitado o mueras. También puedes abandonar la forma antes de tiempo como Acción adicional.\nNúmero de usos. Puedes usar Forma salvaje dos veces. Recuperas un uso gastado cuando terminas un Descanso corto y recuperas todos los usos gastados cuando terminas un Descanso largo.\nObtienes usos adicionales cuando alcanzas ciertos niveles de Druida, como se indica en la columna Forma salvaje de la tabla Rasgos de Druida.\nFormas conocidas. Conoces cuatro formas de Bestia para este rasgo, elegidas entre los bloques de estadísticas de Bestia que tengan un Valor de desafío máximo de 1/4 y que carezcan de Velocidad volando (véase \"Animales\" en \"Monstruos\" para opciones de bloques de estadísticas). Se recomiendan la Rata, el Caballo de monta, la Araña y el Lobo. Siempre que termines un Descanso largo, puedes sustituir una de tus formas conocidas por otra forma que cumpla los requisitos.\nCuando alcanzas ciertos niveles de Druida, aumentan tu número de formas conocidas y el Valor de desafío máximo de esas formas, como se indica en la tabla Formas de Bestia. Además, a partir del nivel 8, puedes adoptar una forma que tenga Velocidad volando.\nAl elegir las formas conocidas, puedes buscar Bestias que cumplan los requisitos en otras fuentes si el DJ te lo permite.\n\nFormas de Bestia\nNivel de Druida / Formas conocidas / VD máx. / Velocidad volando\n2 / 4 / 1/4 / No\n4 / 6 / 1/2 / No\n8 / 8 / 1 / Sí\n\nReglas mientras estás transformado. Mientras estás en una forma, conservas tu personalidad, tus recuerdos y tu capacidad de hablar, y se aplican las reglas siguientes:\nPuntos de golpe temporales. Cuando adoptas una forma de Forma salvaje, obtienes una cantidad de puntos de golpe temporales igual a tu nivel de Druida.\nEstadísticas de juego. Tus estadísticas de juego se sustituyen por el bloque de estadísticas de la Bestia, pero conservas tu tipo de criatura; puntos de golpe; dados de golpe; puntuaciones de Inteligencia, Sabiduría y Carisma; rasgos de clase; idiomas; y dotes. También conservas tus competencias en habilidades y tiradas de salvación y usas tu bonificador por competencia para ellas, además de obtener las competencias de la criatura. Si un modificador de habilidad o de tirada de salvación del bloque de estadísticas de la Bestia es superior al tuyo, usa el del bloque de estadísticas.\nSin lanzamiento de conjuros. No puedes lanzar conjuros, pero cambiar de forma no rompe tu Concentración ni interfiere de ningún otro modo con un conjuro que ya hayas lanzado.\nObjetos. Tu capacidad para manipular objetos viene determinada por las extremidades de la forma y no por las tuyas. Además, eliges si tu equipo cae en tu espacio, se fusiona con tu nueva forma o es llevado por ella. El equipo llevado funciona con normalidad, pero el DJ decide si es práctico que la nueva forma lleve una pieza de equipo en función del tamaño y la forma de la criatura. Tu equipo no cambia de tamaño ni de forma para adaptarse a la nueva forma, y todo el equipo que la nueva forma no pueda llevar debe caer al suelo o fusionarse con la forma. El equipo que se fusiona con la forma no tiene efecto mientras estés en esa forma."
+ },
+ "druid-wild-companion": {
+  "name": "Compañero salvaje",
+  "text": "Puedes invocar a un espíritu de la naturaleza que adopta forma animal para ayudarte. Como acción de Magia, puedes gastar un espacio de conjuro o un uso de Forma salvaje para lanzar el conjuro Encontrar familiar sin componentes materiales.\nCuando lanzas el conjuro de esta manera, el familiar es Feérico y desaparece cuando terminas un Descanso largo."
+ },
+ "druid-subclass": {
+  "name": "Subclase de Druida",
+  "text": "Obtienes una subclase de Druida de tu elección. Una subclase es una especialización que te otorga rasgos en ciertos niveles de Druida. Durante el resto de tu carrera, obtienes cada uno de los rasgos de tu subclase que sean de tu nivel de Druida o inferior."
+ },
+ "druid-ability-score-improvement": {
+  "name": "Mejora de característica",
+  "text": "Obtienes la dote Mejora de característica (véase \"Dotes\") u otra dote de tu elección para la que cumplas los requisitos. Obtienes este rasgo de nuevo en los niveles de Druida 8, 12 y 16."
+ },
+ "druid-wild-resurgence": {
+  "name": "Resurgir salvaje",
+  "text": "Una vez en cada uno de tus turnos, si no te quedan usos de Forma salvaje, puedes darte uno gastando un espacio de conjuro (sin necesidad de acción).\nAdemás, puedes gastar un uso de Forma salvaje (sin necesidad de acción) para darte un espacio de conjuro de nivel 1, pero no puedes volver a hacerlo hasta que termines un Descanso largo."
+ },
+ "druid-elemental-fury": {
+  "name": "Furia elemental",
+  "text": "El poder de los elementos fluye a través de ti. Obtienes una de las siguientes opciones a tu elección.\nLanzamiento de conjuros potente. Suma tu modificador de Sabiduría al daño que inflijas con cualquier truco de Druida.\nGolpe primigenio. Una vez en cada uno de tus turnos, cuando impactas a una criatura con una tirada de ataque usando un arma o el ataque de una forma de Bestia en Forma salvaje, puedes hacer que el objetivo sufra 1d8 de daño de frío, fuego, relámpago o trueno adicional (elige al impactar)."
+ },
+ "druid-improved-elemental-fury": {
+  "name": "Furia elemental mejorada",
+  "text": "La opción que elegiste para Furia elemental se vuelve más poderosa, como se detalla a continuación.\nLanzamiento de conjuros potente. Cuando lanzas un truco de Druida con un alcance de 3 m o más, el alcance del conjuro aumenta en 90 m.\nGolpe primigenio. El daño adicional de tu Golpe primigenio aumenta a 2d8."
+ },
+ "druid-beast-spells": {
+  "name": "Conjuros de Bestia",
+  "text": "Mientras usas Forma salvaje, puedes lanzar conjuros en forma de Bestia, excepto aquellos que tengan un componente material con un coste especificado o que consuman su componente material."
+ },
+ "druid-epic-boon": {
+  "name": "Don épico",
+  "text": "Obtienes una dote de Don épico (véase \"Dotes\") u otra dote de tu elección para la que cumplas los requisitos. Se recomienda el Don de viaje dimensional."
+ },
+ "druid-archdruid": {
+  "name": "Archidruida",
+  "text": "La vitalidad de la naturaleza florece constantemente en tu interior, otorgándote los siguientes beneficios.\nForma salvaje perenne. Siempre que tires Iniciativa y no te queden usos de Forma salvaje, recuperas un uso gastado.\nMago de la naturaleza. Puedes convertir usos de Forma salvaje en un espacio de conjuro (sin necesidad de acción). Elige un número de tus usos no gastados de Forma salvaje y conviértelos en un único espacio de conjuro, aportando cada uso 2 niveles de conjuro. Por ejemplo, si conviertes dos usos de Forma salvaje, produces un espacio de conjuro de nivel 4. Una vez que uses este beneficio, no puedes volver a hacerlo hasta que termines un Descanso largo.\nLongevidad. La magia primigenia que manejas hace que envejezcas más despacio. Por cada diez años que pasan, tu cuerpo envejece solo uno."
+ },
+ "land-circle-of-the-land-spells": {
+  "name": "Conjuros del Círculo de la Tierra",
+  "text": "Siempre que termines un Descanso largo, elige un tipo de terreno: árido, polar, templado o tropical. Consulta la tabla siguiente que corresponda al tipo elegido; tienes preparados los conjuros indicados para tu nivel de Druida y los inferiores.\nTerreno árido\nNivel de Druida / Conjuros del círculo\n3 / Desplazamiento borroso, Manos ardientes, Descarga de fuego\n5 / Bola de fuego\n7 / Plaga\n9 / Muro de piedra\n\nTerreno polar\nNivel de Druida / Conjuros del círculo\n3 / Nube de niebla, Inmovilizar persona\n5 / Tormenta de aguanieve\n7 / Tormenta de hielo\n9 / Cono de frío\n\nTerreno templado\nNivel de Druida / Conjuros del círculo\n3 / Paso brumoso\n5 / Relámpago\n7 / Libertad de movimiento\n9 / Zancada arbórea\n\nTerreno tropical\nNivel de Druida / Conjuros del círculo\n3 / Salpicadura ácida, Rayo de enfermedad, Telaraña\n5 / Nube apestosa\n7 / Polimorfar\n9 / Plaga de insectos"
+ },
+ "land-lands-aid": {
+  "name": "Ayuda de la tierra",
+  "text": "Como acción de Magia, puedes gastar un uso de tu Forma salvaje y elegir un punto a 18 m o menos de ti. Durante un instante aparecen flores que dan vitalidad y espinas que drenan la vida en una Esfera de 3 m de radio centrada en ese punto. Cada criatura de tu elección en la Esfera debe realizar una tirada de salvación de Constitución contra tu CD de salvación de conjuros; si falla, sufre 2d6 de daño necrótico y, si tiene éxito, la mitad de ese daño. Una criatura de tu elección en esa zona recupera 2d6 puntos de golpe.\nEl daño y la curación aumentan en 1d6 cuando alcanzas los niveles de Druida 10 (3d6) y 14 (4d6)."
+ },
+ "land-natural-recovery": {
+  "name": "Recuperación natural",
+  "text": "Puedes lanzar uno de los conjuros de nivel 1 o superior que tengas preparados gracias a tu rasgo Conjuros del Círculo sin gastar un espacio de conjuro, y debes terminar un Descanso largo antes de volver a hacerlo.\nAdemás, cuando terminas un Descanso corto, puedes elegir espacios de conjuro gastados para recuperarlos. Los espacios de conjuro pueden tener un nivel combinado igual o inferior a la mitad de tu nivel de Druida (redondeado hacia arriba), y ninguno de ellos puede ser de nivel 6 o superior. Por ejemplo, si eres un Druida de nivel 6, puedes recuperar hasta tres niveles de espacios de conjuro: un espacio de nivel 3, un espacio de nivel 2 y uno de nivel 1, o tres espacios de nivel 1. Una vez que recuperes espacios de conjuro con este rasgo, no puedes volver a hacerlo hasta que termines un Descanso largo."
+ },
+ "land-natures-ward": {
+  "name": "Custodia de la naturaleza",
+  "text": "Eres inmune al estado Envenenado y tienes Resistencia a un tipo de daño asociado a tu elección actual de terreno en el rasgo Conjuros del Círculo, como se indica en la tabla Custodia de la naturaleza.\n\nCustodia de la naturaleza\nTipo de terreno / Resistencia\nÁrido / Fuego\nPolar / Frío\nTemplado / Relámpago\nTropical / Veneno"
+ },
+ "land-natures-sanctuary": {
+  "name": "Santuario de la naturaleza",
+  "text": "Como acción de Magia, puedes gastar un uso de tu Forma salvaje y hacer que aparezcan árboles y enredaderas espectrales en un Cubo de 4,5 m sobre el suelo a 36 m o menos de ti. Permanecen allí durante 1 minuto o hasta que tengas el estado Incapacitado o mueras. Tú y tus aliados tenéis Media cobertura mientras estáis en esa zona, y tus aliados obtienen allí la Resistencia actual de tu Custodia de la naturaleza.\nComo Acción adicional, puedes mover el Cubo hasta 18 m a un terreno a 36 m o menos de ti."
+ },
+ "fighter-fighting-style": {
+  "name": "Estilo de combate",
+  "text": "Has perfeccionado tu destreza marcial y obtienes una dote de Estilo de combate de tu elección (véase \"Dotes\"). Se recomienda Defensa.\nSiempre que obtengas un nivel de Guerrero, puedes sustituir la dote que elegiste por una dote de Estilo de combate diferente."
+ },
+ "fighter-second-wind": {
+  "name": "Tomar aliento",
+  "text": "Tienes una reserva limitada de resistencia física y mental a la que puedes recurrir. Como Acción adicional, puedes usarla para recuperar puntos de golpe iguales a 1d10 más tu nivel de Guerrero.\nPuedes usar este rasgo dos veces. Recuperas un uso gastado cuando terminas un Descanso corto y recuperas todos los usos gastados cuando terminas un Descanso largo.\nCuando alcanzas ciertos niveles de Guerrero, obtienes más usos de este rasgo, como se indica en la columna Tomar aliento de la tabla Rasgos de Guerrero."
+ },
+ "fighter-weapon-mastery": {
+  "name": "Maestría con armas",
+  "text": "Tu entrenamiento con las armas te permite usar las propiedades de maestría de tres tipos de armas simples o marciales a tu elección. Cada vez que termines un Descanso largo, puedes practicar ejercicios con armas y cambiar una de esas elecciones.\nCuando alcanzas ciertos niveles de Guerrero, obtienes la capacidad de usar las propiedades de maestría de más tipos de armas, como se indica en la columna Maestría con armas de la tabla Rasgos de Guerrero."
+ },
+ "fighter-action-surge": {
+  "name": "Oleada de acción",
+  "text": "Puedes forzarte más allá de tus límites normales por un momento. En tu turno, puedes realizar una acción adicional, salvo la acción de Magia.\nUna vez que uses este rasgo, no puedes volver a hacerlo hasta que termines un Descanso corto o largo. A partir del nivel 17, puedes usarlo dos veces antes de un descanso, pero solo una vez por turno."
+ },
+ "fighter-tactical-mind": {
+  "name": "Mente táctica",
+  "text": "Tienes una mente para la táctica dentro y fuera del campo de batalla. Cuando fallas una prueba de característica, puedes gastar un uso de Tomar aliento para impulsarte hacia el éxito. En lugar de recuperar puntos de golpe, tiras 1d10 y sumas el número obtenido a la prueba de característica, lo que podría convertirla en un éxito. Si la prueba aun así falla, este uso de Tomar aliento no se gasta."
+ },
+ "fighter-subclass": {
+  "name": "Subclase de Guerrero",
+  "text": "Obtienes una subclase de Guerrero de tu elección. Una subclase es una especialización que te otorga rasgos en ciertos niveles de Guerrero. Durante el resto de tu carrera, obtienes cada uno de los rasgos de tu subclase que sean de tu nivel de Guerrero o inferior."
+ },
+ "fighter-ability-score-improvement": {
+  "name": "Mejora de característica",
+  "text": "Obtienes la dote Mejora de característica (véase \"Dotes\") u otra dote de tu elección para la que cumplas los requisitos. Obtienes este rasgo de nuevo en los niveles de Guerrero 6, 8, 12, 14 y 16."
+ },
+ "fighter-extra-attack": {
+  "name": "Ataque adicional",
+  "text": "Puedes atacar dos veces, en lugar de una, siempre que realices la acción de Ataque en tu turno."
+ },
+ "fighter-tactical-shift": {
+  "name": "Cambio táctico",
+  "text": "Siempre que actives tu Tomar aliento con una Acción adicional, puedes moverte hasta la mitad de tu Velocidad sin provocar Ataques de oportunidad."
+ },
+ "fighter-indomitable": {
+  "name": "Indomable",
+  "text": "Si fallas una tirada de salvación, puedes repetirla con una bonificación igual a tu nivel de Guerrero. Debes usar la nueva tirada y no puedes volver a usar este rasgo hasta que termines un Descanso largo.\nPuedes usar este rasgo dos veces antes de un Descanso largo a partir del nivel 13 y tres veces antes de un Descanso largo a partir del nivel 17."
+ },
+ "fighter-tactical-master": {
+  "name": "Maestro táctico",
+  "text": "Cuando atacas con un arma cuya propiedad de maestría puedes usar, puedes sustituir esa propiedad por la propiedad Empujar, Debilitar o Ralentizar para ese ataque."
+ },
+ "fighter-two-extra-attacks": {
+  "name": "Dos ataques adicionales",
+  "text": "Puedes atacar tres veces, en lugar de una, siempre que realices la acción de Ataque en tu turno."
+ },
+ "fighter-studied-attacks": {
+  "name": "Ataques estudiados",
+  "text": "Estudias a tus oponentes y aprendes de cada ataque que realizas. Si realizas una tirada de ataque contra una criatura y fallas, tienes Ventaja en tu siguiente tirada de ataque contra esa criatura antes del final de tu siguiente turno."
+ },
+ "fighter-epic-boon": {
+  "name": "Don épico",
+  "text": "Obtienes una dote de Don épico (véase \"Dotes\") u otra dote de tu elección para la que cumplas los requisitos. Se recomienda el Don de destreza en combate."
+ },
+ "fighter-three-extra-attacks": {
+  "name": "Tres ataques adicionales",
+  "text": "Puedes atacar cuatro veces, en lugar de una, siempre que realices la acción de Ataque en tu turno."
+ },
+ "champion-improved-critical": {
+  "name": "Crítico mejorado",
+  "text": "Tus tiradas de ataque con armas y Ataques sin armas pueden conseguir un Impacto crítico con un resultado de 19 o 20 en el d20."
+ },
+ "champion-remarkable-athlete": {
+  "name": "Atleta extraordinario",
+  "text": "Gracias a tu atletismo, tienes Ventaja en las tiradas de Iniciativa y en las pruebas de Fuerza (Atletismo).\nAdemás, inmediatamente después de conseguir un Impacto crítico, puedes moverte hasta la mitad de tu Velocidad sin provocar Ataques de oportunidad."
+ },
+ "champion-additional-fighting-style": {
+  "name": "Estilo de combate adicional",
+  "text": "Obtienes otra dote de Estilo de combate de tu elección."
+ },
+ "champion-heroic-warrior": {
+  "name": "Guerrero heroico",
+  "text": "La emoción del combate te impulsa hacia la victoria. Durante el combate, puedes concederte Inspiración heroica siempre que comiences tu turno sin ella."
+ },
+ "champion-superior-critical": {
+  "name": "Crítico superior",
+  "text": "Tus tiradas de ataque con armas y Ataques sin armas ahora pueden conseguir un Impacto crítico con un resultado de 18-20 en el d20."
+ },
+ "champion-survivor": {
+  "name": "Superviviente",
+  "text": "Alcanzas la cima de la resistencia en combate, lo que te otorga estos beneficios.\nDesafiar a la muerte. Tienes Ventaja en las Tiradas de salvación contra muerte. Además, cuando sacas 18-20 en una Tirada de salvación contra muerte, obtienes el beneficio de haber sacado un 20.\nReagrupamiento heroico. Al comienzo de cada uno de tus turnos, recuperas puntos de golpe iguales a 5 más tu modificador de Constitución si estás Ensangrentado y tienes al menos 1 punto de golpe."
+ },
+ "monk-martial-arts": {
+  "name": "Artes marciales",
+  "text": "Tu práctica de las artes marciales te da maestría en estilos de combate que usan tu Ataque sin armas y las armas de Monje, que son las siguientes:\n• Armas simples cuerpo a cuerpo\n• Armas marciales cuerpo a cuerpo que tengan la propiedad Ligera\nObtienes los siguientes beneficios mientras estás desarmado o empuñas solo armas de Monje y no llevas armadura ni empuñas un Escudo.\nAtaque sin armas adicional. Puedes realizar un Ataque sin armas como Acción adicional.\nDado de artes marciales. Puedes tirar 1d6 en lugar del daño normal de tu Ataque sin armas o de las armas de Monje. Este dado cambia a medida que obtienes niveles de Monje, como se indica en la columna Artes marciales de la tabla Rasgos de Monje.\nAtaques diestros. Puedes usar tu modificador de Destreza en lugar de tu modificador de Fuerza para las tiradas de ataque y de daño de tus Ataques sin armas y de las armas de Monje. Además, cuando uses la opción de Agarrar o Empujar de tu Ataque sin armas, puedes usar tu modificador de Destreza en lugar de tu modificador de Fuerza para determinar la CD de la salvación."
+ },
+ "monk-unarmored-defense": {
+  "name": "Defensa sin armadura",
+  "text": "Mientras no lleves armadura ni empuñes un Escudo, tu Clase de armadura base es igual a 10 más tus modificadores de Destreza y Sabiduría."
+ },
+ "monk-monks-focus": {
+  "name": "Concentración del Monje",
+  "text": "Tu concentración y tu entrenamiento marcial te permiten aprovechar una reserva de energía extraordinaria dentro de ti. Esta energía está representada por los puntos de concentración. Tu nivel de Monje determina el número de puntos que tienes, como se indica en la columna Puntos de concentración de la tabla Rasgos de Monje.\nPuedes gastar estos puntos para potenciar o alimentar ciertos rasgos de Monje. Empiezas conociendo tres de esos rasgos: Ráfaga de golpes, Defensa paciente y Paso del viento, cada uno de los cuales se detalla a continuación.\nCuando gastas un punto de concentración, no está disponible hasta que terminas un Descanso corto o largo, al final del cual recuperas todos tus puntos gastados.\nAlgunos rasgos que usan puntos de concentración requieren que tu objetivo realice una tirada de salvación. La CD de la salvación es igual a 8 más tu modificador de Sabiduría y tu bonificador por competencia.\nRáfaga de golpes. Puedes gastar 1 punto de concentración para realizar dos Ataques sin armas como Acción adicional.\nDefensa paciente. Puedes realizar la acción de Retirarse como Acción adicional. Alternativamente, puedes gastar 1 punto de concentración para realizar tanto la acción de Retirarse como la de Esquivar como Acción adicional.\nPaso del viento. Puedes realizar la acción de Correr como Acción adicional. Alternativamente, puedes gastar 1 punto de concentración para realizar tanto la acción de Retirarse como la de Correr como Acción adicional, y tu distancia de salto se duplica durante el turno."
+ },
+ "monk-unarmored-movement": {
+  "name": "Movimiento sin armadura",
+  "text": "Tu Velocidad aumenta 3 m mientras no lleves armadura ni empuñes un Escudo. Esta bonificación aumenta cuando alcanzas ciertos niveles de Monje, como se indica en la tabla Rasgos de Monje."
+ },
+ "monk-uncanny-metabolism": {
+  "name": "Metabolismo extraordinario",
+  "text": "Cuando tiras Iniciativa, puedes recuperar todos los puntos de concentración gastados. Cuando lo haces, tira tu dado de artes marciales y recupera una cantidad de puntos de golpe igual a tu nivel de Monje más el número obtenido.\nUna vez que uses este rasgo, no puedes volver a usarlo hasta que termines un Descanso largo."
+ },
+ "monk-deflect-attacks": {
+  "name": "Desviar ataques",
+  "text": "Cuando una tirada de ataque te impacta y su daño incluye daño contundente, perforante o cortante, puedes usar una Reacción para reducir el daño total del ataque contra ti. La reducción es igual a 1d10 más tu modificador de Destreza y tu nivel de Monje.\nSi reduces el daño a 0, puedes gastar 1 punto de concentración para redirigir parte de la fuerza del ataque. Si lo haces, elige una criatura que puedas ver a 1,5 m o menos de ti si el ataque fue cuerpo a cuerpo, o una criatura que puedas ver a 18 m o menos de ti y que no esté tras Cobertura total si el ataque fue a distancia. Esa criatura debe superar una tirada de salvación de Destreza o sufrir daño igual a dos tiradas de tu dado de artes marciales más tu modificador de Destreza. El daño es del mismo tipo que el infligido por el ataque."
+ },
+ "monk-subclass": {
+  "name": "Subclase de Monje",
+  "text": "Obtienes una subclase de Monje de tu elección. Una subclase es una especialización que te otorga rasgos en ciertos niveles de Monje. Durante el resto de tu carrera, obtienes cada uno de los rasgos de tu subclase que sean de tu nivel de Monje o inferior."
+ },
+ "monk-ability-score-improvement": {
+  "name": "Mejora de característica",
+  "text": "Obtienes la dote Mejora de característica (véase \"Dotes\") u otra dote de tu elección para la que cumplas los requisitos. Obtienes este rasgo de nuevo en los niveles de Monje 8, 12 y 16."
+ },
+ "monk-slow-fall": {
+  "name": "Caída lenta",
+  "text": "Puedes usar una Reacción cuando caes para reducir cualquier daño que sufras por la caída en una cantidad igual a cinco veces tu nivel de Monje."
+ },
+ "monk-extra-attack": {
+  "name": "Ataque adicional",
+  "text": "Puedes atacar dos veces, en lugar de una, siempre que realices la acción de Ataque en tu turno."
+ },
+ "monk-stunning-strike": {
+  "name": "Golpe aturdidor",
+  "text": "Una vez por turno, cuando impactas a una criatura con un arma de Monje o un Ataque sin armas, puedes gastar 1 punto de concentración para intentar un golpe aturdidor. El objetivo debe realizar una tirada de salvación de Constitución. Si falla, el objetivo tiene el estado Aturdido hasta el comienzo de tu siguiente turno. Si tiene éxito, la Velocidad del objetivo se reduce a la mitad hasta el comienzo de tu siguiente turno, y la siguiente tirada de ataque realizada contra el objetivo antes de entonces tiene Ventaja."
+ },
+ "monk-empowered-strikes": {
+  "name": "Golpes potenciados",
+  "text": "Siempre que infliges daño con tu Ataque sin armas, este puede infligir daño de fuerza o su tipo de daño normal, a tu elección."
+ },
+ "monk-evasion": {
+  "name": "Evasión",
+  "text": "Cuando eres objeto de un efecto que te permite realizar una tirada de salvación de Destreza para sufrir solo la mitad del daño, en cambio no sufres ningún daño si superas la salvación y solo la mitad si la fallas.\nNo te beneficias de este rasgo si tienes el estado Incapacitado."
+ },
+ "monk-acrobatic-movement": {
+  "name": "Movimiento acrobático",
+  "text": "Mientras no lleves armadura ni empuñes un Escudo, obtienes la capacidad de moverte por superficies verticales y sobre líquidos en tu turno sin caer durante el movimiento."
+ }
+}
