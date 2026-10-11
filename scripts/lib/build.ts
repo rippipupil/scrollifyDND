@@ -233,6 +233,21 @@ export function buildFeatures(src: string, es: EsMap): Entry[] {
   );
 }
 
+/** Structured equipment packages: each option is a list of items plus gold. */
+export function equipmentOptions(opts: any[] | undefined) {
+  const first = (opts ?? [])[0];
+  return (first?.from?.options ?? []).map((o: any) => {
+    const parts = o.option_type === 'multiple' ? o.items : [o];
+    const items: { id: string; name: string; qty: number }[] = [];
+    let gold = 0;
+    for (const p of parts) {
+      if (p.option_type === 'counted_reference') items.push({ id: p.of.index, name: p.of.name, qty: p.count ?? 1 });
+      else if (p.option_type === 'money') gold += p.unit === 'gp' ? p.count : 0;
+    }
+    return { items, gold };
+  });
+}
+
 function choiceSummary(choices: any[] | undefined) {
   return (choices ?? []).map((c) => ({
     desc: c.desc,
@@ -281,6 +296,7 @@ export function buildClasses(src: string, es: EsMap): Entry[] {
           proficiencies: ids(k.proficiencies).filter((p) => !p.startsWith('saving-throw')),
           skillChoices: choiceSummary(k.proficiency_choices),
           startingEquipment: (k.starting_equipment_options ?? []).map((o: any) => o.desc),
+          equipmentOptions: equipmentOptions(k.starting_equipment_options),
           casterType: caster.type,
           spellAbility: caster.ability,
           subclasses: ids(k.subclasses),
@@ -397,6 +413,7 @@ export function buildBackgrounds(src: string, es: EsMap): Entry[] {
           skills,
           tools,
           equipment: (b.equipment_options ?? []).map((o: any) => o.desc),
+          equipmentOptions: equipmentOptions(b.equipment_options),
         },
       },
       es,

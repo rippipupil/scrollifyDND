@@ -38,6 +38,7 @@ export const es: Dict = {
   },
   classNames: { barbarian: 'Bárbaro', bard: 'Bardo', cleric: 'Clérigo', druid: 'Druida', fighter: 'Guerrero', monk: 'Monje', paladin: 'Paladín', ranger: 'Explorador', rogue: 'Pícaro', sorcerer: 'Hechicero', warlock: 'Brujo', wizard: 'Mago' },
   rarity: { Common: 'Común', Uncommon: 'Poco común', Rare: 'Rara', 'Very Rare': 'Muy rara', Legendary: 'Legendaria', Artifact: 'Artefacto', Varies: 'Variable' },
+  alignments: { LG: 'Legal bueno', NG: 'Neutral bueno', CG: 'Caótico bueno', LN: 'Legal neutral', N: 'Neutral', CN: 'Caótico neutral', LE: 'Legal malvado', NE: 'Neutral malvado', CE: 'Caótico malvado' },
   sizes: { Tiny: 'Diminuto', Small: 'Pequeño', Medium: 'Mediano', Large: 'Grande', Huge: 'Enorme', Gargantuan: 'Gargantuesco' },
   characters: {
     title: 'Personajes', empty: 'Todavía no tienes personajes. Crea uno o importa una ficha.', create: 'Crear personaje',

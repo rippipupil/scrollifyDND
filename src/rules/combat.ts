@@ -42,7 +42,8 @@ function withMod(dice: string, m: number): string {
 
 function isProficient(c: Character, item: InventoryItem): boolean {
   const w = c.proficiencies.weapons;
-  if (item.ref && w.includes(item.ref)) return true;
+  const refId = item.ref?.split(':').pop();
+  if (refId && (w.includes(refId) || w.includes(`${refId}s`))) return true;
   return item.weapon!.martial ? w.includes('martial') : w.includes('simple');
 }
 

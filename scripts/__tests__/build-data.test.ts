@@ -122,3 +122,13 @@ test('external index has links and facts only', () => {
   expect(sb.external!.wikidot).toBe('http://dnd2024.wikidot.com/spell:silvery-barbs');
   expect(all.external.some((e) => e.name.en === 'Aasimar' && e.category === 'species')).toBe(true);
 });
+
+test('class and background equipment options are structured', () => {
+  const f = all.classes.find((c) => c.id === 'fighter')!;
+  expect(f.data.equipmentOptions).toHaveLength(3);
+  expect(f.data.equipmentOptions[0].items).toContainEqual({ id: 'javelin', name: 'Javelin', qty: 8 });
+  expect(f.data.equipmentOptions[0].gold).toBe(4);
+  expect(f.data.equipmentOptions[2]).toEqual({ items: [], gold: 155 });
+  const soldier = all.backgrounds.find((b) => b.id === 'soldier')!;
+  expect(soldier.data.equipmentOptions[1].gold).toBe(50);
+});
