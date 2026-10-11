@@ -36,6 +36,8 @@ export const en: Dict = {
     species: 'Species', background: 'Backgrounds', feat: 'Feats', condition: 'Conditions', rule: 'Rules', monster: 'Monsters',
     feature: 'Class features', mastery: 'Masteries', 'weapon-property': 'Weapon properties',
   },
+  classNames: { barbarian: 'Barbarian', bard: 'Bard', cleric: 'Cleric', druid: 'Druid', fighter: 'Fighter', monk: 'Monk', paladin: 'Paladin', ranger: 'Ranger', rogue: 'Rogue', sorcerer: 'Sorcerer', warlock: 'Warlock', wizard: 'Wizard' },
+  rarity: { Common: 'Common', Uncommon: 'Uncommon', Rare: 'Rare', 'Very Rare': 'Very Rare', Legendary: 'Legendary', Artifact: 'Artifact', Varies: 'Varies' },
   sizes: { Tiny: 'Tiny', Small: 'Small', Medium: 'Medium', Large: 'Large', Huge: 'Huge', Gargantuan: 'Gargantuan' },
   characters: {
     title: 'Characters', empty: "You don't have any characters yet. Create one or import a sheet.", create: 'Create character',

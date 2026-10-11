@@ -21,12 +21,23 @@ const files: ContentEntry[][] = [
 ];
 
 export const srdEntries: ContentEntry[] = files.flat();
-const byId = new Map(srdEntries.map((e) => [e.id, e]));
+
+/** Globally unique key: ids repeat across categories (e.g. spell "shield" vs equipment "shield"). */
+export function keyOf(e: Pick<ContentEntry, 'category' | 'id'>): string {
+  return `${e.category}:${e.id}`;
+}
+
+const byKey = new Map(srdEntries.map((e) => [keyOf(e), e]));
+const byId = new Map<string, ContentEntry>();
+for (const e of srdEntries) if (!byId.has(e.id)) byId.set(e.id, e);
 const srdIndex = buildIndex(srdEntries);
 
-export function getEntry(id: string | undefined, homebrew: ContentEntry[] = []): ContentEntry | undefined {
-  if (!id) return undefined;
-  return homebrew.find((e) => e.id === id) ?? byId.get(id);
+/** Looks up by "category:id" key, or by bare id (first match) for convenience. */
+export function getEntry(key: string | undefined, homebrew: ContentEntry[] = []): ContentEntry | undefined {
+  if (!key) return undefined;
+  const hb = homebrew.find((e) => keyOf(e) === key || e.id === key);
+  if (hb) return hb;
+  return key.includes(':') ? byKey.get(key) : byId.get(key);
 }
 
 export function allEntries(homebrew: ContentEntry[] = []): ContentEntry[] {

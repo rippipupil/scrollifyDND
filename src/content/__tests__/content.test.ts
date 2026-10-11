@@ -10,3 +10,9 @@ test('homebrew entries are merged and searchable', () => {
   expect(allEntries([hb]).some((e) => e.id === 'hb-aasimar-caido')).toBe(true);
   expect(searchContent('aasimar caido', {}, 'es', [hb])[0].id).toBe('hb-aasimar-caido');
 });
+
+test('keys disambiguate ids shared across categories', () => {
+  expect(getEntry('spell:shield')?.category).toBe('spell');
+  expect(getEntry('equipment:shield')?.category).toBe('equipment');
+  expect(getEntry('magic-item:shield')?.category).toBe('magic-item');
+});
