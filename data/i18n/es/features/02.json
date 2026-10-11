@@ -1,0 +1,302 @@
+{
+ "monk-heightened-focus": {
+  "name": "Concentración intensificada",
+  "text": "Tu Ráfaga de golpes, Defensa paciente y Paso del viento obtienen los siguientes beneficios.\nRáfaga de golpes. Puedes gastar 1 punto de concentración para usar Ráfaga de golpes y realizar con ella tres Ataques sin armas en lugar de dos.\nDefensa paciente. Cuando gastas un punto de concentración para usar Defensa paciente, obtienes una cantidad de puntos de golpe temporales igual a dos tiradas de tu dado de Artes marciales.\nPaso del viento. Cuando gastas un punto de concentración para usar Paso del viento, puedes elegir a una criatura voluntaria de tamaño Grande o más pequeña que esté a 1,5 m o menos de ti. Mueves a la criatura contigo hasta el final de tu turno. El movimiento de la criatura no provoca Ataques de oportunidad."
+ },
+ "monk-self-restoration": {
+  "name": "Autorrestablecimiento",
+  "text": "Gracias a tu pura fuerza de voluntad, puedes eliminar de ti uno de los siguientes estados al final de cada uno de tus turnos: Hechizado, Asustado o Envenenado.\nAdemás, renunciar a la comida y la bebida no te hace obtener niveles de Agotamiento."
+ },
+ "monk-deflect-energy": {
+  "name": "Desviar energía",
+  "text": "Ahora puedes usar tu rasgo Desviar ataques contra ataques que infligen cualquier tipo de daño, no solo contundente, perforante o cortante."
+ },
+ "monk-disciplined-survivor": {
+  "name": "Superviviente disciplinado",
+  "text": "Tu disciplina física y mental te otorga competencia en todas las tiradas de salvación.\nAdemás, siempre que realices una tirada de salvación y falles, puedes gastar 1 punto de concentración para repetirla, y debes usar la nueva tirada."
+ },
+ "monk-perfect-focus": {
+  "name": "Concentración perfecta",
+  "text": "Cuando tiras Iniciativa y no usas Metabolismo extraordinario, recuperas puntos de concentración gastados hasta tener 4 si tienes 3 o menos."
+ },
+ "monk-superior-defense": {
+  "name": "Defensa superior",
+  "text": "Al comienzo de tu turno, puedes gastar 3 puntos de concentración para reforzarte contra el daño durante 1 minuto o hasta que tengas el estado Incapacitado. Durante ese tiempo, tienes Resistencia a todo el daño excepto el daño de fuerza."
+ },
+ "monk-epic-boon": {
+  "name": "Don épico",
+  "text": "Obtienes una dote de Don épico (consulta \"Dotes\") u otra dote de tu elección para la que cumplas los requisitos. Se recomienda Don de ofensiva irresistible."
+ },
+ "monk-body-and-mind": {
+  "name": "Cuerpo y mente",
+  "text": "Has desarrollado tu cuerpo y tu mente hasta nuevas cotas. Tus puntuaciones de Destreza y Sabiduría aumentan en 4, hasta un máximo de 25."
+ },
+ "open-hand-technique": {
+  "name": "Técnica de la mano abierta",
+  "text": "Siempre que impactes a una criatura con un ataque otorgado por tu Ráfaga de golpes, puedes imponer a ese objetivo uno de los siguientes efectos.\nAturdir la mente. El objetivo no puede realizar Ataques de oportunidad hasta el comienzo de su siguiente turno.\nEmpujar. El objetivo debe superar una tirada de salvación de Fuerza o ser empujado hasta 4,5 m lejos de ti.\nDerribar. El objetivo debe superar una tirada de salvación de Destreza o tener el estado Derribado."
+ },
+ "open-hand-wholeness-of-body": {
+  "name": "Integridad corporal",
+  "text": "Obtienes la capacidad de curarte a ti mismo. Como Acción adicional, puedes tirar tu dado de Artes marciales. Recuperas una cantidad de puntos de golpe igual al número obtenido más tu modificador de Sabiduría (mínimo 1 punto de golpe recuperado).\nPuedes usar este rasgo una cantidad de veces igual a tu modificador de Sabiduría (mínimo una vez) y recuperas todos los usos gastados cuando terminas un Descanso largo."
+ },
+ "open-hand-fleet-step": {
+  "name": "Paso veloz",
+  "text": "Cuando realizas una Acción adicional distinta de Paso del viento, también puedes usar Paso del viento inmediatamente después de esa Acción adicional."
+ },
+ "open-hand-quivering-palm": {
+  "name": "Palma vibrante",
+  "text": "Obtienes la capacidad de generar vibraciones letales en el cuerpo de alguien. Cuando impactas a una criatura con un Ataque sin armas, puedes gastar 4 puntos de concentración para iniciar esas vibraciones imperceptibles, que duran una cantidad de días igual a tu nivel de Monje. Las vibraciones son inofensivas a menos que realices una acción para ponerles fin. Alternativamente, cuando realizas la acción de Ataque en tu turno, puedes renunciar a uno de los ataques para ponerles fin. Para ello, tú y el objetivo debéis estar en el mismo plano de existencia. Cuando les pones fin, el objetivo debe realizar una tirada de salvación de Constitución y sufre 10d12 de daño de fuerza si falla la tirada, o la mitad de ese daño si la supera.\nSolo puedes tener a una criatura bajo el efecto de este rasgo a la vez. Puedes poner fin a las vibraciones de forma inofensiva (no requiere acción)."
+ },
+ "paladin-lay-on-hands": {
+  "name": "Imposición de manos",
+  "text": "Tu toque bendito puede curar heridas. Tienes una reserva de poder curativo que se repone cuando terminas un Descanso largo. Con esa reserva, puedes restablecer un total de puntos de golpe igual a cinco veces tu nivel de Paladín.\nComo Acción adicional, puedes tocar a una criatura (que puedes ser tú mismo) y extraer poder de la reserva de curación para restablecerle una cantidad de puntos de golpe, hasta el máximo que quede en la reserva.\nTambién puedes gastar 5 puntos de golpe de la reserva de poder curativo para eliminar el estado Envenenado de la criatura; esos puntos no restablecen además puntos de golpe a la criatura."
+ },
+ "paladin-spellcasting": {
+  "name": "Lanzamiento de conjuros",
+  "text": "Has aprendido a lanzar conjuros mediante la oración y la meditación. Consulta \"Conjuros\" para las reglas de lanzamiento de conjuros. La información siguiente detalla cómo usas esas reglas con los conjuros de Paladín, que aparecen en la lista de conjuros de Paladín más adelante en la descripción de la clase.\nEspacios de conjuro. La tabla Rasgos del Paladín muestra cuántos espacios de conjuro tienes para lanzar tus conjuros de nivel 1 o superior. Recuperas todos los espacios gastados cuando terminas un Descanso largo.\nConjuros preparados de nivel 1 o superior. Preparas la lista de conjuros de nivel 1 o superior que tienes disponibles para lanzar con este rasgo. Para empezar, elige dos conjuros de Paladín de nivel 1. Se recomiendan _Heroísmo_ y _Castigo abrasador_.\nEl número de conjuros de tu lista aumenta a medida que ganas niveles de Paladín, como se muestra en la columna Conjuros preparados de la tabla Rasgos del Paladín. Siempre que ese número aumente, elige conjuros de Paladín adicionales hasta que el número de conjuros de tu lista coincida con el de la tabla Rasgos del Paladín. Los conjuros elegidos deben ser de un nivel para el que tengas espacios de conjuro. Por ejemplo, si eres un Paladín de nivel 5, tu lista de conjuros preparados puede incluir seis conjuros de Paladín de nivel 1 o 2 en cualquier combinación.\nSi otro rasgo de Paladín te otorga conjuros que siempre tienes preparados, esos conjuros no cuentan para el número de conjuros que puedes preparar con este rasgo, pero por lo demás cuentan como conjuros de Paladín para ti.\nCambiar tus conjuros preparados. Siempre que termines un Descanso largo, puedes sustituir un conjuro de tu lista por otro conjuro de Paladín para el que tengas espacios de conjuro.\nAptitud mágica. Carisma es tu aptitud mágica para tus conjuros de Paladín.\nFoco para lanzar conjuros. Puedes usar un Símbolo sagrado como foco para lanzar conjuros de Paladín."
+ },
+ "paladin-weapon-mastery": {
+  "name": "Maestría con armas",
+  "text": "Tu entrenamiento con armas te permite usar las propiedades de maestría de dos tipos de armas de tu elección con las que tengas competencia, como las espadas largas y las jabalinas.\nSiempre que termines un Descanso largo, puedes cambiar los tipos de armas que elegiste. Por ejemplo, podrías pasar a usar las propiedades de maestría de las alabardas y los mayales."
+ },
+ "paladin-fighting-style": {
+  "name": "Estilo de combate",
+  "text": "Obtienes una dote de Estilo de combate de tu elección (consulta \"Dotes\"). En lugar de elegir una de esas dotes, puedes elegir la opción siguiente.\nGuerrero bendecido. Aprendes dos trucos de Clérigo de tu elección (consulta la sección de la clase Clérigo para una lista de conjuros de Clérigo). Se recomiendan _Orientación_ y _Llama sagrada_. Los trucos elegidos cuentan como conjuros de Paladín para ti, y Carisma es tu aptitud mágica para ellos. Siempre que ganes un nivel de Paladín, puedes sustituir uno de estos trucos por otro truco de Clérigo."
+ },
+ "paladin-paladins-smite": {
+  "name": "Castigo del paladín",
+  "text": "Siempre tienes preparado el conjuro _Castigo divino_. Además, puedes lanzarlo sin gastar un espacio de conjuro, pero debes terminar un Descanso largo antes de poder lanzarlo de este modo otra vez."
+ },
+ "paladin-channel-divinity": {
+  "name": "Canalizar divinidad",
+  "text": "Puedes canalizar energía divina directamente de los Planos Exteriores y usarla para alimentar efectos mágicos. Empiezas con uno de estos efectos: Sentido divino, descrito más abajo. Otros rasgos de Paladín otorgan opciones adicionales de efectos de Canalizar divinidad. Cada vez que usas el Canalizar divinidad de esta clase, eliges qué efecto de esta clase crear.\nPuedes usar el Canalizar divinidad de esta clase dos veces. Recuperas un uso gastado cuando terminas un Descanso corto, y recuperas todos los usos gastados cuando terminas un Descanso largo. Obtienes un uso adicional cuando alcanzas el nivel 11 de Paladín.\nSi un efecto de Canalizar divinidad requiere una tirada de salvación, la CD es igual a la CD de salvación de conjuros del rasgo Lanzamiento de conjuros de esta clase.\nSentido divino. Como Acción adicional, puedes abrir tu percepción para detectar celestiales, infernales y muertos vivientes. Durante los siguientes 10 minutos o hasta que tengas el estado Incapacitado, conoces la ubicación de cualquier criatura de esos tipos a 18 m o menos de ti, y conoces su tipo de criatura. Dentro del mismo radio, también detectas la presencia de cualquier lugar u objeto que haya sido consagrado o profanado, como con el conjuro _Santificar_."
+ },
+ "paladin-subclass": {
+  "name": "Subclase de Paladín",
+  "text": "Obtienes una subclase de Paladín de tu elección. Una subclase es una especialización que te otorga rasgos en ciertos niveles de Paladín. Durante el resto de tu carrera, obtienes cada uno de los rasgos de tu subclase que sean de tu nivel de Paladín o inferior."
+ },
+ "paladin-ability-score-improvement": {
+  "name": "Mejora de característica",
+  "text": "Obtienes la dote Mejora de característica (consulta \"Dotes\") u otra dote de tu elección para la que cumplas los requisitos. Vuelves a obtener este rasgo en los niveles 8, 12 y 16 de Paladín."
+ },
+ "paladin-extra-attack": {
+  "name": "Ataque adicional",
+  "text": "Puedes atacar dos veces en lugar de una siempre que realices la acción de Ataque en tu turno."
+ },
+ "paladin-faithful-steed": {
+  "name": "Montura fiel",
+  "text": "Puedes invocar la ayuda de una montura de otro mundo. Siempre tienes preparado el conjuro _Encontrar montura_.\nTambién puedes lanzar el conjuro una vez sin gastar un espacio de conjuro, y recuperas la capacidad de hacerlo cuando terminas un Descanso largo."
+ },
+ "paladin-aura-of-protection": {
+  "name": "Aura de protección",
+  "text": "Irradias un aura protectora e invisible en una Emanación de 3 m que se origina en ti. El aura está inactiva mientras tengas el estado Incapacitado.\nTú y tus aliados dentro del aura obtenéis un bonificador a las tiradas de salvación igual a tu modificador de Carisma (bonificador mínimo de +1).\nSi hay otro Paladín presente, una criatura solo puede beneficiarse de un Aura de protección a la vez; la criatura elige qué aura mientras esté en ellas."
+ },
+ "paladin-abjure-foes": {
+  "name": "Abjurar de los enemigos",
+  "text": "Como acción de Magia, puedes gastar un uso del Canalizar divinidad de esta clase para abrumar a tus enemigos con asombro. Mientras muestras tu Símbolo sagrado o tu arma, puedes elegir como objetivo a una cantidad de criaturas igual a tu modificador de Carisma (mínimo una criatura) que puedas ver a 18 m o menos de ti. Cada objetivo debe superar una tirada de salvación de Sabiduría o tener el estado Asustado durante 1 minuto o hasta que sufra cualquier daño. Mientras esté Asustado de este modo, un objetivo solo puede hacer una de las siguientes cosas en sus turnos: moverse, realizar una acción o realizar una Acción adicional."
+ },
+ "paladin-aura-of-courage": {
+  "name": "Aura de valor",
+  "text": "Tú y tus aliados tenéis Inmunidad al estado Asustado mientras estéis en tu Aura de protección. Si un aliado Asustado entra en el aura, ese estado no tiene efecto sobre él mientras permanezca allí."
+ },
+ "paladin-radiant-strikes": {
+  "name": "Golpes radiantes",
+  "text": "Tus golpes ahora llevan poder sobrenatural. Cuando impactas a un objetivo con una tirada de ataque usando un arma cuerpo a cuerpo o un Ataque sin armas, el objetivo sufre 1d8 de daño radiante adicional."
+ },
+ "paladin-restoring-touch": {
+  "name": "Toque restaurador",
+  "text": "Cuando usas Imposición de manos sobre una criatura, también puedes eliminar de ella uno o más de los siguientes estados: Cegado, Hechizado, Ensordecido, Asustado, Paralizado o Aturdido. Debes gastar 5 puntos de golpe de la reserva de curación de Imposición de manos por cada uno de estos estados que elimines; esos puntos no restablecen además puntos de golpe a la criatura."
+ },
+ "paladin-aura-expansion": {
+  "name": "Expansión del aura",
+  "text": "Tu Aura de protección ahora es una Emanación de 9 m."
+ },
+ "paladin-epic-boon": {
+  "name": "Don épico",
+  "text": "Obtienes una dote de Don épico (consulta \"Dotes\") u otra dote de tu elección para la que cumplas los requisitos. Se recomienda Don de visión verdadera."
+ },
+ "devotion-oath-of-devotion-spells": {
+  "name": "Conjuros del Juramento de Devoción",
+  "text": "La magia de tu juramento garantiza que siempre tengas ciertos conjuros listos; cuando alcanzas un nivel de Paladín especificado en la tabla Conjuros del Juramento de Devoción, a partir de entonces siempre tienes preparados los conjuros indicados.\n\nConjuros del Juramento de Devoción\nNivel de Paladín / Conjuros\n3 / _Protección contra el bien y el mal_, _Escudo de la fe_\n5 / _Auxilio_, _Zona de verdad_\n9 / _Faro de esperanza_, _Disipar magia_\n13 / _Libertad de movimiento_, _Guardián de la fe_\n17 / _Comunión_, _Descarga flamígera_"
+ },
+ "devotion-sacred-weapon": {
+  "name": "Arma sagrada",
+  "text": "Cuando realizas la acción de Ataque, puedes gastar un uso de tu Canalizar divinidad para imbuir de energía positiva un arma cuerpo a cuerpo que sostengas. Durante 10 minutos o hasta que uses este rasgo de nuevo, añades tu modificador de Carisma a las tiradas de ataque que realices con esa arma (bonificador mínimo de +1), y cada vez que impactes con ella, haces que inflija su tipo de daño normal o daño radiante.\nEl arma también emite luz brillante en un radio de 6 m y luz tenue 6 m más allá.\nPuedes poner fin a este efecto antes de tiempo (no requiere acción). Este efecto también termina si no llevas el arma contigo."
+ },
+ "devotion-aura-of-devotion": {
+  "name": "Aura de devoción",
+  "text": "Tú y tus aliados tenéis Inmunidad al estado Hechizado mientras estéis en tu Aura de protección. Si un aliado Hechizado entra en el aura, ese estado no tiene efecto sobre él mientras permanezca allí."
+ },
+ "devotion-smite-of-protection": {
+  "name": "Castigo de protección",
+  "text": "Tu castigo mágico ahora irradia energía protectora. Siempre que lances _Castigo divino_, tú y tus aliados tenéis Media cobertura mientras estéis en tu Aura de protección.\nEl aura tiene este beneficio hasta el comienzo de tu siguiente turno."
+ },
+ "devotion-holy-nimbus": {
+  "name": "Nimbo sagrado",
+  "text": "Como Acción adicional, puedes imbuir tu Aura de protección de poder sagrado, otorgando los beneficios siguientes durante 10 minutos o hasta que les pongas fin (no requiere acción). Una vez que uses este rasgo, no puedes volver a usarlo hasta que termines un Descanso largo. También puedes restablecer tu uso de él gastando un espacio de conjuro de nivel 5 (no requiere acción).\nProtección sagrada. Tienes Ventaja en cualquier tirada de salvación que te obligue a hacer un infernal o un muerto viviente.\nDaño radiante. Siempre que un enemigo comience su turno en el aura, esa criatura sufre daño radiante igual a tu modificador de Carisma más tu bonificador por competencia.\nLuz solar. El aura se llena de luz brillante que es luz solar."
+ },
+ "ranger-spellcasting": {
+  "name": "Lanzamiento de conjuros",
+  "text": "Has aprendido a canalizar la esencia mágica de la naturaleza para lanzar conjuros. Consulta \"Conjuros\" para las reglas de lanzamiento de conjuros. La información siguiente detalla cómo usas esas reglas con los conjuros de Explorador, que aparecen en la lista de conjuros de Explorador más adelante en la descripción de la clase.\nEspacios de conjuro. La tabla Rasgos del Explorador muestra cuántos espacios de conjuro tienes para lanzar tus conjuros de nivel 1 o superior. Recuperas todos los espacios gastados cuando terminas un Descanso largo.\nConjuros preparados de nivel 1 o superior. Preparas la lista de conjuros de nivel 1 o superior que tienes disponibles para lanzar con este rasgo. Para empezar, elige dos conjuros de Explorador de nivel 1. Se recomiendan _Curar heridas_ y _Golpe atrapador_.\nEl número de conjuros de tu lista aumenta a medida que ganas niveles de Explorador, como se muestra en la columna Conjuros preparados de la tabla Rasgos del Explorador. Siempre que ese número aumente, elige conjuros de Explorador adicionales hasta que el número de conjuros de tu lista coincida con el de la tabla Rasgos del Explorador. Los conjuros elegidos deben ser de un nivel para el que tengas espacios de conjuro. Por ejemplo, si eres un Explorador de nivel 5, tu lista de conjuros preparados puede incluir seis conjuros de Explorador de nivel 1 o 2 en cualquier combinación.\nSi otro rasgo de Explorador te otorga conjuros que siempre tienes preparados, esos conjuros no cuentan para el número de conjuros que puedes preparar con este rasgo, pero por lo demás cuentan como conjuros de Explorador para ti.\nCambiar tus conjuros preparados. Siempre que termines un Descanso largo, puedes sustituir un conjuro de tu lista por otro conjuro de Explorador para el que tengas espacios de conjuro.\nAptitud mágica. Sabiduría es tu aptitud mágica para tus conjuros de Explorador.\nFoco para lanzar conjuros. Puedes usar un foco druídico como foco para lanzar conjuros de Explorador."
+ },
+ "ranger-favored-enemy": {
+  "name": "Enemigo predilecto",
+  "text": "Siempre tienes preparado el conjuro _Marca del cazador_. Puedes lanzarlo dos veces sin gastar un espacio de conjuro, y recuperas todos los usos gastados de esta capacidad cuando terminas un Descanso largo.\nEl número de veces que puedes lanzar el conjuro sin espacio de conjuro aumenta cuando alcanzas ciertos niveles de Explorador, como se muestra en la columna Enemigo predilecto de la tabla Rasgos del Explorador."
+ },
+ "ranger-weapon-mastery": {
+  "name": "Maestría con armas",
+  "text": "Tu entrenamiento con armas te permite usar las propiedades de maestría de dos tipos de armas de tu elección con las que tengas competencia, como los arcos largos y las espadas cortas.\nSiempre que termines un Descanso largo, puedes cambiar los tipos de armas que elegiste. Por ejemplo, podrías pasar a usar las propiedades de maestría de las cimitarras y las espadas largas."
+ },
+ "ranger-deft-explorer": {
+  "name": "Explorador diestro",
+  "text": "Gracias a tus viajes, obtienes los siguientes beneficios.\nPericia. Elige una de tus competencias en habilidades en la que no tengas Pericia. Obtienes Pericia en esa habilidad.\nIdiomas. Conoces dos idiomas de tu elección de las tablas de idiomas de \"Creación de personajes\"."
+ },
+ "ranger-fighting-style": {
+  "name": "Estilo de combate",
+  "text": "Obtienes una dote de Estilo de combate de tu elección (consulta \"Dotes\"). En lugar de elegir una de esas dotes, puedes elegir la opción siguiente.\nGuerrero druídico. Aprendes dos trucos de Druida de tu elección (consulta la sección de la clase Druida para una lista de conjuros de Druida). Se recomiendan _Orientación_ y _Mota estelar_. Los trucos elegidos cuentan como conjuros de Explorador para ti, y Sabiduría es tu aptitud mágica para ellos. Siempre que ganes un nivel de Explorador, puedes sustituir uno de estos trucos por otro truco de Druida."
+ },
+ "ranger-subclass": {
+  "name": "Subclase de Explorador",
+  "text": "Obtienes una subclase de Explorador de tu elección. Una subclase es una especialización que te otorga rasgos en ciertos niveles de Explorador. Durante el resto de tu carrera, obtienes cada uno de los rasgos de tu subclase que sean de tu nivel de Explorador o inferior."
+ },
+ "ranger-ability-score-improvement": {
+  "name": "Mejora de característica",
+  "text": "Obtienes la dote Mejora de característica (consulta \"Dotes\") u otra dote de tu elección para la que cumplas los requisitos. Vuelves a obtener este rasgo en los niveles 8, 12 y 16 de Explorador."
+ },
+ "ranger-extra-attack": {
+  "name": "Ataque adicional",
+  "text": "Puedes atacar dos veces en lugar de una siempre que realices la acción de Ataque en tu turno."
+ },
+ "ranger-roving": {
+  "name": "Errante",
+  "text": "Tu Velocidad aumenta en 3 m mientras no lleves armadura Pesada. Además, tienes una Velocidad trepando y una Velocidad nadando iguales a tu Velocidad."
+ },
+ "ranger-expertise": {
+  "name": "Pericia",
+  "text": "Elige dos de tus competencias en habilidades en las que no tengas Pericia. Obtienes Pericia en esas habilidades."
+ },
+ "ranger-tireless": {
+  "name": "Incansable",
+  "text": "Las fuerzas primigenias ahora ayudan a sostenerte en tus viajes, otorgándote los siguientes beneficios.\nPuntos de golpe temporales. Como acción de Magia, puedes otorgarte una cantidad de puntos de golpe temporales igual a 1d8 más tu modificador de Sabiduría (mínimo 1). Puedes usar esta acción una cantidad de veces igual a tu modificador de Sabiduría (mínimo una vez), y recuperas todos los usos gastados cuando terminas un Descanso largo.\nReducir el Agotamiento. Siempre que termines un Descanso corto, tu nivel de Agotamiento, si tienes alguno, se reduce en 1."
+ },
+ "ranger-relentless-hunter": {
+  "name": "Cazador implacable",
+  "text": "Sufrir daño no puede romper tu Concentración en _Marca del cazador_."
+ },
+ "ranger-natures-veil": {
+  "name": "Velo de la naturaleza",
+  "text": "Invocas a los espíritus de la naturaleza para ocultarte mágicamente. Como Acción adicional, puedes otorgarte el estado Invisible hasta el final de tu siguiente turno.\nPuedes usar este rasgo una cantidad de veces igual a tu modificador de Sabiduría (mínimo una vez), y recuperas todos los usos gastados cuando terminas un Descanso largo."
+ },
+ "ranger-precise-hunter": {
+  "name": "Cazador preciso",
+  "text": "Tienes Ventaja en las tiradas de ataque contra la criatura marcada actualmente por tu _Marca del cazador_."
+ },
+ "ranger-feral-senses": {
+  "name": "Sentidos salvajes",
+  "text": "Tu conexión con las fuerzas de la naturaleza te otorga Vista ciega con un alcance de 9 m."
+ },
+ "ranger-epic-boon": {
+  "name": "Don épico",
+  "text": "Obtienes una dote de Don épico (consulta \"Dotes\") u otra dote de tu elección para la que cumplas los requisitos. Se recomienda Don de viaje dimensional."
+ },
+ "ranger-foe-slayer": {
+  "name": "Azote de enemigos",
+  "text": "El dado de daño de tu _Marca del cazador_ es un d10 en lugar de un d6."
+ },
+ "hunter-hunters-lore": {
+  "name": "Saber del cazador",
+  "text": "Puedes invocar a las fuerzas de la naturaleza para revelar ciertas fortalezas y debilidades de tu presa. Mientras una criatura esté marcada por tu _Marca del cazador_, sabes si esa criatura tiene Inmunidades, Resistencias o Vulnerabilidades, y, si tiene alguna, sabes cuáles son."
+ },
+ "hunter-hunters-prey": {
+  "name": "Presa del cazador",
+  "text": "Obtienes una de las siguientes opciones de rasgo de tu elección. Siempre que termines un Descanso corto o largo, puedes sustituir la opción elegida por la otra.\nAsesino de colosos. Tu tenacidad puede desgastar incluso a los enemigos más resistentes. Cuando impactas a una criatura con un arma, el arma inflige 1d8 de daño adicional al objetivo si le falta alguno de sus puntos de golpe. Solo puedes infligir este daño adicional una vez por turno.\nRompehordas. Una vez en cada uno de tus turnos en que realices un ataque con un arma, puedes realizar otro ataque con la misma arma contra una criatura diferente que esté a 1,5 m o menos del objetivo original, que esté dentro del alcance del arma y a la que no hayas atacado en este turno."
+ },
+ "hunter-defensive-tactics": {
+  "name": "Tácticas defensivas",
+  "text": "Obtienes una de las siguientes opciones de rasgo de tu elección. Siempre que termines un Descanso corto o largo, puedes sustituir la opción elegida por la otra.\nEscapar de la horda. Los Ataques de oportunidad tienen Desventaja contra ti.\nDefensa contra ataques múltiples. Cuando una criatura te impacta con una tirada de ataque, esa criatura tiene Desventaja en todas las demás tiradas de ataque contra ti durante este turno."
+ },
+ "hunter-superior-hunters-prey": {
+  "name": "Presa superior del cazador",
+  "text": "Una vez por turno, cuando infliges daño a una criatura marcada por tu _Marca del cazador_, también puedes infligir el daño adicional de ese conjuro a una criatura diferente que puedas ver a 9 m o menos de la primera criatura."
+ },
+ "hunter-superior-hunters-defense": {
+  "name": "Defensa superior del cazador",
+  "text": "Cuando sufres daño, puedes realizar una Reacción para otorgarte Resistencia a ese daño y a cualquier otro daño del mismo tipo hasta el final del turno actual."
+ },
+ "rogue-expertise": {
+  "name": "Pericia",
+  "text": "Obtienes Pericia en dos de tus competencias en habilidades a tu elección. Se recomiendan Juego de manos y Sigilo si tienes competencia en ellas.\nEn el nivel 6 de Pícaro, obtienes Pericia en otras dos de tus competencias en habilidades a tu elección."
+ },
+ "rogue-sneak-attack": {
+  "name": "Ataque furtivo",
+  "text": "Sabes cómo golpear sutilmente y aprovechar la distracción de un enemigo. Una vez por turno, puedes infligir 1d6 de daño adicional a una criatura a la que impactes con una tirada de ataque si tienes Ventaja en la tirada y el ataque usa un arma con la propiedad Sutil o un arma a distancia. El tipo del daño adicional es el mismo que el del arma.\nNo necesitas Ventaja en la tirada de ataque si al menos uno de tus aliados está a 1,5 m o menos del objetivo, el aliado no tiene el estado Incapacitado y tú no tienes Desventaja en la tirada de ataque.\nEl daño adicional aumenta a medida que ganas niveles de Pícaro, como se muestra en la columna Ataque furtivo de la tabla Rasgos del Pícaro."
+ },
+ "rogue-thieves-cant": {
+  "name": "Jerga de ladrones",
+  "text": "Aprendiste varios idiomas en las comunidades donde ejercías tus talentos de pícaro. Conoces la Jerga de ladrones y otro idioma de tu elección, que eliges de las tablas de idiomas de \"Creación de personajes\"."
+ },
+ "rogue-weapon-mastery": {
+  "name": "Maestría con armas",
+  "text": "Tu entrenamiento con armas te permite usar las propiedades de maestría de dos tipos de armas de tu elección con las que tengas competencia, como las dagas y los arcos cortos.\nSiempre que termines un Descanso largo, puedes cambiar los tipos de armas que elegiste. Por ejemplo, podrías pasar a usar las propiedades de maestría de las cimitarras y las espadas cortas."
+ },
+ "rogue-cunning-action": {
+  "name": "Acción astuta",
+  "text": "Tu rapidez mental y tu agilidad te permiten moverte y actuar con rapidez. En tu turno, puedes realizar una de las siguientes acciones como Acción adicional: Correr, Retirarse o Esconderse."
+ },
+ "rogue-subclass": {
+  "name": "Subclase de Pícaro",
+  "text": "Obtienes una subclase de Pícaro de tu elección. Una subclase es una especialización que te otorga rasgos en ciertos niveles de Pícaro. Durante el resto de tu carrera, obtienes cada uno de los rasgos de tu subclase que sean de tu nivel de Pícaro o inferior."
+ },
+ "rogue-steady-aim": {
+  "name": "Puntería firme",
+  "text": "Como Acción adicional, te otorgas Ventaja en tu siguiente tirada de ataque del turno actual. Solo puedes usar este rasgo si no te has movido durante este turno, y tras usarlo, tu Velocidad es 0 hasta el final del turno actual."
+ },
+ "rogue-ability-score-improvement": {
+  "name": "Mejora de característica",
+  "text": "Obtienes la dote Mejora de característica (consulta \"Dotes\") u otra dote de tu elección para la que cumplas los requisitos. Vuelves a obtener este rasgo en los niveles 8, 10, 12 y 16 de Pícaro."
+ },
+ "rogue-cunning-strike": {
+  "name": "Golpe astuto",
+  "text": "Has desarrollado formas astutas de usar tu Ataque furtivo. Cuando infliges daño de Ataque furtivo, puedes añadir uno de los siguientes efectos de Golpe astuto.\nCada efecto tiene un coste en dados, que es el número de dados de daño de Ataque furtivo a los que debes renunciar para añadir el efecto. Retiras el dado antes de tirar, y el efecto ocurre inmediatamente después de infligir el daño del ataque. Por ejemplo, si añades el efecto Veneno, retira 1d6 del daño del Ataque furtivo antes de tirar.\nSi un efecto de Golpe astuto requiere una tirada de salvación, la CD es igual a 8 más tu modificador de Destreza y tu bonificador por competencia.\nVeneno (Coste: 1d6). Añades una toxina a tu golpe, obligando al objetivo a realizar una tirada de salvación de Constitución. Si falla, el objetivo tiene el estado Envenenado durante 1 minuto. Al final de cada uno de sus turnos, el objetivo Envenenado repite la tirada, poniendo fin al efecto sobre sí mismo si la supera.\nPara usar este efecto, debes llevar encima un Kit de envenenador.\nZancadilla (Coste: 1d6). Si el objetivo es de tamaño Grande o más pequeño, debe superar una tirada de salvación de Destreza o tener el estado Derribado.\nRetirada (Coste: 1d6). Inmediatamente después del ataque, te mueves hasta la mitad de tu Velocidad sin provocar Ataques de oportunidad."
+ },
+ "rogue-uncanny-dodge": {
+  "name": "Esquiva asombrosa",
+  "text": "Cuando un atacante que puedas ver te impacta con una tirada de ataque, puedes realizar una Reacción para reducir a la mitad el daño del ataque contra ti (redondeando hacia abajo)."
+ },
+ "rogue-evasion": {
+  "name": "Evasión",
+  "text": "Puedes esquivar con agilidad ciertos peligros.\nCuando estás sujeto a un efecto que te permite realizar una tirada de salvación de Destreza para sufrir solo la mitad del daño, en su lugar no sufres daño alguno si superas la tirada de salvación y solo sufres la mitad del daño si la fallas. No puedes usar este rasgo si tienes el estado Incapacitado."
+ },
+ "rogue-reliable-talent": {
+  "name": "Talento fiable",
+  "text": "Siempre que realices una prueba de característica que use una de tus competencias en habilidades o herramientas, puedes tratar una tirada de d20 de 9 o menos como un 10."
+ },
+ "rogue-improved-cunning-strike": {
+  "name": "Golpe astuto mejorado",
+  "text": "Puedes usar hasta dos efectos de Golpe astuto cuando infliges daño de Ataque furtivo, pagando el coste en dados de cada efecto."
+ },
+ "rogue-devious-strikes": {
+  "name": "Golpes retorcidos",
+  "text": "Has practicado nuevas formas de usar tu Ataque furtivo con malicia. Los siguientes efectos pasan a formar parte de tus opciones de Golpe astuto.\nAturdir (Coste: 2d6). El objetivo debe superar una tirada de salvación de Constitución o, en su siguiente turno, solo podrá hacer una de las siguientes cosas: moverse, o realizar una acción o una Acción adicional.\nDejar inconsciente (Coste: 6d6). El objetivo debe superar una tirada de salvación de Constitución o tendrá el estado Inconsciente durante 1 minuto o hasta que sufra cualquier daño. El objetivo Inconsciente repite la tirada al final de cada uno de sus turnos, poniendo fin al efecto sobre sí mismo si la supera.\nOfuscar (Coste: 3d6). El objetivo debe superar una tirada de salvación de Destreza o tendrá el estado Cegado hasta el final de su siguiente turno."
+ },
+ "rogue-slippery-mind": {
+  "name": "Mente escurridiza",
+  "text": "Tu mente astuta es excepcionalmente difícil de controlar.\nObtienes competencia en las tiradas de salvación de Sabiduría y Carisma."
+ },
+ "rogue-elusive": {
+  "name": "Elusivo",
+  "text": "Eres tan escurridizo que los atacantes rara vez obtienen ventaja sobre ti. Ninguna tirada de ataque puede tener Ventaja contra ti a menos que tengas el estado Incapacitado."
+ },
+ "rogue-epic-boon": {
+  "name": "Don épico",
+  "text": "Obtienes una dote de Don épico (consulta \"Dotes\") u otra dote de tu elección para la que cumplas los requisitos. Se recomienda Don del espíritu nocturno."
+ },
+ "rogue-stroke-of-luck": {
+  "name": "Golpe de suerte",
+  "text": "Tienes un don maravilloso para tener éxito cuando lo necesitas. Si fallas una Prueba d20, puedes convertir la tirada en un 20.\nUna vez que uses este rasgo, no puedes volver a usarlo hasta que termines un Descanso corto o largo."
+ },
+ "thief-fast-hands": {
+  "name": "Manos rápidas",
+  "text": "Como Acción adicional, puedes hacer una de las siguientes cosas.\nJuego de manos. Realiza una prueba de Destreza (Juego de manos) para forzar una cerradura o desarmar una trampa con Herramientas de ladrón, o para robar un bolsillo.\nUsar un objeto. Realiza la acción de Usar, o la acción de Magia para usar un objeto mágico que requiera esa acción."
+ }
+}

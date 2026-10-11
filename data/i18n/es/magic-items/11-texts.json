@@ -1,0 +1,59 @@
+{
+ "adamantine-armor": {
+  "text": "Armadura (cualquier armadura media o pesada, excepto de pieles)\nEsta armadura está reforzada con adamantina, una de las sustancias más duras que existen. Mientras la llevas puesta, cualquier Impacto crítico contra ti se convierte en un impacto normal."
+ },
+ "ammunition": {
+  "text": "Arma (cualquier munición)\nTienes un bonificador a las tiradas de ataque y de daño realizadas con esta pieza de munición mágica. El bonificador viene determinado por la rareza de la munición. Cuando impacta en un objetivo, la munición deja de ser mágica.\nEsta munición suele encontrarse o venderse en cantidades de diez o veinte piezas. Diez piezas de esta munición equivalen en valor a una poción de la misma rareza."
+ },
+ "ammunition-1": {
+  "text": "Arma (poco común)\nTienes un bonificador a las tiradas de ataque y de daño realizadas con esta pieza de munición mágica. El bonificador viene determinado por la rareza de la munición. Cuando impacta en un objetivo, la munición deja de ser mágica.\nEsta munición suele encontrarse o venderse en cantidades de diez o veinte piezas. Diez piezas de esta munición equivalen en valor a una poción de la misma rareza."
+ },
+ "ammunition-2": {
+  "text": "Arma (rara)\nTienes un bonificador de +2 a las tiradas de ataque y de daño realizadas con esta pieza de munición mágica. El bonificador viene determinado por la rareza de la munición. Cuando impacta en un objetivo, la munición deja de ser mágica.\nEsta munición suele encontrarse o venderse en cantidades de diez o veinte piezas. Diez piezas de esta munición equivalen en valor a una poción de la misma rareza."
+ },
+ "ammunition-3": {
+  "text": "Arma (muy rara)\nTienes un bonificador de +3 a las tiradas de ataque y de daño realizadas con esta pieza de munición mágica. El bonificador viene determinado por la rareza de la munición. Cuando impacta en un objetivo, la munición deja de ser mágica.\nEsta munición suele encontrarse o venderse en cantidades de diez o veinte piezas. Diez piezas de esta munición equivalen en valor a una poción de la misma rareza."
+ },
+ "ammunition-of-slaying": {
+  "text": "Arma (cualquier munición)\nEsta munición mágica está pensada para matar criaturas de un tipo concreto, que el DM elige o determina al azar tirando en la tabla siguiente. Si una criatura de ese tipo recibe daño de la munición, debe hacer una tirada de salvación de Constitución CD 17; si la falla, recibe 6d10 de daño de fuerza adicional, o la mitad de ese daño adicional si la supera.\nTras infligir su daño adicional a una criatura, la munición deja de ser mágica.\n\n| d100 | Tipo de criatura | d100 | Tipo de criatura |\n|---|---|---|---|\n| 01-10 | Aberraciones | 51-60 | Feéricos |\n| 11-15 | Bestias | 61-70 | Infernales |\n| 16-20 | Celestiales | 71-75 | Gigantes |\n| 21-25 | Constructos | 76-80 | Monstruosidades |\n| 26-35 | Dragones | 81-85 | Cienos |\n| 36-45 | Elementales | 86-90 | Plantas |\n| 46-50 | Humanoides | 91-00 | Muertos vivientes |"
+ },
+ "amulet-of-health": {
+  "text": "Objeto maravilloso\nTu Constitución es 19 mientras llevas este amuleto. No tiene efecto sobre ti si tu Constitución es 19 o superior sin él."
+ },
+ "amulet-of-proof-against-detection-and-location": {
+  "text": "Objeto maravilloso\nMientras llevas este amuleto, no puedes ser objetivo de conjuros de Adivinación ni ser percibido por sensores de escudriñamiento mágicos, a menos que lo permitas."
+ },
+ "amulet-of-the-planes": {
+  "text": "Objeto maravilloso\nMientras llevas este amuleto, puedes usar una acción de Magia para nombrar un lugar que conozcas de otro plano de existencia. Después, haz una prueba de Inteligencia (Arcanos) CD 15. Si la superas, lanzas _desplazamiento entre planos_. Si la fallas, tú y cada criatura y objeto a 4,5 m o menos de ti viajáis a un destino aleatorio determinado tirando 1d100 y consultando la tabla siguiente.\n\n| d100 | Destino |\n|---|---|\n| 01-60 | Lugar aleatorio del plano que nombraste |\n| 61-70 | Lugar aleatorio de un Plano Interior determinado tirando 1d6: con un 1, el plano del Aire; con un 2, el plano de la Tierra; con un 3, el plano del Fuego; con un 4, el plano del Agua; con un 5, los Parajes Feéricos; con un 6, el Páramo Sombrío |\n| 81-90 | Lugar aleatorio de un Plano Exterior determinado tirando 1d8: con un 1, el Abismo; con un 2, Aqueronte; con un 3, Carceri; con un 4, Gehenna; con un 5, Hades; con un 6, Limbo; con un 7, los Nueve Infiernos; con un 8, Pandemónium |\n| 91-00 | Lugar aleatorio del Plano Astral |"
+ },
+ "animated-shield": {
+  "text": "Armadura (escudo)\nMientras sostienes este escudo, puedes usar una acción adicional para animarlo. El escudo salta al aire y flota en tu espacio para protegerte como si lo empuñaras, dejando tus manos libres. El escudo permanece animado durante 1 minuto, hasta que uses una acción adicional para terminar este efecto, o hasta que mueras o tengas el estado de Incapacitado; en ese momento el escudo cae al suelo, o a tu mano si tienes una libre."
+ },
+ "apparatus-of-the-crab": {
+  "text": "Objeto maravilloso\nAl principio, este objeto parece un barril de hierro sellado que pesa 250 kg. El barril tiene un cierre oculto, que puede encontrarse con una prueba de Inteligencia (Investigación) CD 20 superada. Al soltar el cierre se abre una escotilla en un extremo del barril, lo que permite que dos criaturas Medianas o más pequeñas se arrastren al interior. En el extremo opuesto hay diez palancas dispuestas en fila, cada una en posición neutra y capaz de moverse hacia arriba o hacia abajo. Cuando se accionan ciertas palancas, el aparato se transforma y adopta el aspecto de una langosta gigante.\nEl Aparato del cangrejo es un objeto Grande con las siguientes estadísticas: CA 20; puntos de golpe 200; Velocidad 9 m, nadando 9 m (o 0 m para ambas si las patas no están extendidas); Inmunidad al daño de veneno y psíquico.\nPara usarse como vehículo, el aparato requiere un piloto. Mientras la escotilla del aparato está cerrada, el compartimento es hermético y estanco. El compartimento contiene aire suficiente para respirar durante 10 horas, divididas entre el número de criaturas que respiran en su interior.\nEl aparato flota en el agua. También puede sumergirse hasta una profundidad de 270 m. Por debajo de esa profundidad, el vehículo recibe 2d6 de daño contundente cada minuto por la presión.\nUna criatura que esté en el compartimento puede usar una acción de Usar para mover hacia arriba o hacia abajo hasta dos de las palancas del aparato. Tras cada uso, la palanca vuelve a su posición neutra. Cada palanca, de izquierda a derecha, funciona como se muestra en la tabla Palancas del Aparato del cangrejo.\n\n**Palancas del Aparato del cangrejo**\n\n| Palanca | Arriba | Abajo |\n|---|---|---|\n| 2 | La contraventana de la ventana delantera se abre. | La contraventana de la ventana delantera se cierra. |\n| 4 | Dos pinzas se extienden desde la parte delantera del aparato. | Las pinzas se retraen. |\n| 6 | El aparato camina o nada hacia delante, siempre que sus patas estén extendidas. | El aparato camina o nada hacia atrás, siempre que sus patas estén extendidas. |\n| 8 | Unos elementos con forma de ojos emiten Luz brillante en un radio de 9 m y Luz tenue otros 9 m más. | La luz se apaga. |\n| 10 | La escotilla trasera se desbloquea y se abre. | La escotilla trasera se cierra y se sella. |"
+ },
+ "armor": {
+  "text": "Armadura (cualquier armadura ligera, media o pesada)\nTienes un bonificador a la Clase de armadura mientras llevas esta armadura. El bonificador viene determinado por su rareza."
+ },
+ "armor-1": {
+  "text": "Armadura (cualquier armadura ligera, media o pesada)\nTienes un bonificador de +1 a la Clase de armadura mientras llevas esta armadura."
+ },
+ "armor-2": {
+  "text": "Armadura (cualquier armadura ligera, media o pesada)\nTienes un bonificador de +2 a la Clase de armadura mientras llevas esta armadura."
+ },
+ "armor-3": {
+  "text": "Armadura (cualquier armadura ligera, media o pesada)\nTienes un bonificador de +3 a la Clase de armadura mientras llevas esta armadura."
+ },
+ "armor-of-invulnerability": {
+  "text": "Armadura (armadura de placas)\nTienes Resistencia al daño contundente, perforante y cortante mientras llevas esta armadura.\n**Caparazón metálico.** Puedes usar una acción de Magia para obtener Inmunidad al daño contundente, perforante y cortante durante 10 minutos o hasta que dejes de llevar la armadura. Una vez usada esta propiedad, no puede usarse de nuevo hasta el siguiente amanecer."
+ },
+ "armor-of-resistance": {
+  "text": "Armadura (cualquier armadura ligera, media o pesada)\nTienes Resistencia a un tipo de daño mientras llevas esta armadura. El DM elige el tipo o lo determina al azar tirando en la tabla siguiente.\n\n| d10 | Tipo de daño | d10 | Tipo de daño |\n|---|---|---|---|\n| 1 | Ácido | 6 | Necrótico |\n| 2 | Frío | 7 | Veneno |\n| 3 | Fuego | 8 | Psíquico |\n| 4 | Fuerza | 9 | Radiante |\n| 5 | Relámpago | 10 | Trueno |"
+ },
+ "armor-of-vulnerability": {
+  "text": "Armadura (cualquier armadura ligera, media o pesada)\nMientras llevas esta armadura, tienes Resistencia a uno de los siguientes tipos de daño: contundente, perforante o cortante. El DM elige el tipo o lo determina al azar.\n**Maldición.** Esta armadura está maldita, un hecho que solo se revela cuando se lanza el conjuro _identificar_ sobre la armadura o cuando te sintonizas con ella. Sintonizarte con la armadura te maldice hasta que seas objetivo de un conjuro _levantar maldición_ o de una magia similar; quitarte la armadura no pone fin a la maldición. Mientras estés maldito, tienes Vulnerabilidad a dos de los tres tipos de daño asociados a la armadura (no al tipo al que te otorga Resistencia)."
+ },
+ "arrow-catching-shield": {
+  "text": "Armadura (escudo)\nObtienes un bonificador de +2 a la Clase de armadura contra tiradas de ataque a distancia mientras empuñas este escudo. Este bonificador se suma al bonificador normal del escudo a la CA.\nSiempre que un atacante haga una tirada de ataque a distancia contra un objetivo a 1,5 m o menos de ti, puedes usar una reacción para convertirte tú en el objetivo del ataque."
+ }
+}

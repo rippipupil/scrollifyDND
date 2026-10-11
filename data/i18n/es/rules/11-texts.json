@@ -1,0 +1,188 @@
+{
+ "rule-ability-check": {
+  "text": "Una prueba de característica es una prueba d20 que representa el uso de una de las seis características —o de una habilidad específica asociada a una característica— para superar un desafío. _Véase también_ \"Cómo jugar\" (\"Pruebas d20\" y \"Competencia\")."
+ },
+ "rule-ability-score-and-modifier": {
+  "text": "Una criatura tiene seis puntuaciones de característica —Fuerza, Destreza, Constitución, Inteligencia, Sabiduría y Carisma—, cada una de las cuales tiene un modificador correspondiente. Suma el modificador cuando hagas una prueba d20 con la característica correspondiente o cuando una regla te lo indique. _Véase también_ \"Cómo jugar\" (\"Las seis características\")."
+ },
+ "rule-action": {
+  "text": "En tu turno, puedes realizar una acción. Elige qué acción realizar entre las siguientes o entre las acciones especiales que te proporcionen tus rasgos. _Véase también_ \"Cómo jugar\" (\"Acciones\"). Estas acciones se definen en otra parte de este glosario:\n\n| Atacar | Esquivar | Influir | Buscar |\n| Correr | Ayudar | Magia | Estudiar |\n| Retirarse | Esconderse | Preparar | Usar |"
+ },
+ "rule-advantage": {
+  "text": "Si tienes ventaja en una prueba d20, tira dos d20 y usa el resultado más alto. Una tirada no puede verse afectada por más de una ventaja, y la ventaja y la desventaja en la misma tirada se anulan entre sí. _Véase también_ \"Cómo jugar\" (\"Pruebas d20\")."
+ },
+ "rule-adventure": {
+  "text": "Una aventura es una serie de encuentros. Una historia surge al jugarlos. _Véase también_ \"Encuentro\"."
+ },
+ "rule-alignment": {
+  "text": "El alineamiento de una criatura describe a grandes rasgos sus actitudes e ideales éticos. El alineamiento es una combinación de dos factores: uno identifica la moralidad (bueno, malvado o neutral) y el otro describe las actitudes hacia el orden (legal, caótico o neutral). Estos factores permiten nueve combinaciones posibles, como Legal bueno y Neutral malvado. _Véase también_ \"Creación de personajes\" (\"Crea tu personaje\")."
+ },
+ "rule-ally": {
+  "text": "Una criatura es tu aliada si es miembro de tu grupo de aventureros, es tu amiga, está de tu lado en combate o es una criatura que las reglas o el DJ designan como tu aliada."
+ },
+ "rule-area-of-effect": {
+  "text": "Las descripciones de muchos conjuros y otros rasgos especifican que tienen un área de efecto, que normalmente tiene una de seis formas. Estas formas se definen en otra parte de este glosario:\n\n| Cono | Cilindro | Línea |\n| Cubo | Emanación | Esfera |\n\nUn área de efecto tiene un punto de origen, una ubicación desde la que brota la energía del efecto. Las reglas de cada forma especifican cómo colocar su punto de origen. Si todas las líneas rectas que van desde el punto de origen hasta una ubicación del área de efecto están bloqueadas, esa ubicación no se incluye en el área de efecto. Para bloquear una línea, un obstáculo debe proporcionar cobertura total. _Véase también_ \"Cobertura\".\n\nSi el creador de un área de efecto la coloca en un punto que no ve y hay un obstáculo —como un muro— entre el creador y ese punto, el punto de origen se sitúa en el lado cercano del obstáculo."
+ },
+ "rule-armor-class": {
+  "text": "La clase de armadura (CA) es el número objetivo de una tirada de ataque. La CA representa lo difícil que es golpear a un objetivo.\n\nTu cálculo de CA base es 10 más tu modificador de Destreza. Si una regla te da otro cálculo de CA base, eliges qué cálculo usar; no puedes usar más de uno. _Véase también_ \"Tirada de ataque\"."
+ },
+ "rule-armor-training": {
+  "text": "El entrenamiento con armaduras te permite usar armaduras de una categoría determinada sin los siguientes inconvenientes. Si llevas armadura ligera, media o pesada y no tienes entrenamiento con ella, tienes desventaja en cualquier prueba d20 que implique Fuerza o Destreza, y no puedes lanzar conjuros. Si usas un escudo y no tienes entrenamiento con él, no obtienes su bonificador a la CA. _Véase también_ \"Desventaja\" y \"Equipo\" (\"Armadura\")."
+ },
+ "rule-attack": {
+  "text": "Cuando realizas la acción de Ataque, puedes hacer una tirada de ataque con un arma o con un Ataque sin armas.\n\n_Equipar y desequipar armas._ Puedes equipar o desequipar un arma cuando haces un ataque como parte de esta acción. Lo haces antes o después del ataque. Si equipas un arma antes de un ataque, no necesitas usarla en ese ataque. Equipar un arma incluye desenvainarla o recogerla. Desequipar un arma incluye envainarla, guardarla o soltarla.\n\n_Moverse entre ataques._ Si te mueves en tu turno y tienes un rasgo, como Ataque adicional, que te da más de un ataque como parte de la acción de Ataque, puedes usar parte o todo ese movimiento para moverte entre esos ataques."
+ },
+ "rule-attack-roll": {
+  "text": "Una tirada de ataque es una prueba d20 que representa realizar un ataque con un arma, un Ataque sin armas o un conjuro. _Véase también_ \"Cómo jugar\" (\"Pruebas d20\")."
+ },
+ "rule-attitude": {
+  "text": "Un monstruo tiene una actitud inicial hacia un personaje jugador: Amistoso, Hostil o Indiferente. _Véase también_ \"Amistoso\", \"Hostil\", \"Indiferente\" e \"Influir\"."
+ },
+ "rule-attunement": {
+  "text": "Algunos objetos mágicos requieren que una criatura forme un vínculo con ellos —llamado sintonización— antes de poder usar las propiedades mágicas del objeto. Una criatura puede estar sintonizada con un máximo de tres objetos mágicos a la vez. _Véase también_ \"Equipo\" (\"Objetos mágicos\")."
+ },
+ "rule-blindsight": {
+  "text": "Si tienes vista ciega, puedes ver dentro de un alcance específico sin depender de la vista física. Dentro de ese alcance, puedes ver cualquier cosa que no esté tras una cobertura total, aunque tengas el estado Cegado o estés en la oscuridad. Además, dentro de ese alcance, puedes ver algo que tenga el estado Invisible."
+ },
+ "rule-bloodied": {
+  "text": "Una criatura está ensangrentada mientras le queden la mitad de sus puntos de golpe o menos."
+ },
+ "rule-bonus-action": {
+  "text": "Una acción adicional es una acción especial que puedes realizar en el mismo turno en que realizas una acción. No puedes realizar más de una acción adicional en un turno, y solo tienes una acción adicional que realizar si una regla lo dice explícitamente. _Véase también_ \"Cómo jugar\" (\"Acciones\")."
+ },
+ "rule-breaking-objects": {
+  "text": "Los objetos pueden sufrir daño por ataques y por algunos conjuros, según las reglas siguientes. Si un objeto es extremadamente frágil, el DJ puede permitir que una criatura lo rompa automáticamente con la acción de Ataque o de Usar.\n\n_Clase de armadura._ La tabla de Clase de armadura de los objetos sugiere CA para diversas sustancias.\n\n**Clase de armadura de los objetos**\n\n| CA | Sustancia | CA | Sustancia |\n| 11 | Tela, papel, cuerda | 19 | Hierro, acero |\n| 13 | Cristal, vidrio, hielo | 21 | Mithral |\n| 15 | Madera | 23 | Adamantina |\n| 17 | Piedra |  |\n\n_Puntos de golpe._ Un objeto queda destruido cuando tiene 0 puntos de golpe. La tabla de Puntos de golpe de los objetos sugiere puntos de golpe para objetos frágiles y resistentes de tamaño Grande o menor. Para llevar la cuenta de los puntos de golpe de un objeto Enorme o Gargantuesco, divídelo en secciones de tamaño Grande o menor y lleva la cuenta de los puntos de golpe de cada sección por separado. El DJ determina si destruir parte de un objeto provoca que todo se derrumbe.\n\n**Puntos de golpe de los objetos**\n\n| Tamaño | Frágil | Resistente |\n| Diminuto (botella, cerradura) | 2 (1d4) | 5 (2d4) |\n| Pequeño (cofre, laúd) | 3 (1d6) | 10 (3d6) |\n| Mediano (barril, lámpara de araña) | 4 (1d8) | 18 (4d8) |\n| Grande (carro, mesa de comedor) | 5 (1d10) | 27 (5d10) |\n\n_Tipos de daño y objetos._ Los objetos tienen inmunidad al daño de veneno y psíquico. El DJ puede decidir que algunos tipos de daño sean más o menos eficaces contra un objeto. Por ejemplo, el daño contundente funciona bien para aplastar cosas, pero no para cortarlas. Los objetos de papel o tela pueden tener vulnerabilidad al daño de fuego.\n\n_Umbral de daño._ Los objetos grandes, como los muros de un castillo, suelen tener una resistencia adicional representada por un umbral de daño. _Véase también_ \"Umbral de daño\".\n\n_Sin puntuaciones de característica._ Un objeto carece de puntuaciones de característica a menos que una regla se las asigne. Sin puntuaciones de característica, un objeto no puede hacer pruebas de característica y falla todas las tiradas de salvación."
+ },
+ "rule-bright-light": {
+  "text": "La luz brillante es la iluminación normal. _Véase también_ \"Cómo jugar\" (\"Exploración\")."
+ },
+ "rule-burning": {
+  "text": "Una criatura u objeto ardiendo sufre 1d4 de daño de fuego al comienzo de cada uno de sus turnos. Como acción, puedes apagar el fuego sobre ti mismo dándote el estado Derribado y rodando por el suelo. El fuego también se apaga si se sofoca, se sumerge o se empapa."
+ },
+ "rule-burrow-speed": {
+  "text": "Una criatura que tiene velocidad excavando puede usar esa velocidad para moverse a través de arena, tierra, barro o hielo. La criatura no puede excavar a través de roca sólida a menos que tenga un rasgo que se lo permita. _Véase también_ \"Velocidad\"."
+ },
+ "rule-campaign": {
+  "text": "Una campaña es una serie de aventuras. _Véase también_ \"Aventura\"."
+ },
+ "rule-cantrip": {
+  "text": "Un truco es un conjuro de nivel 0, que se lanza sin espacio de conjuro. _Véase también_ \"Conjuros\"."
+ },
+ "rule-carrying-capacity": {
+  "text": "Tu tamaño y tu puntuación de Fuerza determinan el peso máximo en kilogramos que puedes cargar, como se muestra en la tabla de Capacidad de carga. La tabla también muestra el peso máximo que puedes arrastrar, levantar o empujar.\n\nMientras arrastras, levantas o empujas un peso superior al máximo que puedes cargar, tu velocidad no puede ser superior a 1,5 metros.\n\n**Capacidad de carga**\n\n| Tamaño de la criatura | Cargar | Arrastrar/Levantar/Empujar |\n| Diminuto | Fue. × 3,75 kg | Fue. × 7,5 kg |\n| Pequeño/Mediano | Fue. × 7,5 kg | Fue. × 15 kg |\n| Grande | Fue. × 15 kg | Fue. × 30 kg |\n| Enorme | Fue. × 30 kg | Fue. × 60 kg |\n| Gargantuesco | Fue. × 60 kg | Fue. × 120 kg |"
+ },
+ "rule-challenge-rating": {
+  "text": "El valor de desafío (VD) resume la amenaza que supone un monstruo para un grupo de cuatro personajes jugadores. Compara el VD del monstruo con el nivel de los personajes. Si el VD es superior, el monstruo probablemente es un peligro. Si el VD es inferior, el monstruo probablemente supone poca amenaza. Pero las circunstancias y el número de personajes jugadores pueden alterar significativamente lo amenazador que es un monstruo en la práctica. \"Caja de herramientas de juego\" (\"Encuentros de combate\") ofrece orientación al DJ sobre cómo usar el VD al planificar posibles encuentros de combate. _Véase también_ \"Bloque de estadísticas\"."
+ },
+ "rule-character-sheet": {
+  "text": "Una hoja de personaje es un registro en papel o digital que usas para llevar la cuenta de la información de tu personaje. _Véase también_ \"Creación de personajes\"."
+ },
+ "rule-climbing": {
+  "text": "Mientras trepas, cada 30 centímetros de movimiento cuesta 30 centímetros adicionales (60 centímetros adicionales en terreno difícil). Ignoras este coste adicional si tienes velocidad trepando y la usas para trepar.\nA criterio del DJ, trepar por una superficie resbaladiza o con pocos asideros puede requerir una prueba de Fuerza (Atletismo) CD 15 con éxito."
+ },
+ "rule-climb-speed": {
+  "text": "Una velocidad trepando puede usarse en lugar de la velocidad para recorrer una superficie vertical sin gastar el movimiento adicional que normalmente se asocia a trepar. _Véase también_ \"Trepar\" y \"Velocidad\"."
+ },
+ "rule-concentration": {
+  "text": "Algunos conjuros y otros efectos requieren Concentración para mantenerse activos, según se especifica en sus descripciones. Si el creador del efecto pierde la Concentración, el efecto termina. Si el efecto tiene una duración máxima, la descripción del efecto especifica cuánto tiempo puede concentrarse el creador en él: hasta 1 minuto, 1 hora u otra duración. El creador puede terminar la Concentración en cualquier momento (no requiere acción). Los siguientes factores rompen la Concentración.\n\n_Otro efecto de Concentración._ Pierdes la Concentración en un efecto en el momento en que empiezas a lanzar un conjuro que requiere Concentración o activas otro efecto que requiere Concentración.\n\n_Daño._ Si sufres daño, debes superar una tirada de salvación de Constitución para mantener la Concentración. La CD es igual a 10 o a la mitad del daño sufrido (redondeando hacia abajo), lo que sea mayor, hasta una CD máxima de 30.\n\n_Incapacitado o muerto._ Tu Concentración termina si tienes el estado Incapacitado o mueres."
+ },
+ "rule-condition": {
+  "text": "Un estado es una situación temporal de juego. La definición de un estado indica cómo afecta a quien lo recibe, y varias reglas definen cómo terminar un estado. Este glosario define estos estados:\n\n| Cegado | Agarrado | Envenenado |\n| Hechizado | Incapacitado | Derribado |\n| Ensordecido | Invisible | Apresado |\n| Agotamiento | Paralizado | Aturdido |\n| Asustado | Petrificado | Inconsciente |\n\nUn estado no se acumula consigo mismo; quien lo recibe o bien lo tiene o bien no lo tiene. El estado Agotamiento es una excepción a esa regla."
+ },
+ "rule-cone": {
+  "text": "Un cono es un área de efecto que se extiende en líneas rectas desde un punto de origen en una dirección que elige su creador. La anchura de un cono en cualquier punto de su longitud es igual a la distancia de ese punto al punto de origen. Por ejemplo, un cono tiene 4,5 metros de anchura en un punto de su longitud que está a 4,5 metros del punto de origen. El efecto que crea un cono especifica su longitud máxima.\n\nEl punto de origen de un cono no se incluye en el área de efecto a menos que su creador decida lo contrario."
+ },
+ "rule-cover": {
+  "text": "La cobertura proporciona cierto grado de protección a un objetivo que se encuentra tras ella. Hay tres grados de cobertura, cada uno de los cuales otorga un beneficio distinto al objetivo: media cobertura (+2 a la CA y a las tiradas de salvación de Destreza), tres cuartos de cobertura (+5 a la CA y a las tiradas de salvación de Destreza) y cobertura total (no se le puede elegir como objetivo directamente). Si está tras más de un grado de cobertura, el objetivo se beneficia solo del grado más protector. _Véase también_ \"Cómo jugar\" (\"Combate\")."
+ },
+ "rule-crawling": {
+  "text": "Mientras te arrastras, cada 30 cm de movimiento cuesta 30 cm adicionales (60 cm adicionales en terreno difícil). _Véase también_ \"Velocidad\"."
+ },
+ "rule-creature": {
+  "text": "Cualquier ser del juego, incluido el personaje de un jugador, es una criatura. _Véase también_ \"Tipo de criatura\"."
+ },
+ "rule-creature-type": {
+  "text": "Toda criatura, incluido todo personaje jugador, tiene una etiqueta en las reglas que identifica qué tipo de criatura es. La mayoría de los personajes jugadores son del tipo Humanoide. Estos son los tipos de criatura del juego:\n\n| Aberración | Elemental | Monstruosidad |\n| Bestia | Feérico | Cieno |\n| Celestial | Infernal | Planta |\n| Constructo | Gigante | No muerto |\n| Dragón | Humanoide |  |\n\nLos tipos no tienen reglas propias, pero algunas reglas del juego afectan de distintas maneras a las criaturas de ciertos tipos."
+ },
+ "rule-critical-hit": {
+  "text": "Si sacas un 20 en el d20 de una tirada de ataque, logras un impacto crítico, y el ataque impacta sin importar los modificadores ni la CA del objetivo. Un impacto crítico te permite tirar dados adicionales para el daño del ataque contra el objetivo. Tira todos los dados de daño del ataque dos veces y súmalos. Después suma los modificadores pertinentes. _Véase también_ \"Cómo jugar\" (\"Daño y curación\")."
+ },
+ "rule-cube": {
+  "text": "Un cubo es un área de efecto que se extiende en líneas rectas desde un punto de origen situado en cualquier lugar de una cara del cubo. El efecto que crea un cubo especifica su tamaño, que es la longitud de cada lado.\n\nEl punto de origen de un cubo no se incluye en el área de efecto a menos que su creador decida lo contrario."
+ },
+ "rule-curses": {
+  "text": "Algunos efectos del juego maldicen a una criatura o a un objeto. El efecto que confiere una maldición define lo que esta hace. Las maldiciones pueden eliminarse con los conjuros _Levantar maldición_ y _Restablecimiento mayor_ o con otra magia que ponga fin explícitamente a las maldiciones."
+ },
+ "rule-cylinder": {
+  "text": "Un cilindro es un área de efecto que se extiende en líneas rectas desde un punto de origen situado en el centro de la base circular superior o inferior del cilindro. El efecto que crea un cilindro especifica el radio de la base del cilindro y su altura.\n\nEl punto de origen de un cilindro se incluye en el área de efecto."
+ },
+ "rule-d20-test": {
+  "text": "Las pruebas d20 engloban las tres tiradas principales de d20 del juego: pruebas de característica, tiradas de ataque y tiradas de salvación. Si algo del juego afecta a las pruebas d20, afecta a estas tres tiradas. El DJ determina si una prueba d20 está justificada en una circunstancia dada. _Véase también_ \"Cómo jugar\" (\"Pruebas d20\")."
+ },
+ "rule-damage": {
+  "text": "El daño representa un perjuicio que hace que una criatura o un objeto pierda puntos de golpe."
+ },
+ "rule-damage-roll": {
+  "text": "Una tirada de daño es una tirada de dado, ajustada por los modificadores aplicables, que inflige daño a un objetivo. _Véase también_ \"Cómo jugar\" (\"Daño y curación\")."
+ },
+ "rule-damage-threshold": {
+  "text": "Una criatura o un objeto que tiene umbral de daño tiene inmunidad a todo el daño, a menos que sufra una cantidad de daño de un solo ataque o efecto igual o superior a su umbral de daño, en cuyo caso sufre la totalidad de ese daño. Cualquier daño que no alcance ni supere el umbral de daño es superficial y no reduce los puntos de golpe. Por ejemplo, si un objeto tiene un umbral de daño de 10, no sufre daño si se le infligen 9 puntos de daño, ya que ese daño no supera el umbral. Si a ese mismo objeto se le infligen 11 puntos de daño, sufre todo ese daño."
+ },
+ "rule-damage-types": {
+  "text": "Los ataques y otros efectos dañinos infligen distintos tipos de daño. Los tipos de daño no tienen reglas propias, pero otras reglas, como la resistencia, dependen de ellos. La tabla de Tipos de daño ofrece ejemplos para ayudar al DJ a asignar un tipo a un efecto nuevo.\n\n**Tipos de daño**\n\n| Tipo | Ejemplos |\n| Ácido | Líquidos corrosivos, enzimas digestivas |\n| Contundente | Objetos romos, constricción, caídas |\n| Frío | Agua helada, ráfagas gélidas |\n| Fuego | Llamas, calor insoportable |\n| Fuerza | Energía mágica pura |\n| Relámpago | Electricidad |\n| Necrótico | Energía que drena la vida |\n| Perforante | Colmillos, objetos punzantes |\n| Veneno | Gas tóxico, ponzoña |\n| Psíquico | Energía que desgarra la mente |\n| Radiante | Energía sagrada, radiación abrasadora |\n| Cortante | Garras, objetos cortantes |\n| Trueno | Sonido conmocionante |"
+ },
+ "rule-darkness": {
+  "text": "Un área de oscuridad es un área muy oscura. _Véase también_ \"Muy oscuro\" y \"Cómo jugar\" (\"Exploración\")."
+ },
+ "rule-darkvision": {
+  "text": "Si tienes visión en la oscuridad, puedes ver en luz tenue dentro de un alcance especificado como si fuera luz brillante, y en la oscuridad dentro de ese alcance como si fuera luz tenue. En esa oscuridad solo distingues los colores como tonos de gris. _Véase también_ \"Cómo jugar\" (\"Exploración\")."
+ },
+ "rule-dash": {
+  "text": "Cuando realizas la acción de Correr, obtienes movimiento adicional durante el turno en curso. El aumento es igual a tu velocidad tras aplicar cualquier modificador. Con una velocidad de 9 metros, por ejemplo, puedes moverte hasta 18 metros en tu turno si Corres. Si tu velocidad de 9 metros se reduce a 4,5 metros, puedes moverte hasta 9 metros este turno si Corres.\n\nSi tienes una velocidad especial, como velocidad volando o velocidad nadando, puedes usar esa velocidad en lugar de tu velocidad cuando realices esta acción. Eliges qué velocidad usar cada vez que la realizas. _Véase también_ \"Velocidad\"."
+ },
+ "rule-dead": {
+  "text": "Una criatura muerta no tiene puntos de golpe y no puede recuperarlos a menos que antes sea revivida mediante magia como el conjuro _Revivir a los muertos_ o _Revivificar_. Cuando se lanza uno de esos conjuros, el espíritu sabe quién lo está lanzando y puede negarse. El espíritu de una criatura muerta ha abandonado el cuerpo y ha partido hacia los Planos Exteriores, y revivir a la criatura requiere hacer volver al espíritu.\n\nSi la criatura regresa a la vida, el efecto de revivificación determina los puntos de golpe actuales de la criatura. Salvo que se indique otra cosa, la criatura regresa a la vida con los estados, contagios mágicos o maldiciones que la afectaban al morir, si las duraciones de esos efectos siguen en curso. Si la criatura murió con algún nivel de agotamiento, regresa con 1 nivel menos. Si la criatura estaba sintonizada con uno o más objetos mágicos, deja de estarlo."
+ },
+ "rule-death-saving-throw": {
+  "text": "Un personaje jugador debe hacer una tirada de salvación contra muerte (también llamada salvación contra muerte) si comienza su turno con 0 puntos de golpe. _Véase también_ \"Cómo jugar\" (\"Daño y curación\")."
+ },
+ "rule-dehydration": {
+  "text": "Una criatura necesita una cantidad de agua al día según su tamaño, como se muestra en la tabla de Necesidades de agua al día. Una criatura que bebe menos de la mitad del agua necesaria para un día obtiene 1 nivel de agotamiento al final del día. El agotamiento causado por la deshidratación no puede eliminarse hasta que la criatura beba la cantidad completa de agua necesaria para un día. _Véase también_ \"Agotamiento\".\n\n**Necesidades de agua al día**\n\n| Tamaño | Agua | Tamaño | Agua |\n| Diminuto | 1 litro | Grande | 15 litros |\n| Pequeño | 4 litros | Enorme | 60 litros |\n| Mediano | 4 litros | Gargantuesco | 240 litros |"
+ },
+ "rule-difficult-terrain": {
+  "text": "Si un espacio es terreno difícil, cada 30 cm de movimiento en ese espacio cuesta 30 cm adicionales. Por ejemplo, moverse 1,5 metros por terreno difícil cuesta 3 metros de movimiento. El terreno difícil no es acumulativo; un espacio o bien es terreno difícil o bien no lo es.\n\nUn espacio es terreno difícil si contiene cualquiera de los siguientes elementos o algo similar:\n\n- Una criatura que no sea Diminuta ni aliada tuya\n- Mobiliario dimensionado para criaturas de tu tamaño o mayores\n- Nieve espesa, hielo, escombros o maleza\n- Líquido que llegue entre la espinilla y la cintura\n- Una abertura estrecha dimensionada para una criatura un tamaño más pequeña que tú\n- Una pendiente de 20 grados o más"
+ },
+ "rule-difficulty-class": {
+  "text": "Una clase de dificultad (CD) es el número objetivo de una prueba de característica o de una tirada de salvación. _Véase también_ \"Cómo jugar\" (\"Pruebas d20\")."
+ },
+ "rule-dim-light": {
+  "text": "Un área con luz tenue es un área ligeramente oscura. _Véase también_ \"Ligeramente oscuro\" y \"Cómo jugar\" (\"Exploración\")."
+ },
+ "rule-disadvantage": {
+  "text": "Si tienes desventaja en una prueba d20, tira dos d20 y usa el resultado más bajo. Una tirada no puede verse afectada por más de una desventaja, y la ventaja y la desventaja en la misma tirada se anulan entre sí. _Véase también_ \"Cómo jugar\" (\"Pruebas d20\")."
+ },
+ "rule-disengage": {
+  "text": "Si realizas la acción de Retirarse, tu movimiento no provoca ataques de oportunidad durante el resto del turno en curso."
+ },
+ "rule-dodge": {
+  "text": "Si realizas la acción de Esquivar, obtienes los siguientes beneficios: hasta el comienzo de tu próximo turno, cualquier tirada de ataque hecha contra ti tiene desventaja si puedes ver al atacante, y haces las tiradas de salvación de Destreza con ventaja.\n\nPierdes estos beneficios si tienes el estado Incapacitado o si tu velocidad es 0."
+ },
+ "rule-emanation": {
+  "text": "Una emanación es un área de efecto que se extiende en líneas rectas desde una criatura o un objeto en todas direcciones. El efecto que crea una emanación especifica la distancia a la que se extiende.\n\nUna emanación se mueve con la criatura o el objeto que es su origen, a menos que sea un efecto instantáneo o estacionario.\n\nEl origen de una emanación (criatura u objeto) no se incluye en el área de efecto a menos que su creador decida lo contrario."
+ },
+ "rule-encounter": {
+  "text": "Un encuentro es una escena de una aventura que forma parte de al menos uno de los tres pilares del juego: la interacción social, la exploración o el combate. _Véase también_ \"Cómo jugar\" (\"Interacción social\", \"Exploración\" y \"Combate\")."
+ },
+ "rule-enemy": {
+  "text": "Una criatura es tu enemiga si lucha contra ti en combate, trabaja activamente para hacerte daño o es designada como tu enemiga por las reglas o por el DJ."
+ },
+ "rule-experience-points": {
+  "text": "A medida que superan desafíos y completan aventuras, los personajes obtienen puntos de experiencia (PX), que concede el DJ. Cuando el total de PX de un personaje supera ciertos umbrales, el nivel del personaje aumenta. _Véase también_ \"Avance de nivel\"."
+ },
+ "rule-expertise": {
+  "text": "La pericia es un rasgo que mejora tu uso de una competencia en una habilidad. Cuando haces una prueba de característica con una competencia en una habilidad en la que tienes pericia, tu bonificador por competencia se duplica para esa prueba, a menos que otro rasgo ya duplique el bonificador.\n\nSi obtienes pericia, la obtienes en una habilidad en la que tengas competencia. No puedes tener pericia más de una vez en la misma competencia en una habilidad.\n\n_Véase también_ \"Cómo jugar\" (\"Competencia\")."
+ },
+ "rule-falling": {
+  "text": "Una criatura que cae sufre 1d6 de daño contundente al final de la caída por cada 3 metros que haya caído, hasta un máximo de 20d6. Cuando la criatura aterriza, tiene el estado Derribado a menos que evite sufrir cualquier daño por la caída.\n\nUna criatura que cae al agua o a otro líquido puede usar su Reacción para hacer una prueba de Fuerza (Atletismo) o de Destreza (Acrobacias) CD 15 para golpear la superficie de cabeza o de pies. Si tiene éxito en la prueba, cualquier daño resultante de la caída se reduce a la mitad."
+ }
+}
