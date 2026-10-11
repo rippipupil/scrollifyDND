@@ -82,3 +82,16 @@ test('spell text comes from clean SRD markdown when available', () => {
   expect(cw.text!.en).not.toContain('Precipitation');
   expect(all.spells.find((x) => x.id === 'fireball')!.data.higherLevel.en).toMatch(/^The damage increases by 1d6/);
 });
+
+test('every spell is fully translated to Spanish', () => {
+  const missing = all.spells.filter(
+    (s) => !s.name.es || !s.text?.es || (s.data.higherLevel && !s.data.higherLevel.es) || (s.data.material && !s.data.material.es),
+  );
+  expect(missing.map((s) => s.id)).toEqual([]);
+});
+
+test('conditions, masteries and weapon properties are translated', () => {
+  for (const k of ['conditions', 'masteries', 'weapon-properties']) {
+    expect(all[k].filter((e) => !e.name.es || !e.text?.es).map((e) => e.id)).toEqual([]);
+  }
+});
