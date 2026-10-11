@@ -7,6 +7,7 @@ import {
   hitDiceRemaining,
   longRest,
   maxHp,
+  revive,
   rollDeathSave,
   setTempHp,
   shortRest,
@@ -211,4 +212,29 @@ test('exhaustion reduces speed by 5 ft per level', () => {
   const c = angvel();
   c.exhaustion = 3;
   expect(currentSpeed(c)).toBe(15);
+});
+
+describe('revive', () => {
+  const corpse = () => {
+    const c = newCharacter({ classes: [{ classId: 'wizard', name: { en: 'Wizard' }, level: 4, hitDie: 6, hitDiceUsed: 0, casterType: 'full' }] });
+    return { ...c, dead: true, exhaustion: 6, hp: { ...c.hp, current: 0 }, deathSaves: { successes: 1, failures: 3 }, conditions: ['unconscious', 'poisoned'] };
+  };
+
+  test('brings a dead character back at 1 HP with clean death saves', () => {
+    const c = revive(corpse());
+    expect(c.dead).toBe(false);
+    expect(c.hp.current).toBe(1);
+    expect(c.deathSaves).toEqual({ successes: 0, failures: 0 });
+    expect(c.conditions).toEqual(['poisoned']);
+  });
+
+  test('drops exhaustion below the lethal level so the sheet is usable again', () => {
+    expect(revive(corpse()).exhaustion).toBe(5);
+  });
+
+  test('after reviving, rests and healing work again', () => {
+    const c = revive(corpse());
+    expect(canRest(c)).toBe(true);
+    expect(applyHealing(c, 3).hp.current).toBe(4);
+  });
 });

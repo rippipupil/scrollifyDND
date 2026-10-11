@@ -123,6 +123,18 @@ export function rollDeathSave(c: Character, d20: number): Character {
   return { ...c, deathSaves: { successes, failures } };
 }
 
+/** Undoes death (Revivify, Raise Dead, or a mis-tap): 1 HP, clean death saves, exhaustion below lethal. */
+export function revive(c: Character): Character {
+  return {
+    ...c,
+    dead: false,
+    hp: { ...c.hp, current: Math.max(1, c.hp.current) },
+    deathSaves: { successes: 0, failures: 0 },
+    conditions: withoutCondition(c.conditions, 'unconscious'),
+    exhaustion: Math.min(5, c.exhaustion),
+  };
+}
+
 export function canRest(c: Character): boolean {
   return !c.dead && c.hp.current >= 1;
 }

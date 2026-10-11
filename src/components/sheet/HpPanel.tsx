@@ -3,7 +3,7 @@ import { View } from 'react-native';
 import { useT } from '../../i18n/useT';
 import { armorClass } from '../../rules/combat';
 import { charProf, formatMod, initiative, passive } from '../../rules/core';
-import { applyDamage, applyHealing, currentSpeed, maxHp, rollDeathSave, setTempHp } from '../../rules/health';
+import { applyDamage, applyHealing, currentSpeed, maxHp, revive, rollDeathSave, setTempHp } from '../../rules/health';
 import type { Character } from '../../rules/types';
 import { d20, useRolls } from '../../store/rolls';
 import { useTheme } from '../../theme';
@@ -78,7 +78,12 @@ export function HpPanel({ c, mutate }: { c: Character; mutate: Mutate }) {
           <Button style={{ flex: 1 }} label={t('sheet.heal')} onPress={() => setAction('heal')} testID="btn-heal" />
           <Button style={{ flex: 1 }} kind="secondary" label={t('sheet.temp')} onPress={() => setAction('temp')} />
         </Row>
-        {c.dead ? <Txt style={{ color: th.danger, fontWeight: '800', textAlign: 'center' }}>{t('sheet.dead')}</Txt> : null}
+        {c.dead ? (
+          <View style={{ gap: 6 }}>
+            <Txt style={{ color: th.danger, fontWeight: '800', textAlign: 'center' }}>{t('sheet.dead')}</Txt>
+            <Button kind="secondary" label={t('sheet.revive')} onPress={() => mutate(revive)} testID="btn-revive" />
+          </View>
+        ) : null}
         {!c.dead && c.hp.current === 0 ? (
           <View style={{ gap: 6 }}>
             <Txt style={{ fontWeight: '700' }}>{t('sheet.deathSaves')}</Txt>

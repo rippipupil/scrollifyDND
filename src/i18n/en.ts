@@ -53,7 +53,7 @@ export const en: Dict = {
     rollDeathSave: 'Roll death save', shortRest: 'Short Rest', longRest: 'Long Rest', hitDice: 'Hit Dice',
     spendHitDie: 'Spend Hit Die', inspiration: 'Heroic Inspiration', conditions: 'Conditions', exhaustion: 'Exhaustion',
     exhaustionLevel: 'Exhaustion {n}', resources: 'Resources', attacks: 'Attacks', spells: 'Spells', inventory: 'Inventory',
-    features: 'Features', notes: 'Notes', main: 'Main', combat: 'Combat', dead: 'Dead', stable: 'Stable', unconscious: 'Unconscious',
+    features: 'Features', notes: 'Notes', main: 'Main', combat: 'Combat', dead: 'Dead', revive: 'Revive (1 HP)', stable: 'Stable', unconscious: 'Unconscious',
     concentrating: 'Concentrating: {spell}', endConcentration: 'End concentration',
     concentrationCheck: 'Constitution save DC {dc} to keep concentration!',
     concentrationLost: 'You lose concentration.', dropped: 'You drop to 0 HP and fall Unconscious.', instantDeath: 'Instant death.',

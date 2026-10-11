@@ -53,7 +53,7 @@ export const es: Dict = {
     rollDeathSave: 'Tirar salvación contra muerte', shortRest: 'Descanso corto', longRest: 'Descanso largo', hitDice: 'Dados de golpe',
     spendHitDie: 'Gastar dado de golpe', inspiration: 'Inspiración heroica', conditions: 'Estados', exhaustion: 'Agotamiento',
     exhaustionLevel: 'Agotamiento {n}', resources: 'Recursos', attacks: 'Ataques', spells: 'Conjuros', inventory: 'Inventario',
-    features: 'Rasgos', notes: 'Notas', main: 'Principal', combat: 'Combate', dead: 'Muerto', stable: 'Estable', unconscious: 'Inconsciente',
+    features: 'Rasgos', notes: 'Notas', main: 'Principal', combat: 'Combate', dead: 'Muerto', revive: 'Revivir (1 PG)', stable: 'Estable', unconscious: 'Inconsciente',
     concentrating: 'Concentración: {spell}', endConcentration: 'Terminar concentración',
     concentrationCheck: '¡Tirada de salvación de Constitución CD {dc} para mantener la concentración!',
     concentrationLost: 'Pierdes la concentración.', dropped: 'Caes a 0 PG y quedas Inconsciente.', instantDeath: 'Muerte instantánea.',
