@@ -1,0 +1,69 @@
+import * as path from 'node:path';
+import { buildAll, cleanText, slugify } from '../lib/build';
+
+const root = path.resolve(__dirname, '../..');
+const all = buildAll({
+  srd: path.join(root, 'data/srd-2024-en'),
+  md: path.join(root, 'data/srd-md'),
+  i18n: path.join(root, 'data/i18n/es'),
+  external: path.join(root, 'data/external'),
+});
+
+test('SRD counts', () => {
+  expect(all.spells).toHaveLength(339);
+  expect(all.classes).toHaveLength(12);
+  expect(all.monsters).toHaveLength(341);
+  expect(all['magic-items']).toHaveLength(262);
+  expect(all.conditions).toHaveLength(15);
+  expect(all.species).toHaveLength(9);
+});
+
+test('every entry has an English name and unique id per file', () => {
+  for (const [file, entries] of Object.entries(all)) {
+    const seen = new Set<string>();
+    for (const e of entries) {
+      expect(e.name.en).toBeTruthy();
+      expect(seen.has(e.id)).toBe(false);
+      seen.add(e.id);
+    }
+    if (file !== "external") expect(entries.length).toBeGreaterThan(0);
+  }
+});
+
+test('wizard level 4 has [4,3] slots and is a full INT caster', () => {
+  const wiz = all.classes.find((c) => c.id === 'wizard')!;
+  expect(wiz.data.casterType).toBe('full');
+  expect(wiz.data.spellAbility).toBe('int');
+  expect(wiz.data.hitDie).toBe(6);
+  expect(wiz.data.levels[3].slots.slice(0, 3)).toEqual([4, 3, 0]);
+});
+
+test('fire bolt spell data', () => {
+  const s = all.spells.find((x) => x.id === 'fire-bolt')!;
+  expect(s.data.level).toBe(0);
+  expect(s.data.classes).toContain('wizard');
+  expect(s.data.school).toBe('evocation');
+});
+
+test('longsword weapon data', () => {
+  const w = all.equipment.find((x) => x.id === 'longsword')!;
+  expect(w.data.weapon).toMatchObject({ damage: '1d8', damageType: 'slashing', versatileDamage: '1d10', martial: true, ranged: false, mastery: 'sap' });
+  const chain = all.equipment.find((x) => x.id === 'chain-mail')!;
+  expect(chain.data.armor).toMatchObject({ base: 16, type: 'heavy', strMin: 13, stealthDisadvantage: true });
+});
+
+test('rules glossary excludes conditions and converts tables', () => {
+  expect(all.rules.find((r) => r.id === 'rule-blinded')).toBeUndefined();
+  const action = all.rules.find((r) => r.id === 'rule-action')!;
+  expect(action.text!.en).toContain('| Attack |');
+  expect(all.rules.find((r) => r.id === 'rule-concentration')!.text!.en).toContain('half the damage');
+});
+
+test('cleanText joins PDF hyphenation', () => {
+  expect(cleanText('one ex- pended use')).toBe('one expended use');
+});
+
+test('slugify', () => {
+  expect(slugify("Tasha's Hideous Laughter")).toBe('tashas-hideous-laughter');
+  expect(slugify('Esfera flamígera')).toBe('esfera-flamigera');
+});
