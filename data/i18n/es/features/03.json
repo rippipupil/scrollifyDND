@@ -1,0 +1,54 @@
+{
+ "wizard-arcane-recovery": {
+  "name": "Recuperación arcana",
+  "text": "Puedes recuperar parte de tu energía mágica estudiando tu libro de conjuros. Cuando terminas un Descanso corto, puedes elegir espacios de conjuro gastados para recuperarlos.\nLos espacios de conjuro pueden tener un nivel combinado igual o inferior a la mitad de tu nivel de Mago (redondeado hacia arriba), y ninguno de los espacios puede ser de nivel 6 o superior.\nPor ejemplo, si eres un Mago de nivel 4, puedes recuperar hasta dos niveles de espacios de conjuro, recuperando un espacio de conjuro de nivel 2 o dos espacios de conjuro de nivel 1.\nUna vez que uses este rasgo, no puedes volver a hacerlo hasta que termines un Descanso largo."
+ },
+ "wizard-scholar": {
+  "name": "Erudito",
+  "text": "Mientras estudiabas magia, también te especializaste en otro campo de estudio. Elige una de las siguientes habilidades en las que tengas competencia: Arcanos, Historia, Investigación, Medicina, Naturaleza o Religión.\nTienes Pericia en la habilidad elegida."
+ },
+ "wizard-subclass": {
+  "name": "Subclase de Mago",
+  "text": "Obtienes una subclase de Mago de tu elección. La subclase de Evocador se detalla tras la descripción de esta clase.\nUna subclase es una especialización que te otorga rasgos en ciertos niveles de Mago. Durante el resto de tu carrera, obtienes cada uno de los rasgos de tu subclase que sean de tu nivel de Mago o inferior."
+ },
+ "wizard-ability-score-improvement": {
+  "name": "Mejora de característica",
+  "text": "Obtienes la dote Mejora de característica (consulta \"Dotes\") u otra dote de tu elección para la que cumplas los requisitos. Obtienes este rasgo de nuevo en los niveles de Mago 8, 12 y 16."
+ },
+ "wizard-memorize-spell": {
+  "name": "Memorizar conjuro",
+  "text": "Siempre que termines un Descanso corto, puedes estudiar tu libro de conjuros y sustituir uno de los conjuros de Mago de nivel 1 o superior que tengas preparados para tu rasgo Lanzamiento de conjuros por otro conjuro de nivel 1 o superior del libro."
+ },
+ "wizard-spell-mastery": {
+  "name": "Dominio de conjuros",
+  "text": "Has alcanzado tal dominio sobre ciertos conjuros que puedes lanzarlos a voluntad. Elige un conjuro de nivel 1 y uno de nivel 2 de tu libro de conjuros que tengan un tiempo de lanzamiento de una acción. Siempre tienes esos conjuros preparados y puedes lanzarlos a su nivel más bajo sin gastar un espacio de conjuro. Para lanzar cualquiera de los dos a un nivel superior, debes gastar un espacio de conjuro.\nSiempre que termines un Descanso largo, puedes estudiar tu libro de conjuros y sustituir uno de esos conjuros por un conjuro elegible del mismo nivel del libro."
+ },
+ "wizard-epic-boon": {
+  "name": "Don épico",
+  "text": "Obtienes una dote de Don épico (consulta \"Dotes\") u otra dote de tu elección para la que cumplas los requisitos. Se recomienda el Don de recuperación de conjuros."
+ },
+ "wizard-signature-spells": {
+  "name": "Conjuros característicos",
+  "text": "Elige dos conjuros de nivel 3 de tu libro de conjuros como tus conjuros característicos. Siempre tienes estos conjuros preparados y puedes lanzar cada uno de ellos una vez a nivel 3 sin gastar un espacio de conjuro. Cuando lo hagas, no puedes lanzarlos de esta forma de nuevo hasta que termines un Descanso corto o largo. Para lanzar cualquiera de los dos a un nivel superior, debes gastar un espacio de conjuro."
+ },
+ "evoker-evocation-savant": {
+  "name": "Sabio de la evocación",
+  "text": "Elige dos conjuros de Mago de la escuela de Evocación, cada uno de nivel 2 como máximo, y añádelos gratis a tu libro de conjuros.\nAdemás, siempre que obtengas acceso a un nuevo nivel de espacios de conjuro en esta clase, puedes añadir gratis a tu libro de conjuros un conjuro de Mago de la escuela de Evocación. El conjuro elegido debe ser de un nivel para el que tengas espacios de conjuro."
+ },
+ "evoker-potent-cantrip": {
+  "name": "Truco potente",
+  "text": "Tus trucos que infligen daño afectan incluso a las criaturas que evitan lo peor del efecto. Cuando lanzas un truco contra una criatura y fallas la tirada de ataque o el objetivo supera una tirada de salvación contra el truco, el objetivo sufre la mitad del daño del truco (si lo hay), pero no sufre ningún efecto adicional del truco."
+ },
+ "evoker-sculpt-spells": {
+  "name": "Moldear conjuros",
+  "text": "Puedes crear bolsas de seguridad relativa dentro de los efectos de tus evocaciones. Cuando lanzas un conjuro de Evocación que afecta a otras criaturas que puedes ver, puedes elegir un número de ellas igual a 1 más el nivel del conjuro. Las criaturas elegidas superan automáticamente sus tiradas de salvación contra el conjuro y no sufren daño si normalmente sufrirían la mitad del daño al superar la salvación."
+ },
+ "evoker-empowered-evocation": {
+  "name": "Evocación potenciada",
+  "text": "Siempre que lances un conjuro de Mago de la escuela de Evocación, puedes añadir tu modificador de Inteligencia a una tirada de daño de ese conjuro."
+ },
+ "evoker-overchannel": {
+  "name": "Sobrecanalizar",
+  "text": "Puedes aumentar el poder de tus conjuros. Cuando lanzas un conjuro de Mago que inflige daño con un espacio de conjuro de nivel 1 a 5, puedes infligir el daño máximo con ese conjuro en el turno en que lo lanzas.\nLa primera vez que lo hagas, no sufres ningún efecto adverso.\nSi vuelves a usar este rasgo antes de terminar un Descanso largo, sufres 2d12 de daño Necrótico por cada nivel del espacio de conjuro inmediatamente después de lanzarlo.\nEste daño ignora la Resistencia y la Inmunidad.\nCada vez que vuelvas a usar este rasgo antes de terminar un Descanso largo, el daño Necrótico por nivel de conjuro aumenta en 1d12."
+ }
+}
