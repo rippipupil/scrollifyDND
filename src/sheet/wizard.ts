@@ -134,6 +134,7 @@ export function buildCharacterFromWizard(draft: WizardDraft, lang: Lang, homebre
 
   const features: Feature[] = [];
   for (const t of species?.data?.traits ?? []) features.push(feature(t.name, t.text, 'species', species ? `species:${species.id}` : undefined, lang));
+  if (species && !species.data?.traits?.length && species.text) features.push(feature(species.name, species.text, 'species', `species:${species.id}`, lang));
   if (background?.data?.feat) {
     const feat = getEntry(`feat:${background.data.feat}`, homebrew);
     if (feat) features.push(feature(feat.name, feat.text, 'feat', `feat:${feat.id}`, lang));

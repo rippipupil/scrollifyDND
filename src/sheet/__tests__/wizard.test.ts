@@ -65,3 +65,10 @@ test('custom species and background by name', () => {
   expect(c.species.name.es).toBe('Aasimar caído');
   expect(c.background.name.es).toBe('Heladero');
 });
+
+test('homebrew species without traits becomes a single feature with its text', () => {
+  const hb = { id: 'hb-aasimar', category: 'species' as const, name: { en: 'Fallen Aasimar', es: 'Aasimar caído' }, text: { en: 'Necrotic shroud', es: 'Sudario necrótico' }, source: 'homebrew' as const, data: { speed: 30, size: 'Medium' } };
+  const c = buildCharacterFromWizard({ ...emptyDraft(), name: 'X', classes: [{ key: 'class:wizard', level: 1 }], speciesKey: 'species:hb-aasimar', baseScores: base }, 'es', [hb]);
+  expect(c.species.name.es).toBe('Aasimar caído');
+  expect(c.features[0]).toMatchObject({ name: 'Aasimar caído', text: 'Sudario necrótico' });
+});
