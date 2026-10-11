@@ -1,0 +1,590 @@
+{
+ "acid": {
+  "name": "Ácido"
+ },
+ "alchemists-fire": {
+  "name": "Fuego de alquimista"
+ },
+ "alchemists-supplies": {
+  "name": "Suministros de alquimista"
+ },
+ "amulet": {
+  "name": "Amuleto"
+ },
+ "antitoxin": {
+  "name": "Antitoxina"
+ },
+ "arrows": {
+  "name": "Flechas"
+ },
+ "backpack": {
+  "name": "Mochila"
+ },
+ "bagpipes": {
+  "name": "Gaita"
+ },
+ "ball-bearings": {
+  "name": "Bolas de rodamiento"
+ },
+ "barrel": {
+  "name": "Barril"
+ },
+ "basket": {
+  "name": "Cesta"
+ },
+ "battleaxe": {
+  "name": "Hacha de guerra"
+ },
+ "bedroll": {
+  "name": "Petate"
+ },
+ "bell": {
+  "name": "Campana"
+ },
+ "blanket": {
+  "name": "Manta"
+ },
+ "block-and-tackle": {
+  "name": "Polea y aparejos"
+ },
+ "blowgun": {
+  "name": "Cerbatana"
+ },
+ "book": {
+  "name": "Libro"
+ },
+ "bolts": {
+  "name": "Virotes"
+ },
+ "bottle-glass": {
+  "name": "Botella de cristal"
+ },
+ "breastplate": {
+  "name": "Coraza"
+ },
+ "brewers-supplies": {
+  "name": "Suministros de cervecero"
+ },
+ "bucket": {
+  "name": "Cubo"
+ },
+ "bullets-firearm": {
+  "name": "Balas de arma de fuego"
+ },
+ "bullets-sling": {
+  "name": "Balas de honda"
+ },
+ "burglars-pack": {
+  "name": "Paquete de ladrón"
+ },
+ "calligraphers-supplies": {
+  "name": "Suministros de calígrafo"
+ },
+ "caltrops": {
+  "name": "Abrojos"
+ },
+ "candle": {
+  "name": "Vela"
+ },
+ "carpenters-tools": {
+  "name": "Herramientas de carpintero"
+ },
+ "cartographer-tools": {
+  "name": "Herramientas de cartógrafo"
+ },
+ "case-crossbow-bolt": {
+  "name": "Estuche para virotes"
+ },
+ "case-map-or-scroll": {
+  "name": "Estuche para mapas o pergaminos"
+ },
+ "chain": {
+  "name": "Cadena"
+ },
+ "chain-mail": {
+  "name": "Cota de malla"
+ },
+ "chain-shirt": {
+  "name": "Camisote de malla"
+ },
+ "chest": {
+  "name": "Cofre"
+ },
+ "climbers-kit": {
+  "name": "Equipo de escalada"
+ },
+ "clothes-fine": {
+  "name": "Ropa elegante"
+ },
+ "clothes-travelers": {
+  "name": "Ropa de viaje"
+ },
+ "club": {
+  "name": "Garrote"
+ },
+ "cobblers-tools": {
+  "name": "Herramientas de zapatero"
+ },
+ "component-pouch": {
+  "name": "Bolsa de componentes"
+ },
+ "cooks-utensils": {
+  "name": "Utensilios de cocinero"
+ },
+ "costume": {
+  "name": "Disfraz"
+ },
+ "crowbar": {
+  "name": "Palanca"
+ },
+ "crystal": {
+  "name": "Cristal"
+ },
+ "dagger": {
+  "name": "Daga"
+ },
+ "dart": {
+  "name": "Dardo"
+ },
+ "dice": {
+  "name": "Dados"
+ },
+ "diplomat-pack": {
+  "name": "Paquete de diplomático"
+ },
+ "disguise-kit": {
+  "name": "Útiles para disfrazarse"
+ },
+ "dragonchess": {
+  "name": "Ajedrez de dragones"
+ },
+ "drum": {
+  "name": "Tambor"
+ },
+ "dulcimer": {
+  "name": "Dulcémele"
+ },
+ "dungeoneer-pack": {
+  "name": "Paquete de explorador de mazmorras"
+ },
+ "emblem": {
+  "name": "Emblema"
+ },
+ "entertainers-pack": {
+  "name": "Paquete de artista"
+ },
+ "explorers-pack": {
+  "name": "Paquete de explorador"
+ },
+ "flail": {
+  "name": "Mangual"
+ },
+ "flask": {
+  "name": "Frasco"
+ },
+ "flute": {
+  "name": "Flauta"
+ },
+ "forgery-kit": {
+  "name": "Útiles de falsificación"
+ },
+ "glaive": {
+  "name": "Guja"
+ },
+ "glassblowers-tools": {
+  "name": "Herramientas de soplador de vidrio"
+ },
+ "grappling-hook": {
+  "name": "Garfio"
+ },
+ "greataxe": {
+  "name": "Gran hacha"
+ },
+ "greatclub": {
+  "name": "Gran garrote"
+ },
+ "greatsword": {
+  "name": "Espadón"
+ },
+ "halberd": {
+  "name": "Alabarda"
+ },
+ "half-plate-armor": {
+  "name": "Semiplacas"
+ },
+ "hand-crossbow": {
+  "name": "Ballesta de mano"
+ },
+ "handaxe": {
+  "name": "Hacha de mano"
+ },
+ "healers-kit": {
+  "name": "Útiles de sanador"
+ },
+ "heavy-crossbow": {
+  "name": "Ballesta pesada"
+ },
+ "herbalism-kit": {
+  "name": "Útiles de herborista"
+ },
+ "hide-armor": {
+  "name": "Armadura de pieles"
+ },
+ "holy-water": {
+  "name": "Agua bendita"
+ },
+ "horn": {
+  "name": "Cuerno"
+ },
+ "hunting-trap": {
+  "name": "Trampa de caza"
+ },
+ "ink": {
+  "name": "Tinta"
+ },
+ "ink-pen": {
+  "name": "Pluma"
+ },
+ "javelin": {
+  "name": "Jabalina"
+ },
+ "jewelers-tools": {
+  "name": "Herramientas de joyero"
+ },
+ "jug": {
+  "name": "Jarra"
+ },
+ "ladder": {
+  "name": "Escalera"
+ },
+ "lamp": {
+  "name": "Lámpara"
+ },
+ "lance": {
+  "name": "Lanza de caballería"
+ },
+ "lantern-bullseye": {
+  "name": "Linterna sorda"
+ },
+ "lantern-hooded": {
+  "name": "Farol con capucha"
+ },
+ "leather-armor": {
+  "name": "Armadura de cuero"
+ },
+ "leatherworkers-tools": {
+  "name": "Herramientas de peletero"
+ },
+ "light-crossbow": {
+  "name": "Ballesta ligera"
+ },
+ "light-hammer": {
+  "name": "Martillo ligero"
+ },
+ "lock": {
+  "name": "Cerradura"
+ },
+ "longbow": {
+  "name": "Arco largo"
+ },
+ "longsword": {
+  "name": "Espada larga"
+ },
+ "lute": {
+  "name": "Laúd"
+ },
+ "lyre": {
+  "name": "Lira"
+ },
+ "mace": {
+  "name": "Maza"
+ },
+ "magnifying-glass": {
+  "name": "Lupa"
+ },
+ "manacles": {
+  "name": "Grilletes"
+ },
+ "masons-tools": {
+  "name": "Herramientas de albañil"
+ },
+ "map": {
+  "name": "Mapa"
+ },
+ "mirror": {
+  "name": "Espejo"
+ },
+ "maul": {
+  "name": "Mazo"
+ },
+ "morningstar": {
+  "name": "Lucero del alba"
+ },
+ "musket": {
+  "name": "Mosquete"
+ },
+ "navigators-tools": {
+  "name": "Herramientas de navegante"
+ },
+ "needles": {
+  "name": "Agujas"
+ },
+ "net": {
+  "name": "Red"
+ },
+ "oil": {
+  "name": "Aceite"
+ },
+ "orb": {
+  "name": "Orbe"
+ },
+ "padded-armor": {
+  "name": "Armadura acolchada"
+ },
+ "painters-supplies": {
+  "name": "Suministros de pintor"
+ },
+ "pan-flute": {
+  "name": "Flauta de pan"
+ },
+ "paper": {
+  "name": "Papel"
+ },
+ "parchment": {
+  "name": "Pergamino"
+ },
+ "perfume": {
+  "name": "Perfume"
+ },
+ "pike": {
+  "name": "Pica"
+ },
+ "pistol": {
+  "name": "Pistola"
+ },
+ "poisoners-kit": {
+  "name": "Útiles de envenenador"
+ },
+ "plate-armor": {
+  "name": "Armadura de placas"
+ },
+ "playing-cards": {
+  "name": "Naipes"
+ },
+ "poison-basic": {
+  "name": "Veneno básico"
+ },
+ "pole": {
+  "name": "Pértiga"
+ },
+ "pot-iron": {
+  "name": "Olla de hierro"
+ },
+ "potion-of-healing": {
+  "name": "Poción de curación"
+ },
+ "potters-tools": {
+  "name": "Herramientas de alfarero"
+ },
+ "pouch": {
+  "name": "Bolsa"
+ },
+ "priests-pack": {
+  "name": "Paquete de sacerdote"
+ },
+ "quarterstaff": {
+  "name": "Bastón"
+ },
+ "quiver": {
+  "name": "Carcaj"
+ },
+ "ram-portable": {
+  "name": "Ariete portátil"
+ },
+ "rapier": {
+  "name": "Estoque"
+ },
+ "rations": {
+  "name": "Raciones"
+ },
+ "reliquary": {
+  "name": "Relicario"
+ },
+ "ring-mail": {
+  "name": "Cota de anillas"
+ },
+ "robe": {
+  "name": "Túnica"
+ },
+ "rod": {
+  "name": "Vara"
+ },
+ "rope": {
+  "name": "Cuerda"
+ },
+ "sack": {
+  "name": "Saco"
+ },
+ "scale-mail": {
+  "name": "Cota de escamas"
+ },
+ "scholars-pack": {
+  "name": "Paquete de erudito"
+ },
+ "scimitar": {
+  "name": "Cimitarra"
+ },
+ "shawm": {
+  "name": "Chirimía"
+ },
+ "shield": {
+  "name": "Escudo"
+ },
+ "shortbow": {
+  "name": "Arco corto"
+ },
+ "shortsword": {
+  "name": "Espada corta"
+ },
+ "shovel": {
+  "name": "Pala"
+ },
+ "sickle": {
+  "name": "Hoz"
+ },
+ "signal-whistle": {
+  "name": "Silbato de señales"
+ },
+ "sling": {
+  "name": "Honda"
+ },
+ "smiths-tools": {
+  "name": "Herramientas de herrero"
+ },
+ "spear": {
+  "name": "Lanza"
+ },
+ "spellbook": {
+  "name": "Libro de conjuros"
+ },
+ "spell-scroll-cantrip": {
+  "name": "Pergamino de conjuro (truco)"
+ },
+ "spell-scroll-level-1": {
+  "name": "Pergamino de conjuro (nivel 1)"
+ },
+ "spikes-iron": {
+  "name": "Clavos de hierro"
+ },
+ "splint-armor": {
+  "name": "Armadura de bandas"
+ },
+ "sprig-of-mistletoe": {
+  "name": "Ramita de muérdago"
+ },
+ "spyglass": {
+  "name": "Catalejo"
+ },
+ "staff": {
+  "name": "Bastón (foco)"
+ },
+ "string": {
+  "name": "Cordel"
+ },
+ "studded-leather-armor": {
+  "name": "Armadura de cuero tachonado"
+ },
+ "tent": {
+  "name": "Tienda de campaña"
+ },
+ "thieves-tools": {
+  "name": "Herramientas de ladrón"
+ },
+ "three-dragon-ante": {
+  "name": "Apuesta de los tres dragones"
+ },
+ "tinderbox": {
+  "name": "Yesquero"
+ },
+ "tinkers-tools": {
+  "name": "Herramientas de hojalatero"
+ },
+ "torch": {
+  "name": "Antorcha"
+ },
+ "trident": {
+  "name": "Tridente"
+ },
+ "vial": {
+  "name": "Vial"
+ },
+ "viol": {
+  "name": "Viola"
+ },
+ "wand": {
+  "name": "Varita"
+ },
+ "warhammer": {
+  "name": "Martillo de guerra"
+ },
+ "war-pick": {
+  "name": "Pico de guerra"
+ },
+ "waterskin": {
+  "name": "Odre"
+ },
+ "weavers-tools": {
+  "name": "Herramientas de tejedor"
+ },
+ "whip": {
+  "name": "Látigo"
+ },
+ "woodcarvers-tools": {
+  "name": "Herramientas de tallista"
+ },
+ "yew-wand": {
+  "name": "Varita de tejo"
+ },
+ "poison-assassins-blood": {
+  "name": "Sangre de asesino"
+ },
+ "poison-burnt-othur-fumes": {
+  "name": "Vapores de othur quemado"
+ },
+ "poison-crawler-mucus": {
+  "name": "Mucosidad de reptador"
+ },
+ "poison-essence-of-ether": {
+  "name": "Esencia de éter"
+ },
+ "poison-malice": {
+  "name": "Malicia"
+ },
+ "poison-midnight-tears": {
+  "name": "Lágrimas de medianoche"
+ },
+ "poison-oil-of-taggit": {
+  "name": "Aceite de taggit"
+ },
+ "poison-pale-tincture": {
+  "name": "Tintura pálida"
+ },
+ "poison-purple-worm-poison": {
+  "name": "Veneno de gusano púrpura"
+ },
+ "poison-serpent-venom": {
+  "name": "Veneno de serpiente"
+ },
+ "poison-spiders-sting": {
+  "name": "Picadura de araña"
+ },
+ "poison-torpor": {
+  "name": "Sopor"
+ },
+ "poison-truth-serum": {
+  "name": "Suero de la verdad"
+ },
+ "poison-wyvern-poison": {
+  "name": "Veneno de guiverno"
+ }
+}
