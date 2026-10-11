@@ -39,6 +39,7 @@ export const en: Dict = {
   classNames: { barbarian: 'Barbarian', bard: 'Bard', cleric: 'Cleric', druid: 'Druid', fighter: 'Fighter', monk: 'Monk', paladin: 'Paladin', ranger: 'Ranger', rogue: 'Rogue', sorcerer: 'Sorcerer', warlock: 'Warlock', wizard: 'Wizard' },
   rarity: { Common: 'Common', Uncommon: 'Uncommon', Rare: 'Rare', 'Very Rare': 'Very Rare', Legendary: 'Legendary', Artifact: 'Artifact', Varies: 'Varies' },
   alignments: { LG: 'Lawful Good', NG: 'Neutral Good', CG: 'Chaotic Good', LN: 'Lawful Neutral', N: 'Neutral', CN: 'Chaotic Neutral', LE: 'Lawful Evil', NE: 'Neutral Evil', CE: 'Chaotic Evil' },
+  itemKinds: { gear: 'Gear', weapon: 'Weapon', armor: 'Armor', shield: 'Shield', magic: 'Magic', other: 'Other' },
   sizes: { Tiny: 'Tiny', Small: 'Small', Medium: 'Medium', Large: 'Large', Huge: 'Huge', Gargantuan: 'Gargantuan' },
   characters: {
     title: 'Characters', empty: "You don't have any characters yet. Create one or import a sheet.", create: 'Create character',

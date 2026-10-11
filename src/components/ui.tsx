@@ -43,10 +43,10 @@ export function Card({ children, style, title, right }: { children?: ReactNode; 
 
 type Variant = 'title' | 'heading' | 'body' | 'small';
 
-export function Txt({ children, variant = 'body', muted, style, numberOfLines, selectable }: { children?: ReactNode; variant?: Variant; muted?: boolean; style?: StyleProp<TextStyle>; numberOfLines?: number; selectable?: boolean }) {
+export function Txt({ children, variant = 'body', muted, style, numberOfLines, selectable, testID }: { children?: ReactNode; variant?: Variant; muted?: boolean; style?: StyleProp<TextStyle>; numberOfLines?: number; selectable?: boolean; testID?: string }) {
   const c = useTheme();
   return (
-    <Text selectable={selectable} numberOfLines={numberOfLines} style={[fonts[variant], { color: muted ? c.textMuted : c.text }, style]}>
+    <Text testID={testID} selectable={selectable} numberOfLines={numberOfLines} style={[fonts[variant], { color: muted ? c.textMuted : c.text }, style]}>
       {children}
     </Text>
   );
