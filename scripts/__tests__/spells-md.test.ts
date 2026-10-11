@@ -29,3 +29,10 @@ test('joinSoftBreaks joins wrapped lines but keeps paragraphs, tables and lists'
   expect(joinSoftBreaks('| a | b |\n| c | d |')).toBe('| a | b |\n| c | d |');
   expect(joinSoftBreaks('- one\n- two')).toBe('- one\n- two');
 });
+
+test('html tables become pipe rows and bullets become dashes', () => {
+  const c = md.get('confusion')!.text;
+  expect(c).toContain('| 1d10 | Behavior for the Turn |');
+  expect(c).toContain('| 9–10 | The target chooses its behavior. |');
+  expect(md.get('commune-with-nature')!.text).toContain('\n- Locations of settlements');
+});

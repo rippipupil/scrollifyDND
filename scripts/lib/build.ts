@@ -5,7 +5,7 @@
 import * as fs from 'node:fs';
 import * as path from 'node:path';
 import { autoEs } from './auto-es.ts';
-import { parseSpellsMd, type MdSpell } from './spells-md.ts';
+import { htmlTableToPipes, parseSpellsMd, type MdSpell } from './spells-md.ts';
 
 type Loc = { en: string; es?: string };
 type Entry = {
@@ -405,13 +405,6 @@ export function buildMonsters(src: string, es: EsMap): Entry[] {
     const { url, image, index, name, ...rest } = m;
     return withEs({ id: index, category: 'monster', name: loc(name), source: 'srd', data: rest }, es);
   });
-}
-
-function htmlTableToPipes(html: string): string {
-  const rows = [...html.matchAll(/<tr>([\s\S]*?)<\/tr>/g)].map((r) =>
-    [...r[1].matchAll(/<t[dh][^>]*>([\s\S]*?)<\/t[dh]>/g)].map((c) => c[1].replace(/<[^>]+>/g, '').trim()),
-  );
-  return rows.map((r) => `| ${r.join(' | ')} |`).join('\n');
 }
 
 /** Rules glossary entries from SRD 5.2.1 markdown ("#### Term" sections). Conditions are skipped. */

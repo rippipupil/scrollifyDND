@@ -7,6 +7,14 @@ export interface MdSpell {
   higherLevel?: string;
 }
 
+/** Converts an HTML <table> to pipe-table rows ("| a | b |"). */
+export function htmlTableToPipes(html: string): string {
+  const rows = [...html.matchAll(/<tr>([\s\S]*?)<\/tr>/g)].map((r) =>
+    [...r[1].matchAll(/<t[dh][^>]*>([\s\S]*?)<\/t[dh]>/g)].map((c) => c[1].replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim()),
+  );
+  return rows.map((r) => `| ${r.join(' | ')} |`).join('\n');
+}
+
 const HEADER_LINE = /^_(?:Level \d+ \w+|\w+ Cantrip) \(.*\)_$/;
 
 function slug(s: string): string {
@@ -49,6 +57,8 @@ export function parseSpellsMd(file: string): Map<string, MdSpell> {
       .slice(durIdx + 1)
       .join('\n')
       .replace(/^#{1,3} .*$/gm, '')
+      .replace(/<table>[\s\S]*?<\/table>/g, (t) => `\n\n${htmlTableToPipes(t)}\n\n`)
+      .replace(/^• /gm, '- ')
       .trim();
     let higherLevel: string | undefined;
     const hl = /\n*_Using a Higher-Level Spell Slot\._\s*([\s\S]*)$/.exec(body);

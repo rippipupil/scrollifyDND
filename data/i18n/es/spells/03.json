@@ -1,0 +1,120 @@
+{
+ "clairvoyance": {
+  "name": "Clarividencia",
+  "text": "Creas un sensor invisible dentro del alcance en un lugar que te resulte familiar (un sitio que hayas visitado o visto antes) o en un lugar evidente que no conozcas (como detrás de una puerta, tras una esquina o en una arboleda). El sensor, intangible e invulnerable, permanece en su sitio mientras dure el conjuro.\n\nCuando lanzas el conjuro, elige ver u oír. Puedes usar el sentido elegido a través del sensor como si estuvieras en su espacio. Como acción adicional, puedes alternar entre ver y oír.\n\nUna criatura que vea el sensor (como una que se beneficie de *ver lo invisible* o de visión verdadera) ve un orbe luminoso del tamaño de tu puño.",
+  "material": "un foco valorado en al menos 100 po: un cuerno enjoyado para oír o un ojo de cristal para ver"
+ },
+ "clone": {
+  "name": "Clon",
+  "text": "Tocas a una criatura o al menos 16 centímetros cúbicos de su carne. Dentro del recipiente usado para lanzar el conjuro se forma un duplicado inerte de esa criatura, que termina de crecer al cabo de 120 días; eliges si el clon terminado tiene la misma edad que la criatura o es más joven. El clon permanece inerte y perdura indefinidamente mientras nadie toque su recipiente.\n\nSi la criatura original muere después de que el clon termine de formarse, su alma se transfiere al clon si está libre y desea regresar. El clon es físicamente idéntico al original y tiene la misma personalidad, recuerdos y capacidades, pero nada de su equipo. Los restos originales de la criatura, si los hay, quedan inertes y no pueden revivirse, ya que su alma está en otro lugar.",
+  "material": "un diamante valorado en al menos 1000 po, que el conjuro consume, y un recipiente sellable valorado en al menos 2000 po lo bastante grande para contener a la criatura clonada"
+ },
+ "cloudkill": {
+  "name": "Nube aniquiladora",
+  "text": "Creas una esfera de 6 metros de radio de niebla amarillo verdosa centrada en un punto dentro del alcance. La niebla dura mientras dure el conjuro o hasta que un viento fuerte (como el creado por *ráfaga de viento*) la disperse, lo que termina el conjuro. Su área está muy oscura.\n\nCada criatura en la esfera hace una tirada de salvación de Constitución; recibe 5d8 de daño de veneno si la falla, o la mitad si la supera. Una criatura también debe hacer esta salvación cuando la esfera entra en su espacio y cuando entra en la esfera o termina su turno allí, pero solo una vez por turno.\n\nLa esfera se aleja 3 metros de ti al comienzo de cada uno de tus turnos.",
+  "higherLevel": "El daño aumenta en 1d8 por cada nivel del espacio de conjuro por encima de 5."
+ },
+ "color-spray": {
+  "name": "Rociada de color",
+  "text": "Lanzas un deslumbrante despliegue de luces de colores centelleantes. Cada criatura en un cono de 4,5 metros que se origina en ti debe superar una tirada de salvación de Constitución o quedar Cegada hasta el final de tu siguiente turno.",
+  "material": "una pizca de arena de colores"
+ },
+ "command": {
+  "name": "Orden imperiosa",
+  "text": "Pronuncias una orden de una sola palabra a una criatura que puedas ver dentro del alcance. El objetivo debe superar una tirada de salvación de Sabiduría o seguir la orden en su siguiente turno. Elige la orden entre estas opciones:\n\n**Acércate.** El objetivo se mueve hacia ti por la ruta más corta y directa, y termina su turno si se mueve a 1,5 metros o menos de ti.\n\n**Suelta.** El objetivo suelta lo que esté sujetando y después termina su turno.\n\n**Huye.** El objetivo pasa su turno alejándose de ti por el medio más rápido disponible.\n\n**Arrástrate.** El objetivo queda Derribado y después termina su turno.\n\n**Alto.** En su turno, el objetivo no se mueve ni realiza ninguna acción ni acción adicional.",
+  "higherLevel": "Puedes afectar a una criatura adicional por cada nivel del espacio de conjuro por encima de 1."
+ },
+ "commune": {
+  "name": "Comunión",
+  "text": "Contactas con una deidad o un representante divino y haces hasta tres preguntas que puedan responderse con sí o no. Debes hacer tus preguntas antes de que el conjuro termine. Recibes una respuesta correcta a cada pregunta.\n\nLos seres divinos no son necesariamente omniscientes, así que podrías recibir «incierto» como respuesta si una pregunta se refiere a información que está fuera del conocimiento de la deidad. En caso de que una respuesta de una sola palabra pudiera ser engañosa o contraria a los intereses de la deidad, el DM podría ofrecer en su lugar una frase corta.\n\nSi lanzas el conjuro más de una vez antes de terminar un descanso largo, hay una probabilidad acumulativa del 25 % por cada lanzamiento después del primero de que no obtengas respuesta.",
+  "material": "incienso"
+ },
+ "commune-with-nature": {
+  "name": "Comunión con la naturaleza",
+  "text": "Entras en comunión con los espíritus de la naturaleza y obtienes conocimiento de la zona circundante. Al aire libre, el conjuro te da conocimiento de la zona en un radio de 4,5 kilómetros alrededor de ti. En cuevas y otros entornos subterráneos naturales, el radio se limita a 90 metros. El conjuro no funciona donde la naturaleza ha sido sustituida por construcciones, como en castillos y asentamientos.\n\nElige tres de los siguientes datos; los conoces en lo que respecta al área del conjuro:\n\n- Ubicación de los asentamientos.\n- Ubicación de portales a otros planos de existencia.\n- Ubicación de una criatura de valor de desafío 10 o superior (a elección del DM) que sea un celestial, un elemental, un feérico, un infernal o un muerto viviente.\n- El tipo de planta, mineral o bestia más abundante (eliges cuál quieres conocer).\n- Ubicación de masas de agua.\n\nPor ejemplo, podrías determinar la ubicación de un monstruo poderoso de la zona, la de las masas de agua y la de cualquier población."
+ },
+ "comprehend-languages": {
+  "name": "Comprensión idiomática",
+  "text": "Mientras dure el conjuro, entiendes el significado literal de cualquier idioma que oigas o veas signado. También entiendes cualquier idioma escrito que veas, pero debes estar tocando la superficie en la que están escritas las palabras. Se tarda aproximadamente 1 minuto en leer una página de texto. Este conjuro no descifra símbolos ni mensajes secretos.",
+  "material": "una pizca de hollín y sal"
+ },
+ "compulsion": {
+  "name": "Compulsión",
+  "text": "Cada criatura de tu elección que puedas ver dentro del alcance debe superar una tirada de salvación de Sabiduría o quedar Hechizada hasta que el conjuro termine.\n\nMientras dure el conjuro, puedes realizar una acción adicional para designar una dirección horizontal respecto a ti. Cada objetivo Hechizado debe usar todo el movimiento posible para moverse en esa dirección en su siguiente turno, siguiendo la ruta más segura. Tras moverse de este modo, el objetivo repite la salvación y, si la supera, el conjuro termina para él."
+ },
+ "cone-of-cold": {
+  "name": "Cono de frío",
+  "text": "Liberas una ráfaga de aire gélido. Cada criatura en un cono de 18 metros que se origina en ti hace una tirada de salvación de Constitución; recibe 8d8 de daño de frío si la falla, o la mitad si la supera. Una criatura que muera por este conjuro se convierte en una estatua congelada hasta que se descongele.",
+  "material": "un pequeño cono de cristal o vidrio",
+  "higherLevel": "El daño aumenta en 1d8 por cada nivel del espacio de conjuro por encima de 5."
+ },
+ "confusion": {
+  "name": "Confusión",
+  "text": "Cada criatura en una esfera de 3 metros de radio centrada en un punto que elijas dentro del alcance debe superar una tirada de salvación de Sabiduría o no podrá realizar acciones adicionales ni reacciones y deberá tirar 1d10 al comienzo de cada uno de sus turnos para determinar su comportamiento durante ese turno, consultando la siguiente tabla.\n\n| 1d10 | Comportamiento en el turno |\n| 1 | El objetivo no realiza ninguna acción y usa todo su movimiento para moverse. Tira 1d4 para la dirección: 1, norte; 2, este; 3, sur; 4, oeste. |\n| 2–6 | El objetivo no se mueve ni realiza acciones. |\n| 7–8 | El objetivo no se mueve y realiza la acción de Ataque para hacer un ataque cuerpo a cuerpo contra una criatura aleatoria a su alcance. Si no hay ninguna a su alcance, no realiza ninguna acción. |\n| 9–10 | El objetivo elige su comportamiento. |\n\nAl final de cada uno de sus turnos, un objetivo afectado repite la salvación y, si la supera, el conjuro termina para él.",
+  "material": "tres cáscaras de nuez",
+  "higherLevel": "El radio de la esfera aumenta en 1,5 metros por cada nivel del espacio de conjuro por encima de 4."
+ },
+ "conjure-animals": {
+  "name": "Conjurar animales",
+  "text": "Conjuras espíritus de la naturaleza que aparecen como una manada Grande de animales espectrales e intangibles en un espacio desocupado que puedas ver dentro del alcance. La manada dura mientras dure el conjuro, y eliges la forma animal de los espíritus, como lobos, serpientes o pájaros.\n\nTienes ventaja en las tiradas de salvación de Fuerza mientras estés a 1,5 metros o menos de la manada y, cuando te mueves en tu turno, también puedes mover la manada hasta 9 metros a un espacio desocupado que puedas ver.\n\nCada vez que la manada se mueva a 3 metros o menos de una criatura que puedas ver, y cada vez que una criatura que puedas ver entre en un espacio a 3 metros o menos de la manada o termine allí su turno, puedes obligarla a hacer una tirada de salvación de Destreza. Si la falla, recibe 3d10 de daño cortante. Una criatura solo hace esta salvación una vez por turno.",
+  "higherLevel": "El daño aumenta en 1d10 por cada nivel del espacio de conjuro por encima de 3."
+ },
+ "conjure-celestial": {
+  "name": "Conjurar celestial",
+  "text": "Conjuras un espíritu de los planos superiores, que se manifiesta como un pilar de luz en un cilindro de 3 metros de radio y 12 metros de alto centrado en un punto dentro del alcance. Para cada criatura que puedas ver en el cilindro, elige cuál de estas luces brilla sobre ella:\n\n**Luz curativa.** El objetivo recupera puntos de golpe iguales a 4d12 más tu modificador de característica para lanzar conjuros.\n\n**Luz abrasadora.** El objetivo hace una tirada de salvación de Destreza; recibe 6d12 de daño radiante si la falla, o la mitad si la supera.\n\nHasta que el conjuro termine, luz brillante llena el cilindro y, cuando te mueves en tu turno, también puedes mover el cilindro hasta 9 metros.\n\nCada vez que el cilindro entre en el espacio de una criatura que puedas ver, y cada vez que una criatura que puedas ver entre en el cilindro o termine allí su turno, puedes bañarla en una de las luces. Una criatura solo puede verse afectada por este conjuro una vez por turno.",
+  "higherLevel": "La curación y el daño aumentan en 1d12 por cada nivel del espacio de conjuro por encima de 7."
+ },
+ "conjure-elemental": {
+  "name": "Conjurar elemental",
+  "text": "Conjuras un espíritu Grande e intangible de los planos elementales que aparece en un espacio desocupado dentro del alcance. Elige el elemento del espíritu, que determina su tipo de daño: aire (relámpago), tierra (trueno), fuego (fuego) o agua (frío). El espíritu dura mientras dure el conjuro.\n\nCada vez que una criatura que puedas ver entre en el espacio del espíritu o empiece su turno a 1,5 metros o menos de él, puedes obligarla a hacer una tirada de salvación de Destreza si el espíritu no tiene a ninguna criatura Apresada. Si la falla, el objetivo recibe 8d8 de daño del tipo del espíritu y queda Apresado hasta que el conjuro termine. Al comienzo de cada uno de sus turnos, el objetivo Apresado repite la salvación. Si la falla, recibe 4d8 de daño del tipo del espíritu. Si la supera, el espíritu deja de tenerlo Apresado.",
+  "higherLevel": "El daño aumenta en 1d8 por cada nivel del espacio de conjuro por encima de 5."
+ },
+ "conjure-fey": {
+  "name": "Conjurar feérico",
+  "text": "Conjuras un espíritu Mediano de los Parajes Feéricos en un espacio desocupado que puedas ver dentro del alcance. El espíritu dura mientras dure el conjuro y tiene el aspecto de una criatura feérica de tu elección. Cuando el espíritu aparece, puedes hacer un ataque de conjuro cuerpo a cuerpo contra una criatura a 1,5 metros o menos de él. Si impactas, el objetivo recibe un daño psíquico igual a 3d12 más tu modificador de característica para lanzar conjuros, y queda Asustado hasta el comienzo de tu siguiente turno, siendo tanto tú como el espíritu la fuente del miedo.\n\nComo acción adicional en tus turnos posteriores, puedes teletransportar al espíritu a un espacio desocupado que puedas ver a 9 metros o menos del espacio que dejó y hacer el ataque contra una criatura a 1,5 metros o menos de él.",
+  "higherLevel": "El daño aumenta en 1d12 por cada nivel del espacio de conjuro por encima de 6."
+ },
+ "conjure-minor-elementals": {
+  "name": "Conjurar elementales menores",
+  "text": "Conjuras espíritus de los planos elementales que revolotean a tu alrededor en una emanación de 4,5 metros mientras dure el conjuro. Hasta que el conjuro termine, cualquier ataque que hagas inflige 2d8 de daño adicional cuando impactas a una criatura que esté en la emanación. Este daño es de ácido, frío, fuego o relámpago (a tu elección al hacer el ataque).\n\nAdemás, el suelo de la emanación es terreno difícil para tus enemigos.",
+  "higherLevel": "El daño aumenta en 1d8 por cada nivel del espacio de conjuro por encima de 4."
+ },
+ "conjure-woodland-beings": {
+  "name": "Conjurar seres silvanos",
+  "text": "Conjuras espíritus de la naturaleza que revolotean a tu alrededor en una emanación de 3 metros mientras dure el conjuro. Cada vez que la emanación entre en el espacio de una criatura que puedas ver, y cada vez que una criatura que puedas ver entre en la emanación o termine allí su turno, puedes obligarla a hacer una tirada de salvación de Sabiduría. La criatura recibe 5d8 de daño de fuerza si la falla, o la mitad si la supera. Una criatura solo hace esta salvación una vez por turno.\n\nAdemás, mientras dure el conjuro puedes realizar la acción de Retirarse como acción adicional.",
+  "higherLevel": "El daño aumenta en 1d8 por cada nivel del espacio de conjuro por encima de 4."
+ },
+ "contact-other-plane": {
+  "name": "Contactar con otro plano",
+  "text": "Contactas mentalmente con un semidiós, el espíritu de un sabio muerto hace mucho u otra entidad sabia de otro plano. Contactar con esta inteligencia de otro mundo puede quebrar tu mente. Cuando lanzas este conjuro, haz una tirada de salvación de Inteligencia CD 15. Si la superas, puedes hacer a la entidad hasta cinco preguntas. Debes hacerlas antes de que el conjuro termine. El DM responde a cada pregunta con una palabra, como «sí», «no», «quizá», «nunca», «irrelevante» o «incierto» (si la entidad no sabe la respuesta). Si una respuesta de una sola palabra pudiera ser engañosa, el DM podría ofrecer en su lugar una frase corta.\n\nSi fallas la salvación, recibes 6d6 de daño psíquico y quedas Incapacitado hasta que termines un descanso largo. Un conjuro de *restablecimiento mayor* lanzado sobre ti termina este efecto."
+ },
+ "contagion": {
+  "name": "Contagio",
+  "text": "Tu toque inflige un contagio mágico. El objetivo debe superar una tirada de salvación de Constitución o recibir 11d8 de daño necrótico y quedar Envenenado. Además, elige una característica al lanzar el conjuro. Mientras esté Envenenado, el objetivo tiene desventaja en las tiradas de salvación que haga con la característica elegida.\n\nEl objetivo debe repetir la tirada de salvación al final de cada uno de sus turnos hasta acumular tres éxitos o tres fallos. Si obtiene tres éxitos, el conjuro termina para él. Si obtiene tres fallos, el conjuro dura 7 días sobre él.\n\nCada vez que el objetivo Envenenado reciba un efecto que terminaría el estado Envenenado, debe superar una tirada de salvación de Constitución o el estado Envenenado no terminará."
+ },
+ "contingency": {
+  "name": "Contingencia",
+  "text": "Elige un conjuro de nivel 5 o inferior que puedas lanzar, que tenga un tiempo de lanzamiento de una acción y que pueda elegirte como objetivo. Lanzas ese conjuro (llamado conjuro contingente) como parte del lanzamiento de *contingencia*, gastando espacios de conjuro para ambos, pero el conjuro contingente no surte efecto. En su lugar, surte efecto cuando se produce un desencadenante concreto, que describes al lanzar ambos conjuros. Por ejemplo, una *contingencia* lanzada con *respirar bajo el agua* podría estipular que *respirar bajo el agua* surte efecto cuando te veas envuelto en agua o un líquido similar.\n\nEl conjuro contingente surte efecto inmediatamente después de que el desencadenante se produzca por primera vez, lo quieras o no, y entonces *contingencia* termina.\n\nEl conjuro contingente solo te afecta a ti, aunque normalmente pueda elegir a otros como objetivo. Solo puedes tener activo un conjuro de *contingencia* a la vez. Si vuelves a lanzar este conjuro, el efecto de cualquier otra *contingencia* sobre ti termina. Además, *contingencia* termina si su componente material deja de estar en tu poder.",
+  "material": "una estatuilla tuya incrustada de gemas valorada en al menos 1500 po"
+ },
+ "continual-flame": {
+  "name": "Llama continua",
+  "text": "Una llama brota de un objeto que tocas. El efecto emite luz brillante en un radio de 6 metros y luz tenue 6 metros más allá. Parece una llama normal, pero no genera calor ni consume combustible. La llama puede cubrirse u ocultarse, pero no sofocarse ni apagarse.",
+  "material": "polvo de rubí valorado en al menos 50 po, que el conjuro consume"
+ },
+ "control-water": {
+  "name": "Controlar agua",
+  "text": "Hasta que el conjuro termine, controlas toda el agua que haya dentro de una zona que elijas con forma de cubo de hasta 30 metros de lado, usando uno de los siguientes efectos. Como acción de Magia en tus turnos posteriores, puedes repetir el mismo efecto o elegir otro.\n\n**Inundación.** Haces que el nivel de toda el agua estancada de la zona suba hasta 6 metros. Si eliges una zona dentro de una gran masa de agua, en su lugar creas una ola de 6 metros de alto que viaja de un lado a otro de la zona y después rompe. Cualquier vehículo Enorme o más pequeño que esté en el camino de la ola es arrastrado con ella hasta el otro lado. Cualquier vehículo Enorme o más pequeño golpeado por la ola tiene un 25 % de probabilidades de volcar.\n\nEl nivel del agua permanece elevado hasta que el conjuro termine o elijas otro efecto. Si este efecto produjo una ola, la ola se repite al comienzo de tu siguiente turno mientras dure el efecto de inundación.\n\n**Separar las aguas.** Separas el agua de la zona y creas una zanja. La zanja atraviesa el área del conjuro y el agua separada forma un muro a cada lado. La zanja permanece hasta que el conjuro termine o elijas otro efecto. Después, el agua va llenando lentamente la zanja durante el siguiente asalto hasta que se restablece el nivel normal.\n\n**Redirigir corriente.** Haces que el agua corriente de la zona se mueva en la dirección que elijas, aunque tenga que pasar por encima de obstáculos, subir por paredes o ir en otras direcciones improbables. El agua de la zona se mueve como indiques, pero una vez sale del área del conjuro, retoma su curso según el terreno. El agua sigue moviéndose en la dirección elegida hasta que el conjuro termine o elijas otro efecto.\n\n**Remolino.** Haces que se forme un remolino en el centro de la zona, que debe medir al menos 15 metros de lado y 7,5 metros de profundidad. El remolino dura hasta que elijas otro efecto o el conjuro termine. Tiene 1,5 metros de ancho en la base, hasta 15 metros de ancho en la parte superior y 7,5 metros de alto. Cualquier criatura que esté en el agua a 7,5 metros o menos del remolino es arrastrada 3 metros hacia él. Cuando una criatura entra en el remolino por primera vez en un turno o termina allí su turno, hace una tirada de salvación de Fuerza; si la falla, recibe 2d8 de daño contundente, y si la supera, la mitad. Una criatura solo puede alejarse nadando del remolino si primero realiza una acción para apartarse y supera una prueba de Fuerza (Atletismo) contra tu CD de salvación de conjuros.",
+  "material": "una mezcla de agua y polvo"
+ },
+ "control-weather": {
+  "name": "Controlar el clima",
+  "text": "Tomas el control del clima en un radio de 7,5 kilómetros a tu alrededor mientras dure el conjuro. Debes estar al aire libre para lanzar este conjuro, y termina antes de tiempo si entras en un lugar cubierto.\n\nCuando lanzas el conjuro, cambias las condiciones climáticas actuales, que determina el DM. Puedes cambiar las precipitaciones, la temperatura y el viento. Las nuevas condiciones tardan 1d4 × 10 minutos en surtir efecto. Una vez lo hacen, puedes volver a cambiarlas. Cuando el conjuro termina, el clima vuelve gradualmente a la normalidad.\n\nCuando cambies las condiciones climáticas, busca una condición actual en las siguientes tablas y cambia su grado en uno, hacia arriba o hacia abajo. Al cambiar el viento, puedes cambiar su dirección.\n\n**Precipitaciones**\n\n| Grado | Condición |\n| 1 | Despejado |\n| 2 | Nubes ligeras |\n| 3 | Cielo cubierto o niebla baja |\n| 4 | Lluvia, granizo o nieve |\n| 5 | Lluvia torrencial, granizada intensa o ventisca |\n\n**Temperatura**\n\n| Grado | Condición |\n| 1 | Ola de calor |\n| 2 | Caluroso |\n| 3 | Templado |\n| 4 | Fresco |\n| 5 | Frío |\n| 6 | Gélido |\n\n**Viento**\n\n| Grado | Condición |\n| 1 | En calma |\n| 2 | Viento moderado |\n| 3 | Viento fuerte |\n| 4 | Vendaval |\n| 5 | Tormenta |",
+  "material": "incienso encendido"
+ },
+ "counterspell": {
+  "name": "Contraconjuro",
+  "text": "Intentas interrumpir a una criatura que está lanzando un conjuro. La criatura hace una tirada de salvación de Constitución. Si la falla, el conjuro se disipa sin efecto y la acción, acción adicional o reacción usada para lanzarlo se desperdicia. Si ese conjuro se lanzó con un espacio de conjuro, el espacio no se gasta.",
+  "castingTime": "Reacción, que realizas cuando ves a una criatura a 18 metros o menos de ti lanzando un conjuro con componentes verbales, somáticos o materiales"
+ }
+}
