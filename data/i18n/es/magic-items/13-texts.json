@@ -159,7 +159,7 @@
   "text": "Anillo\nMientras llevas puesto este anillo, puedes gastar 1 de sus 3 cargas para lanzar Deseo desde él. El anillo se vuelve no mágico cuando usas la última carga."
  },
  "ring-of-warmth": {
-  "text": "Anillo\nSi sufres daño de Frío mientras llevas puesto este anillo, el anillo reduce en 2d8 el daño que sufres.\nAdemás, mientras llevas puesto este anillo, tú y todo lo que llevas puesto y cargado estáis a salvo de las temperaturas de 0 grados Fahrenheit (-18 °C) o inferiores."
+  "text": "Anillo\nSi sufres daño de Frío mientras llevas puesto este anillo, el anillo reduce en 2d8 el daño que sufres.\nAdemás, mientras llevas puesto este anillo, tú y todo lo que llevas puesto y cargado sois inmunes al daño por temperaturas de 0 grados Fahrenheit (-18 °C) o inferiores."
  },
  "ring-of-water-walking": {
   "text": "Anillo\nMientras llevas puesto este anillo, lanzas Caminar sobre el agua desde él, eligiéndote solo a ti mismo como objetivo."

@@ -94,5 +94,101 @@
  },
  "talisman-of-ultimate-evil": {
   "text": "Objeto maravilloso\nEste objeto simboliza el mal sin arrepentimiento. Una criatura que no sea un Infernal ni un Muerto viviente y que toque el talismán sufre 8d6 de daño necrótico y vuelve a sufrir ese daño cada vez que termina su turno sosteniendo o llevando el talismán.\n**Símbolo sagrado.** Puedes usar el talismán como Símbolo sagrado. Obtienes un bonificador de +2 a las tiradas de ataque de conjuro mientras lo llevas puesto o lo sostienes.\n**Fin supremo.** El talismán tiene 6 cargas. Mientras lo llevas puesto o lo sostienes, puedes usar una acción de Magia para gastar 1 carga y elegir como objetivo a una criatura que puedas ver en el suelo a 36 m o menos de ti. Bajo el objetivo se abre una grieta en llamas, y el objetivo hace una tirada de salvación de Destreza CD 20. Si el objetivo es un Celestial, tiene Desventaja en la tirada. Si la falla, el objetivo cae en la grieta y queda destruido, sin dejar restos. Si la supera, el objetivo no es arrojado a la grieta, pero sufre 4d6 de daño psíquico por la experiencia. En cualquier caso, la grieta se cierra y no deja rastro de su existencia. Cuando gastas la última carga, el talismán se disuelve en un légamo maloliente y queda destruido."
+ },
+ "tome-of-clear-thought": {
+  "text": "Objeto maravilloso\nEste libro contiene ejercicios de memoria y lógica, y sus palabras están cargadas de magia. Si pasas 48 horas a lo largo de un periodo de 6 días o menos estudiando el contenido del libro y practicando sus indicaciones, tu Inteligencia aumenta en 2, hasta un máximo de 30. El manual pierde entonces su magia, pero la recupera dentro de un siglo."
+ },
+ "tome-of-leadership-and-influence": {
+  "text": "Objeto maravilloso\nEste libro contiene pautas para influir en los demás y hechizarlos, y sus palabras están cargadas de magia. Si pasas 48 horas a lo largo de un periodo de 6 días o menos estudiando el contenido del libro y practicando sus indicaciones, tu Carisma aumenta en 2, hasta un máximo de 30. El manual pierde entonces su magia, pero la recupera dentro de un siglo."
+ },
+ "tome-of-understanding": {
+  "text": "Objeto maravilloso\nEste libro contiene ejercicios de intuición y perspicacia, y sus palabras están cargadas de magia. Si pasas 48 horas a lo largo de un periodo de 6 días o menos estudiando el contenido del libro y practicando sus indicaciones, tu Sabiduría aumenta en 2, hasta un máximo de 30. El manual pierde entonces su magia, pero la recupera dentro de un siglo."
+ },
+ "trident-of-fish-command": {
+  "text": "Arma (tridente)\nEsta arma mágica tiene 3 cargas y recupera 1d3 cargas gastadas cada día al amanecer. Mientras la llevas, puedes gastar 1 carga para lanzar desde ella _Dominar bestia_ (CD de salvación 15) sobre una Bestia que tenga Velocidad nadando."
+ },
+ "universal-solvent": {
+  "text": "Objeto maravilloso\nEste tubo contiene un líquido lechoso con fuerte olor a alcohol. Cuando se encuentra, un tubo contiene 1d6 + 1 onzas.\nPuedes usar una acción de Usar para verter 1 o más onzas de disolvente del tubo sobre una superficie al alcance. Cada onza disuelve al instante hasta 30 cm cuadrados de adhesivo que toque, incluido el Pegamento soberano."
+ },
+ "vicious-weapon": {
+  "text": "Arma (cualquier arma simple o marcial)\nEsta arma mágica inflige 2d6 de daño adicional a cualquier criatura a la que impacte. Este daño adicional es del mismo tipo que el daño normal del arma."
+ },
+ "vorpal-sword": {
+  "text": "Arma (guja, espada a dos manos, espada larga o cimitarra)\nObtienes un bonificador de +3 a las tiradas de ataque y de daño realizadas con esta arma mágica. Además, el arma ignora la Resistencia al daño cortante.\nCuando usas esta arma para atacar a una criatura que tenga al menos una cabeza y sacas un 20 en el d20 de la tirada de ataque, le cortas una de las cabezas. La criatura muere si no puede sobrevivir sin la cabeza perdida. Una criatura es inmune a este efecto si tiene Inmunidad al daño cortante, si no tiene o no necesita cabeza, o si el DM decide que la criatura es demasiado grande para que esta arma pueda cortarle la cabeza. En su lugar, esa criatura sufre 30 de daño cortante adicional por el impacto. Si la criatura tiene Resistencia legendaria, puede gastar un uso diario de ese rasgo para evitar perder la cabeza y sufrir en su lugar el daño adicional."
+ },
+ "wand-of-binding": {
+  "text": "Varita\nEsta varita tiene 7 cargas.\n**Conjuros.** Mientras sostienes la varita, puedes lanzar desde ella uno de los conjuros de la siguiente tabla (CD de salvación 17). La tabla indica cuántas cargas debes gastar para lanzar el conjuro.\n\n| Conjuro | Coste en cargas |\n|---|---|\n| _Inmovilizar monstruo_ | 5 |\n| _Inmovilizar persona_ | 2 |\n\n**Recuperar cargas.** La varita recupera 1d6 + 1 cargas gastadas cada día al amanecer. Si gastas la última carga de la varita, tira 1d20. Con un 1, la varita se desmorona en cenizas y queda destruida."
+ },
+ "wand-of-enemy-detection": {
+  "text": "Varita\nEsta varita tiene 7 cargas. Mientras la sostienes, puedes usar una acción de Magia para gastar 1 carga. Durante 1 minuto, conoces la dirección de la criatura Hostil hacia ti más cercana que esté a 18 m o menos, pero no su distancia. La varita puede detectar la presencia de criaturas Hostiles que sean Invisibles, etéreas, disfrazadas u ocultas, así como las que estén a plena vista. El efecto termina si dejas de sostener la varita.\n**Recuperar cargas.** La varita recupera 1d6 + 1 cargas gastadas cada día al amanecer. Si gastas la última carga de la varita, tira 1d20. Con un 1, la varita se desmorona en cenizas y queda destruida."
+ },
+ "wand-of-fear": {
+  "text": "Varita\nEsta varita tiene 7 cargas.\n**Conjuros.** Mientras sostienes la varita, puedes lanzar desde ella uno de los conjuros de la siguiente tabla (CD de salvación 15). La tabla indica cuántas cargas debes gastar para lanzar el conjuro.\n\n| Conjuro | Coste en cargas |\n|---|---|\n| _Orden imperiosa_ | 1 |\n| _Miedo_ | 2 |\n\n**Recuperar cargas.** La varita recupera 1d6 + 1 cargas gastadas cada día al amanecer. Si gastas la última carga de la varita, tira 1d20. Con un 1, la varita se desmorona en cenizas y queda destruida."
+ },
+ "wand-of-fireballs": {
+  "text": "Varita\nEsta varita tiene 7 cargas. Mientras la sostienes, puedes gastar no más de 3 cargas para lanzar desde ella _Bola de fuego_ (CD de salvación 15). Por 1 carga, lanzas la versión de nivel 3 del conjuro. Puedes aumentar el nivel del conjuro en 1 por cada carga adicional que gastes.\n**Recuperar cargas.** La varita recupera 1d6 + 1 cargas gastadas cada día al amanecer. Si gastas la última carga de la varita, tira 1d20. Con un 1, la varita se desmorona en cenizas y queda destruida."
+ },
+ "wand-of-lightning-bolts": {
+  "text": "Varita\nEsta varita tiene 7 cargas. Mientras la sostienes, puedes gastar no más de 3 cargas para lanzar desde ella _Relámpago_ (CD de salvación 15). Por 1 carga, lanzas la versión de nivel 3 del conjuro. Puedes aumentar el nivel del conjuro en 1 por cada carga adicional que gastes.\n**Recuperar cargas.** La varita recupera 1d6 + 1 cargas gastadas cada día al amanecer. Si gastas la última carga de la varita, tira 1d20. Con un 1, la varita se desmorona en cenizas y queda destruida."
+ },
+ "wand-of-magic-detection": {
+  "text": "Varita\nEsta varita tiene 3 cargas. Mientras la sostienes, puedes gastar 1 carga para lanzar desde ella _Detectar magia_. La varita recupera 1d3 cargas gastadas cada día al amanecer."
+ },
+ "wand-of-magic-missiles": {
+  "text": "Varita\nEsta varita tiene 7 cargas. Mientras la sostienes, puedes gastar no más de 3 cargas para lanzar desde ella _Proyectil mágico_. Por 1 carga, lanzas la versión de nivel 1 del conjuro. Puedes aumentar el nivel del conjuro en 1 por cada carga adicional que gastes.\n**Recuperar cargas.** La varita recupera 1d6 + 1 cargas gastadas cada día al amanecer. Si gastas la última carga de la varita, tira 1d20. Con un 1, la varita se desmorona en cenizas y queda destruida."
+ },
+ "wand-of-paralysis": {
+  "text": "Varita\nEsta varita tiene 7 cargas. Mientras la sostienes, puedes usar una acción de Magia para gastar 1 carga y hacer que un fino rayo azul salga disparado de la punta hacia una criatura que puedas ver a 18 m o menos de ti. El objetivo debe superar una tirada de salvación de Constitución CD 15 o tendrá el estado de Paralizado durante 1 minuto. Al final de cada uno de los turnos del objetivo, este repite la tirada y, si la supera, el efecto termina para él.\n**Recuperar cargas.** La varita recupera 1d6 + 1 cargas gastadas cada día al amanecer. Si gastas la última carga de la varita, tira 1d20. Con un 1, la varita se desmorona en cenizas y queda destruida."
+ },
+ "wand-of-polymorph": {
+  "text": "Varita\nEsta varita tiene 7 cargas. Mientras la sostienes, puedes gastar 1 carga para lanzar desde ella _Polimorfar_ (CD de salvación 15).\n**Recuperar cargas.** La varita recupera 1d6 + 1 cargas gastadas cada día al amanecer. Si gastas la última carga de la varita, tira 1d20. Con un 1, la varita se desmorona en cenizas y queda destruida."
+ },
+ "wand-of-secrets": {
+  "text": "Varita\nEsta varita tiene 3 cargas y recupera 1d3 cargas gastadas cada día al amanecer. Mientras la sostienes, puedes usar una acción de Magia para gastar 1 carga y, si hay una puerta secreta o una trampa a 18 m o menos de ti, la varita pulsa y señala la que esté más cerca de ti."
+ },
+ "wand-of-the-war-mage": {
+  "text": "Varita\nMientras sostienes esta varita, obtienes un bonificador a las tiradas de ataque de conjuro determinado por la rareza de la varita. Además, ignoras la media cobertura cuando haces una tirada de ataque de conjuro."
+ },
+ "wand-of-the-war-mage-1": {
+  "text": "Varita\nPoco común (+1)\nMientras sostienes esta varita, obtienes un bonificador de +1 a las tiradas de ataque de conjuro. Además, ignoras la media cobertura cuando haces una tirada de ataque de conjuro."
+ },
+ "wand-of-the-war-mage-2": {
+  "text": "Varita\nRaro (+2)\nMientras sostienes esta varita, obtienes un bonificador de +2 a las tiradas de ataque de conjuro. Además, ignoras la media cobertura cuando haces una tirada de ataque de conjuro."
+ },
+ "wand-of-the-war-mage-3": {
+  "text": "Varita\nMuy raro (+3)\nMientras sostienes esta varita, obtienes un bonificador de +3 a las tiradas de ataque de conjuro. Además, ignoras la media cobertura cuando haces una tirada de ataque de conjuro."
+ },
+ "wand-of-web": {
+  "text": "Varita\nEsta varita tiene 7 cargas. Mientras la sostienes, puedes gastar 1 carga para lanzar desde ella _Telaraña_ (CD de salvación 13).\n**Recuperar cargas.** La varita recupera 1d6 + 1 cargas gastadas cada día al amanecer. Si gastas la última carga de la varita, tira 1d20. Con un 1, la varita se desmorona en cenizas y queda destruida."
+ },
+ "wand-of-wonder": {
+  "text": "Varita\nEsta varita tiene 7 cargas. Mientras la sostienes, puedes usar una acción de Magia para gastar 1 carga y elegir un punto a 36 m o menos de ti. Ese lugar se convierte en el punto de origen de un conjuro u otro efecto mágico determinado tirando en la tabla Efectos de la Varita de maravillas. Los conjuros lanzados desde la varita tienen una CD de salvación de 15. Si el alcance máximo de un conjuro es normalmente inferior a 36 m, pasa a ser de 36 m cuando se lanza desde la varita. Si un efecto tiene varios sujetos posibles, el DM determina al azar cuáles de ellos se ven afectados.\n**Recuperar cargas.** La varita recupera 1d6 + 1 cargas gastadas cada día al amanecer. Si gastas la última carga de la varita, tira 1d20. Con un 1, la varita se desmorona en polvo y queda destruida.\n\n**Efectos de la Varita de maravillas**\n| 1d100 | Efecto |\n|---|---|\n| 21-25 | No ocurre nada en el punto de origen elegido. En su lugar, tienes el estado de Aturdido hasta el inicio de tu siguiente turno, creyendo que acaba de ocurrir algo asombroso. |\n| 31-35 | No ocurre nada en el punto de origen elegido. En su lugar, sufres 1d6 de daño psíquico. |\n| 41-45 | Una nube de 600 mariposas de tamaño descomunal llena un Cilindro de 18 m de altura y 9 m de radio centrado en el punto de origen elegido. Las mariposas permanecen durante 10 minutos, y durante ese tiempo el área de efecto está Muy oscura. |\n| 51-55 | La criatura más cercana al punto de origen elegido se agranda como si le hubieras lanzado _Agrandar/reducir_. Si el objetivo no eres tú y no puede verse afectado por ese conjuro, pasas a ser tú el objetivo. |\n| 61-64 | La hierba cubre un círculo de suelo de 18 m de radio, con el centro del círculo lo más cerca posible del punto de origen elegido. La hierba que ya hubiera allí crece hasta diez veces su tamaño normal y permanece crecida durante 1 minuto. |\n| 69-72 | No ocurre nada en el punto de origen elegido. En su lugar, encoges como si te hubieras lanzado _Agrandar/reducir_ y permaneces en ese estado durante 1 minuto. |\n| 78-82 | No ocurre nada en el punto de origen elegido. En su lugar, un estallido de luz colorida y reluciente se extiende desde ti en una Emanación de 9 m. Cada criatura en el área debe superar una tirada de salvación de Constitución CD 15 o tendrá el estado de Cegado durante 1 minuto. Una criatura repite la tirada al final de cada uno de sus turnos y, si la supera, el efecto termina para ella. |\n| 88-92 | No ocurre nada en el punto de origen elegido. En su lugar, un chorro de 1d4 × 10 gemas, cada una con un valor de 1 po, sale disparado de la punta de la varita en una Línea de 9 m de largo y 1,5 m de ancho hacia el punto de origen elegido. Cada gema inflige 1 de daño contundente, y el daño total de las gemas se reparte a partes iguales entre todas las criaturas de la Línea. |\n| 98-00 | La criatura más cercana al punto de origen elegido hace una tirada de salvación de Constitución CD 15. Si falla, la criatura tiene el estado de Apresado y empieza a convertirse en piedra. Mientras está Apresada de este modo, la criatura repite la tirada al final de su siguiente turno. Si la supera, el efecto termina. Si falla, la criatura tiene el estado de Petrificado en lugar del de Apresado. La petrificación dura hasta que la criatura sea liberada por el conjuro _Restablecimiento mayor_ o por magia similar. |"
+ },
+ "weapon": {
+  "text": "Arma (cualquier arma simple o marcial)\nTienes un bonificador a las tiradas de ataque y de daño realizadas con esta arma mágica. El bonificador viene determinado por la rareza del arma."
+ },
+ "weapon-1": {
+  "text": "Arma (cualquier arma simple o marcial)\nPoco común (+1)\nTienes un bonificador de +1 a las tiradas de ataque y de daño realizadas con esta arma mágica."
+ },
+ "weapon-2": {
+  "text": "Arma (cualquier arma simple o marcial)\nRaro (+2)\nTienes un bonificador de +2 a las tiradas de ataque y de daño realizadas con esta arma mágica."
+ },
+ "weapon-3": {
+  "text": "Arma (cualquier arma simple o marcial)\nMuy raro (+3)\nTienes un bonificador de +3 a las tiradas de ataque y de daño realizadas con esta arma mágica."
+ },
+ "weapon-of-warning": {
+  "text": "Arma (cualquier arma simple o marcial)\nMientras esta arma esté a tu alcance y estés sintonizado con ella, tú y los aliados que estén a 9 m o menos de ti obtenéis los siguientes beneficios.\n**Alarma.** El arma despierta mágicamente a cada sujeto que esté durmiendo de forma natural cuando comienza un combate. Este beneficio no despierta a un sujeto de un sueño inducido mágicamente.\n**Preparación sobrenatural.** Cada sujeto tiene Ventaja en sus tiradas de Iniciativa."
+ },
+ "well-of-many-worlds": {
+  "text": "Objeto maravilloso\nEsta fina tela negra, suave como la seda, está plegada hasta las dimensiones de un pañuelo. Al desplegarse forma una lámina circular de 1,8 m de diámetro.\nPuedes usar una acción de Magia para desplegar el Pozo de los muchos mundos y colocarlo sobre una superficie sólida, tras lo cual forma un portal circular bidireccional de 1,8 m de diámetro hacia otro mundo o plano de existencia. Cada vez que el objeto abre un portal, el DM decide adónde conduce. El portal permanece abierto hasta que una criatura situada a 1,5 m o menos de él usa una acción de Magia para cerrarlo, sujetando los bordes de la tela y doblándola.\nUna vez que el Pozo de los muchos mundos ha abierto un portal, no puede volver a hacerlo hasta que pasen 1d8 horas."
+ },
+ "wind-fan": {
+  "text": "Objeto maravilloso\nMientras sostienes este abanico, puedes lanzar desde él _Ráfaga de viento_ (CD de salvación 13). Cada vez posterior que se use el abanico antes del siguiente amanecer, tiene una probabilidad acumulada del 20 por ciento de no funcionar; si el abanico no funciona, se desgarra en jirones inútiles y no mágicos."
+ },
+ "winged-boots": {
+  "text": "Objeto maravilloso\nEstas botas tienen 4 cargas y recuperan 1d4 cargas gastadas cada día al amanecer. Mientras llevas las botas puestas, puedes usar una acción de Magia para gastar 1 carga y obtener una Velocidad volando de 9 m durante 1 hora. Si estás volando cuando termina la duración, desciendes a un ritmo de 9 m por asalto hasta que aterrizas."
+ },
+ "wings-of-flying": {
+  "text": "Objeto maravilloso\nMientras llevas puesta esta capa, puedes usar una acción de Magia para convertirla en un par de alas en tu espalda. Las alas duran 1 hora o hasta que les pongas fin antes con una acción de Magia. Las alas te otorgan una Velocidad volando de 18 m. Si estás en el aire cuando las alas desaparecen, caes. Cuando las alas desaparecen, no puedes volver a usarlas hasta que pasen 1d12 horas."
  }
 }
