@@ -10,6 +10,16 @@ import { Markdown } from '../Markdown';
 import { Button, Card, Field, Row, Sheet, Txt } from '../ui';
 import type { Mutate } from './useCharacter';
 
+/** Comma-separated list field: free typing, parsed into a list when the field loses focus. */
+function ListField({ label, value, onCommit }: { label: string; value: string[]; onCommit: (list: string[]) => void }) {
+  const [text, setText] = useState(value.join(', '));
+  const commit = () => {
+    const list = text.split(',').map((s) => s.trim()).filter(Boolean);
+    if (list.join('\u0000') !== value.join('\u0000')) onCommit(list);
+  };
+  return <Field label={label} value={text} onChangeText={setText} onBlur={commit} onSubmitEditing={commit} />;
+}
+
 const LISTS = ['armor', 'weapons', 'tools', 'languages'] as const;
 
 export function FeaturesTab({ c, mutate }: { c: Character; mutate: Mutate }) {
@@ -39,11 +49,11 @@ export function FeaturesTab({ c, mutate }: { c: Character; mutate: Mutate }) {
       <Button label={t('sheet.addFeature')} onPress={() => setPicking(true)} />
       <Card title={t('sheet.proficiencies')}>
         {LISTS.map((k) => (
-          <Field
+          <ListField
             key={k}
             label={t(`sheet.${k}`)}
-            value={c.proficiencies[k].join(', ')}
-            onChangeText={(v) => mutate((x) => ({ ...x, proficiencies: { ...x.proficiencies, [k]: v.split(',').map((s) => s.trim()).filter(Boolean) } }))}
+            value={c.proficiencies[k]}
+            onCommit={(list) => mutate((x) => ({ ...x, proficiencies: { ...x.proficiencies, [k]: list } }))}
           />
         ))}
       </Card>

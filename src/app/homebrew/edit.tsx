@@ -31,7 +31,7 @@ export default function HomebrewEditScreen() {
         </Row>
       </Card>
       <Card>
-        <Field label={t('settings.entryName')} value={e.name.es ?? ''} onChangeText={(v) => setE({ ...e, name: { en: e.name.en || v, es: v } })} />
+        <Field label={t('settings.entryName')} value={e.name.es ?? ''} onChangeText={(v) => setE({ ...e, name: { ...e.name, es: v } })} />
         <Field label={t('settings.entryNameEn')} value={e.name.en} onChangeText={(v) => setE({ ...e, name: { ...e.name, en: v } })} />
         <Field label={t('settings.entryText')} value={e.text?.es ?? e.text?.en ?? ''} multiline style={{ minHeight: 160 }} onChangeText={(v) => setE({ ...e, text: { en: v, es: v } })} />
         <Txt variant="small" muted>
@@ -78,9 +78,10 @@ export default function HomebrewEditScreen() {
       ) : null}
       <Button
         label={t('common.save')}
-        disabled={!e.name.en.trim()}
+        disabled={!e.name.en.trim() && !e.name.es?.trim()}
         onPress={() => {
-          upsert(e);
+          // The English name falls back to the Spanish one only at save time.
+          upsert({ ...e, name: { ...e.name, en: e.name.en.trim() || e.name.es?.trim() || '' } });
           router.back();
         }}
       />

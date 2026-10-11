@@ -72,3 +72,21 @@ test('homebrew species without traits becomes a single feature with its text', (
   expect(c.species.name.es).toBe('Aasimar caído');
   expect(c.features[0]).toMatchObject({ name: 'Aasimar caído', text: 'Sudario necrótico' });
 });
+
+test('skills chosen for a class you switched away from are not granted', () => {
+  const c = buildCharacterFromWizard(
+    { ...emptyDraft(), name: 'X', classes: [{ key: 'class:fighter', level: 1 }], baseScores: base, skills: ['arcana', 'stealth', 'athletics', 'perception', 'history'] },
+    'es',
+  );
+  expect(Object.keys(c.proficiencies.skills).sort()).toEqual(['athletics', 'perception']);
+});
+
+test('classSkillChoice lists the class options and how many to pick', () => {
+  const { classSkillChoice } = require('../wizard');
+  const { getEntry } = require('../../content');
+  expect(classSkillChoice(getEntry('class:fighter'))).toEqual({
+    choose: 2,
+    options: ['acrobatics', 'animal-handling', 'athletics', 'history', 'insight', 'intimidation', 'perception', 'survival'],
+  });
+  expect(classSkillChoice(undefined)).toBeUndefined();
+});

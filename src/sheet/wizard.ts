@@ -112,6 +112,13 @@ function itemsFromOption(opt: { items: { id: string; name: string; qty: number }
   return { items, gold: opt.gold };
 }
 
+/** The class's skill pick ("choose N from …"), with skill ids. Undefined when the class lists none. */
+export function classSkillChoice(entry: ContentEntry | undefined): { choose: number; options: SkillId[] } | undefined {
+  const choice = entry?.data?.skillChoices?.find((c: any) => c.options?.[0]?.startsWith('skill-'));
+  if (!choice) return undefined;
+  return { choose: Number(choice.choose) || 0, options: choice.options.map((o: string) => o.replace('skill-', '') as SkillId) };
+}
+
 export function buildCharacterFromWizard(draft: WizardDraft, lang: Lang, homebrew: ContentEntry[] = []): Character {
   const classEntries = draft.classes
     .map((k) => ({ e: getEntry(k.key, homebrew), level: k.level, sub: getEntry(k.subclassKey, homebrew) }))
@@ -126,7 +133,9 @@ export function buildCharacterFromWizard(draft: WizardDraft, lang: Lang, homebre
   const abilities = applyBackgroundAsi(draft.baseScores, bgAbilities, draft.asi);
 
   const skills: Character['proficiencies']['skills'] = {};
-  for (const s of [...draft.skills, ...((background?.data?.skills ?? []) as SkillId[])]) skills[s] = 'prof';
+  const choice = classSkillChoice(first);
+  const classSkills = choice ? draft.skills.filter((s) => choice.options.includes(s)).slice(0, choice.choose) : draft.skills;
+  for (const s of [...classSkills, ...((background?.data?.skills ?? []) as SkillId[])]) skills[s] = 'prof';
 
   const classProfs: string[] = first?.data?.proficiencies ?? [];
   const armor = [...new Set(classProfs.flatMap((p) => ARMOR_PROF[p] ?? []))];

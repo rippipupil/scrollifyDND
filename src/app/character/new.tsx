@@ -9,7 +9,7 @@ import type { ContentEntry } from '../../content/types';
 import { useT } from '../../i18n/useT';
 import { abilityMod, formatMod, SKILL_IDS } from '../../rules/core';
 import { ABILITIES, type Ability, type SkillId } from '../../rules/types';
-import { applyBackgroundAsi, buildCharacterFromWizard, emptyDraft, pointBuyCost, POINT_BUY_BUDGET, STANDARD_ARRAY, type WizardDraft } from '../../sheet/wizard';
+import { applyBackgroundAsi, buildCharacterFromWizard, classSkillChoice, emptyDraft, pointBuyCost, POINT_BUY_BUDGET, STANDARD_ARRAY, type WizardDraft } from '../../sheet/wizard';
 import { useCharacters } from '../../store/characters';
 import { useHomebrew } from '../../store/homebrew';
 
@@ -35,8 +35,8 @@ export default function NewCharacterScreen() {
   const bgEntry = getEntry(d.backgroundKey, homebrew);
   const bgAbilities: Ability[] = bgEntry?.data?.abilities?.length ? bgEntry.data.abilities : ABILITIES;
   const finalScores = applyBackgroundAsi(d.baseScores, bgAbilities, d.asi);
-  const skillChoice = firstClass?.data?.skillChoices?.find((c: any) => c.options?.[0]?.startsWith('skill-'));
-  const classSkillOptions: SkillId[] = (skillChoice?.options ?? []).map((o: string) => o.replace('skill-', '') as SkillId);
+  const skillChoice = classSkillChoice(firstClass);
+  const classSkillOptions: SkillId[] = skillChoice?.options ?? [];
   const bgSkills: SkillId[] = bgEntry?.data?.skills ?? [];
 
   const pickAll = (cat: ContentEntry[], current: string | undefined, onPick: (key: string | undefined) => void) => (
@@ -67,7 +67,13 @@ export default function NewCharacterScreen() {
                 <Card key={idx} title={`${t('sheet.classes')} ${idx + 1}`} right={idx > 0 ? <Button small kind="ghost" label="✕" onPress={() => set({ classes: d.classes.filter((_, i) => i !== idx) })} /> : undefined}>
                   <Row wrap>
                     {classes.map((e) => (
-                      <Chip key={keyOf(e)} label={loc(e.name)} active={k.key === keyOf(e)} onPress={() => set({ classes: d.classes.map((x, i) => (i === idx ? { key: keyOf(e), level: x.level } : x)) })} />
+                      <Chip key={keyOf(e)} label={loc(e.name)} active={k.key === keyOf(e)} onPress={() =>
+                          set({
+                            classes: d.classes.map((x, i) => (i === idx ? { key: keyOf(e), level: x.level } : x)),
+                            // A different first class means different skill and equipment options.
+                            ...(idx === 0 && k.key !== keyOf(e) ? { skills: [], classEquipment: undefined } : {}),
+                          })
+                        } />
                     ))}
                   </Row>
                   <Row>

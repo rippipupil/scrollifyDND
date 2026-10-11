@@ -1,5 +1,5 @@
 import { CameraView, useCameraPermissions } from 'expo-camera';
-import { useState } from 'react';
+import { useRef, useState } from 'react';
 import { Alert, Platform, View } from 'react-native';
 import { useT } from '../i18n/useT';
 import { decodeBundle, prepareCharacterImport, type Decoded } from '../share/codec';
@@ -26,8 +26,8 @@ export function useApplyBundle() {
       add(c);
       return t('share.imported', { name: c.name });
     }
-    importMany(d.payload);
-    return t('share.imported', { name: `${d.payload.length} homebrew` });
+    const n = importMany(d.payload);
+    return t('share.imported', { name: `${n} homebrew` });
   };
 }
 
@@ -36,6 +36,7 @@ export function ImportSheet({ visible, onClose }: { visible: boolean; onClose: (
   const apply = useApplyBundle();
   const [text, setText] = useState('');
   const [scanning, setScanning] = useState(false);
+  const scanLock = useRef(false);
   const [perm, requestPerm] = useCameraPermissions();
 
   const finish = (raw: string) => {
@@ -63,7 +64,13 @@ export function ImportSheet({ visible, onClose }: { visible: boolean; onClose: (
         scanning ? (
           perm?.granted ? (
             <View style={{ height: 300, borderRadius: 12, overflow: 'hidden' }}>
-              <CameraView style={{ flex: 1 }} facing="back" barcodeScannerSettings={{ barcodeTypes: ['qr'] }} onBarcodeScanned={({ data }) => finish(data)} />
+              <CameraView style={{ flex: 1 }} facing="back" barcodeScannerSettings={{ barcodeTypes: ['qr'] }} onBarcodeScanned={({ data }) => {
+                  // The camera reports the same code many times per second; import it once.
+                  if (scanLock.current) return;
+                  scanLock.current = true;
+                  setScanning(false);
+                  finish(data);
+                }} />
             </View>
           ) : (
             <Txt muted>{t('share.cameraDenied')}</Txt>
@@ -74,6 +81,7 @@ export function ImportSheet({ visible, onClose }: { visible: boolean; onClose: (
             label={t('share.importFromQr')}
             onPress={async () => {
               if (!perm?.granted) await requestPerm();
+              scanLock.current = false;
               setScanning(true);
             }}
           />
