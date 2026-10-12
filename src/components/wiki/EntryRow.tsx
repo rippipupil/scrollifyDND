@@ -1,3 +1,5 @@
+import { keyOf } from '../../content';
+import { SpellIcon } from '../SpellIcon';
 import { Pressable, View } from 'react-native';
 import type { ContentEntry } from '../../content/types';
 import { isFallback } from '../../i18n';
@@ -27,6 +29,7 @@ export function EntryRow({ entry, onPress }: { entry: ContentEntry; onPress: () 
   return (
     <Pressable onPress={onPress} style={({ pressed }) => ({ paddingVertical: 10, paddingHorizontal: 12, backgroundColor: pressed ? c.surfaceAlt : c.surface, borderBottomWidth: 1, borderColor: c.border })}>
       <View style={{ flexDirection: 'row', alignItems: 'center', gap: 6 }}>
+        {entry.category === 'spell' ? <SpellIcon refKey={keyOf(entry)} school={entry.data?.school} size={28} /> : null}
         <Txt style={{ flex: 1, fontWeight: '600' }} numberOfLines={1}>
           {loc(entry.name)}
         </Txt>
@@ -34,7 +37,7 @@ export function EntryRow({ entry, onPress }: { entry: ContentEntry; onPress: () 
         {entry.source === 'homebrew' ? <Badge label={t('wiki.homebrew')} color={c.accent} /> : null}
         {isFallback(entry.text, lang) ? <Badge label="EN" /> : null}
       </View>
-      <Txt variant="small" muted numberOfLines={1}>
+      <Txt variant="small" muted numberOfLines={1} style={entry.category === 'spell' ? { marginLeft: 34 } : undefined}>
         {entrySubtitle(entry, t)}
       </Txt>
     </Pressable>

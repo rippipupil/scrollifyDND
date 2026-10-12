@@ -1,3 +1,6 @@
+import { getEntry } from '../../content';
+import { useHomebrew } from '../../store/homebrew';
+import { SpellIcon } from '../SpellIcon';
 import { useRouter } from 'expo-router';
 import { useState } from 'react';
 import { Pressable, View } from 'react-native';
@@ -28,6 +31,7 @@ function Pips({ total, used, onToggle }: { total: number; used: number; onToggle
 }
 
 export function SpellsTab({ c, mutate }: { c: Character; mutate: Mutate }) {
+  const homebrew = useHomebrew((x) => x.entries);
   const th = useTheme();
   const router = useRouter();
   const { t, loc } = useT();
@@ -117,7 +121,10 @@ export function SpellsTab({ c, mutate }: { c: Character; mutate: Mutate }) {
               <View key={s.uid} style={{ borderTopWidth: 1, borderColor: th.border, paddingTop: 6 }}>
                 <Row>
                   <Pressable style={{ flex: 1 }} onPress={() => s.ref && router.push({ pathname: '/wiki/[key]', params: { key: s.ref } })}>
-                    <Txt style={{ fontWeight: '600', color: s.prepared || s.always ? th.text : th.textMuted }}>{loc(s.name)}</Txt>
+                    <Row>
+                      <SpellIcon refKey={s.ref} school={s.ref ? getEntry(s.ref, homebrew)?.data?.school : undefined} size={26} />
+                      <Txt style={{ fontWeight: '600', color: s.prepared || s.always ? th.text : th.textMuted, flexShrink: 1 }}>{loc(s.name)}</Txt>
+                    </Row>
                     <Row wrap style={{ gap: 4 }}>
                       {s.concentration ? <Badge label="C" /> : null}
                       {s.ritual ? <Badge label="R" /> : null}

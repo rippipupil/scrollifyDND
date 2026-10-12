@@ -1,3 +1,4 @@
+import { SpellIcon } from '../SpellIcon';
 import { useRouter } from 'expo-router';
 import { Linking, Platform, View } from 'react-native';
 import { abilityMod, formatMod } from '../../rules/core';
@@ -210,6 +211,7 @@ export function EntryDetail({ entry, onAdd }: { entry: ContentEntry; onAdd?: () 
   return (
     <View style={{ gap: 12 }}>
       <Row wrap>
+        {entry.category === 'spell' ? <SpellIcon refKey={keyOf(entry)} school={entry.data?.school} size={44} /> : null}
         <Badge label={t(`categories.${entry.category}`)} />
         {entry.source === 'external' ? <Badge label={`${t('wiki.external')} · ${entry.book ?? ''}`} /> : null}
         {entry.source === 'homebrew' ? <Badge label={t('wiki.homebrew')} /> : null}
