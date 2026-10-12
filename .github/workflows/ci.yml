@@ -22,6 +22,8 @@ jobs:
   android:
     needs: test
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -43,3 +45,15 @@ jobs:
         with:
           name: scrollify-dnd-apk
           path: android/app/build/outputs/apk/release/app-release.apk
+      # Public direct download for phones (Actions artifacts need a GitHub login and come zipped).
+      - name: Publish APK as the "apk-latest" release
+        if: github.event_name == 'push'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          cp android/app/build/outputs/apk/release/app-release.apk scrollify-dnd.apk
+          gh release delete apk-latest --yes --cleanup-tag || true
+          gh release create apk-latest scrollify-dnd.apk \
+            --target "$GITHUB_SHA" --latest \
+            --title "Scrollify D&D (última versión)" \
+            --notes "APK de Android generado automáticamente desde la rama ${GITHUB_REF_NAME} (commit ${GITHUB_SHA::7}). Descárgalo desde el móvil y ábrelo para instalarlo."

@@ -33,9 +33,9 @@ Fichas de personaje funcionales y wiki para **D&D 5.5 (reglas 2024)**, en **espa
 
 ## Instalar en Android
 
-1. Ve a la pestaña **Actions** del repositorio en GitHub y abre la última ejecución verde de **CI**.
-2. Descarga el artefacto **scrollify-dnd-apk** (un .zip con `app-release.apk`).
-3. Pásalo al móvil y ábrelo. Android pedirá permitir la instalación desde esa fuente.
+1. Desde el móvil, abre **https://github.com/rippipupil/scrollifyDND/releases/latest/download/scrollify-dnd.apk** (descarga directa, sin iniciar sesión).
+2. Abre el archivo descargado. Android pedirá permitir la instalación desde el navegador: acéptalo.
+3. Para actualizar, descarga el mismo enlace e instálalo encima: tus fichas se conservan.
 
 ## iPhone
 
