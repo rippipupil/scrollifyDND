@@ -1,0 +1,36 @@
+<!-- Scroll with quill. Art only (transparent), 1024x1024, drawn inside the ~660px Android safe zone. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <g stroke="#4A2F17" stroke-width="16" stroke-linejoin="round" stroke-linecap="round">
+    <!-- sheet -->
+    <path d="M318 286 H706 V738 H318 Z" fill="#F4E6C4"/>
+    <!-- top roll -->
+    <rect x="262" y="236" width="500" height="92" rx="46" fill="#E2C690"/>
+    <circle cx="308" cy="282" r="46" fill="#D2B072"/>
+    <circle cx="308" cy="282" r="17" fill="#A9864B"/>
+    <circle cx="716" cy="282" r="46" fill="#D2B072"/>
+    <circle cx="716" cy="282" r="17" fill="#A9864B"/>
+    <!-- bottom roll -->
+    <rect x="262" y="696" width="500" height="92" rx="46" fill="#E2C690"/>
+    <circle cx="308" cy="742" r="46" fill="#D2B072"/>
+    <circle cx="308" cy="742" r="17" fill="#A9864B"/>
+    <circle cx="716" cy="742" r="46" fill="#D2B072"/>
+    <circle cx="716" cy="742" r="17" fill="#A9864B"/>
+  </g>
+  <!-- writing -->
+  <g stroke="#9C7A4E" stroke-width="18" stroke-linecap="round">
+    <line x1="380" y1="398" x2="644" y2="398"/>
+    <line x1="380" y1="462" x2="612" y2="462"/>
+    <line x1="380" y1="526" x2="644" y2="526"/>
+    <line x1="380" y1="590" x2="520" y2="590"/>
+  </g>
+  <!-- quill: nib writing on the last line, red feather leaning to the top right -->
+  <g transform="translate(540 650) rotate(34)">
+    <path d="M0 -40 C 52 -120, 86 -270, 14 -470 C -46 -330, -62 -160, 0 -40 Z" fill="#9E2B1F" stroke="#3A1E10" stroke-width="14" stroke-linejoin="round"/>
+    <g stroke="#D9704F" stroke-width="7" stroke-linecap="round" fill="none">
+      <path d="M2 -130 L 40 -165"/><path d="M4 -200 L 46 -240"/><path d="M6 -270 L 42 -310"/><path d="M8 -340 L 30 -375"/>
+      <path d="M0 -150 L -30 -180"/><path d="M2 -230 L -32 -262"/><path d="M5 -310 L -22 -340"/>
+    </g>
+    <path d="M0 6 L 0 -50 L 10 -440" stroke="#F3DDB4" stroke-width="9" stroke-linecap="round" fill="none"/>
+    <path d="M-11 0 L 0 52 L 11 0 Z" fill="#2B1B0E" stroke="#2B1B0E" stroke-width="6" stroke-linejoin="round"/>
+  </g>
+</svg>

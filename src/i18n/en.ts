@@ -105,7 +105,7 @@ export const en: Dict = {
   },
   dice: {
     title: 'Dice', expression: 'Expression (e.g. 2d6+3)', roll: 'Roll', advantage: 'Advantage', disadvantage: 'Disadvantage',
-    history: 'History', clear: 'Clear history', invalid: 'Invalid expression', natural20: 'Natural 20!', natural1: 'Natural 1…',
+    history: 'History', clear: 'Clear history', invalid: 'Invalid expression', natural20: 'Natural 20!', natural1: 'Natural 1…', trayHint: 'Tap a die to roll',
   },
   settings: {
     title: 'Settings', language: 'Language', theme: 'Theme', system: 'System', light: 'Light (parchment)', dark: 'Dark (modern)',

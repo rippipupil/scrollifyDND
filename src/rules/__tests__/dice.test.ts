@@ -76,3 +76,38 @@ describe('roll', () => {
     }
   });
 });
+
+describe('rolledDice (what the dice tray draws)', () => {
+  const { rolledDice } = require('../dice');
+  const seq = (...faces: number[]) => {
+    let i = 0;
+    return () => faces[i++];
+  };
+
+  test('one entry per physical die, with its sides and face', () => {
+    const r = roll('2d6+1d8+3', { die: seq(4, 2, 7) });
+    expect(rolledDice(r)).toEqual([
+      { sides: 6, value: 4, dropped: false },
+      { sides: 6, value: 2, dropped: false },
+      { sides: 8, value: 7, dropped: false },
+    ]);
+  });
+
+  test('advantage shows both d20s and marks the lower one dropped', () => {
+    const r = roll('1d20+5', { adv: true, die: seq(3, 17) });
+    expect(rolledDice(r)).toEqual([
+      { sides: 20, value: 3, dropped: true },
+      { sides: 20, value: 17, dropped: false },
+    ]);
+  });
+
+  test('a tie under disadvantage drops only one die', () => {
+    const r = roll('1d20', { dis: true, die: seq(9, 9) });
+    expect(rolledDice(r).filter((d: { dropped: boolean }) => d.dropped)).toHaveLength(1);
+  });
+
+  test('failed rolls and flat modifiers draw nothing', () => {
+    expect(rolledDice(roll('nope'))).toEqual([]);
+    expect(rolledDice(roll('5'))).toEqual([]);
+  });
+});

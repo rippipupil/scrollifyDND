@@ -74,3 +74,25 @@ export function roll(expr: string, opts: RollOptions = {}): RollResult {
   const natural = d20Terms.length === 1 ? parts.find((p) => p.term === '1d20')?.kept[0] : undefined;
   return { ok: true, expr, total, parts, modifier, natural };
 }
+
+export interface RolledDie {
+  sides: number;
+  value: number;
+  /** Rolled but not counted (the other d20 with advantage/disadvantage). */
+  dropped: boolean;
+}
+
+/** Every physical die of a roll, in order, for drawing them. */
+export function rolledDice(r: RollResult): RolledDie[] {
+  if (!r.ok) return [];
+  return r.parts.flatMap((p) => {
+    const sides = Number(/d(\d+)/i.exec(p.term)?.[1]);
+    if (!sides) return [];
+    const kept = [...p.kept];
+    return p.rolls.map((value) => {
+      const i = kept.indexOf(value);
+      if (i >= 0) kept.splice(i, 1);
+      return { sides, value, dropped: i < 0 };
+    });
+  });
+}

@@ -105,7 +105,7 @@ export const es: Dict = {
   },
   dice: {
     title: 'Dados', expression: 'Expresión (p. ej. 2d6+3)', roll: 'Tirar', advantage: 'Ventaja', disadvantage: 'Desventaja',
-    history: 'Historial', clear: 'Borrar historial', invalid: 'Expresión no válida', natural20: '¡20 natural!', natural1: '1 natural…',
+    history: 'Historial', clear: 'Borrar historial', invalid: 'Expresión no válida', natural20: '¡20 natural!', natural1: '1 natural…', trayHint: 'Toca un dado para tirar',
   },
   settings: {
     title: 'Ajustes', language: 'Idioma', theme: 'Tema', system: 'Sistema', light: 'Claro (pergamino)', dark: 'Oscuro (moderno)',

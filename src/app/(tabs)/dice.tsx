@@ -1,10 +1,11 @@
 import { useState } from 'react';
 import { View } from 'react-native';
+import { DiceTray } from '../../components/DiceTray';
 import { rollDetail } from '../../components/RollToast';
 import { Button, Card, Chip, Field, Row, Screen, Stepper, Txt } from '../../components/ui';
 import { useT } from '../../i18n/useT';
 import { parseDice } from '../../rules/dice';
-import { useRolls } from '../../store/rolls';
+import { useRolls, type RollEntry } from '../../store/rolls';
 import { useTheme } from '../../theme';
 
 const DICE = [4, 6, 8, 10, 12, 20, 100];
@@ -12,7 +13,17 @@ const DICE = [4, 6, 8, 10, 12, 20, 100];
 export default function DiceScreen() {
   const th = useTheme();
   const { t } = useT();
-  const roll = useRolls((s) => s.roll);
+  const rollStore = useRolls((s) => s.roll);
+  const dismiss = useRolls((s) => s.dismiss);
+  const [tray, setTray] = useState<RollEntry | null>(null);
+  // Rolls made here are shown in the tray, so the floating toast is not needed.
+  const roll = (label: string, expr: string) => {
+    const e = rollStore(label, expr);
+    if (e) {
+      setTray(e);
+      dismiss();
+    }
+  };
   const history = useRolls((s) => s.history);
   const clear = useRolls((s) => s.clear);
   const mode = useRolls((s) => s.mode);
@@ -25,6 +36,7 @@ export default function DiceScreen() {
 
   return (
     <Screen>
+      <DiceTray entry={tray} />
       <Card>
         <Row>
           <Txt style={{ flex: 1 }}>{t('common.quantity')}</Txt>
