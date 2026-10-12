@@ -23,3 +23,10 @@ https://creativecommons.org/licenses/by/4.0/legalcode.
   casting time, range, component flags, duration, classes, book and page — taken from the
   [5etools](https://github.com/5etools-mirror-3/5etools-src) data. No rules text is included; the app links to
   AideDD, Wikidot and Nivel20 for it. Regenerate with `scripts/import-spell-index.ts`.
+
+## Spell icons
+
+Spell icons are from [game-icons.net](https://game-icons.net) ([game-icons/icons](https://github.com/game-icons/icons)),
+licensed under [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/). Authors of the icons used: caro-asercion, cathelineau, darkzaitzev, delapouite, faithtoken, heavenly-dog, lorc, lord-berandas, lucasms, sbed, skoll, willdabeast, zeromancer.
+The assignment of icons to spells is in `data/icons/spell-icons.json`; `scripts/build-spell-icons.ts` builds
+`assets/data/spell-icons.json` from it (white glyphs on a colour per school of magic).
