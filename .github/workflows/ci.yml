@@ -24,6 +24,14 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    # Only the newest push builds and publishes; an older run can never overwrite a newer APK.
+    concurrency:
+      group: android-${{ github.ref }}
+      cancel-in-progress: true
+    env:
+      # Android versionCode / app version 1.0.N; the app compares it with latest.json to offer updates.
+      APP_BUILD: ${{ github.run_number }}
+      EXPO_PUBLIC_APP_BUILD: ${{ github.run_number }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -52,8 +60,13 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           cp android/app/build/outputs/apk/release/app-release.apk scrollify-dnd.apk
+          NOTES=$(git log -1 --pretty=%s)
+          jq -n --argjson code "$APP_BUILD" --arg name "1.0.$APP_BUILD" --arg notes "$NOTES" \
+            --arg apk "https://github.com/${GITHUB_REPOSITORY}/releases/download/apk-latest/scrollify-dnd.apk" \
+            '{versionCode: $code, versionName: $name, apk: $apk, notes: $notes}' > latest.json
+          cat latest.json
           gh release delete apk-latest --yes --cleanup-tag || true
-          gh release create apk-latest scrollify-dnd.apk \
+          gh release create apk-latest scrollify-dnd.apk latest.json \
             --target "$GITHUB_SHA" --latest \
-            --title "Scrollify D&D (última versión)" \
+            --title "Scrollify D&D 1.0.$APP_BUILD" \
             --notes "APK de Android generado automáticamente desde la rama ${GITHUB_REF_NAME} (commit ${GITHUB_SHA::7}). Descárgalo desde el móvil y ábrelo para instalarlo."

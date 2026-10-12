@@ -1,8 +1,10 @@
+import { useUpdate } from '../../store/update';
+import { currentVersion } from '../../update/updater';
 import { useRouter } from 'expo-router';
 import { useState } from 'react';
 import { View } from 'react-native';
 import { confirmAsync } from '../../components/dialogs';
-import { ImportSheet } from '../../components/ImportSheet';
+import { ImportSheet, notify } from '../../components/ImportSheet';
 import { ShareSheet } from '../../components/ShareSheet';
 import { Button, Card, Chip, Row, Screen, Txt } from '../../components/ui';
 import { EntryRow } from '../../components/wiki/EntryRow';
@@ -12,6 +14,8 @@ import { useHomebrew } from '../../store/homebrew';
 import { useSettings } from '../../store/settings';
 
 export default function SettingsScreen() {
+  const checking = useUpdate((x) => x.checking);
+  const checkUpdate = useUpdate((x) => x.check);
   const router = useRouter();
   const { t } = useT();
   const { lang, theme, setLang, setTheme } = useSettings();
@@ -58,6 +62,18 @@ export default function SettingsScreen() {
         ))}
       </Card>
       <Card title={t('settings.about')}>
+        <Txt muted>{t('update.version', { v: currentVersion() })}</Txt>
+        <Button
+          kind="secondary"
+          label={checking ? t('update.checking') : t('update.check')}
+          disabled={checking}
+          onPress={async () => {
+            await checkUpdate();
+            const r = useUpdate.getState().lastResult;
+            if (r !== 'available') notify(t(r === 'upToDate' ? 'update.upToDate' : 'update.offline'));
+          }}
+          testID="check-update"
+        />
         <Button kind="secondary" label={t('settings.credits')} onPress={() => router.push('/credits')} />
       </Card>
       <ShareSheet kind="homebrew" payload={entries} name="homebrew" visible={exporting} onClose={() => setExporting(false)} />

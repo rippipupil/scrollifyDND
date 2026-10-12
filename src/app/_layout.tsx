@@ -2,6 +2,7 @@ import { Stack } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 import { View } from 'react-native';
 import { RollToast } from '../components/RollToast';
+import { UpdatePrompt } from '../components/UpdatePrompt';
 import { useTheme } from '../theme';
 
 export default function RootLayout() {
@@ -20,6 +21,7 @@ export default function RootLayout() {
         <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
       </Stack>
       <RollToast />
+      <UpdatePrompt />
     </View>
   );
 }

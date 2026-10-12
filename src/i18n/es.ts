@@ -149,5 +149,11 @@ export const es: Dict = {
     areaOf: '{shape} de {size}', gp: 'po', consumed: 'se consume', concentrationUpTo: 'Concentración, hasta {span}',
     shape: { cone: 'cono', sphere: 'esfera', line: 'línea', cube: 'cubo', radius: 'radio', emanation: 'emanación', hemisphere: 'semiesfera', cylinder: 'cilindro' },
   },
+  update: {
+    title: 'Nueva versión disponible', versions: 'Versión {next} (tienes la {current}).', now: 'Actualizar ahora', later: 'Más tarde',
+    keepsData: 'Se instala encima: tus personajes y enemigos se conservan. Android puede pedirte permiso para instalar apps desde Scrollify la primera vez.',
+    downloading: 'Descargando… {pct}%', failed: 'No se pudo descargar o instalar.', openBrowser: 'Descargar desde el navegador',
+    check: 'Buscar actualizaciones', checking: 'Buscando…', upToDate: 'Tienes la última versión.', offline: 'No se pudo comprobar (¿sin conexión?).', version: 'Versión {v}',
+  },
   test: {},
 };
