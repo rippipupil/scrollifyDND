@@ -156,6 +156,17 @@ export const es: Dict = {
     areaOf: '{shape} de {size}', gp: 'po', consumed: 'se consume', concentrationUpTo: 'Concentración, hasta {span}',
     shape: { cone: 'cono', sphere: 'esfera', line: 'línea', cube: 'cubo', radius: 'radio', emanation: 'emanación', hemisphere: 'semiesfera', cylinder: 'cilindro' },
   },
+  attack: {
+    full: 'Ataque completo', target: 'Objetivo', targetAc: 'CA del objetivo (opcional)', normal: 'Normal', hit: '¡Impacta!', miss: 'Falla',
+    crit: '¡Crítico! Impacta', fumble: '1 natural: falla', noAc: 'Sin CA: decide el DM', critDice: 'dados dobles por crítico',
+    apply: 'Aplicar {n} de daño a {name}', applied: 'Daño aplicado',
+  },
+  effects: {
+    title: 'Efectos con duración', effect: 'Efecto', add: 'Añadir efecto', name: 'Efecto', namePlaceholder: 'Bendición, Velocidad, Agarrado…',
+    presets: 'Bendición,Perdición,Velocidad,Ralentizar,Escudo de la fe,Marca del cazador,Maleficio,Invisible,Concentración,Agarrado',
+    rounds: 'Rondas que dura (vacío = hasta quitarlo)', roundsHint: 'Las pone el DM. Se descuenta una al empezar el turno de cada afectado y, al llegar a 0, el efecto termina.',
+    who: 'A quién', untimed: 'sin límite', left: '{n} rondas', expired: 'Han terminado: {list}',
+  },
   update: {
     title: 'Nueva versión disponible', versions: 'Versión {next} (tienes la {current}).', now: 'Actualizar ahora', later: 'Más tarde',
     keepsData: 'Se instala encima: tus personajes y enemigos se conservan. Android puede pedirte permiso para instalar apps desde Scrollify la primera vez.',

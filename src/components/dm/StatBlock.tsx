@@ -7,6 +7,8 @@ import { abilityMod, formatMod } from '../../rules/core';
 import { ABILITIES } from '../../rules/types';
 import { d20, useRolls } from '../../store/rolls';
 import { useTheme } from '../../theme';
+import { useState } from 'react';
+import { FullAttackSheet, type AttackTarget } from '../FullAttackSheet';
 import { Button, Card, Chip, Row, Txt } from '../ui';
 
 export const DAMAGE_TYPES = ['acid', 'bludgeoning', 'cold', 'fire', 'force', 'lightning', 'necrotic', 'piercing', 'poison', 'psychic', 'radiant', 'slashing', 'thunder'];
@@ -32,14 +34,18 @@ function Line({ label, value, color }: { label: string; value: string; color?: s
   );
 }
 
-/** Read-only stat block. Tapping a score, save, skill or attack rolls it; `who` prefixes roll labels. */
-export function StatBlock({ enemy: e, who }: { enemy: Enemy; who?: string }) {
+/**
+ * Read-only stat block. Tapping a score, save, skill or attack rolls it; `who` prefixes roll labels.
+ * In combat, `targets` and `onApplyDamage` let a full attack hit another combatant.
+ */
+export function StatBlock({ enemy: e, who, targets, onApplyDamage }: { enemy: Enemy; who?: string; targets?: AttackTarget[]; onApplyDamage?: (uid: string, amount: number) => void }) {
   const { t } = useT();
   const th = useTheme();
   const L = useDmLabels();
   const roll = useRolls((s) => s.roll);
   const name = who || e.name || t('dm.unnamed');
   const saves = ABILITIES.filter((a) => e.saves[a] !== undefined);
+  const [full, setFull] = useState<EnemyAction | null>(null);
 
   const actionRow = (a: EnemyAction) => (
     <View key={a.uid} style={{ gap: 4 }}>
@@ -60,6 +66,7 @@ export function StatBlock({ enemy: e, who }: { enemy: Enemy; who?: string }) {
               onPress={() => roll(`${name}: ${a.name} (${t('sheet.damage')})`, a.damage!)}
             />
           ) : null}
+          {a.attackBonus !== undefined && a.damage ? <Button small kind="ghost" label={`⚔ ${t('attack.full')}`} onPress={() => setFull(a)} /> : null}
           {a.save ? <Txt muted>{t('dm.saveLabel', { ability: t(`abilities.short.${a.save.ability}`), dc: a.save.dc })}</Txt> : null}
         </Row>
       ) : null}
@@ -120,6 +127,16 @@ export function StatBlock({ enemy: e, who }: { enemy: Enemy; who?: string }) {
           </Card>
         ) : null;
       })}
+      <FullAttackSheet
+        visible={!!full}
+        onClose={() => setFull(null)}
+        label={`${name}: ${full?.name ?? ''}`}
+        toHit={full?.attackBonus ?? 0}
+        damage={full?.damage ?? ''}
+        damageType={full?.damageType && DAMAGE_TYPES.includes(full.damageType) ? full.damageType : undefined}
+        targets={targets}
+        onApply={onApplyDamage}
+      />
       {e.notes ? (
         <Card title={t('dm.notes')}>
           <Txt selectable>{e.notes}</Txt>

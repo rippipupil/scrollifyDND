@@ -4,12 +4,12 @@ import { roll } from '../rules/dice';
 import { maxHp } from '../rules/health';
 import type { Character } from '../rules/types';
 import { enemyInitBonus } from './enemy';
-import type { Combatant, Encounter, Enemy } from './types';
+import type { CombatEffect, Combatant, Encounter, Enemy } from './types';
 
 type Die = (sides: number) => number;
 
 export function emptyEncounter(): Encounter {
-  return { combatants: [], round: 0, activeUid: null };
+  return { combatants: [], round: 0, activeUid: null, expired: [] };
 }
 
 const update = (enc: Encounter, id: string, fn: (c: Combatant) => Combatant): Encounter => ({
@@ -29,7 +29,7 @@ export function addEnemy(enc: Encounter, e: Enemy, count: number, opts: { rollHp
     const rolled = opts.rollHp && e.hpFormula ? roll(e.hpFormula, { die: opts.die }) : null;
     const hp = rolled && rolled.ok ? Math.max(1, rolled.total) : e.hpMax;
     const name = numbered ? `${e.name} ${next++}` : e.name;
-    return { uid: uid('cmb'), name, kind: 'enemy', enemyId: e.id, initiative: null, initBonus: enemyInitBonus(e), hp, hpMax: hp, temp: 0, ac: e.ac, conditions: [], note: '' };
+    return { uid: uid('cmb'), name, kind: 'enemy', enemyId: e.id, initiative: null, initBonus: enemyInitBonus(e), hp, hpMax: hp, temp: 0, ac: e.ac, conditions: [], effects: [], note: '' };
   });
   return { ...enc, combatants: [...enc.combatants, ...added] };
 }
@@ -48,13 +48,14 @@ export function addCharacter(enc: Encounter, c: Character): Encounter {
     temp: c.hp.temp,
     ac: armorClass(c),
     conditions: [...c.conditions],
+    effects: [],
     note: '',
   };
   return { ...enc, combatants: [...enc.combatants, pc] };
 }
 
 export function addOther(enc: Encounter, name: string): Encounter {
-  const c: Combatant = { uid: uid('cmb'), name, kind: 'other', initiative: null, initBonus: 0, hp: 0, hpMax: 0, temp: 0, ac: 10, conditions: [], note: '' };
+  const c: Combatant = { uid: uid('cmb'), name, kind: 'other', initiative: null, initBonus: 0, hp: 0, hpMax: 0, temp: 0, ac: 10, conditions: [], effects: [], note: '' };
   return { ...enc, combatants: [...enc.combatants, c] };
 }
 
@@ -89,19 +90,50 @@ export function orderedCombatants(enc: Encounter): Combatant[] {
 
 const defeated = (c: Combatant) => c.kind === 'enemy' && c.hp <= 0;
 
+/** Ticks the timed effects of the combatant whose turn starts; the ones that run out go to `expired`. */
+function startTurnOf(enc: Encounter, id: string): Encounter {
+  const who = enc.combatants.find((c) => c.uid === id);
+  if (!who) return enc;
+  const expired: Encounter['expired'] = [];
+  const effects: CombatEffect[] = [];
+  for (const ef of who.effects) {
+    if (ef.remaining === null) effects.push(ef);
+    else if (ef.remaining > 1) effects.push({ ...ef, remaining: ef.remaining - 1 });
+    else expired.push({ who: who.name, effect: ef.name });
+  }
+  // Notices pile up until the DM dismisses them, so a quick "next turn" doesn't hide them.
+  return { ...update(enc, id, (c) => ({ ...c, effects })), expired: [...enc.expired, ...expired].slice(-8) };
+}
+
 /** Starts the combat or passes the turn, skipping defeated enemies; wrapping around adds a round. */
 export function nextTurn(enc: Encounter): Encounter {
   const order = orderedCombatants(enc);
   const alive = order.filter((c) => !defeated(c));
   if (!alive.length) return enc;
-  if (enc.round === 0 || !enc.activeUid) return { ...enc, round: Math.max(1, enc.round), activeUid: alive[0].uid };
+  // Starting the fight doesn't tick anything: effects set before it keep their full duration.
+  if (enc.round === 0 || !enc.activeUid) return { ...enc, round: Math.max(1, enc.round), activeUid: alive[0].uid, expired: [] };
   const at = order.findIndex((c) => c.uid === enc.activeUid);
   for (let step = 1; step <= order.length; step++) {
     const idx = at + step;
     const c = order[idx % order.length];
-    if (!defeated(c)) return { ...enc, activeUid: c.uid, round: enc.round + (idx >= order.length ? 1 : 0) };
+    if (!defeated(c)) return startTurnOf({ ...enc, activeUid: c.uid, round: enc.round + (idx >= order.length ? 1 : 0) }, c.uid);
   }
   return enc;
+}
+
+/** Puts the same effect on several combatants. `rounds` empty or 0 = lasts until removed. */
+export function addEffect(enc: Encounter, ids: string[], name: string, rounds?: number): Encounter {
+  const label = name.trim();
+  if (!label || !ids.length) return enc;
+  const remaining = rounds && rounds > 0 ? Math.floor(rounds) : null;
+  return {
+    ...enc,
+    combatants: enc.combatants.map((c) => (ids.includes(c.uid) ? { ...c, effects: [...c.effects, { uid: uid('eff'), name: label, remaining }] } : c)),
+  };
+}
+
+export function removeEffect(enc: Encounter, id: string, effectUid: string): Encounter {
+  return update(enc, id, (c) => ({ ...c, effects: c.effects.filter((e) => e.uid !== effectUid) }));
 }
 
 export function removeCombatant(enc: Encounter, id: string): Encounter {
@@ -160,8 +192,14 @@ export function sanitizeEncounter(raw: unknown): Encounter {
     temp: Math.max(0, num(c.temp, 0)),
     ac: num(c.ac, 10),
     conditions: Array.isArray(c.conditions) ? c.conditions.filter((x: unknown): x is string => typeof x === 'string') : [],
+    effects: (Array.isArray(c.effects) ? c.effects : []).filter(isObj).filter((e: Record<string, any>) => str(e.name).trim()).map((e: Record<string, any>) => ({
+      uid: str(e.uid) || uid('eff'),
+      name: str(e.name),
+      remaining: typeof e.remaining === 'number' && e.remaining > 0 ? Math.floor(e.remaining) : null,
+    })),
     note: str(c.note),
   }));
   const activeUid = typeof raw.activeUid === 'string' && combatants.some((c) => c.uid === raw.activeUid) ? raw.activeUid : null;
-  return { combatants, round: combatants.length ? Math.max(0, Math.floor(num(raw.round, 0))) : 0, activeUid };
+  const expired = (Array.isArray(raw.expired) ? raw.expired : []).filter(isObj).map((x: Record<string, any>) => ({ who: str(x.who), effect: str(x.effect) }));
+  return { combatants, round: combatants.length ? Math.max(0, Math.floor(num(raw.round, 0))) : 0, activeUid, expired };
 }

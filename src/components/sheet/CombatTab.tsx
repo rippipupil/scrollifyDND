@@ -9,6 +9,7 @@ import type { Character, Resource } from '../../rules/types';
 import { toggleCondition } from '../../sheet/actions';
 import { d20, useRolls } from '../../store/rolls';
 import { useTheme } from '../../theme';
+import { FullAttackSheet } from '../FullAttackSheet';
 import { notify } from '../ImportSheet';
 import { Button, Card, Chip, Field, NumberField, Row, Sheet, Stepper, Txt } from '../ui';
 import type { Mutate } from './useCharacter';
@@ -23,6 +24,7 @@ export function CombatTab({ c, mutate }: { c: Character; mutate: Mutate }) {
   const [spent, setSpent] = useState<{ classIndex: number; roll: number }[]>([]);
   const [newRes, setNewRes] = useState<Resource | null>(null);
   const attacks = weaponAttacks(c);
+  const [full, setFull] = useState<(typeof attacks)[number] | null>(null);
 
   return (
     <View style={{ gap: 12 }}>
@@ -34,6 +36,7 @@ export function CombatTab({ c, mutate }: { c: Character; mutate: Mutate }) {
               <Button small label={`${t('sheet.toHit')} ${formatMod(a.toHit)}`} onPress={() => roll(`${loc(a.name)} · ${t('sheet.toHit')}`, d20(a.toHit))} />
               <Button small kind="secondary" label={`${a.damage} ${t(`damageTypes.${a.damageType}`)}`} onPress={() => roll(`${loc(a.name)} · ${t('sheet.dmg')}`, a.damage, 'normal')} />
               {a.versatileDamage ? <Button small kind="secondary" label={`${t('sheet.versatile')}: ${a.versatileDamage}`} onPress={() => roll(`${loc(a.name)} · ${t('sheet.versatile')}`, a.versatileDamage!, 'normal')} /> : null}
+              <Button small kind="ghost" label={`⚔ ${t('attack.full')}`} onPress={() => setFull(a)} testID={`full-attack-${a.id}`} />
             </Row>
             {a.mastery ? (
               <Txt variant="small" muted>
@@ -87,6 +90,8 @@ export function CombatTab({ c, mutate }: { c: Character; mutate: Mutate }) {
           }}
         />
       </Row>
+
+      <FullAttackSheet visible={!!full} onClose={() => setFull(null)} label={full ? loc(full.name) : ''} toHit={full?.toHit ?? 0} damage={full?.damage ?? ''} damageType={full?.damageType} />
 
       <Sheet visible={resting} onClose={() => setResting(false)} title={t('sheet.shortRest')}>
         <Txt muted>{t('sheet.hitDice')}</Txt>

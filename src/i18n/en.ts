@@ -156,6 +156,17 @@ export const en: Dict = {
     areaOf: '{size} {shape}', gp: 'gp', consumed: 'consumed', concentrationUpTo: 'Concentration, up to {span}',
     shape: { cone: 'cone', sphere: 'sphere', line: 'line', cube: 'cube', radius: 'radius', emanation: 'emanation', hemisphere: 'hemisphere', cylinder: 'cylinder' },
   },
+  attack: {
+    full: 'Full attack', target: 'Target', targetAc: 'Target AC (optional)', normal: 'Normal', hit: 'Hit!', miss: 'Miss',
+    crit: 'Critical hit!', fumble: 'Natural 1: miss', noAc: 'No AC: the DM decides', critDice: 'dice doubled for the crit',
+    apply: 'Apply {n} damage to {name}', applied: 'Damage applied',
+  },
+  effects: {
+    title: 'Timed effects', effect: 'Effect', add: 'Add effect', name: 'Effect', namePlaceholder: 'Bless, Haste, Grappled…',
+    presets: 'Bless,Bane,Haste,Slow,Shield of Faith,Hunter’s Mark,Hex,Invisible,Concentration,Grappled',
+    rounds: 'Rounds it lasts (empty = until removed)', roundsHint: 'Set by the DM. One is taken off when each affected creature starts its turn; at 0 the effect ends.',
+    who: 'Who', untimed: 'no limit', left: '{n} rounds', expired: 'Ended: {list}',
+  },
   update: {
     title: 'New version available', versions: 'Version {next} (you have {current}).', now: 'Update now', later: 'Later',
     keepsData: 'It installs on top: your characters and enemies are kept. Android may ask you to allow installs from Scrollify the first time.',

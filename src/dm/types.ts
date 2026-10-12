@@ -51,6 +51,14 @@ export interface Enemy {
   updatedAt: number;
 }
 
+/** A timed effect on a combatant (Bless, Haste, a grapple…). The DM sets how many rounds it lasts. */
+export interface CombatEffect {
+  uid: string;
+  name: string;
+  /** Rounds left; it ticks down at the start of the combatant's turn. null = until removed. */
+  remaining: number | null;
+}
+
 export interface Combatant {
   uid: string;
   name: string;
@@ -64,6 +72,7 @@ export interface Combatant {
   temp: number;
   ac: number;
   conditions: string[];
+  effects: CombatEffect[];
   note: string;
 }
 
@@ -72,4 +81,6 @@ export interface Encounter {
   /** 0 = combat not started. */
   round: number;
   activeUid: string | null;
+  /** Effects that have run out since the DM last dismissed the notice. */
+  expired: { who: string; effect: string }[];
 }

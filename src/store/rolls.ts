@@ -17,6 +17,11 @@ interface RollsState {
   mode: RollMode;
   setMode: (m: RollMode) => void;
   roll: (label: string, expr: string, mode?: RollMode) => RollEntry | null;
+  /** Records a roll made elsewhere (e.g. a full attack) in the history and the toast. */
+  push: (label: string, result: RollEntry['result'], mode?: RollMode) => void;
+  /** Last target AC typed in a full attack, to prefill the next one. */
+  targetAc?: number;
+  setTargetAc: (ac: number | undefined) => void;
   dismiss: () => void;
   clear: () => void;
 }
@@ -36,6 +41,11 @@ export const useRolls = create<RollsState>()((set, get) => ({
     set((s) => ({ history: [entry, ...s.history].slice(0, 100), last: entry, mode: modeOverride ? s.mode : 'normal' }));
     return entry;
   },
+  push: (label, result, mode = 'normal') => {
+    const entry: RollEntry = { id: ++counter, label, result, mode, ts: Date.now() };
+    set((s) => ({ history: [entry, ...s.history].slice(0, 100), last: entry }));
+  },
+  setTargetAc: (targetAc) => set({ targetAc }),
   dismiss: () => set({ last: null }),
   clear: () => set({ history: [], last: null }),
 }));
