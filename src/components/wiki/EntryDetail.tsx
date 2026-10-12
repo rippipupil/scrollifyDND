@@ -61,6 +61,37 @@ function ExternalSpellMeta({ e }: { e: ContentEntry }) {
   );
 }
 
+/** Facts of an indexed (non-SRD) entry that isn't a spell: edition, book and page, plus what the index knows. */
+function ExternalMeta({ e }: { e: ContentEntry }) {
+  const { t } = useT();
+  const d = e.data ?? {};
+  const ft = (n: number) => t('sheet.speedValue', { ft: n, m: String(Math.round(n * 3) / 10).replace('.', ',') });
+  return (
+    <Card>
+      <Meta label={t('wiki.edition')} value={d.era === '2014' ? t('wiki.era2014') : t('wiki.era2024')} />
+      <Meta label={t('wiki.source')} value={`${e.book ?? ''}${d.page ? `, ${t('wiki.page', { n: d.page })}` : ''}`} />
+      {e.category === 'subclass' && d.classId ? <Meta label={t('wiki.class')} value={t(`classNames.${d.classId}`)} /> : null}
+      {e.category === 'feat' && d.type ? <Meta label={t('wiki.type')} value={t(`featTypes.${d.type}`)} /> : null}
+      {e.category === 'feat' && d.racial ? <Meta label={t('wiki.type')} value={t('wiki.racialFeat')} /> : null}
+      {e.category === 'species' ? (
+        <>
+          <Meta label={t('sheet.size')} value={d.size ? String(d.size).split(' or ').map((s: string) => t(`sizes.${s}`)).join(` ${t('wiki.or')} `) : undefined} />
+          <Meta label={t('wiki.speed')} value={d.speed ? ft(d.speed) : undefined} />
+          <Meta label={t('wiki.darkvision')} value={d.darkvision ? ft(d.darkvision) : undefined} />
+        </>
+      ) : null}
+      {e.category === 'class' ? (
+        <>
+          <Meta label={t('wiki.hitDie')} value={d.hitDie ? `d${d.hitDie}` : undefined} />
+          <Meta label={t('wiki.saves')} value={(d.saves ?? []).map((a: string) => t(`abilities.${a}`)).join(', ')} />
+          <Meta label={t('sheet.spellAbility')} value={d.spellAbility ? t(`abilities.${d.spellAbility}`) : undefined} />
+          <Meta label={t('sheet.casterType')} value={d.casterType ? t(`casterTypes.${d.casterType}`) : undefined} />
+        </>
+      ) : null}
+    </Card>
+  );
+}
+
 function EquipmentMeta({ e }: { e: ContentEntry }) {
   const { t, loc } = useT();
   const d = e.data;
@@ -219,6 +250,7 @@ export function EntryDetail({ entry, onAdd }: { entry: ContentEntry; onAdd?: () 
       </Row>
       {entry.category === 'spell' && entry.source !== 'external' ? <SpellMeta e={entry} /> : null}
       {entry.category === 'spell' && entry.source === 'external' ? <ExternalSpellMeta e={entry} /> : null}
+      {entry.category !== 'spell' && entry.source === 'external' ? <ExternalMeta e={entry} /> : null}
       {entry.category === 'equipment' ? <EquipmentMeta e={entry} /> : null}
       {entry.category === 'magic-item' ? (
         <Card>
@@ -238,6 +270,7 @@ export function EntryDetail({ entry, onAdd }: { entry: ContentEntry; onAdd?: () 
         </Card>
       ) : null}
       {entry.category === 'class' ? <ClassTable e={entry} /> : null}
+      {entry.source === 'external' && d.era === '2014' ? <Txt muted>{t('wiki.legacyNote')}</Txt> : null}
       {entry.source === 'external' ? <Txt muted>{t('wiki.externalNote')}</Txt> : null}
       <Row wrap>
         {SITES.filter((s) => links[s.key]).map((s) => (

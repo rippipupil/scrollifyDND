@@ -527,7 +527,8 @@ export function buildExternal(dir: string, esNames: Record<string, string> = {})
       const slugEn = x.slugEn ?? slugify(x.name.en);
       const name: Loc = x.name.es ? x.name : esNames[x.name.en] ? { en: x.name.en, es: esNames[x.name.en] } : x.name;
       const base = { id: `ext-${x.category}-${slugEn}`, category: x.category, name, source: 'external' as const, data: x.data, book: x.book };
-      const external = x.category === 'spell' ? spellLinks(name.en, name.es, x.data?.era === '2014' ? '2014' : '2024') : entryLinks(base);
+      // Index files may carry links already checked against the sites (pages for 2014 options live on the 2014 wikis).
+      const external = x.links ?? (x.category === 'spell' ? spellLinks(name.en, name.es, x.data?.era === '2014' ? '2014' : '2024') : entryLinks(base));
       return { ...base, ...(external ? { external } : {}) };
     });
 }

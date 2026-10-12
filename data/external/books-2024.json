@@ -1,0 +1,3882 @@
+[
+ {
+  "category": "class",
+  "name": {
+   "en": "Artificer",
+   "es": "Artífice"
+  },
+  "book": "Eberron: Forge of the Artificer",
+  "slugEn": "artificer",
+  "data": {
+   "era": "2024",
+   "page": 7,
+   "hitDie": 8,
+   "saves": [
+    "con",
+    "int"
+   ],
+   "primaryAbility": [
+    "int"
+   ],
+   "casterType": "half",
+   "spellAbility": "int",
+   "proficiencies": [
+    "light-armor",
+    "medium-armor",
+    "shields",
+    "simple-weapons"
+   ],
+   "skillChoices": [
+    {
+     "choose": 2,
+     "options": [
+      "skill-arcana",
+      "skill-history",
+      "skill-investigation",
+      "skill-medicine",
+      "skill-nature",
+      "skill-perception",
+      "skill-sleight-of-hand"
+     ]
+    }
+   ],
+   "tools": [
+    "Thieves' Tools",
+    "Tinker's Tools",
+    "Artisan's Tools (1)"
+   ],
+   "subclasses": [
+    "ext-subclass-artificer-alchemist",
+    "ext-subclass-artificer-armorer",
+    "ext-subclass-artificer-reanimator",
+    "ext-subclass-artificer-artillerist",
+    "ext-subclass-artificer-battle-smith",
+    "ext-subclass-artificer-cartographer"
+   ]
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/artificer:main",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Art%C3%ADfice"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Alchemist",
+   "es": "Alquimista"
+  },
+  "book": "Eberron: Forge of the Artificer",
+  "slugEn": "artificer-alchemist",
+  "data": {
+   "classId": "artificer",
+   "era": "2024",
+   "page": 12,
+   "casterType": null
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/artificer:alchemist",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Alquimista"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Armorer",
+   "es": "Blindado"
+  },
+  "book": "Eberron: Forge of the Artificer",
+  "slugEn": "artificer-armorer",
+  "data": {
+   "classId": "artificer",
+   "era": "2024",
+   "page": 14,
+   "casterType": null
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/artificer:armorer",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Blindado"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Reanimator",
+   "es": "Reanimador"
+  },
+  "book": "Ravenloft: The Horrors Within",
+  "slugEn": "artificer-reanimator",
+  "data": {
+   "classId": "artificer",
+   "era": "2024",
+   "page": 15,
+   "casterType": null
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/artificer:reanimator",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Reanimador"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Artillerist",
+   "es": "Artillero"
+  },
+  "book": "Eberron: Forge of the Artificer",
+  "slugEn": "artificer-artillerist",
+  "data": {
+   "classId": "artificer",
+   "era": "2024",
+   "page": 16,
+   "casterType": null
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/artificer:artillerist",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Artillero"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Battle Smith",
+   "es": "Herrero de Batalla"
+  },
+  "book": "Eberron: Forge of the Artificer",
+  "slugEn": "artificer-battle-smith",
+  "data": {
+   "classId": "artificer",
+   "era": "2024",
+   "page": 18,
+   "casterType": null
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/artificer:battle-smith",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Herrero+de+Batalla"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Cartographer",
+   "es": "Cartógrafo"
+  },
+  "book": "Eberron: Forge of the Artificer",
+  "slugEn": "artificer-cartographer",
+  "data": {
+   "classId": "artificer",
+   "era": "2024",
+   "page": 20,
+   "casterType": null
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/artificer:cartographer",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Cart%C3%B3grafo"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "College of the Moon",
+   "es": "Colegio de la Luna"
+  },
+  "book": "Heroes of Faerûn",
+  "data": {
+   "classId": "bard",
+   "era": "2024",
+   "page": 16,
+   "casterType": null
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/bard:college-of-the-moon",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Colegio+de+la+Luna"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "College of Spirits",
+   "es": "Colegio de los Espíritus"
+  },
+  "book": "Ravenloft: The Horrors Within",
+  "data": {
+   "classId": "bard",
+   "era": "2024",
+   "page": 17,
+   "casterType": null
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/bard:college-of-spirits",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Colegio+de+los+Esp%C3%ADritus"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Arcana Domain",
+   "es": "Dominio Arcano"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "classId": "cleric",
+   "era": "2024",
+   "page": 8,
+   "casterType": null
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/cleric:arcana-domain",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Dominio+Arcano"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Knowledge Domain",
+   "es": "Dominio del Conocimiento"
+  },
+  "book": "Heroes of Faerûn",
+  "data": {
+   "classId": "cleric",
+   "era": "2024",
+   "page": 18,
+   "casterType": null
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/cleric:knowledge-domain",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Dominio+del+Conocimiento"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Grave Domain",
+   "es": "Dominio de la Tumba"
+  },
+  "book": "Ravenloft: The Horrors Within",
+  "data": {
+   "classId": "cleric",
+   "era": "2024",
+   "page": 19,
+   "casterType": null
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/cleric:grave-domain",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Dominio+de+la+Tumba"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Arcane Archer",
+   "es": "Arquero Arcano"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "classId": "fighter",
+   "era": "2024",
+   "page": 9,
+   "casterType": null
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/fighter:arcane-archer",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Arquero+Arcano"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Banneret",
+   "es": "Abanderado"
+  },
+  "book": "Heroes of Faerûn",
+  "data": {
+   "classId": "fighter",
+   "era": "2024",
+   "page": 19,
+   "casterType": null
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/fighter:banneret",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Abanderado"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Warrior of the Mystic Arts",
+   "es": "Guerrero de las Artes Místicas"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "classId": "monk",
+   "era": "2024",
+   "page": 11,
+   "casterType": null
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/monk:warrior-of-the-mystic-arts",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Guerrero+de+las+Artes+M%C3%ADsticas"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Oath of the Noble Genies",
+   "es": "Juramento de los Genios Nobles"
+  },
+  "book": "Heroes of Faerûn",
+  "data": {
+   "classId": "paladin",
+   "era": "2024",
+   "page": 20,
+   "casterType": null
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/paladin:oath-of-the-noble-genies",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Juramento+de+los+Genios+Nobles"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Hollow Warden",
+   "es": "Guardián de la Hondonada"
+  },
+  "book": "Ravenloft: The Horrors Within",
+  "data": {
+   "classId": "ranger",
+   "era": "2024",
+   "page": 20,
+   "casterType": null
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/ranger:hollow-warden",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Guardi%C3%A1n+de+la+Hondonada"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Winter Walker",
+   "es": "Caminante del Invierno"
+  },
+  "book": "Heroes of Faerûn",
+  "data": {
+   "classId": "ranger",
+   "era": "2024",
+   "page": 21,
+   "casterType": null
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/ranger:winter-walker",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Caminante+del+Invierno"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Phantom",
+   "es": "Fantasma"
+  },
+  "book": "Ravenloft: The Horrors Within",
+  "data": {
+   "classId": "rogue",
+   "era": "2024",
+   "page": 21,
+   "casterType": null
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/rogue:phantom",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Fantasma"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Scion of the Three",
+   "es": "Vástago de los Tres"
+  },
+  "book": "Heroes of Faerûn",
+  "data": {
+   "classId": "rogue",
+   "era": "2024",
+   "page": 23,
+   "casterType": null
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/rogue:scion-of-the-three",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+V%C3%A1stago+de+los+Tres"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Shadow Sorcery",
+   "es": "Hechicería Sombría"
+  },
+  "book": "Ravenloft: The Horrors Within",
+  "data": {
+   "classId": "sorcerer",
+   "era": "2024",
+   "page": 23,
+   "casterType": null
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/sorcerer:shadow-sorcery",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Hechicer%C3%ADa+Sombr%C3%ADa"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Spellfire Sorcery",
+   "es": "Hechicería del Fuego Mágico"
+  },
+  "book": "Heroes of Faerûn",
+  "data": {
+   "classId": "sorcerer",
+   "era": "2024",
+   "page": 24,
+   "casterType": null
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/sorcerer:spellfire-sorcery",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Hechicer%C3%ADa+del+Fuego+M%C3%A1gico"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Vestige Patron",
+   "es": "Patrón Vestigio"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "classId": "warlock",
+   "era": "2024",
+   "page": 13,
+   "casterType": null
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/warlock:vestige-patron",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Patr%C3%B3n+Vestigio"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Undead Patron",
+   "es": "Patrón No Muerto"
+  },
+  "book": "Ravenloft: The Horrors Within",
+  "data": {
+   "classId": "warlock",
+   "era": "2024",
+   "page": 24,
+   "casterType": null
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/warlock:undead-patron",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Patr%C3%B3n+No+Muerto"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Conjurer",
+   "es": "Conjurador"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "classId": "wizard",
+   "era": "2024",
+   "page": 15,
+   "casterType": null
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/wizard:conjurer",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Conjurador"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Enchanter",
+   "es": "Encantador"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "classId": "wizard",
+   "era": "2024",
+   "page": 16,
+   "casterType": null
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/wizard:enchanter",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Encantador"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Necromancer",
+   "es": "Nigromante"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "classId": "wizard",
+   "era": "2024",
+   "page": 17,
+   "casterType": null
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/wizard:necromancer",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Nigromante"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Transmuter",
+   "es": "Transmutador"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "classId": "wizard",
+   "era": "2024",
+   "page": 19,
+   "casterType": null
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/wizard:transmuter",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Transmutador"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Bladesinger",
+   "es": "Danzante del Filo"
+  },
+  "book": "Heroes of Faerûn",
+  "data": {
+   "classId": "wizard",
+   "era": "2024",
+   "page": 26,
+   "casterType": null
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/wizard:bladesinger",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Danzante+del+Filo"
+  }
+ },
+ {
+  "category": "species",
+  "name": {
+   "en": "Boggart",
+   "es": "Boggart"
+  },
+  "book": "Lorwyn: First Light",
+  "data": {
+   "era": "2024",
+   "darkvision": 0
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/species:boggart",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Boggart"
+  }
+ },
+ {
+  "category": "species",
+  "name": {
+   "en": "Changeling",
+   "es": "Cambiante (Changeling)"
+  },
+  "book": "Eberron: Forge of the Artificer",
+  "data": {
+   "era": "2024",
+   "page": 34,
+   "size": "Small or Medium",
+   "speed": 30,
+   "darkvision": 0
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/species:changeling",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Cambiante+%28Changeling%29"
+  }
+ },
+ {
+  "category": "species",
+  "name": {
+   "en": "Dhampir",
+   "es": "Dhampiro"
+  },
+  "book": "Ravenloft: The Horrors Within",
+  "data": {
+   "era": "2024",
+   "page": 28,
+   "size": "Small or Medium",
+   "speed": 35,
+   "darkvision": 60
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/species:dhampir",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Dhampiro"
+  }
+ },
+ {
+  "category": "species",
+  "name": {
+   "en": "Elf (Lorwyn)",
+   "es": "Elfo de Lorwyn"
+  },
+  "book": "Lorwyn: First Light",
+  "data": {
+   "era": "2024",
+   "darkvision": 0
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/species:elf",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Elfo+de+Lorwyn"
+  }
+ },
+ {
+  "category": "species",
+  "name": {
+   "en": "Faerie",
+   "es": "Feérico de Lorwyn"
+  },
+  "book": "Lorwyn: First Light",
+  "data": {
+   "era": "2024",
+   "darkvision": 0
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/species:faerie",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Fe%C3%A9rico+de+Lorwyn"
+  }
+ },
+ {
+  "category": "species",
+  "name": {
+   "en": "Flamekin",
+   "es": "Hijo de la llama (Flamekin)"
+  },
+  "book": "Lorwyn: First Light",
+  "data": {
+   "era": "2024",
+   "darkvision": 0
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/species:flamekin",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Hijo+de+la+llama+%28Flamekin%29"
+  }
+ },
+ {
+  "category": "species",
+  "name": {
+   "en": "Hexblood",
+   "es": "Sangre maldita (Hexblood)"
+  },
+  "book": "Ravenloft: The Horrors Within",
+  "data": {
+   "era": "2024",
+   "page": 29,
+   "size": "Small or Medium",
+   "speed": 30,
+   "darkvision": 60
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/species:hexblood",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Sangre+maldita+%28Hexblood%29"
+  }
+ },
+ {
+  "category": "species",
+  "name": {
+   "en": "Kalashtar",
+   "es": "Kalashtar"
+  },
+  "book": "Eberron: Forge of the Artificer",
+  "data": {
+   "era": "2024",
+   "page": 35,
+   "size": "Medium",
+   "speed": 30,
+   "darkvision": 0
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/species:kalashtar",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Kalashtar"
+  }
+ },
+ {
+  "category": "species",
+  "name": {
+   "en": "Khoravar",
+   "es": "Khoravar (semielfo de Eberron)"
+  },
+  "book": "Eberron: Forge of the Artificer",
+  "data": {
+   "era": "2024",
+   "page": 36,
+   "size": "Small or Medium",
+   "speed": 30,
+   "darkvision": 60
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/species:khoravar",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Khoravar+%28semielfo+de+Eberron%29"
+  }
+ },
+ {
+  "category": "species",
+  "name": {
+   "en": "Kithkin",
+   "es": "Kithkin"
+  },
+  "book": "Lorwyn: First Light",
+  "data": {
+   "era": "2024",
+   "darkvision": 120
+  },
+  "links": {
+   "wikidot": "https://www.google.com/search?q=site%3Awikidot.com+Kithkin",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Kithkin"
+  }
+ },
+ {
+  "category": "species",
+  "name": {
+   "en": "Lorwyn Changeling",
+   "es": "Cambiante de Lorwyn"
+  },
+  "book": "Lorwyn: First Light",
+  "data": {
+   "era": "2024",
+   "size": "Small or Medium",
+   "speed": 30,
+   "darkvision": 120
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/species:lorwyn-changeling",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Cambiante+de+Lorwyn"
+  }
+ },
+ {
+  "category": "species",
+  "name": {
+   "en": "Lupin",
+   "es": "Lupino"
+  },
+  "book": "Ravenloft: The Horrors Within",
+  "data": {
+   "era": "2024",
+   "page": 30,
+   "size": "Small or Medium",
+   "speed": 30,
+   "darkvision": 60
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/species:lupin",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Lupino"
+  }
+ },
+ {
+  "category": "species",
+  "name": {
+   "en": "Reborn",
+   "es": "Renacido"
+  },
+  "book": "Ravenloft: The Horrors Within",
+  "data": {
+   "era": "2024",
+   "page": 31,
+   "size": "Small or Medium",
+   "speed": 30,
+   "darkvision": 0
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/species:reborn",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Renacido"
+  }
+ },
+ {
+  "category": "species",
+  "name": {
+   "en": "Rimekin",
+   "es": "Hijo de la escarcha (Rimekin)"
+  },
+  "book": "Lorwyn: First Light",
+  "data": {
+   "era": "2024",
+   "size": "Small or Medium",
+   "speed": 30,
+   "darkvision": 60
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/species:rimekin",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Hijo+de+la+escarcha+%28Rimekin%29"
+  }
+ },
+ {
+  "category": "species",
+  "name": {
+   "en": "Shifter",
+   "es": "Cambiaformas (Shifter)"
+  },
+  "book": "Eberron: Forge of the Artificer",
+  "data": {
+   "era": "2024",
+   "page": 37,
+   "size": "Small or Medium",
+   "speed": 30,
+   "darkvision": 60
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/species:shifter",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Cambiaformas+%28Shifter%29"
+  }
+ },
+ {
+  "category": "species",
+  "name": {
+   "en": "Warforged",
+   "es": "Forjado (Warforged)"
+  },
+  "book": "Eberron: Forge of the Artificer",
+  "data": {
+   "era": "2024",
+   "page": 38,
+   "size": "Small or Medium",
+   "speed": 30,
+   "darkvision": 0
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/species:warforged",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Forjado+%28Warforged%29"
+  }
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "Aberrant Heir",
+   "es": "Heredero aberrante"
+  },
+  "book": "Eberron: Forge of the Artificer",
+  "data": {
+   "era": "2024",
+   "page": 25
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/background:aberrant-heir",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Heredero+aberrante"
+  }
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "Agent of the Ninth Quill",
+   "es": "Agente de la Novena Pluma"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "era": "2024",
+   "page": 21
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/background:agent-of-the-ninth-quill",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Agente+de+la+Novena+Pluma"
+  }
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "Archaeologist",
+   "es": "Arqueólogo"
+  },
+  "book": "Eberron: Forge of the Artificer",
+  "data": {
+   "era": "2024",
+   "page": 26
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/background:archaeologist",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Arque%C3%B3logo"
+  }
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "Bejeweled Conclave Spy",
+   "es": "Espía del Cónclave Enjoyado"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "era": "2024",
+   "page": 21
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/background:bejeweled-conclave-spy",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Esp%C3%ADa+del+C%C3%B3nclave+Enjoyado"
+  }
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "Carouser",
+   "es": "Juerguista"
+  },
+  "book": "Astarion's Book of Hungers",
+  "data": {
+   "era": "2024",
+   "page": 6
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/background:carouser",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Juerguista"
+  }
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "Chondathan Freebooter",
+   "es": "Filibustero chondathano"
+  },
+  "book": "Heroes of Faerûn",
+  "data": {
+   "era": "2024",
+   "page": 28
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/background:chondathan-freebooter",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Filibustero+chondathano"
+  }
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "Cosmic Dawn Experiment",
+   "es": "Experimento del Alba Cósmica"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "era": "2024",
+   "page": 22
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/background:cosmic-dawn-experiment",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Experimento+del+Alba+C%C3%B3smica"
+  }
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "Covenant of the Grave Recruit",
+   "es": "Recluta del Pacto de la Tumba"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "era": "2024",
+   "page": 22
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/background:covenant-of-the-grave-recruit",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Recluta+del+Pacto+de+la+Tumba"
+  }
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "Crucible Storm Chaser",
+   "es": "Cazatormentas del Crisol"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "era": "2024",
+   "page": 23
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/background:crucible-storm-chaser",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Cazatormentas+del+Crisol"
+  }
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "Dead Magic Dweller",
+   "es": "Habitante de la magia muerta"
+  },
+  "book": "Heroes of Faerûn",
+  "data": {
+   "era": "2024",
+   "page": 28
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/background:dead-magic-dweller",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Habitante+de+la+magia+muerta"
+  }
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "Dragon Cultist",
+   "es": "Cultista del Dragón"
+  },
+  "book": "Heroes of Faerûn",
+  "data": {
+   "era": "2024",
+   "page": 29
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/background:dragon-cultist",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Cultista+del+Drag%C3%B3n"
+  }
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "Emerald Enclave Caretaker",
+   "es": "Cuidador del Enclave Esmeralda"
+  },
+  "book": "Heroes of Faerûn",
+  "data": {
+   "era": "2024",
+   "page": 29
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/background:emerald-enclave-caretaker",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Cuidador+del+Enclave+Esmeralda"
+  }
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "Familiar Trainer",
+   "es": "Adiestrador de familiares"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "era": "2024",
+   "page": 23
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/background:familiar-trainer",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Adiestrador+de+familiares"
+  }
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "Flaming Fist Mercenary",
+   "es": "Mercenario del Puño Llameante"
+  },
+  "book": "Heroes of Faerûn",
+  "data": {
+   "era": "2024",
+   "page": 30
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/background:flaming-fist-mercenary",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Mercenario+del+Pu%C3%B1o+Llameante"
+  }
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "Genie Touched",
+   "es": "Tocado por un genio"
+  },
+  "book": "Heroes of Faerûn",
+  "data": {
+   "era": "2024",
+   "page": 30
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/background:genie-touched",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Tocado+por+un+genio"
+  }
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "Harper",
+   "es": "Arpista"
+  },
+  "book": "Heroes of Faerûn",
+  "data": {
+   "era": "2024",
+   "page": 31
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/background:harper",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Arpista"
+  }
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "Haunted One",
+   "es": "Atormentado"
+  },
+  "book": "Ravenloft: The Horrors Within",
+  "data": {
+   "era": "2024",
+   "page": 26
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/background:haunted-one",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Atormentado"
+  }
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "Horizon Weaver Initiate",
+   "es": "Iniciado de los Tejedores del Horizonte"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "era": "2024",
+   "page": 24
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/background:horizon-weaver-initiate",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Iniciado+de+los+Tejedores+del+Horizonte"
+  }
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "House Agent",
+   "es": "Agente de una Casa"
+  },
+  "book": "Eberron: Forge of the Artificer",
+  "data": {
+   "era": "2024",
+   "page": 26
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/background:house-agent",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Agente+de+una+Casa"
+  }
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "House Cannith Heir",
+   "es": "Heredero de la Casa Cannith"
+  },
+  "book": "Eberron: Forge of the Artificer",
+  "data": {
+   "era": "2024",
+   "page": 27
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/background:house-cannith-heir",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Heredero+de+la+Casa+Cannith"
+  }
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "House Deneith Heir",
+   "es": "Heredero de la Casa Deneith"
+  },
+  "book": "Eberron: Forge of the Artificer",
+  "data": {
+   "era": "2024",
+   "page": 27
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/background:house-deneith-heir",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Heredero+de+la+Casa+Deneith"
+  }
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "House Ghallanda Heir",
+   "es": "Heredero de la Casa Ghallanda"
+  },
+  "book": "Eberron: Forge of the Artificer",
+  "data": {
+   "era": "2024",
+   "page": 28
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/background:house-ghallanda-heir",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Heredero+de+la+Casa+Ghallanda"
+  }
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "House Jorasco Heir",
+   "es": "Heredero de la Casa Jorasco"
+  },
+  "book": "Eberron: Forge of the Artificer",
+  "data": {
+   "era": "2024",
+   "page": 28
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/background:house-jorasco-heir",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Heredero+de+la+Casa+Jorasco"
+  }
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "House Kundarak Heir",
+   "es": "Heredero de la Casa Kundarak"
+  },
+  "book": "Eberron: Forge of the Artificer",
+  "data": {
+   "era": "2024",
+   "page": 29
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/background:house-kundarak-heir",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Heredero+de+la+Casa+Kundarak"
+  }
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "House Lyrandar Heir",
+   "es": "Heredero de la Casa Lyrandar"
+  },
+  "book": "Eberron: Forge of the Artificer",
+  "data": {
+   "era": "2024",
+   "page": 29
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/background:house-lyrandar-heir",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Heredero+de+la+Casa+Lyrandar"
+  }
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "House Medani Heir",
+   "es": "Heredero de la Casa Medani"
+  },
+  "book": "Eberron: Forge of the Artificer",
+  "data": {
+   "era": "2024",
+   "page": 30
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/background:house-medani-heir",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Heredero+de+la+Casa+Medani"
+  }
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "House Orien Heir",
+   "es": "Heredero de la Casa Orien"
+  },
+  "book": "Eberron: Forge of the Artificer",
+  "data": {
+   "era": "2024",
+   "page": 30
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/background:house-orien-heir",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Heredero+de+la+Casa+Orien"
+  }
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "House Phiarlan Heir",
+   "es": "Heredero de la Casa Phiarlan"
+  },
+  "book": "Eberron: Forge of the Artificer",
+  "data": {
+   "era": "2024",
+   "page": 31
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/background:house-phiarlan-heir",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Heredero+de+la+Casa+Phiarlan"
+  }
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "House Sivis Heir",
+   "es": "Heredero de la Casa Sivis"
+  },
+  "book": "Eberron: Forge of the Artificer",
+  "data": {
+   "era": "2024",
+   "page": 31
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/background:house-sivis-heir",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Heredero+de+la+Casa+Sivis"
+  }
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "House Tharashk Heir",
+   "es": "Heredero de la Casa Tharashk"
+  },
+  "book": "Eberron: Forge of the Artificer",
+  "data": {
+   "era": "2024",
+   "page": 32
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/background:house-tharashk-heir",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Heredero+de+la+Casa+Tharashk"
+  }
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "House Thuranni Heir",
+   "es": "Heredero de la Casa Thuranni"
+  },
+  "book": "Eberron: Forge of the Artificer",
+  "data": {
+   "era": "2024",
+   "page": 32
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/background:house-thuranni-heir",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Heredero+de+la+Casa+Thuranni"
+  }
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "House Vadalis Heir",
+   "es": "Heredero de la Casa Vadalis"
+  },
+  "book": "Eberron: Forge of the Artificer",
+  "data": {
+   "era": "2024",
+   "page": 33
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/background:house-vadalis-heir",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Heredero+de+la+Casa+Vadalis"
+  }
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "Ice Fisher",
+   "es": "Pescador del hielo"
+  },
+  "book": "Heroes of Faerûn",
+  "data": {
+   "era": "2024",
+   "page": 31
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/background:ice-fisher",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Pescador+del+hielo"
+  }
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "Inquisitive",
+   "es": "Inquisitivo"
+  },
+  "book": "Eberron: Forge of the Artificer",
+  "data": {
+   "era": "2024",
+   "page": 33
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/background:inquisitive",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Inquisitivo"
+  }
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "Investigator",
+   "es": "Investigador"
+  },
+  "book": "Ravenloft: The Horrors Within",
+  "data": {
+   "era": "2024",
+   "page": 26
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/background:investigator",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Investigador"
+  }
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "Knight of the Gauntlet",
+   "es": "Caballero del Guantelete"
+  },
+  "book": "Heroes of Faerûn",
+  "data": {
+   "era": "2024",
+   "page": 32
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/background:knight-of-the-gauntlet",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Caballero+del+Guantelete"
+  }
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "Lords' Alliance Vassal",
+   "es": "Vasallo de la Alianza de los Señores"
+  },
+  "book": "Heroes of Faerûn",
+  "data": {
+   "era": "2024",
+   "page": 32
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/background:lords-alliance-vassal",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Vasallo+de+la+Alianza+de+los+Se%C3%B1ores"
+  }
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "Lorwyn Expert",
+   "es": "Experto de Lorwyn"
+  },
+  "book": "Lorwyn: First Light",
+  "data": {
+   "era": "2024",
+   "page": null
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/background:lorwyn-expert",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Experto+de+Lorwyn"
+  }
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "Mist Wanderer",
+   "es": "Errante de la bruma"
+  },
+  "book": "Ravenloft: The Horrors Within",
+  "data": {
+   "era": "2024",
+   "page": 27
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/background:mist-wanderer",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Errante+de+la+bruma"
+  }
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "Moonwell Pilgrim",
+   "es": "Peregrino del Pozo Lunar"
+  },
+  "book": "Heroes of Faerûn",
+  "data": {
+   "era": "2024",
+   "page": 33
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/background:moonwell-pilgrim",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Peregrino+del+Pozo+Lunar"
+  }
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "Mulhorandi Tomb Raider",
+   "es": "Saqueador de tumbas mulhorandino"
+  },
+  "book": "Heroes of Faerûn",
+  "data": {
+   "era": "2024",
+   "page": 33
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/background:mulhorandi-tomb-raider",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Saqueador+de+tumbas+mulhorandino"
+  }
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "Mythalkeeper",
+   "es": "Guardián del mythal"
+  },
+  "book": "Heroes of Faerûn",
+  "data": {
+   "era": "2024",
+   "page": 34
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/background:mythalkeeper",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Guardi%C3%A1n+del+mythal"
+  }
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "Phantasmic Circus Trouper",
+   "es": "Artista del Circo Fantasmal"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "era": "2024",
+   "page": 24
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/background:phantasmic-circus-trouper",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Artista+del+Circo+Fantasmal"
+  }
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "Purple Dragon Squire",
+   "es": "Escudero del Dragón Púrpura"
+  },
+  "book": "Heroes of Faerûn",
+  "data": {
+   "era": "2024",
+   "page": 34
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/background:purple-dragon-squire",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Escudero+del+Drag%C3%B3n+P%C3%BArpura"
+  }
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "Rashemi Wanderer",
+   "es": "Errante rashemí"
+  },
+  "book": "Heroes of Faerûn",
+  "data": {
+   "era": "2024",
+   "page": 35
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/background:rashemi-wanderer",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Errante+rashem%C3%AD"
+  }
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "Seer Apprentice",
+   "es": "Aprendiz de vidente"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "era": "2024",
+   "page": 25
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/background:seer-apprentice",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Aprendiz+de+vidente"
+  }
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "Shadowmasters Exile",
+   "es": "Exiliado de los Maestros de las Sombras"
+  },
+  "book": "Heroes of Faerûn",
+  "data": {
+   "era": "2024",
+   "page": 35
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/background:shadowmasters-exile",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Exiliado+de+los+Maestros+de+las+Sombras"
+  }
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "Shadowmoor Expert",
+   "es": "Experto de Shadowmoor"
+  },
+  "book": "Lorwyn: First Light",
+  "data": {
+   "era": "2024",
+   "page": null
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/background:shadowmoor-expert",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Experto+de+Shadowmoor"
+  }
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "Spellfire Initiate",
+   "es": "Iniciado del fuego mágico"
+  },
+  "book": "Heroes of Faerûn",
+  "data": {
+   "era": "2024",
+   "page": 36
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/background:spellfire-initiate",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Iniciado+del+fuego+m%C3%A1gico"
+  }
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "Spirit Medium",
+   "es": "Médium"
+  },
+  "book": "Ravenloft: The Horrors Within",
+  "data": {
+   "era": "2024",
+   "page": 27
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/background:spirit-medium",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+M%C3%A9dium"
+  }
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "Vampire Devotee",
+   "es": "Devoto vampírico"
+  },
+  "book": "Astarion's Book of Hungers",
+  "data": {
+   "era": "2024",
+   "page": 6
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/background:vampire-devotee",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Devoto+vamp%C3%ADrico"
+  }
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "Vampire Survivor",
+   "es": "Superviviente de vampiros"
+  },
+  "book": "Astarion's Book of Hungers",
+  "data": {
+   "era": "2024",
+   "page": 7
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/background:vampire-survivor",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Superviviente+de+vampiros"
+  }
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "Ward of the Sheltering Hands",
+   "es": "Pupilo de las Manos Protectoras"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "era": "2024",
+   "page": 25
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/background:ward-of-the-sheltering-hands",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Pupilo+de+las+Manos+Protectoras"
+  }
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "Zhentarim Mercenary",
+   "es": "Mercenario zhentarim"
+  },
+  "book": "Heroes of Faerûn",
+  "data": {
+   "era": "2024",
+   "page": 36
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/background:zhentarim-mercenary",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Mercenario+zhentarim"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Aberrant Anatomy",
+   "es": "Anatomía aberrante"
+  },
+  "book": "Ravenloft: The Horrors Within",
+  "data": {
+   "era": "2024",
+   "page": 32,
+   "type": "dark-gift"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:aberrant-anatomy",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Anatom%C3%ADa+aberrante"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Aberrant Dragonmark",
+   "es": "Marca de dragón aberrante"
+  },
+  "book": "Eberron: Forge of the Artificer",
+  "data": {
+   "era": "2024",
+   "page": 39,
+   "type": "dragonmark"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:aberrant-dragonmark",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Marca+de+drag%C3%B3n+aberrante"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Abjuration Adept",
+   "es": "Adepto de la abjuración"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "era": "2024",
+   "page": 28,
+   "type": "general"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:abjuration-adept",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Adepto+de+la+abjuraci%C3%B3n"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Arcane Artist",
+   "es": "Artista arcano"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "era": "2024",
+   "page": 26,
+   "type": "origin"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:arcane-artist",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Artista+arcano"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Arcane Eloquence",
+   "es": "Elocuencia arcana"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "era": "2024",
+   "page": 26,
+   "type": "origin"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:arcane-eloquence",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Elocuencia+arcana"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Arcane Infiltrator",
+   "es": "Infiltrado arcano"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "era": "2024",
+   "page": 26,
+   "type": "origin"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:arcane-infiltrator",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Infiltrado+arcano"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Arcane Omens",
+   "es": "Presagios arcanos"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "era": "2024",
+   "page": 27,
+   "type": "origin"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:arcane-omens",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Presagios+arcanos"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Arcane Overload",
+   "es": "Sobrecarga arcana"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "era": "2024",
+   "page": 27,
+   "type": "origin"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:arcane-overload",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Sobrecarga+arcana"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Arcane Safeguard",
+   "es": "Salvaguarda arcana"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "era": "2024",
+   "page": 27,
+   "type": "origin"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:arcane-safeguard",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Salvaguarda+arcana"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Arcane Undertaker",
+   "es": "Enterrador arcano"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "era": "2024",
+   "page": 27,
+   "type": "origin"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:arcane-undertaker",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Enterrador+arcano"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Arcane Warrior",
+   "es": "Guerrero arcano"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "era": "2024",
+   "page": 33,
+   "type": "fighting-style"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:arcane-warrior",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Guerrero+arcano"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Blessed Warrior",
+   "es": "Guerrero bendito"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "era": "2024",
+   "page": 110,
+   "type": "fighting-style"
+  },
+  "links": {
+   "wikidot": "https://www.google.com/search?q=site%3Awikidot.com+Blessed+Warrior",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Guerrero+bendito"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Bloodlust",
+   "es": "Sed de sangre"
+  },
+  "book": "Astarion's Book of Hungers",
+  "data": {
+   "era": "2024",
+   "page": 9,
+   "type": "general"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:bloodlust",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Sed+de+sangre"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Bomber",
+   "es": "Bombardero"
+  },
+  "book": "Astarion's Book of Hungers",
+  "data": {
+   "era": "2024",
+   "page": 9,
+   "type": "general"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:bomber",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Bombardero"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Boon of Blazing Dawn",
+   "es": "Don del alba ardiente"
+  },
+  "book": "Astarion's Book of Hungers",
+  "data": {
+   "era": "2024",
+   "page": 11,
+   "type": "epic-boon"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:boon-of-blazing-dawn",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Don+del+alba+ardiente"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Boon of Bloodshed",
+   "es": "Don del derramamiento de sangre"
+  },
+  "book": "Heroes of Faerûn",
+  "data": {
+   "era": "2024",
+   "page": 42,
+   "type": "epic-boon"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:boon-of-bloodshed",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Don+del+derramamiento+de+sangre"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Boon of Bountiful Health",
+   "es": "Don de la salud abundante"
+  },
+  "book": "Heroes of Faerûn",
+  "data": {
+   "era": "2024",
+   "page": 42,
+   "type": "epic-boon"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:boon-of-bountiful-health",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Don+de+la+salud+abundante"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Boon of Communication",
+   "es": "Don de la comunicación"
+  },
+  "book": "Heroes of Faerûn",
+  "data": {
+   "era": "2024",
+   "page": 42,
+   "type": "epic-boon"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:boon-of-communication",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Don+de+la+comunicaci%C3%B3n"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Boon of Desperate Resilience",
+   "es": "Don de la resistencia desesperada"
+  },
+  "book": "Heroes of Faerûn",
+  "data": {
+   "era": "2024",
+   "page": 42,
+   "type": "epic-boon"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:boon-of-desperate-resilience",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Don+de+la+resistencia+desesperada"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Boon of Energy Resistance",
+   "es": "Don de resistencia a la energía"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "era": "2024",
+   "page": 210,
+   "type": "epic-boon"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:boon-of-energy-resistance",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Don+de+resistencia+a+la+energ%C3%ADa"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Boon of Erupting Spellpower",
+   "es": "Don del poder mágico desbordado"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "era": "2024",
+   "page": 33,
+   "type": "epic-boon"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:boon-of-erupting-spellpower",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Don+del+poder+m%C3%A1gico+desbordado"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Boon of Exquisite Radiance",
+   "es": "Don del resplandor exquisito"
+  },
+  "book": "Heroes of Faerûn",
+  "data": {
+   "era": "2024",
+   "page": 42,
+   "type": "epic-boon"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:boon-of-exquisite-radiance",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Don+del+resplandor+exquisito"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Boon of Fluid Forms",
+   "es": "Don de las formas fluidas"
+  },
+  "book": "Heroes of Faerûn",
+  "data": {
+   "era": "2024",
+   "page": 42,
+   "type": "epic-boon"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:boon-of-fluid-forms",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Don+de+las+formas+fluidas"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Boon of Fortitude",
+   "es": "Don de fortaleza"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "era": "2024",
+   "page": 210,
+   "type": "epic-boon"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:boon-of-fortitude",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Don+de+fortaleza"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Boon of Fortune's Favor",
+   "es": "Don del favor de la fortuna"
+  },
+  "book": "Heroes of Faerûn",
+  "data": {
+   "era": "2024",
+   "page": 43,
+   "type": "epic-boon"
+  },
+  "links": {
+   "wikidot": "https://www.google.com/search?q=site%3Awikidot.com+Boon+of+Fortune%27s+Favor",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Don+del+favor+de+la+fortuna"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Boon of Looming Shadows",
+   "es": "Don de las sombras acechantes"
+  },
+  "book": "Astarion's Book of Hungers",
+  "data": {
+   "era": "2024",
+   "page": 11,
+   "type": "epic-boon"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:boon-of-looming-shadows",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Don+de+las+sombras+acechantes"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Boon of Magic School Mastery",
+   "es": "Don de maestría en una escuela de magia"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "era": "2024",
+   "page": 33,
+   "type": "epic-boon"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:boon-of-magic-school-mastery",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Don+de+maestr%C3%ADa+en+una+escuela+de+magia"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Boon of Misty Escape",
+   "es": "Don de la huida brumosa"
+  },
+  "book": "Astarion's Book of Hungers",
+  "data": {
+   "era": "2024",
+   "page": 11,
+   "type": "epic-boon"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:boon-of-misty-escape",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Don+de+la+huida+brumosa"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Boon of Poison Mastery",
+   "es": "Don de maestría en venenos"
+  },
+  "book": "Heroes of Faerûn",
+  "data": {
+   "era": "2024",
+   "page": 43,
+   "type": "epic-boon"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:boon-of-poison-mastery",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Don+de+maestr%C3%ADa+en+venenos"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Boon of Recovery",
+   "es": "Don de recuperación"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "era": "2024",
+   "page": 211,
+   "type": "epic-boon"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:boon-of-recovery",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Don+de+recuperaci%C3%B3n"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Boon of Revelry",
+   "es": "Don de la juerga"
+  },
+  "book": "Heroes of Faerûn",
+  "data": {
+   "era": "2024",
+   "page": 43,
+   "type": "epic-boon"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:boon-of-revelry",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Don+de+la+juerga"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Boon of Siberys",
+   "es": "Don de Siberys"
+  },
+  "book": "Eberron: Forge of the Artificer",
+  "data": {
+   "era": "2024",
+   "page": 45,
+   "type": "epic-boon"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:boon-of-siberys",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Don+de+Siberys"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Boon of Skill",
+   "es": "Don de habilidad"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "era": "2024",
+   "page": 211,
+   "type": "epic-boon"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:boon-of-skill",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Don+de+habilidad"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Boon of Speed",
+   "es": "Don de velocidad"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "era": "2024",
+   "page": 211,
+   "type": "epic-boon"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:boon-of-speed",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Don+de+velocidad"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Boon of Terror",
+   "es": "Don del terror"
+  },
+  "book": "Heroes of Faerûn",
+  "data": {
+   "era": "2024",
+   "page": 43,
+   "type": "epic-boon"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:boon-of-terror",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Don+del+terror"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Boon of the Bright Sun",
+   "es": "Don del sol brillante"
+  },
+  "book": "Heroes of Faerûn",
+  "data": {
+   "era": "2024",
+   "page": 43,
+   "type": "epic-boon"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:boon-of-the-bright-sun",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Don+del+sol+brillante"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Boon of the Furious Storm",
+   "es": "Don de la tormenta furiosa"
+  },
+  "book": "Heroes of Faerûn",
+  "data": {
+   "era": "2024",
+   "page": 43,
+   "type": "epic-boon"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:boon-of-the-furious-storm",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Don+de+la+tormenta+furiosa"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Boon of the Iron Mind",
+   "es": "Don de la mente de hierro"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "era": "2024",
+   "page": 33,
+   "type": "epic-boon"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:boon-of-the-iron-mind",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Don+de+la+mente+de+hierro"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Boon of the Soul Drinker",
+   "es": "Don del bebedor de almas"
+  },
+  "book": "Heroes of Faerûn",
+  "data": {
+   "era": "2024",
+   "page": 43,
+   "type": "epic-boon"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:boon-of-the-soul-drinker",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Don+del+bebedor+de+almas"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Child of the Sun",
+   "es": "Hijo del sol"
+  },
+  "book": "Lorwyn: First Light",
+  "data": {
+   "era": "2024",
+   "page": null,
+   "type": "origin"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:child-of-the-sun",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Hijo+del+sol"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Cloying Mists",
+   "es": "Brumas empalagosas"
+  },
+  "book": "Astarion's Book of Hungers",
+  "data": {
+   "era": "2024",
+   "page": 9,
+   "type": "general"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:cloying-mists",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Brumas+empalagosas"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Cold Caster",
+   "es": "Lanzador gélido"
+  },
+  "book": "Heroes of Faerûn",
+  "data": {
+   "era": "2024",
+   "page": 39,
+   "type": "general"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:cold-caster",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Lanzador+g%C3%A9lido"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Conjuration Adept",
+   "es": "Adepto de la conjuración"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "era": "2024",
+   "page": 28,
+   "type": "general"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:conjuration-adept",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Adepto+de+la+conjuraci%C3%B3n"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Cult of the Dragon Initiate",
+   "es": "Iniciado del Culto del Dragón"
+  },
+  "book": "Heroes of Faerûn",
+  "data": {
+   "era": "2024",
+   "page": 37,
+   "type": "origin"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:cult-of-the-dragon-initiate",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Iniciado+del+Culto+del+Drag%C3%B3n"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Delicious Pain",
+   "es": "Dolor delicioso"
+  },
+  "book": "Astarion's Book of Hungers",
+  "data": {
+   "era": "2024",
+   "page": 9,
+   "type": "general"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:delicious-pain",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Dolor+delicioso"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Divination Adept",
+   "es": "Adepto de la adivinación"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "era": "2024",
+   "page": 29,
+   "type": "general"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:divination-adept",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Adepto+de+la+adivinaci%C3%B3n"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Dragonscarred",
+   "es": "Marcado por dragones"
+  },
+  "book": "Heroes of Faerûn",
+  "data": {
+   "era": "2024",
+   "page": 39,
+   "type": "general"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:dragonscarred",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Marcado+por+dragones"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Druidic Warrior",
+   "es": "Guerrero druídico"
+  },
+  "book": "PHB 2024",
+  "data": {
+   "era": "2024",
+   "page": 120,
+   "type": "fighting-style"
+  },
+  "links": {
+   "wikidot": "https://www.google.com/search?q=site%3Awikidot.com+Druidic+Warrior",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Guerrero+dru%C3%ADdico"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Echoing Soul",
+   "es": "Alma resonante"
+  },
+  "book": "Ravenloft: The Horrors Within",
+  "data": {
+   "era": "2024",
+   "page": 33,
+   "type": "dark-gift"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:echoing-soul",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Alma+resonante"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Elemental Familiar",
+   "es": "Familiar elemental"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "era": "2024",
+   "page": 29,
+   "type": "general"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:elemental-familiar",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Familiar+elemental"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Emerald Enclave Fledgling",
+   "es": "Novato del Enclave Esmeralda"
+  },
+  "book": "Heroes of Faerûn",
+  "data": {
+   "era": "2024",
+   "page": 37,
+   "type": "origin"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:emerald-enclave-fledgling",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Novato+del+Enclave+Esmeralda"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Enchantment Adept",
+   "es": "Adepto del encantamiento"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "era": "2024",
+   "page": 30,
+   "type": "general"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:enchantment-adept",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Adepto+del+encantamiento"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Enclave Magic",
+   "es": "Magia del Enclave"
+  },
+  "book": "Heroes of Faerûn",
+  "data": {
+   "era": "2024",
+   "page": 39,
+   "type": "general"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:enclave-magic",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Magia+del+Enclave"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Evocation Adept",
+   "es": "Adepto de la evocación"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "era": "2024",
+   "page": 30,
+   "type": "general"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:evocation-adept",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Adepto+de+la+evocaci%C3%B3n"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Fairy Trickster",
+   "es": "Embaucador feérico"
+  },
+  "book": "Heroes of Faerûn",
+  "data": {
+   "era": "2024",
+   "page": 39,
+   "type": "general"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:fairy-trickster",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Embaucador+fe%C3%A9rico"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Familiar Friend",
+   "es": "Amigo de los familiares"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "era": "2024",
+   "page": 27,
+   "type": "origin"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:familiar-friend",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Amigo+de+los+familiares"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Gathered Whispers",
+   "es": "Susurros reunidos"
+  },
+  "book": "Ravenloft: The Horrors Within",
+  "data": {
+   "era": "2024",
+   "page": 33,
+   "type": "dark-gift"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:gathered-whispers",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Susurros+reunidos"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Genie Magic",
+   "es": "Magia de genio"
+  },
+  "book": "Heroes of Faerûn",
+  "data": {
+   "era": "2024",
+   "page": 39,
+   "type": "general"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:genie-magic",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Magia+de+genio"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Greater Aberrant Mark",
+   "es": "Marca aberrante mayor"
+  },
+  "book": "Eberron: Forge of the Artificer",
+  "data": {
+   "era": "2024",
+   "page": 43,
+   "type": "general"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:greater-aberrant-mark",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Marca+aberrante+mayor"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Greater Mark of Detection",
+   "es": "Marca mayor de detección"
+  },
+  "book": "Eberron: Forge of the Artificer",
+  "data": {
+   "era": "2024",
+   "page": 43,
+   "type": "general"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:greater-mark-of-detection",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Marca+mayor+de+detecci%C3%B3n"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Greater Mark of Finding",
+   "es": "Marca mayor de búsqueda"
+  },
+  "book": "Eberron: Forge of the Artificer",
+  "data": {
+   "era": "2024",
+   "page": 43,
+   "type": "general"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:greater-mark-of-finding",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Marca+mayor+de+b%C3%BAsqueda"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Greater Mark of Handling",
+   "es": "Marca mayor de doma"
+  },
+  "book": "Eberron: Forge of the Artificer",
+  "data": {
+   "era": "2024",
+   "page": 43,
+   "type": "general"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:greater-mark-of-handling",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Marca+mayor+de+doma"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Greater Mark of Healing",
+   "es": "Marca mayor de curación"
+  },
+  "book": "Eberron: Forge of the Artificer",
+  "data": {
+   "era": "2024",
+   "page": 44,
+   "type": "general"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:greater-mark-of-healing",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Marca+mayor+de+curaci%C3%B3n"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Greater Mark of Hospitality",
+   "es": "Marca mayor de hospitalidad"
+  },
+  "book": "Eberron: Forge of the Artificer",
+  "data": {
+   "era": "2024",
+   "page": 44,
+   "type": "general"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:greater-mark-of-hospitality",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Marca+mayor+de+hospitalidad"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Greater Mark of Making",
+   "es": "Marca mayor de creación"
+  },
+  "book": "Eberron: Forge of the Artificer",
+  "data": {
+   "era": "2024",
+   "page": 44,
+   "type": "general"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:greater-mark-of-making",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Marca+mayor+de+creaci%C3%B3n"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Greater Mark of Passage",
+   "es": "Marca mayor de paso"
+  },
+  "book": "Eberron: Forge of the Artificer",
+  "data": {
+   "era": "2024",
+   "page": 44,
+   "type": "general"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:greater-mark-of-passage",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Marca+mayor+de+paso"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Greater Mark of Scribing",
+   "es": "Marca mayor de escritura"
+  },
+  "book": "Eberron: Forge of the Artificer",
+  "data": {
+   "era": "2024",
+   "page": 44,
+   "type": "general"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:greater-mark-of-scribing",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Marca+mayor+de+escritura"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Greater Mark of Sentinel",
+   "es": "Marca mayor del centinela"
+  },
+  "book": "Eberron: Forge of the Artificer",
+  "data": {
+   "era": "2024",
+   "page": 44,
+   "type": "general"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:greater-mark-of-sentinel",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Marca+mayor+del+centinela"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Greater Mark of Shadow",
+   "es": "Marca mayor de sombra"
+  },
+  "book": "Eberron: Forge of the Artificer",
+  "data": {
+   "era": "2024",
+   "page": 45,
+   "type": "general"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:greater-mark-of-shadow",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Marca+mayor+de+sombra"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Greater Mark of Storm",
+   "es": "Marca mayor de tormenta"
+  },
+  "book": "Eberron: Forge of the Artificer",
+  "data": {
+   "era": "2024",
+   "page": 45,
+   "type": "general"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:greater-mark-of-storm",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Marca+mayor+de+tormenta"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Greater Mark of Warding",
+   "es": "Marca mayor de protección"
+  },
+  "book": "Eberron: Forge of the Artificer",
+  "data": {
+   "era": "2024",
+   "page": 45,
+   "type": "general"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:greater-mark-of-warding",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Marca+mayor+de+protecci%C3%B3n"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Harper Agent",
+   "es": "Agente arpista"
+  },
+  "book": "Heroes of Faerûn",
+  "data": {
+   "era": "2024",
+   "page": 37,
+   "type": "origin"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:harper-agent",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Agente+arpista"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Harper Teamwork",
+   "es": "Trabajo en equipo arpista"
+  },
+  "book": "Heroes of Faerûn",
+  "data": {
+   "era": "2024",
+   "page": 39,
+   "type": "general"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:harper-teamwork",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Trabajo+en+equipo+arpista"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Illusion Adept",
+   "es": "Adepto de la ilusión"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "era": "2024",
+   "page": 30,
+   "type": "general"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:illusion-adept",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Adepto+de+la+ilusi%C3%B3n"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Light Bringer",
+   "es": "Portador de luz"
+  },
+  "book": "Astarion's Book of Hungers",
+  "data": {
+   "era": "2024",
+   "page": 10,
+   "type": "general"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:light-bringer",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Portador+de+luz"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Living Shadow",
+   "es": "Sombra viviente"
+  },
+  "book": "Ravenloft: The Horrors Within",
+  "data": {
+   "era": "2024",
+   "page": 33,
+   "type": "dark-gift"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:living-shadow",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Sombra+viviente"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Lordly Resolve",
+   "es": "Resolución señorial"
+  },
+  "book": "Heroes of Faerûn",
+  "data": {
+   "era": "2024",
+   "page": 40,
+   "type": "general"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:lordly-resolve",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Resoluci%C3%B3n+se%C3%B1orial"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Lords' Alliance Agent",
+   "es": "Agente de la Alianza de los Señores"
+  },
+  "book": "Heroes of Faerûn",
+  "data": {
+   "era": "2024",
+   "page": 38,
+   "type": "origin"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:lords-alliance-agent",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Agente+de+la+Alianza+de+los+Se%C3%B1ores"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Love Bites",
+   "es": "Mordiscos de amor"
+  },
+  "book": "Astarion's Book of Hungers",
+  "data": {
+   "era": "2024",
+   "page": 10,
+   "type": "general"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:love-bites",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Mordiscos+de+amor"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Magic Connoisseur",
+   "es": "Entendido en magia"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "era": "2024",
+   "page": 31,
+   "type": "general"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:magic-connoisseur",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Entendido+en+magia"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Mark of Detection",
+   "es": "Marca de detección"
+  },
+  "book": "Eberron: Forge of the Artificer",
+  "data": {
+   "era": "2024",
+   "page": 39,
+   "type": "dragonmark"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:mark-of-detection",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Marca+de+detecci%C3%B3n"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Mark of Finding",
+   "es": "Marca de búsqueda"
+  },
+  "book": "Eberron: Forge of the Artificer",
+  "data": {
+   "era": "2024",
+   "page": 39,
+   "type": "dragonmark"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:mark-of-finding",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Marca+de+b%C3%BAsqueda"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Mark of Handling",
+   "es": "Marca de doma"
+  },
+  "book": "Eberron: Forge of the Artificer",
+  "data": {
+   "era": "2024",
+   "page": 39,
+   "type": "dragonmark"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:mark-of-handling",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Marca+de+doma"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Mark of Healing",
+   "es": "Marca de curación"
+  },
+  "book": "Eberron: Forge of the Artificer",
+  "data": {
+   "era": "2024",
+   "page": 40,
+   "type": "dragonmark"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:mark-of-healing",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Marca+de+curaci%C3%B3n"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Mark of Hospitality",
+   "es": "Marca de hospitalidad"
+  },
+  "book": "Eberron: Forge of the Artificer",
+  "data": {
+   "era": "2024",
+   "page": 40,
+   "type": "dragonmark"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:mark-of-hospitality",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Marca+de+hospitalidad"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Mark of Making",
+   "es": "Marca de creación"
+  },
+  "book": "Eberron: Forge of the Artificer",
+  "data": {
+   "era": "2024",
+   "page": 40,
+   "type": "dragonmark"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:mark-of-making",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Marca+de+creaci%C3%B3n"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Mark of Passage",
+   "es": "Marca de paso"
+  },
+  "book": "Eberron: Forge of the Artificer",
+  "data": {
+   "era": "2024",
+   "page": 41,
+   "type": "dragonmark"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:mark-of-passage",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Marca+de+paso"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Mark of Scribing",
+   "es": "Marca de escritura"
+  },
+  "book": "Eberron: Forge of the Artificer",
+  "data": {
+   "era": "2024",
+   "page": 41,
+   "type": "dragonmark"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:mark-of-scribing",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Marca+de+escritura"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Mark of Sentinel",
+   "es": "Marca del centinela"
+  },
+  "book": "Eberron: Forge of the Artificer",
+  "data": {
+   "era": "2024",
+   "page": 41,
+   "type": "dragonmark"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:mark-of-sentinel",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Marca+del+centinela"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Mark of Shadow",
+   "es": "Marca de sombra"
+  },
+  "book": "Eberron: Forge of the Artificer",
+  "data": {
+   "era": "2024",
+   "page": 42,
+   "type": "dragonmark"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:mark-of-shadow",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Marca+de+sombra"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Mark of Storm",
+   "es": "Marca de tormenta"
+  },
+  "book": "Eberron: Forge of the Artificer",
+  "data": {
+   "era": "2024",
+   "page": 42,
+   "type": "dragonmark"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:mark-of-storm",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Marca+de+tormenta"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Mark of Warding",
+   "es": "Marca de protección"
+  },
+  "book": "Eberron: Forge of the Artificer",
+  "data": {
+   "era": "2024",
+   "page": 42,
+   "type": "dragonmark"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:mark-of-warding",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Marca+de+protecci%C3%B3n"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Mist Walker",
+   "es": "Caminante de la bruma"
+  },
+  "book": "Ravenloft: The Horrors Within",
+  "data": {
+   "era": "2024",
+   "page": 34,
+   "type": "dark-gift"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:mist-walker",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Caminante+de+la+bruma"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Mythal Touched",
+   "es": "Tocado por un mythal"
+  },
+  "book": "Heroes of Faerûn",
+  "data": {
+   "era": "2024",
+   "page": 40,
+   "type": "general"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:mythal-touched",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Tocado+por+un+mythal"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Necromancy Adept",
+   "es": "Adepto de la nigromancia"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "era": "2024",
+   "page": 31,
+   "type": "general"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:necromancy-adept",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Adepto+de+la+nigromancia"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Order's Resilience",
+   "es": "Resistencia de la Orden"
+  },
+  "book": "Heroes of Faerûn",
+  "data": {
+   "era": "2024",
+   "page": 40,
+   "type": "general"
+  },
+  "links": {
+   "wikidot": "https://www.google.com/search?q=site%3Awikidot.com+Order%27s+Resilience",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Resistencia+de+la+Orden"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Otherworldly Familiar",
+   "es": "Familiar de otro mundo"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "era": "2024",
+   "page": 31,
+   "type": "general"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:otherworldly-familiar",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Familiar+de+otro+mundo"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Portal Jumper",
+   "es": "Saltador de portales"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "era": "2024",
+   "page": 27,
+   "type": "origin"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:portal-jumper",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Saltador+de+portales"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Potent Dragonmark",
+   "es": "Marca de dragón potente"
+  },
+  "book": "Eberron: Forge of the Artificer",
+  "data": {
+   "era": "2024",
+   "page": 45,
+   "type": "general"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:potent-dragonmark",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Marca+de+drag%C3%B3n+potente"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Purple Dragon Commandant",
+   "es": "Comandante del Dragón Púrpura"
+  },
+  "book": "Heroes of Faerûn",
+  "data": {
+   "era": "2024",
+   "page": 40,
+   "type": "general"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:purple-dragon-commandant",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Comandante+del+Drag%C3%B3n+P%C3%BArpura"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Purple Dragon Rook",
+   "es": "Recluta del Dragón Púrpura"
+  },
+  "book": "Heroes of Faerûn",
+  "data": {
+   "era": "2024",
+   "page": 38,
+   "type": "origin"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:purple-dragon-rook",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Recluta+del+Drag%C3%B3n+P%C3%BArpura"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Putrefy",
+   "es": "Putrefacción"
+  },
+  "book": "Astarion's Book of Hungers",
+  "data": {
+   "era": "2024",
+   "page": 10,
+   "type": "general"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:putrefy",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Putrefacci%C3%B3n"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Rebuke",
+   "es": "Reprimenda"
+  },
+  "book": "Astarion's Book of Hungers",
+  "data": {
+   "era": "2024",
+   "page": 10,
+   "type": "general"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:rebuke",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Reprimenda"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Second Skin",
+   "es": "Segunda piel"
+  },
+  "book": "Ravenloft: The Horrors Within",
+  "data": {
+   "era": "2024",
+   "page": 34,
+   "type": "dark-gift"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:second-skin",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Segunda+piel"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Shadowmoor Hexer",
+   "es": "Hechicero maléfico de Shadowmoor"
+  },
+  "book": "Lorwyn: First Light",
+  "data": {
+   "era": "2024",
+   "page": null,
+   "type": "origin"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:shadowmoor-hexer",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Hechicero+mal%C3%A9fico+de+Shadowmoor"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Sharp Eye",
+   "es": "Ojo avizor"
+  },
+  "book": "Ravenloft: The Horrors Within",
+  "data": {
+   "era": "2024",
+   "page": 32,
+   "type": "origin"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:sharp-eye",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Ojo+avizor"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Soothing Familiar",
+   "es": "Familiar sosegador"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "era": "2024",
+   "page": 31,
+   "type": "general"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:soothing-familiar",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Familiar+sosegador"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Spell Resistant",
+   "es": "Resistente a la magia"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "era": "2024",
+   "page": 31,
+   "type": "general"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:spell-resistant",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Resistente+a+la+magia"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Spell Subterfuge",
+   "es": "Subterfugio mágico"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "era": "2024",
+   "page": 32,
+   "type": "general"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:spell-subterfuge",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Subterfugio+m%C3%A1gico"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Spellfire Adept",
+   "es": "Adepto del fuego mágico"
+  },
+  "book": "Heroes of Faerûn",
+  "data": {
+   "era": "2024",
+   "page": 41,
+   "type": "general"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:spellfire-adept",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Adepto+del+fuego+m%C3%A1gico"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Spellfire Spark",
+   "es": "Chispa de fuego mágico"
+  },
+  "book": "Heroes of Faerûn",
+  "data": {
+   "era": "2024",
+   "page": 38,
+   "type": "origin"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:spellfire-spark",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Chispa+de+fuego+m%C3%A1gico"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Street Justice",
+   "es": "Justicia callejera"
+  },
+  "book": "Heroes of Faerûn",
+  "data": {
+   "era": "2024",
+   "page": 41,
+   "type": "general"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:street-justice",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Justicia+callejera"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Survivor",
+   "es": "Superviviente"
+  },
+  "book": "Ravenloft: The Horrors Within",
+  "data": {
+   "era": "2024",
+   "page": 32,
+   "type": "origin"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:survivor",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Superviviente"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Symbiotic Being",
+   "es": "Ser simbiótico"
+  },
+  "book": "Ravenloft: The Horrors Within",
+  "data": {
+   "era": "2024",
+   "page": 34,
+   "type": "dark-gift"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:symbiotic-being",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Ser+simbi%C3%B3tico"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Tireless Reveler",
+   "es": "Juerguista incansable"
+  },
+  "book": "Astarion's Book of Hungers",
+  "data": {
+   "era": "2024",
+   "page": 8,
+   "type": "origin"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:tireless-reveler",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Juerguista+incansable"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Touch of Death",
+   "es": "Toque de la muerte"
+  },
+  "book": "Ravenloft: The Horrors Within",
+  "data": {
+   "era": "2024",
+   "page": 35,
+   "type": "dark-gift"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:touch-of-death",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Toque+de+la+muerte"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Transmutation Adept",
+   "es": "Adepto de la transmutación"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "era": "2024",
+   "page": 32,
+   "type": "general"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:transmutation-adept",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Adepto+de+la+transmutaci%C3%B3n"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Transmuted Anatomy",
+   "es": "Anatomía transmutada"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "era": "2024",
+   "page": 28,
+   "type": "origin"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:transmuted-anatomy",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Anatom%C3%ADa+transmutada"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Treacherous Allure",
+   "es": "Atractivo traicionero"
+  },
+  "book": "Astarion's Book of Hungers",
+  "data": {
+   "era": "2024",
+   "page": 10,
+   "type": "general"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:treacherous-allure",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Atractivo+traicionero"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Tyro of the Gauntlet",
+   "es": "Novicio del Guantelete"
+  },
+  "book": "Heroes of Faerûn",
+  "data": {
+   "era": "2024",
+   "page": 38,
+   "type": "origin"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:tyro-of-the-gauntlet",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Novicio+del+Guantelete"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Vampire Hunter",
+   "es": "Cazavampiros"
+  },
+  "book": "Astarion's Book of Hungers",
+  "data": {
+   "era": "2024",
+   "page": 8,
+   "type": "origin"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:vampire-hunter",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Cazavampiros"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Vampire Touched",
+   "es": "Tocado por un vampiro"
+  },
+  "book": "Astarion's Book of Hungers",
+  "data": {
+   "era": "2024",
+   "page": 10,
+   "type": "general"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:vampire-touched",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Tocado+por+un+vampiro"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Vampire's Plaything",
+   "es": "Juguete de un vampiro"
+  },
+  "book": "Astarion's Book of Hungers",
+  "data": {
+   "era": "2024",
+   "page": 9,
+   "type": "origin"
+  },
+  "links": {
+   "wikidot": "https://www.google.com/search?q=site%3Awikidot.com+Vampire%27s+Plaything",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Juguete+de+un+vampiro"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Warlike Familiar",
+   "es": "Familiar belicoso"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "era": "2024",
+   "page": 33,
+   "type": "general"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:warlike-familiar",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Familiar+belicoso"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Watchers",
+   "es": "Observadores"
+  },
+  "book": "Ravenloft: The Horrors Within",
+  "data": {
+   "era": "2024",
+   "page": 35,
+   "type": "dark-gift"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:watchers",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Observadores"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Zhentarim Ruffian",
+   "es": "Matón zhentarim"
+  },
+  "book": "Heroes of Faerûn",
+  "data": {
+   "era": "2024",
+   "page": 38,
+   "type": "origin"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:zhentarim-ruffian",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Mat%C3%B3n+zhentarim"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Zhentarim Tactics",
+   "es": "Tácticas zhentarim"
+  },
+  "book": "Heroes of Faerûn",
+  "data": {
+   "era": "2024",
+   "page": 41,
+   "type": "general"
+  },
+  "links": {
+   "wikidot": "https://dnd2024.wikidot.com/feat:zhentarim-tactics",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+T%C3%A1cticas+zhentarim"
+  }
+ }
+]

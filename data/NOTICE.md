@@ -24,6 +24,16 @@ https://creativecommons.org/licenses/by/4.0/legalcode.
   [5etools](https://github.com/5etools-mirror-3/5etools-src) data. No rules text is included; the app links to
   AideDD, Wikidot and Nivel20 for it. Regenerate with `scripts/import-spell-index.ts`.
 
+## 2014 (legacy) options and 2024-era books
+
+- `data/external/legacy-2014.json`: species, subclasses, backgrounds and feats from 2014 books (the ones in the
+  "Manual para Casi Todo" PDF) that have no 2024 version. `data/external/books-2024.json`: options from 2024-era books
+  (Eberron: Forge of the Artificer, Heroes of Faerûn, Arcana Unleashed, Ravenloft: The Horrors Within, Lorwyn, Astarion's
+  Book of Hungers) and a few PHB 2024 feats that were missing. Both hold facts only (name, book, page, class, size, speed,
+  darkvision, feat type) taken from the [5etools](https://github.com/5etools-mirror-3/5etools-src) data, plus links checked
+  against Wikidot. Spanish names follow the PDF for 2014 options and are this app's own translation for the rest.
+  Regenerate with `scripts/oneoff/gen_index.py`; `scripts/oneoff/gen_report.py` writes `docs/revision-pdf-5e-a-5.5.md`.
+
 ## Spell icons
 
 Spell icons are from [game-icons.net](https://game-icons.net) ([game-icons/icons](https://github.com/game-icons/icons)),

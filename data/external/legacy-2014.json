@@ -1,0 +1,2441 @@
+[
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Path of the Ancestral Guardian",
+   "es": "Senda del Guardián Ancestral"
+  },
+  "book": "Xanathar",
+  "data": {
+   "classId": "barbarian",
+   "era": "2014",
+   "page": 9,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/barbarian:ancestral-guardian",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Senda+del+Guardi%C3%A1n+Ancestral"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Path of the Storm Herald",
+   "es": "Senda del Heraldo de la Tormenta"
+  },
+  "book": "Xanathar",
+  "data": {
+   "classId": "barbarian",
+   "era": "2014",
+   "page": 10,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/barbarian:storm-herald",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Senda+del+Heraldo+de+la+Tormenta"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Path of the Giant",
+   "es": "Senda del Gigante"
+  },
+  "book": "Bigby",
+  "data": {
+   "classId": "barbarian",
+   "era": "2014",
+   "page": 11,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/barbarian:giant",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Senda+del+Gigante"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Path of the Beast",
+   "es": "Senda de la Bestia"
+  },
+  "book": "Tasha",
+  "data": {
+   "classId": "barbarian",
+   "era": "2014",
+   "page": 24,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/barbarian:beast",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Senda+de+la+Bestia"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Path of Wild Magic",
+   "es": "Senda de la Magia Salvaje"
+  },
+  "book": "Tasha",
+  "data": {
+   "classId": "barbarian",
+   "era": "2014",
+   "page": 25,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/barbarian:wild-magic",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Senda+de+la+Magia+Salvaje"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Path of the Battlerager",
+   "es": "Senda del Camorrista"
+  },
+  "book": "SCAG",
+  "data": {
+   "classId": "barbarian",
+   "era": "2014",
+   "page": 121,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/barbarian:battlerager",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Senda+del+Camorrista"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "College of Swords",
+   "es": "Colegio de Espadas"
+  },
+  "book": "Xanathar",
+  "data": {
+   "classId": "bard",
+   "era": "2014",
+   "page": 15,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/bard:swords",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Colegio+de+Espadas"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "College of Whispers",
+   "es": "Colegio de los Susurros"
+  },
+  "book": "Xanathar",
+  "data": {
+   "classId": "bard",
+   "era": "2014",
+   "page": 16,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/bard:whispers",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Colegio+de+los+Susurros"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "College of Creation",
+   "es": "Colegio de la Creación"
+  },
+  "book": "Tasha",
+  "data": {
+   "classId": "bard",
+   "era": "2014",
+   "page": 28,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/bard:creation",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Colegio+de+la+Creaci%C3%B3n"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "College of Eloquence",
+   "es": "Colegio de la Elocuencia"
+  },
+  "book": "Tasha",
+  "data": {
+   "classId": "bard",
+   "era": "2014",
+   "page": 29,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/bard:eloquence",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Colegio+de+la+Elocuencia"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Forge Domain",
+   "es": "Dominio de la Forja"
+  },
+  "book": "Xanathar",
+  "data": {
+   "classId": "cleric",
+   "era": "2014",
+   "page": 18,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/cleric:forge",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Dominio+de+la+Forja"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Order Domain",
+   "es": "Dominio del Orden"
+  },
+  "book": "Tasha",
+  "data": {
+   "classId": "cleric",
+   "era": "2014",
+   "page": 31,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/cleric:order",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Dominio+del+Orden"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Peace Domain",
+   "es": "Dominio de la Paz"
+  },
+  "book": "Tasha",
+  "data": {
+   "classId": "cleric",
+   "era": "2014",
+   "page": 32,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/cleric:peace",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Dominio+de+la+Paz"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Twilight Domain",
+   "es": "Dominio del Crepúsculo"
+  },
+  "book": "Tasha",
+  "data": {
+   "classId": "cleric",
+   "era": "2014",
+   "page": 34,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/cleric:twilight",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Dominio+del+Crep%C3%BAsculo"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Nature Domain",
+   "es": "Dominio de la Naturaleza"
+  },
+  "book": "PHB 2014",
+  "data": {
+   "classId": "cleric",
+   "era": "2014",
+   "page": 61,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/cleric:nature",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Dominio+de+la+Naturaleza"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Tempest Domain",
+   "es": "Dominio de la Tempestad"
+  },
+  "book": "PHB 2014",
+  "data": {
+   "classId": "cleric",
+   "era": "2014",
+   "page": 62,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/cleric:tempest",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Dominio+de+la+Tempestad"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Death Domain",
+   "es": "Dominio de la Muerte"
+  },
+  "book": "DMG 2014",
+  "data": {
+   "classId": "cleric",
+   "era": "2014",
+   "page": 96,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/cleric:death",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Dominio+de+la+Muerte"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Circle of Dreams",
+   "es": "Círculo de los Sueños"
+  },
+  "book": "Xanathar",
+  "data": {
+   "classId": "druid",
+   "era": "2014",
+   "page": 22,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/druid:dreams",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+C%C3%ADrculo+de+los+Sue%C3%B1os"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Circle of the Shepherd",
+   "es": "Círculo del Pastor"
+  },
+  "book": "Xanathar",
+  "data": {
+   "classId": "druid",
+   "era": "2014",
+   "page": 23,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/druid:shepherd",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+C%C3%ADrculo+del+Pastor"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Circle of Spores",
+   "es": "Círculo de las Esporas"
+  },
+  "book": "Tasha",
+  "data": {
+   "classId": "druid",
+   "era": "2014",
+   "page": 36,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/druid:spores",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+C%C3%ADrculo+de+las+Esporas"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Circle of Wildfire",
+   "es": "Círculo del Fuego Fatuo"
+  },
+  "book": "Tasha",
+  "data": {
+   "classId": "druid",
+   "era": "2014",
+   "page": 39,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/druid:wildfire",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+C%C3%ADrculo+del+Fuego+Fatuo"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Cavalier",
+   "es": "Jinete"
+  },
+  "book": "Xanathar",
+  "data": {
+   "classId": "fighter",
+   "era": "2014",
+   "page": 30,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/fighter:cavalier",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Jinete"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Samurai",
+   "es": "Samurái"
+  },
+  "book": "Xanathar",
+  "data": {
+   "classId": "fighter",
+   "era": "2014",
+   "page": 31,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/fighter:samurai",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Samur%C3%A1i"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Rune Knight",
+   "es": "Caballero Rúnico"
+  },
+  "book": "Tasha",
+  "data": {
+   "classId": "fighter",
+   "era": "2014",
+   "page": 44,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/fighter:rune-knight",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Caballero+R%C3%BAnico"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Echo Knight",
+   "es": "Caballero Eco"
+  },
+  "book": "Wildemount",
+  "data": {
+   "classId": "fighter",
+   "era": "2014",
+   "page": 183,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/fighter:echo-knight",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Caballero+Eco"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Way of the Ascendant Dragon",
+   "es": "Camino del Dragón Ascendente"
+  },
+  "book": "Fizban",
+  "data": {
+   "classId": "monk",
+   "era": "2014",
+   "page": 13,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/monk:ascendant-dragon",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Camino+del+Drag%C3%B3n+Ascendente"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Way of the Drunken Master",
+   "es": "Camino del Maestro Borracho"
+  },
+  "book": "Xanathar",
+  "data": {
+   "classId": "monk",
+   "era": "2014",
+   "page": 33,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/monk:drunken-master",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Camino+del+Maestro+Borracho"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Way of the Kensei",
+   "es": "Camino del Kensei"
+  },
+  "book": "Xanathar",
+  "data": {
+   "classId": "monk",
+   "era": "2014",
+   "page": 34,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/monk:kensei",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Camino+del+Kensei"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Way of the Sun Soul",
+   "es": "Camino del Alma del Sol"
+  },
+  "book": "Xanathar",
+  "data": {
+   "classId": "monk",
+   "era": "2014",
+   "page": 35,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/monk:sun-soul",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Camino+del+Alma+del+Sol"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Way of the Astral Self",
+   "es": "Camino del Ser Astral"
+  },
+  "book": "Tasha",
+  "data": {
+   "classId": "monk",
+   "era": "2014",
+   "page": 50,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/monk:astral-self",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Camino+del+Ser+Astral"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Way of the Long Death",
+   "es": "Camino de la Larga Muerte"
+  },
+  "book": "SCAG",
+  "data": {
+   "classId": "monk",
+   "era": "2014",
+   "page": 130,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/monk:long-death",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Camino+de+la+Larga+Muerte"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Oath of Conquest",
+   "es": "Juramento de Conquista"
+  },
+  "book": "Xanathar",
+  "data": {
+   "classId": "paladin",
+   "era": "2014",
+   "page": 37,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/paladin:conquest",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Juramento+de+Conquista"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Oath of Redemption",
+   "es": "Juramento de Redención"
+  },
+  "book": "Xanathar",
+  "data": {
+   "classId": "paladin",
+   "era": "2014",
+   "page": 38,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/paladin:redemption",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Juramento+de+Redenci%C3%B3n"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Oath of the Watchers",
+   "es": "Juramento de los Vigilantes"
+  },
+  "book": "Tasha",
+  "data": {
+   "classId": "paladin",
+   "era": "2014",
+   "page": 54,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/paladin:watchers",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Juramento+de+los+Vigilantes"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Oathbreaker",
+   "es": "Rompejuramentos"
+  },
+  "book": "DMG 2014",
+  "data": {
+   "classId": "paladin",
+   "era": "2014",
+   "page": 97,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/paladin:oathbreaker",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Rompejuramentos"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Oath of the Crown",
+   "es": "Juramento de la Corona"
+  },
+  "book": "SCAG",
+  "data": {
+   "classId": "paladin",
+   "era": "2014",
+   "page": 132,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/paladin:crown",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Juramento+de+la+Corona"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Drakewarden",
+   "es": "Guardadracos"
+  },
+  "book": "Fizban",
+  "data": {
+   "classId": "ranger",
+   "era": "2014",
+   "page": 15,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/ranger:drakewarden",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Guardadracos"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Horizon Walker",
+   "es": "Caminante del Horizonte"
+  },
+  "book": "Xanathar",
+  "data": {
+   "classId": "ranger",
+   "era": "2014",
+   "page": 42,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/ranger:horizon-walker",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Caminante+del+Horizonte"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Monster Slayer",
+   "es": "Asesino de Monstruos"
+  },
+  "book": "Xanathar",
+  "data": {
+   "classId": "ranger",
+   "era": "2014",
+   "page": 43,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/ranger:monster-slayer",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Asesino+de+Monstruos"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Swarmkeeper",
+   "es": "Guardián del Enjambre"
+  },
+  "book": "Tasha",
+  "data": {
+   "classId": "ranger",
+   "era": "2014",
+   "page": 59,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/ranger:swarmkeeper",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Guardi%C3%A1n+del+Enjambre"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Inquisitive",
+   "es": "Inquisitivo"
+  },
+  "book": "Xanathar",
+  "data": {
+   "classId": "rogue",
+   "era": "2014",
+   "page": 45,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/rogue:inquisitive",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Inquisitivo"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Mastermind",
+   "es": "Mente Maestra"
+  },
+  "book": "Xanathar",
+  "data": {
+   "classId": "rogue",
+   "era": "2014",
+   "page": 46,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/rogue:mastermind",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Mente+Maestra"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Scout",
+   "es": "Rastreador"
+  },
+  "book": "Xanathar",
+  "data": {
+   "classId": "rogue",
+   "era": "2014",
+   "page": 47,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/rogue:scout",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Rastreador"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Swashbuckler",
+   "es": "Espadachín"
+  },
+  "book": "Xanathar",
+  "data": {
+   "classId": "rogue",
+   "era": "2014",
+   "page": 48,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/rogue:swashbuckler",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Espadach%C3%ADn"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Lunar Sorcery",
+   "es": "Hechicería Lunar"
+  },
+  "book": "Dragonlance",
+  "data": {
+   "classId": "sorcerer",
+   "era": "2014",
+   "page": 34,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/sorcerer:lunar-sorcery",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Hechicer%C3%ADa+Lunar"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Divine Soul",
+   "es": "Alma Divina"
+  },
+  "book": "Xanathar",
+  "data": {
+   "classId": "sorcerer",
+   "era": "2014",
+   "page": 50,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/sorcerer:divine-soul",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Alma+Divina"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Storm Sorcery",
+   "es": "Hechicería de la Tormenta"
+  },
+  "book": "Xanathar",
+  "data": {
+   "classId": "sorcerer",
+   "era": "2014",
+   "page": 51,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/sorcerer:storm-sorcery",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Hechicer%C3%ADa+de+la+Tormenta"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "The Hexblade",
+   "es": "El Hexblade"
+  },
+  "book": "Xanathar",
+  "data": {
+   "classId": "warlock",
+   "era": "2014",
+   "page": 55,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/warlock:hexblade",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+El+Hexblade"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "The Fathomless",
+   "es": "El Insondable"
+  },
+  "book": "Tasha",
+  "data": {
+   "classId": "warlock",
+   "era": "2014",
+   "page": 72,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/warlock:fathomless",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+El+Insondable"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "The Genie",
+   "es": "El Genio"
+  },
+  "book": "Tasha",
+  "data": {
+   "classId": "warlock",
+   "era": "2014",
+   "page": 73,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/warlock:the-genie",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+El+Genio"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "The Undying",
+   "es": "El Inmortal"
+  },
+  "book": "SCAG",
+  "data": {
+   "classId": "warlock",
+   "era": "2014",
+   "page": 139,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/warlock:undying",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+El+Inmortal"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "War Magic",
+   "es": "Magia de Guerra"
+  },
+  "book": "Xanathar",
+  "data": {
+   "classId": "wizard",
+   "era": "2014",
+   "page": 59,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/wizard:war-magic",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Magia+de+Guerra"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Order of Scribes",
+   "es": "Orden de los Escribas"
+  },
+  "book": "Tasha",
+  "data": {
+   "classId": "wizard",
+   "era": "2014",
+   "page": 77,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/wizard:order-of-scribes",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Orden+de+los+Escribas"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Chronurgy Magic",
+   "es": "Magia Cronúrgica"
+  },
+  "book": "Wildemount",
+  "data": {
+   "classId": "wizard",
+   "era": "2014",
+   "page": 184,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/wizard:chronurgy",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Magia+Cron%C3%BArgica"
+  }
+ },
+ {
+  "category": "subclass",
+  "name": {
+   "en": "Graviturgy Magic",
+   "es": "Magia Gravitúrgica"
+  },
+  "book": "Wildemount",
+  "data": {
+   "classId": "wizard",
+   "era": "2014",
+   "page": 185,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/wizard:graviturgy",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Magia+Gravit%C3%BArgica"
+  }
+ },
+ {
+  "category": "species",
+  "name": {
+   "en": "Aarakocra",
+   "es": "Aarakocra"
+  },
+  "book": "Monsters of the Multiverse",
+  "data": {
+   "era": "2014",
+   "page": 5,
+   "size": "Medium",
+   "speed": 30,
+   "darkvision": 0,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/lineage:aarakocra",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Aarakocra"
+  }
+ },
+ {
+  "category": "species",
+  "name": {
+   "en": "Bugbear",
+   "es": "Osgo (Bugbear)"
+  },
+  "book": "Monsters of the Multiverse",
+  "data": {
+   "era": "2014",
+   "page": 8,
+   "size": "Medium",
+   "speed": 30,
+   "darkvision": 60,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/lineage:bugbear",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Osgo+%28Bugbear%29"
+  }
+ },
+ {
+  "category": "species",
+  "name": {
+   "en": "Centaur",
+   "es": "Centauro"
+  },
+  "book": "Monsters of the Multiverse",
+  "data": {
+   "era": "2014",
+   "page": 9,
+   "size": "Medium",
+   "speed": 40,
+   "darkvision": 0,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/lineage:centaur",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Centauro"
+  }
+ },
+ {
+  "category": "species",
+  "name": {
+   "en": "Deep Gnome",
+   "es": "Gnomo de las Profundidades"
+  },
+  "book": "Monsters of the Multiverse",
+  "data": {
+   "era": "2014",
+   "page": 11,
+   "size": "Small",
+   "speed": 30,
+   "darkvision": 120,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/lineage:deep-gnome",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Gnomo+de+las+Profundidades"
+  }
+ },
+ {
+  "category": "species",
+  "name": {
+   "en": "Duergar",
+   "es": "Duergar"
+  },
+  "book": "Monsters of the Multiverse",
+  "data": {
+   "era": "2014",
+   "page": 12,
+   "size": "Medium",
+   "speed": 30,
+   "darkvision": 120,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/lineage:duergar",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Duergar"
+  }
+ },
+ {
+  "category": "species",
+  "name": {
+   "en": "Eladrin",
+   "es": "Eladrín"
+  },
+  "book": "Monsters of the Multiverse",
+  "data": {
+   "era": "2014",
+   "page": 13,
+   "size": "Medium",
+   "speed": 30,
+   "darkvision": 60,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/lineage:eladrin",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Eladr%C3%ADn"
+  }
+ },
+ {
+  "category": "species",
+  "name": {
+   "en": "Fairy",
+   "es": "Hada"
+  },
+  "book": "Monsters of the Multiverse",
+  "data": {
+   "era": "2014",
+   "page": 14,
+   "size": "Small",
+   "speed": 30,
+   "darkvision": 0,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/lineage:fairy",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Hada"
+  }
+ },
+ {
+  "category": "species",
+  "name": {
+   "en": "Firbolg",
+   "es": "Firbolg"
+  },
+  "book": "Monsters of the Multiverse",
+  "data": {
+   "era": "2014",
+   "page": 15,
+   "size": "Medium",
+   "speed": 30,
+   "darkvision": 0,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/lineage:firbolg",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Firbolg"
+  }
+ },
+ {
+  "category": "species",
+  "name": {
+   "en": "Genasi",
+   "es": "Genasi"
+  },
+  "book": "Monsters of the Multiverse",
+  "data": {
+   "era": "2014",
+   "page": 16,
+   "size": "Small or Medium",
+   "speed": 30,
+   "darkvision": 60,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://www.google.com/search?q=site%3Awikidot.com+Genasi",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Genasi"
+  }
+ },
+ {
+  "category": "species",
+  "name": {
+   "en": "Githyanki",
+   "es": "Githyanki"
+  },
+  "book": "Monsters of the Multiverse",
+  "data": {
+   "era": "2014",
+   "page": 18,
+   "size": "Medium",
+   "speed": 30,
+   "darkvision": 0,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/lineage:githyanki",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Githyanki"
+  }
+ },
+ {
+  "category": "species",
+  "name": {
+   "en": "Githzerai",
+   "es": "Githzerai"
+  },
+  "book": "Monsters of the Multiverse",
+  "data": {
+   "era": "2014",
+   "page": 19,
+   "size": "Medium",
+   "speed": 30,
+   "darkvision": 0,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/lineage:githzerai",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Githzerai"
+  }
+ },
+ {
+  "category": "species",
+  "name": {
+   "en": "Goblin",
+   "es": "Goblin"
+  },
+  "book": "Monsters of the Multiverse",
+  "data": {
+   "era": "2014",
+   "page": 20,
+   "size": "Small",
+   "speed": 30,
+   "darkvision": 60,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/lineage:goblin",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Goblin"
+  }
+ },
+ {
+  "category": "species",
+  "name": {
+   "en": "Harengon",
+   "es": "Conéjido (Harengon)"
+  },
+  "book": "Monsters of the Multiverse",
+  "data": {
+   "era": "2014",
+   "page": 22,
+   "size": "Small or Medium",
+   "speed": 30,
+   "darkvision": 0,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/lineage:harengon",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Con%C3%A9jido+%28Harengon%29"
+  }
+ },
+ {
+  "category": "species",
+  "name": {
+   "en": "Hobgoblin",
+   "es": "Hobgoblin"
+  },
+  "book": "Monsters of the Multiverse",
+  "data": {
+   "era": "2014",
+   "page": 23,
+   "size": "Medium",
+   "speed": 30,
+   "darkvision": 60,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/lineage:hobgoblin",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Hobgoblin"
+  }
+ },
+ {
+  "category": "species",
+  "name": {
+   "en": "Kenku",
+   "es": "Kenku"
+  },
+  "book": "Monsters of the Multiverse",
+  "data": {
+   "era": "2014",
+   "page": 24,
+   "size": "Small or Medium",
+   "speed": 30,
+   "darkvision": 0,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/lineage:kenku",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Kenku"
+  }
+ },
+ {
+  "category": "species",
+  "name": {
+   "en": "Kobold",
+   "es": "Kobold"
+  },
+  "book": "Monsters of the Multiverse",
+  "data": {
+   "era": "2014",
+   "page": 25,
+   "size": "Small",
+   "speed": 30,
+   "darkvision": 60,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/lineage:kobold",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Kobold"
+  }
+ },
+ {
+  "category": "species",
+  "name": {
+   "en": "Lizardfolk",
+   "es": "Hombre lagarto"
+  },
+  "book": "Monsters of the Multiverse",
+  "data": {
+   "era": "2014",
+   "page": 26,
+   "size": "Medium",
+   "speed": 30,
+   "darkvision": 0,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/lineage:lizardfolk",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Hombre+lagarto"
+  }
+ },
+ {
+  "category": "species",
+  "name": {
+   "en": "Minotaur",
+   "es": "Minotauro"
+  },
+  "book": "Monsters of the Multiverse",
+  "data": {
+   "era": "2014",
+   "page": 27,
+   "size": "Medium",
+   "speed": 30,
+   "darkvision": 0,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/lineage:minotaur",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Minotauro"
+  }
+ },
+ {
+  "category": "species",
+  "name": {
+   "en": "Satyr",
+   "es": "Sátiro"
+  },
+  "book": "Monsters of the Multiverse",
+  "data": {
+   "era": "2014",
+   "page": 29,
+   "size": "Medium",
+   "speed": 35,
+   "darkvision": 0,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/lineage:satyr",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+S%C3%A1tiro"
+  }
+ },
+ {
+  "category": "species",
+  "name": {
+   "en": "Sea Elf",
+   "es": "Elfo de mar"
+  },
+  "book": "Monsters of the Multiverse",
+  "data": {
+   "era": "2014",
+   "page": 30,
+   "size": "Medium",
+   "speed": 30,
+   "darkvision": 60,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/lineage:sea-elf",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Elfo+de+mar"
+  }
+ },
+ {
+  "category": "species",
+  "name": {
+   "en": "Shadar-Kai",
+   "es": "Shadar-Kai"
+  },
+  "book": "Monsters of the Multiverse",
+  "data": {
+   "era": "2014",
+   "page": 31,
+   "size": "Medium",
+   "speed": 30,
+   "darkvision": 60,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/lineage:shadar-kai",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Shadar-Kai"
+  }
+ },
+ {
+  "category": "species",
+  "name": {
+   "en": "Tabaxi",
+   "es": "Tabaxi"
+  },
+  "book": "Monsters of the Multiverse",
+  "data": {
+   "era": "2014",
+   "page": 33,
+   "size": "Small or Medium",
+   "speed": 30,
+   "darkvision": 60,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/lineage:tabaxi",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Tabaxi"
+  }
+ },
+ {
+  "category": "species",
+  "name": {
+   "en": "Tortle",
+   "es": "Tortuga (Tortle)"
+  },
+  "book": "Monsters of the Multiverse",
+  "data": {
+   "era": "2014",
+   "page": 34,
+   "size": "Small or Medium",
+   "speed": 30,
+   "darkvision": 0,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/lineage:tortle",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Tortuga+%28Tortle%29"
+  }
+ },
+ {
+  "category": "species",
+  "name": {
+   "en": "Triton",
+   "es": "Tritón"
+  },
+  "book": "Monsters of the Multiverse",
+  "data": {
+   "era": "2014",
+   "page": 35,
+   "size": "Medium",
+   "speed": 30,
+   "darkvision": 60,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/lineage:triton",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Trit%C3%B3n"
+  }
+ },
+ {
+  "category": "species",
+  "name": {
+   "en": "Yuan-Ti",
+   "es": "Yuan-ti"
+  },
+  "book": "Monsters of the Multiverse",
+  "data": {
+   "era": "2014",
+   "page": 36,
+   "size": "Small or Medium",
+   "speed": 30,
+   "darkvision": 60,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/lineage:yuan-ti",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Yuan-ti"
+  }
+ },
+ {
+  "category": "species",
+  "name": {
+   "en": "Owlin",
+   "es": "Búhonido (Owlin)"
+  },
+  "book": "Strixhaven",
+  "data": {
+   "era": "2014",
+   "page": 29,
+   "size": "Small or Medium",
+   "speed": 30,
+   "darkvision": 120,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/lineage:owlin",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+B%C3%BAhonido+%28Owlin%29"
+  }
+ },
+ {
+  "category": "species",
+  "name": {
+   "en": "Grung",
+   "es": "Grung"
+  },
+  "book": "One Grung Above",
+  "data": {
+   "era": "2014",
+   "page": 4,
+   "size": "Small",
+   "speed": 25,
+   "darkvision": 0,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/lineage:grung",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Grung"
+  }
+ },
+ {
+  "category": "species",
+  "name": {
+   "en": "Locathah",
+   "es": "Locathah"
+  },
+  "book": "Locathah Rising",
+  "data": {
+   "era": "2014",
+   "page": 24,
+   "size": "Medium",
+   "speed": 30,
+   "darkvision": 0,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/lineage:locathah",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Locathah"
+  }
+ },
+ {
+  "category": "species",
+  "name": {
+   "en": "Verdan",
+   "es": "Verdan"
+  },
+  "book": "Acquisitions Inc.",
+  "data": {
+   "era": "2014",
+   "page": 72,
+   "size": "V",
+   "speed": 30,
+   "darkvision": 0,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/lineage:verdan",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Verdan"
+  }
+ },
+ {
+  "category": "species",
+  "name": {
+   "en": "Leonin",
+   "es": "Leónido"
+  },
+  "book": "Theros",
+  "data": {
+   "era": "2014",
+   "page": 20,
+   "size": "Medium",
+   "speed": 35,
+   "darkvision": 60,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/lineage:leonin",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Le%C3%B3nido"
+  }
+ },
+ {
+  "category": "species",
+  "name": {
+   "en": "Loxodon",
+   "es": "Loxodon"
+  },
+  "book": "Ravnica",
+  "data": {
+   "era": "2014",
+   "page": 17,
+   "size": "Medium",
+   "speed": 30,
+   "darkvision": 0,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/lineage:loxodon",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Loxodon"
+  }
+ },
+ {
+  "category": "species",
+  "name": {
+   "en": "Simic Hybrid",
+   "es": "Híbrido Simic"
+  },
+  "book": "Ravnica",
+  "data": {
+   "era": "2014",
+   "page": 20,
+   "size": "Medium",
+   "speed": 30,
+   "darkvision": 60,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/lineage:simic-hybrid",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+H%C3%ADbrido+Simic"
+  }
+ },
+ {
+  "category": "species",
+  "name": {
+   "en": "Vedalken",
+   "es": "Vedalken"
+  },
+  "book": "Ravnica",
+  "data": {
+   "era": "2014",
+   "page": 21,
+   "size": "Medium",
+   "speed": 30,
+   "darkvision": 0,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/lineage:vedalken",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Vedalken"
+  }
+ },
+ {
+  "category": "species",
+  "name": {
+   "en": "Half-Orc",
+   "es": "Semiorco"
+  },
+  "book": "PHB 2014",
+  "data": {
+   "era": "2014",
+   "page": 40,
+   "size": "Medium",
+   "speed": 30,
+   "darkvision": 60,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/lineage:half-orc",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Semiorco"
+  }
+ },
+ {
+  "category": "species",
+  "name": {
+   "en": "Half-Elf",
+   "es": "Semielfo"
+  },
+  "book": "PHB 2014",
+  "data": {
+   "era": "2014",
+   "page": 38,
+   "size": "Medium",
+   "speed": 30,
+   "darkvision": 60,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/lineage:half-elf",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Semielfo"
+  }
+ },
+ {
+  "category": "species",
+  "name": {
+   "en": "Dragonborn (Gem)",
+   "es": "Dracónido gemático"
+  },
+  "book": "Fizban",
+  "data": {
+   "era": "2014",
+   "page": 11,
+   "size": "Medium",
+   "speed": 30,
+   "darkvision": 0,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/lineage:dragonborn-gem",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Drac%C3%B3nido+gem%C3%A1tico"
+  }
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "City Watch",
+   "es": "Guardia de Ciudad"
+  },
+  "book": "SCAG",
+  "data": {
+   "era": "2014",
+   "page": 145,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/background:city-watch",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Guardia+de+Ciudad"
+  }
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "Clan Crafter",
+   "es": "Artesano del Clan"
+  },
+  "book": "SCAG",
+  "data": {
+   "era": "2014",
+   "page": 145,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/background:clan-crafter",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Artesano+del+Clan"
+  }
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "Cloistered Scholar",
+   "es": "Erudito Enclaustrado"
+  },
+  "book": "SCAG",
+  "data": {
+   "era": "2014",
+   "page": 146,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/background:cloistered-scholar",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Erudito+Enclaustrado"
+  }
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "Courtier",
+   "es": "Cortesano"
+  },
+  "book": "SCAG",
+  "data": {
+   "era": "2014",
+   "page": 146,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/background:courtier",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Cortesano"
+  }
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "Faction Agent",
+   "es": "Agente de una Facción"
+  },
+  "book": "SCAG",
+  "data": {
+   "era": "2014",
+   "page": 147,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/background:faction-agent",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Agente+de+una+Facci%C3%B3n"
+  }
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "Far Traveler",
+   "es": "Forastero Errante"
+  },
+  "book": "SCAG",
+  "data": {
+   "era": "2014",
+   "page": 148,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/background:far-traveler",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Forastero+Errante"
+  }
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "Folk Hero",
+   "es": "Héroe del Pueblo"
+  },
+  "book": "PHB 2014",
+  "data": {
+   "era": "2014",
+   "page": 131,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/background:folk-hero",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+H%C3%A9roe+del+Pueblo"
+  }
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "Guild Artisan",
+   "es": "Artesano Gremial"
+  },
+  "book": "PHB 2014",
+  "data": {
+   "era": "2014",
+   "page": 132,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/background:guild-artisan",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Artesano+Gremial"
+  }
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "Inheritor",
+   "es": "Heredero"
+  },
+  "book": "SCAG",
+  "data": {
+   "era": "2014",
+   "page": 150,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/background:inheritor",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Heredero"
+  }
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "Knight of the Order",
+   "es": "Caballero de la Orden"
+  },
+  "book": "SCAG",
+  "data": {
+   "era": "2014",
+   "page": 151,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/background:knight-of-the-order",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Caballero+de+la+Orden"
+  }
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "Mercenary Veteran",
+   "es": "Mercenario Veterano"
+  },
+  "book": "SCAG",
+  "data": {
+   "era": "2014",
+   "page": 152,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/background:mercenary-veteran",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Mercenario+Veterano"
+  }
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "Outlander",
+   "es": "Fronterizo"
+  },
+  "book": "PHB 2014",
+  "data": {
+   "era": "2014",
+   "page": 136,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/background:outlander",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Fronterizo"
+  }
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "Urban Bounty Hunter",
+   "es": "Cazarrecompensas Urbano"
+  },
+  "book": "SCAG",
+  "data": {
+   "era": "2014",
+   "page": 153,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/background:urban-bounty-hunter",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Cazarrecompensas+Urbano"
+  }
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "Urchin",
+   "es": "Huérfano"
+  },
+  "book": "PHB 2014",
+  "data": {
+   "era": "2014",
+   "page": 141,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/background:urchin",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Hu%C3%A9rfano"
+  }
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "Uthgardt Tribe Member",
+   "es": "Miembro de una Tribu Uthgardt"
+  },
+  "book": "SCAG",
+  "data": {
+   "era": "2014",
+   "page": 153,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/background:uthgardt-tribe-member",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Miembro+de+una+Tribu+Uthgardt"
+  }
+ },
+ {
+  "category": "background",
+  "name": {
+   "en": "Waterdhavian Noble",
+   "es": "Noble de Aguasprofundas"
+  },
+  "book": "SCAG",
+  "data": {
+   "era": "2014",
+   "page": 154,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/background:waterdhavian-noble",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Noble+de+Aguasprofundas"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Artificer Initiate",
+   "es": "Artificiero Iniciado"
+  },
+  "book": "Tasha",
+  "data": {
+   "era": "2014",
+   "page": 79,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/feat:artificer-initiate",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Artificiero+Iniciado"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Bountiful Luck",
+   "es": "Suerte Abundante"
+  },
+  "book": "Xanathar",
+  "data": {
+   "era": "2014",
+   "page": 73,
+   "legacy": true,
+   "racial": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/feat:bountiful-luck",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Suerte+Abundante"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Dragon Fear",
+   "es": "Temor al Dragón"
+  },
+  "book": "Xanathar",
+  "data": {
+   "era": "2014",
+   "page": 74,
+   "legacy": true,
+   "racial": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/feat:dragon-fear",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Temor+al+Drag%C3%B3n"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Dragon Hide",
+   "es": "Piel de Dragón"
+  },
+  "book": "Xanathar",
+  "data": {
+   "era": "2014",
+   "page": 74,
+   "legacy": true,
+   "racial": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/feat:dragon-hide",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Piel+de+Drag%C3%B3n"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Drow High Magic",
+   "es": "Magia Alta de Drow"
+  },
+  "book": "Xanathar",
+  "data": {
+   "era": "2014",
+   "page": 74,
+   "legacy": true,
+   "racial": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/feat:drow-high-magic",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Magia+Alta+de+Drow"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Dungeon Delver",
+   "es": "Explorador de Mazmorras"
+  },
+  "book": "PHB 2014",
+  "data": {
+   "era": "2014",
+   "page": 166,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/feat:dungeon-delver",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Explorador+de+Mazmorras"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Dwarven Fortitude",
+   "es": "Fortaleza Enana"
+  },
+  "book": "Xanathar",
+  "data": {
+   "era": "2014",
+   "page": 74,
+   "legacy": true,
+   "racial": true
+  },
+  "links": {
+   "wikidot": "https://www.google.com/search?q=site%3Awikidot.com+Dwarven+Fortitude",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Fortaleza+Enana"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Eldritch Adept",
+   "es": "Adepto de lo Oculto"
+  },
+  "book": "Tasha",
+  "data": {
+   "era": "2014",
+   "page": 79,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/feat:eldritch-adept",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Adepto+de+lo+Oculto"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Elven Accuracy",
+   "es": "Precisión Élfica"
+  },
+  "book": "Xanathar",
+  "data": {
+   "era": "2014",
+   "page": 74,
+   "legacy": true,
+   "racial": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/feat:elven-accuracy",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Precisi%C3%B3n+%C3%89lfica"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Fade Away",
+   "es": "Desvanecerse"
+  },
+  "book": "Xanathar",
+  "data": {
+   "era": "2014",
+   "page": 74,
+   "legacy": true,
+   "racial": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/feat:fade-away",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Desvanecerse"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Fey Teleportation",
+   "es": "Teletransportación Feérica"
+  },
+  "book": "Xanathar",
+  "data": {
+   "era": "2014",
+   "page": 74,
+   "legacy": true,
+   "racial": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/feat:fey-teleportation",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Teletransportaci%C3%B3n+Fe%C3%A9rica"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Fighting Initiate",
+   "es": "Iniciado en la Lucha"
+  },
+  "book": "Tasha",
+  "data": {
+   "era": "2014",
+   "page": 80,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/feat:fighting-initiate",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Iniciado+en+la+Lucha"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Flames of Phlegethos",
+   "es": "Llamas de Flegetos"
+  },
+  "book": "Xanathar",
+  "data": {
+   "era": "2014",
+   "page": 74,
+   "legacy": true,
+   "racial": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/feat:flames-of-phlegethos",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Llamas+de+Flegetos"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Gift of the Chromatic Dragon",
+   "es": "Bendición del Dragón Cromático"
+  },
+  "book": "Fizban",
+  "data": {
+   "era": "2014",
+   "page": 17,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/feat:gift-of-the-chromatic-dragon",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Bendici%C3%B3n+del+Drag%C3%B3n+Crom%C3%A1tico"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Gift of the Gem Dragon",
+   "es": "Bendición del Dragón Gemático"
+  },
+  "book": "Fizban",
+  "data": {
+   "era": "2014",
+   "page": 17,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/feat:gift-of-the-gem-dragon",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Bendici%C3%B3n+del+Drag%C3%B3n+Gem%C3%A1tico"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Gift of the Metallic Dragon",
+   "es": "Bendición del Dragón Metálico"
+  },
+  "book": "Fizban",
+  "data": {
+   "era": "2014",
+   "page": 17,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/feat:gift-of-the-metallic-dragon",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Bendici%C3%B3n+del+Drag%C3%B3n+Met%C3%A1lico"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Gunner",
+   "es": "Artillero"
+  },
+  "book": "Tasha",
+  "data": {
+   "era": "2014",
+   "page": 80,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/feat:gunner",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Artillero"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Infernal Constitution",
+   "es": "Constitución Infernal"
+  },
+  "book": "Xanathar",
+  "data": {
+   "era": "2014",
+   "page": 75,
+   "legacy": true,
+   "racial": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/feat:infernal-constitution",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Constituci%C3%B3n+Infernal"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Linguist",
+   "es": "Lingüista"
+  },
+  "book": "PHB 2014",
+  "data": {
+   "era": "2014",
+   "page": 167,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/feat:linguist",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Ling%C3%BCista"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Martial Adept",
+   "es": "Adepto Marcial"
+  },
+  "book": "PHB 2014",
+  "data": {
+   "era": "2014",
+   "page": 168,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/feat:martial-adept",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Adepto+Marcial"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Metamagic Adept",
+   "es": "Adepto Metamágico"
+  },
+  "book": "Tasha",
+  "data": {
+   "era": "2014",
+   "page": 80,
+   "legacy": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/feat:metamagic-adept",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Adepto+Metam%C3%A1gico"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Orcish Fury",
+   "es": "Furia Orca"
+  },
+  "book": "Xanathar",
+  "data": {
+   "era": "2014",
+   "page": 75,
+   "legacy": true,
+   "racial": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/feat:orcish-fury",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Furia+Orca"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Prodigy",
+   "es": "Prodigio"
+  },
+  "book": "Xanathar",
+  "data": {
+   "era": "2014",
+   "page": 75,
+   "legacy": true,
+   "racial": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/feat:prodigy",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Prodigio"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Second Chance",
+   "es": "Segunda Oportunidad"
+  },
+  "book": "Xanathar",
+  "data": {
+   "era": "2014",
+   "page": 75,
+   "legacy": true,
+   "racial": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/feat:second-chance",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Segunda+Oportunidad"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Squat Nimbleness",
+   "es": "Elasticidad a Gachas"
+  },
+  "book": "Xanathar",
+  "data": {
+   "era": "2014",
+   "page": 75,
+   "legacy": true,
+   "racial": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/feat:squat-nimbleness",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Elasticidad+a+Gachas"
+  }
+ },
+ {
+  "category": "feat",
+  "name": {
+   "en": "Wood Elf Magic",
+   "es": "Magia de Elfo del Bosque"
+  },
+  "book": "Xanathar",
+  "data": {
+   "era": "2014",
+   "page": 75,
+   "legacy": true,
+   "racial": true
+  },
+  "links": {
+   "wikidot": "https://dnd5e.wikidot.com/feat:wood-elf-magic",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Magia+de+Elfo+del+Bosque"
+  }
+ }
+]

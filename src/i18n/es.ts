@@ -36,7 +36,7 @@ export const es: Dict = {
     species: 'Especies', background: 'Trasfondos', feat: 'Dotes', condition: 'Estados', rule: 'Reglas', monster: 'Monstruos',
     feature: 'Rasgos de clase', mastery: 'Maestrías', 'weapon-property': 'Propiedades de armas',
   },
-  classNames: { barbarian: 'Bárbaro', bard: 'Bardo', cleric: 'Clérigo', druid: 'Druida', fighter: 'Guerrero', monk: 'Monje', paladin: 'Paladín', ranger: 'Explorador', rogue: 'Pícaro', sorcerer: 'Hechicero', warlock: 'Brujo', wizard: 'Mago' },
+  classNames: { artificer: 'Artífice', barbarian: 'Bárbaro', bard: 'Bardo', cleric: 'Clérigo', druid: 'Druida', fighter: 'Guerrero', monk: 'Monje', paladin: 'Paladín', ranger: 'Explorador', rogue: 'Pícaro', sorcerer: 'Hechicero', warlock: 'Brujo', wizard: 'Mago' },
   rarity: { Common: 'Común', Uncommon: 'Poco común', Rare: 'Rara', 'Very Rare': 'Muy rara', Legendary: 'Legendaria', Artifact: 'Artefacto', Varies: 'Variable' },
   alignments: { LG: 'Legal bueno', NG: 'Neutral bueno', CG: 'Caótico bueno', LN: 'Legal neutral', N: 'Neutral', CN: 'Caótico neutral', LE: 'Legal malvado', NE: 'Neutral malvado', CE: 'Caótico malvado' },
   itemKinds: { gear: 'Equipo', weapon: 'Arma', armor: 'Armadura', shield: 'Escudo', magic: 'Mágico', other: 'Otro' },
@@ -77,6 +77,7 @@ export const es: Dict = {
     totalLevel: 'Nivel total', subclass: 'Subclase', hitDie: 'Dado de golpe', casterType: 'Tipo de lanzador', classLevel: 'Nivel de clase',
     addClass: 'Añadir clase (multiclase)', portrait: 'Retrato', size: 'Tamaño', spellbook: 'Libro de conjuros', other: 'Otros',
   },
+  featTypes: { origin: 'Origen', general: 'General', 'fighting-style': 'Estilo de combate', 'epic-boon': 'Don épico', dragonmark: 'Marca de dragón', 'dark-gift': 'Don oscuro' },
   casterTypes: { none: 'No lanza conjuros', full: 'Completo', half: 'Medio', third: 'Un tercio', pact: 'Magia del pacto' },
   recharge: { short: 'Descanso corto', long: 'Descanso largo', none: 'Manual' },
   wizard: {
@@ -89,6 +90,7 @@ export const es: Dict = {
     assign: 'Asigna los valores 15, 14, 13, 12, 10 y 8', chooseSkills: 'Elige {n} habilidades de clase', fromBackground: 'Del trasfondo',
     equipmentOptionA: 'Opción A (equipo)', equipmentOptionB: 'Opción B (oro)', create: 'Crear personaje', finalScores: 'Puntuaciones finales',
     nameRequired: 'Ponle un nombre a tu personaje.', speciesExternal: 'Esta especie no está en el SRD: se añade con nombre y podrás escribir sus rasgos a mano.',
+    showLegacy: 'Mostrar también opciones de 2014 (legado)', legacyPicked: 'Opción de 2014: revisa con tu DM cómo encaja con las reglas 2024.',
   },
   wiki: {
     title: 'Wiki', searchPlaceholder: 'Busca conjuros, objetos, reglas…', results: '{n} resultados', all: 'Todo', filters: 'Filtros',
@@ -102,6 +104,9 @@ export const es: Dict = {
     resistances: 'Resistencias', vulnerabilities: 'Vulnerabilidades', conditionImmunities: 'Inmunidad a estados', homebrew: 'Homebrew',
     source: 'Fuente', openIn: 'Abrir en {site}', searchIn: 'Buscar en {site}', page: 'pág. {n}', type: 'Tipo', mastery: 'Maestría', damage: 'Daño', properties: 'Propiedades', armorClass: 'CA',
     strength: 'Fuerza mín.', stealth: 'Sigilo', stealthDis: 'Desventaja', subclasses: 'Subclases',
+    eraAll: 'Todas las ediciones', era2024: '5.5 (2024)', era2014: '5e (2014, legado)', edition: 'Edición', or: 'o', darkvision: 'Visión en la oscuridad',
+    racialFeat: 'Dote racial (2014)',
+    legacyNote: 'Opción de 5e (2014). Sigue siendo compatible con las reglas 2024 si tu DM la permite; si existe una versión 2024, úsala en su lugar.',
   },
   dice: {
     title: 'Dados', expression: 'Expresión (p. ej. 2d6+3)', roll: 'Tirar', advantage: 'Ventaja', disadvantage: 'Desventaja',

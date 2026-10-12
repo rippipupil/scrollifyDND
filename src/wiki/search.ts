@@ -25,6 +25,13 @@ export interface SearchFilters {
   concentration?: boolean;
   ritual?: boolean;
   source?: ContentEntry['source'];
+  /** '2014' = 5e options (legacy), '2024' = everything else (5.5). */
+  era?: '2014' | '2024';
+}
+
+/** Rules edition of an entry: index entries from 2014 books say so; the SRD 5.2 and homebrew count as 2024. */
+export function entryEra(e: ContentEntry): '2014' | '2024' {
+  return e.data?.era === '2014' ? '2014' : '2024';
 }
 
 export function buildIndex(entries: ContentEntry[]): SearchIndex {
@@ -41,6 +48,7 @@ function matchesFilters(e: ContentEntry, f: SearchFilters): boolean {
     if (!cats.includes(e.category)) return false;
   }
   if (f.source && e.source !== f.source) return false;
+  if (f.era && entryEra(e) !== f.era) return false;
   const spellFilter =
     f.spellLevel != null || f.spellClass || f.school || f.concentration != null || f.ritual != null;
   if (spellFilter) {

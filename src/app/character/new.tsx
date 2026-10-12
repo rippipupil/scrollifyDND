@@ -22,13 +22,18 @@ export default function NewCharacterScreen() {
   const homebrew = useHomebrew((s) => s.entries);
   const add = useCharacters((s) => s.add);
   const [step, setStep] = useState(0);
+  const [showLegacy, setShowLegacy] = useState(false);
   const [d, setD] = useState<WizardDraft>({ ...emptyDraft(), classes: [{ key: 'class:wizard', level: 1 }] });
   const set = (patch: Partial<WizardDraft>) => setD((x) => ({ ...x, ...patch }));
 
+  // 2014 options stay out of the way unless asked for (or already picked).
+  const visible = (list: ContentEntry[], picked: (string | undefined)[]) => list.filter((e) => showLegacy || e.data?.era !== '2014' || picked.includes(keyOf(e)));
   const classes = useMemo(() => entriesOf('class', homebrew), [homebrew]);
-  const subclasses = useMemo(() => entriesOf('subclass', homebrew), [homebrew]);
-  const species = useMemo(() => entriesOf('species', homebrew), [homebrew]);
-  const backgrounds = useMemo(() => entriesOf('background', homebrew), [homebrew]);
+  const subclasses = useMemo(() => visible(entriesOf('subclass', homebrew), d.classes.map((k) => k.subclassKey)), [homebrew, showLegacy, d.classes]);
+  const species = useMemo(() => visible(entriesOf('species', homebrew), [d.speciesKey]), [homebrew, showLegacy, d.speciesKey]);
+  const backgrounds = useMemo(() => visible(entriesOf('background', homebrew), [d.backgroundKey]), [homebrew, showLegacy, d.backgroundKey]);
+  const tag = (e: ContentEntry) => (e.source === 'homebrew' ? ' ·HB' : e.source !== 'external' ? '' : e.data?.era === '2014' ? ' ·2014' : e.book === 'PHB 2024' ? ' ·PHB' : ' ·2024');
+  const legacyToggle = <Chip label={t('wizard.showLegacy')} active={showLegacy} onPress={() => setShowLegacy(!showLegacy)} />;
 
   const firstClass = getEntry(d.classes[0]?.key, homebrew);
   const speciesEntry = getEntry(d.speciesKey, homebrew);
@@ -42,7 +47,7 @@ export default function NewCharacterScreen() {
   const pickAll = (cat: ContentEntry[], current: string | undefined, onPick: (key: string | undefined) => void) => (
     <Row wrap>
       {cat.map((e) => (
-        <Chip key={keyOf(e)} label={`${loc(e.name)}${e.source === 'external' ? ' ·PHB' : e.source === 'homebrew' ? ' ·HB' : ''}`} active={current === keyOf(e)} onPress={() => onPick(current === keyOf(e) ? undefined : keyOf(e))} />
+        <Chip key={keyOf(e)} label={`${loc(e.name)}${tag(e)}`} active={current === keyOf(e)} onPress={() => onPick(current === keyOf(e) ? undefined : keyOf(e))} />
       ))}
     </Row>
   );
@@ -62,12 +67,12 @@ export default function NewCharacterScreen() {
             <Txt muted>{t('wizard.chooseClass')}</Txt>
             {d.classes.map((k, idx) => {
               const ce = getEntry(k.key, homebrew);
-              const subs = subclasses.filter((s) => s.data?.classId === ce?.id);
+              const subs = subclasses.filter((s) => s.data?.classId === ce?.id.replace(/^ext-class-/, ''));
               return (
                 <Card key={idx} title={`${t('sheet.classes')} ${idx + 1}`} right={idx > 0 ? <Button small kind="ghost" label="✕" onPress={() => set({ classes: d.classes.filter((_, i) => i !== idx) })} /> : undefined}>
                   <Row wrap>
                     {classes.map((e) => (
-                      <Chip key={keyOf(e)} label={loc(e.name)} active={k.key === keyOf(e)} onPress={() =>
+                      <Chip key={keyOf(e)} label={`${loc(e.name)}${tag(e)}`} active={k.key === keyOf(e)} onPress={() =>
                           set({
                             classes: d.classes.map((x, i) => (i === idx ? { key: keyOf(e), level: x.level } : x)),
                             // A different first class means different skill and equipment options.
@@ -87,7 +92,7 @@ export default function NewCharacterScreen() {
                       </Txt>
                       <Row wrap>
                         {subs.map((s) => (
-                          <Chip key={keyOf(s)} label={`${loc(s.name)}${s.source === 'external' ? ' ·PHB' : ''}`} active={k.subclassKey === keyOf(s)} onPress={() => set({ classes: d.classes.map((x, i) => (i === idx ? { ...x, subclassKey: x.subclassKey === keyOf(s) ? undefined : keyOf(s) } : x)) })} />
+                          <Chip key={keyOf(s)} label={`${loc(s.name)}${tag(s)}`} active={k.subclassKey === keyOf(s)} onPress={() => set({ classes: d.classes.map((x, i) => (i === idx ? { ...x, subclassKey: x.subclassKey === keyOf(s) ? undefined : keyOf(s) } : x)) })} />
                         ))}
                       </Row>
                     </>
@@ -95,6 +100,7 @@ export default function NewCharacterScreen() {
                 </Card>
               );
             })}
+            {legacyToggle}
             <Button kind="secondary" label={t('sheet.addClass')} onPress={() => set({ classes: [...d.classes, { key: 'class:fighter', level: 1 }] })} />
           </>
         );
@@ -102,6 +108,7 @@ export default function NewCharacterScreen() {
         return (
           <>
             <Txt muted>{t('wizard.chooseSpecies')}</Txt>
+            {legacyToggle}
             {pickAll(species, d.speciesKey, (key) => set({ speciesKey: key, subspeciesId: undefined }))}
             {speciesEntry?.data?.subspecies?.length ? (
               <Card title={t('wizard.chooseSubspecies')}>
@@ -120,6 +127,7 @@ export default function NewCharacterScreen() {
               </Row>
             ) : null}
             {speciesEntry?.source === 'external' ? <Txt muted>{t('wizard.speciesExternal')}</Txt> : null}
+            {speciesEntry?.data?.era === '2014' ? <Txt muted>{t('wizard.legacyPicked')}</Txt> : null}
             {!d.speciesKey ? <Field label={t('wizard.customSpecies')} value={d.customSpeciesName ?? ''} onChangeText={(v) => set({ customSpeciesName: v })} /> : null}
             {speciesEntry?.text ? (
               <Card>
@@ -132,6 +140,7 @@ export default function NewCharacterScreen() {
         return (
           <>
             <Txt muted>{t('wizard.chooseBackground')}</Txt>
+            {legacyToggle}
             {pickAll(backgrounds, d.backgroundKey, (key) => set({ backgroundKey: key, asi: { mode: '21' } }))}
             {!d.backgroundKey ? <Field label={t('wizard.customBackground')} value={d.customBackgroundName ?? ''} onChangeText={(v) => set({ customBackgroundName: v })} /> : null}
             <Card title={t('wizard.asiTitle')}>

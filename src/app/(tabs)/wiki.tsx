@@ -11,7 +11,7 @@ import { useTheme } from '../../theme';
 import type { SearchFilters } from '../../wiki/search';
 
 const CATEGORIES: Category[] = ['spell', 'equipment', 'magic-item', 'class', 'subclass', 'species', 'background', 'feat', 'condition', 'rule', 'monster', 'feature', 'mastery', 'weapon-property'];
-const CLASSES = ['bard', 'cleric', 'druid', 'paladin', 'ranger', 'sorcerer', 'warlock', 'wizard'];
+const CLASSES = ['artificer', 'bard', 'cleric', 'druid', 'paladin', 'ranger', 'sorcerer', 'warlock', 'wizard'];
 const SCHOOLS = ['abjuration', 'conjuration', 'divination', 'enchantment', 'evocation', 'illusion', 'necromancy', 'transmutation'];
 
 export default function WikiScreen() {
@@ -22,8 +22,9 @@ export default function WikiScreen() {
   const [query, setQuery] = useState('');
   const [category, setCategory] = useState<Category | undefined>();
   const [spell, setSpell] = useState<Omit<SearchFilters, 'category'>>({});
+  const [era, setEra] = useState<SearchFilters['era']>();
 
-  const filters: SearchFilters = useMemo(() => (category === 'spell' ? { category, ...spell } : category ? { category } : {}), [category, spell]);
+  const filters: SearchFilters = useMemo(() => ({ ...(category === 'spell' ? { category, ...spell } : category ? { category } : {}), ...(era ? { era } : {}) }), [category, spell, era]);
   const results = useMemo(() => searchContent(query, filters, lang, homebrew, 400), [query, filters, lang, homebrew]);
   const toggle = <K extends keyof typeof spell>(k: K, v: (typeof spell)[K]) => setSpell((s) => ({ ...s, [k]: s[k] === v ? undefined : v }));
 
@@ -36,6 +37,11 @@ export default function WikiScreen() {
           {CATEGORIES.map((cat) => (
             <Chip key={cat} label={t(`categories.${cat}`)} active={category === cat} onPress={() => setCategory(category === cat ? undefined : cat)} />
           ))}
+        </ScrollView>
+        <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{ gap: 6 }}>
+          <Chip label={t('wiki.eraAll')} active={!era} onPress={() => setEra(undefined)} />
+          <Chip label={t('wiki.era2024')} active={era === '2024'} onPress={() => setEra(era === '2024' ? undefined : '2024')} />
+          <Chip label={t('wiki.era2014')} active={era === '2014'} onPress={() => setEra(era === '2014' ? undefined : '2014')} />
         </ScrollView>
         {category === 'spell' ? (
           <View style={{ gap: 6 }}>

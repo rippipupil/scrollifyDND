@@ -36,7 +36,7 @@ export const en: Dict = {
     species: 'Species', background: 'Backgrounds', feat: 'Feats', condition: 'Conditions', rule: 'Rules', monster: 'Monsters',
     feature: 'Class features', mastery: 'Masteries', 'weapon-property': 'Weapon properties',
   },
-  classNames: { barbarian: 'Barbarian', bard: 'Bard', cleric: 'Cleric', druid: 'Druid', fighter: 'Fighter', monk: 'Monk', paladin: 'Paladin', ranger: 'Ranger', rogue: 'Rogue', sorcerer: 'Sorcerer', warlock: 'Warlock', wizard: 'Wizard' },
+  classNames: { artificer: 'Artificer', barbarian: 'Barbarian', bard: 'Bard', cleric: 'Cleric', druid: 'Druid', fighter: 'Fighter', monk: 'Monk', paladin: 'Paladin', ranger: 'Ranger', rogue: 'Rogue', sorcerer: 'Sorcerer', warlock: 'Warlock', wizard: 'Wizard' },
   rarity: { Common: 'Common', Uncommon: 'Uncommon', Rare: 'Rare', 'Very Rare': 'Very Rare', Legendary: 'Legendary', Artifact: 'Artifact', Varies: 'Varies' },
   alignments: { LG: 'Lawful Good', NG: 'Neutral Good', CG: 'Chaotic Good', LN: 'Lawful Neutral', N: 'Neutral', CN: 'Chaotic Neutral', LE: 'Lawful Evil', NE: 'Neutral Evil', CE: 'Chaotic Evil' },
   itemKinds: { gear: 'Gear', weapon: 'Weapon', armor: 'Armor', shield: 'Shield', magic: 'Magic', other: 'Other' },
@@ -77,6 +77,7 @@ export const en: Dict = {
     totalLevel: 'Total level', subclass: 'Subclass', hitDie: 'Hit die', casterType: 'Caster type', classLevel: 'Class level',
     addClass: 'Add class (multiclass)', portrait: 'Portrait', size: 'Size', spellbook: 'Spellbook', other: 'Other',
   },
+  featTypes: { origin: 'Origin', general: 'General', 'fighting-style': 'Fighting Style', 'epic-boon': 'Epic Boon', dragonmark: 'Dragonmark', 'dark-gift': 'Dark Gift' },
   casterTypes: { none: 'Not a caster', full: 'Full', half: 'Half', third: 'Third', pact: 'Pact Magic' },
   recharge: { short: 'Short rest', long: 'Long rest', none: 'Manual' },
   wizard: {
@@ -89,6 +90,7 @@ export const en: Dict = {
     assign: 'Assign 15, 14, 13, 12, 10 and 8', chooseSkills: 'Choose {n} class skills', fromBackground: 'From background',
     equipmentOptionA: 'Option A (gear)', equipmentOptionB: 'Option B (gold)', create: 'Create character', finalScores: 'Final scores',
     nameRequired: 'Give your character a name.', speciesExternal: "This species isn't in the SRD: it's added by name and you can write its traits yourself.",
+    showLegacy: 'Also show 2014 (legacy) options', legacyPicked: 'A 2014 option: check with your DM how it fits the 2024 rules.',
   },
   wiki: {
     title: 'Wiki', searchPlaceholder: 'Search spells, items, rules…', results: '{n} results', all: 'All', filters: 'Filters',
@@ -102,6 +104,9 @@ export const en: Dict = {
     resistances: 'Resistances', vulnerabilities: 'Vulnerabilities', conditionImmunities: 'Condition immunities', homebrew: 'Homebrew',
     source: 'Source', openIn: 'Open in {site}', searchIn: 'Search {site}', page: 'p. {n}', type: 'Type', mastery: 'Mastery', damage: 'Damage', properties: 'Properties', armorClass: 'AC',
     strength: 'Min. Strength', stealth: 'Stealth', stealthDis: 'Disadvantage', subclasses: 'Subclasses',
+    eraAll: 'All editions', era2024: '5.5 (2024)', era2014: '5e (2014, legacy)', edition: 'Edition', or: 'or', darkvision: 'Darkvision',
+    racialFeat: 'Racial feat (2014)',
+    legacyNote: 'A 5e (2014) option. It still works with the 2024 rules if your DM allows it; when a 2024 version exists, use that instead.',
   },
   dice: {
     title: 'Dice', expression: 'Expression (e.g. 2d6+3)', roll: 'Roll', advantage: 'Advantage', disadvantage: 'Disadvantage',

@@ -3,6 +3,7 @@ import { SpellIcon } from '../SpellIcon';
 import { Pressable, View } from 'react-native';
 import type { ContentEntry } from '../../content/types';
 import { isFallback } from '../../i18n';
+import { entryEra } from '../../wiki/search';
 import { useT } from '../../i18n/useT';
 import { useTheme } from '../../theme';
 import { Badge, Txt } from '../ui';
@@ -18,6 +19,10 @@ export function entrySubtitle(e: ContentEntry, t: (k: string, v?: any) => string
       return d.rarity ? t(`rarity.${d.rarity}`) : '';
     case 'equipment':
       return [d.cost, d.weight ? `${d.weight} lb` : ''].filter(Boolean).join(' · ');
+    case 'subclass':
+      return d.classId ? `${t('categories.subclass')} · ${t(`classNames.${d.classId}`)}` : t('categories.subclass');
+    case 'feat':
+      return d.type ? `${t('categories.feat')} · ${t(`featTypes.${d.type}`)}` : t('categories.feat');
     default:
       return t(`categories.${e.category}`);
   }
@@ -33,6 +38,7 @@ export function EntryRow({ entry, onPress }: { entry: ContentEntry; onPress: () 
         <Txt style={{ flex: 1, fontWeight: '600' }} numberOfLines={1}>
           {loc(entry.name)}
         </Txt>
+        {entryEra(entry) === '2014' ? <Badge label="2014" color={c.warning} /> : null}
         {entry.source === 'external' ? <Badge label={entry.book ?? 'PHB'} /> : null}
         {entry.source === 'homebrew' ? <Badge label={t('wiki.homebrew')} color={c.accent} /> : null}
         {isFallback(entry.text, lang) ? <Badge label="EN" /> : null}
