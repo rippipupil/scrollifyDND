@@ -1,5 +1,6 @@
 import { angvel } from '../../rules/__tests__/fixtures';
-import { availableSlots, castSpell, cycleSkillProf, toggleCondition, toggleSave } from '../actions';
+import { availableSlots, castSpell, cycleSkillProf, spendSlot, toggleCondition, toggleSave } from '../actions';
+import { newCharacter } from '../../rules/core';
 import type { KnownSpell } from '../../rules/types';
 
 const sphere: KnownSpell = { uid: 's1', name: { en: 'Flaming Sphere' }, level: 2, prepared: true, concentration: true };
@@ -65,4 +66,15 @@ test('toggle condition, save and cycle skill proficiency', () => {
   expect(cycleSkillProf(c, 'arcana').proficiencies.skills.arcana).toBe('expertise');
   expect(cycleSkillProf(cycleSkillProf(c, 'arcana'), 'arcana').proficiencies.skills.arcana).toBe('none');
   expect(cycleSkillProf(c, 'stealth').proficiencies.skills.stealth).toBe('prof');
+});
+
+test('table mode spends and recovers slots within the maximum', () => {
+  const wiz = newCharacter({ classes: [{ classId: 'wizard', name: { en: 'Wizard' }, level: 3, hitDie: 6, hitDiceUsed: 0, casterType: 'full', spellAbility: 'int' }] });
+  let c = spendSlot(wiz, 2, 1);
+  expect(c.spellcasting.slotsUsed[1]).toBe(1);
+  c = spendSlot(spendSlot(spendSlot(c, 2, 1), 2, 1), 2, 1);
+  expect(c.spellcasting.slotsUsed[1]).toBe(2);
+  c = spendSlot(spendSlot(spendSlot(c, 2, -1), 2, -1), 2, -1);
+  expect(c.spellcasting.slotsUsed[1]).toBe(0);
+  expect(spendSlot(wiz, 5, 1).spellcasting.slotsUsed[4]).toBe(0);
 });

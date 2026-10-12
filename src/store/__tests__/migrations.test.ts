@@ -85,3 +85,9 @@ describe('malformed input never yields a character that crashes the sheet', () =
     expect(c.inventory[0].qty).toBe(2);
   });
 });
+
+test('a portrait survives migration only when it is an image URI', () => {
+  expect(migrateCharacter({ name: 'A', portraitUri: 'data:image/jpeg;base64,AAAA' }).portraitUri).toBe('data:image/jpeg;base64,AAAA');
+  expect(migrateCharacter({ name: 'B', portraitUri: 42 }).portraitUri).toBeUndefined();
+  expect(migrateCharacter({ name: 'C', portraitUri: 'javascript:alert(1)' }).portraitUri).toBeUndefined();
+});

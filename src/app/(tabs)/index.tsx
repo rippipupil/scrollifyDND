@@ -4,6 +4,7 @@ import { Pressable, View } from 'react-native';
 import { confirmAsync } from '../../components/dialogs';
 import { ImportSheet } from '../../components/ImportSheet';
 import { ShareSheet } from '../../components/ShareSheet';
+import { Avatar } from '../../components/Portrait';
 import { Button, Card, Row, Screen, Sheet, Txt } from '../../components/ui';
 import { useT } from '../../i18n/useT';
 import { armorClass } from '../../rules/combat';
@@ -46,6 +47,7 @@ export default function CharactersScreen() {
         <Pressable key={c.id} onPress={() => router.push({ pathname: '/character/[id]', params: { id: c.id } })} onLongPress={() => setMenu(c)} testID={`character-${c.name}`}>
           <Card>
             <Row>
+              <Avatar uri={c.portraitUri} name={c.name} size={44} />
               <View style={{ flex: 1 }}>
                 <Txt variant="heading">{c.name || t('characters.untitled')}</Txt>
                 <Txt muted variant="small">

@@ -156,6 +156,8 @@ export const es: Dict = {
     areaOf: '{shape} de {size}', gp: 'po', consumed: 'se consume', concentrationUpTo: 'Concentración, hasta {span}',
     shape: { cone: 'cono', sphere: 'esfera', line: 'línea', cube: 'cubo', radius: 'radio', emanation: 'emanación', hemisphere: 'semiesfera', cylinder: 'cilindro' },
   },
+  table: { open: 'Mesa', title: 'Modo mesa', awake: 'La pantalla no se apagará mientras estés aquí.', slotsHint: 'Toca un nivel para gastar un espacio; mantén pulsado para recuperarlo.' },
+  portrait: { camera: 'Hacer una foto', library: 'Elegir de la galería', remove: 'Quitar retrato', failed: 'No se pudo cargar la imagen.' },
   attack: {
     full: 'Ataque completo', target: 'Objetivo', targetAc: 'CA del objetivo (opcional)', normal: 'Normal', hit: '¡Impacta!', miss: 'Falla',
     crit: '¡Crítico! Impacta', fumble: '1 natural: falla', noAc: 'Sin CA: decide el DM', critDice: 'dados dobles por crítico',

@@ -11,6 +11,8 @@ export function ShareSheet({ kind, payload, name, visible, onClose }: { kind: Bu
   const { t } = useT();
   const [showQr, setShowQr] = useState(false);
   const code = visible ? encodeBundle(kind, payload) : '';
+  // A portrait doesn't fit in a QR code: the QR carries the sheet without it (file and code keep it).
+  const qr = visible && kind === 'character' && (payload as { portraitUri?: string }).portraitUri ? encodeBundle(kind, { ...(payload as object), portraitUri: undefined }) : code;
   return (
     <Sheet visible={visible} onClose={() => (setShowQr(false), onClose())} title={`${t('share.title')}: ${name}`}>
       <Button label={t('share.shareFile')} onPress={() => shareBundleFile(kind, payload, name).catch((e) => notify(String(e)))} />
@@ -22,10 +24,10 @@ export function ShareSheet({ kind, payload, name, visible, onClose }: { kind: Bu
           notify(t('common.copied'));
         }}
       />
-      {code.length <= QR_MAX_CHARS ? (
+      {qr.length <= QR_MAX_CHARS ? (
         showQr ? (
           <View style={{ alignItems: 'center', padding: 12, backgroundColor: '#fff', borderRadius: 12 }}>
-            <QRCode value={code} size={260} />
+            <QRCode value={qr} size={260} />
           </View>
         ) : (
           <Button kind="secondary" label={t('share.showQr')} onPress={() => setShowQr(true)} />

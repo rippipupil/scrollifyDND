@@ -1,6 +1,7 @@
-import { Stack, useLocalSearchParams } from 'expo-router';
+import { Stack, useLocalSearchParams, useRouter } from 'expo-router';
 import { useState } from 'react';
 import { ScrollView } from 'react-native';
+import { Avatar, PortraitSheet } from '../../../components/Portrait';
 import { ShareSheet } from '../../../components/ShareSheet';
 import { CombatTab } from '../../../components/sheet/CombatTab';
 import { EditPanel } from '../../../components/sheet/EditPanel';
@@ -24,6 +25,8 @@ export default function CharacterSheetScreen() {
   const [tab, setTab] = useState<Tab>('main');
   const [editing, setEditing] = useState(false);
   const [sharing, setSharing] = useState(false);
+  const [portrait, setPortrait] = useState(false);
+  const router = useRouter();
   if (!c) {
     return (
       <Screen>
@@ -38,17 +41,21 @@ export default function CharacterSheetScreen() {
           title: c.name || t('characters.untitled'),
           headerRight: () => (
             <Row>
+              <Button small kind="ghost" label={t('table.open')} onPress={() => router.push({ pathname: '/character/[id]/table', params: { id: c.id } })} testID="open-table-mode" />
               <Button small kind="ghost" label={t('common.share')} onPress={() => setSharing(true)} />
               <Button small kind={editing ? 'primary' : 'ghost'} label={editing ? t('common.done') : t('common.edit')} onPress={() => setEditing(!editing)} testID="toggle-edit" />
             </Row>
           ),
         }}
       />
-      <Txt muted>
+      <Row>
+        <Avatar uri={c.portraitUri} name={c.name} size={56} onPress={() => setPortrait(true)} testID="portrait" />
+      <Txt muted style={{ flex: 1 }}>
         {[loc(c.species.name), loc(c.background.name), c.classes.map((k) => `${loc(k.name)} ${k.level}${k.subclassName ? ` (${loc(k.subclassName)})` : ''}`).join(' / '), c.alignment ? t(`alignments.${c.alignment}`) : '']
           .filter(Boolean)
           .join(' · ')}
       </Txt>
+      </Row>
       {editing ? <EditPanel c={c} mutate={mutate} /> : null}
       <HpPanel c={c} mutate={mutate} />
       <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{ gap: 6 }}>
@@ -63,6 +70,7 @@ export default function CharacterSheetScreen() {
       {tab === 'features' ? <FeaturesTab c={c} mutate={mutate} /> : null}
       {tab === 'notes' ? <NotesTab c={c} mutate={mutate} /> : null}
       <ShareSheet kind="character" payload={c} name={c.name} visible={sharing} onClose={() => setSharing(false)} />
+      <PortraitSheet visible={portrait} onClose={() => setPortrait(false)} hasPortrait={!!c.portraitUri} onChange={(uri) => mutate((x) => ({ ...x, portraitUri: uri }))} />
     </Screen>
   );
 }

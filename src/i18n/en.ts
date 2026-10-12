@@ -156,6 +156,8 @@ export const en: Dict = {
     areaOf: '{size} {shape}', gp: 'gp', consumed: 'consumed', concentrationUpTo: 'Concentration, up to {span}',
     shape: { cone: 'cone', sphere: 'sphere', line: 'line', cube: 'cube', radius: 'radius', emanation: 'emanation', hemisphere: 'hemisphere', cylinder: 'cylinder' },
   },
+  table: { open: 'Table', title: 'Table mode', awake: "The screen won't turn off while you're here.", slotsHint: 'Tap a level to spend a slot; long-press to get it back.' },
+  portrait: { camera: 'Take a photo', library: 'Choose from gallery', remove: 'Remove portrait', failed: "Couldn't load the image." },
   attack: {
     full: 'Full attack', target: 'Target', targetAc: 'Target AC (optional)', normal: 'Normal', hit: 'Hit!', miss: 'Miss',
     crit: 'Critical hit!', fumble: 'Natural 1: miss', noAc: 'No AC: the DM decides', critDice: 'dice doubled for the crit',

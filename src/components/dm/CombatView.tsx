@@ -75,7 +75,7 @@ function EffectSheet({ preset, onClose }: { preset: string[] | null; onClose: ()
             <Chip key={p} label={p} active={name === p} onPress={() => setName(p)} />
           ))}
       </Row>
-      <NumberField label={t('effects.rounds')} value={rounds} allowEmpty min={0} max={999} onChange={setRounds} placeholder="∞" />
+      <NumberField label={t('effects.rounds')} value={rounds} allowEmpty min={0} max={999} onChange={setRounds} placeholder="∞" testID="effect-rounds" />
       <Txt variant="small" muted>
         {t('effects.roundsHint')}
       </Txt>

@@ -33,6 +33,13 @@
           "cameraPermission": "Scrollify usa la cámara para escanear códigos QR de fichas y homebrew.",
           "recordAudioAndroid": false
         }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Scrollify usa tus fotos para poner un retrato a tus personajes.",
+          "cameraPermission": "Scrollify usa la cámara para escanear códigos QR y hacer retratos de tus personajes."
+        }
       ]
     ]
   }

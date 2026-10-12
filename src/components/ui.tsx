@@ -101,12 +101,13 @@ export function Field({ label, style, ...props }: TextInputProps & { label?: str
   );
 }
 
-export function NumberField({ label, value, onChange, min = -999, max = 9999, placeholder, allowEmpty }: { label?: string; value: number | undefined; onChange: (n: number | undefined) => void; min?: number; max?: number; placeholder?: string; allowEmpty?: boolean }) {
+export function NumberField({ label, value, onChange, min = -999, max = 9999, placeholder, allowEmpty, testID }: { label?: string; value: number | undefined; onChange: (n: number | undefined) => void; min?: number; max?: number; placeholder?: string; allowEmpty?: boolean; testID?: string }) {
   return (
     <Field
       label={label}
       keyboardType="number-pad"
       placeholder={placeholder}
+      testID={testID}
       value={value === undefined ? '' : String(value)}
       onChangeText={(txt) => {
         if (txt.trim() === '' || txt === '-') return onChange(allowEmpty ? undefined : min > 0 ? min : 0);

@@ -53,6 +53,8 @@ export function migrateCharacter(raw: unknown): Character {
   const base = newCharacter();
   const c = fillDefaults(base, raw);
   if (!c.id) c.id = base.id;
+  // A portrait is a data URI or file URI; anything else would break the image.
+  if (c.portraitUri !== undefined && (typeof c.portraitUri !== 'string' || !/^(data:image\/|file:|https?:|blob:)/.test(c.portraitUri))) delete c.portraitUri;
 
   c.species = { ...c.species, name: loc(c.species.name) };
   if (c.species.subspecies !== undefined) c.species.subspecies = loc(c.species.subspecies);

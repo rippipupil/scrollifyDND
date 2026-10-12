@@ -53,3 +53,18 @@ export function cycleSkillProf(c: Character, skill: SkillId): Character {
   const cur = c.proficiencies.skills[skill] ?? 'none';
   return { ...c, proficiencies: { ...c.proficiencies, skills: { ...c.proficiencies.skills, [skill]: NEXT[cur] } } };
 }
+
+/** Spends (+1) or recovers (−1) one spell slot of a level, within the character's maximum. */
+export function spendSlot(c: Character, level: number, delta: 1 | -1): Character {
+  const max = spellSlots(c).slots[level - 1] ?? 0;
+  const used = [...c.spellcasting.slotsUsed];
+  while (used.length < 9) used.push(0);
+  used[level - 1] = Math.max(0, Math.min(max, (used[level - 1] ?? 0) + delta));
+  return { ...c, spellcasting: { ...c.spellcasting, slotsUsed: used } };
+}
+
+/** Spends (+1) or recovers (−1) one Pact Magic slot. */
+export function spendPactSlot(c: Character, delta: 1 | -1): Character {
+  const max = spellSlots(c).pact?.count ?? 0;
+  return { ...c, spellcasting: { ...c.spellcasting, pactUsed: Math.max(0, Math.min(max, c.spellcasting.pactUsed + delta)) } };
+}
