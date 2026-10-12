@@ -158,6 +158,15 @@ export const en: Dict = {
   },
   table: { open: 'Table', title: 'Table mode', awake: "The screen won't turn off while you're here.", slotsHint: 'Tap a level to spend a slot; long-press to get it back.' },
   portrait: { camera: 'Take a photo', library: 'Choose from gallery', remove: 'Remove portrait', failed: "Couldn't load the image." },
+  journal: {
+    title_tab: 'Journal', all: 'All', search: 'Search the journal', empty: 'Keep sessions, quests, NPCs and places here. Write [[Name]] to link them together.',
+    kinds: { session: 'Session', quest: 'Quest', npc: 'NPC', place: 'Place', note: 'Note' },
+    newKind: { session: 'Session', quest: 'Quest', npc: 'NPC', place: 'Place', note: 'Note' },
+    status: { open: 'Open', done: 'Done', failed: 'Failed' },
+    title: 'Title', date: 'Date (YYYY-MM-DD)', body: 'Text', emptyBody: 'No text yet. Tap Edit.',
+    linkHint: "Write [[Name]] to link another page; if it doesn't exist, tapping the link creates it.", links: 'Links', mentionedIn: 'Mentioned in',
+  },
+  screen: { title: 'Screen', source: 'Summary of the SRD 5.2.1 rules (CC BY 4.0).' },
   attack: {
     full: 'Full attack', target: 'Target', targetAc: 'Target AC (optional)', normal: 'Normal', hit: 'Hit!', miss: 'Miss',
     crit: 'Critical hit!', fumble: 'Natural 1: miss', noAc: 'No AC: the DM decides', critDice: 'dice doubled for the crit',

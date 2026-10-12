@@ -93,6 +93,29 @@ const out = process.argv[2];
   } else console.log('missed: nothing to apply');
   await p.getByRole('button', { name: 'close' }).last().click();
   await p.waitForTimeout(300);
+  // Journal: a page with a [[link]] that creates the linked page, which then shows the backlink
+  await p.getByText('Diario', { exact: true }).click();
+  await p.getByTestId('journal-new').click();
+  await p.waitForTimeout(400);
+  await p.getByTestId('journal-title').fill('Sildar Hallwinter');
+  await p.getByTestId('journal-body').fill('Rescatado en la [[Cueva Cragmaw]] por el grupo.');
+  await p.getByTestId('journal-edit-toggle').click();
+  await p.waitForTimeout(300);
+  await p.getByText('Cueva Cragmaw', { exact: true }).first().click();
+  await p.waitForTimeout(400);
+  await p.getByTestId('journal-edit-toggle').last().click();
+  await p.waitForTimeout(300);
+  console.log('backlink shown:', await p.getByText('Mencionado en').count(), await p.getByText('Sildar Hallwinter').count());
+  await p.screenshot({ path: out + '/36-journal.png', fullPage: true });
+  await p.goBack();
+  await p.goBack();
+  await p.waitForTimeout(300);
+  await p.getByText('Pantalla', { exact: true }).click();
+  await p.getByText('Cobertura', { exact: true }).click();
+  await p.waitForTimeout(200);
+  console.log('screen cover row:', await p.getByText('+5 a CA y salvaciones de Destreza').count());
+  await p.screenshot({ path: out + '/37-dm-screen.png', fullPage: true });
+
   // Table mode for a quick level 3 wizard
   await p.getByRole('tab', { name: /Personajes/ }).click();
   await p.getByTestId('create-character').click();

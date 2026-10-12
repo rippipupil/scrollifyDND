@@ -158,6 +158,15 @@ export const es: Dict = {
   },
   table: { open: 'Mesa', title: 'Modo mesa', awake: 'La pantalla no se apagará mientras estés aquí.', slotsHint: 'Toca un nivel para gastar un espacio; mantén pulsado para recuperarlo.' },
   portrait: { camera: 'Hacer una foto', library: 'Elegir de la galería', remove: 'Quitar retrato', failed: 'No se pudo cargar la imagen.' },
+  journal: {
+    title_tab: 'Diario', all: 'Todo', search: 'Buscar en el diario', empty: 'Apunta aquí sesiones, misiones, PNJ y lugares. Escribe [[Nombre]] para enlazarlos entre sí.',
+    kinds: { session: 'Sesión', quest: 'Misión', npc: 'PNJ', place: 'Lugar', note: 'Nota' },
+    newKind: { session: 'Sesión', quest: 'Misión', npc: 'PNJ', place: 'Lugar', note: 'Nota' },
+    status: { open: 'Abierta', done: 'Cumplida', failed: 'Fallida' },
+    title: 'Título', date: 'Fecha (AAAA-MM-DD)', body: 'Texto', emptyBody: 'Sin texto todavía. Pulsa Editar.',
+    linkHint: 'Escribe [[Nombre]] para enlazar otra entrada; si no existe, se crea al tocar el enlace.', links: 'Enlaces', mentionedIn: 'Mencionado en',
+  },
+  screen: { title: 'Pantalla', source: 'Resumen de las reglas del SRD 5.2.1 (CC BY 4.0).' },
   attack: {
     full: 'Ataque completo', target: 'Objetivo', targetAc: 'CA del objetivo (opcional)', normal: 'Normal', hit: '¡Impacta!', miss: 'Falla',
     crit: '¡Crítico! Impacta', fumble: '1 natural: falla', noAc: 'Sin CA: decide el DM', critDice: 'dados dobles por crítico',
