@@ -22,6 +22,13 @@ Fichas de personaje funcionales y wiki para **D&D 5.5 (reglas 2024)**, en **espa
 - Índice del contenido que no está en el SRD (Aasimar, trasfondos, dotes y subclases del Manual del Jugador 2024, Silvery Barbs…) con enlaces a **AideDD**, **Wikidot** y **Nivel20**.
 - «Añadir a personaje» desde cualquier conjuro, objeto o dote.
 
+**DM**
+- Bestiario propio: apunta tus enemigos con su ficha completa (CA, PG y fórmula, velocidad, características, salvaciones, habilidades, **vulnerabilidades/debilidades**, resistencias, inmunidades, sentidos, idiomas, rasgos, acciones, ataques, acciones adicionales, reacciones, acciones legendarias y notas).
+- Créalos de cero o copia cualquiera de los 341 monstruos del SRD (también desde su página de la wiki) y edítalo.
+- Toca un ataque para tirar el ataque y el daño; toca una característica, salvación o habilidad para tirarla.
+- Combate: añade varios enemigos a la vez (numerados, PG fijos o tirados), personajes guardados y otros (PNJ, trampas); iniciativa, orden de turnos, rondas, daño/curación/PG temporales, estados y notas por combatiente.
+- Exporta e importa el bestiario para no perderlo al cambiar de móvil.
+
 **Homebrew**: crea especies, conjuros, objetos, dotes o rasgos propios y compártelos con el grupo como paquete.
 
 ## Instalar en Android

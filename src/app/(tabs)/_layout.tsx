@@ -24,6 +24,7 @@ export default function TabsLayout() {
     >
       <Tabs.Screen name="index" options={{ title: t('tabs.characters'), tabBarIcon: icon('account-group') }} />
       <Tabs.Screen name="wiki" options={{ title: t('tabs.wiki'), tabBarIcon: icon('book-open-page-variant') }} />
+      <Tabs.Screen name="dm" options={{ title: t('tabs.dm'), tabBarIcon: icon('sword-cross') }} />
       <Tabs.Screen name="dice" options={{ title: t('tabs.dice'), tabBarIcon: icon('dice-d20') }} />
       <Tabs.Screen name="settings" options={{ title: t('tabs.settings'), tabBarIcon: icon('cog') }} />
     </Tabs>

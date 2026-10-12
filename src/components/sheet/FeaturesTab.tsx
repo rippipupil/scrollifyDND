@@ -10,14 +10,10 @@ import { Markdown } from '../Markdown';
 import { Button, Card, Field, Row, Sheet, Txt } from '../ui';
 import type { Mutate } from './useCharacter';
 
-/** Comma-separated list field: free typing, parsed into a list when the field loses focus. */
+/** Comma-separated list field: keeps the raw text while typing and saves the parsed list on every keystroke. */
 function ListField({ label, value, onCommit }: { label: string; value: string[]; onCommit: (list: string[]) => void }) {
   const [text, setText] = useState(value.join(', '));
-  const commit = () => {
-    const list = text.split(',').map((s) => s.trim()).filter(Boolean);
-    if (list.join('\u0000') !== value.join('\u0000')) onCommit(list);
-  };
-  return <Field label={label} value={text} onChangeText={setText} onBlur={commit} onSubmitEditing={commit} />;
+  return <Field label={label} value={text} onChangeText={(v) => (setText(v), onCommit(v.split(',').map((s) => s.trim()).filter(Boolean)))} />;
 }
 
 const LISTS = ['armor', 'weapons', 'tools', 'languages'] as const;

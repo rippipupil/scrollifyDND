@@ -1,12 +1,15 @@
 import type { ContentEntry } from '../content/types';
+import { sanitizeEnemy } from '../dm/enemy';
+import type { Enemy } from '../dm/types';
 import { uid } from '../rules/core';
 import type { Character } from '../rules/types';
 import { migrateCharacter } from '../store/migrations';
 
-export type BundleKind = 'character' | 'homebrew';
+export type BundleKind = 'character' | 'homebrew' | 'enemies';
 export type Decoded =
   | { ok: true; kind: 'character'; payload: Character }
   | { ok: true; kind: 'homebrew'; payload: ContentEntry[] }
+  | { ok: true; kind: 'enemies'; payload: Enemy[] }
   | { ok: false; error: 'invalid' };
 
 const PREFIX = 'SCRL1:';
@@ -81,6 +84,9 @@ export function decodeBundle(text: string): Decoded {
     const obj = JSON.parse(json);
     if (!obj || obj.app !== 'scrollify' || obj.v !== 1) return { ok: false, error: 'invalid' };
     if (obj.kind === 'character') return { ok: true, kind: 'character', payload: migrateCharacter(obj.payload) };
+    if (obj.kind === 'enemies' && Array.isArray(obj.payload)) {
+      return { ok: true, kind: 'enemies', payload: obj.payload.filter((x: unknown) => typeof x === 'object' && x !== null).map(sanitizeEnemy) };
+    }
     if (obj.kind === 'homebrew' && Array.isArray(obj.payload) && obj.payload.every(isEntry)) {
       return { ok: true, kind: 'homebrew', payload: obj.payload };
     }

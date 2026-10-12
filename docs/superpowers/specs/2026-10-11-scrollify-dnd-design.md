@@ -143,3 +143,14 @@ Character {
 - Sincronización en la nube, cuentas, vista de DM en tiempo real.
 - Asistente de subida de nivel (lo hace el DM).
 - Texto con copyright fuera del SRD.
+
+## Addendum (2026-10-12): DM section
+
+User request: "un apartado de DM donde pueda apuntar enemigos con sus nombres, vida, debilidad, habilidades, ataques, etc."
+
+- New bottom tab **DM** with two views: **Enemigos** (the DM's own bestiary) and **Combate** (encounter tracker).
+- **Enemy** = full 2024 stat block, all editable: name, size, type, alignment, CR/XP, AC (+ note), HP max + formula, speed, six abilities, save bonuses, skill bonuses, damage vulnerabilities (debilidades) / resistances / immunities, condition immunities, senses, languages, traits, actions (attack bonus, damage dice + type, or save DC), bonus actions, reactions, legendary actions, free notes.
+- Create from scratch or copy any of the 341 SRD monsters as a starting point (names localized; SRD action text stays English, editable).
+- Stat block view: tap an attack to roll to-hit and damage with the shared dice roller; tap an ability to roll a check.
+- **Combat tracker**: add N copies of an enemy (auto-numbered "Trasgo 1, 2…", HP fixed or rolled from formula) and saved player characters (HP/AC/initiative from their sheet); roll initiative for enemies; sorted turn order with round counter and next turn; per-combatant damage (temp HP first) / heal / temp HP / conditions / notes; enemies at 0 HP are marked defeated and skipped. Player-character HP in the tracker is a copy (the player tracks their own sheet).
+- Local only, persisted (`scrollify.dm`), sanitized on load like characters. Bestiary export/import via the existing share codec (kind `enemies`); imported ids that already exist get a new id.

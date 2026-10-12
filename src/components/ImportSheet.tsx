@@ -5,6 +5,7 @@ import { useT } from '../i18n/useT';
 import { decodeBundle, prepareCharacterImport, type Decoded } from '../share/codec';
 import { pickBundleText } from '../share/io';
 import { useCharacters } from '../store/characters';
+import { useDm } from '../store/dm';
 import { useHomebrew } from '../store/homebrew';
 import { Button, Field, Sheet, Txt } from './ui';
 
@@ -25,6 +26,10 @@ export function useApplyBundle() {
       const c = prepareCharacterImport(d.payload, ids);
       add(c);
       return t('share.imported', { name: c.name });
+    }
+    if (d.kind === 'enemies') {
+      const n = useDm.getState().importEnemies(d.payload);
+      return t('share.imported', { name: `${n} ${t('dm.enemiesLower')}` });
     }
     const n = importMany(d.payload);
     return t('share.imported', { name: `${n} homebrew` });
