@@ -1,0 +1,102 @@
+{
+ "Spellfire Storm": {
+  "es": "- **Área:** cilindro de 6 m de radio y 6 m de alto de luz brillante a tu alcance (puedes excluir criaturas).\n- **Salvación:** Constitución al aparecer, al entrar por primera vez en el turno o al terminarlo dentro (una vez por turno). **Fallo:** 4d10 radiante. **Éxito:** mitad.\n- Quien lance un conjuro dentro hace salvación de Constitución o lo pierde (sin gastar el espacio).\n- **Niveles superiores:** +1d10 por nivel por encima de 4.\n- **Como conjuro en círculo** (zafiro estrella azul de 25.000 po y secundarios con espacio de nivel 3+): alcance de 1,6 km, sin concentración; 1–3 secundarios: 12 m y 1 h; 4–6: 18 m y 8 h; 7+: 30 m y 24 h.",
+  "en": "- **Area:** 20-ft-radius, 20-ft-high cylinder of bright light in range (you can exclude creatures).\n- **Save:** Constitution when it appears, first entering on a turn, or ending a turn inside (once per turn). **Fail:** 4d10 radiant. **Success:** half.\n- A creature casting a spell inside makes a Constitution save or loses it (slot not spent).\n- **Higher levels:** +1d10 per slot level above 4.\n- **As a Circle spell** (25,000 gp blue star sapphire, secondaries with level 3+ slots): range 1 mile, no concentration; 1–3 secondaries: 40 ft and 1 h; 4–6: 60 ft and 8 h; 7+: 100 ft and 24 h."
+ },
+ "Spirit Lantern": {
+  "es": "- **Efecto:** un farol fantasmal flota sobre ti con luz tenue en 18 m. Cuando un enemigo muere en esa luz, un fragmento de su alma entra en el farol (máximo: tu modificador de lanzamiento).\n- **Acción adicional (gasta un fragmento), a una criatura que veas a 18 m:**\n  - *Drenar vida:* salvación de Constitución; **fallo** 4d8 + tu modificador necrótico, **éxito** mitad.\n  - *Reparar muerto viviente:* recupera 4d8 + tu modificador PG.\n  - *Proteger aliado:* los ataques contra él tienen desventaja hasta el inicio de tu siguiente turno.",
+  "en": "- **Effect:** a ghostly lantern floats above you shedding dim light 60 ft. When an enemy dies in that light, a soul fragment enters it (max = your spellcasting modifier).\n- **Bonus action (spend a fragment), on a creature you see within 60 ft:**\n  - *Drain Life:* Constitution save; **fail** 4d8 + your modifier necrotic, **success** half.\n  - *Repair Undead:* it regains 4d8 + your modifier HP.\n  - *Ward Ally:* attacks against it have disadvantage until the start of your next turn."
+ },
+ "Spirit of Death": {
+  "es": "- **Efecto:** invocas un espíritu segador (bloque «Espíritu segador») en un espacio libre que veas; desaparece a 0 PG o al terminar.\n- Es tu aliado, comparte tu iniciativa y actúa justo después de ti; obedece tus órdenes sin gastar acción. Sin órdenes, usa Esquivar.\n- **Niveles superiores:** el bloque usa el nivel del espacio gastado.",
+  "en": "- **Effect:** summon a reaper spirit (its stat block) in a space you see; gone at 0 HP or when it ends.\n- It's your ally, shares your initiative and acts right after you; obeys commands at no action cost. With none, it Dodges.\n- **Higher levels:** the stat block uses the slot level."
+ },
+ "Spirit Shroud": {
+  "es": "- **Efecto:** espíritus te rodean. Tus ataques hacen +1d8 (radiante, necrótico o frío, a elegir al lanzarlo) al impactar a criaturas a 3 m, y quien reciba ese daño no puede curarse hasta el inicio de tu siguiente turno.\n- Las criaturas que elijas que empiecen su turno a 3 m de ti pierden 3 m de velocidad hasta tu siguiente turno.\n- **Niveles superiores:** +1d8 por cada 2 niveles por encima de 3.",
+  "en": "- **Effect:** spirits surround you. Your attacks deal +1d8 (radiant, necrotic or cold, chosen on casting) when hitting creatures within 10 ft, and those creatures can't regain HP until the start of your next turn.\n- Creatures you choose starting their turn within 10 ft lose 10 ft speed until your next turn.\n- **Higher levels:** +1d8 per 2 slot levels above 3."
+ },
+ "Spray of Cards": {
+  "es": "- **Área:** cono de 4,5 m.\n- **Salvación:** Destreza. **Fallo:** 2d10 de fuerza y Cegada hasta el final de su siguiente turno. **Éxito:** solo la mitad del daño.\n- **Niveles superiores:** +1d10 por nivel por encima de 2.",
+  "en": "- **Area:** 15-ft cone.\n- **Save:** Dexterity. **Fail:** 2d10 force and Blinded until the end of its next turn. **Success:** half damage only.\n- **Higher levels:** +1d10 per slot level above 2."
+ },
+ "Staggering Smite": {
+  "es": "- **Se activa:** acción adicional justo después de impactar con un arma cuerpo a cuerpo o un golpe sin armas.\n- **Daño:** +4d6 psíquico, y salvación de Sabiduría o queda Aturdido hasta el final de tu siguiente turno.\n- **Niveles superiores:** +1d6 por nivel por encima de 4.",
+  "en": "- **Trigger:** bonus action right after you hit with a melee weapon or unarmed strike.\n- **Damage:** +4d6 psychic, and a Wisdom save or Stunned until the end of your next turn.\n- **Higher levels:** +1d6 per slot level above 4."
+ },
+ "Steel Wind Strike": {
+  "es": "- **Objetivo:** hasta 5 criaturas que veas; un ataque de conjuro cuerpo a cuerpo contra cada una. **Impacto:** 6d10 de fuerza.\n- Después te teletransportas a un espacio libre que veas a 1,5 m de uno de los objetivos.",
+  "en": "- **Target:** up to 5 creatures you see; a melee spell attack against each. **Hit:** 6d10 force.\n- Then teleport to a free space you see within 5 ft of one of them."
+ },
+ "Storm Sphere": {
+  "es": "- **Área:** esfera de 6 m de radio de viento (terreno difícil). Quien esté dentro al aparecer o termine su turno dentro: salvación de Fuerza o 2d6 contundente.\n- **Acción adicional:** un rayo desde el centro a una criatura a 18 m: ataque de conjuro a distancia (con ventaja si está dentro); **impacto** 4d6 relámpago.\n- Desventaja a Sabiduría (Percepción) para oír a 9 m o menos.\n- **Niveles superiores:** +1d6 a ambos efectos por nivel por encima de 4.",
+  "en": "- **Area:** 20-ft-radius sphere of wind (difficult terrain). Inside when it appears or ending a turn there: Strength save or 2d6 bludgeoning.\n- **Bonus action:** a bolt from the center at a creature within 60 ft: ranged spell attack (advantage if inside); **hit** 4d6 lightning.\n- Disadvantage on Wisdom (Perception) to listen within 30 ft.\n- **Higher levels:** +1d6 to both per slot level above 4."
+ },
+ "Summon Aberration": {
+  "es": "- **Efecto:** invocas un espíritu aberrante (bloque «Espíritu aberrante»: contemplador menor, azotamentes o slaad) en un espacio libre que veas; desaparece a 0 PG o al terminar.\n- Es tu aliado, comparte tu iniciativa y actúa justo después de ti; obedece tus órdenes sin gastar acción. Sin órdenes, usa Esquivar.\n- **Niveles superiores:** el bloque usa el nivel del espacio gastado.",
+  "en": "- **Effect:** summon an aberrant spirit (Aberrant Spirit stat block: beholderkin, mind flayer or slaad) in a space you see; gone at 0 HP or when it ends.\n- Ally, shares your initiative, acts right after you; obeys commands at no action cost. With none, it Dodges.\n- **Higher levels:** the stat block uses the slot level."
+ },
+ "Summon Beast": {
+  "es": "- **Efecto:** invocas un espíritu bestial (bloque «Espíritu bestial»: aire, tierra o agua) con aspecto de un animal de ese entorno; desaparece a 0 PG o al terminar.\n- Es tu aliado, comparte tu iniciativa y actúa justo después de ti; obedece tus órdenes sin gastar acción. Sin órdenes, usa Esquivar.\n- **Niveles superiores:** el bloque usa el nivel del espacio gastado.",
+  "en": "- **Effect:** summon a bestial spirit (Bestial Spirit stat block: air, land or water) looking like an animal of that environment; gone at 0 HP or when it ends.\n- Ally, shares your initiative, acts right after you; obeys commands at no action cost. With none, it Dodges.\n- **Higher levels:** the stat block uses the slot level."
+ },
+ "Summon Celestial": {
+  "es": "- **Efecto:** invocas un espíritu celestial angélico (bloque «Espíritu celestial»: vengador o defensor); desaparece a 0 PG o al terminar.\n- Es tu aliado, comparte tu iniciativa y actúa justo después de ti; obedece tus órdenes sin gastar acción. Sin órdenes, usa Esquivar.\n- **Niveles superiores:** el bloque usa el nivel del espacio gastado.",
+  "en": "- **Effect:** summon an angelic celestial spirit (Celestial Spirit stat block: avenger or defender); gone at 0 HP or when it ends.\n- Ally, shares your initiative, acts right after you; obeys commands at no action cost. With none, it Dodges.\n- **Higher levels:** the stat block uses the slot level."
+ },
+ "Summon Construct": {
+  "es": "- **Efecto:** invocas el espíritu de un constructo (bloque «Espíritu constructo»: arcilla, metal o piedra) con forma de estatua animada; desaparece a 0 PG o al terminar.\n- Es tu aliado, comparte tu iniciativa y actúa justo después de ti; obedece tus órdenes sin gastar acción. Sin órdenes, usa Esquivar.\n- **Niveles superiores:** el bloque usa el nivel del espacio gastado.",
+  "en": "- **Effect:** summon a construct spirit (Construct Spirit stat block: clay, metal or stone) shaped like an animate statue; gone at 0 HP or when it ends.\n- Ally, shares your initiative, acts right after you; obeys commands at no action cost. With none, it Dodges.\n- **Higher levels:** the stat block uses the slot level."
+ },
+ "Summon Dinosaur": {
+  "es": "- **Efecto:** invocas el espíritu de un dinosaurio (bloque «Espíritu dinosaurio»: anquilosaurio, tricerátops o tiranosaurio); desaparece a 0 PG o al terminar.\n- Es tu aliado, comparte tu iniciativa y actúa justo después de ti; obedece tus órdenes sin gastar acción. Sin órdenes, usa Esquivar.\n- **Niveles superiores:** el bloque usa el nivel del espacio gastado.",
+  "en": "- **Effect:** summon a dinosaur spirit (Dinosaur Spirit stat block: ankylosaur, triceratops or tyrannosaur); gone at 0 HP or when it ends.\n- Ally, shares your initiative, acts right after you; obeys commands at no action cost. With none, it Dodges.\n- **Higher levels:** the stat block uses the slot level."
+ },
+ "Summon Draconic Spirit": {
+  "es": "- **Efecto:** invocas un espíritu dracónico (bloque «Espíritu dracónico»: cromático, gemático o metálico); desaparece a 0 PG o al terminar.\n- Es tu aliado, comparte tu iniciativa y actúa justo después de ti; obedece tus órdenes sin gastar acción. Sin órdenes, usa Esquivar.\n- **Niveles superiores:** el bloque usa el nivel del espacio gastado.\n- En 5.5 lo sustituye *Invocar dragón* (Manual del Jugador 2024).",
+  "en": "- **Effect:** summon a draconic spirit (Draconic Spirit stat block: chromatic, gem or metallic); gone at 0 HP or when it ends.\n- Ally, shares your initiative, acts right after you; obeys commands at no action cost. With none, it Dodges.\n- **Higher levels:** the stat block uses the slot level.\n- In 5.5 it's replaced by Summon Dragon (2024 PHB)."
+ },
+ "Summon Elemental": {
+  "es": "- **Efecto:** invocas un espíritu elemental (bloque «Espíritu elemental»: aire, tierra, fuego o agua); desaparece a 0 PG o al terminar.\n- Es tu aliado, comparte tu iniciativa y actúa justo después de ti; obedece tus órdenes sin gastar acción. Sin órdenes, usa Esquivar.\n- **Niveles superiores:** el bloque usa el nivel del espacio gastado.",
+  "en": "- **Effect:** summon an elemental spirit (Elemental Spirit stat block: air, earth, fire or water); gone at 0 HP or when it ends.\n- Ally, shares your initiative, acts right after you; obeys commands at no action cost. With none, it Dodges.\n- **Higher levels:** the stat block uses the slot level."
+ },
+ "Summon Fey": {
+  "es": "- **Efecto:** invocas un espíritu feérico (bloque «Espíritu feérico»: furioso, alegre o travieso); desaparece a 0 PG o al terminar.\n- Es tu aliado, comparte tu iniciativa y actúa justo después de ti; obedece tus órdenes sin gastar acción. Sin órdenes, usa Esquivar.\n- **Niveles superiores:** el bloque usa el nivel del espacio gastado.",
+  "en": "- **Effect:** summon a fey spirit (Fey Spirit stat block: fuming, mirthful or tricksy); gone at 0 HP or when it ends.\n- Ally, shares your initiative, acts right after you; obeys commands at no action cost. With none, it Dodges.\n- **Higher levels:** the stat block uses the slot level."
+ },
+ "Summon Fiend": {
+  "es": "- **Efecto:** invocas un espíritu infernal (bloque «Espíritu infernal»: demonio, diablo o yugoloth); desaparece a 0 PG o al terminar.\n- Es tu aliado, comparte tu iniciativa y actúa justo después de ti; obedece tus órdenes sin gastar acción. Sin órdenes, usa Esquivar.\n- **Niveles superiores:** el bloque usa el nivel del espacio gastado.",
+  "en": "- **Effect:** summon a fiendish spirit (Fiendish Spirit stat block: demon, devil or yugoloth); gone at 0 HP or when it ends.\n- Ally, shares your initiative, acts right after you; obeys commands at no action cost. With none, it Dodges.\n- **Higher levels:** the stat block uses the slot level."
+ },
+ "Summon Greater Demon": {
+  "es": "- **Efecto:** invocas un demonio de VD 5 o menos; tira su propia iniciativa. Le das una orden cada turno sin gastar acción; sin órdenes, ataca a quien le haya atacado.\n- Al final de cada uno de sus turnos hace salvación de Carisma (con desventaja si dices su nombre verdadero); si la supera, deja de obedecerte y ataca a los no demonios más cercanos.\n- Puedes trazar un círculo de sangre en tu espacio que no puede cruzar ni atacar.\n- **Niveles superiores:** +1 al VD por nivel por encima de 4.",
+  "en": "- **Effect:** summon a demon of CR 5 or lower; it rolls its own initiative. Give it a command each turn at no action cost; with none, it attacks whoever attacked it.\n- At the end of each of its turns it makes a Charisma save (disadvantage if you say its true name); on a success it breaks free and attacks the nearest non-demons.\n- You can draw a blood circle around your space it can't cross or target.\n- **Higher levels:** +1 CR per slot level above 4."
+ },
+ "Summon Lesser Demons": {
+  "es": "- **Efecto:** tira 1d6: 1–2, dos demonios de VD 1 o menos; 3–4, cuatro de VD 1/2 o menos; 5–6, ocho de VD 1/4 o menos (el DM elige cuáles).\n- Son hostiles a todos, también a ti; actúan en grupo y atacan a los no demonios más cercanos.\n- Puedes trazar un círculo de sangre en tu espacio que no pueden cruzar ni atacar.\n- **Niveles superiores:** el doble de demonios con espacio de nivel 6–7; el triple con 8–9.",
+  "en": "- **Effect:** roll 1d6: 1–2, two demons of CR 1 or lower; 3–4, four of CR 1/2 or lower; 5–6, eight of CR 1/4 or lower (DM picks).\n- They're hostile to everyone, you included; they act as a group and attack the nearest non-demons.\n- You can draw a blood circle around your space they can't cross or target.\n- **Higher levels:** twice as many with a level 6–7 slot; three times with 8–9."
+ },
+ "Summon Plant": {
+  "es": "- **Efecto:** invocas el espíritu de una planta animada (bloque «Espíritu vegetal»: hongo, árbol o enredadera); desaparece a 0 PG o al terminar.\n- Es tu aliado, comparte tu iniciativa y actúa justo después de ti; obedece tus órdenes sin gastar acción. Sin órdenes, usa Esquivar.\n- **Niveles superiores:** el bloque usa el nivel del espacio gastado.",
+  "en": "- **Effect:** summon an animated plant spirit (Plant Spirit stat block: fungus, tree or vine); gone at 0 HP or when it ends.\n- Ally, shares your initiative, acts right after you; obeys commands at no action cost. With none, it Dodges.\n- **Higher levels:** the stat block uses the slot level."
+ },
+ "Summon Shadowspawn": {
+  "es": "- **Efecto:** invocas un espíritu de sombra (bloque «Espíritu de sombra»: furia, desesperación o miedo); desaparece a 0 PG o al terminar.\n- Es tu aliado, comparte tu iniciativa y actúa justo después de ti; obedece tus órdenes sin gastar acción. Sin órdenes, usa Esquivar.\n- **Niveles superiores:** el bloque usa el nivel del espacio gastado.",
+  "en": "- **Effect:** summon a shadow spirit (Shadow Spirit stat block: fury, despair or fear); gone at 0 HP or when it ends.\n- Ally, shares your initiative, acts right after you; obeys commands at no action cost. With none, it Dodges.\n- **Higher levels:** the stat block uses the slot level."
+ },
+ "Summon Undead": {
+  "es": "- **Efecto:** invocas un espíritu muerto viviente (bloque «Espíritu muerto viviente»: fantasmal, pútrido o esquelético); desaparece a 0 PG o al terminar.\n- Es tu aliado, comparte tu iniciativa y actúa justo después de ti; obedece tus órdenes sin gastar acción. Sin órdenes, usa Esquivar.\n- **Niveles superiores:** el bloque usa el nivel del espacio gastado.",
+  "en": "- **Effect:** summon an undead spirit (Undead Spirit stat block: ghostly, putrid or skeletal); gone at 0 HP or when it ends.\n- Ally, shares your initiative, acts right after you; obeys commands at no action cost. With none, it Dodges.\n- **Higher levels:** the stat block uses the slot level."
+ },
+ "Swift Quiver": {
+  "es": "- **Efecto:** al lanzarlo y como acción adicional mientras dure, haces 2 ataques con un arma de flechas o virotes (arco largo, ballesta ligera…). El conjuro crea la munición, que hace el daño normal y se desintegra tras cada disparo.",
+  "en": "- **Effect:** on casting and as a bonus action while it lasts, make 2 attacks with an arrow or bolt weapon (longbow, light crossbow…). The spell creates the ammunition, which deals normal damage and disintegrates after each shot."
+ },
+ "Sword Burst": {
+  "es": "- **Área:** todas las demás criaturas a 1,5 m de ti.\n- **Salvación:** Destreza o 1d6 de fuerza.\n- **Mejora con tu nivel:** 2d6 (nivel 5), 3d6 (11), 4d6 (17).",
+  "en": "- **Area:** every other creature within 5 ft of you.\n- **Save:** Dexterity or 1d6 force.\n- **Scaling:** 2d6 (level 5), 3d6 (11), 4d6 (17)."
+ },
+ "Syluné's Viper": {
+  "es": "- **Efecto:** una serpiente espectral te rodea: ganas 15 PG temporales (termina si te quedas sin ellos) y velocidad de trepar igual a tu velocidad.\n- **Acción mágica:** mordisco: ataque de conjuro a distancia contra una criatura a 15 m; **impacto** 1d6 de fuerza y Envenenada (e Incapacitada) hasta el inicio de tu siguiente turno.\n- **Niveles superiores:** +5 PG temporales y +1d6 al mordisco por nivel por encima de 3.",
+  "en": "- **Effect:** a spectral snake coils around you: 15 temporary HP (ends when they're gone) and climb speed equal to your speed.\n- **Magic action:** bite: ranged spell attack at a creature within 50 ft; **hit** 1d6 force and Poisoned (and Incapacitated) until the start of your next turn.\n- **Higher levels:** +5 temporary HP and +1d6 bite per slot level above 3."
+ }
+}

@@ -106,6 +106,8 @@ export const es: Dict = {
     strength: 'Fuerza mín.', stealth: 'Sigilo', stealthDis: 'Desventaja', subclasses: 'Subclases',
     eraAll: 'Todas las ediciones', era2024: '5.5 (2024)', era2014: '5e (2014, legado)', edition: 'Edición', or: 'o', darkvision: 'Visión en la oscuridad',
     racialFeat: 'Dote racial (2014)',
+    myNotes: 'Mis notas', notesHint: 'Escribe o pega aquí lo que quieras (se guarda solo en este móvil).',
+    rulesCard: 'Ficha de reglas (resumen propio, no oficial)', rulesCardNote: 'Resumen de las mecánicas escrito para Scrollify. Texto oficial: {book} · enlaces de abajo.',
     legacyNote: 'Opción de 5e (2014). Sigue siendo compatible con las reglas 2024 si tu DM la permite; si existe una versión 2024, úsala en su lugar.',
   },
   dice: {

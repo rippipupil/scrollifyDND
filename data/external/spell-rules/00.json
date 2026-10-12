@@ -1,0 +1,102 @@
+{
+ "Abi-Dalzim's Horrid Wilting": {
+  "es": "- **Área:** cubo de 9 m en un punto a tu alcance.\n- **Salvación:** Constitución. **Fallo:** 12d8 necrótico. **Éxito:** mitad.\n- No afecta a constructos ni muertos vivientes; plantas y elementales de agua salvan con desventaja.\n- Las plantas normales del área se marchitan al instante.",
+  "en": "- **Area:** 30-ft cube on a point in range.\n- **Save:** Constitution. **Fail:** 12d8 necrotic. **Success:** half.\n- Constructs and undead are immune; plants and water elementals save with disadvantage.\n- Ordinary plants in the area wither at once."
+ },
+ "Absorb Elements": {
+  "es": "- **Se activa:** reacción al recibir daño de ácido, frío, fuego, relámpago o trueno.\n- **Efecto:** resistencia a ese tipo de daño hasta el inicio de tu siguiente turno (también contra el golpe que lo activó).\n- **Además:** tu primer ataque cuerpo a cuerpo que impacte en tu siguiente turno hace +1d6 de ese tipo.\n- **Niveles superiores:** +1d6 por nivel por encima de 1.",
+  "en": "- **Trigger:** reaction when you take acid, cold, fire, lightning or thunder damage.\n- **Effect:** resistance to that type until the start of your next turn (including the triggering hit).\n- **Also:** your first melee hit on your next turn deals +1d6 of that type.\n- **Higher levels:** +1d6 per slot level above 1."
+ },
+ "Aganazzar's Scorcher": {
+  "es": "- **Área:** línea de 9 m × 1,5 m desde ti.\n- **Salvación:** Destreza. **Fallo:** 3d8 fuego. **Éxito:** mitad.\n- **Niveles superiores:** +1d8 por nivel por encima de 2.",
+  "en": "- **Area:** 30 × 5 ft line from you.\n- **Save:** Dexterity. **Fail:** 3d8 fire. **Success:** half.\n- **Higher levels:** +1d8 per slot level above 2."
+ },
+ "Air Bubble": {
+  "es": "- **Objetivo:** una criatura voluntaria que veas.\n- **Efecto:** una burbuja de aire fresco rodea su cabeza: puede respirar (bajo el agua, en el vacío, en gas…) mientras dure.\n- **Niveles superiores:** 2 burbujas más (2 criaturas más) por nivel por encima de 2.",
+  "en": "- **Target:** one willing creature you can see.\n- **Effect:** a globe of fresh air around its head lets it breathe (underwater, in vacuum, in gas…) for the duration.\n- **Higher levels:** 2 more globes (2 more creatures) per slot level above 2."
+ },
+ "Alustriel's Mooncloak": {
+  "es": "- **Área:** emanación de 6 m desde ti, con luz tenue.\n- **Efecto:** tú y tus aliados dentro tenéis cobertura y resistencia a frío, relámpago y radiante.\n- **Opciones (usar una termina el conjuro):**\n  - *Liberación:* reacción al fallar una salvación para evitar o acabar con Asustado, Agarrado o Apresado: la superas.\n  - *Respiro:* acción mágica: tú o un aliado en el área recupera 4d10 + tu modificador de lanzamiento PG.",
+  "en": "- **Area:** 20-ft emanation from you, dim light.\n- **Effect:** you and allies inside have cover and resistance to cold, lightning and radiant.\n- **Options (using one ends the spell):**\n  - *Liberation:* reaction when you fail a save against Frightened, Grappled or Restrained: succeed instead.\n  - *Respite:* Magic action: you or an ally in the area regains 4d10 + your spellcasting modifier HP."
+ },
+ "Antagonize": {
+  "es": "- **Objetivo:** una criatura a tu alcance.\n- **Salvación:** Sabiduría. **Fallo:** 4d4 psíquico y usa su reacción para atacar cuerpo a cuerpo a otra criatura que elijas; si no puede, desventaja en su siguiente ataque antes de tu próximo turno. **Éxito:** solo la mitad del daño.\n- **Niveles superiores:** +1d4 por nivel por encima de 3.",
+  "en": "- **Target:** one creature in range.\n- **Save:** Wisdom. **Fail:** 4d4 psychic and it uses its reaction to make a melee attack against another creature you choose; if it can't, disadvantage on its next attack before your next turn. **Success:** half damage only.\n- **Higher levels:** +1d4 per slot level above 3."
+ },
+ "Arcane Gate": {
+  "es": "- **Efecto:** dos portales enlazados en espacios Grandes libres del suelo: uno a tu alcance y otro a 3 m o menos de ti.\n- Solo se cruzan por su cara abierta; lo que entra por uno sale por el otro como si estuvieran juntos. Bloquean la vista.\n- **Acción adicional:** cambiar hacia dónde mira la cara abierta.",
+  "en": "- **Effect:** two linked portals in Large unoccupied ground spaces: one in range, one within 10 ft of you.\n- Only the open side works; whatever enters one exits the other as if adjacent. They block sight.\n- **Bonus action:** change which side is open."
+ },
+ "Arcane Vigor": {
+  "es": "- **Efecto:** tira 1 o 2 de tus dados de golpe sin gastar y recuperas el total + tu modificador de lanzamiento PG. Esos dados quedan gastados.\n- **Niveles superiores:** 1 dado más por nivel por encima de 2.",
+  "en": "- **Effect:** roll 1 or 2 of your unspent Hit Dice and regain the total + your spellcasting modifier HP. Those dice are spent.\n- **Higher levels:** 1 more die per slot level above 2."
+ },
+ "Armor of Agathys": {
+  "es": "- **Efecto:** ganas 5 PG temporales.\n- Mientras dure, quien te impacte con un ataque cuerpo a cuerpo recibe 5 de frío.\n- Termina antes si te quedas sin PG temporales.\n- **Niveles superiores:** +5 PG temporales y +5 de frío por nivel por encima de 1.",
+  "en": "- **Effect:** gain 5 temporary HP.\n- While it lasts, a creature that hits you with a melee attack takes 5 cold.\n- Ends early when the temporary HP are gone.\n- **Higher levels:** +5 temporary HP and +5 cold per slot level above 1."
+ },
+ "Arms of Hadar": {
+  "es": "- **Área:** emanación de 3 m desde ti.\n- **Salvación:** Fuerza. **Fallo:** 2d6 necrótico y no puede usar reacciones hasta el inicio de su siguiente turno. **Éxito:** solo la mitad del daño.\n- **Niveles superiores:** +1d6 por nivel por encima de 1.",
+  "en": "- **Area:** 10-ft emanation from you.\n- **Save:** Strength. **Fail:** 2d6 necrotic and no reactions until the start of its next turn. **Success:** half damage only.\n- **Higher levels:** +1d6 per slot level above 1."
+ },
+ "Ashardalon's Stride": {
+  "es": "- **Efecto:** tu velocidad aumenta 6 m y moverte no provoca ataques de oportunidad.\n- Cada criatura u objeto suelto a 1,5 m o menos por el que pases recibe 1d6 de fuego (una vez por turno cada uno).\n- **Niveles superiores:** +1,5 m de velocidad y +1d6 de fuego por nivel por encima de 3.",
+  "en": "- **Effect:** +20 ft speed and your movement doesn't provoke opportunity attacks.\n- Each creature or loose object you move within 5 ft of takes 1d6 fire (once per turn each).\n- **Higher levels:** +5 ft speed and +1d6 fire per slot level above 3."
+ },
+ "Aura of Evasion": {
+  "es": "- **Área:** emanación de 9 m desde ti.\n- **Efecto:** tú y tus aliados dentro tenéis ventaja en salvaciones de Destreza y, ante efectos de «mitad de daño si se supera», no recibís daño al superar y solo la mitad al fallar.\n- No beneficia a quien esté Incapacitado.",
+  "en": "- **Area:** 30-ft emanation from you.\n- **Effect:** you and allies inside have advantage on Dexterity saves and, against half-damage effects, take no damage on a success and half on a failure.\n- No benefit while Incapacitated."
+ },
+ "Aura of Purity": {
+  "es": "- **Área:** emanación de 9 m desde ti.\n- **Efecto:** tú y tus aliados dentro tenéis resistencia al veneno y ventaja en salvaciones para evitar o terminar efectos de Cegado, Hechizado, Ensordecido, Asustado, Paralizado, Envenenado o Aturdido.",
+  "en": "- **Area:** 30-ft emanation from you.\n- **Effect:** you and allies inside have resistance to poison and advantage on saves to avoid or end Blinded, Charmed, Deafened, Frightened, Paralyzed, Poisoned or Stunned."
+ },
+ "Aura of Vitality": {
+  "es": "- **Área:** emanación de 9 m desde ti.\n- **Efecto:** al crearla y al inicio de cada uno de tus turnos, una criatura del aura recupera 2d6 PG.",
+  "en": "- **Area:** 30-ft emanation from you.\n- **Effect:** when you create it and at the start of each of your turns, one creature in the aura regains 2d6 HP."
+ },
+ "Backlash": {
+  "es": "- **Se activa:** reacción al recibir daño.\n- **Efecto:** reduces ese daño en 4d6 + tu modificador de lanzamiento.\n- **Además:** si el daño venía de una criatura a tu alcance, salvación de Constitución: **fallo** 4d6 de fuerza, **éxito** mitad.\n- **Niveles superiores:** +1d6 a la reducción y al daño por nivel por encima de 4.",
+  "en": "- **Trigger:** reaction when you take damage.\n- **Effect:** reduce that damage by 4d6 + your spellcasting modifier.\n- **Also:** if a creature in range dealt it, Constitution save: **fail** 4d6 force, **success** half.\n- **Higher levels:** +1d6 to both per slot level above 4."
+ },
+ "Banishing Smite": {
+  "es": "- **Se activa:** al impactar con un ataque (acción adicional).\n- **Daño:** +5d10 de fuerza.\n- Si el objetivo queda a 50 PG o menos: salvación de Carisma o es enviado a un semiplano inofensivo mientras dure, Incapacitado. Al acabar vuelve a su sitio (o al más cercano libre).",
+  "en": "- **Trigger:** when you hit with an attack (bonus action).\n- **Damage:** +5d10 force.\n- If the target is at 50 HP or fewer: Charisma save or it's sent to a harmless demiplane for the duration, Incapacitated. It returns to its space (or the nearest free one) when the spell ends."
+ },
+ "Battle Familiar": {
+  "es": "- **Efecto:** invocas un familiar de combate (celestial, feérico o infernal con forma animal) con su propio bloque de estadísticas; eliges forma Bruto, Volador o Acechador.\n- Es tu aliado, tira su propia iniciativa y actúa en su turno. Desaparece al acabar el conjuro, a 0 PG o si mueres. Solo uno a la vez.\n- **Si ya tienes un familiar de *Encontrar familiar*:** en vez de invocar otro, lo potencias: usa ese bloque de estadísticas, puede atacar y gana PG temporales iguales a los PG del familiar de combate.\n- **Niveles superiores:** el bloque usa el nivel del espacio gastado.",
+  "en": "- **Effect:** summon a battle familiar (celestial, fey or fiend in animal shape) with its own stat block; pick the Brute, Flyer or Stalker form.\n- It's your ally, rolls its own initiative and acts on its turn. Gone when the spell ends, at 0 HP or if you die. One at a time.\n- **If you have a Find Familiar familiar:** you empower it instead: it uses this stat block, can attack, and gains temporary HP equal to the battle familiar's HP.\n- **Higher levels:** the stat block uses the slot level."
+ },
+ "Beast Bond": {
+  "es": "- **Objetivo:** una bestia amistosa o hechizada que toques, con Inteligencia 3 o menos.\n- **Efecto:** vínculo telepático mientras os veáis: entiende tus mensajes y te transmite emociones e ideas simples.\n- La bestia tiene ventaja al atacar a criaturas que veas a 1,5 m o menos de ti.",
+  "en": "- **Target:** one friendly or charmed beast you touch, Intelligence 3 or lower.\n- **Effect:** telepathic link while you see each other: it understands your messages and sends you simple emotions and ideas.\n- The beast has advantage on attacks against creatures you can see within 5 ft of you."
+ },
+ "Beast Sense": {
+  "es": "- **Objetivo:** una bestia voluntaria que toques.\n- **Efecto:** mientras dure, puedes percibir a través de sus sentidos (incluidos sus sentidos especiales) además de los tuyos.",
+  "en": "- **Target:** one willing beast you touch.\n- **Effect:** for the duration you can perceive through its senses (including special senses) as well as your own."
+ },
+ "Blade of Disaster": {
+  "es": "- **Efecto:** creas una grieta planar con forma de hoja a tu alcance y haces al momento hasta 2 ataques de conjuro cuerpo a cuerpo contra criaturas u objetos a 1,5 m de ella.\n- **Impacto:** 10d6 de fuerza; crítico con 18–20 en el d20.\n- **Acción adicional (turnos siguientes):** mueve la grieta hasta 18 m y repite los 2 ataques.\n- Atraviesa cualquier barrera, incluido *Muro de fuerza*.",
+  "en": "- **Effect:** create a blade-shaped planar rift in range and immediately make up to 2 melee spell attacks against creatures or objects within 5 ft of it.\n- **Hit:** 10d6 force; crits on 18–20.\n- **Bonus action (later turns):** move it up to 60 ft and repeat the 2 attacks.\n- Passes through any barrier, including Wall of Force."
+ },
+ "Blade Ward": {
+  "es": "- **Efecto:** mientras dure, quien haga una tirada de ataque contra ti resta 1d4 a la tirada.",
+  "en": "- **Effect:** while it lasts, attackers subtract 1d4 from attack rolls against you."
+ },
+ "Blinding Smite": {
+  "es": "- **Se activa:** al impactar con un ataque (acción adicional).\n- **Daño:** +3d8 radiante y el objetivo queda Cegado mientras dure.\n- Al final de cada uno de sus turnos repite una salvación de Constitución; si la supera, termina.\n- **Niveles superiores:** +1d8 por nivel por encima de 3.",
+  "en": "- **Trigger:** when you hit with an attack (bonus action).\n- **Damage:** +3d8 radiant and the target is Blinded for the duration.\n- It repeats a Constitution save at the end of each of its turns, ending it on a success.\n- **Higher levels:** +1d8 per slot level above 3."
+ },
+ "Bones of the Earth": {
+  "es": "- **Efecto:** hasta 6 pilares de piedra (1,5 m de diámetro, hasta 9 m de alto) en el suelo que veas. CA 5 y 30 PG cada uno; al romperse dejan terreno difícil de 3 m de radio.\n- **Bajo una criatura Mediana o menor:** salvación de Destreza o la eleva (puede fallar a propósito).\n- **Si choca con un techo:** quien vaya encima recibe 6d6 contundente y queda Apresado; puede liberarse con una prueba de Fuerza o Destreza contra tu CD.\n- **Niveles superiores:** 2 pilares más por nivel por encima de 6.",
+  "en": "- **Effect:** up to 6 stone pillars (5 ft wide, up to 30 ft tall) on ground you see. AC 5, 30 HP each; broken ones leave 10-ft-radius difficult terrain.\n- **Under a Medium or smaller creature:** Dexterity save or it's lifted (it may choose to fail).\n- **Blocked by a ceiling:** a creature on top takes 6d6 bludgeoning and is Restrained; it escapes with a Strength or Dexterity check against your DC.\n- **Higher levels:** 2 more pillars per slot level above 6."
+ },
+ "Booming Blade": {
+  "es": "- **Efecto:** haces un ataque cuerpo a cuerpo con el arma contra una criatura a 1,5 m. Si impacta, efectos normales y queda envuelta en energía hasta el inicio de tu siguiente turno.\n- Si se mueve voluntariamente 1,5 m o más antes de eso: 1d8 de trueno y termina.\n- **Mejora con tu nivel:** a nivel 5, +1d8 de trueno al impactar y 2d8 al moverse; a 11, 2d8 y 3d8; a 17, 3d8 y 4d8.",
+  "en": "- **Effect:** make a melee weapon attack against one creature within 5 ft. On a hit, normal effects and it's sheathed in energy until the start of your next turn.\n- If it willingly moves 5 ft or more before then: 1d8 thunder and the spell ends.\n- **Scaling:** at level 5, +1d8 thunder on the hit and 2d8 for moving; at 11, 2d8/3d8; at 17, 3d8/4d8."
+ },
+ "Borrowed Knowledge": {
+  "es": "- **Efecto:** eliges una habilidad en la que no seas competente y ganas competencia en ella mientras dure.\n- Termina antes si lo vuelves a lanzar.",
+  "en": "- **Effect:** pick a skill you lack proficiency in; you're proficient in it for the duration.\n- Ends early if you cast it again."
+ }
+}

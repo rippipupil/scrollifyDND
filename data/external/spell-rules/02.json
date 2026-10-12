@@ -1,0 +1,102 @@
+{
+ "Death Armor": {
+  "es": "- **Objetivo:** una criatura que toques.\n- **Efecto:** ventaja en las salvaciones contra muerte y, una vez por turno, quien la impacte con un ataque cuerpo a cuerpo desde 1,5 m recibe 2d4 necrótico.",
+  "en": "- **Target:** one creature you touch.\n- **Effect:** advantage on death saving throws and, once per turn, a creature within 5 ft that hits it with a melee attack takes 2d4 necrotic."
+ },
+ "Deryan's Helpful Homunculi": {
+  "es": "- **Efecto:** invocas espíritus ayudantes (intangibles e invulnerables) con competencia en Arcanos y en las herramientas de artesano usadas.\n- Si estás fabricando un objeto, cuentan como un ayudante: el tiempo de fabricación se reduce a la mitad.",
+  "en": "- **Effect:** summon helpful spirits (intangible, invulnerable) proficient in Arcana and with the artisan's tools used.\n- While you craft, they count as one assistant: crafting time is halved."
+ },
+ "Destructive Wave": {
+  "es": "- **Área:** emanación de 9 m desde ti; solo las criaturas que elijas.\n- **Salvación:** Constitución. **Fallo:** 5d6 trueno + 5d6 radiante o necrótico (tú eliges) y Derribado. **Éxito:** solo la mitad del daño.",
+  "en": "- **Area:** 30-ft emanation from you; only creatures you choose.\n- **Save:** Constitution. **Fail:** 5d6 thunder + 5d6 radiant or necrotic (your choice) and Prone. **Success:** half damage only."
+ },
+ "Detonate": {
+  "es": "- **Objetivo:** una criatura que veas. **Salvación:** Constitución. **Fallo:** 10d10 fuego. **Éxito:** mitad.\n- **Explosión:** después, cada criatura en una emanación de 18 m desde el objetivo (sin contarlo) hace salvación de Destreza (con desventaja si el objetivo cayó a 0 PG): **fallo** 10d10 fuego, **éxito** mitad.\n- Los objetos sueltos del área también reciben el daño y arden si son inflamables.",
+  "en": "- **Target:** one creature you can see. **Save:** Constitution. **Fail:** 10d10 fire. **Success:** half.\n- **Explosion:** then each other creature in a 60-ft emanation from the target makes a Dexterity save (disadvantage if the target dropped to 0 HP): **fail** 10d10 fire, **success** half.\n- Loose objects in the area also take it and flammable ones catch fire."
+ },
+ "Dirge": {
+  "es": "- **Área:** emanación de 18 m desde ti (puedes excluir criaturas). Las demás no pueden recuperar PG dentro.\n- **Salvación:** Constitución cuando el área la alcanza, entra o termina su turno dentro (una vez por turno). **Fallo:** 3d10 necrótico y Derribada. **Éxito:** mitad y velocidad a la mitad.\n- **Como conjuro en círculo** (2+ lanzadores secundarios que gastan espacio de nivel 4+): dura hasta 10 minutos; quien falle gana 1 nivel de Agotamiento y, mientras lo tenga, el descanso largo no le devuelve PG ni le quita Agotamiento.",
+  "en": "- **Area:** 60-ft emanation from you (you can exclude creatures). Others can't regain HP inside.\n- **Save:** Constitution when the area reaches it, it enters, or ends its turn inside (once per turn). **Fail:** 3d10 necrotic and Prone. **Success:** half and speed halved.\n- **As a Circle spell** (2+ secondary casters spending a level 4+ slot): lasts up to 10 minutes; a failed save also gives 1 Exhaustion level, and while exhausted a long rest restores neither HP nor Exhaustion."
+ },
+ "Disruptive Tune": {
+  "es": "- **Área:** esfera de 6 m de radio en un punto a tu alcance.\n- **Salvación:** Constitución. **Fallo:** pierde la concentración y tiene desventaja en las salvaciones para mantenerla mientras dure el conjuro.",
+  "en": "- **Area:** 20-ft-radius sphere on a point in range.\n- **Save:** Constitution. **Fail:** it loses Concentration and has disadvantage on saves to keep Concentration for the duration."
+ },
+ "Distort Value": {
+  "es": "- **Objetivo:** un objeto de hasta 30 cm de lado.\n- **Efecto:** su valor aparente se duplica (adornos ilusorios) o se reduce a la mitad (rayas y abolladuras ilusorias).\n- Quien lo examine puede descubrir el valor real con una prueba de Inteligencia (Investigación) contra tu CD.\n- **Niveles superiores:** +30 cm de tamaño máximo por nivel por encima de 1.",
+  "en": "- **Target:** one object up to 1 ft on a side.\n- **Effect:** its apparent value is doubled (illusory polish) or halved (illusory scratches and dents).\n- An examiner learns the true value with an Intelligence (Investigation) check against your DC.\n- **Higher levels:** +1 ft max size per slot level above 1."
+ },
+ "Distorted Distance": {
+  "es": "- **Área:** esfera de 18 m de radio a tu alcance. Para cada criatura que veas dentro (al lanzarlo, al entrar o al terminar su turno, una vez por turno) eliges:\n  - *Alargamiento:* salvación de Inteligencia; **fallo** 2d10 psíquico y la esfera es terreno difícil para ella hasta el final de su turno.\n  - *Atajo:* +6 m de velocidad hasta el final de su siguiente turno.",
+  "en": "- **Area:** 60-ft-radius sphere in range. For each creature you see inside (on casting, entering, or ending its turn, once per turn) pick:\n  - *Dizzying Elongation:* Intelligence save; **fail** 2d10 psychic and the sphere is difficult terrain for it until the end of its turn.\n  - *Shortened Space:* +20 ft speed until the end of its next turn."
+ },
+ "Doomtide": {
+  "es": "- **Área:** esfera de 6 m de radio de niebla (oscuridad mágica) a tu alcance; se aleja 3 m de ti al inicio de cada uno de tus turnos. Un viento fuerte la disipa.\n- **Salvación:** Sabiduría al aparecer, al alcanzarla, al entrar o al terminar el turno dentro (una vez por turno). **Fallo:** 5d6 psíquico y resta 1d6 a sus salvaciones hasta el final de su siguiente turno. **Éxito:** solo la mitad del daño.\n- **Como conjuro en círculo** (5+ lanzadores con espacios de nivel 3+ y un collar de 3 perlas negras): alcance de 1,6 km y dura hasta que se disipe.",
+  "en": "- **Area:** 20-ft-radius sphere of fog (magical darkness) in range; it drifts 10 ft away from you at the start of each of your turns. Strong wind disperses it.\n- **Save:** Wisdom when it appears, moves onto, is entered, or a creature ends its turn inside (once per turn). **Fail:** 5d6 psychic and −1d6 to its saves until the end of its next turn. **Success:** half damage only.\n- **As a Circle spell** (5+ casters with level 3+ slots and a string of 3 black pearls): range 1 mile and lasts until dispelled."
+ },
+ "Draconic Transformation": {
+  "es": "- **Efecto (mientras dure):**\n  - Vista ciega de 9 m.\n  - **Aliento:** al lanzarlo y como acción adicional después, cono de 18 m; salvación de Destreza, **fallo** 6d8 de fuerza, **éxito** mitad.\n  - Alas: velocidad de vuelo de 18 m.",
+  "en": "- **Effect (for the duration):**\n  - Blindsight 30 ft.\n  - **Breath:** on casting and as a bonus action later, 60-ft cone; Dexterity save, **fail** 6d8 force, **success** half.\n  - Wings: 60-ft flying speed."
+ },
+ "Dream of the Blue Veil": {
+  "es": "- **Objetivo:** tú y hasta 8 criaturas voluntarias; quedáis Inconscientes y soñáis con otro mundo del plano material.\n- Si llega a la duración completa, viajáis físicamente a ese mundo: a un lugar seguro a 1,6 km de donde se creó el objeto mágico usado (o de donde nació una de las criaturas).\n- Quien reciba daño despierta y no viaja; si eres tú, nadie viaja.",
+  "en": "- **Target:** you and up to 8 willing creatures; you fall Unconscious and dream of another Material Plane world.\n- At full duration you all travel there: to a safe spot within 1 mile of where the magic item used was made (or where one creature was born).\n- A creature that takes damage wakes and stays behind; if it's you, no one goes."
+ },
+ "Druid Grove": {
+  "es": "- **Área:** de un cubo de 9 m a uno de 27 m, al aire libre o bajo tierra (sin edificios). Puedes nombrar amigos inmunes y una contraseña. Lanzado cada día durante un año, se vuelve permanente.\n- **Efectos:** niebla densa (oscurece del todo, moverse cuesta el triple); maleza que enreda como *Enmarañar*; hasta 4 árboles guardianes (como árboles despertados) que expulsan a los intrusos y obedecen tus órdenes; y uno a elegir: *Ráfaga de viento* en 2 lugares, *Crecimiento espinoso* en 1, o *Muro de viento* en 2.\n- *Disipar magia* solo quita un efecto cada vez.",
+  "en": "- **Area:** from a 30-ft to a 90-ft cube, outdoors or underground (no buildings). Name immune friends and a password. Cast daily for a year, it becomes permanent.\n- **Effects:** thick fog (heavily obscured, movement costs triple); grasping undergrowth as Entangle; up to 4 grove guardians (awakened trees) that fight intruders and obey you; plus one of: Gust of Wind in 2 places, Spike Growth in 1, or Wind Wall in 2.\n- Dispel Magic removes only one effect at a time."
+ },
+ "Dueling Ground": {
+  "es": "- **Área:** círculo de duelo (esfera de 4,5 m de radio) en el suelo que toques, con 2 criaturas voluntarias de dentro como duelistas. Termina si entra otra criatura.\n- Un duelista que cae a 0 PG (o sufriría una muerte instantánea sin daño) queda Estable y se teletransporta fuera del círculo.\n- Cuando solo queda uno, una corona de runas brilla sobre su cabeza.\n- **Niveles superiores:** 1 duelista más por nivel por encima de 2.",
+  "en": "- **Area:** dueling circle (15-ft-radius sphere) on ground you touch, with 2 willing creatures inside as duelists. Ends if anyone else enters.\n- A duelist dropping to 0 HP (or facing instant death without damage) becomes Stable and teleports outside.\n- When one remains, a rune crown flashes over its head.\n- **Higher levels:** 1 more duelist per slot level above 2."
+ },
+ "Dust Devil": {
+  "es": "- **Efecto:** un remolino en un cubo de aire de 1,5 m a tu alcance.\n- **Salvación:** Fuerza para quien termine su turno a 1,5 m de él. **Fallo:** 1d8 contundente y es empujado 3 m. **Éxito:** mitad y no se mueve.\n- **Acción adicional:** muévelo hasta 9 m; sobre arena o polvo crea una nube de 3 m de radio que oscurece del todo hasta tu siguiente turno.\n- **Niveles superiores:** +1d8 por nivel por encima de 2.",
+  "en": "- **Effect:** a whirlwind in a 5-ft cube of air in range.\n- **Save:** Strength for a creature ending its turn within 5 ft. **Fail:** 1d8 bludgeoning and pushed 10 ft. **Success:** half, not pushed.\n- **Bonus action:** move it up to 30 ft; over sand or dust it raises a 10-ft-radius cloud that heavily obscures until your next turn.\n- **Higher levels:** +1d8 per slot level above 2."
+ },
+ "Earth Tremor": {
+  "es": "- **Área:** 3 m de radio a tu alrededor (no te afecta).\n- **Salvación:** Destreza. **Fallo:** 1d6 contundente y Derribado.\n- Si el suelo es tierra suelta o piedra, se vuelve terreno difícil hasta que se despeje.\n- **Niveles superiores:** +1d6 por nivel por encima de 1.",
+  "en": "- **Area:** 10-ft radius around you (not you).\n- **Save:** Dexterity. **Fail:** 1d6 bludgeoning and Prone.\n- Loose earth or stone becomes difficult terrain until cleared.\n- **Higher levels:** +1d6 per slot level above 1."
+ },
+ "Earthbind": {
+  "es": "- **Objetivo:** una criatura que veas. **Salvación:** Fuerza o su velocidad de vuelo pasa a 0 mientras dure.\n- Si estaba en el aire, desciende sin daño 18 m por asalto hasta el suelo.",
+  "en": "- **Target:** one creature you can see. **Save:** Strength or its flying speed becomes 0 for the duration.\n- If airborne, it safely descends 60 ft per round to the ground."
+ },
+ "Elemental Bane": {
+  "es": "- **Objetivo:** una criatura que veas; eliges ácido, frío, fuego, relámpago o trueno.\n- **Salvación:** Constitución. **Fallo:** pierde la resistencia a ese tipo y, la primera vez en cada turno que recibe ese daño, recibe +2d6.\n- **Niveles superiores:** 1 objetivo más por nivel por encima de 4 (a 9 m o menos entre sí).",
+  "en": "- **Target:** one creature you see; pick acid, cold, fire, lightning or thunder.\n- **Save:** Constitution. **Fail:** it loses resistance to that type and, the first time each turn it takes that damage, takes +2d6.\n- **Higher levels:** 1 more target per slot level above 4 (within 30 ft of each other)."
+ },
+ "Elemental Weapon": {
+  "es": "- **Objetivo:** un arma no mágica que toques; eliges ácido, frío, fuego, relámpago o trueno.\n- **Efecto:** +1 al ataque y +1d4 de ese tipo al impactar.\n- **Niveles superiores:** con espacio de nivel 5–6, +2 y 2d4; con 7+, +3 y 3d4.",
+  "en": "- **Target:** a nonmagical weapon you touch; pick acid, cold, fire, lightning or thunder.\n- **Effect:** +1 to attack and +1d4 of that type on a hit.\n- **Higher levels:** level 5–6 slot, +2 and 2d4; 7+, +3 and 3d4."
+ },
+ "Elminster's Effulgent Spheres": {
+  "es": "- **Efecto:** 6 esferas cromáticas orbitan a tu alrededor; termina al gastar la última.\n  - *Absorber energía:* reacción al recibir daño de ácido, frío, fuego, relámpago o trueno: gastas una y tienes resistencia a ese tipo hasta el inicio de tu siguiente turno.\n  - *Descarga:* acción adicional: ataque de conjuro a distancia (36 m); **impacto** 3d6 de ácido, frío, fuego, relámpago o trueno (tú eliges). La esfera se gasta igualmente.\n- **Niveles superiores:** 1 esfera más por nivel por encima de 6.",
+  "en": "- **Effect:** 6 chromatic spheres orbit you; ends when the last is spent.\n  - *Absorb Energy:* reaction on taking acid, cold, fire, lightning or thunder damage: spend one for resistance to it until the start of your next turn.\n  - *Energy Blast:* bonus action: ranged spell attack (120 ft); **hit** 3d6 acid, cold, fire, lightning or thunder (your choice). The sphere is spent either way.\n- **Higher levels:** 1 more sphere per slot level above 6."
+ },
+ "Elminster's Elusion": {
+  "es": "- **Efecto:** mientras dure, ventaja en salvaciones contra conjuros y efectos mágicos; si superas una de «mitad de daño», no recibes daño.",
+  "en": "- **Effect:** for the duration, advantage on saves against spells and magical effects; succeeding on a half-damage one means no damage."
+ },
+ "Encode Thoughts": {
+  "es": "- **Efecto:** conviertes un recuerdo, idea o mensaje tuyo en una hebra de pensamiento (objeto Diminuto, como una cinta) a 1,5 m. Dura 8 horas o hasta que lo vuelvas a lanzar.\n- Si te estás concentrando en leer o modificar mentes (*Detectar pensamientos*, *Modificar recuerdo*), puedes codificar esos pensamientos ajenos.\n- Lanzarlo sosteniendo una hebra te da su contenido al instante.",
+  "en": "- **Effect:** turn a memory, idea or message into a thought strand (Tiny ribbon-like object) within 5 ft. Lasts 8 hours or until you cast it again.\n- While concentrating on reading or changing minds (Detect Thoughts, Modify Memory), you can encode those thoughts instead.\n- Casting it while holding a strand gives you its contents at once."
+ },
+ "Enemies Abound": {
+  "es": "- **Objetivo:** una criatura que veas (los inmunes a Asustado superan automáticamente). **Salvación:** Inteligencia.\n- **Fallo:** considera enemigas a todas las criaturas que ve; elige objetivos al azar entre las que tiene a su alcance y debe hacer los ataques de oportunidad que le provoquen.\n- Repite la salvación cada vez que recibe daño.",
+  "en": "- **Target:** one creature you see (immune to Frightened = auto-success). **Save:** Intelligence.\n- **Fail:** it treats every creature it sees as an enemy, picks targets at random among those in reach, and must take opportunity attacks it's offered.\n- It repeats the save whenever it takes damage."
+ },
+ "Enervation": {
+  "es": "- **Objetivo:** una criatura que veas. **Salvación:** Destreza.\n- **Fallo:** 6d8 necrótico; en tus turnos siguientes, acción adicional para hacerle 2d8 necrótico automáticamente. Termina si sale del alcance o tiene cobertura.\n- **Éxito:** solo la mitad del daño inicial y termina.\n- Cada vez que hace daño, recuperas PG iguales a la mitad.\n- **Niveles superiores:** +1d8 al daño inicial por nivel por encima de 5.",
+  "en": "- **Target:** one creature you see. **Save:** Dexterity.\n- **Fail:** 6d8 necrotic; on later turns, a bonus action deals 2d8 necrotic automatically. Ends if it leaves range or has cover.\n- **Success:** half the initial damage only, and it ends.\n- Each time it deals damage, you regain half as HP.\n- **Higher levels:** +1d8 initial damage per slot level above 5."
+ },
+ "Entrancing Mirrors": {
+  "es": "- **Objetivo:** hasta 3 criaturas que veas. **Salvación:** Inteligencia.\n- **Fallo:** 7d6 psíquico y Aturdido (con la velocidad a la mitad); repite la salvación al final de cada turno. **Éxito:** solo la mitad del daño.",
+  "en": "- **Target:** up to 3 creatures you see. **Save:** Intelligence.\n- **Fail:** 7d6 psychic and Stunned (speed halved); it repeats the save at the end of each turn. **Success:** half damage only."
+ },
+ "Erupting Earth": {
+  "es": "- **Área:** cubo de 6 m en un punto del suelo que veas.\n- **Salvación:** Destreza. **Fallo:** 3d12 contundente. **Éxito:** mitad.\n- El suelo queda como terreno difícil hasta que se despeje.\n- **Niveles superiores:** +1d12 por nivel por encima de 3.",
+  "en": "- **Area:** 20-ft cube on a point of ground you see.\n- **Save:** Dexterity. **Fail:** 3d12 bludgeoning. **Success:** half.\n- The ground becomes difficult terrain until cleared.\n- **Higher levels:** +1d12 per slot level above 3."
+ }
+}

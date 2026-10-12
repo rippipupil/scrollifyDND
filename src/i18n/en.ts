@@ -106,6 +106,8 @@ export const en: Dict = {
     strength: 'Min. Strength', stealth: 'Stealth', stealthDis: 'Disadvantage', subclasses: 'Subclasses',
     eraAll: 'All editions', era2024: '5.5 (2024)', era2014: '5e (2014, legacy)', edition: 'Edition', or: 'or', darkvision: 'Darkvision',
     racialFeat: 'Racial feat (2014)',
+    myNotes: 'My notes', notesHint: 'Write or paste anything here (kept on this device only).',
+    rulesCard: 'Rules card (our summary, unofficial)', rulesCardNote: 'Mechanics summary written for Scrollify. Official text: {book} · links below.',
     legacyNote: 'A 5e (2014) option. It still works with the 2024 rules if your DM allows it; when a 2024 version exists, use that instead.',
   },
   dice: {

@@ -25,3 +25,8 @@ test('inline bold and italics', () => {
     { text: 'also', italic: true },
   ]);
 });
+
+test('nested and numbered list items keep their level and marker', () => {
+  const [list] = parseMarkdown('- **Área:** cubo\n  - *Uno:* a\n  1. b\n- fin');
+  expect(list).toMatchObject({ type: 'list', items: ['**Área:** cubo', '*Uno:* a', 'b', 'fin'], depths: [0, 1, 1, 0], markers: ['•', '•', '1.', '•'] });
+});

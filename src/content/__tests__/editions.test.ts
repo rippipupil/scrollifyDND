@@ -58,3 +58,13 @@ test('a 2024 artificer can be created: half caster with Intelligence, d8 hit die
   expect(c.proficiencies.armor).toEqual(['light', 'medium', 'shields']);
   expect(spellSlots(c).slots.slice(0, 2)).toEqual([3, 0]);
 });
+
+test('every indexed spell has our own bilingual rules card', () => {
+  const spells = external.filter((e) => e.category === 'spell');
+  expect(spells.length).toBeGreaterThan(200);
+  for (const s of spells) {
+    expect(s.data.rules?.es).toMatch(/\*\*/);
+    expect(s.data.rules?.en).toMatch(/\*\*/);
+  }
+  expect(getEntry('spell:ext-spell-silvery-barbs')?.data.rules.es).toContain('repite el d20');
+});

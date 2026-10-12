@@ -516,8 +516,18 @@ export function entryLinks(e: Pick<Entry, 'category' | 'id' | 'name' | 'data'>):
   }
 }
 
+/** Our own rules cards for indexed spells (`spell-rules/*.json`, keyed by English name). */
+function loadSpellRules(dir: string): Record<string, Loc> {
+  const rulesDir = path.join(dir, 'spell-rules');
+  if (!fs.existsSync(rulesDir)) return {};
+  const out: Record<string, Loc> = {};
+  for (const f of fs.readdirSync(rulesDir).filter((x) => x.endsWith('.json')).sort()) Object.assign(out, JSON.parse(fs.readFileSync(path.join(rulesDir, f), 'utf8')));
+  return out;
+}
+
 export function buildExternal(dir: string, esNames: Record<string, string> = {}): Entry[] {
   if (!fs.existsSync(dir)) return [];
+  const rules = loadSpellRules(dir);
   return fs
     .readdirSync(dir)
     .filter((f) => f.endsWith('.json'))
@@ -526,7 +536,8 @@ export function buildExternal(dir: string, esNames: Record<string, string> = {})
     .map((x) => {
       const slugEn = x.slugEn ?? slugify(x.name.en);
       const name: Loc = x.name.es ? x.name : esNames[x.name.en] ? { en: x.name.en, es: esNames[x.name.en] } : x.name;
-      const base = { id: `ext-${x.category}-${slugEn}`, category: x.category, name, source: 'external' as const, data: x.data, book: x.book };
+      const data = x.category === 'spell' && rules[name.en] ? { ...x.data, rules: rules[name.en] } : x.data;
+      const base = { id: `ext-${x.category}-${slugEn}`, category: x.category, name, source: 'external' as const, data, book: x.book };
       // Index files may carry links already checked against the sites (pages for 2014 options live on the 2014 wikis).
       const external = x.links ?? (x.category === 'spell' ? spellLinks(name.en, name.es, x.data?.era === '2014' ? '2014' : '2024') : entryLinks(base));
       return { ...base, ...(external ? { external } : {}) };

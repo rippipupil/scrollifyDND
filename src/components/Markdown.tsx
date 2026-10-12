@@ -25,8 +25,8 @@ export function Markdown({ text }: { text: string }) {
           return (
             <View key={i} style={{ gap: 4 }}>
               {b.items.map((it, j) => (
-                <View key={j} style={{ flexDirection: 'row', gap: 6 }}>
-                  <Text style={{ color: c.accent }}>•</Text>
+                <View key={j} style={{ flexDirection: 'row', gap: 6, marginLeft: (b.depths[j] ?? 0) * 16 }}>
+                  <Text style={{ color: c.accent }}>{b.markers[j] ?? '•'}</Text>
                   <View style={{ flex: 1 }}>
                     <Inline text={it} />
                   </View>

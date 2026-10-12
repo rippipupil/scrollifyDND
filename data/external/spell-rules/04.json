@@ -1,0 +1,102 @@
+{
+ "Gust": {
+  "es": "- **Efecto (elige uno, en un punto que veas):** una criatura Mediana o menor hace salvación de Fuerza o es empujada 1,5 m; o empujas 3 m un objeto suelto de hasta 2,5 kg (sin hacer daño); o creas un efecto inofensivo de viento (hojas, contraventanas, ropa).",
+  "en": "- **Effect (pick one, at a point you see):** a Medium or smaller creature makes a Strength save or is pushed 5 ft; or push a loose object up to 5 lb 10 ft (no damage); or a harmless wind effect (leaves, shutters, clothes)."
+ },
+ "Hail of Thorns": {
+  "es": "- **Se activa:** acción adicional justo después de impactar con un arma a distancia.\n- **Área:** el objetivo y cada criatura a 1,5 m de él.\n- **Salvación:** Destreza. **Fallo:** 1d10 perforante. **Éxito:** mitad.\n- **Niveles superiores:** +1d10 por nivel por encima de 1.",
+  "en": "- **Trigger:** bonus action right after you hit with a ranged weapon.\n- **Area:** the target and each creature within 5 ft of it.\n- **Save:** Dexterity. **Fail:** 1d10 piercing. **Success:** half.\n- **Higher levels:** +1d10 per slot level above 1."
+ },
+ "Healing Spirit": {
+  "es": "- **Efecto:** un espíritu intangible en un cubo de 1,5 m que veas.\n- Cuando tú o una criatura que veas entráis por primera vez en el turno o empezáis el turno en su espacio, puede curar 1d6 PG (no a constructos ni muertos vivientes). Cura 1 + tu modificador de lanzamiento veces (mínimo 2) y desaparece.\n- **Acción adicional:** muévelo hasta 9 m.\n- **Niveles superiores:** +1d6 por nivel por encima de 2.",
+  "en": "- **Effect:** an intangible spirit in a 5-ft cube you see.\n- When you or a creature you see first enters its space on a turn or starts its turn there, it can heal 1d6 HP (not constructs or undead). It heals 1 + your spellcasting modifier times (minimum 2), then vanishes.\n- **Bonus action:** move it up to 30 ft.\n- **Higher levels:** +1d6 per slot level above 2."
+ },
+ "Hindsight": {
+  "es": "- **Efecto:** ves lo que ocurrió en el alcance durante los últimos 10 años, a unos 1 día por segundo; puedes frenar, pausar, rebobinar o avanzar a voluntad mientras dure.",
+  "en": "- **Effect:** you see events that happened in range over the past 10 years, at about 1 day per second; slow, pause, rewind or fast-forward at will for the duration."
+ },
+ "Holy Star of Mystra": {
+  "es": "- **Efecto:** una mota de energía flota sobre ti (luz brillante 1,5 m, tenue 1,5 m más) y te da cobertura.\n- **Al lanzarlo y como acción adicional después:** ataque de conjuro a distancia contra una criatura a 36 m; **impacto** 4d10 + tu modificador de lanzamiento de fuerza o radiante.\n- **Reacción:** si superas la salvación contra un conjuro de nivel 7 o menos que solo te apuntaba a ti (sin área), lo devuelves: su lanzador salva contra su propia CD.",
+  "en": "- **Effect:** a mote of energy hovers above you (bright light 5 ft, dim 5 ft more) and gives you cover.\n- **On casting and as a bonus action later:** ranged spell attack at a creature within 120 ft; **hit** 4d10 + your spellcasting modifier force or radiant.\n- **Reaction:** when you succeed on a save against a level 7 or lower spell that targeted only you (no area), deflect it: its caster saves against its own DC."
+ },
+ "Holy Weapon": {
+  "es": "- **Objetivo:** un arma que toques; se vuelve mágica y da luz brillante en 9 m (tenue 9 m más).\n- **Efecto:** sus ataques hacen +2d8 radiante al impactar.\n- **Acción adicional:** terminas el conjuro con un estallido: las criaturas que elijas a 9 m del arma hacen salvación de Constitución; **fallo** 4d8 radiante y Cegadas 1 minuto (repiten al final de cada turno), **éxito** mitad y sin ceguera.",
+  "en": "- **Target:** a weapon you touch; it becomes magic and sheds bright light 30 ft (dim 30 ft more).\n- **Effect:** its attacks deal +2d8 radiant on a hit.\n- **Bonus action:** end it with a burst: creatures you choose within 30 ft of the weapon make a Constitution save; **fail** 4d8 radiant and Blinded 1 minute (repeat at end of each turn), **success** half, not blinded."
+ },
+ "Homunculus Servant": {
+  "es": "- **Efecto:** invocas un homúnculo especial (bloque «Homúnculo sirviente») con el aspecto que quieras; si ya tenías uno de este conjuro, lo sustituye.\n- Es tu aliado, comparte tu iniciativa y actúa justo después de ti; obedece tus órdenes sin gastar acción. Sin órdenes, usa Esquivar y se aparta del peligro.\n- **Niveles superiores:** el bloque usa el nivel del espacio gastado.",
+  "en": "- **Effect:** summon a special homunculus (Homunculus Servant stat block) looking as you like; a previous one from this spell is replaced.\n- It's your ally, shares your initiative and acts right after you; it obeys commands at no action cost. With none, it Dodges and avoids danger.\n- **Higher levels:** the stat block uses the slot level."
+ },
+ "Hunger of Hadar": {
+  "es": "- **Área:** esfera de 6 m de radio de oscuridad total a tu alcance: ninguna luz la ilumina, es terreno difícil y quien esté del todo dentro queda Cegado.\n- Quien empiece su turno dentro recibe 2d6 frío; quien lo termine dentro hace salvación de Destreza o recibe 2d6 ácido.\n- **Niveles superiores:** +1d6 al frío o al ácido (tú eliges) por nivel por encima de 3.",
+  "en": "- **Area:** 20-ft-radius sphere of darkness in range: no light can illuminate it, it's difficult terrain, and creatures fully inside are Blinded.\n- Starting a turn inside: 2d6 cold. Ending a turn inside: Dexterity save or 2d6 acid.\n- **Higher levels:** +1d6 cold or acid (your choice) per slot level above 3."
+ },
+ "Illusory Dragon": {
+  "es": "- **Efecto:** un dragón de sombra Enorme y tangible (inmune a todo daño y estado) en un espacio libre que veas.\n- **Al aparecer:** los enemigos que lo vean hacen salvación de Sabiduría o sueltan lo que llevan y quedan Asustados; si terminan su turno sin verlo, repiten.\n- **Acción adicional:** muévelo hasta 18 m y, en cualquier momento del movimiento, que exhale un cono de 18 m: salvación de Inteligencia, **fallo** 6d6 del tipo elegido al crearlo (ácido, frío, fuego, relámpago, necrótico o veneno), **éxito** mitad.\n- Con la acción Estudiar y una prueba de Inteligencia (Investigación) contra tu CD se descubre la ilusión: ventaja contra el miedo y el aliento.",
+  "en": "- **Effect:** a Huge tangible shadow dragon (immune to all damage and conditions) in a space you see.\n- **When it appears:** enemies that see it make a Wisdom save or drop what they hold and are Frightened; ending a turn without line of sight lets them repeat.\n- **Bonus action:** move it up to 60 ft and, at any point, exhale a 60-ft cone: Intelligence save, **fail** 6d6 of the type chosen at creation (acid, cold, fire, lightning, necrotic or poison), **success** half.\n- A Study action plus an Intelligence (Investigation) check against your DC reveals it: advantage against its fear and breath."
+ },
+ "Immolation": {
+  "es": "- **Objetivo:** una criatura que veas. **Salvación:** Destreza. **Fallo:** 8d6 fuego y arde mientras dure. **Éxito:** mitad.\n- Mientras arde da luz y, al final de cada turno, repite la salvación: **fallo** 4d6 fuego, **éxito** termina. No se apaga por medios normales.\n- Si muere por este daño, queda reducida a cenizas.",
+  "en": "- **Target:** one creature you see. **Save:** Dexterity. **Fail:** 8d6 fire and it burns for the duration. **Success:** half.\n- While burning it sheds light and repeats the save at the end of each turn: **fail** 4d6 fire, **success** it ends. Nonmagical means can't put it out.\n- A creature killed by it turns to ash."
+ },
+ "Immovable Object": {
+  "es": "- **Objetivo:** un objeto de hasta 5 kg que toques; queda fijo en su sitio (tú y quien elijas podéis moverlo; también puedes poner una contraseña que lo libera 1 minuto).\n- En el aire aguanta hasta 1.800 kg. Para moverlo, acción y prueba de Fuerza contra tu CD: lo desplaza 3 m.\n- **Niveles superiores:** nivel 4–5: CD +5, 3.600 kg y dura 24 h. Nivel 6+: CD +10, 9.000 kg y permanente hasta que se disipe.",
+  "en": "- **Target:** an object up to 10 lb you touch; it's fixed in place (you and those you pick can move it; a password suppresses it for 1 minute).\n- In the air it holds up to 4,000 lb. Moving it takes an action and a Strength check against your DC: 10 ft on a success.\n- **Higher levels:** level 4–5: DC +5, 8,000 lb, 24 h. Level 6+: DC +10, 20,000 lb, permanent until dispelled."
+ },
+ "Incite Greed": {
+  "es": "- **Objetivo:** las criaturas que elijas a tu alcance que te vean. **Salvación:** Sabiduría o quedan Hechizadas (hasta que termine o les hagáis daño).\n- Solo pueden acercarse a ti de forma segura; a 1,5 m se quedan quietas mirando la gema embobadas.\n- Repiten la salvación al final de cada uno de sus turnos.",
+  "en": "- **Target:** any creatures in range that can see you. **Save:** Wisdom or Charmed (until it ends or you harm them).\n- They can only approach you safely; within 5 ft they stand still staring at the gem.\n- They repeat the save at the end of each of their turns."
+ },
+ "Infernal Calling": {
+  "es": "- **Efecto:** invocas un diablo de VD 6 o menos (el DM lleva su ficha); es hostil, tira iniciativa y actúa según su naturaleza. Desaparece a 0 PG o al terminar.\n- **Órdenes (sin acción):** las cumple si le convienen; si no, tu Carisma (Engaño, Intimidación o Persuasión) contra su Sabiduría (Perspicacia), con ventaja si dices su nombre verdadero. Si fallas, ignora tus órdenes el resto del conjuro.\n- Si pierdes la concentración y ya es inmune a tus órdenes, queda libre 3d6 minutos.\n- Con su talismán, puede ser de VD +1 y te obedece sin pruebas.\n- **Niveles superiores:** +1 al VD por nivel por encima de 5.",
+  "en": "- **Effect:** summon a devil of CR 6 or lower (the DM runs it); it's unfriendly, rolls initiative and acts per its nature. Gone at 0 HP or when the spell ends.\n- **Commands (no action):** it obeys if it suits it; otherwise your Charisma (Deception, Intimidation or Persuasion) vs. its Wisdom (Insight), with advantage using its true name. Fail and it ignores your commands for the rest of the spell.\n- If concentration breaks once it's immune to commands, it roams free for 3d6 minutes.\n- With its talisman it can be CR +1 and obeys without checks.\n- **Higher levels:** +1 CR per slot level above 5."
+ },
+ "Infestation": {
+  "es": "- **Objetivo:** una criatura que veas. **Salvación:** Constitución.\n- **Fallo:** 1d6 veneno y se mueve 1,5 m en una dirección al azar (d4: norte, sur, este, oeste) sin provocar ataques de oportunidad.\n- **Mejora con tu nivel:** 2d6 (nivel 5), 3d6 (11), 4d6 (17).",
+  "en": "- **Target:** one creature you see. **Save:** Constitution.\n- **Fail:** 1d6 poison and it moves 5 ft in a random direction (d4: N, S, E, W) without provoking opportunity attacks.\n- **Scaling:** 2d6 (level 5), 3d6 (11), 4d6 (17)."
+ },
+ "Inflict Doubt": {
+  "es": "- **Objetivo:** una criatura que veas. **Salvación:** Sabiduría o tiene desventaja en las pruebas de d20 mientras dure; repite al final de cada uno de sus turnos.",
+  "en": "- **Target:** one creature you see. **Save:** Wisdom or disadvantage on D20 Tests for the duration; it repeats at the end of each of its turns."
+ },
+ "Intellect Fortress": {
+  "es": "- **Objetivo:** tú o una criatura voluntaria que veas.\n- **Efecto:** resistencia al daño psíquico y ventaja en salvaciones de Inteligencia, Sabiduría y Carisma.\n- **Niveles superiores:** 1 objetivo más por nivel por encima de 3 (a 9 m o menos entre sí).",
+  "en": "- **Target:** you or one willing creature you see.\n- **Effect:** resistance to psychic damage and advantage on Intelligence, Wisdom and Charisma saves.\n- **Higher levels:** 1 more target per slot level above 3 (within 30 ft of each other)."
+ },
+ "Investiture of Flame": {
+  "es": "- **Efecto:** llamas te cubren (luz brillante 9 m, tenue 9 m más): inmune al fuego y resistente al frío.\n- Quien se acerque a 1,5 m por primera vez en el turno o termine su turno ahí recibe 1d10 fuego.\n- **Acción:** línea de fuego de 4,5 m × 1,5 m: salvación de Destreza, **fallo** 4d8 fuego, **éxito** mitad.",
+  "en": "- **Effect:** flames cover you (bright light 30 ft, dim 30 ft more): immune to fire, resistant to cold.\n- A creature first moving within 5 ft on a turn or ending its turn there takes 1d10 fire.\n- **Action:** 15 × 5 ft line of fire: Dexterity save, **fail** 4d8 fire, **success** half."
+ },
+ "Investiture of Ice": {
+  "es": "- **Efecto:** inmune al frío y resistente al fuego; ignoras el terreno difícil de hielo o nieve; el suelo a 3 m de ti es terreno difícil helado para los demás.\n- **Acción:** cono de 4,5 m de viento helado: salvación de Constitución, **fallo** 4d6 frío y velocidad a la mitad hasta el inicio de tu siguiente turno, **éxito** mitad del daño.",
+  "en": "- **Effect:** immune to cold, resistant to fire; you ignore ice/snow difficult terrain; ground within 10 ft of you is icy difficult terrain for others.\n- **Action:** 15-ft cone of freezing wind: Constitution save, **fail** 4d6 cold and speed halved until the start of your next turn, **success** half damage."
+ },
+ "Investiture of Stone": {
+  "es": "- **Efecto:** resistencia al daño contundente, perforante y cortante de ataques no mágicos; ignoras el terreno difícil de tierra o piedra y puedes atravesar tierra y roca (si terminas dentro, sales expulsado, termina el conjuro y quedas Aturdido hasta el final de tu siguiente turno).\n- **Acción:** terremoto en 4,5 m de radio: las demás criaturas en el suelo hacen salvación de Destreza o caen Derribadas.",
+  "en": "- **Effect:** resistance to nonmagical bludgeoning, piercing and slashing; ignore earth/stone difficult terrain and move through earth and stone (ending inside ejects you, ends the spell, and Stuns you until the end of your next turn).\n- **Action:** quake in a 15-ft radius: other creatures on the ground make a Dexterity save or fall Prone."
+ },
+ "Investiture of Wind": {
+  "es": "- **Efecto:** los ataques con armas a distancia contra ti tienen desventaja y ganas velocidad de vuelo de 18 m (si sigues volando al terminar, caes).\n- **Acción:** cubo de 4,5 m de viento a 18 m: salvación de Constitución, **fallo** 2d10 contundente (y empujada 3 m si es Grande o menor), **éxito** mitad.",
+  "en": "- **Effect:** ranged weapon attacks against you have disadvantage and you gain 60-ft flying speed (you fall if still flying when it ends).\n- **Action:** 15-ft cube of wind within 60 ft: Constitution save, **fail** 2d10 bludgeoning (pushed 10 ft if Large or smaller), **success** half."
+ },
+ "Invulnerability": {
+  "es": "- **Efecto:** inmunidad a todo el daño mientras dure.",
+  "en": "- **Effect:** immunity to all damage for the duration."
+ },
+ "Iron Body": {
+  "es": "- **Objetivo:** una criatura voluntaria que toques; se vuelve metal vivo.\n- **Efecto:** su Agotamiento no puede aumentar; resistencia a contundente, fuego, perforante y cortante; inmunidad al veneno y a Paralizado, Petrificado y Envenenado (si los tenía, terminan).",
+  "en": "- **Target:** one willing creature you touch; it becomes living metal.\n- **Effect:** its Exhaustion can't increase; resistance to bludgeoning, fire, piercing and slashing; immunity to poison and to Paralyzed, Petrified and Poisoned (ending them if present)."
+ },
+ "Jallarzi's Storm of Radiance": {
+  "es": "- **Área:** cilindro de 3 m de radio y 12 m de alto en un punto que veas; dentro, las criaturas quedan Cegadas y Ensordecidas y no pueden lanzar conjuros con componente verbal.\n- **Salvación:** Constitución al aparecer, al entrar por primera vez en el turno o al terminarlo dentro (una vez por turno). **Fallo:** 2d10 radiante + 2d10 trueno. **Éxito:** mitad.\n- **Niveles superiores:** +1d10 radiante y +1d10 trueno por nivel por encima de 5.",
+  "en": "- **Area:** 10-ft-radius, 40-ft-high cylinder on a point you see; creatures inside are Blinded and Deafened and can't cast verbal spells.\n- **Save:** Constitution when it appears, first entering on a turn, or ending a turn inside (once per turn). **Fail:** 2d10 radiant + 2d10 thunder. **Success:** half.\n- **Higher levels:** +1d10 radiant and +1d10 thunder per slot level above 5."
+ },
+ "Jim's Glowing Coin": {
+  "es": "- **Efecto:** lanzas la moneda a un punto a tu alcance y brilla como *Luz*.\n- Las criaturas que elijas a 9 m de ella hacen salvación de Sabiduría o quedan distraídas: desventaja en Sabiduría (Percepción) y en iniciativa mientras dure.",
+  "en": "- **Effect:** toss the coin to a spot in range; it glows like Light.\n- Creatures you choose within 30 ft of it make a Wisdom save or are distracted: disadvantage on Wisdom (Perception) checks and initiative for the duration."
+ },
+ "Jim's Magic Missile": {
+  "es": "- **Efecto:** 3 dardos; cada uno hace un ataque de conjuro a distancia contra una criatura que veas. **Impacto:** 2d4 de fuerza.\n- **Crítico:** ese dardo hace 5d4. **Si algún ataque saca un 1:** fallan todos y cada dardo te hace 1 de fuerza a ti.\n- **Niveles superiores:** 1 dardo más por nivel por encima de 1.",
+  "en": "- **Effect:** 3 darts; each makes a ranged spell attack against a creature you see. **Hit:** 2d4 force.\n- **Critical:** that dart deals 5d4. **Any roll of 1:** all miss and each dart deals 1 force to you.\n- **Higher levels:** 1 more dart per slot level above 1."
+ }
+}

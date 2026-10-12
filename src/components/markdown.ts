@@ -1,7 +1,7 @@
 export type Block =
   | { type: 'p'; lines: string[] }
   | { type: 'h'; text: string }
-  | { type: 'list'; items: string[] }
+  | { type: 'list'; items: string[]; /** Nesting level of each item (2 leading spaces = 1). */ depths: number[]; /** "•" or the item's number ("2."). */ markers: string[] }
   | { type: 'table'; rows: string[][] };
 
 export interface Span {
@@ -11,7 +11,8 @@ export interface Span {
 }
 
 const isTableRow = (l: string) => /^\s*\|.*\|\s*$/.test(l);
-const isListItem = (l: string) => /^\s*([-*•])\s+/.test(l);
+const LIST_ITEM = /^(\s*)([-*•]|\d+\.)\s+/;
+const isListItem = (l: string) => LIST_ITEM.test(l);
 
 /** Minimal markdown: paragraphs, ### headings, bullet lists and pipe tables. */
 export function parseMarkdown(src: string): Block[] {
@@ -36,8 +37,15 @@ export function parseMarkdown(src: string): Block[] {
         blocks.push({ type: 'table', rows });
       } else if (isListItem(l)) {
         const items: string[] = [];
-        while (i < lines.length && isListItem(lines[i])) items.push(lines[i++].replace(/^\s*[-*•]\s+/, ''));
-        blocks.push({ type: 'list', items });
+        const depths: number[] = [];
+        const markers: string[] = [];
+        while (i < lines.length && isListItem(lines[i])) {
+          const m = LIST_ITEM.exec(lines[i])!;
+          depths.push(Math.min(3, Math.floor(m[1].length / 2)));
+          markers.push(/\d/.test(m[2]) ? m[2] : '•');
+          items.push(lines[i++].slice(m[0].length));
+        }
+        blocks.push({ type: 'list', items, depths, markers });
       } else {
         const para: string[] = [];
         while (i < lines.length && !isTableRow(lines[i]) && !isListItem(lines[i]) && !/^#{1,4}\s/.test(lines[i])) para.push(lines[i++]);

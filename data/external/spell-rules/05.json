@@ -1,0 +1,102 @@
+{
+ "Kinetic Jaunt": {
+  "es": "- **Efecto:** +3 m de velocidad caminando, no provocas ataques de oportunidad y puedes atravesar el espacio de otras criaturas sin que cuente como terreno difícil.\n- Si terminas el turno en el espacio de otra criatura, vuelves al último espacio libre y recibes 1d8 de fuerza.",
+  "en": "- **Effect:** +10 ft walking speed, no opportunity attacks against you, and you can move through other creatures' spaces (not difficult terrain).\n- Ending your turn in another creature's space shunts you back to your last free space and deals 1d8 force."
+ },
+ "Laeral's Silver Lance": {
+  "es": "- **Área:** línea de 36 m × 1,5 m desde ti; solo las criaturas que elijas.\n- **Salvación:** Fuerza. **Fallo:** 3d10 de fuerza y Derribado. **Éxito:** solo la mitad del daño.\n- **Niveles superiores:** +1d10 por nivel por encima de 3.",
+  "en": "- **Area:** 120 × 5 ft line from you; only creatures you choose.\n- **Save:** Strength. **Fail:** 3d10 force and Prone. **Success:** half damage only.\n- **Higher levels:** +1d10 per slot level above 3."
+ },
+ "Life Transference": {
+  "es": "- **Efecto:** recibes 4d8 necrótico (no se puede reducir) y una criatura que veas recupera el doble de esa cantidad en PG.\n- **Niveles superiores:** +1d8 por nivel por encima de 3.",
+  "en": "- **Effect:** you take 4d8 necrotic (can't be reduced) and a creature you see regains twice that much HP.\n- **Higher levels:** +1d8 per slot level above 3."
+ },
+ "Lightning Arrow": {
+  "es": "- **Se activa:** acción adicional al hacer un ataque con arma a distancia, impacte o falle.\n- **Efecto:** en vez de los efectos normales, el objetivo recibe 4d8 relámpago si impacta o la mitad si falla.\n- **Además:** cada criatura a 3 m del objetivo hace salvación de Destreza: **fallo** 2d8 relámpago, **éxito** mitad.\n- **Niveles superiores:** +1d8 a ambos daños por nivel por encima de 3.",
+  "en": "- **Trigger:** bonus action as you make a ranged weapon attack, hit or miss.\n- **Effect:** instead of normal effects, the target takes 4d8 lightning on a hit or half on a miss.\n- **Also:** each creature within 10 ft of the target makes a Dexterity save: **fail** 2d8 lightning, **success** half.\n- **Higher levels:** +1d8 to both per slot level above 3."
+ },
+ "Lightning Lure": {
+  "es": "- **Objetivo:** una criatura que veas a 4,5 m. **Salvación:** Fuerza.\n- **Fallo:** la atraes hasta 3 m en línea recta hacia ti y, si acaba a 1,5 m de ti, recibe 1d8 relámpago.\n- **Mejora con tu nivel:** 2d8 (nivel 5), 3d8 (11), 4d8 (17).",
+  "en": "- **Target:** one creature you see within 15 ft. **Save:** Strength.\n- **Fail:** pulled up to 10 ft straight toward you; if it ends within 5 ft of you, 1d8 lightning.\n- **Scaling:** 2d8 (level 5), 3d8 (11), 4d8 (17)."
+ },
+ "Lightning Ring": {
+  "es": "- **Área:** emanación de 3 m desde ti.\n- **Salvación:** Constitución cuando la alcanza, entra o termina su turno dentro (a tu elección). **Fallo:** 3d6 relámpago + 3d6 trueno y Ensordecida 1 minuto. **Éxito:** solo la mitad del daño.\n- **Acción mágica:** línea de 18 m × 1,5 m: salvación de Destreza, **fallo** 6d6 relámpago, **éxito** mitad.",
+  "en": "- **Area:** 10-ft emanation from you.\n- **Save:** Constitution when it reaches, enters, or ends a turn inside (your choice). **Fail:** 3d6 lightning + 3d6 thunder and Deafened 1 minute. **Success:** half damage only.\n- **Magic action:** 60 × 5 ft line: Dexterity save, **fail** 6d6 lightning, **success** half."
+ },
+ "Linked Glyphs": {
+  "es": "- **Efecto:** inscribes un glifo detector casi invisible (hasta 3 m de diámetro, en una superficie o dentro de algo que se cierre) con el disparador que quieras; se rompe si se mueve más de 3 m. Encontrar los glifos requiere Inteligencia (Investigación) contra tu CD.\n- Lo enlazas con un segundo glifo:\n  - *Alarma:* a hasta 160 km; al dispararse, recibes un aviso mental si estás a 1,6 km o menos (te despierta).\n  - *Conjuro:* a hasta 30 m; guarda un conjuro preparado de nivel 4 o menos que se lanza al dispararse.\n- **Niveles superiores:** con espacio de nivel 5+, el conjuro guardado puede ser de hasta ese nivel.",
+  "en": "- **Effect:** inscribe a near-invisible detection glyph (up to 10 ft across, on a surface or inside a closable object) with a trigger you set; it breaks if moved over 10 ft. Finding glyphs takes Intelligence (Investigation) vs. your DC.\n- Link it to a second glyph:\n  - *Alarm:* within 100 miles; when triggered you get a mental ping if within 1 mile (wakes you).\n  - *Spell:* within 100 ft; stores a prepared spell of level 4 or lower that's cast when triggered.\n- **Higher levels:** a level 5+ slot stores spells up to that level."
+ },
+ "Maddening Darkness": {
+  "es": "- **Área:** esfera de 18 m de radio de oscuridad mágica (dobla esquinas; la visión en la oscuridad no ve, y ni la luz normal ni conjuros de nivel 8 o menos la iluminan).\n- **Salvación:** Sabiduría al empezar el turno dentro. **Fallo:** 8d8 psíquico. **Éxito:** mitad.",
+  "en": "- **Area:** 60-ft-radius sphere of magical darkness (spreads around corners; darkvision fails; nonmagical light and spells of level 8 or lower can't light it).\n- **Save:** Wisdom when starting a turn inside. **Fail:** 8d8 psychic. **Success:** half."
+ },
+ "Maelstrom": {
+  "es": "- **Área:** remolino de agua de 1,5 m de profundidad y 9 m de radio (en el suelo o en agua); terreno difícil.\n- **Salvación:** Fuerza al empezar el turno dentro. **Fallo:** 6d6 contundente y es arrastrada 3 m hacia el centro.",
+  "en": "- **Area:** 5-ft-deep whirlpool of water, 30-ft radius (on ground or water); difficult terrain.\n- **Save:** Strength when starting a turn inside. **Fail:** 6d6 bludgeoning and pulled 10 ft toward the center."
+ },
+ "Magic Stone": {
+  "es": "- **Efecto:** encantas de 1 a 3 guijarros. Cualquiera puede lanzarlos (18 m) o usarlos con honda como ataque de conjuro a distancia, sumando tu modificador de lanzamiento.\n- **Impacto:** 1d6 + tu modificador de lanzamiento contundente. Cada guijarro se gasta al usarse; volver a lanzar el conjuro anula los anteriores.",
+  "en": "- **Effect:** enchant 1–3 pebbles. Anyone can throw one (60 ft) or sling it as a ranged spell attack using your spellcasting modifier.\n- **Hit:** 1d6 + your spellcasting modifier bludgeoning. Each pebble is spent when used; recasting ends earlier ones."
+ },
+ "Magnify Gravity": {
+  "es": "- **Área:** esfera de 3 m de radio en un punto que veas.\n- **Salvación:** Constitución. **Fallo:** 2d8 de fuerza y velocidad a la mitad hasta el final de su siguiente turno. **Éxito:** mitad y sin reducción.\n- Hasta tu siguiente turno, mover objetos sueltos del área exige una prueba de Fuerza contra tu CD.\n- **Niveles superiores:** +1d8 por nivel por encima de 1.",
+  "en": "- **Area:** 10-ft-radius sphere on a point you see.\n- **Save:** Constitution. **Fail:** 2d8 force and speed halved until the end of its next turn. **Success:** half, no slow.\n- Until your next turn, moving loose objects there needs a Strength check against your DC.\n- **Higher levels:** +1d8 per slot level above 1."
+ },
+ "Mass Polymorph": {
+  "es": "- **Objetivo:** hasta 10 criaturas que veas; las que no quieran hacen salvación de Sabiduría (los cambiaformas superan siempre).\n- **Efecto:** cada una se convierte en una bestia que hayas visto con VD igual o menor que el suyo (o la mitad de su nivel). Usa sus estadísticas pero mantiene PG, alineamiento y personalidad, y gana PG temporales iguales a los PG de la bestia; vuelve a su forma al perderlos o morir.\n- No puede hablar, lanzar conjuros ni usar su equipo.",
+  "en": "- **Target:** up to 10 creatures you see; unwilling ones make a Wisdom save (shapechangers always succeed).\n- **Effect:** each becomes a beast you've seen with CR up to its own (or half its level). It uses the beast's stats but keeps HP, alignment and personality, and gains temporary HP equal to the beast's HP; it reverts when they're gone or it dies.\n- It can't speak, cast spells or use its gear."
+ },
+ "Maximilian's Earthen Grasp": {
+  "es": "- **Efecto:** una mano de tierra Mediana surge en un espacio de 1,5 m que veas y agarra a una criatura a 1,5 m de ella.\n- **Salvación:** Fuerza. **Fallo:** 2d6 contundente y Apresada mientras dure.\n- **Acción:** la mano aprieta (salvación de Fuerza: **fallo** 2d6 contundente, **éxito** mitad), o se mueve / cambia de objetivo (soltando al que tenga).\n- **Escapar:** acción y prueba de Fuerza contra tu CD.",
+  "en": "- **Effect:** a Medium earthen hand rises in a 5-ft space you see and reaches for a creature within 5 ft of it.\n- **Save:** Strength. **Fail:** 2d6 bludgeoning and Restrained for the duration.\n- **Action:** crush (Strength save: **fail** 2d6 bludgeoning, **success** half), or move it / switch targets (releasing any held one).\n- **Escape:** action and Strength check against your DC."
+ },
+ "Melf's Minute Meteors": {
+  "es": "- **Efecto:** 6 meteoritos diminutos orbitan a tu alrededor.\n- **Al lanzarlo y como acción adicional después:** envías 1 o 2 a puntos a 36 m; al explotar, las criaturas a 1,5 m hacen salvación de Destreza: **fallo** 2d6 fuego, **éxito** mitad.\n- **Niveles superiores:** 2 meteoritos más por nivel por encima de 3.",
+  "en": "- **Effect:** 6 tiny meteors orbit you.\n- **On casting and as a bonus action later:** send 1 or 2 to points within 120 ft; on bursting, creatures within 5 ft make a Dexterity save: **fail** 2d6 fire, **success** half.\n- **Higher levels:** 2 more meteors per slot level above 3."
+ },
+ "Mental Prison": {
+  "es": "- **Objetivo:** una criatura que veas (los inmunes a Hechizado superan siempre). **Salvación:** Inteligencia.\n- **Éxito:** 5d10 psíquico y termina. **Fallo:** 5d10 psíquico y queda encerrada en una ilusión amenazante: Apresada y sin ver ni oír nada más allá.\n- Si la sacan de la ilusión, ataca cuerpo a cuerpo a través de ella o mete cualquier parte del cuerpo, recibe 10d10 psíquico y termina.",
+  "en": "- **Target:** one creature you see (immune to Charmed = auto-success). **Save:** Intelligence.\n- **Success:** 5d10 psychic and it ends. **Fail:** 5d10 psychic and it's trapped in a menacing illusion: Restrained, seeing and hearing nothing beyond.\n- If moved out, attacking through it, or reaching through it: 10d10 psychic and the spell ends."
+ },
+ "Mighty Fortress": {
+  "es": "- **Efecto:** una fortaleza de piedra surge en un cuadrado de 36 m de lado sin construcciones: 4 torres (6 × 6 × 9 m), murallas de 24 m con hasta 4 puertas y una torre del homenaje de 15 × 15 m y 3 pisos amueblada, con comida para un banquete de 100 personas al día y 100 sirvientes invisibles.\n- La piedra tiene CA 15 y 30 PG por cada 2,5 cm de grosor (inmune a veneno y psíquico).\n- Dura 7 días o hasta que la lances en otro sitio; lanzarla en el mismo lugar cada 7 días durante un año la hace permanente.",
+  "en": "- **Effect:** a stone fortress rises on a 120-ft square of open ground: 4 towers (20 × 20 × 30 ft), 80-ft walls with up to 4 doors, and a furnished 50 × 50 ft, 3-floor keep with food for a 100-person banquet daily and 100 unseen servants.\n- Stone has AC 15 and 30 HP per inch of thickness (immune to poison and psychic).\n- Lasts 7 days or until cast elsewhere; casting it on the same spot every 7 days for a year makes it permanent."
+ },
+ "Mind Sliver": {
+  "es": "- **Objetivo:** una criatura que veas. **Salvación:** Inteligencia.\n- **Fallo:** 1d6 psíquico y resta 1d4 a su siguiente salvación antes del final de tu próximo turno.\n- **Mejora con tu nivel:** 2d6 (nivel 5), 3d6 (11), 4d6 (17).",
+  "en": "- **Target:** one creature you see. **Save:** Intelligence.\n- **Fail:** 1d6 psychic and −1d4 on its next save before the end of your next turn.\n- **Scaling:** 2d6 (level 5), 3d6 (11), 4d6 (17)."
+ },
+ "Mold Earth": {
+  "es": "- **Objetivo:** tierra o piedra que quepa en un cubo de 1,5 m.\n- **Efecto (elige uno):** excavar tierra suelta y dejarla a 1,5 m; dibujar formas, colores o palabras (1 h); convertir el suelo en terreno difícil o en normal (1 h).\n- Hasta 2 efectos duraderos a la vez; puedes anular uno con una acción.",
+  "en": "- **Target:** dirt or stone fitting a 5-ft cube.\n- **Effect (pick one):** dig loose earth and drop it 5 ft away; make shapes, colors or words (1 h); turn ground into difficult or normal terrain (1 h).\n- Up to 2 lasting effects at once; dismiss one as an action."
+ },
+ "Moment of Prescience": {
+  "es": "- **Se activa:** reacción al fallar una prueba de d20 o cuando te atacan.\n- **Efecto:** tu tirada fallida pasa a ser un 20, o la tirada de ataque contra ti pasa a ser un 1.",
+  "en": "- **Trigger:** reaction when you fail a D20 Test or are attacked.\n- **Effect:** your failed roll becomes a 20, or the attack roll against you becomes a 1."
+ },
+ "Mordenkainen's Lucubration": {
+  "es": "- **Efecto:** recuperas hasta 2 espacios de conjuro gastados de nivel 2 o menos.\n- **Niveles superiores:** con espacio de nivel 6–7, hasta nivel 3; con 8+, hasta nivel 4.",
+  "en": "- **Effect:** recover up to 2 expended spell slots of level 2 or lower.\n- **Higher levels:** level 6–7 slot, up to level 3; 8+, up to level 4."
+ },
+ "Motivational Speech": {
+  "es": "- **Objetivo:** hasta 5 criaturas que te oigan.\n- **Efecto:** cada una gana 5 PG temporales y ventaja en salvaciones de Sabiduría; cuando la impactan, tiene ventaja en su siguiente ataque. Termina para cada una al perder esos PG temporales.\n- **Niveles superiores:** +5 PG temporales por nivel por encima de 3.",
+  "en": "- **Target:** up to 5 creatures that hear you.\n- **Effect:** each gains 5 temporary HP and advantage on Wisdom saves; when hit, it has advantage on its next attack. Ends for each when those temporary HP are gone.\n- **Higher levels:** +5 temporary HP per slot level above 3."
+ },
+ "Nathair's Mischief": {
+  "es": "- **Área:** cubo de 6 m que veas; al inicio de cada uno de tus turnos puedes moverlo 3 m y tiras 1d4:\n  1. Olor a tarta: salvación de Sabiduría o Hechizadas por ti hasta tu siguiente turno.\n  2. Flores que salpican: salvación de Destreza o Cegadas hasta tu siguiente turno.\n  3. Risa: salvación de Sabiduría o Incapacitadas y moviéndose al azar hasta tu siguiente turno.\n  4. Melaza: el cubo es terreno difícil hasta tu siguiente turno.",
+  "en": "- **Area:** 20-ft cube you see; at the start of each of your turns you can move it 10 ft, then roll 1d4:\n  1. Apple-pie scent: Wisdom save or Charmed by you until your next turn.\n  2. Squirting flowers: Dexterity save or Blinded until your next turn.\n  3. Giggles: Wisdom save or Incapacitated and moving randomly until your next turn.\n  4. Molasses: the cube is difficult terrain until your next turn."
+ },
+ "Negative Energy Flood": {
+  "es": "- **Objetivo:** una criatura que veas.\n- **Si no es muerto viviente:** salvación de Constitución; **fallo** 3d10 + 25 necrótico, **éxito** mitad. Un humanoide que muera así se alza como zombi al inicio de tu siguiente turno y te obedece 24 h.\n- **Si es muerto viviente:** gana 3d10 PG temporales.\n- **Niveles superiores:** +1d10 por nivel por encima de 5.",
+  "en": "- **Target:** one creature you see.\n- **Not undead:** Constitution save; **fail** 3d10 + 25 necrotic, **success** half. A humanoid killed by it rises as a zombie at the start of your next turn and obeys you for 24 h.\n- **Undead:** it gains 3d10 temporary HP.\n- **Higher levels:** +1d10 per slot level above 5."
+ },
+ "Power Word Fortify": {
+  "es": "- **Objetivo:** hasta 6 criaturas que veas.\n- **Efecto:** repartes 120 PG temporales entre ellas como quieras.",
+  "en": "- **Target:** up to 6 creatures you see.\n- **Effect:** divide 120 temporary HP among them as you like."
+ },
+ "Power Word Pain": {
+  "es": "- **Objetivo:** una criatura que veas. Recibe 6d8 de fuerza; si tenía 100 PG o menos, además queda Hechizada mientras dure.\n- **Hechizada así:** velocidad máxima 3 m, desventaja en las pruebas de d20 salvo salvaciones de Constitución, y para lanzar un conjuro debe superar una salvación de Constitución o lo pierde (sin gastar el espacio).\n- Repite la salvación de Constitución al final de cada uno de sus turnos.",
+  "en": "- **Target:** one creature you see. It takes 6d8 force; at 100 HP or fewer it's also Charmed for the duration.\n- **While Charmed:** speed at most 10 ft, disadvantage on D20 Tests except Constitution saves, and to cast a spell it must pass a Constitution save or lose it (slot not spent).\n- It repeats the Constitution save at the end of each of its turns."
+ }
+}

@@ -1,0 +1,102 @@
+{
+ "Synaptic Static": {
+  "es": "- **Área:** esfera de 6 m de radio en un punto a tu alcance.\n- **Salvación:** Inteligencia. **Fallo:** 8d6 psíquico y pensamientos confusos durante 1 minuto: resta 1d6 a ataques, pruebas de característica y salvaciones de Constitución para mantener la concentración; repite al final de cada turno. **Éxito:** mitad.",
+  "en": "- **Area:** 20-ft-radius sphere on a point in range.\n- **Save:** Intelligence. **Fail:** 8d6 psychic and muddled for 1 minute: −1d6 to attacks, ability checks and Constitution saves to keep Concentration; repeat at end of each turn. **Success:** half."
+ },
+ "Tasha's Bubbling Cauldron": {
+  "es": "- **Efecto:** un caldero inamovible a 1,5 m de ti con el efecto de una poción común o poco común que elijas.\n- **Acción adicional:** tú o un aliado sacáis una poción. Produce tantas como tu modificador de lanzamiento (mínimo 1); al sacar la última, desaparece.\n- Las pociones sin usar desaparecen si vuelves a lanzarlo.",
+  "en": "- **Effect:** an immovable cauldron within 5 ft holding the effect of a common or uncommon potion you choose.\n- **Bonus action:** you or an ally draws a potion. It makes as many as your spellcasting modifier (minimum 1); it vanishes after the last.\n- Unused potions vanish if you cast it again."
+ },
+ "Tasha's Caustic Brew": {
+  "es": "- **Área:** línea de 9 m × 1,5 m desde ti.\n- **Salvación:** Destreza o queda cubierta de ácido: 2d4 ácido al inicio de cada uno de sus turnos hasta que termine o alguien use una acción para limpiarla.\n- **Niveles superiores:** +2d4 por nivel por encima de 1.",
+  "en": "- **Area:** 30 × 5 ft line from you.\n- **Save:** Dexterity or covered in acid: 2d4 acid at the start of each of its turns until it ends or someone uses an action to wipe it off.\n- **Higher levels:** +2d4 per slot level above 1."
+ },
+ "Tasha's Mind Whip": {
+  "es": "- **Objetivo:** una criatura que veas. **Salvación:** Inteligencia.\n- **Fallo:** 3d6 psíquico, sin reacciones hasta el final de su siguiente turno y, en ese turno, solo puede elegir movimiento, acción o acción adicional. **Éxito:** solo la mitad del daño.\n- **Niveles superiores:** 1 objetivo más por nivel por encima de 2 (a 9 m o menos entre sí).",
+  "en": "- **Target:** one creature you see. **Save:** Intelligence.\n- **Fail:** 3d6 psychic, no reactions until the end of its next turn, and on that turn only one of: move, action or bonus action. **Success:** half damage only.\n- **Higher levels:** 1 more target per slot level above 2 (within 30 ft of each other)."
+ },
+ "Tasha's Otherworldly Guise": {
+  "es": "- **Efecto (elige Planos Inferiores o Superiores):**\n  - Inmunidad a fuego y veneno y a Envenenado (inferiores), o a radiante y necrótico y a Hechizado (superiores).\n  - Alas: vuelo a 12 m. +2 a la CA.\n  - Tus ataques con armas son mágicos y puedes usar tu característica de lanzamiento para el ataque y el daño.\n  - Atacas dos veces con la acción de Ataque (no se suma a Ataque extra).",
+  "en": "- **Effect (pick Lower or Upper Planes):**\n  - Immunity to fire, poison and Poisoned (Lower), or radiant, necrotic and Charmed (Upper).\n  - Wings: 40-ft fly speed. +2 AC.\n  - Your weapon attacks are magical and can use your spellcasting ability for attack and damage.\n  - Attack twice with the Attack action (doesn't stack with Extra Attack)."
+ },
+ "Telepathy": {
+  "es": "- **Objetivo:** una criatura voluntaria que conozcas, en cualquier lugar de tu mismo plano.\n- **Efecto:** vínculo telepático: os enviáis al instante palabras, imágenes, sonidos y sensaciones, y te reconoce. Entiende lo que le envías aunque no compartáis idioma. Termina si estáis en planos distintos.",
+  "en": "- **Target:** one willing creature you know, anywhere on your plane.\n- **Effect:** telepathic link: you instantly share words, images, sounds and sensations, and it recognizes you. It understands you even without a shared language. Ends if you're on different planes."
+ },
+ "Temple of the Gods": {
+  "es": "- **Efecto:** un templo (hasta un cubo de 36 m) dedicado a tu deidad, con una puerta que solo abrís tú y quien elijas.\n- Eliges tipos opuestos (celestiales, elementales, feéricos, infernales o muertos vivientes): al intentar entrar hacen salvación de Carisma o no pueden en 24 h; aun dentro, restan 1d4 a sus pruebas de d20.\n- Bloquea la adivinación y el viaje etéreo; nada lo atraviesa físicamente. Inmune a *Disipar magia* y *Campo antimagia*; *Desintegrar* lo destruye.\n- Quien recupere PG por un conjuro de nivel 1+ dentro suma tu modificador de Sabiduría (mínimo 1).\n- Un año lanzándolo cada día en el mismo sitio lo hace permanente.",
+  "en": "- **Effect:** a temple (up to a 120-ft cube) to your deity, with a door only you and chosen creatures can open.\n- Pick opposed types (celestials, elementals, fey, fiends or undead): entering requires a Charisma save or they're barred 24 h; even inside, they subtract 1d4 from D20 Tests.\n- Blocks divination and ethereal travel; nothing passes through physically. Immune to Dispel Magic and Antimagic Field; Disintegrate destroys it.\n- Healing from a level 1+ spell inside adds your Wisdom modifier (minimum 1).\n- Cast daily on the same spot for a year, it becomes permanent."
+ },
+ "Temporal Shunt": {
+  "es": "- **Se activa:** reacción cuando una criatura que ves hace una tirada de ataque o empieza a lanzar un conjuro.\n- **Salvación:** Sabiduría o desaparece en el tiempo: el ataque falla o el conjuro se pierde. Reaparece al inicio de su siguiente turno sin recordar nada.\n- **Niveles superiores:** 1 objetivo más por nivel por encima de 5 (a 9 m o menos entre sí).",
+  "en": "- **Trigger:** reaction when a creature you see makes an attack roll or starts casting a spell.\n- **Save:** Wisdom or it vanishes in time: the attack misses or the spell is wasted. It returns at the start of its next turn, remembering nothing.\n- **Higher levels:** 1 more target per slot level above 5 (within 30 ft of each other)."
+ },
+ "Tenser's Transformation": {
+  "es": "- **Efecto (no puedes lanzar conjuros mientras dure):** 50 PG temporales; ventaja al atacar con armas sencillas y marciales; +2d12 de fuerza al impactar con armas; competencia con todas las armaduras, escudos y armas y en salvaciones de Fuerza y Constitución; dos ataques con la acción de Ataque (no se suma a Ataque extra).\n- **Al terminar:** salvación de Constitución CD 15 o ganas 1 nivel de Agotamiento.",
+  "en": "- **Effect (no spellcasting meanwhile):** 50 temporary HP; advantage on simple and martial weapon attacks; +2d12 force on weapon hits; proficiency with all armor, shields and weapons and in Strength and Constitution saves; two attacks with the Attack action (doesn't stack with Extra Attack).\n- **When it ends:** DC 15 Constitution save or gain 1 Exhaustion level."
+ },
+ "Tether Essence": {
+  "es": "- **Objetivo:** dos criaturas que veas; salvación de Constitución (con desventaja si están a 9 m o menos entre sí; pueden fallar a propósito). Si alguna la supera, no pasa nada.\n- **Si fallan ambas:** quedan enlazadas: el daño y la curación de una se aplican también a la otra. Termina para las dos si cualquiera llega a 0 PG.",
+  "en": "- **Target:** two creatures you see; Constitution save (disadvantage if within 30 ft of each other; they may fail on purpose). If either succeeds, nothing happens.\n- **Both fail:** they're linked: damage and healing to one also apply to the other. Ends for both if either drops to 0 HP."
+ },
+ "Thorn Whip": {
+  "es": "- **Ataque:** de conjuro cuerpo a cuerpo (alcance 9 m). **Impacto:** 1d6 perforante y, si es Grande o menor, puedes atraerla hasta 3 m hacia ti.\n- **Mejora con tu nivel:** 2d6 (nivel 5), 3d6 (11), 4d6 (17).",
+  "en": "- **Attack:** melee spell attack (30-ft reach). **Hit:** 1d6 piercing and, if Large or smaller, pull it up to 10 ft toward you.\n- **Scaling:** 2d6 (level 5), 3d6 (11), 4d6 (17)."
+ },
+ "Thunder Step": {
+  "es": "- **Efecto:** te teletransportas a un espacio libre que veas (puedes llevar a una criatura voluntaria de tu tamaño o menor a 1,5 m).\n- **Estruendo:** las criaturas a 3 m del sitio que dejas hacen salvación de Constitución; **fallo** 3d10 trueno, **éxito** mitad. Se oye a 90 m.\n- **Niveles superiores:** +1d10 por nivel por encima de 3.",
+  "en": "- **Effect:** teleport to a free space you see (you can bring a willing creature your size or smaller within 5 ft).\n- **Boom:** creatures within 10 ft of where you left make a Constitution save; **fail** 3d10 thunder, **success** half. Audible 300 ft.\n- **Higher levels:** +1d10 per slot level above 3."
+ },
+ "Thunderclap": {
+  "es": "- **Área:** emanación de 1,5 m desde ti.\n- **Salvación:** Constitución o 1d6 trueno. Se oye a 30 m.\n- **Mejora con tu nivel:** 2d6 (nivel 5), 3d6 (11), 4d6 (17).",
+  "en": "- **Area:** 5-ft emanation from you.\n- **Save:** Constitution or 1d6 thunder. Audible 100 ft.\n- **Scaling:** 2d6 (level 5), 3d6 (11), 4d6 (17)."
+ },
+ "Thunderous Smite": {
+  "es": "- **Se activa:** acción adicional justo después de impactar con un arma cuerpo a cuerpo o un golpe sin armas.\n- **Daño:** +2d6 trueno (se oye a 90 m). Si es una criatura, salvación de Fuerza o es empujada 3 m y cae Derribada.\n- **Niveles superiores:** +1d6 por nivel por encima de 1.",
+  "en": "- **Trigger:** bonus action right after you hit with a melee weapon or unarmed strike.\n- **Damage:** +2d6 thunder (audible 300 ft). A creature makes a Strength save or is pushed 10 ft and knocked Prone.\n- **Higher levels:** +1d6 per slot level above 1."
+ },
+ "Tidal Wave": {
+  "es": "- **Área:** ola de hasta 9 m de largo, 3 m de ancho y 3 m de alto a tu alcance.\n- **Salvación:** Destreza. **Fallo:** 4d8 contundente y Derribada. **Éxito:** mitad.\n- Después apaga los fuegos desprotegidos del área y a 9 m.",
+  "en": "- **Area:** wave up to 30 ft long, 10 ft wide, 10 ft tall in range.\n- **Save:** Dexterity. **Fail:** 4d8 bludgeoning and Prone. **Success:** half.\n- It then douses unprotected flames in the area and within 30 ft."
+ },
+ "Time Ravage": {
+  "es": "- **Objetivo:** una criatura que veas. **Salvación:** Constitución. **Fallo:** 10d12 necrótico y envejece hasta que le quedan 30 días de vida: desventaja en ataques, pruebas y salvaciones, y velocidad a la mitad. **Éxito:** mitad.\n- Solo *Deseo* o *Restablecimiento mayor* con espacio de nivel 9 lo deshacen.",
+  "en": "- **Target:** one creature you see. **Save:** Constitution. **Fail:** 10d12 necrotic and it ages to 30 days from death: disadvantage on attacks, checks and saves, speed halved. **Success:** half.\n- Only Wish or Greater Restoration with a level 9 slot undoes it."
+ },
+ "Tiny Servant": {
+  "es": "- **Objetivo:** un objeto Diminuto no mágico y suelto que toques; cobra vida (bloque «Sirviente diminuto») hasta que termine o llegue a 0 PG.\n- **Acción adicional:** le das órdenes si está a 36 m (a todos a la vez si tienes varios); sin órdenes, solo se defiende.\n- **Niveles superiores:** 2 objetos más por nivel por encima de 3.",
+  "en": "- **Target:** a loose Tiny nonmagical object you touch; it animates (Tiny Servant stat block) until it ends or drops to 0 HP.\n- **Bonus action:** command it within 120 ft (all at once if several); with no orders, it only defends itself.\n- **Higher levels:** 2 more objects per slot level above 3."
+ },
+ "Toll the Dead": {
+  "es": "- **Objetivo:** una criatura que veas. **Salvación:** Sabiduría o 1d8 necrótico (1d12 si le falta algún PG).\n- **Mejora con tu nivel:** un dado más a niveles 5, 11 y 17.",
+  "en": "- **Target:** one creature you see. **Save:** Wisdom or 1d8 necrotic (1d12 if it's missing any HP).\n- **Scaling:** one more die at levels 5, 11 and 17."
+ },
+ "Transfix": {
+  "es": "- **Objetivo:** una criatura que veas a 18 m. **Salvación:** Carisma o queda Hechizada (e Incapacitada) mientras dure.\n- Si está a más de 1,5 m, se acerca a ti por el camino más directo; si termina su turno a 1,5 m, recibe 4d8 psíquico. Antes de entrar en terreno peligroso repite la salvación.\n- **Acción mágica (turnos siguientes):** eliges otro objetivo (no uno que ya la haya superado).\n- **Niveles superiores:** +1d8 por nivel por encima de 7.",
+  "en": "- **Target:** one creature you see within 60 ft. **Save:** Charisma or Charmed (and Incapacitated) for the duration.\n- If more than 5 ft away, it moves straight toward you; ending its turn within 5 ft deals 4d8 psychic. Before entering harmful terrain it repeats the save.\n- **Magic action (later turns):** target another creature (not one that already succeeded).\n- **Higher levels:** +1d8 per slot level above 7."
+ },
+ "Transmute Rock": {
+  "es": "- **Área:** piedra o barro en un cubo de 12 m que veas. Elige:\n  - *Roca en barro:* moverse cuesta el cuádruple; al lanzarlo, al entrar por primera vez en el turno o al terminarlo dentro, salvación de Fuerza o queda Apresado (acción para salir). En un techo, el barro cae: salvación de Destreza, **fallo** 4d8 contundente, **éxito** mitad.\n  - *Barro en roca:* barro de hasta 3 m de profundidad se vuelve piedra blanda; quien esté dentro hace salvación de Destreza o queda Apresado (prueba de Fuerza CD 20 o romper la roca: CA 15, 25 PG).",
+  "en": "- **Area:** stone or mud in a 40-ft cube you see. Choose:\n  - *Rock to Mud:* movement costs quadruple; on casting, first entering on a turn, or ending a turn inside, Strength save or Restrained (action to pull free). On a ceiling, the mud falls: Dexterity save, **fail** 4d8 bludgeoning, **success** half.\n  - *Mud to Rock:* mud up to 10 ft deep becomes soft stone; creatures in it make a Dexterity save or are Restrained (DC 20 Strength check or break the rock: AC 15, 25 HP)."
+ },
+ "Uncertain Footing": {
+  "es": "- **Objetivo:** hasta 3 criaturas que veas. **Salvación:** Inteligencia.\n- **Fallo:** velocidad a la mitad y no puede usar Correr; repite al final de cada uno de sus turnos.",
+  "en": "- **Target:** up to 3 creatures you see. **Save:** Intelligence.\n- **Fail:** speed halved and no Dash; it repeats at the end of each of its turns."
+ },
+ "Vision of Elapsing Eons": {
+  "es": "- **Objetivo:** una criatura que veas. **Salvación:** Inteligencia o 10d12 psíquico y Paralizada mientras dure.\n- Al final de cada uno de sus turnos repite: **fallo** gana 1 nivel de Agotamiento, **éxito** termina. Alguien a 1,5 m puede usar una acción para sacarla de la ilusión.",
+  "en": "- **Target:** one creature you see. **Save:** Intelligence or 10d12 psychic and Paralyzed for the duration.\n- At the end of each of its turns it repeats: **fail** gains 1 Exhaustion level, **success** it ends. Someone within 5 ft can use an action to shake it free."
+ },
+ "Vortex Warp": {
+  "es": "- **Objetivo:** otra criatura que veas. **Salvación:** Constitución (puede fallar a propósito) o la teletransportas a un espacio libre que veas a tu alcance, sobre una superficie que la sostenga.\n- **Niveles superiores:** +9 m de alcance por nivel por encima de 2.",
+  "en": "- **Target:** another creature you see. **Save:** Constitution (may fail on purpose) or you teleport it to a free space you see in range, on a surface that supports it.\n- **Higher levels:** +30 ft range per slot level above 2."
+ },
+ "Wail of the Banshee": {
+  "es": "- **Objetivo:** hasta 10 criaturas a tu alcance que puedan oírte.\n- Las que tengan 50 PG o menos mueren. Las demás hacen salvación de Constitución: **fallo** 12d10 psíquico y Ensordecidas 1 hora, **éxito** solo la mitad del daño.",
+  "en": "- **Target:** up to 10 creatures in range that can hear you.\n- Those at 50 HP or fewer die. Others make a Constitution save: **fail** 12d10 psychic and Deafened 1 hour, **success** half damage only."
+ },
+ "Wall of Light": {
+  "es": "- **Efecto:** muro de luz de hasta 18 m × 3 m × 1,5 m en cualquier orientación; bloquea la vista pero se puede atravesar. Luz brillante en 36 m (tenue 36 m más).\n- **Al aparecer:** quien esté dentro hace salvación de Constitución; **fallo** 4d8 radiante y Cegado 1 minuto (repite al final de cada turno), **éxito** mitad. Quien termine su turno dentro recibe 4d8 radiante.\n- **Acción:** rayo a una criatura a 18 m del muro: ataque de conjuro a distancia, **impacto** 4d8 radiante; el muro se acorta 3 m (termina al llegar a 0).\n- **Niveles superiores:** +1d8 por nivel por encima de 5.",
+  "en": "- **Effect:** wall of light up to 60 × 10 × 5 ft in any orientation; blocks sight, can be passed through. Bright light 120 ft (dim 120 ft more).\n- **When it appears:** creatures inside make a Constitution save; **fail** 4d8 radiant and Blinded 1 minute (repeat at end of each turn), **success** half. Ending a turn inside: 4d8 radiant.\n- **Action:** beam at a creature within 60 ft of the wall: ranged spell attack, **hit** 4d8 radiant; the wall shrinks 10 ft (ends at 0).\n- **Higher levels:** +1d8 per slot level above 5."
+ }
+}

@@ -1,0 +1,102 @@
+{
+ "Primal Savagery": {
+  "es": "- **Ataque:** de conjuro cuerpo a cuerpo contra una criatura a 1,5 m. **Impacto:** 1d10 ácido.\n- **Mejora con tu nivel:** 2d10 (nivel 5), 3d10 (11), 4d10 (17).",
+  "en": "- **Attack:** melee spell attack against a creature within 5 ft. **Hit:** 1d10 acid.\n- **Scaling:** 2d10 (level 5), 3d10 (11), 4d10 (17)."
+ },
+ "Primordial Ward": {
+  "es": "- **Efecto:** resistencia a ácido, frío, fuego, relámpago y trueno.\n- **Reacción:** al recibir daño de uno de esos tipos, cambias las resistencias por inmunidad a ese tipo (también contra ese golpe) hasta el final de tu siguiente turno; entonces termina.",
+  "en": "- **Effect:** resistance to acid, cold, fire, lightning and thunder.\n- **Reaction:** when you take one of those types, swap the resistances for immunity to it (including that hit) until the end of your next turn, when it ends."
+ },
+ "Psychic Scream": {
+  "es": "- **Objetivo:** hasta 10 criaturas que veas con Inteligencia 3 o más. **Salvación:** Inteligencia.\n- **Fallo:** 14d6 psíquico y Aturdidas (repiten al final de cada turno). **Éxito:** mitad y sin aturdir.\n- Si muere por este daño, le estalla la cabeza.",
+  "en": "- **Target:** up to 10 creatures you see with Intelligence 3+. **Save:** Intelligence.\n- **Fail:** 14d6 psychic and Stunned (repeat at end of each turn). **Success:** half, not stunned.\n- A creature killed by it has its head explode."
+ },
+ "Pulse Wave": {
+  "es": "- **Área:** cono de 9 m; eliges si atrae o empuja.\n- **Salvación:** Constitución. **Fallo:** 6d6 de fuerza y es atraída o empujada 4,5 m. **Éxito:** mitad.\n- Los objetos sueltos del cono también se mueven 4,5 m.\n- **Niveles superiores:** +1d6 y +1,5 m por nivel por encima de 3.",
+  "en": "- **Area:** 30-ft cone; choose pull or push.\n- **Save:** Constitution. **Fail:** 6d6 force and pulled or pushed 15 ft. **Success:** half.\n- Loose objects in the cone also move 15 ft.\n- **Higher levels:** +1d6 and +5 ft per slot level above 3."
+ },
+ "Pyrotechnics": {
+  "es": "- **Objetivo:** un fuego normal que quepa en un cubo de 1,5 m; lo apagas y eliges:\n  - *Fuegos artificiales:* las criaturas a 3 m hacen salvación de Constitución o quedan Cegadas hasta el final de tu siguiente turno.\n  - *Humo:* humo negro de 6 m de radio que oscurece del todo durante 1 minuto (un viento fuerte lo dispersa).",
+  "en": "- **Target:** a nonmagical fire fitting a 5-ft cube; you put it out and choose:\n  - *Fireworks:* creatures within 10 ft make a Constitution save or are Blinded until the end of your next turn.\n  - *Smoke:* 20-ft-radius black smoke, heavily obscured for 1 minute (strong wind disperses it)."
+ },
+ "Raulothim's Psychic Lance": {
+  "es": "- **Objetivo:** una criatura que veas, o una que nombres si está al alcance (aunque no la veas).\n- **Salvación:** Inteligencia. **Fallo:** 7d6 psíquico e Incapacitada hasta el inicio de tu siguiente turno. **Éxito:** mitad.\n- **Niveles superiores:** +1d6 por nivel por encima de 4.",
+  "en": "- **Target:** one creature you see, or one you name if it's in range (even unseen).\n- **Save:** Intelligence. **Fail:** 7d6 psychic and Incapacitated until the start of your next turn. **Success:** half.\n- **Higher levels:** +1d6 per slot level above 4."
+ },
+ "Ravenous Void": {
+  "es": "- **Área:** esfera de 6 m de radio; ella y 30 m a su alrededor son terreno difícil. Destruye los objetos no mágicos sueltos de dentro y atrae hacia el centro los de alrededor.\n- Quien empiece su turno a 30 m: salvación de Fuerza o es atraído al centro.\n- Quien entre o empiece su turno dentro: 5d10 de fuerza y queda Apresado mientras esté dentro (acción y prueba de Fuerza contra tu CD para liberarse o liberar a otro).\n- Quien llegue a 0 PG así queda aniquilado con su equipo no mágico.",
+  "en": "- **Area:** 20-ft-radius sphere; it and 100 ft around are difficult terrain. Loose nonmagical objects inside are destroyed and those nearby are pulled in.\n- Starting a turn within 100 ft: Strength save or pulled to the center.\n- Entering or starting a turn inside: 5d10 force and Restrained while inside (action + Strength check vs. your DC to free itself or another).\n- A creature dropped to 0 HP is annihilated with its nonmagical gear."
+ },
+ "Reality Break": {
+  "es": "- **Objetivo:** una criatura. **Salvación:** Sabiduría o no puede usar reacciones y, al inicio de cada uno de sus turnos, tira 1d10:\n  - 1–2: 6d12 psíquico y Aturdida hasta el final del turno.\n  - 3–5: salvación de Destreza; **fallo** 8d12 de fuerza, **éxito** mitad.\n  - 6–8: la teletransportas hasta 9 m, recibe 10d12 de fuerza y cae Derribada.\n  - 9–10: 10d12 frío y Cegada hasta el final del turno.\n- Repite la salvación al final de cada uno de sus turnos.",
+  "en": "- **Target:** one creature. **Save:** Wisdom or no reactions and, at the start of each of its turns, it rolls 1d10:\n  - 1–2: 6d12 psychic and Stunned until end of turn.\n  - 3–5: Dexterity save; **fail** 8d12 force, **success** half.\n  - 6–8: you teleport it up to 30 ft, 10d12 force, and Prone.\n  - 9–10: 10d12 cold and Blinded until end of turn.\n- It repeats the save at the end of each of its turns."
+ },
+ "Reweave Fate": {
+  "es": "- **Se activa:** reacción cuando una criatura que ves falla una prueba de d20.\n- **Efecto:** la repite con ventaja y usa la nueva tirada; si ahora la supera, gana 6d10 PG temporales.",
+  "en": "- **Trigger:** reaction when a creature you see fails a D20 Test.\n- **Effect:** it rerolls with advantage and uses the new roll; if it now succeeds, it gains 6d10 temporary HP."
+ },
+ "Rime's Binding Ice": {
+  "es": "- **Área:** cono de 9 m.\n- **Salvación:** Constitución. **Fallo:** 3d8 frío y atrapada en hielo (velocidad 0) durante 1 minuto o hasta que ella u otra criatura a su alcance use una acción para romperlo. **Éxito:** mitad y sin hielo.\n- **Niveles superiores:** +1d8 por nivel por encima de 2.",
+  "en": "- **Area:** 30-ft cone.\n- **Save:** Constitution. **Fail:** 3d8 cold and encased in ice (speed 0) for 1 minute or until it or someone in reach uses an action to break it. **Success:** half, no ice.\n- **Higher levels:** +1d8 per slot level above 2."
+ },
+ "Sapping Sting": {
+  "es": "- **Objetivo:** una criatura que veas. **Salvación:** Constitución o 1d4 necrótico y cae Derribada.\n- **Mejora con tu nivel:** 2d4 (nivel 5), 3d4 (11), 4d4 (17).",
+  "en": "- **Target:** one creature you see. **Save:** Constitution or 1d4 necrotic and Prone.\n- **Scaling:** 2d4 (level 5), 3d4 (11), 4d4 (17)."
+ },
+ "Scatter": {
+  "es": "- **Objetivo:** hasta 5 criaturas que veas; las que no quieran hacen salvación de Sabiduría.\n- **Efecto:** teletransportas a cada una a un espacio libre del suelo que veas a 36 m de ti.",
+  "en": "- **Target:** up to 5 creatures you see; unwilling ones make a Wisdom save.\n- **Effect:** teleport each to an unoccupied ground space you see within 120 ft of you."
+ },
+ "Shadow Blade": {
+  "es": "- **Efecto:** una espada de sombra en tu mano: arma sencilla cuerpo a cuerpo en la que eres competente; 2d8 psíquico; sutil, ligera y arrojadiza (6/18 m).\n- Ventaja al atacar a objetivos en luz tenue u oscuridad.\n- Si la sueltas o la lanzas, se desvanece al final del turno; con acción adicional reaparece en tu mano.\n- **Niveles superiores:** 3d8 (nivel 3–4), 4d8 (5–6), 5d8 (7+).",
+  "en": "- **Effect:** a shadow sword in your hand: simple melee weapon you're proficient with; 2d8 psychic; finesse, light, thrown (20/60).\n- Advantage against targets in dim light or darkness.\n- Dropped or thrown, it fades at end of turn; a bonus action brings it back.\n- **Higher levels:** 3d8 (level 3–4), 4d8 (5–6), 5d8 (7+)."
+ },
+ "Shadow of Moil": {
+  "es": "- **Efecto:** sombras te cubren: estás muy oscurecido para los demás; la luz a 3 m baja un grado (tenue → oscuridad, brillante → tenue).\n- Resistencia al radiante. Quien te impacte desde 3 m o menos recibe 2d8 necrótico.",
+  "en": "- **Effect:** shadows wreathe you: you're heavily obscured to others; light within 10 ft drops one step (dim → dark, bright → dim).\n- Resistance to radiant. A creature within 10 ft that hits you takes 2d8 necrotic."
+ },
+ "Shape Water": {
+  "es": "- **Objetivo:** agua que quepa en un cubo de 1,5 m.\n- **Efecto (elige uno):** moverla o cambiar su flujo 1,5 m; darle formas animadas (1 h); cambiar su color u opacidad (1 h); congelarla si no hay criaturas dentro (1 h).\n- Hasta 2 efectos duraderos a la vez; puedes anular uno con una acción.",
+  "en": "- **Target:** water fitting a 5-ft cube.\n- **Effect (pick one):** move it or redirect its flow 5 ft; animate simple shapes (1 h); change color or opacity (1 h); freeze it if no creatures are in it (1 h).\n- Up to 2 lasting effects at once; dismiss one as an action."
+ },
+ "Sickening Radiance": {
+  "es": "- **Área:** esfera de 9 m de radio de luz verdosa (dobla esquinas).\n- **Salvación:** Constitución al entrar por primera vez en el turno o al empezarlo dentro. **Fallo:** 4d10 radiante, 1 nivel de Agotamiento y emite luz que le impide beneficiarse de ser invisible.\n- La luz y el Agotamiento causados desaparecen al terminar el conjuro.",
+  "en": "- **Area:** 30-ft-radius sphere of greenish light (around corners).\n- **Save:** Constitution when first entering on a turn or starting it inside. **Fail:** 4d10 radiant, 1 Exhaustion level, and it glows so it can't benefit from being invisible.\n- The glow and that Exhaustion vanish when the spell ends."
+ },
+ "Silvery Barbs": {
+  "es": "- **Se activa:** reacción cuando una criatura que ves a 18 m tiene éxito en un ataque, una prueba de característica o una salvación.\n- **Efecto:** repite el d20 y usa el resultado más bajo.\n- **Además:** otra criatura que veas (puedes ser tú) tiene ventaja en su siguiente ataque, prueba o salvación en 1 minuto. Una criatura solo puede beneficiarse de un uso a la vez.",
+  "en": "- **Trigger:** reaction when a creature you see within 60 ft succeeds on an attack, ability check or save.\n- **Effect:** it rerolls the d20 and uses the lower result.\n- **Also:** another creature you see (can be you) has advantage on its next attack, check or save within 1 minute. Only one use benefits a creature at a time."
+ },
+ "Simbul's Synostodweomer": {
+  "es": "- **Objetivo:** una criatura que toques.\n- **Efecto:** cada vez que lance un conjuro con espacio, puede tirar tantos dados de golpe sin gastar como el nivel del espacio y recuperar el total + tu modificador de lanzamiento PG; esos dados quedan gastados.",
+  "en": "- **Target:** one creature you touch.\n- **Effect:** whenever it casts a spell with a slot, it can roll unspent Hit Dice equal to the slot level and regain the total + your spellcasting modifier HP; those dice are spent."
+ },
+ "Skill Empowerment": {
+  "es": "- **Objetivo:** una criatura voluntaria que toques.\n- **Efecto:** pericia (doble competencia) en una habilidad en la que ya sea competente y que no tenga ya duplicada.",
+  "en": "- **Target:** one willing creature you touch.\n- **Effect:** expertise (double proficiency) in a skill it's proficient in and isn't already doubled."
+ },
+ "Skywrite": {
+  "es": "- **Efecto:** hasta 10 palabras de nube en una zona del cielo que veas; un viento fuerte las dispersa y termina el conjuro.",
+  "en": "- **Effect:** up to 10 words of cloud in a part of the sky you see; strong wind disperses them and ends it."
+ },
+ "Snare": {
+  "es": "- **Efecto:** la cuerda forma un círculo de 1,5 m de radio que se vuelve una trampa casi invisible (Inteligencia (Investigación) contra tu CD para verla).\n- Una criatura Pequeña, Mediana o Grande que la pise hace salvación de Destreza o queda colgada boca abajo a 1 m del suelo, Apresada.\n- **Liberarse:** salvación de Destreza al final de cada turno, o acción y prueba de Inteligencia (Arcanos) contra tu CD (ella u otra).",
+  "en": "- **Effect:** the rope forms a 5-ft-radius circle that becomes a near-invisible trap (Intelligence (Investigation) vs. your DC to spot).\n- A Small, Medium or Large creature stepping in makes a Dexterity save or is hoisted upside down 3 ft up, Restrained.\n- **Escape:** Dexterity save at end of each turn, or an action and Intelligence (Arcana) check vs. your DC (itself or another)."
+ },
+ "Snilloc's Snowball Swarm": {
+  "es": "- **Área:** esfera de 1,5 m de radio en un punto a tu alcance.\n- **Salvación:** Destreza. **Fallo:** 3d6 frío. **Éxito:** mitad.\n- **Niveles superiores:** +1d6 por nivel por encima de 2.",
+  "en": "- **Area:** 5-ft-radius sphere on a point in range.\n- **Save:** Dexterity. **Fail:** 3d6 cold. **Success:** half.\n- **Higher levels:** +1d6 per slot level above 2."
+ },
+ "Songal's Elemental Suffusion": {
+  "es": "- **Efecto (mientras dure):**\n  - Resistencia a un tipo a elegir: ácido, frío, fuego, relámpago o trueno.\n  - **Pulso:** al lanzarlo y al inicio de cada uno de tus turnos, emanación de 4,5 m; las criaturas que elijas hacen salvación de Destreza: **fallo** 2d6 del tipo que elijas y Derribadas, **éxito** solo la mitad.\n  - Vuelo a 9 m, puedes flotar.\n- **Como conjuro en círculo** (cada secundario gasta espacio de nivel 2+): tarda 1 minuto, dura hasta 10 minutos y otra criatura por secundario (máx. 9) recibe los beneficios.",
+  "en": "- **Effect (for the duration):**\n  - Resistance to one: acid, cold, fire, lightning or thunder.\n  - **Pulse:** on casting and at the start of each of your turns, 15-ft emanation; chosen creatures make a Dexterity save: **fail** 2d6 of your chosen type and Prone, **success** half only.\n  - 30-ft fly speed, can hover.\n- **As a Circle spell** (each secondary spends a level 2+ slot): 1-minute cast, up to 10 minutes, and one more creature per secondary (max 9) gets the benefits."
+ },
+ "Soul Cage": {
+  "es": "- **Se activa:** reacción cuando muere un humanoide a 18 m: atrapas su alma en la jaula (no puede ser revivido mientras esté ahí).\n- **Usos (6 en total, luego se libera):**\n  - *Robar vida:* acción adicional, recuperas 2d8 PG.\n  - *Interrogar:* sin acción, responde con verdad lo que sabía en vida.\n  - *Experiencia prestada:* acción adicional, ventaja en tu siguiente ataque, prueba o salvación (antes de tu próximo turno).\n  - *Ojos de los muertos:* acción, un sensor invisible en un lugar que vio en vida (concentración, hasta 10 minutos).",
+  "en": "- **Trigger:** reaction when a humanoid dies within 60 ft: trap its soul in the cage (it can't be revived meanwhile).\n- **Uses (6 total, then it's freed):**\n  - *Steal Life:* bonus action, regain 2d8 HP.\n  - *Query Soul:* no action, it truthfully answers from what it knew alive.\n  - *Borrow Experience:* bonus action, advantage on your next attack, check or save (before your next turn).\n  - *Eyes of the Dead:* action, invisible sensor in a place it saw in life (concentration, up to 10 minutes)."
+ },
+ "Spellfire Flare": {
+  "es": "- **Ataque:** de conjuro a distancia contra un objetivo; ignora la cobertura media y la de tres cuartos. **Impacto:** 2d10 radiante.\n- **Niveles superiores:** 1 descarga más por nivel por encima de 1 (al mismo objetivo o a otros, un ataque por descarga).",
+  "en": "- **Attack:** ranged spell attack against a target, ignoring half and three-quarters cover. **Hit:** 2d10 radiant.\n- **Higher levels:** 1 more blast per slot level above 1 (same or different targets, one attack each)."
+ }
+}

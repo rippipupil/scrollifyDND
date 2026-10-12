@@ -10,7 +10,8 @@ import { useT } from '../../i18n/useT';
 import { useHomebrew } from '../../store/homebrew';
 import { useTheme } from '../../theme';
 import { Markdown } from '../Markdown';
-import { Badge, Button, Card, Chip, Row, Txt } from '../ui';
+import { useWikiUser } from '../../store/wiki';
+import { Badge, Button, Card, Chip, Field, Row, Txt } from '../ui';
 
 function Meta({ label, value }: { label: string; value?: string | number }) {
   if (value === undefined || value === '') return null;
@@ -234,6 +235,18 @@ function searchLinks(e: ContentEntry) {
   };
 }
 
+/** The reader's own notes on an entry, kept on the device. */
+function NotesCard({ entryKey }: { entryKey: string }) {
+  const { t } = useT();
+  const note = useWikiUser((s) => s.notes[entryKey] ?? '');
+  const setNote = useWikiUser((s) => s.setNote);
+  return (
+    <Card title={t('wiki.myNotes')}>
+      <Field value={note} onChangeText={(v) => setNote(entryKey, v)} placeholder={t('wiki.notesHint')} multiline style={{ minHeight: 70, textAlignVertical: 'top' }} testID="entry-notes" />
+    </Card>
+  );
+}
+
 export function EntryDetail({ entry, onAdd }: { entry: ContentEntry; onAdd?: () => void }) {
   const { t, loc, lang } = useT();
   const router = useRouter();
@@ -264,6 +277,14 @@ export function EntryDetail({ entry, onAdd }: { entry: ContentEntry; onAdd?: () 
           <Markdown text={loc(entry.text)} />
         </Card>
       ) : null}
+      {d.rules ? (
+        <Card title={t('wiki.rulesCard')}>
+          <Markdown text={loc(d.rules)} />
+          <Txt variant="small" muted>
+            {t('wiki.rulesCardNote', { book: `${entry.book ?? ''}${d.page ? `, ${t('wiki.page', { n: d.page })}` : ''}` })}
+          </Txt>
+        </Card>
+      ) : null}
       {entry.category === 'spell' && d.higherLevel ? (
         <Card title={t('wiki.higherLevel')}>
           <Markdown text={loc(d.higherLevel)} />
@@ -284,6 +305,7 @@ export function EntryDetail({ entry, onAdd }: { entry: ContentEntry; onAdd?: () 
         ))}
       </Row>
       {onAdd ? <Button label={t('wiki.addToCharacter')} onPress={onAdd} /> : null}
+      <NotesCard entryKey={keyOf(entry)} />
     </View>
   );
 }

@@ -1,0 +1,70 @@
+{
+ "Wall of Sand": {
+  "es": "- **Efecto:** muro de arena de hasta 9 m de largo, 3 m de alto y 3 m de grosor en el suelo; bloquea la vista pero no el paso.\n- Quien esté dentro queda Cegado y cada metro le cuesta el triple de movimiento.",
+  "en": "- **Effect:** sand wall up to 30 ft long, 10 ft high, 10 ft thick on the ground; blocks sight, not movement.\n- Creatures inside are Blinded and movement costs triple."
+ },
+ "Wall of Water": {
+  "es": "- **Efecto:** muro de agua (9 m × 3 m × 30 cm) o anillo (6 m de diámetro, 6 m de alto); terreno difícil.\n- Desventaja a los ataques con armas a distancia que lo atraviesen; el fuego que lo cruce hace la mitad.\n- El frío que lo cruce congela secciones de 1,5 m (CA 5, 15 PG); destruidas, no se rellenan.",
+  "en": "- **Effect:** water wall (30 × 10 ft × 1 ft) or ring (20 ft across, 20 ft high); difficult terrain.\n- Ranged weapon attacks through it have disadvantage; fire passing through deals half.\n- Cold passing through freezes 5-ft sections (AC 5, 15 HP); destroyed ones don't refill."
+ },
+ "Wardaway": {
+  "es": "- **Objetivo:** una criatura a tu alcance (constructos y muertos vivientes superan siempre). **Salvación:** Constitución.\n- **Fallo:** 2d4 de fuerza, velocidad a la mitad hasta el inicio de tu siguiente turno y en su siguiente turno solo puede usar acción o acción adicional (no ambas). **Éxito:** solo la mitad del daño.\n- **Niveles superiores:** +2d4 por nivel por encima de 1.",
+  "en": "- **Target:** one creature in range (constructs and undead auto-succeed). **Save:** Constitution.\n- **Fail:** 2d4 force, speed halved until the start of your next turn, and on its next turn only an action or a bonus action (not both). **Success:** half damage only.\n- **Higher levels:** +2d4 per slot level above 1."
+ },
+ "Warding Wind": {
+  "es": "- **Área:** viento fuerte en 3 m de radio alrededor de ti (se mueve contigo).\n- **Efecto:** tú y quienes estén dentro quedáis Ensordecidos; apaga llamas del tamaño de una antorcha; dispersa gases y nieblas; terreno difícil para los demás; desventaja a los ataques con armas a distancia que entren o salgan.",
+  "en": "- **Area:** strong wind in a 10-ft radius around you (moves with you).\n- **Effect:** you and others inside are Deafened; it puts out torch-sized flames; disperses gas and fog; difficult terrain for others; ranged weapon attacks into or out of it have disadvantage."
+ },
+ "Warp Sense": {
+  "es": "- **Efecto:** percibes portales (también inactivos) a 9 m de ti.\n- **Acción:** estudiar uno con una prueba de tu característica de lanzamiento CD 15; si la superas, sabes su plano de destino y qué llave necesita (y termina); si fallas, no puedes volver a estudiarlo con este lanzamiento.\n- Lo bloquean 30 cm de piedra, 2,5 cm de metal, una lámina de plomo o 90 cm de madera o tierra.",
+  "en": "- **Effect:** sense portals (even inactive) within 30 ft.\n- **Action:** study one with a DC 15 check using your spellcasting ability; success reveals its destination plane and key (and ends the spell); failure means you can't study it again this casting.\n- Blocked by 1 ft of stone, 1 inch of metal, thin lead, or 3 ft of wood or dirt."
+ },
+ "Watery Sphere": {
+  "es": "- **Efecto:** esfera de agua de 1,5 m de radio que flota hasta 3 m del suelo.\n- Quien esté en su espacio hace salvación de Fuerza: **éxito** es expulsado fuera; **fallo** queda Apresado y sumergido (repite al final de cada turno). Las Enormes superan siempre. Caben 4 Medianas o 1 Grande.\n- **Acción:** muévela hasta 9 m (arrastra a los atrapados y obliga a salvar a quien embista).\n- Al terminar cae, apaga fuegos a 9 m y los atrapados caen Derribados.",
+  "en": "- **Effect:** 5-ft-radius water sphere hovering up to 10 ft off the ground.\n- Creatures in its space make a Strength save: **success** ejected; **fail** Restrained and engulfed (repeat at end of each turn). Huge+ auto-succeed. Holds 4 Medium or 1 Large.\n- **Action:** move it up to 30 ft (trapped creatures move with it; rammed creatures must save).\n- When it ends it falls, douses fires within 30 ft, and trapped creatures land Prone."
+ },
+ "Waves of Exhaustion": {
+  "es": "- **Efecto:** mientras dure, puedes usar una acción mágica para lanzar un cono de 18 m de luz gris: salvación de Constitución o gana 1 nivel de Agotamiento (máximo 4 por este conjuro).\n- El Agotamiento causado desaparece al terminar.",
+  "en": "- **Effect:** while it lasts, a Magic action emits a 60-ft cone of gray light: Constitution save or gain 1 Exhaustion level (max 4 from this spell).\n- That Exhaustion vanishes when it ends."
+ },
+ "Whirlwind": {
+  "es": "- **Área:** torbellino (cilindro de 3 m de radio y 9 m de alto) en el suelo; **acción:** muévelo hasta 9 m. Absorbe objetos sueltos Medianos o menores.\n- **Salvación:** Destreza la primera vez en el turno que entra o la alcanza. **Fallo:** 10d6 contundente y, si es Grande o menor, salvación de Fuerza o queda Apresada dentro (sube 1,5 m por turno y cae al terminar). **Éxito:** mitad.\n- **Escapar:** acción y prueba de Fuerza o Destreza contra tu CD; sale despedida 3d6 × 3 m en dirección aleatoria.",
+  "en": "- **Area:** whirlwind (10-ft-radius, 30-ft-high cylinder) on the ground; **action:** move it up to 30 ft. It sucks up loose Medium or smaller objects.\n- **Save:** Dexterity the first time on a turn it enters or is entered. **Fail:** 10d6 bludgeoning and, if Large or smaller, a Strength save or Restrained inside (rises 5 ft per turn, falls when it ends). **Success:** half.\n- **Escape:** action and Strength or Dexterity check vs. your DC; it's flung 3d6 × 10 ft in a random direction."
+ },
+ "Witch Bolt": {
+  "es": "- **Ataque:** de conjuro a distancia. **Impacto:** 2d12 relámpago.\n- En tus turnos siguientes, acción adicional para hacerle 1d12 relámpago automáticamente (aunque el primer ataque fallara).\n- Termina si sale del alcance o tiene cobertura total.\n- **Niveles superiores:** +1d12 al daño inicial por nivel por encima de 1.",
+  "en": "- **Attack:** ranged spell attack. **Hit:** 2d12 lightning.\n- On later turns, a bonus action deals 1d12 lightning automatically (even if the first attack missed).\n- Ends if it leaves range or has total cover.\n- **Higher levels:** +1d12 initial damage per slot level above 1."
+ },
+ "Wither and Bloom": {
+  "es": "- **Área:** esfera de 3 m de radio en un punto a tu alcance; las criaturas que elijas.\n- **Salvación:** Constitución. **Fallo:** 3d6 necrótico. **Éxito:** mitad. Las plantas normales se marchitan.\n- **Además:** una criatura del área puede tirar un dado de golpe sin gastar y recuperar el resultado + tu modificador de lanzamiento PG.\n- **Niveles superiores:** +1d6 de daño y 1 dado de golpe más por nivel por encima de 2 (el modificador se suma una sola vez).",
+  "en": "- **Area:** 10-ft-radius sphere on a point in range; creatures you choose.\n- **Save:** Constitution. **Fail:** 3d6 necrotic. **Success:** half. Ordinary plants wither.\n- **Also:** one creature in the area can roll an unspent Hit Die and regain the roll + your spellcasting modifier HP.\n- **Higher levels:** +1d6 damage and 1 more Hit Die per slot level above 2 (modifier added once)."
+ },
+ "Word of Radiance": {
+  "es": "- **Área:** emanación de 1,5 m desde ti; las criaturas que elijas y veas.\n- **Salvación:** Constitución o 1d6 radiante.\n- **Mejora con tu nivel:** 2d6 (nivel 5), 3d6 (11), 4d6 (17).",
+  "en": "- **Area:** 5-ft emanation from you; creatures you choose and see.\n- **Save:** Constitution or 1d6 radiant.\n- **Scaling:** 2d6 (level 5), 3d6 (11), 4d6 (17)."
+ },
+ "Wrath of Nature": {
+  "es": "- **Área:** cubo de 18 m en un punto que veas; la naturaleza cobra vida:\n  - *Hierba y maleza:* terreno difícil para tus enemigos.\n  - *Árboles:* al inicio de tus turnos, los enemigos a 3 m de un árbol hacen salvación de Destreza o reciben 4d6 cortante.\n  - *Raíces:* al final de tus turnos, una criatura en el suelo hace salvación de Fuerza o queda Apresada (acción y Fuerza (Atletismo) contra tu CD para liberarse).\n  - *Rocas:* acción adicional, ataque de conjuro a distancia; **impacto** 3d8 contundente y salvación de Fuerza o Derribada.",
+  "en": "- **Area:** 60-ft cube on a point you see; nature animates:\n  - *Grass and undergrowth:* difficult terrain for enemies.\n  - *Trees:* at the start of your turns, enemies within 10 ft of a tree make a Dexterity save or take 4d6 slashing.\n  - *Roots:* at the end of your turns, one creature on the ground makes a Strength save or is Restrained (action + Strength (Athletics) vs. your DC to escape).\n  - *Rocks:* bonus action, ranged spell attack; **hit** 3d8 bludgeoning and a Strength save or Prone."
+ },
+ "Wrathful Smite": {
+  "es": "- **Se activa:** acción adicional justo después de impactar con un arma cuerpo a cuerpo o un golpe sin armas.\n- **Daño:** +1d6 necrótico, y salvación de Sabiduría o queda Asustado mientras dure; repite al final de cada uno de sus turnos.\n- **Niveles superiores:** +1d6 por nivel por encima de 1.",
+  "en": "- **Trigger:** bonus action right after you hit with a melee weapon or unarmed strike.\n- **Damage:** +1d6 necrotic, and a Wisdom save or Frightened for the duration; it repeats at the end of each of its turns.\n- **Higher levels:** +1d6 per slot level above 1."
+ },
+ "Wristpocket": {
+  "es": "- **Efecto:** un objeto de hasta 2,5 kg que solo tú sostengas desaparece en un espacio extradimensional.\n- **Acción:** traerlo a tu mano libre o devolverlo. Si sigue allí al terminar, aparece a tus pies.",
+  "en": "- **Effect:** an object up to 5 lb held only by you vanishes into an extradimensional space.\n- **Action:** summon it to your free hand or send it back. Still there when it ends, it appears at your feet."
+ },
+ "Yolande's Regal Presence": {
+  "es": "- **Área:** emanación de 3 m desde ti.\n- **Salvación:** Sabiduría cuando alcanza a una criatura que veas, entra o termina su turno dentro (una vez por turno, a tu elección). **Fallo:** 4d6 psíquico, Derribada y puedes empujarla 3 m. **Éxito:** solo la mitad del daño.",
+  "en": "- **Area:** 10-ft emanation from you.\n- **Save:** Wisdom when it reaches a creature you see, it enters, or ends its turn inside (once per turn, your choice). **Fail:** 4d6 psychic, Prone, and you may push it 10 ft. **Success:** half damage only."
+ },
+ "Zephyr Strike": {
+  "es": "- **Efecto:** tu movimiento no provoca ataques de oportunidad.\n- **Una vez:** ventaja en un ataque con arma en tu turno; si impacta, +1d8 de fuerza, y en cualquier caso +9 m de velocidad hasta el final de ese turno.",
+  "en": "- **Effect:** your movement doesn't provoke opportunity attacks.\n- **Once:** advantage on one weapon attack on your turn; on a hit +1d8 force, and either way +30 ft speed until the end of that turn."
+ },
+ "Zone of Amicability": {
+  "es": "- **Área:** emanación de 18 m desde ti.\n- **Efecto:** en las pruebas de característica para influir en una criatura del área, un 9 o menos en el d20 cuenta como 10.",
+  "en": "- **Area:** 60-ft emanation from you.\n- **Effect:** on ability checks to influence a creature in the area, a d20 roll of 9 or lower counts as 10."
+ }
+}

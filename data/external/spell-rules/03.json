@@ -1,0 +1,102 @@
+{
+ "Far Step": {
+  "es": "- **Efecto:** te teletransportas hasta 18 m a un espacio libre que veas.\n- En cada uno de tus turnos mientras dure, puedes repetirlo como acción adicional.",
+  "en": "- **Effect:** teleport up to 60 ft to an unoccupied space you see.\n- On each of your turns while it lasts, repeat it as a bonus action."
+ },
+ "Fast Friends": {
+  "es": "- **Objetivo:** un humanoide que te vea, te oiga y te entienda. **Salvación:** Sabiduría o queda Hechizado.\n- Mientras dure, hace de buen grado lo que le pidas lo mejor que pueda; puedes darle nuevas tareas.\n- Si la tarea puede dañarlo o va contra sus deseos, repite la salvación (con ventaja si lucháis contra él); si supondría su muerte segura, termina.\n- Al acabar sabe que lo hechizaste.\n- **Niveles superiores:** 1 objetivo más por nivel por encima de 3.",
+  "en": "- **Target:** one humanoid that sees, hears and understands you. **Save:** Wisdom or Charmed.\n- For the duration it gladly does what you ask as best it can; you can assign new tasks.\n- If a task could harm it or goes against its wishes, it repeats the save (with advantage if you're fighting it); certain death ends the spell.\n- It knows it was charmed when it ends.\n- **Higher levels:** 1 more target per slot level above 3."
+ },
+ "Feign Death": {
+  "es": "- **Objetivo:** una criatura voluntaria que toques.\n- **Efecto:** parece muerta a simple vista y ante conjuros que comprueben su estado. Queda Cegada e Incapacitada, con velocidad 0.\n- Tiene resistencia a todo el daño salvo psíquico e inmunidad a Envenenado.",
+  "en": "- **Target:** one willing creature you touch.\n- **Effect:** it appears dead to inspection and status-checking spells. It's Blinded and Incapacitated, speed 0.\n- It has resistance to all damage except psychic and immunity to Poisoned."
+ },
+ "Festering Blast": {
+  "es": "- **Área:** línea de 18 m × 3 m desde ti.\n- **Salvación:** Constitución. **Fallo:** 4d10 necrótico y Envenenado mientras dure: al inicio de cada uno de sus turnos recibe 2d10 de veneno y al final repite la salvación.\n- **Niveles superiores:** +1d10 al daño inicial por nivel por encima de 4.",
+  "en": "- **Area:** 60 × 10 ft line from you.\n- **Save:** Constitution. **Fail:** 4d10 necrotic and Poisoned for the duration: 2d10 poison at the start of each of its turns, repeating the save at the end.\n- **Higher levels:** +1d10 initial damage per slot level above 4."
+ },
+ "Find Greater Steed": {
+  "es": "- **Efecto:** invocas un espíritu con forma de grifo, pegaso, peritón, lobo terrible, rinoceronte o tigre dientes de sable (bloque del Manual de Monstruos), de tipo celestial, feérico o infernal. Si su Inteligencia es 5 o menos, pasa a 6 y entiende un idioma tuyo.\n- La controlas en combate y os comunicáis por telepatía a 1,6 km. Montado, tus conjuros que solo te afectan a ti pueden afectarla también.\n- Desaparece a 0 PG o si la despides; al volver a lanzarlo regresa curada. Solo una montura de este conjuro o de *Encontrar montura* a la vez.",
+  "en": "- **Effect:** summon a spirit as a griffon, pegasus, peryton, dire wolf, rhinoceros or saber-toothed tiger (Monster Manual stats), typed celestial, fey or fiend. Intelligence 5 or lower becomes 6 and it understands one of your languages.\n- You control it in combat; telepathy within 1 mile. Mounted, your self-only spells can also target it.\n- It vanishes at 0 HP or when dismissed; recasting brings it back healed. One mount from this or Find Steed at a time."
+ },
+ "Fizban's Platinum Shield": {
+  "es": "- **Objetivo:** una criatura a tu alcance (puedes ser tú), rodeada de luz plateada.\n- **Efecto:** tiene cobertura, resistencia a ácido, frío, fuego, relámpago y veneno, y evasión (salvación de Destreza de «mitad de daño»: nada si supera, mitad si falla).\n- **Acción adicional (turnos siguientes):** pasa el escudo a otra criatura a 18 m del actual.",
+  "en": "- **Target:** one creature in range (can be you), wrapped in silvery light.\n- **Effect:** it has cover, resistance to acid, cold, fire, lightning and poison, and evasion (half-damage Dexterity saves: none on success, half on failure).\n- **Bonus action (later turns):** move the field to another creature within 60 ft of it."
+ },
+ "Flame Arrows": {
+  "es": "- **Objetivo:** un carcaj que toques.\n- **Efecto:** cada flecha o virote que saques de él hace +1d6 de fuego al impactar con un ataque a distancia; la magia de cada pieza se gasta al disparar. Termina tras sacar 12 piezas.\n- **Niveles superiores:** 2 piezas más por nivel por encima de 3.",
+  "en": "- **Target:** a quiver you touch.\n- **Effect:** each arrow or bolt drawn from it deals +1d6 fire on a ranged hit; each piece's magic ends once fired. Ends after 12 pieces are drawn.\n- **Higher levels:** 2 more pieces per slot level above 3."
+ },
+ "Flock of Familiars": {
+  "es": "- **Efecto:** invocas 3 familiares temporales (mismas reglas que *Encontrar familiar*, todos del mismo tipo: celestial, feérico o infernal). Si ya tienes un familiar, invocas uno menos.\n- Os comunicáis por telepatía y compartes sus sentidos a 1,6 km. Uno de ellos puede transmitir un conjuro de toque por turno.\n- **Niveles superiores:** 1 familiar más por nivel por encima de 2.",
+  "en": "- **Effect:** summon 3 temporary familiars (Find Familiar rules, all celestial, fey or fiend). If you already have a familiar, one fewer.\n- Telepathy and shared senses within 1 mile. One of them can deliver one touch spell per turn.\n- **Higher levels:** 1 more familiar per slot level above 2."
+ },
+ "Fortune's Favor": {
+  "es": "- **Objetivo:** tú o una criatura voluntaria que veas.\n- **Efecto:** puede renunciar al conjuro para tirar un d20 adicional en un ataque, prueba o salvación y quedarse con el que quiera; o, cuando la atacan, tirar un d20 y elegir entre el suyo y el del atacante. (Se tira después de aplicar ventaja o desventaja.)\n- **Niveles superiores:** 1 objetivo más por nivel por encima de 2.",
+  "en": "- **Target:** you or one willing creature you see.\n- **Effect:** it can end the spell to roll an extra d20 on an attack, check or save and pick either; or, when attacked, roll a d20 and pick between it and the attacker's. (Rolled after advantage/disadvantage.)\n- **Higher levels:** 1 more target per slot level above 2."
+ },
+ "Fount of Moonlight": {
+  "es": "- **Efecto:** emites luz brillante en 6 m (tenue 6 m más), tienes resistencia a radiante y tus ataques cuerpo a cuerpo hacen +2d6 radiante.\n- **Reacción:** justo después de recibir daño de una criatura que veas a 18 m, salvación de Constitución o queda Cegada hasta el final de tu siguiente turno.",
+  "en": "- **Effect:** you shed bright light 20 ft (dim 20 ft more), have resistance to radiant, and your melee attacks deal +2d6 radiant.\n- **Reaction:** right after a creature you see within 60 ft damages you, Constitution save or it's Blinded until the end of your next turn."
+ },
+ "Fractured Awareness": {
+  "es": "- **Objetivo:** una criatura que veas. **Salvación:** Inteligencia.\n- **Fallo:** 12d10 psíquico y desventaja en las pruebas de d20 mientras dure; repite la salvación al final de cada turno. **Éxito:** solo la mitad del daño y termina.",
+  "en": "- **Target:** one creature you see. **Save:** Intelligence.\n- **Fail:** 12d10 psychic and disadvantage on D20 Tests for the duration; it repeats the save at the end of each turn. **Success:** half damage only and it ends."
+ },
+ "Friends": {
+  "es": "- **Objetivo:** un humanoide que veas. **Salvación:** Sabiduría o queda Hechizado (supera automáticamente si no es humanoide, si estáis luchando o si ya se lo lanzaste en las últimas 24 h).\n- Termina si recibe daño o si atacas, haces daño u obligas a alguien a salvar. Al acabar sabe que lo hechizaste.",
+  "en": "- **Target:** one Humanoid you see. **Save:** Wisdom or Charmed (auto-success if not humanoid, if you're fighting it, or if you cast this on it in the last 24 h).\n- Ends if it takes damage or you attack, deal damage, or force a save. It knows it was charmed afterwards."
+ },
+ "Frost Fingers": {
+  "es": "- **Área:** cono de 4,5 m.\n- **Salvación:** Constitución. **Fallo:** 2d8 frío. **Éxito:** mitad.\n- Congela los líquidos no mágicos sueltos del área.\n- **Niveles superiores:** +1d8 por nivel por encima de 1.",
+  "en": "- **Area:** 15-ft cone.\n- **Save:** Constitution. **Fail:** 2d8 cold. **Success:** half.\n- Freezes loose nonmagical liquids in the area.\n- **Higher levels:** +1d8 per slot level above 1."
+ },
+ "Frostbite": {
+  "es": "- **Objetivo:** una criatura que veas. **Salvación:** Constitución.\n- **Fallo:** 1d6 frío y desventaja en su siguiente ataque con arma antes del final de su próximo turno.\n- **Mejora con tu nivel:** 2d6 (nivel 5), 3d6 (11), 4d6 (17).",
+  "en": "- **Target:** one creature you see. **Save:** Constitution.\n- **Fail:** 1d6 cold and disadvantage on its next weapon attack before the end of its next turn.\n- **Scaling:** 2d6 (level 5), 3d6 (11), 4d6 (17)."
+ },
+ "Galder's Speedy Courier": {
+  "es": "- **Efecto:** un pequeño elemental de aire (intocable e invulnerable) trae un cofre de 90 cm de lado. Metes objetos y nombras a una criatura que hayas visto (o de la que tengas pelo, uñas…).\n- Al cerrar el cofre, aparece junto a ella; solo ella puede abrirlo y sabe qué contiene y cuánto tiempo le queda. Si está en otro plano o protegida contra la detección, el contenido vuelve a tus pies.\n- Lo que no recoja vuelve a tus pies al terminar.\n- **Niveles superiores:** con espacio de nivel 8 puede llegar a otro plano.",
+  "en": "- **Effect:** a small air elemental (untouchable, invulnerable) brings a 3-ft chest. Fill it and name a creature you've seen (or whose hair, nail… you have).\n- Closing the lid sends it next to that creature; only it can open the chest and it knows the contents and time left. If on another plane or warded against detection, the contents return to your feet.\n- Anything not taken returns to your feet when it ends.\n- **Higher levels:** a level 8 slot reaches other planes."
+ },
+ "Galder's Tower": {
+  "es": "- **Efecto:** creas una torre de 2 pisos (3 m de alto y hasta 9 m² cada uno) con escalera; cada piso es dormitorio, estudio, comedor, salón, baño, observatorio o sala vacía. Dentro siempre está cálido y seco; el mobiliario se desvanece si se saca.\n- Al terminar, todo lo ajeno aparece fuera a salvo. Lanzarlo de nuevo la mantiene 24 h más; un año entero en el mismo sitio la hace permanente.\n- **Niveles superiores:** 1 piso más por nivel por encima de 3.",
+  "en": "- **Effect:** a 2-story tower (each 10 ft tall, up to 100 sq ft) with a ladder; each floor is a bedroom, study, dining room, lounge, washroom, observatory or empty room. Always warm and dry; furnishings vanish if taken out.\n- When it ends, everything else appears safely outside. Recasting keeps it 24 h more; a year in the same spot makes it permanent.\n- **Higher levels:** 1 more story per slot level above 3."
+ },
+ "Gate Seal": {
+  "es": "- **Área:** cubo fijo de 9 m que veas.\n- **Efecto:** los portales se cierran y no se pueden abrir; los conjuros y efectos de viaje planar (*Portal*, *Desplazamiento entre planos*…) fallan si se usan para entrar o salir.\n- **Niveles superiores:** con espacio de nivel 6+, dura hasta que se disipe.",
+  "en": "- **Area:** fixed 30-ft cube you see.\n- **Effect:** portals close and can't open; planar travel or portal effects (Gate, Plane Shift…) fail to enter or leave it.\n- **Higher levels:** level 6+ slot, lasts until dispelled."
+ },
+ "Gift of Alacrity": {
+  "es": "- **Objetivo:** una criatura voluntaria que toques.\n- **Efecto:** mientras dure, suma 1d8 a sus tiradas de iniciativa.",
+  "en": "- **Target:** one willing creature you touch.\n- **Effect:** for the duration it adds 1d8 to initiative rolls."
+ },
+ "Gift of Gab": {
+  "es": "- **Se activa:** reacción tras decir algo inoportuno.\n- **Efecto:** las criaturas que elijas a 1,5 m olvidan lo que dijiste en los últimos 6 segundos y recuerdan, en su lugar, las palabras que pronuncias como componente verbal.",
+  "en": "- **Trigger:** reaction after saying something unfortunate.\n- **Effect:** creatures you choose within 5 ft forget what you said in the last 6 seconds and remember instead the words you speak as the verbal component."
+ },
+ "Grasping Vine": {
+  "es": "- **Efecto:** una enredadera brota en un espacio libre que veas.\n- **Ataque:** de conjuro cuerpo a cuerpo contra una criatura a 9 m de ella. **Impacto:** 4d8 contundente y la atrae hasta 9 m; si es Enorme o menor, queda Agarrada (escapar con tu CD). Solo agarra a una a la vez.\n- **Acción adicional (turnos siguientes):** repite el ataque.\n- **Niveles superiores:** puede agarrar a 1 criatura más por nivel por encima de 4.",
+  "en": "- **Effect:** a vine sprouts in an unoccupied space you see.\n- **Attack:** melee spell attack against a creature within 30 ft of it. **Hit:** 4d8 bludgeoning, pulled up to 30 ft; Huge or smaller is Grappled (escape = your DC). One at a time.\n- **Bonus action (later turns):** repeat the attack.\n- **Higher levels:** grapples 1 more creature per slot level above 4."
+ },
+ "Grave Ground": {
+  "es": "- **Área:** hasta 4 cuadrados contiguos de 3 m en el suelo; terreno difícil para tus enemigos.\n- **Salvación:** Fuerza para los enemigos dentro al aparecer, al entrar o al terminar el turno (una vez por turno). **Fallo:** 6d6 necrótico y resta 1d6 a sus tiradas de daño hasta el final de su siguiente turno.\n- **Niveles superiores:** +1d6 por nivel por encima de 5.",
+  "en": "- **Area:** up to four contiguous 10-ft squares of ground; difficult terrain for your enemies.\n- **Save:** Strength for enemies inside when it appears, entering, or ending a turn (once per turn). **Fail:** 6d6 necrotic and −1d6 to its damage rolls until the end of its next turn.\n- **Higher levels:** +1d6 per slot level above 5."
+ },
+ "Gravity Fissure": {
+  "es": "- **Área:** línea de 30 m × 1,5 m desde ti.\n- **Salvación:** Constitución. **Fallo:** 8d8 de fuerza. **Éxito:** mitad.\n- Quien esté a 3 m de la línea (fuera de ella): salvación de Constitución o 8d8 de fuerza y es arrastrado hasta la línea.\n- **Niveles superiores:** +1d8 por nivel por encima de 6.",
+  "en": "- **Area:** 100 × 5 ft line from you.\n- **Save:** Constitution. **Fail:** 8d8 force. **Success:** half.\n- Creatures within 10 ft of the line (outside it): Constitution save or 8d8 force and pulled into the line.\n- **Higher levels:** +1d8 per slot level above 6."
+ },
+ "Gravity Sinkhole": {
+  "es": "- **Área:** esfera de 6 m de radio en un punto que veas.\n- **Salvación:** Constitución. **Fallo:** 5d10 de fuerza y es atraída hacia el centro (aunque quede en el aire). **Éxito:** mitad y no se mueve.\n- **Niveles superiores:** +1d10 por nivel por encima de 4.",
+  "en": "- **Area:** 20-ft-radius sphere on a point you see.\n- **Save:** Constitution. **Fail:** 5d10 force and pulled toward the center (even mid-air). **Success:** half, not pulled.\n- **Higher levels:** +1d10 per slot level above 4."
+ },
+ "Green-Flame Blade": {
+  "es": "- **Efecto:** ataque cuerpo a cuerpo con el arma contra una criatura a 1,5 m. Si impacta, efectos normales y el fuego salta a otra criatura que veas a 1,5 m del objetivo: recibe fuego igual a tu modificador de lanzamiento.\n- **Mejora con tu nivel:** a nivel 5, +1d8 de fuego al objetivo y 1d8 + modificador al segundo; a 11, 2d8 y 2d8 + mod.; a 17, 3d8 y 3d8 + mod.",
+  "en": "- **Effect:** melee weapon attack against one creature within 5 ft. On a hit, normal effects and fire leaps to another creature you see within 5 ft of it: fire damage equal to your spellcasting modifier.\n- **Scaling:** at level 5, +1d8 fire to the target and 1d8 + mod to the second; at 11, 2d8 and 2d8 + mod; at 17, 3d8 and 3d8 + mod."
+ },
+ "Guardian of Nature": {
+  "es": "- **Efecto:** te transformas en una de dos formas:\n  - *Bestia primigenia:* +3 m de velocidad, visión en la oscuridad de 36 m, ventaja en ataques basados en Fuerza y +1d6 de fuerza con armas cuerpo a cuerpo.\n  - *Gran árbol:* 10 PG temporales, ventaja en salvaciones de Constitución y en ataques basados en Destreza o Sabiduría; el suelo a 4,5 m de ti es terreno difícil para tus enemigos.",
+  "en": "- **Effect:** transform into one of two forms:\n  - *Primal Beast:* +10 ft speed, 120-ft darkvision, advantage on Strength-based attacks, +1d6 force on melee weapon hits.\n  - *Great Tree:* 10 temporary HP, advantage on Constitution saves and on Dexterity- or Wisdom-based attacks; ground within 15 ft is difficult terrain for enemies."
+ }
+}

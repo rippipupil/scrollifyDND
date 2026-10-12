@@ -1,0 +1,102 @@
+{
+ "Cacophonic Shield": {
+  "es": "- **Área:** emanación de 3 m desde ti (puedes excluir criaturas).\n- **Salvación:** Constitución cuando el área la alcanza, entra en ella o termina su turno dentro (una vez por turno). **Fallo:** 3d6 trueno y Ensordecida hasta el inicio de tu siguiente turno. **Éxito:** solo la mitad del daño.\n- **Además:** tienes resistencia al trueno y los ataques a distancia contra ti tienen desventaja.\n- **Niveles superiores:** +1d6 por nivel por encima de 3.",
+  "en": "- **Area:** 10-ft emanation from you (you can exclude creatures).\n- **Save:** Constitution when the area reaches it, it enters, or ends its turn inside (once per turn). **Fail:** 3d6 thunder and Deafened until the start of your next turn. **Success:** half damage only.\n- **Also:** you have resistance to thunder and ranged attacks against you have disadvantage.\n- **Higher levels:** +1d6 per slot level above 3."
+ },
+ "Catapult": {
+  "es": "- **Objetivo:** un objeto suelto de 0,5 a 2,5 kg a tu alcance.\n- **Efecto:** sale volando en línea recta hasta 27 m y cae; se detiene si choca con algo sólido.\n- **Si va a dar a una criatura:** salvación de Destreza; si falla, la golpea. El objeto y lo que golpea reciben 3d8 contundente cada uno.\n- **Niveles superiores:** +2,5 kg de peso máximo y +1d8 por nivel por encima de 1.",
+  "en": "- **Target:** one loose object of 1–5 lb in range.\n- **Effect:** it flies in a straight line up to 90 ft, then falls; it stops if it hits something solid.\n- **If it would hit a creature:** Dexterity save; on a fail it strikes. Object and target each take 3d8 bludgeoning.\n- **Higher levels:** +5 lb max weight and +1d8 per slot level above 1."
+ },
+ "Catnap": {
+  "es": "- **Objetivo:** hasta 3 criaturas voluntarias que veas.\n- **Efecto:** quedan Inconscientes mientras dure; despiertan si reciben daño o alguien usa una acción para despertarlas.\n- Si duermen toda la duración, obtienen los beneficios de un descanso corto (y no pueden volver a beneficiarse hasta un descanso largo).\n- **Niveles superiores:** 1 objetivo más por nivel por encima de 3.",
+  "en": "- **Target:** up to 3 willing creatures you can see.\n- **Effect:** they're Unconscious for the duration; they wake if damaged or someone uses an action to shake them.\n- If they sleep the whole duration they get the benefits of a short rest (not again until a long rest).\n- **Higher levels:** 1 more target per slot level above 3."
+ },
+ "Cause Fear": {
+  "es": "- **Objetivo:** una criatura que veas (no constructos ni muertos vivientes).\n- **Salvación:** Sabiduría o queda Asustada de ti mientras dure; repite la salvación al final de cada uno de sus turnos.\n- **Niveles superiores:** 1 objetivo más por nivel por encima de 1 (a 9 m o menos entre sí).",
+  "en": "- **Target:** one creature you can see (not constructs or undead).\n- **Save:** Wisdom or Frightened of you for the duration; it repeats the save at the end of each of its turns.\n- **Higher levels:** 1 more target per slot level above 1 (within 30 ft of each other)."
+ },
+ "Ceremony": {
+  "es": "- **Efecto:** eliges un rito; el objetivo debe estar a 3 m durante el lanzamiento.\n  - *Expiación:* prueba de Sabiduría (Perspicacia) CD 20 para devolver su alineamiento original a una criatura voluntaria.\n  - *Bendecir agua:* un vial de agua se vuelve agua bendita.\n  - *Mayoría de edad:* durante 24 h suma 1d4 a sus pruebas de característica (una vez en la vida).\n  - *Dedicación:* durante 24 h suma 1d4 a sus salvaciones (una vez en la vida).\n  - *Rito funerario:* el cadáver no puede volverse muerto viviente durante 7 días (salvo *Deseo*).\n  - *Boda:* durante 7 días, +2 a la CA de cada cónyuge mientras estén a 9 m o menos.",
+  "en": "- **Effect:** pick a rite; the target must stay within 10 ft while casting.\n  - *Atonement:* DC 20 Wisdom (Insight) check to restore a willing creature's original alignment.\n  - *Bless Water:* a vial of water becomes holy water.\n  - *Coming of Age:* for 24 h, add 1d4 to ability checks (once per lifetime).\n  - *Dedication:* for 24 h, add 1d4 to saves (once per lifetime).\n  - *Funeral Rite:* the corpse can't become undead for 7 days (short of Wish).\n  - *Wedding:* for 7 days, +2 AC to each spouse while within 30 ft of each other."
+ },
+ "Chaos Bolt": {
+  "es": "- **Ataque:** de conjuro a distancia contra una criatura. **Impacto:** 2d8 + 1d6; uno de los d8 decide el tipo: 1 ácido, 2 frío, 3 fuego, 4 fuerza, 5 relámpago, 6 veneno, 7 psíquico, 8 trueno.\n- **Si los dos d8 sacan lo mismo:** salta a otra criatura a 9 m o menos del objetivo; nuevo ataque y nuevo daño (cada criatura solo una vez).\n- **Niveles superiores:** +1d6 del tipo obtenido por nivel por encima de 1.",
+  "en": "- **Attack:** ranged spell attack against one creature. **Hit:** 2d8 + 1d6; one d8 sets the type: 1 acid, 2 cold, 3 fire, 4 force, 5 lightning, 6 poison, 7 psychic, 8 thunder.\n- **If both d8s match:** it leaps to another creature within 30 ft of the target; new attack and damage roll (each creature only once).\n- **Higher levels:** +1d6 of the rolled type per slot level above 1."
+ },
+ "Circle of Power": {
+  "es": "- **Área:** emanación de 9 m desde ti.\n- **Efecto:** tú y tus aliados dentro tenéis ventaja en salvaciones contra conjuros y efectos mágicos; si una de esas salvaciones es de «mitad de daño», al superarla no recibís daño.",
+  "en": "- **Area:** 30-ft emanation from you.\n- **Effect:** you and allies inside have advantage on saves against spells and magical effects; on a half-damage one, a success means no damage."
+ },
+ "Cloud of Daggers": {
+  "es": "- **Área:** cubo de 1,5 m en un punto a tu alcance.\n- **Daño:** 4d4 cortante a quien esté dentro al lanzarlo, entre, termine su turno dentro o sea alcanzado al moverlo (una vez por turno).\n- **Acción mágica (turnos siguientes):** teletransporta el cubo hasta 9 m.\n- **Niveles superiores:** +2d4 por nivel por encima de 2.",
+  "en": "- **Area:** 5-ft cube on a point in range.\n- **Damage:** 4d4 slashing to creatures inside on casting, entering, ending a turn there, or when it moves onto them (once per turn).\n- **Magic action (later turns):** teleport the cube up to 30 ft.\n- **Higher levels:** +2d4 per slot level above 2."
+ },
+ "Compelled Duel": {
+  "es": "- **Objetivo:** una criatura que veas. **Salvación:** Sabiduría.\n- **Fallo:** desventaja al atacar a cualquiera que no seas tú y no puede alejarse voluntariamente a más de 9 m de ti.\n- **Termina si:** atacas o lanzas un conjuro contra otro enemigo, un aliado tuyo le hace daño o acabas tu turno a más de 9 m de él.",
+  "en": "- **Target:** one creature you can see. **Save:** Wisdom.\n- **Fail:** disadvantage on attacks against anyone but you, and it can't willingly move more than 30 ft away from you.\n- **Ends if:** you attack or cast a spell on another enemy, an ally damages the target, or you end your turn more than 30 ft away."
+ },
+ "Conjure Barrage": {
+  "es": "- **Área:** cono de 18 m; solo las criaturas que elijas y veas.\n- **Salvación:** Destreza. **Fallo:** 5d8 de fuerza. **Éxito:** mitad.\n- **Niveles superiores:** +1d8 por nivel por encima de 3.",
+  "en": "- **Area:** 60-ft cone; only creatures you choose and can see.\n- **Save:** Dexterity. **Fail:** 5d8 force. **Success:** half.\n- **Higher levels:** +1d8 per slot level above 3."
+ },
+ "Conjure Constructs": {
+  "es": "- **Efecto:** un grupo Mediano de espíritus de constructos (modrons) en un espacio libre que veas.\n- **Al lanzarlo y como acción mágica después**, eligen un objetivo a 1,5 m de ellos:\n  - *Fuerza mecánica:* salvación de Destreza; **fallo** 3d6 de fuerza, **éxito** mitad.\n  - *Protección ordenada:* gana 1d6 + tu modificador de lanzamiento PG temporales.\n- Cuando te mueves, puedes moverlos hasta 9 m.\n- **Niveles superiores:** +1d6 al daño y a los PG temporales por nivel por encima de 3.",
+  "en": "- **Effect:** a Medium group of construct spirits (modrons) in an unoccupied space you see.\n- **On casting and as a Magic action later**, they target something within 5 ft of them:\n  - *Clockwork Force:* Dexterity save; **fail** 3d6 force, **success** half.\n  - *Orderly Ward:* it gains 1d6 + your spellcasting modifier temporary HP.\n- When you move, you can move them up to 30 ft.\n- **Higher levels:** +1d6 damage and temporary HP per slot level above 3."
+ },
+ "Conjure Volley": {
+  "es": "- **Área:** cilindro de 12 m de radio y 6 m de alto en un punto a tu alcance; solo las criaturas que elijas y veas.\n- **Salvación:** Destreza. **Fallo:** 8d8 de fuerza. **Éxito:** mitad.",
+  "en": "- **Area:** 40-ft-radius, 20-ft-high cylinder on a point in range; only creatures you choose and can see.\n- **Save:** Dexterity. **Fail:** 8d8 force. **Success:** half."
+ },
+ "Control Flames": {
+  "es": "- **Objetivo:** un fuego normal que quepa en un cubo de 1,5 m.\n- **Efecto (elige uno):** extenderlo 1,5 m si hay combustible; apagarlo; doblar o reducir a la mitad su luz o cambiar su color (1 h); hacer aparecer formas simples en las llamas (1 h).\n- Hasta 3 efectos duraderos a la vez; puedes anular uno con una acción.",
+  "en": "- **Target:** a nonmagical flame fitting in a 5-ft cube.\n- **Effect (pick one):** spread it 5 ft where there's fuel; put it out; double/halve its light or change its color (1 h); make simple shapes dance in it (1 h).\n- Up to 3 lasting effects at once; dismiss one as an action."
+ },
+ "Control Winds": {
+  "es": "- **Área:** cubo de 30 m que veas. Elige un efecto (puedes cambiarlo, pausarlo o reanudarlo con tu acción):\n  - *Ráfagas:* viento horizontal en calma, moderado o fuerte. Moderado o fuerte: desventaja a los ataques con armas a distancia que lo atraviesen. Fuerte: moverse contra él cuesta el doble.\n  - *Corriente descendente:* desventaja a ataques con armas a distancia; quien vuele dentro hace salvación de Fuerza o cae Derribado.\n  - *Corriente ascendente:* las caídas dentro hacen la mitad de daño y los saltos verticales llegan 3 m más alto.",
+  "en": "- **Area:** 100-ft cube you can see. Pick an effect (switch, pause or resume with your action):\n  - *Gusts:* calm, moderate or strong horizontal wind. Moderate/strong: ranged weapon attacks through it have disadvantage. Strong: moving against it costs double.\n  - *Downdraft:* ranged weapon attacks have disadvantage; fliers inside make a Strength save or fall Prone.\n  - *Updraft:* falls inside deal half damage and vertical jumps go 10 ft higher."
+ },
+ "Cordon of Arrows": {
+  "es": "- **Efecto:** clavas hasta 4 flechas o virotes normales en tu espacio; no se pueden arrancar.\n- Cuando una criatura (salvo las que excluyas) entra por primera vez en el turno a 9 m o menos, o termina su turno ahí, sale una munición: salvación de Destreza o 2d4 perforante. Esa munición se destruye.\n- Termina cuando no queda munición clavada.\n- **Niveles superiores:** 2 municiones más por nivel por encima de 2.",
+  "en": "- **Effect:** plant up to 4 nonmagical arrows or bolts in your space; they can't be pulled out.\n- When a creature (except any you exclude) first enters within 30 ft on a turn or ends its turn there, one flies at it: Dexterity save or 2d4 piercing. That piece is destroyed.\n- Ends when no ammunition remains planted.\n- **Higher levels:** 2 more pieces per slot level above 2."
+ },
+ "Create Bonfire": {
+  "es": "- **Área:** hoguera en un cubo de 1,5 m del suelo que veas.\n- **Salvación:** Destreza al lanzarlo, al entrar por primera vez en el turno o al terminar el turno dentro. **Fallo:** 1d8 fuego.\n- Prende objetos inflamables sueltos.\n- **Mejora con tu nivel:** 2d8 (nivel 5), 3d8 (11), 4d8 (17).",
+  "en": "- **Area:** bonfire in a 5-ft cube on ground you see.\n- **Save:** Dexterity on casting, when first entering on a turn, or ending a turn inside. **Fail:** 1d8 fire.\n- Ignites loose flammable objects.\n- **Scaling:** 2d8 (level 5), 3d8 (11), 4d8 (17)."
+ },
+ "Create Homunculus": {
+  "es": "- **Coste:** te cortas con la daga enjoyada y recibes 2d4 perforante que no se puede reducir.\n- **Efecto:** creas un homúnculo (bloque del Manual de Monstruos), tu compañero fiel; muere si mueres. Solo uno a la vez.\n- **Tras un descanso largo:** puedes gastar hasta la mitad de tus dados de golpe (+ Constitución cada uno); tu máximo de PG baja ese total y el del homúnculo sube lo mismo hasta tu siguiente descanso largo (nunca por debajo de 1 PG).",
+  "en": "- **Cost:** you cut yourself with the jeweled dagger, taking 2d4 piercing that can't be reduced.\n- **Effect:** create a homunculus (Monster Manual stat block), your faithful companion; it dies if you die. Only one at a time.\n- **After a long rest:** spend up to half your Hit Dice (+ Constitution each); your HP max drops by the total and the homunculus's rises by it until your next long rest (never below 1 HP)."
+ },
+ "Create Magen": {
+  "es": "- **Efecto:** conviertes un muñeco de tamaño humano (con un vial de mercurio dentro) en un magen del tipo que elijas; obedece tus órdenes sin dudar.\n- **Coste:** tu máximo de PG baja tanto como su valor de desafío (mínimo 1). Solo *Deseo* puede deshacerlo.",
+  "en": "- **Effect:** turn a life-size doll (with a vial of quicksilver inside) into a magen of the type you choose; it obeys you without question.\n- **Cost:** your HP max drops by its challenge rating (minimum 1). Only Wish undoes it."
+ },
+ "Create Spelljamming Helm": {
+  "es": "- **Efecto:** tocas una silla Grande o menor libre con la vara del componente; la vara desaparece y la silla se convierte en un timón de navegación mágica (spelljamming).",
+  "en": "- **Effect:** touch an unoccupied Large or smaller chair with the rod; the rod vanishes and the chair becomes a spelljamming helm."
+ },
+ "Crown of Madness": {
+  "es": "- **Objetivo:** un humanoide que veas (los demás superan la salvación automáticamente). **Salvación:** Sabiduría o queda Hechizado.\n- En cada uno de sus turnos, antes de moverse, usa su acción para atacar cuerpo a cuerpo a quien elijas mentalmente (si no eliges a nadie o no hay nadie a su alcance, actúa normal).\n- Repite la salvación al final de cada turno. En tus turnos siguientes debes usar la acción mágica para mantener el control o termina.",
+  "en": "- **Target:** one Humanoid you can see (others auto-succeed). **Save:** Wisdom or Charmed.\n- On each of its turns, before moving, it uses its action to melee attack a creature you mentally pick (if none, it acts normally).\n- It repeats the save at the end of each turn. On your later turns you must take the Magic action to keep control, or it ends."
+ },
+ "Crown of Stars": {
+  "es": "- **Efecto:** 7 motas de luz orbitan tu cabeza.\n- **Acción adicional:** lanzas una contra una criatura u objeto a 36 m: ataque de conjuro a distancia; **impacto** 4d12 radiante. La mota se gasta impacte o no; termina al gastar la última.\n- Con 4+ motas dan luz brillante en 9 m (y tenue 9 m más); con 1–3, luz tenue en 9 m.\n- **Niveles superiores:** 2 motas más por nivel por encima de 7.",
+  "en": "- **Effect:** 7 motes of light orbit your head.\n- **Bonus action:** hurl one at a creature or object within 120 ft: ranged spell attack; **hit** 4d12 radiant. The mote is spent either way; ends with the last one.\n- 4+ motes: bright light 30 ft (dim 30 ft more); 1–3: dim light 30 ft.\n- **Higher levels:** 2 more motes per slot level above 7."
+ },
+ "Crusader's Mantle": {
+  "es": "- **Área:** emanación de 9 m desde ti.\n- **Efecto:** tú y tus aliados dentro hacéis +1d4 radiante al impactar con un arma o un golpe sin armas.",
+  "en": "- **Area:** 30-ft emanation from you.\n- **Effect:** you and allies inside deal +1d4 radiant when hitting with a weapon or an unarmed strike."
+ },
+ "Danse Macabre": {
+  "es": "- **Efecto:** hasta 5 cadáveres Pequeños o Medianos que veas se levantan como zombis o esqueletos (tú eliges), con tu modificador de lanzamiento sumado a sus ataques y daño.\n- **Acción adicional:** les das la misma orden a todos los que estén a 18 m; sin órdenes, solo se defienden.\n- Vuelven a ser cadáveres al terminar.\n- **Niveles superiores:** 2 cadáveres más por nivel por encima de 5.",
+  "en": "- **Effect:** up to 5 Small or Medium corpses you see rise as zombies or skeletons (your pick), adding your spellcasting modifier to their attack and damage rolls.\n- **Bonus action:** give one shared command to those within 60 ft; with none, they only defend themselves.\n- They fall inert when it ends.\n- **Higher levels:** 2 more corpses per slot level above 5."
+ },
+ "Dark Star": {
+  "es": "- **Área:** esfera de hasta 12 m de radio en un punto a tu alcance: oscuridad mágica (ni la visión en la oscuridad la atraviesa), terreno difícil, silencio total (no se pueden lanzar conjuros con componente verbal); quien esté dentro queda Ensordecido e inmune al trueno.\n- **Salvación:** Constitución al entrar por primera vez en el turno o al empezarlo dentro. **Fallo:** 8d10 de fuerza. **Éxito:** mitad.\n- Quien llegue a 0 PG por este daño se desintegra (salvo sus objetos mágicos).",
+  "en": "- **Area:** sphere up to 40-ft radius on a point in range: magical darkness (darkvision can't see through), difficult terrain, total silence (no verbal-component spells); creatures inside are Deafened and immune to thunder.\n- **Save:** Constitution when first entering on a turn or starting it inside. **Fail:** 8d10 force. **Success:** half.\n- A creature dropped to 0 HP by it is disintegrated (except magic items)."
+ },
+ "Dawn": {
+  "es": "- **Área:** cilindro de luz solar de 9 m de radio y 12 m de alto en un punto a tu alcance.\n- **Salvación:** Constitución al aparecer y al terminar el turno dentro. **Fallo:** 4d10 radiante. **Éxito:** mitad.\n- **Acción adicional:** si estás a 18 m o menos, lo mueves hasta 18 m.",
+  "en": "- **Area:** 30-ft-radius, 40-ft-high cylinder of sunlight on a point in range.\n- **Save:** Constitution when it appears and when a creature ends its turn inside. **Fail:** 4d10 radiant. **Success:** half.\n- **Bonus action:** if you're within 60 ft, move it up to 60 ft."
+ }
+}
