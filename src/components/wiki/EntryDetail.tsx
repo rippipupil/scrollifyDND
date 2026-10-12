@@ -4,6 +4,7 @@ import { abilityMod, formatMod } from '../../rules/core';
 import { getEntry, keyOf } from '../../content';
 import type { ContentEntry } from '../../content/types';
 import { isFallback } from '../../i18n';
+import { spellFacts } from '../../wiki/spellFacts';
 import { useT } from '../../i18n/useT';
 import { useHomebrew } from '../../store/homebrew';
 import { useTheme } from '../../theme';
@@ -36,6 +37,25 @@ function SpellMeta({ e }: { e: ContentEntry }) {
       <Meta label={t('wiki.range')} value={loc(d.range)} />
       <Meta label={t('wiki.components')} value={comps} />
       <Meta label={t('wiki.duration')} value={loc(d.duration)} />
+    </Card>
+  );
+}
+
+function ExternalSpellMeta({ e }: { e: ContentEntry }) {
+  const { t, lang } = useT();
+  const d = e.data ?? {};
+  const f = spellFacts(d, lang);
+  return (
+    <Card>
+      <Txt muted style={{ fontStyle: 'italic' }}>
+        {d.level === 0 ? `${t('wiki.cantrip')} · ${t(`schools.${d.school}`)}` : `${t('wiki.level')} ${d.level} · ${t(`schools.${d.school}`)}`}
+        {d.classes?.length ? ` (${d.classes.map((k: string) => t(`classNames.${k}`)).join(', ')})` : ''}
+      </Txt>
+      <Meta label={t('wiki.castingTime')} value={f.castingTime + (d.ritual ? ` · ${t('wiki.ritual')}` : '')} />
+      <Meta label={t('wiki.range')} value={f.range} />
+      <Meta label={t('wiki.components')} value={f.components} />
+      <Meta label={t('wiki.duration')} value={f.duration} />
+      <Meta label={t('wiki.source')} value={`${e.book ?? ''}${d.page ? `, ${t('wiki.page', { n: d.page })}` : ''}`} />
     </Card>
   );
 }
@@ -196,13 +216,7 @@ export function EntryDetail({ entry, onAdd }: { entry: ContentEntry; onAdd?: () 
         {isFallback(entry.text, lang) ? <Badge label={`EN · ${t('common.englishOnly')}`} /> : null}
       </Row>
       {entry.category === 'spell' && entry.source !== 'external' ? <SpellMeta e={entry} /> : null}
-      {entry.category === 'spell' && entry.source === 'external' ? (
-        <Card>
-          <Txt muted>
-            {d.level === 0 ? t('wiki.cantrip') : `${t('wiki.level')} ${d.level}`} · {t(`schools.${d.school}`)} ({(d.classes ?? []).map((k: string) => t(`classNames.${k}`)).join(', ')})
-          </Txt>
-        </Card>
-      ) : null}
+      {entry.category === 'spell' && entry.source === 'external' ? <ExternalSpellMeta e={entry} /> : null}
       {entry.category === 'equipment' ? <EquipmentMeta e={entry} /> : null}
       {entry.category === 'magic-item' ? (
         <Card>
@@ -225,7 +239,13 @@ export function EntryDetail({ entry, onAdd }: { entry: ContentEntry; onAdd?: () 
       {entry.source === 'external' ? <Txt muted>{t('wiki.externalNote')}</Txt> : null}
       <Row wrap>
         {SITES.filter((s) => links[s.key]).map((s) => (
-          <Button key={s.key} small kind="secondary" label={t('wiki.openIn', { site: s.label })} onPress={() => openExternal(router, links[s.key]!)} />
+          <Button
+            key={s.key}
+            small
+            kind="secondary"
+            label={t(links[s.key]!.includes('google.com/search') ? 'wiki.searchIn' : 'wiki.openIn', { site: s.label })}
+            onPress={() => openExternal(router, links[s.key]!)}
+          />
         ))}
       </Row>
       {onAdd ? <Button label={t('wiki.addToCharacter')} onPress={onAdd} /> : null}

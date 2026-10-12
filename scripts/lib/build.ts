@@ -469,29 +469,66 @@ export function buildRules(mdFile: string, es: EsMap): Entry[] {
     .map((r) => withEs({ id: r.id, category: 'rule', name: loc(r.name), text: loc(r.text), source: 'srd', data: { tag: r.tag } }, es));
 }
 
-export function buildExternal(dir: string): Entry[] {
+const google = (site: string, q: string) => `https://www.google.com/search?q=${encodeURIComponent(`site:${site} ${q}`)}`;
+const strip = (s: string) => s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+/** Wikidot page slug: apostrophes dropped ("leomunds-tiny-hut"). */
+export const slugWikidot = (s: string) => strip(s).replace(/[’']/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+/** AideDD page slug: apostrophes become dashes ("leomund-s-tiny-hut"). */
+export const slugAidedd = (s: string) => strip(s).replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+
+/** Direct links for a spell; pre-2024 books live on the 2014 wikis. */
+export function spellLinks(en: string, es: string | undefined, era: '2014' | '2024'): Record<string, string> {
+  if (era === '2014') {
+    return {
+      wikidot: `https://dnd5e.wikidot.com/spell:${slugWikidot(en)}`,
+      aidedd: `https://www.aidedd.org/dnd/sorts.php?vo=${slugAidedd(en)}`,
+      nivel20: google('nivel20.com', es ?? en),
+    };
+  }
+  return {
+    ...(es ? { aideddEs: `https://www.aidedd.org/spell/es/${slugAidedd(es)}` } : {}),
+    aidedd: `https://www.aidedd.org/spell/${slugAidedd(en)}`,
+    wikidot: `https://dnd2024.wikidot.com/spell:${slugWikidot(en)}`,
+    nivel20: google('nivel20.com', es ?? en),
+  };
+}
+
+/** Direct 2024-wiki links for non-spell entries (patterns checked on the sites); undefined when unknown. */
+export function entryLinks(e: Pick<Entry, 'category' | 'id' | 'name' | 'data'>): Record<string, string> | undefined {
+  const en = e.name.en.replace(/,?\s*\+\d.*$/, '');
+  const wiki = (page: string) => `https://dnd2024.wikidot.com/${page}`;
+  const nivel20 = google('nivel20.com', e.name.es ?? e.name.en);
+  switch (e.category) {
+    case 'feat':
+      return { aidedd: `https://www.aidedd.org/feat/${slugAidedd(en)}`, wikidot: wiki(`feat:${slugWikidot(en)}`), nivel20 };
+    case 'background':
+      return { wikidot: wiki(`background:${slugWikidot(en)}`), nivel20 };
+    case 'species':
+      return { wikidot: wiki(`species:${slugWikidot(en)}`), nivel20 };
+    case 'class':
+      return { wikidot: wiki(`${e.id}:main`), nivel20 };
+    case 'subclass':
+      return e.data?.classId ? { wikidot: wiki(`${e.data.classId}:${slugWikidot(en)}`), nivel20 } : undefined;
+    case 'magic-item':
+      return { aidedd: `https://www.aidedd.org/magic-item/${slugAidedd(en)}`, wikidot: wiki(`magic-item:${slugWikidot(en)}`), nivel20 };
+    default:
+      return undefined;
+  }
+}
+
+export function buildExternal(dir: string, esNames: Record<string, string> = {}): Entry[] {
   if (!fs.existsSync(dir)) return [];
   return fs
     .readdirSync(dir)
     .filter((f) => f.endsWith('.json'))
+    .sort()
     .flatMap((f) => JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8')) as any[])
     .map((x) => {
       const slugEn = x.slugEn ?? slugify(x.name.en);
-      const kind = x.category === 'spell' ? 'spell' : x.category === 'magic-item' ? 'magic-item' : null;
-      const external: Record<string, string> = {
-        nivel20: `https://www.google.com/search?q=${encodeURIComponent(`site:nivel20.com ${x.name.es ?? x.name.en}`)}`,
-        wikidot:
-          x.category === 'spell'
-            ? `http://dnd2024.wikidot.com/spell:${slugEn}`
-            : `https://www.google.com/search?q=${encodeURIComponent(`site:dnd2024.wikidot.com ${x.name.en}`)}`,
-      };
-      if (kind) {
-        external.aidedd = `https://www.aidedd.org/${kind}/${slugEn}`;
-        external.aideddEs = `https://www.google.com/search?q=${encodeURIComponent(`site:aidedd.org/${kind}/es ${x.name.es ?? x.name.en}`)}`;
-      } else {
-        external.aidedd = `https://www.google.com/search?q=${encodeURIComponent(`site:aidedd.org ${x.name.en}`)}`;
-      }
-      return { id: `ext-${x.category}-${slugEn}`, category: x.category, name: x.name, source: 'external' as const, data: x.data, external, book: x.book };
+      const name: Loc = x.name.es ? x.name : esNames[x.name.en] ? { en: x.name.en, es: esNames[x.name.en] } : x.name;
+      const base = { id: `ext-${x.category}-${slugEn}`, category: x.category, name, source: 'external' as const, data: x.data, book: x.book };
+      const external = x.category === 'spell' ? spellLinks(name.en, name.es, x.data?.era === '2014' ? '2014' : '2024') : entryLinks(base);
+      return { ...base, ...(external ? { external } : {}) };
     });
 }
 
@@ -514,7 +551,15 @@ export interface BuildPaths {
 
 export function buildAll(p: BuildPaths): Record<string, Entry[]> {
   const es = (f: string) => loadEs(p.i18n, f);
-  return {
+  const spellNames = path.join(p.external, '..', 'links', 'spells.json');
+  const linkNames: Record<string, { en: string; es?: string }> = fs.existsSync(spellNames) ? JSON.parse(fs.readFileSync(spellNames, 'utf8')) : {};
+  const externalEs: Record<string, string> = {};
+  for (const f of fs.readdirSync(p.i18n).filter((x) => /^external-spells.*\.json$/.test(x)).sort()) Object.assign(externalEs, JSON.parse(fs.readFileSync(path.join(p.i18n, f), 'utf8')));
+  const withLinks = (list: Entry[]) => list.map((e) => {
+    const external = entryLinks(e);
+    return external ? { ...e, external } : e;
+  });
+  const out: Record<string, Entry[]> = {
     spells: buildSpells(p.srd, es('spells.json'), parseSpellsMd(path.join(p.md, 'spells.md'))),
     equipment: buildEquipment(p.srd, es('equipment.json')),
     'magic-items': buildMagicItems(p.srd, es('magic-items.json')),
@@ -533,6 +578,12 @@ export function buildAll(p: BuildPaths): Record<string, Entry[]> {
     'weapon-properties': buildSimple(p.srd, '5e-SRD-Weapon-Properties.json', 'weapon-property', es('weapon-properties.json')),
     rules: buildRules(path.join(p.md, 'rules-glossary.md'), es('rules.json')),
     monsters: buildMonsters(p.srd, es('monsters.json')),
-    external: buildExternal(p.external),
+    external: buildExternal(p.external, externalEs),
   };
+  out.spells = out.spells.map((e) => {
+    const l = linkNames[e.id];
+    return { ...e, external: spellLinks(l?.en ?? e.name.en, l?.es ?? e.name.es, '2024') };
+  });
+  for (const k of ['magic-items', 'classes', 'subclasses', 'species', 'backgrounds', 'feats']) out[k] = withLinks(out[k]);
+  return out;
 }

@@ -13,3 +13,13 @@ https://creativecommons.org/licenses/by/4.0/legalcode.
   (CC-BY-4.0), usando la terminología oficial de la edición 2024 en castellano.
 - `data/external/`: índice de datos factuales (nombres, nivel, escuela, clases) de contenido
   que no está en el SRD, con enlaces a AideDD, Wikidot y Nivel20. No incluye texto de reglas.
+
+## Official Spanish names and spell index
+
+- Official Spanish spell names for the SRD 5.2 (`data/i18n/es/spells/99-official-names.json`) come from
+  [foundryvtt-sinregistrar/translate-dnd5e-sdr2-es](https://github.com/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es) (CC BY 4.0)
+  and [foundryvtt-sinregistrar/translate-dnd5e-phb-2024-es](https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phb-2024-es) (MIT).
+- The index of spells outside the SRD (`data/external/spells-official.json`) holds facts only — name, level, school,
+  casting time, range, component flags, duration, classes, book and page — taken from the
+  [5etools](https://github.com/5etools-mirror-3/5etools-src) data. No rules text is included; the app links to
+  AideDD, Wikidot and Nivel20 for it. Regenerate with `scripts/import-spell-index.ts`.

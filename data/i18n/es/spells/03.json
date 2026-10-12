@@ -1,7 +1,7 @@
 {
  "clairvoyance": {
   "name": "Clarividencia",
-  "text": "Creas un sensor invisible dentro del alcance en un lugar que te resulte familiar (un sitio que hayas visitado o visto antes) o en un lugar evidente que no conozcas (como detrás de una puerta, tras una esquina o en una arboleda). El sensor, intangible e invulnerable, permanece en su sitio mientras dure el conjuro.\n\nCuando lanzas el conjuro, elige ver u oír. Puedes usar el sentido elegido a través del sensor como si estuvieras en su espacio. Como acción adicional, puedes alternar entre ver y oír.\n\nUna criatura que vea el sensor (como una que se beneficie de *ver lo invisible* o de visión verdadera) ve un orbe luminoso del tamaño de tu puño.",
+  "text": "Creas un sensor invisible dentro del alcance en un lugar que te resulte familiar (un sitio que hayas visitado o visto antes) o en un lugar evidente que no conozcas (como detrás de una puerta, tras una esquina o en una arboleda). El sensor, intangible e invulnerable, permanece en su sitio mientras dure el conjuro.\n\nCuando lanzas el conjuro, elige ver u oír. Puedes usar el sentido elegido a través del sensor como si estuvieras en su espacio. Como acción adicional, puedes alternar entre ver y oír.\n\nUna criatura que vea el sensor (como una que se beneficie de *ver invisibilidad* o de visión verdadera) ve un orbe luminoso del tamaño de tu puño.",
   "material": "un foco valorado en al menos 100 po: un cuerno enjoyado para oír o un ojo de cristal para ver"
  },
  "clone": {
@@ -34,7 +34,7 @@
   "text": "Entras en comunión con los espíritus de la naturaleza y obtienes conocimiento de la zona circundante. Al aire libre, el conjuro te da conocimiento de la zona en un radio de 4,5 kilómetros alrededor de ti. En cuevas y otros entornos subterráneos naturales, el radio se limita a 90 metros. El conjuro no funciona donde la naturaleza ha sido sustituida por construcciones, como en castillos y asentamientos.\n\nElige tres de los siguientes datos; los conoces en lo que respecta al área del conjuro:\n\n- Ubicación de los asentamientos.\n- Ubicación de portales a otros planos de existencia.\n- Ubicación de una criatura de valor de desafío 10 o superior (a elección del DM) que sea un celestial, un elemental, un feérico, un infernal o un muerto viviente.\n- El tipo de planta, mineral o bestia más abundante (eliges cuál quieres conocer).\n- Ubicación de masas de agua.\n\nPor ejemplo, podrías determinar la ubicación de un monstruo poderoso de la zona, la de las masas de agua y la de cualquier población."
  },
  "comprehend-languages": {
-  "name": "Comprensión idiomática",
+  "name": "Entender idiomas",
   "text": "Mientras dure el conjuro, entiendes el significado literal de cualquier idioma que oigas o veas signado. También entiendes cualquier idioma escrito que veas, pero debes estar tocando la superficie en la que están escritas las palabras. Se tarda aproximadamente 1 minuto en leer una página de texto. Este conjuro no descifra símbolos ni mensajes secretos.",
   "material": "una pizca de hollín y sal"
  },
@@ -80,7 +80,7 @@
   "higherLevel": "El daño aumenta en 1d8 por cada nivel del espacio de conjuro por encima de 4."
  },
  "conjure-woodland-beings": {
-  "name": "Conjurar seres silvanos",
+  "name": "Conjurar seres del bosque",
   "text": "Conjuras espíritus de la naturaleza que revolotean a tu alrededor en una emanación de 3 metros mientras dure el conjuro. Cada vez que la emanación entre en el espacio de una criatura que puedas ver, y cada vez que una criatura que puedas ver entre en la emanación o termine allí su turno, puedes obligarla a hacer una tirada de salvación de Sabiduría. La criatura recibe 5d8 de daño de fuerza si la falla, o la mitad si la supera. Una criatura solo hace esta salvación una vez por turno.\n\nAdemás, mientras dure el conjuro puedes realizar la acción de Retirarse como acción adicional.",
   "higherLevel": "El daño aumenta en 1d8 por cada nivel del espacio de conjuro por encima de 4."
  },
@@ -98,7 +98,7 @@
   "material": "una estatuilla tuya incrustada de gemas valorada en al menos 1500 po"
  },
  "continual-flame": {
-  "name": "Llama continua",
+  "name": "Llama permanente",
   "text": "Una llama brota de un objeto que tocas. El efecto emite luz brillante en un radio de 6 metros y luz tenue 6 metros más allá. Parece una llama normal, pero no genera calor ni consume combustible. La llama puede cubrirse u ocultarse, pero no sofocarse ni apagarse.",
   "material": "polvo de rubí valorado en al menos 50 po, que el conjuro consume"
  },

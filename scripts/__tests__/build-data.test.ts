@@ -1,5 +1,5 @@
 import * as path from 'node:path';
-import { buildAll, cleanText, slugify } from '../lib/build';
+import { buildAll, cleanText, slugAidedd, slugify, slugWikidot } from '../lib/build';
 
 const root = path.resolve(__dirname, '../..');
 const all = buildAll({
@@ -117,10 +117,74 @@ test('external index has links and facts only', () => {
   expect(sb.category).toBe('spell');
   expect(sb.source).toBe('external');
   expect(sb.text).toBeUndefined();
-  expect(sb.data.level).toBe(1);
-  expect(sb.external!.aidedd).toBe('https://www.aidedd.org/spell/silvery-barbs');
-  expect(sb.external!.wikidot).toBe('http://dnd2024.wikidot.com/spell:silvery-barbs');
+  expect(sb.id).toBe('ext-spell-silvery-barbs');
+  expect(sb.name.es).toBe('Púas plateadas');
+  expect(sb.book).toBe('Strixhaven: A Curriculum of Chaos');
+  expect(sb.data).toMatchObject({ level: 1, school: 'enchantment', classes: ['bard', 'sorcerer', 'wizard'], castingTime: { n: 1, unit: 'reaction' }, range: { kind: 'feet', amount: 60 } });
   expect(all.external.some((e) => e.name.en === 'Aasimar' && e.category === 'species')).toBe(true);
+});
+
+test('pre-2024 spells link to the 2014 wiki and AideDD 2014 pages', () => {
+  const sb = all.external.find((e) => e.name.en === 'Silvery Barbs')!;
+  expect(sb.external!.wikidot).toBe('https://dnd5e.wikidot.com/spell:silvery-barbs');
+  expect(sb.external!.aidedd).toBe('https://www.aidedd.org/dnd/sorts.php?vo=silvery-barbs');
+  expect(sb.external!.aideddEs).toBeUndefined();
+});
+
+test('2024 spells outside the SRD use the 2024 wiki and the official Spanish name', () => {
+  const t = all.external.find((e) => e.name.en === 'Toll the Dead')!;
+  expect(t.name.es).toBe('Tañido por los muertos');
+  expect(t.external).toMatchObject({
+    wikidot: 'https://dnd2024.wikidot.com/spell:toll-the-dead',
+    aidedd: 'https://www.aidedd.org/spell/toll-the-dead',
+    aideddEs: 'https://www.aidedd.org/spell/es/tanido-por-los-muertos',
+  });
+});
+
+test('SRD spells link straight to their pages, with the PHB name where the SRD renamed the spell', () => {
+  const hand = all.spells.find((e) => e.id === 'arcane-hand')!;
+  expect(hand.name.es).toBe('Mano arcana');
+  expect(hand.external).toMatchObject({
+    wikidot: 'https://dnd2024.wikidot.com/spell:bigbys-hand',
+    aidedd: 'https://www.aidedd.org/spell/bigby-s-hand',
+    aideddEs: 'https://www.aidedd.org/spell/es/mano-de-bigby',
+  });
+  const cs = all.spells.find((e) => e.id === 'counterspell')!;
+  expect(cs.name.es).toBe('Contrahechizo');
+  expect(cs.external!.aideddEs).toBe('https://www.aidedd.org/spell/es/contrahechizo');
+  expect(all.spells.find((e) => e.id === 'beacon-of-hope')!.external!.aideddEs).toBe('https://www.aidedd.org/spell/es/senal-de-esperanza');
+});
+
+test('the spell index covers the other official books, all named in Spanish, without SRD duplicates', () => {
+  const ext = all.external.filter((e) => e.category === 'spell');
+  const names = ext.map((e) => e.name.en);
+  expect(names).toEqual(expect.arrayContaining(['Booming Blade', 'Green-Flame Blade', "Tasha's Mind Whip", 'Toll the Dead', 'Silvery Barbs']));
+  expect(ext.length).toBeGreaterThan(200);
+  expect(new Set(names).size).toBe(names.length);
+  const srd = new Set(all.spells.map((s) => s.name.en));
+  expect(names.filter((n) => srd.has(n))).toEqual([]);
+  expect(ext.filter((e) => !e.name.es).map((e) => e.name.en)).toEqual([]);
+});
+
+test('other categories link directly to the 2024 wiki', () => {
+  const link = (cat: string, id: string) => all[cat].find((e) => e.id === id)!.external!;
+  expect(link('feats', 'alert').wikidot).toBe('https://dnd2024.wikidot.com/feat:alert');
+  expect(link('backgrounds', 'acolyte').wikidot).toBe('https://dnd2024.wikidot.com/background:acolyte');
+  expect(link('species', 'dwarf').wikidot).toBe('https://dnd2024.wikidot.com/species:dwarf');
+  expect(link('classes', 'wizard').wikidot).toBe('https://dnd2024.wikidot.com/wizard:main');
+  expect(link('subclasses', 'college-of-lore').wikidot).toBe('https://dnd2024.wikidot.com/bard:college-of-lore');
+  expect(link('magic-items', 'ammunition-1').wikidot).toBe('https://dnd2024.wikidot.com/magic-item:ammunition');
+  expect(link('magic-items', 'adamantine-armor').aidedd).toBe('https://www.aidedd.org/magic-item/adamantine-armor');
+  const wild = all.external.find((e) => e.name.en === 'Path of the Wild Heart')!;
+  expect(wild.external!.wikidot).toBe('https://dnd2024.wikidot.com/barbarian:path-of-the-wild-heart');
+  expect(all.external.find((e) => e.name.en === 'Aasimar')!.external!.wikidot).toBe('https://dnd2024.wikidot.com/species:aasimar');
+});
+
+test('site slugs: AideDD turns apostrophes into dashes, Wikidot drops them', () => {
+  expect(slugAidedd("Leomund's Tiny Hut")).toBe('leomund-s-tiny-hut');
+  expect(slugWikidot("Leomund's Tiny Hut")).toBe('leomunds-tiny-hut');
+  expect(slugAidedd('Sordera/ceguera')).toBe('sordera-ceguera');
+  expect(slugAidedd('Señal de esperanza')).toBe('senal-de-esperanza');
 });
 
 test('class and background equipment options are structured', () => {

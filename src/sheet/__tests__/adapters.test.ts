@@ -28,7 +28,7 @@ test('magic item keeps attunement flag', () => {
 test('spell entry becomes a known spell', () => {
   const s = entryToSpell(getEntry('spell:flaming-sphere')!, 'wizard');
   expect(s).toMatchObject({ ref: 'spell:flaming-sphere', level: 2, concentration: true, ritual: false, classId: 'wizard', prepared: true });
-  expect(s.name.es).toBe('Esfera flamígera');
+  expect(s.name.es).toBe('Esfera de llamas');
 });
 
 test('cantrips are always prepared', () => {

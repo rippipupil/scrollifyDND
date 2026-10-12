@@ -1,0 +1,9239 @@
+[
+ {
+  "category": "spell",
+  "name": {
+   "en": "Abi-Dalzim's Horrid Wilting"
+  },
+  "book": "Xanathar's Guide to Everything",
+  "data": {
+   "level": 8,
+   "school": "necromancy",
+   "classes": [
+    "sorcerer",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 150
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true
+   },
+   "duration": {
+    "kind": "instant"
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 150,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Absorb Elements"
+  },
+  "book": "Xanathar's Guide to Everything",
+  "data": {
+   "level": 1,
+   "school": "abjuration",
+   "classes": [
+    "artificer",
+    "druid",
+    "ranger",
+    "sorcerer",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "reaction"
+   },
+   "range": {
+    "kind": "self"
+   },
+   "components": {
+    "v": false,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "round",
+    "concentration": false
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 150,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Aganazzar's Scorcher"
+  },
+  "book": "Xanathar's Guide to Everything",
+  "data": {
+   "level": 2,
+   "school": "evocation",
+   "classes": [
+    "sorcerer",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 30
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true
+   },
+   "duration": {
+    "kind": "instant"
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 150,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Air Bubble"
+  },
+  "book": "Astral Adventurer's Guide",
+  "data": {
+   "level": 2,
+   "school": "conjuration",
+   "classes": [
+    "artificer",
+    "druid",
+    "ranger",
+    "sorcerer",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 60
+   },
+   "components": {
+    "v": false,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 24,
+    "unit": "hour",
+    "concentration": false
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 22,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Alustriel's Mooncloak"
+  },
+  "book": "Forgotten Realms: Heroes of Faerûn",
+  "data": {
+   "level": 5,
+   "school": "abjuration",
+   "classes": [
+    "bard",
+    "druid",
+    "ranger",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "self",
+    "area": {
+     "shape": "emanation",
+     "size": 20,
+     "unit": "feet"
+    }
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true,
+    "costGp": 50
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 142,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Antagonize"
+  },
+  "book": "The Book of Many Things",
+  "data": {
+   "level": 3,
+   "school": "enchantment",
+   "classes": [
+    "bard",
+    "sorcerer",
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 30
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true
+   },
+   "duration": {
+    "kind": "instant"
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 50,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Arcane Gate",
+   "es": "Puerta Arcanos"
+  },
+  "book": "Player's Handbook (2024)",
+  "data": {
+   "level": 6,
+   "school": "conjuration",
+   "classes": [
+    "sorcerer",
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 500
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 10,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 242,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Arcane Vigor",
+   "es": "Vigor arcano"
+  },
+  "book": "Player's Handbook (2024)",
+  "data": {
+   "level": 2,
+   "school": "abjuration",
+   "classes": [
+    "artificer",
+    "sorcerer",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "bonus"
+   },
+   "range": {
+    "kind": "self"
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "instant"
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 242,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Armor of Agathys",
+   "es": "Armadura de Agathys"
+  },
+  "book": "Player's Handbook (2024)",
+  "data": {
+   "level": 1,
+   "school": "abjuration",
+   "classes": [
+    "warlock"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "bonus"
+   },
+   "range": {
+    "kind": "self"
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "hour",
+    "concentration": false
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 243,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Arms of Hadar",
+   "es": "Brazos de Hadar"
+  },
+  "book": "Player's Handbook (2024)",
+  "data": {
+   "level": 1,
+   "school": "conjuration",
+   "classes": [
+    "warlock"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "self",
+    "area": {
+     "shape": "emanation",
+     "size": 10,
+     "unit": "feet"
+    }
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "instant"
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 243,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Ashardalon's Stride"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "level": 3,
+   "school": "transmutation",
+   "classes": [
+    "artificer",
+    "ranger",
+    "sorcerer",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "bonus"
+   },
+   "range": {
+    "kind": "self"
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 19,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Aura of Evasion"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "level": 7,
+   "school": "abjuration",
+   "classes": [
+    "sorcerer",
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "self",
+    "area": {
+     "shape": "emanation",
+     "size": 30,
+     "unit": "feet"
+    }
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 35,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Aura of Purity",
+   "es": "Aura de pureza"
+  },
+  "book": "Player's Handbook (2024)",
+  "data": {
+   "level": 4,
+   "school": "abjuration",
+   "classes": [
+    "cleric",
+    "paladin"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "self",
+    "area": {
+     "shape": "emanation",
+     "size": 30,
+     "unit": "feet"
+    }
+   },
+   "components": {
+    "v": true,
+    "s": false,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 10,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 244,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Aura of Vitality",
+   "es": "Aura de vitalidad"
+  },
+  "book": "Player's Handbook (2024)",
+  "data": {
+   "level": 3,
+   "school": "abjuration",
+   "classes": [
+    "cleric",
+    "druid",
+    "paladin"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "self",
+    "area": {
+     "shape": "emanation",
+     "size": 30,
+     "unit": "feet"
+    }
+   },
+   "components": {
+    "v": true,
+    "s": false,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 244,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Backlash"
+  },
+  "book": "Forgotten Realms: Heroes of Faerûn",
+  "data": {
+   "level": 4,
+   "school": "abjuration",
+   "classes": [
+    "bard",
+    "sorcerer",
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "reaction"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 60
+   },
+   "components": {
+    "v": true,
+    "s": false,
+    "m": false
+   },
+   "duration": {
+    "kind": "instant"
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 142,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Banishing Smite",
+   "es": "Castigo desterrador"
+  },
+  "book": "Player's Handbook (2024)",
+  "data": {
+   "level": 5,
+   "school": "conjuration",
+   "classes": [
+    "paladin"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "bonus"
+   },
+   "range": {
+    "kind": "self"
+   },
+   "components": {
+    "v": true,
+    "s": false,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 245,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Battle Familiar"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "level": 2,
+   "school": "conjuration",
+   "classes": [
+    "druid",
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 10
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true,
+    "costGp": 25
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "hour",
+    "concentration": false
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 35,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Beast Bond"
+  },
+  "book": "Xanathar's Guide to Everything",
+  "data": {
+   "level": 1,
+   "school": "divination",
+   "classes": [
+    "druid",
+    "ranger"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "touch"
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 10,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 150,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Beast Sense",
+   "es": "Sentidos de la bestia"
+  },
+  "book": "Player's Handbook (2024)",
+  "data": {
+   "level": 2,
+   "school": "divination",
+   "classes": [
+    "druid",
+    "ranger"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "touch"
+   },
+   "components": {
+    "v": false,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "hour",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": true,
+   "page": 245,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Blade of Disaster"
+  },
+  "book": "Forgotten Realms: Heroes of Faerûn",
+  "data": {
+   "level": 9,
+   "school": "conjuration",
+   "classes": [
+    "sorcerer",
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "bonus"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 60
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 143,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Blade Ward",
+   "es": "Guardia de cuchillas"
+  },
+  "book": "Player's Handbook (2024)",
+  "data": {
+   "level": 0,
+   "school": "abjuration",
+   "classes": [
+    "bard",
+    "sorcerer",
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "self"
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 247,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Blinding Smite",
+   "es": "Castigo cegador"
+  },
+  "book": "Player's Handbook (2024)",
+  "data": {
+   "level": 3,
+   "school": "evocation",
+   "classes": [
+    "paladin"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "bonus"
+   },
+   "range": {
+    "kind": "self"
+   },
+   "components": {
+    "v": true,
+    "s": false,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "minute",
+    "concentration": false
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 247,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Bones of the Earth"
+  },
+  "book": "Xanathar's Guide to Everything",
+  "data": {
+   "level": 6,
+   "school": "transmutation",
+   "classes": [
+    "druid"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 120
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "instant"
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 150,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Booming Blade"
+  },
+  "book": "Tasha's Cauldron of Everything",
+  "data": {
+   "level": 0,
+   "school": "evocation",
+   "classes": [
+    "artificer",
+    "sorcerer",
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "self",
+    "area": {
+     "shape": "radius",
+     "size": 5,
+     "unit": "feet"
+    }
+   },
+   "components": {
+    "v": false,
+    "s": true,
+    "m": true,
+    "costGp": 0.1
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "round",
+    "concentration": false
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 106,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Borrowed Knowledge"
+  },
+  "book": "Strixhaven: A Curriculum of Chaos",
+  "data": {
+   "level": 2,
+   "school": "divination",
+   "classes": [
+    "bard",
+    "cleric",
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "self"
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true,
+    "costGp": 25
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "hour",
+    "concentration": false
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 37,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Cacophonic Shield"
+  },
+  "book": "Forgotten Realms: Heroes of Faerûn",
+  "data": {
+   "level": 3,
+   "school": "evocation",
+   "classes": [
+    "bard",
+    "sorcerer",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "self",
+    "area": {
+     "shape": "emanation",
+     "size": 10,
+     "unit": "feet"
+    }
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 10,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 143,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Catapult"
+  },
+  "book": "Xanathar's Guide to Everything",
+  "data": {
+   "level": 1,
+   "school": "transmutation",
+   "classes": [
+    "artificer",
+    "sorcerer",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 60
+   },
+   "components": {
+    "v": false,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "instant"
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 150,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Catnap"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "level": 3,
+   "school": "enchantment",
+   "classes": [
+    "artificer",
+    "bard",
+    "sorcerer",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 30
+   },
+   "components": {
+    "v": false,
+    "s": true,
+    "m": true
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 10,
+    "unit": "minute",
+    "concentration": false
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 37,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Cause Fear"
+  },
+  "book": "Xanathar's Guide to Everything",
+  "data": {
+   "level": 1,
+   "school": "necromancy",
+   "classes": [
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 60
+   },
+   "components": {
+    "v": true,
+    "s": false,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 151,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Ceremony"
+  },
+  "book": "Xanathar's Guide to Everything",
+  "data": {
+   "level": 1,
+   "school": "abjuration",
+   "classes": [
+    "cleric",
+    "paladin"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "hour"
+   },
+   "range": {
+    "kind": "touch"
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true,
+    "costGp": 25,
+    "consumed": true
+   },
+   "duration": {
+    "kind": "instant"
+   },
+   "concentration": false,
+   "ritual": true,
+   "page": 151,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Chaos Bolt"
+  },
+  "book": "Xanathar's Guide to Everything",
+  "data": {
+   "level": 1,
+   "school": "evocation",
+   "classes": [
+    "sorcerer"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 120
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "instant"
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 151,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Circle of Power",
+   "es": "Círculo de poder"
+  },
+  "book": "Player's Handbook (2024)",
+  "data": {
+   "level": 5,
+   "school": "abjuration",
+   "classes": [
+    "artificer",
+    "cleric",
+    "paladin",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "self",
+    "area": {
+     "shape": "emanation",
+     "size": 30,
+     "unit": "feet"
+    }
+   },
+   "components": {
+    "v": true,
+    "s": false,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 10,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 250,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Cloud of Daggers",
+   "es": "Nube de dagas"
+  },
+  "book": "Player's Handbook (2024)",
+  "data": {
+   "level": 2,
+   "school": "conjuration",
+   "classes": [
+    "bard",
+    "sorcerer",
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 60
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 251,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Compelled Duel",
+   "es": "Duelo forzado"
+  },
+  "book": "Player's Handbook (2024)",
+  "data": {
+   "level": 1,
+   "school": "enchantment",
+   "classes": [
+    "paladin"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "bonus"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 30
+   },
+   "components": {
+    "v": true,
+    "s": false,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 252,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Conjure Barrage",
+   "es": "Conjurar descarga de proyectiles"
+  },
+  "book": "Player's Handbook (2024)",
+  "data": {
+   "level": 3,
+   "school": "conjuration",
+   "classes": [
+    "ranger"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "self",
+    "area": {
+     "shape": "cone",
+     "size": 60,
+     "unit": "feet"
+    }
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true,
+    "costGp": 0.01
+   },
+   "duration": {
+    "kind": "instant"
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 254,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Conjure Constructs"
+  },
+  "book": "Forgotten Realms: Heroes of Faerûn",
+  "data": {
+   "level": 3,
+   "school": "conjuration",
+   "classes": [
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 60
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 10,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 143,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Conjure Volley",
+   "es": "Conjurar lluvia de flechas"
+  },
+  "book": "Player's Handbook (2024)",
+  "data": {
+   "level": 5,
+   "school": "conjuration",
+   "classes": [
+    "ranger"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 150
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true,
+    "costGp": 0.01
+   },
+   "duration": {
+    "kind": "instant"
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 255,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Control Flames"
+  },
+  "book": "Xanathar's Guide to Everything",
+  "data": {
+   "level": 0,
+   "school": "transmutation",
+   "classes": [
+    "druid",
+    "sorcerer",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 60
+   },
+   "components": {
+    "v": false,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "instant"
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 152,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Control Winds"
+  },
+  "book": "Xanathar's Guide to Everything",
+  "data": {
+   "level": 5,
+   "school": "transmutation",
+   "classes": [
+    "druid",
+    "sorcerer",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 300
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "hour",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 152,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Cordon of Arrows",
+   "es": "Cordón de flechas"
+  },
+  "book": "Player's Handbook (2024)",
+  "data": {
+   "level": 2,
+   "school": "transmutation",
+   "classes": [
+    "ranger"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "touch"
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 8,
+    "unit": "hour",
+    "concentration": false
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 258,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Create Bonfire"
+  },
+  "book": "Xanathar's Guide to Everything",
+  "data": {
+   "level": 0,
+   "school": "conjuration",
+   "classes": [
+    "artificer",
+    "druid",
+    "sorcerer",
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 60
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 152,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Create Homunculus"
+  },
+  "book": "Xanathar's Guide to Everything",
+  "data": {
+   "level": 6,
+   "school": "transmutation",
+   "classes": [
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "hour"
+   },
+   "range": {
+    "kind": "touch"
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true,
+    "costGp": 1000,
+    "consumed": true
+   },
+   "duration": {
+    "kind": "instant"
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 152,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Create Magen"
+  },
+  "book": "Icewind Dale: Rime of the Frostmaiden",
+  "data": {
+   "level": 7,
+   "school": "transmutation",
+   "classes": [
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "hour"
+   },
+   "range": {
+    "kind": "touch"
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true,
+    "costGp": 500,
+    "consumed": true
+   },
+   "duration": {
+    "kind": "instant"
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 318,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Create Spelljamming Helm"
+  },
+  "book": "Astral Adventurer's Guide",
+  "data": {
+   "level": 5,
+   "school": "transmutation",
+   "classes": [
+    "artificer",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "touch"
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true,
+    "costGp": 5000,
+    "consumed": true
+   },
+   "duration": {
+    "kind": "instant"
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 22,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Crown of Madness",
+   "es": "Corona de la locura"
+  },
+  "book": "Player's Handbook (2024)",
+  "data": {
+   "level": 2,
+   "school": "enchantment",
+   "classes": [
+    "bard",
+    "sorcerer",
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 120
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 259,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Crown of Stars"
+  },
+  "book": "Xanathar's Guide to Everything",
+  "data": {
+   "level": 7,
+   "school": "evocation",
+   "classes": [
+    "sorcerer",
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "self"
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "hour",
+    "concentration": false
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 152,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Crusader's Mantle",
+   "es": "Manto del cruzado"
+  },
+  "book": "Player's Handbook (2024)",
+  "data": {
+   "level": 3,
+   "school": "evocation",
+   "classes": [
+    "paladin"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "self",
+    "area": {
+     "shape": "emanation",
+     "size": 30,
+     "unit": "feet"
+    }
+   },
+   "components": {
+    "v": true,
+    "s": false,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 259,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Danse Macabre"
+  },
+  "book": "Xanathar's Guide to Everything",
+  "data": {
+   "level": 5,
+   "school": "necromancy",
+   "classes": [
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 60
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "hour",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 153,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Dark Star"
+  },
+  "book": "Explorer's Guide to Wildemount",
+  "data": {
+   "level": 8,
+   "school": "evocation",
+   "classes": [],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 150
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true,
+    "consumed": true
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 186,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Dawn"
+  },
+  "book": "Xanathar's Guide to Everything",
+  "data": {
+   "level": 5,
+   "school": "evocation",
+   "classes": [
+    "cleric",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 60
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true,
+    "costGp": 100
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 153,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Death Armor"
+  },
+  "book": "Forgotten Realms: Heroes of Faerûn",
+  "data": {
+   "level": 2,
+   "school": "necromancy",
+   "classes": [
+    "sorcerer",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "touch"
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true,
+    "costGp": 50,
+    "consumed": true
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "hour",
+    "concentration": false
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 143,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Deryan's Helpful Homunculi"
+  },
+  "book": "Forgotten Realms: Heroes of Faerûn",
+  "data": {
+   "level": 2,
+   "school": "conjuration",
+   "classes": [
+    "cleric",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "self"
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true,
+    "costGp": 100,
+    "consumed": true
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 8,
+    "unit": "hour",
+    "concentration": false
+   },
+   "concentration": false,
+   "ritual": true,
+   "page": 143,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Destructive Wave",
+   "es": "Ola destructora"
+  },
+  "book": "Player's Handbook (2024)",
+  "data": {
+   "level": 5,
+   "school": "evocation",
+   "classes": [
+    "paladin"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "self",
+    "area": {
+     "shape": "emanation",
+     "size": 30,
+     "unit": "feet"
+    }
+   },
+   "components": {
+    "v": true,
+    "s": false,
+    "m": false
+   },
+   "duration": {
+    "kind": "instant"
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 261,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Detonate"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "level": 9,
+   "school": "evocation",
+   "classes": [
+    "sorcerer",
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 500
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true
+   },
+   "duration": {
+    "kind": "instant"
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 38,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Dirge"
+  },
+  "book": "Forgotten Realms: Heroes of Faerûn",
+  "data": {
+   "level": 6,
+   "school": "enchantment",
+   "classes": [
+    "bard",
+    "cleric"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "self",
+    "area": {
+     "shape": "emanation",
+     "size": 60,
+     "unit": "feet"
+    }
+   },
+   "components": {
+    "v": true,
+    "s": false,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 144,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Disruptive Tune"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "level": 2,
+   "school": "abjuration",
+   "classes": [
+    "bard",
+    "sorcerer",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 120
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 38,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Distort Value"
+  },
+  "book": "Acquisitions Incorporated",
+  "data": {
+   "level": 1,
+   "school": "illusion",
+   "classes": [
+    "bard",
+    "sorcerer",
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "minute"
+   },
+   "range": {
+    "kind": "touch"
+   },
+   "components": {
+    "v": true,
+    "s": false,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 8,
+    "unit": "hour",
+    "concentration": false
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 75,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Distorted Distance"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "level": 4,
+   "school": "illusion",
+   "classes": [
+    "artificer",
+    "bard",
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 120
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 10,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 38,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Doomtide"
+  },
+  "book": "Forgotten Realms: Heroes of Faerûn",
+  "data": {
+   "level": 4,
+   "school": "conjuration",
+   "classes": [
+    "bard",
+    "cleric",
+    "warlock"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 120
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 144,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Draconic Transformation"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "level": 7,
+   "school": "transmutation",
+   "classes": [
+    "druid",
+    "sorcerer",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "bonus"
+   },
+   "range": {
+    "kind": "self"
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true,
+    "costGp": 500
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 19,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Dream of the Blue Veil"
+  },
+  "book": "Tasha's Cauldron of Everything",
+  "data": {
+   "level": 7,
+   "school": "conjuration",
+   "classes": [
+    "bard",
+    "sorcerer",
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 10,
+    "unit": "minute"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 20
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 6,
+    "unit": "hour",
+    "concentration": false
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 106,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Druid Grove"
+  },
+  "book": "Xanathar's Guide to Everything",
+  "data": {
+   "level": 6,
+   "school": "abjuration",
+   "classes": [
+    "druid"
+   ],
+   "castingTime": {
+    "n": 10,
+    "unit": "minute"
+   },
+   "range": {
+    "kind": "touch"
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true,
+    "consumed": true
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 24,
+    "unit": "hour",
+    "concentration": false
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 154,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Dueling Ground"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "level": 2,
+   "school": "abjuration",
+   "classes": [
+    "artificer",
+    "bard",
+    "cleric",
+    "druid",
+    "paladin",
+    "ranger",
+    "sorcerer",
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 10,
+    "unit": "minute"
+   },
+   "range": {
+    "kind": "touch"
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true,
+    "costGp": 100
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "hour",
+    "concentration": false
+   },
+   "concentration": false,
+   "ritual": true,
+   "page": 38,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Dust Devil"
+  },
+  "book": "Xanathar's Guide to Everything",
+  "data": {
+   "level": 2,
+   "school": "conjuration",
+   "classes": [
+    "druid",
+    "sorcerer",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 60
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 154,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Earth Tremor"
+  },
+  "book": "Xanathar's Guide to Everything",
+  "data": {
+   "level": 1,
+   "school": "evocation",
+   "classes": [
+    "bard",
+    "druid",
+    "sorcerer",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 10
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "instant"
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 155,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Earthbind"
+  },
+  "book": "Xanathar's Guide to Everything",
+  "data": {
+   "level": 2,
+   "school": "transmutation",
+   "classes": [
+    "druid",
+    "sorcerer",
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 300
+   },
+   "components": {
+    "v": true,
+    "s": false,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 154,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Elemental Bane"
+  },
+  "book": "Xanathar's Guide to Everything",
+  "data": {
+   "level": 4,
+   "school": "transmutation",
+   "classes": [
+    "artificer",
+    "druid",
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 90
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 155,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Elemental Weapon",
+   "es": "Arma elemental"
+  },
+  "book": "Player's Handbook (2024)",
+  "data": {
+   "level": 3,
+   "school": "transmutation",
+   "classes": [
+    "artificer",
+    "druid",
+    "paladin",
+    "ranger"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "touch"
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "hour",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 267,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Elminster's Effulgent Spheres"
+  },
+  "book": "Forgotten Realms: Heroes of Faerûn",
+  "data": {
+   "level": 6,
+   "school": "evocation",
+   "classes": [
+    "druid",
+    "sorcerer",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "self"
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true,
+    "costGp": 1000
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "hour",
+    "concentration": false
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 144,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Elminster's Elusion"
+  },
+  "book": "Forgotten Realms: Heroes of Faerûn",
+  "data": {
+   "level": 2,
+   "school": "abjuration",
+   "classes": [
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "bonus"
+   },
+   "range": {
+    "kind": "self"
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 10,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 144,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Encode Thoughts"
+  },
+  "book": "Guildmasters' Guide to Ravnica",
+  "data": {
+   "level": 0,
+   "school": "enchantment",
+   "classes": [],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "self"
+   },
+   "components": {
+    "v": false,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 8,
+    "unit": "hour",
+    "concentration": false
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 47,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Enemies Abound"
+  },
+  "book": "Xanathar's Guide to Everything",
+  "data": {
+   "level": 3,
+   "school": "enchantment",
+   "classes": [
+    "bard",
+    "sorcerer",
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 120
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 155,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Enervation"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "level": 5,
+   "school": "necromancy",
+   "classes": [
+    "sorcerer",
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 60
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 38,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Entrancing Mirrors"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "level": 8,
+   "school": "illusion",
+   "classes": [
+    "bard",
+    "sorcerer",
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 90
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 39,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Erupting Earth"
+  },
+  "book": "Xanathar's Guide to Everything",
+  "data": {
+   "level": 3,
+   "school": "transmutation",
+   "classes": [
+    "druid",
+    "sorcerer",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 120
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true
+   },
+   "duration": {
+    "kind": "instant"
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 155,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Far Step"
+  },
+  "book": "Xanathar's Guide to Everything",
+  "data": {
+   "level": 5,
+   "school": "conjuration",
+   "classes": [
+    "sorcerer",
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "bonus"
+   },
+   "range": {
+    "kind": "self"
+   },
+   "components": {
+    "v": true,
+    "s": false,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 155,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Fast Friends"
+  },
+  "book": "Acquisitions Incorporated",
+  "data": {
+   "level": 3,
+   "school": "enchantment",
+   "classes": [
+    "bard",
+    "cleric",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 30
+   },
+   "components": {
+    "v": true,
+    "s": false,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "hour",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 75,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Feign Death",
+   "es": "Fingir muerte"
+  },
+  "book": "Player's Handbook (2024)",
+  "data": {
+   "level": 3,
+   "school": "necromancy",
+   "classes": [
+    "bard",
+    "cleric",
+    "druid",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "touch"
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "hour",
+    "concentration": false
+   },
+   "concentration": false,
+   "ritual": true,
+   "page": 271,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Festering Blast"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "level": 4,
+   "school": "necromancy",
+   "classes": [
+    "druid",
+    "sorcerer",
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "self",
+    "area": {
+     "shape": "line",
+     "size": 60,
+     "unit": "feet"
+    }
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "minute",
+    "concentration": false
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 39,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Find Greater Steed"
+  },
+  "book": "Xanathar's Guide to Everything",
+  "data": {
+   "level": 4,
+   "school": "conjuration",
+   "classes": [
+    "paladin"
+   ],
+   "castingTime": {
+    "n": 10,
+    "unit": "minute"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 30
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "instant"
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 156,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Fizban's Platinum Shield"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "level": 6,
+   "school": "abjuration",
+   "classes": [
+    "sorcerer",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "bonus"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 60
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true,
+    "costGp": 500
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 20,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Flame Arrows"
+  },
+  "book": "Xanathar's Guide to Everything",
+  "data": {
+   "level": 3,
+   "school": "transmutation",
+   "classes": [
+    "artificer",
+    "druid",
+    "ranger",
+    "sorcerer",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "touch"
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "hour",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 156,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Flock of Familiars"
+  },
+  "book": "Lost Laboratory of Kwalish",
+  "data": {
+   "level": 2,
+   "school": "conjuration",
+   "classes": [
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "minute"
+   },
+   "range": {
+    "kind": "touch"
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "hour",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 57,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Fortune's Favor"
+  },
+  "book": "Explorer's Guide to Wildemount",
+  "data": {
+   "level": 2,
+   "school": "divination",
+   "classes": [],
+   "castingTime": {
+    "n": 1,
+    "unit": "minute"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 60
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true,
+    "costGp": 100,
+    "consumed": true
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "hour",
+    "concentration": false
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 186,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Fount of Moonlight",
+   "es": "Fuente de la luz lunar"
+  },
+  "book": "Player's Handbook (2024)",
+  "data": {
+   "level": 4,
+   "school": "evocation",
+   "classes": [
+    "bard",
+    "druid"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "self"
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 10,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 277,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Fractured Awareness"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "level": 7,
+   "school": "divination",
+   "classes": [
+    "bard",
+    "sorcerer",
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 120
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 40,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Friends",
+   "es": "Amistad"
+  },
+  "book": "Player's Handbook (2024)",
+  "data": {
+   "level": 0,
+   "school": "enchantment",
+   "classes": [
+    "bard",
+    "sorcerer",
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 10
+   },
+   "components": {
+    "v": false,
+    "s": true,
+    "m": true
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 277,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Frost Fingers"
+  },
+  "book": "Icewind Dale: Rime of the Frostmaiden",
+  "data": {
+   "level": 1,
+   "school": "evocation",
+   "classes": [
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "self",
+    "area": {
+     "shape": "cone",
+     "size": 15,
+     "unit": "feet"
+    }
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "instant"
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 318,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Frostbite"
+  },
+  "book": "Xanathar's Guide to Everything",
+  "data": {
+   "level": 0,
+   "school": "evocation",
+   "classes": [
+    "artificer",
+    "druid",
+    "sorcerer",
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 60
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "instant"
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 156,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Galder's Speedy Courier"
+  },
+  "book": "Lost Laboratory of Kwalish",
+  "data": {
+   "level": 4,
+   "school": "conjuration",
+   "classes": [
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 10
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true,
+    "costGp": 25,
+    "consumed": true
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 10,
+    "unit": "minute",
+    "concentration": false
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 57,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Galder's Tower"
+  },
+  "book": "Lost Laboratory of Kwalish",
+  "data": {
+   "level": 3,
+   "school": "conjuration",
+   "classes": [
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 10,
+    "unit": "minute"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 30
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 24,
+    "unit": "hour",
+    "concentration": false
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 57,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Gate Seal"
+  },
+  "book": "Sigil and the Outlands",
+  "data": {
+   "level": 4,
+   "school": "abjuration",
+   "classes": [
+    "sorcerer",
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "minute"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 60
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true,
+    "consumed": true
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 24,
+    "unit": "hour",
+    "concentration": false
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 12,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Gift of Alacrity"
+  },
+  "book": "Explorer's Guide to Wildemount",
+  "data": {
+   "level": 1,
+   "school": "divination",
+   "classes": [],
+   "castingTime": {
+    "n": 1,
+    "unit": "minute"
+   },
+   "range": {
+    "kind": "touch"
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 8,
+    "unit": "hour",
+    "concentration": false
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 186,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Gift of Gab"
+  },
+  "book": "Acquisitions Incorporated",
+  "data": {
+   "level": 2,
+   "school": "enchantment",
+   "classes": [
+    "bard",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "reaction"
+   },
+   "range": {
+    "kind": "self"
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "instant"
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 76,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Grasping Vine",
+   "es": "Enredadera"
+  },
+  "book": "Player's Handbook (2024)",
+  "data": {
+   "level": 4,
+   "school": "conjuration",
+   "classes": [
+    "druid",
+    "ranger"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "bonus"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 60
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 280,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Grave Ground"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "level": 5,
+   "school": "necromancy",
+   "classes": [
+    "cleric",
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 120
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 40,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Gravity Fissure"
+  },
+  "book": "Explorer's Guide to Wildemount",
+  "data": {
+   "level": 6,
+   "school": "evocation",
+   "classes": [],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "self",
+    "area": {
+     "shape": "line",
+     "size": 100,
+     "unit": "feet"
+    }
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true
+   },
+   "duration": {
+    "kind": "instant"
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 187,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Gravity Sinkhole"
+  },
+  "book": "Explorer's Guide to Wildemount",
+  "data": {
+   "level": 4,
+   "school": "evocation",
+   "classes": [],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 120
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true
+   },
+   "duration": {
+    "kind": "instant"
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 187,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Green-Flame Blade"
+  },
+  "book": "Tasha's Cauldron of Everything",
+  "data": {
+   "level": 0,
+   "school": "evocation",
+   "classes": [
+    "artificer",
+    "sorcerer",
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "self",
+    "area": {
+     "shape": "radius",
+     "size": 5,
+     "unit": "feet"
+    }
+   },
+   "components": {
+    "v": false,
+    "s": true,
+    "m": true,
+    "costGp": 0.1
+   },
+   "duration": {
+    "kind": "instant"
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 107,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Guardian of Nature"
+  },
+  "book": "Xanathar's Guide to Everything",
+  "data": {
+   "level": 4,
+   "school": "transmutation",
+   "classes": [
+    "druid",
+    "ranger"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "bonus"
+   },
+   "range": {
+    "kind": "self"
+   },
+   "components": {
+    "v": true,
+    "s": false,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 157,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Gust"
+  },
+  "book": "Xanathar's Guide to Everything",
+  "data": {
+   "level": 0,
+   "school": "transmutation",
+   "classes": [
+    "druid",
+    "sorcerer",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 30
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "instant"
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 157,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Hail of Thorns",
+   "es": "Tormenta de espinas"
+  },
+  "book": "Player's Handbook (2024)",
+  "data": {
+   "level": 1,
+   "school": "conjuration",
+   "classes": [
+    "ranger"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "bonus"
+   },
+   "range": {
+    "kind": "self"
+   },
+   "components": {
+    "v": true,
+    "s": false,
+    "m": false
+   },
+   "duration": {
+    "kind": "instant"
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 283,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Healing Spirit"
+  },
+  "book": "Xanathar's Guide to Everything",
+  "data": {
+   "level": 2,
+   "school": "conjuration",
+   "classes": [
+    "druid",
+    "ranger"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "bonus"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 60
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 157,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Hindsight"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "level": 9,
+   "school": "divination",
+   "classes": [
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 10,
+    "unit": "minute"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 500
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true,
+    "costGp": 500,
+    "consumed": true
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "hour",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 40,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Holy Star of Mystra"
+  },
+  "book": "Forgotten Realms: Heroes of Faerûn",
+  "data": {
+   "level": 8,
+   "school": "evocation",
+   "classes": [
+    "cleric",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "bonus"
+   },
+   "range": {
+    "kind": "self"
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 145,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Holy Weapon"
+  },
+  "book": "Xanathar's Guide to Everything",
+  "data": {
+   "level": 5,
+   "school": "evocation",
+   "classes": [
+    "cleric",
+    "paladin"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "bonus"
+   },
+   "range": {
+    "kind": "touch"
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "hour",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 157,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Homunculus Servant"
+  },
+  "book": "Eberron: Forge of the Artificer",
+  "data": {
+   "level": 2,
+   "school": "conjuration",
+   "classes": [
+    "artificer"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "hour"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 10
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true,
+    "costGp": 100
+   },
+   "duration": {
+    "kind": "instant"
+   },
+   "concentration": false,
+   "ritual": true,
+   "page": 21,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Hunger of Hadar",
+   "es": "Hambre de Hadar"
+  },
+  "book": "Player's Handbook (2024)",
+  "data": {
+   "level": 3,
+   "school": "conjuration",
+   "classes": [
+    "warlock"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 150
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 286,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Illusory Dragon"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "level": 8,
+   "school": "illusion",
+   "classes": [
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 120
+   },
+   "components": {
+    "v": false,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 40,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Immolation"
+  },
+  "book": "Xanathar's Guide to Everything",
+  "data": {
+   "level": 5,
+   "school": "evocation",
+   "classes": [
+    "sorcerer",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 90
+   },
+   "components": {
+    "v": true,
+    "s": false,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 158,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Immovable Object"
+  },
+  "book": "Explorer's Guide to Wildemount",
+  "data": {
+   "level": 2,
+   "school": "transmutation",
+   "classes": [],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "touch"
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true,
+    "costGp": 25,
+    "consumed": true
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "hour",
+    "concentration": false
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 187,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Incite Greed"
+  },
+  "book": "Acquisitions Incorporated",
+  "data": {
+   "level": 3,
+   "school": "enchantment",
+   "classes": [
+    "cleric",
+    "sorcerer",
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 30
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true,
+    "costGp": 50
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 76,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Infernal Calling"
+  },
+  "book": "Xanathar's Guide to Everything",
+  "data": {
+   "level": 5,
+   "school": "conjuration",
+   "classes": [
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "minute"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 90
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true,
+    "costGp": 999
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "hour",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 158,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Infestation"
+  },
+  "book": "Xanathar's Guide to Everything",
+  "data": {
+   "level": 0,
+   "school": "conjuration",
+   "classes": [
+    "druid",
+    "sorcerer",
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 30
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true
+   },
+   "duration": {
+    "kind": "instant"
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 158,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Inflict Doubt"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "level": 3,
+   "school": "enchantment",
+   "classes": [
+    "bard",
+    "sorcerer",
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 120
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 40,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Intellect Fortress"
+  },
+  "book": "Tasha's Cauldron of Everything",
+  "data": {
+   "level": 3,
+   "school": "abjuration",
+   "classes": [
+    "artificer",
+    "bard",
+    "sorcerer",
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 30
+   },
+   "components": {
+    "v": true,
+    "s": false,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "hour",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 107,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Investiture of Flame"
+  },
+  "book": "Xanathar's Guide to Everything",
+  "data": {
+   "level": 6,
+   "school": "transmutation",
+   "classes": [
+    "druid",
+    "sorcerer",
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "self"
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 10,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 159,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Investiture of Ice"
+  },
+  "book": "Xanathar's Guide to Everything",
+  "data": {
+   "level": 6,
+   "school": "transmutation",
+   "classes": [
+    "druid",
+    "sorcerer",
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "self"
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 10,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 159,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Investiture of Stone"
+  },
+  "book": "Xanathar's Guide to Everything",
+  "data": {
+   "level": 6,
+   "school": "transmutation",
+   "classes": [
+    "druid",
+    "sorcerer",
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "self"
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 10,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 159,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Investiture of Wind"
+  },
+  "book": "Xanathar's Guide to Everything",
+  "data": {
+   "level": 6,
+   "school": "transmutation",
+   "classes": [
+    "druid",
+    "sorcerer",
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "self"
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 10,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 160,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Invulnerability"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "level": 9,
+   "school": "abjuration",
+   "classes": [
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "self"
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true,
+    "costGp": 500,
+    "consumed": true
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 41,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Iron Body"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "level": 8,
+   "school": "transmutation",
+   "classes": [
+    "sorcerer",
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "touch"
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true,
+    "costGp": 250,
+    "consumed": true
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "hour",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 41,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Jallarzi's Storm of Radiance",
+   "es": "Tormenta resplandeciente de Jallarzi"
+  },
+  "book": "Player's Handbook (2024)",
+  "data": {
+   "level": 5,
+   "school": "evocation",
+   "classes": [
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 120
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 289,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Jim's Glowing Coin"
+  },
+  "book": "Acquisitions Incorporated",
+  "data": {
+   "level": 2,
+   "school": "enchantment",
+   "classes": [
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 60
+   },
+   "components": {
+    "v": false,
+    "s": true,
+    "m": true
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "minute",
+    "concentration": false
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 76,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Jim's Magic Missile"
+  },
+  "book": "Acquisitions Incorporated",
+  "data": {
+   "level": 1,
+   "school": "evocation",
+   "classes": [
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 120
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "instant"
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 76,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Kinetic Jaunt"
+  },
+  "book": "Strixhaven: A Curriculum of Chaos",
+  "data": {
+   "level": 2,
+   "school": "transmutation",
+   "classes": [
+    "artificer",
+    "bard",
+    "sorcerer",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "bonus"
+   },
+   "range": {
+    "kind": "self"
+   },
+   "components": {
+    "v": false,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 37,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Laeral's Silver Lance"
+  },
+  "book": "Forgotten Realms: Heroes of Faerûn",
+  "data": {
+   "level": 3,
+   "school": "evocation",
+   "classes": [
+    "cleric",
+    "sorcerer",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "self",
+    "area": {
+     "shape": "line",
+     "size": 120,
+     "unit": "feet"
+    }
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true,
+    "costGp": 250
+   },
+   "duration": {
+    "kind": "instant"
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 145,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Life Transference"
+  },
+  "book": "Xanathar's Guide to Everything",
+  "data": {
+   "level": 3,
+   "school": "necromancy",
+   "classes": [
+    "cleric",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 30
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "instant"
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 160,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Lightning Arrow",
+   "es": "Flecha de relámpago"
+  },
+  "book": "Player's Handbook (2024)",
+  "data": {
+   "level": 3,
+   "school": "transmutation",
+   "classes": [
+    "ranger"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "bonus"
+   },
+   "range": {
+    "kind": "self"
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "instant"
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 292,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Lightning Lure"
+  },
+  "book": "Tasha's Cauldron of Everything",
+  "data": {
+   "level": 0,
+   "school": "evocation",
+   "classes": [
+    "artificer",
+    "sorcerer",
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "self",
+    "area": {
+     "shape": "radius",
+     "size": 15,
+     "unit": "feet"
+    }
+   },
+   "components": {
+    "v": true,
+    "s": false,
+    "m": false
+   },
+   "duration": {
+    "kind": "instant"
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 107,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Lightning Ring"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "level": 8,
+   "school": "evocation",
+   "classes": [
+    "druid",
+    "sorcerer",
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "bonus"
+   },
+   "range": {
+    "kind": "self",
+    "area": {
+     "shape": "emanation",
+     "size": 10,
+     "unit": "feet"
+    }
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 10,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 41,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Linked Glyphs"
+  },
+  "book": "Adventures in the Forgotten Realms",
+  "data": {
+   "level": 3,
+   "school": "abjuration",
+   "classes": [
+    "artificer",
+    "bard",
+    "cleric",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "hour"
+   },
+   "range": {
+    "kind": "touch"
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true,
+    "costGp": 300,
+    "consumed": true
+   },
+   "duration": {
+    "kind": "permanent"
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 9,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Maddening Darkness"
+  },
+  "book": "Xanathar's Guide to Everything",
+  "data": {
+   "level": 8,
+   "school": "evocation",
+   "classes": [
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 150
+   },
+   "components": {
+    "v": true,
+    "s": false,
+    "m": true
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 10,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 160,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Maelstrom"
+  },
+  "book": "Xanathar's Guide to Everything",
+  "data": {
+   "level": 5,
+   "school": "evocation",
+   "classes": [
+    "druid"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 120
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 160,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Magic Stone"
+  },
+  "book": "Xanathar's Guide to Everything",
+  "data": {
+   "level": 0,
+   "school": "transmutation",
+   "classes": [
+    "artificer",
+    "druid",
+    "warlock"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "bonus"
+   },
+   "range": {
+    "kind": "touch"
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "minute",
+    "concentration": false
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 160,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Magnify Gravity"
+  },
+  "book": "Explorer's Guide to Wildemount",
+  "data": {
+   "level": 1,
+   "school": "transmutation",
+   "classes": [],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 60
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "round",
+    "concentration": false
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 188,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Mass Polymorph"
+  },
+  "book": "Xanathar's Guide to Everything",
+  "data": {
+   "level": 9,
+   "school": "transmutation",
+   "classes": [
+    "bard",
+    "sorcerer",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 120
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "hour",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 160,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Maximilian's Earthen Grasp"
+  },
+  "book": "Xanathar's Guide to Everything",
+  "data": {
+   "level": 2,
+   "school": "transmutation",
+   "classes": [
+    "sorcerer",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 30
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 161,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Melf's Minute Meteors"
+  },
+  "book": "Xanathar's Guide to Everything",
+  "data": {
+   "level": 3,
+   "school": "evocation",
+   "classes": [
+    "sorcerer",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "self"
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 10,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 161,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Mental Prison"
+  },
+  "book": "Xanathar's Guide to Everything",
+  "data": {
+   "level": 6,
+   "school": "illusion",
+   "classes": [
+    "sorcerer",
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 60
+   },
+   "components": {
+    "v": false,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 161,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Mighty Fortress"
+  },
+  "book": "Xanathar's Guide to Everything",
+  "data": {
+   "level": 8,
+   "school": "conjuration",
+   "classes": [
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "minute"
+   },
+   "range": {
+    "kind": "miles",
+    "amount": 1
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true,
+    "costGp": 500,
+    "consumed": true
+   },
+   "duration": {
+    "kind": "instant"
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 161,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Mind Sliver",
+   "es": "Fragmento mental"
+  },
+  "book": "Player's Handbook (2024)",
+  "data": {
+   "level": 0,
+   "school": "enchantment",
+   "classes": [
+    "sorcerer",
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 60
+   },
+   "components": {
+    "v": true,
+    "s": false,
+    "m": false
+   },
+   "duration": {
+    "kind": "instant"
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 298,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Mold Earth"
+  },
+  "book": "Xanathar's Guide to Everything",
+  "data": {
+   "level": 0,
+   "school": "transmutation",
+   "classes": [
+    "druid",
+    "sorcerer",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 30
+   },
+   "components": {
+    "v": false,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "instant"
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 162,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Moment of Prescience"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "level": 8,
+   "school": "divination",
+   "classes": [
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "reaction"
+   },
+   "range": {
+    "kind": "self"
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "instant"
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 42,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Mordenkainen's Lucubration"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "level": 5,
+   "school": "divination",
+   "classes": [
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "self"
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "instant"
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 42,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Motivational Speech"
+  },
+  "book": "Acquisitions Incorporated",
+  "data": {
+   "level": 3,
+   "school": "enchantment",
+   "classes": [
+    "bard",
+    "cleric"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "minute"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 60
+   },
+   "components": {
+    "v": true,
+    "s": false,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "hour",
+    "concentration": false
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 77,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Nathair's Mischief"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "level": 2,
+   "school": "illusion",
+   "classes": [
+    "bard",
+    "sorcerer",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 60
+   },
+   "components": {
+    "v": false,
+    "s": true,
+    "m": true
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 20,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Negative Energy Flood"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "level": 5,
+   "school": "necromancy",
+   "classes": [
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 60
+   },
+   "components": {
+    "v": true,
+    "s": false,
+    "m": true
+   },
+   "duration": {
+    "kind": "instant"
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 42,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Power Word Fortify",
+   "es": "Palabra de poder fortalecer"
+  },
+  "book": "Player's Handbook (2024)",
+  "data": {
+   "level": 7,
+   "school": "enchantment",
+   "classes": [
+    "bard",
+    "cleric"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 60
+   },
+   "components": {
+    "v": true,
+    "s": false,
+    "m": false
+   },
+   "duration": {
+    "kind": "instant"
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 306,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Power Word Pain"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "level": 7,
+   "school": "enchantment",
+   "classes": [
+    "bard",
+    "sorcerer",
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 60
+   },
+   "components": {
+    "v": true,
+    "s": false,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "minute",
+    "concentration": false
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 42,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Primal Savagery"
+  },
+  "book": "Xanathar's Guide to Everything",
+  "data": {
+   "level": 0,
+   "school": "transmutation",
+   "classes": [
+    "druid"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "self"
+   },
+   "components": {
+    "v": false,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "instant"
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 163,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Primordial Ward"
+  },
+  "book": "Xanathar's Guide to Everything",
+  "data": {
+   "level": 6,
+   "school": "abjuration",
+   "classes": [
+    "druid"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "self"
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 163,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Psychic Scream"
+  },
+  "book": "Xanathar's Guide to Everything",
+  "data": {
+   "level": 9,
+   "school": "enchantment",
+   "classes": [
+    "bard",
+    "sorcerer",
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 90
+   },
+   "components": {
+    "v": false,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "instant"
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 163,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Pulse Wave"
+  },
+  "book": "Explorer's Guide to Wildemount",
+  "data": {
+   "level": 3,
+   "school": "evocation",
+   "classes": [],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "self",
+    "area": {
+     "shape": "cone",
+     "size": 30,
+     "unit": "feet"
+    }
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "instant"
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 188,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Pyrotechnics"
+  },
+  "book": "Xanathar's Guide to Everything",
+  "data": {
+   "level": 2,
+   "school": "transmutation",
+   "classes": [
+    "artificer",
+    "bard",
+    "sorcerer",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 60
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "instant"
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 163,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Raulothim's Psychic Lance"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "level": 4,
+   "school": "enchantment",
+   "classes": [
+    "bard",
+    "sorcerer",
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 120
+   },
+   "components": {
+    "v": true,
+    "s": false,
+    "m": false
+   },
+   "duration": {
+    "kind": "instant"
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 21,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Ravenous Void"
+  },
+  "book": "Explorer's Guide to Wildemount",
+  "data": {
+   "level": 9,
+   "school": "evocation",
+   "classes": [],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 1000
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 188,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Reality Break"
+  },
+  "book": "Explorer's Guide to Wildemount",
+  "data": {
+   "level": 8,
+   "school": "conjuration",
+   "classes": [],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 60
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 189,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Reweave Fate"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "level": 7,
+   "school": "divination",
+   "classes": [
+    "bard",
+    "cleric",
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "reaction"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 60
+   },
+   "components": {
+    "v": false,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "instant"
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 42,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Rime's Binding Ice"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "level": 2,
+   "school": "evocation",
+   "classes": [
+    "sorcerer",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "self",
+    "area": {
+     "shape": "cone",
+     "size": 30,
+     "unit": "feet"
+    }
+   },
+   "components": {
+    "v": false,
+    "s": true,
+    "m": true
+   },
+   "duration": {
+    "kind": "instant"
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 21,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Sapping Sting"
+  },
+  "book": "Explorer's Guide to Wildemount",
+  "data": {
+   "level": 0,
+   "school": "necromancy",
+   "classes": [],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 30
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "instant"
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 189,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Scatter"
+  },
+  "book": "Xanathar's Guide to Everything",
+  "data": {
+   "level": 6,
+   "school": "conjuration",
+   "classes": [
+    "sorcerer",
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 30
+   },
+   "components": {
+    "v": true,
+    "s": false,
+    "m": false
+   },
+   "duration": {
+    "kind": "instant"
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 164,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Shadow Blade"
+  },
+  "book": "Xanathar's Guide to Everything",
+  "data": {
+   "level": 2,
+   "school": "illusion",
+   "classes": [
+    "sorcerer",
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "bonus"
+   },
+   "range": {
+    "kind": "self"
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 164,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Shadow of Moil"
+  },
+  "book": "Xanathar's Guide to Everything",
+  "data": {
+   "level": 4,
+   "school": "necromancy",
+   "classes": [
+    "warlock"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "self"
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true,
+    "costGp": 150
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 164,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Shape Water"
+  },
+  "book": "Xanathar's Guide to Everything",
+  "data": {
+   "level": 0,
+   "school": "transmutation",
+   "classes": [
+    "druid",
+    "sorcerer",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 30
+   },
+   "components": {
+    "v": false,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "instant"
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 164,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Sickening Radiance"
+  },
+  "book": "Xanathar's Guide to Everything",
+  "data": {
+   "level": 4,
+   "school": "evocation",
+   "classes": [
+    "sorcerer",
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 120
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 10,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 164,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Silvery Barbs"
+  },
+  "book": "Strixhaven: A Curriculum of Chaos",
+  "data": {
+   "level": 1,
+   "school": "enchantment",
+   "classes": [
+    "bard",
+    "sorcerer",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "reaction"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 60
+   },
+   "components": {
+    "v": true,
+    "s": false,
+    "m": false
+   },
+   "duration": {
+    "kind": "instant"
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 38,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Simbul's Synostodweomer"
+  },
+  "book": "Forgotten Realms: Heroes of Faerûn",
+  "data": {
+   "level": 7,
+   "school": "transmutation",
+   "classes": [
+    "sorcerer",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "touch"
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "hour",
+    "concentration": false
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 145,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Skill Empowerment"
+  },
+  "book": "Xanathar's Guide to Everything",
+  "data": {
+   "level": 5,
+   "school": "transmutation",
+   "classes": [
+    "artificer",
+    "bard",
+    "sorcerer",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "touch"
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "hour",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 165,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Skywrite"
+  },
+  "book": "Xanathar's Guide to Everything",
+  "data": {
+   "level": 2,
+   "school": "transmutation",
+   "classes": [
+    "artificer",
+    "bard",
+    "druid",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "sight"
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "hour",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": true,
+   "page": 165,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Snare"
+  },
+  "book": "Xanathar's Guide to Everything",
+  "data": {
+   "level": 1,
+   "school": "abjuration",
+   "classes": [
+    "artificer",
+    "druid",
+    "ranger",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "minute"
+   },
+   "range": {
+    "kind": "touch"
+   },
+   "components": {
+    "v": false,
+    "s": true,
+    "m": true,
+    "consumed": true
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 8,
+    "unit": "hour",
+    "concentration": false
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 165,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Snilloc's Snowball Swarm"
+  },
+  "book": "Xanathar's Guide to Everything",
+  "data": {
+   "level": 2,
+   "school": "evocation",
+   "classes": [
+    "sorcerer",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 90
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true
+   },
+   "duration": {
+    "kind": "instant"
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 165,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Songal's Elemental Suffusion"
+  },
+  "book": "Forgotten Realms: Heroes of Faerûn",
+  "data": {
+   "level": 5,
+   "school": "transmutation",
+   "classes": [
+    "druid",
+    "sorcerer",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "self"
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true,
+    "costGp": 100
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 145,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Soul Cage"
+  },
+  "book": "Xanathar's Guide to Everything",
+  "data": {
+   "level": 6,
+   "school": "necromancy",
+   "classes": [
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "reaction"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 60
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true,
+    "costGp": 100
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 8,
+    "unit": "hour",
+    "concentration": false
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 165,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Spellfire Flare"
+  },
+  "book": "Forgotten Realms: Heroes of Faerûn",
+  "data": {
+   "level": 1,
+   "school": "evocation",
+   "classes": [
+    "sorcerer",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 60
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "instant"
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 146,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Spellfire Storm"
+  },
+  "book": "Forgotten Realms: Heroes of Faerûn",
+  "data": {
+   "level": 4,
+   "school": "evocation",
+   "classes": [
+    "sorcerer",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 60
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 146,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Spirit Lantern"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "level": 5,
+   "school": "necromancy",
+   "classes": [
+    "artificer",
+    "cleric",
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "self"
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 10,
+    "unit": "minute",
+    "concentration": false
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 43,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Spirit of Death"
+  },
+  "book": "The Book of Many Things",
+  "data": {
+   "level": 4,
+   "school": "necromancy",
+   "classes": [
+    "sorcerer",
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 60
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true,
+    "costGp": 400
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "hour",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 50,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Spirit Shroud"
+  },
+  "book": "Tasha's Cauldron of Everything",
+  "data": {
+   "level": 3,
+   "school": "necromancy",
+   "classes": [
+    "cleric",
+    "paladin",
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "bonus"
+   },
+   "range": {
+    "kind": "self"
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 108,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Spray of Cards"
+  },
+  "book": "The Book of Many Things",
+  "data": {
+   "level": 2,
+   "school": "conjuration",
+   "classes": [
+    "bard",
+    "sorcerer",
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "self",
+    "area": {
+     "shape": "cone",
+     "size": 15,
+     "unit": "feet"
+    }
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true
+   },
+   "duration": {
+    "kind": "instant"
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 50,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Staggering Smite",
+   "es": "Castigo abrumador"
+  },
+  "book": "Player's Handbook (2024)",
+  "data": {
+   "level": 4,
+   "school": "enchantment",
+   "classes": [
+    "paladin"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "bonus"
+   },
+   "range": {
+    "kind": "self"
+   },
+   "components": {
+    "v": true,
+    "s": false,
+    "m": false
+   },
+   "duration": {
+    "kind": "instant"
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 320,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Steel Wind Strike",
+   "es": "Golpe de viento acerado"
+  },
+  "book": "Player's Handbook (2024)",
+  "data": {
+   "level": 5,
+   "school": "conjuration",
+   "classes": [
+    "ranger",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 30
+   },
+   "components": {
+    "v": false,
+    "s": true,
+    "m": true,
+    "costGp": 0.1
+   },
+   "duration": {
+    "kind": "instant"
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 320,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Storm Sphere"
+  },
+  "book": "Xanathar's Guide to Everything",
+  "data": {
+   "level": 4,
+   "school": "evocation",
+   "classes": [
+    "sorcerer",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 150
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 166,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Summon Aberration",
+   "es": "Invocar aberración"
+  },
+  "book": "Player's Handbook (2024)",
+  "data": {
+   "level": 4,
+   "school": "conjuration",
+   "classes": [
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 90
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true,
+    "costGp": 400
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "hour",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 322,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Summon Beast",
+   "es": "Invocar bestia"
+  },
+  "book": "Player's Handbook (2024)",
+  "data": {
+   "level": 2,
+   "school": "conjuration",
+   "classes": [
+    "druid",
+    "ranger"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 90
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true,
+    "costGp": 200
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "hour",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 322,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Summon Celestial",
+   "es": "Invocar celestial"
+  },
+  "book": "Player's Handbook (2024)",
+  "data": {
+   "level": 5,
+   "school": "conjuration",
+   "classes": [
+    "cleric",
+    "paladin"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 90
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true,
+    "costGp": 500
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "hour",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 323,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Summon Construct",
+   "es": "Invocar autómata"
+  },
+  "book": "Player's Handbook (2024)",
+  "data": {
+   "level": 4,
+   "school": "conjuration",
+   "classes": [
+    "artificer",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 90
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true,
+    "costGp": 400
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "hour",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 324,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Summon Dinosaur"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "level": 6,
+   "school": "conjuration",
+   "classes": [
+    "druid"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 90
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true,
+    "costGp": 600
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "hour",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 43,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Summon Draconic Spirit"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "level": 5,
+   "school": "conjuration",
+   "classes": [
+    "druid",
+    "sorcerer",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 60
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true,
+    "costGp": 500
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "hour",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 21,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Summon Elemental",
+   "es": "Invocar elemental"
+  },
+  "book": "Player's Handbook (2024)",
+  "data": {
+   "level": 4,
+   "school": "conjuration",
+   "classes": [
+    "druid",
+    "ranger",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 90
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true,
+    "costGp": 400
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "hour",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 325,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Summon Fey",
+   "es": "Invocar feérico"
+  },
+  "book": "Player's Handbook (2024)",
+  "data": {
+   "level": 3,
+   "school": "conjuration",
+   "classes": [
+    "druid",
+    "ranger",
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 90
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true,
+    "costGp": 300
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "hour",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 326,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Summon Fiend",
+   "es": "Invocar infernal"
+  },
+  "book": "Player's Handbook (2024)",
+  "data": {
+   "level": 6,
+   "school": "conjuration",
+   "classes": [
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 90
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true,
+    "costGp": 600
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "hour",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 326,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Summon Greater Demon"
+  },
+  "book": "Xanathar's Guide to Everything",
+  "data": {
+   "level": 4,
+   "school": "conjuration",
+   "classes": [
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 60
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true,
+    "consumed": true
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "hour",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 166,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Summon Lesser Demons"
+  },
+  "book": "Xanathar's Guide to Everything",
+  "data": {
+   "level": 3,
+   "school": "conjuration",
+   "classes": [
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 60
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true,
+    "consumed": true
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "hour",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 167,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Summon Plant"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "level": 5,
+   "school": "conjuration",
+   "classes": [
+    "druid",
+    "ranger"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 90
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true,
+    "costGp": 500
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "hour",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 44,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Summon Shadowspawn"
+  },
+  "book": "Tasha's Cauldron of Everything",
+  "data": {
+   "level": 3,
+   "school": "conjuration",
+   "classes": [
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 90
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true,
+    "costGp": 300
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "hour",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 113,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Summon Undead",
+   "es": "Invocar muerto viviente"
+  },
+  "book": "Player's Handbook (2024)",
+  "data": {
+   "level": 3,
+   "school": "necromancy",
+   "classes": [
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 90
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true,
+    "costGp": 300
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "hour",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 328,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Swift Quiver",
+   "es": "Carcaj veloz"
+  },
+  "book": "Player's Handbook (2024)",
+  "data": {
+   "level": 5,
+   "school": "transmutation",
+   "classes": [
+    "ranger"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "bonus"
+   },
+   "range": {
+    "kind": "self"
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true,
+    "costGp": 1
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 329,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Sword Burst"
+  },
+  "book": "Tasha's Cauldron of Everything",
+  "data": {
+   "level": 0,
+   "school": "conjuration",
+   "classes": [
+    "artificer",
+    "sorcerer",
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "self",
+    "area": {
+     "shape": "radius",
+     "size": 5,
+     "unit": "feet"
+    }
+   },
+   "components": {
+    "v": true,
+    "s": false,
+    "m": false
+   },
+   "duration": {
+    "kind": "instant"
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 115,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Syluné's Viper"
+  },
+  "book": "Forgotten Realms: Heroes of Faerûn",
+  "data": {
+   "level": 3,
+   "school": "conjuration",
+   "classes": [
+    "druid",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "bonus"
+   },
+   "range": {
+    "kind": "self"
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "hour",
+    "concentration": false
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 147,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Synaptic Static",
+   "es": "Estática sináptica"
+  },
+  "book": "Player's Handbook (2024)",
+  "data": {
+   "level": 5,
+   "school": "enchantment",
+   "classes": [
+    "bard",
+    "sorcerer",
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 120
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "instant"
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 330,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Tasha's Bubbling Cauldron",
+   "es": "Caldero burbujeante de Tasha"
+  },
+  "book": "Player's Handbook (2024)",
+  "data": {
+   "level": 6,
+   "school": "conjuration",
+   "classes": [
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 5
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 10,
+    "unit": "minute",
+    "concentration": false
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 330,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Tasha's Caustic Brew"
+  },
+  "book": "Tasha's Cauldron of Everything",
+  "data": {
+   "level": 1,
+   "school": "evocation",
+   "classes": [
+    "artificer",
+    "sorcerer",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "self",
+    "area": {
+     "shape": "line",
+     "size": 30,
+     "unit": "feet"
+    }
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 115,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Tasha's Mind Whip"
+  },
+  "book": "Tasha's Cauldron of Everything",
+  "data": {
+   "level": 2,
+   "school": "enchantment",
+   "classes": [
+    "sorcerer",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 90
+   },
+   "components": {
+    "v": true,
+    "s": false,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "round",
+    "concentration": false
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 115,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Tasha's Otherworldly Guise"
+  },
+  "book": "Tasha's Cauldron of Everything",
+  "data": {
+   "level": 6,
+   "school": "transmutation",
+   "classes": [
+    "sorcerer",
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "bonus"
+   },
+   "range": {
+    "kind": "self"
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true,
+    "costGp": 500
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 116,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Telepathy",
+   "es": "Telepatía"
+  },
+  "book": "Player's Handbook (2024)",
+  "data": {
+   "level": 8,
+   "school": "divination",
+   "classes": [
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "unlimited"
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 24,
+    "unit": "hour",
+    "concentration": false
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 331,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Temple of the Gods"
+  },
+  "book": "Xanathar's Guide to Everything",
+  "data": {
+   "level": 7,
+   "school": "conjuration",
+   "classes": [
+    "cleric"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "hour"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 120
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true,
+    "costGp": 5
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 24,
+    "unit": "hour",
+    "concentration": false
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 167,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Temporal Shunt"
+  },
+  "book": "Explorer's Guide to Wildemount",
+  "data": {
+   "level": 5,
+   "school": "transmutation",
+   "classes": [],
+   "castingTime": {
+    "n": 1,
+    "unit": "reaction"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 120
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "round",
+    "concentration": false
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 189,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Tenser's Transformation"
+  },
+  "book": "Xanathar's Guide to Everything",
+  "data": {
+   "level": 6,
+   "school": "transmutation",
+   "classes": [
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "self"
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 10,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 168,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Tether Essence"
+  },
+  "book": "Explorer's Guide to Wildemount",
+  "data": {
+   "level": 7,
+   "school": "necromancy",
+   "classes": [],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 60
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true,
+    "costGp": 250,
+    "consumed": true
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "hour",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 189,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Thorn Whip",
+   "es": "Látigo de espinas"
+  },
+  "book": "Player's Handbook (2024)",
+  "data": {
+   "level": 0,
+   "school": "transmutation",
+   "classes": [
+    "artificer",
+    "druid"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 30
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true
+   },
+   "duration": {
+    "kind": "instant"
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 333,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Thunder Step"
+  },
+  "book": "Xanathar's Guide to Everything",
+  "data": {
+   "level": 3,
+   "school": "conjuration",
+   "classes": [
+    "sorcerer",
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 90
+   },
+   "components": {
+    "v": true,
+    "s": false,
+    "m": false
+   },
+   "duration": {
+    "kind": "instant"
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 168,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Thunderclap",
+   "es": "Tronar"
+  },
+  "book": "Player's Handbook (2024)",
+  "data": {
+   "level": 0,
+   "school": "evocation",
+   "classes": [
+    "artificer",
+    "bard",
+    "druid",
+    "sorcerer",
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "self",
+    "area": {
+     "shape": "emanation",
+     "size": 5,
+     "unit": "feet"
+    }
+   },
+   "components": {
+    "v": false,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "instant"
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 333,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Thunderous Smite",
+   "es": "Castigo atronador"
+  },
+  "book": "Player's Handbook (2024)",
+  "data": {
+   "level": 1,
+   "school": "evocation",
+   "classes": [
+    "paladin"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "bonus"
+   },
+   "range": {
+    "kind": "self"
+   },
+   "components": {
+    "v": true,
+    "s": false,
+    "m": false
+   },
+   "duration": {
+    "kind": "instant"
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 334,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Tidal Wave"
+  },
+  "book": "Xanathar's Guide to Everything",
+  "data": {
+   "level": 3,
+   "school": "conjuration",
+   "classes": [
+    "druid",
+    "sorcerer",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 120
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true
+   },
+   "duration": {
+    "kind": "instant"
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 168,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Time Ravage"
+  },
+  "book": "Explorer's Guide to Wildemount",
+  "data": {
+   "level": 9,
+   "school": "necromancy",
+   "classes": [],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 90
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true,
+    "costGp": 5000,
+    "consumed": true
+   },
+   "duration": {
+    "kind": "instant"
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 189,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Tiny Servant"
+  },
+  "book": "Xanathar's Guide to Everything",
+  "data": {
+   "level": 3,
+   "school": "transmutation",
+   "classes": [
+    "artificer",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "minute"
+   },
+   "range": {
+    "kind": "touch"
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 8,
+    "unit": "hour",
+    "concentration": false
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 168,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Toll the Dead",
+   "es": "Tañido por los muertos"
+  },
+  "book": "Player's Handbook (2024)",
+  "data": {
+   "level": 0,
+   "school": "necromancy",
+   "classes": [
+    "cleric",
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 60
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "instant"
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 334,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Transfix"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "level": 7,
+   "school": "enchantment",
+   "classes": [
+    "bard",
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "self"
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 44,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Transmute Rock"
+  },
+  "book": "Xanathar's Guide to Everything",
+  "data": {
+   "level": 5,
+   "school": "transmutation",
+   "classes": [
+    "artificer",
+    "druid",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 120
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true
+   },
+   "duration": {
+    "kind": "permanent"
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 169,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Uncertain Footing"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "level": 2,
+   "school": "illusion",
+   "classes": [
+    "artificer",
+    "bard",
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 120
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 44,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Vision of Elapsing Eons"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "level": 9,
+   "school": "illusion",
+   "classes": [
+    "bard",
+    "sorcerer",
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 120
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "minute",
+    "concentration": false
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 45,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Vortex Warp"
+  },
+  "book": "Strixhaven: A Curriculum of Chaos",
+  "data": {
+   "level": 2,
+   "school": "conjuration",
+   "classes": [
+    "artificer",
+    "sorcerer",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 90
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "instant"
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 38,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Wail of the Banshee"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "level": 9,
+   "school": "necromancy",
+   "classes": [
+    "sorcerer",
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 60
+   },
+   "components": {
+    "v": true,
+    "s": false,
+    "m": false
+   },
+   "duration": {
+    "kind": "instant"
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 45,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Wall of Light"
+  },
+  "book": "Xanathar's Guide to Everything",
+  "data": {
+   "level": 5,
+   "school": "evocation",
+   "classes": [
+    "sorcerer",
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 120
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 10,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 170,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Wall of Sand"
+  },
+  "book": "Xanathar's Guide to Everything",
+  "data": {
+   "level": 3,
+   "school": "evocation",
+   "classes": [
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 90
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 10,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 170,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Wall of Water"
+  },
+  "book": "Xanathar's Guide to Everything",
+  "data": {
+   "level": 3,
+   "school": "evocation",
+   "classes": [
+    "druid",
+    "sorcerer",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 60
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 10,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 170,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Wardaway"
+  },
+  "book": "Forgotten Realms: Heroes of Faerûn",
+  "data": {
+   "level": 1,
+   "school": "abjuration",
+   "classes": [
+    "bard",
+    "cleric",
+    "paladin",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 60
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true
+   },
+   "duration": {
+    "kind": "instant"
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 147,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Warding Wind"
+  },
+  "book": "Xanathar's Guide to Everything",
+  "data": {
+   "level": 2,
+   "school": "evocation",
+   "classes": [
+    "bard",
+    "druid",
+    "sorcerer",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "self"
+   },
+   "components": {
+    "v": true,
+    "s": false,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 10,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 170,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Warp Sense"
+  },
+  "book": "Sigil and the Outlands",
+  "data": {
+   "level": 2,
+   "school": "divination",
+   "classes": [
+    "sorcerer",
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "self"
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 12,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Watery Sphere"
+  },
+  "book": "Xanathar's Guide to Everything",
+  "data": {
+   "level": 4,
+   "school": "conjuration",
+   "classes": [
+    "druid",
+    "sorcerer",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 90
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 170,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Waves of Exhaustion"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "level": 5,
+   "school": "necromancy",
+   "classes": [
+    "sorcerer",
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "bonus"
+   },
+   "range": {
+    "kind": "self",
+    "area": {
+     "shape": "cone",
+     "size": 60,
+     "unit": "feet"
+    }
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 45,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Whirlwind"
+  },
+  "book": "Xanathar's Guide to Everything",
+  "data": {
+   "level": 7,
+   "school": "evocation",
+   "classes": [
+    "druid",
+    "sorcerer",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 300
+   },
+   "components": {
+    "v": true,
+    "s": false,
+    "m": true
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 171,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Witch Bolt",
+   "es": "Rayo de hechicería"
+  },
+  "book": "Player's Handbook (2024)",
+  "data": {
+   "level": 1,
+   "school": "evocation",
+   "classes": [
+    "sorcerer",
+    "warlock",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 60
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 343,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Wither and Bloom"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "level": 2,
+   "school": "necromancy",
+   "classes": [
+    "druid",
+    "sorcerer",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 60
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true
+   },
+   "duration": {
+    "kind": "instant"
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 45,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Word of Radiance",
+   "es": "Palabra de resplandor"
+  },
+  "book": "Player's Handbook (2024)",
+  "data": {
+   "level": 0,
+   "school": "evocation",
+   "classes": [
+    "cleric"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "self",
+    "area": {
+     "shape": "emanation",
+     "size": 5,
+     "unit": "feet"
+    }
+   },
+   "components": {
+    "v": true,
+    "s": false,
+    "m": true
+   },
+   "duration": {
+    "kind": "instant"
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 343,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Wrath of Nature"
+  },
+  "book": "Xanathar's Guide to Everything",
+  "data": {
+   "level": 5,
+   "school": "evocation",
+   "classes": [
+    "druid",
+    "ranger"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "feet",
+    "amount": 120
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 171,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Wrathful Smite",
+   "es": "Castigo furioso"
+  },
+  "book": "Player's Handbook (2024)",
+  "data": {
+   "level": 1,
+   "school": "necromancy",
+   "classes": [
+    "paladin"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "bonus"
+   },
+   "range": {
+    "kind": "self"
+   },
+   "components": {
+    "v": true,
+    "s": false,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "minute",
+    "concentration": false
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 343,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Wristpocket"
+  },
+  "book": "Explorer's Guide to Wildemount",
+  "data": {
+   "level": 2,
+   "school": "conjuration",
+   "classes": [],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "self"
+   },
+   "components": {
+    "v": false,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "hour",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": true,
+   "page": 190,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Yolande's Regal Presence",
+   "es": "Presencia regia de Yolande"
+  },
+  "book": "Player's Handbook (2024)",
+  "data": {
+   "level": 5,
+   "school": "enchantment",
+   "classes": [
+    "bard",
+    "wizard"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "self",
+    "area": {
+     "shape": "emanation",
+     "size": 10,
+     "unit": "feet"
+    }
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": true
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 343,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Zephyr Strike"
+  },
+  "book": "Xanathar's Guide to Everything",
+  "data": {
+   "level": 1,
+   "school": "transmutation",
+   "classes": [
+    "ranger"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "bonus"
+   },
+   "range": {
+    "kind": "self"
+   },
+   "components": {
+    "v": true,
+    "s": false,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 1,
+    "unit": "minute",
+    "concentration": true
+   },
+   "concentration": true,
+   "ritual": false,
+   "page": 171,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "spell",
+  "name": {
+   "en": "Zone of Amicability"
+  },
+  "book": "Arcana Unleashed",
+  "data": {
+   "level": 4,
+   "school": "enchantment",
+   "classes": [
+    "bard",
+    "warlock"
+   ],
+   "castingTime": {
+    "n": 1,
+    "unit": "action"
+   },
+   "range": {
+    "kind": "self",
+    "area": {
+     "shape": "emanation",
+     "size": 60,
+     "unit": "feet"
+    }
+   },
+   "components": {
+    "v": true,
+    "s": true,
+    "m": false
+   },
+   "duration": {
+    "kind": "timed",
+    "amount": 10,
+    "unit": "minute",
+    "concentration": false
+   },
+   "concentration": false,
+   "ritual": false,
+   "page": 45,
+   "era": "2024"
+  }
+ }
+]
