@@ -23,8 +23,11 @@ test('copies an SRD monster into an editable enemy', () => {
   const scimitar = e.actions.find((a) => a.name === 'Scimitar')!;
   expect(scimitar).toMatchObject({ kind: 'action', attackBonus: 4, damage: '1d6+2', damageType: 'slashing' });
   expect(scimitar.text).toContain('Melee Attack Roll');
-  expect(e.actions.find((a) => a.name === 'Nimble Escape')?.kind).toBe('bonus');
+  // Translated features come from the SRD 5.2 Spanish translation; the rest keep their English text.
+  expect(e.actions.find((a) => a.name === 'Huida escurridiza')).toMatchObject({ kind: 'bonus', text: expect.stringContaining('Destrabarse') });
   expect(enemyInitBonus(e)).toBe(2);
+  const en = enemyFromMonster(getEntry('monster:goblin-warrior')!, 'en');
+  expect(en.actions.find((a) => a.name === 'Nimble Escape')?.text).toContain('Disengage');
 });
 
 test('monster saves, resistances, condition immunities, save DCs and other speeds are kept', () => {

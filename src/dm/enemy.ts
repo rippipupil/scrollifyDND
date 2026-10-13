@@ -60,8 +60,10 @@ const KIND_FROM_SRD: [string, EnemyActionKind][] = [
   ['legendary_actions', 'legendary'],
 ];
 
-function srdAction(a: any, kind: EnemyActionKind): EnemyAction {
-  const out: EnemyAction = { uid: uid('act'), kind, name: String(a.name ?? ''), text: String(a.desc ?? '') };
+function srdAction(a: any, kind: EnemyActionKind, lang: Lang): EnemyAction {
+  // The bestiary shows plain text: the translation's _italic_ labels lose their underscores.
+  const text = lang === 'es' && a.es?.desc ? String(a.es.desc).replace(/_([^_\n]+)_/g, '$1') : String(a.desc ?? '');
+  const out: EnemyAction = { uid: uid('act'), kind, name: String((lang === 'es' && a.es?.name) || a.name || ''), text };
   if (typeof a.attack_bonus === 'number') out.attackBonus = a.attack_bonus;
   const dmg = Array.isArray(a.damage) ? a.damage.find((d: any) => d?.damage_dice) : undefined;
   if (dmg) {
@@ -148,7 +150,7 @@ export function enemyFromMonster(entry: ContentEntry, lang: Lang): Enemy {
     senses,
     passivePerception: d.senses?.passive_perception ?? 10 + abilityMod(abilities.wis),
     languages: d.languages ?? '',
-    actions: KIND_FROM_SRD.flatMap(([key, kind]) => (d[key] ?? []).map((a: any) => srdAction(a, kind))),
+    actions: KIND_FROM_SRD.flatMap(([key, kind]) => (d[key] ?? []).map((a: any) => srdAction(a, kind, lang))),
     source: `monster:${entry.id}`,
   });
 }

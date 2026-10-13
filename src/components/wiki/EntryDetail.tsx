@@ -160,7 +160,7 @@ function list(v: any): string {
 }
 
 function MonsterBlock({ e }: { e: ContentEntry }) {
-  const { t } = useT();
+  const { t, lang } = useT();
   const c = useTheme();
   const d = e.data;
   const abil = ['strength', 'dexterity', 'constitution', 'intelligence', 'wisdom', 'charisma'];
@@ -169,7 +169,7 @@ function MonsterBlock({ e }: { e: ContentEntry }) {
     items?.length ? (
       <Card title={title}>
         {items.map((a, i) => (
-          <Markdown key={i} text={`**${a.name}${a.usage ? ` (${a.usage.type === 'per day' ? `${a.usage.times}/día` : a.usage.type}${a.usage.dice ? ` ${a.usage.dice}` : ''})` : ''}.** ${a.desc ?? ''}`} />
+          <Markdown key={i} text={`**${(lang === 'es' && a.es?.name) || a.name}${a.usage ? ` (${a.usage.type === 'per day' ? `${a.usage.times}/día` : a.usage.type}${a.usage.dice ? ` ${a.usage.dice}` : ''})` : ''}.** ${(lang === 'es' && a.es?.desc) || a.desc || ''}`} />
         ))}
       </Card>
     ) : null;

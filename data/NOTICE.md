@@ -19,6 +19,10 @@ https://creativecommons.org/licenses/by/4.0/legalcode.
 - Official Spanish spell names for the SRD 5.2 (`data/i18n/es/spells/99-official-names.json`) come from
   [foundryvtt-sinregistrar/translate-dnd5e-sdr2-es](https://github.com/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es) (CC BY 4.0)
   and [foundryvtt-sinregistrar/translate-dnd5e-phb-2024-es](https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phb-2024-es) (MIT).
+- Spanish monster feature texts (`data/i18n/es/monster-texts.json`) are adapted from the same SRD 5.2 translation
+  (CC BY 4.0): Foundry markup is filled in with the numbers of the English SRD text, distances converted to metres and
+  some terms aligned with the 2024 Spanish books. Plain weapon attacks are rebuilt from their numbers. Features that
+  couldn't be resolved keep their English text. Regenerate with `scripts/oneoff/gen_monster_es.py`.
 - The index of spells outside the SRD (`data/external/spells-official.json`) holds facts only — name, level, school,
   casting time, range, component flags, duration, classes, book and page — taken from the
   [5etools](https://github.com/5etools-mirror-3/5etools-src) data. No rules text is included; the app links to

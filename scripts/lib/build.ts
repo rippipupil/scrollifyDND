@@ -437,9 +437,23 @@ export function buildSimple(src: string, file: string, category: string, es: EsM
   );
 }
 
-export function buildMonsters(src: string, es: EsMap): Entry[] {
+const MONSTER_GROUPS = ['special_abilities', 'actions', 'bonus_actions', 'reactions', 'legendary_actions'];
+
+/**
+ * Monsters, with the Spanish name and text of each trait or action attached as `es` when the translation
+ * (`monster-texts.json`, keyed "group:English name") has them.
+ */
+export function buildMonsters(src: string, es: EsMap, texts: Record<string, Record<string, { name: string; desc?: string }>> = {}): Entry[] {
   return readJson(src, '5e-SRD-Monsters.json').map((m) => {
     const { url, image, index, name, ...rest } = m;
+    const tr = texts[index] ?? {};
+    for (const g of MONSTER_GROUPS) {
+      if (!Array.isArray(rest[g])) continue;
+      rest[g] = rest[g].map((f: any) => {
+        const t = tr[`${g}:${f.name}`];
+        return t ? { ...f, es: t.desc ? { name: t.name, desc: t.desc } : { name: t.name } } : f;
+      });
+    }
     return withEs({ id: index, category: 'monster', name: loc(name), source: 'srd', data: rest }, es);
   });
 }
@@ -589,7 +603,7 @@ export function buildAll(p: BuildPaths): Record<string, Entry[]> {
     masteries: buildSimple(p.srd, '5e-SRD-Weapon-Mastery-Properties.json', 'mastery', es('masteries.json')),
     'weapon-properties': buildSimple(p.srd, '5e-SRD-Weapon-Properties.json', 'weapon-property', es('weapon-properties.json')),
     rules: buildRules(path.join(p.md, 'rules-glossary.md'), es('rules.json')),
-    monsters: buildMonsters(p.srd, es('monsters.json')),
+    monsters: buildMonsters(p.srd, es('monsters.json'), fs.existsSync(path.join(p.i18n, 'monster-texts.json')) ? JSON.parse(fs.readFileSync(path.join(p.i18n, 'monster-texts.json'), 'utf8')) : {}),
     external: buildExternal(p.external, externalEs),
   };
   out.spells = out.spells.map((e) => {
