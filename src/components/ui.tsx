@@ -73,13 +73,14 @@ export function Button({ label, onPress, kind = 'primary', small, disabled, styl
   );
 }
 
-export function Chip({ label, active, onPress, style }: { label: string; active?: boolean; onPress?: () => void; style?: StyleProp<ViewStyle> }) {
+export function Chip({ label, active, onPress, style, testID }: { label: string; active?: boolean; onPress?: () => void; style?: StyleProp<ViewStyle>; testID?: string }) {
   const c = useTheme();
   return (
     <Pressable
       accessibilityRole="button"
       accessibilityState={{ selected: !!active }}
       onPress={onPress}
+      testID={testID}
       style={[{ paddingHorizontal: 10, paddingVertical: 5, borderRadius: 999, backgroundColor: active ? c.accent : c.chip, borderWidth: 1, borderColor: active ? c.accent : c.border }, style]}
     >
       <Text style={{ color: active ? c.accentText : c.text, fontSize: 13 }}>{label}</Text>

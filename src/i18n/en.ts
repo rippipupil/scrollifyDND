@@ -104,7 +104,7 @@ export const en: Dict = {
     resistances: 'Resistances', vulnerabilities: 'Vulnerabilities', conditionImmunities: 'Condition immunities', homebrew: 'Homebrew',
     source: 'Source', openIn: 'Open in {site}', searchIn: 'Search {site}', page: 'p. {n}', type: 'Type', mastery: 'Mastery', damage: 'Damage', properties: 'Properties', armorClass: 'AC',
     strength: 'Min. Strength', stealth: 'Stealth', stealthDis: 'Disadvantage', subclasses: 'Subclasses',
-    eraAll: 'All editions', era2024: '5.5 (2024)', era2014: '5e (2014, legacy)', edition: 'Edition', or: 'or', darkvision: 'Darkvision',
+    favorites: '★ Favorites', noFavorites: 'No favourites yet: tap ☆ on any entry.', eraAll: 'All editions', era2024: '5.5 (2024)', era2014: '5e (2014, legacy)', edition: 'Edition', or: 'or', darkvision: 'Darkvision',
     racialFeat: 'Racial feat (2014)',
     myNotes: 'My notes', notesHint: 'Write or paste anything here (kept on this device only).',
     rulesCard: 'Rules card (our summary, unofficial)', rulesCardNote: 'Mechanics summary written for Scrollify. Official text: {book} · links below.',
@@ -167,6 +167,10 @@ export const en: Dict = {
     linkHint: "Write [[Name]] to link another page; if it doesn't exist, tapping the link creates it.", links: 'Links', mentionedIn: 'Mentioned in',
   },
   screen: { title: 'Screen', source: 'Summary of the SRD 5.2.1 rules (CC BY 4.0).' },
+  search: {
+    title: 'Search everything', placeholder: 'Characters, enemies, journal, notes, wiki…', hint: 'Searches your characters, your enemies, the campaign journal, your wiki notes and the wiki at once.',
+    none: 'Nothing found.', kinds: { character: 'Characters', enemy: 'My enemies', journal: 'Journal', note: 'My notes', content: 'Wiki' },
+  },
   attack: {
     full: 'Full attack', target: 'Target', targetAc: 'Target AC (optional)', normal: 'Normal', hit: 'Hit!', miss: 'Miss',
     crit: 'Critical hit!', fumble: 'Natural 1: miss', noAc: 'No AC: the DM decides', critDice: 'dice doubled for the crit',

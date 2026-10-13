@@ -1,6 +1,6 @@
 import { MaterialCommunityIcons } from '@expo/vector-icons';
-import { Tabs } from 'expo-router';
-import type { ColorValue } from 'react-native';
+import { router, Tabs } from 'expo-router';
+import { Pressable, type ColorValue } from 'react-native';
 import { useT } from '../../i18n/useT';
 import { useTheme } from '../../theme';
 
@@ -20,6 +20,11 @@ export default function TabsLayout() {
         tabBarActiveTintColor: c.accent,
         tabBarInactiveTintColor: c.textMuted,
         sceneStyle: { backgroundColor: c.bg },
+        headerRight: () => (
+          <Pressable onPress={() => router.push('/search')} hitSlop={10} style={{ paddingHorizontal: 14 }} accessibilityLabel={t('search.title')} testID="open-search">
+            <MaterialCommunityIcons name="magnify" size={24} color={c.text} />
+          </Pressable>
+        ),
       }}
     >
       <Tabs.Screen name="index" options={{ title: t('tabs.characters'), tabBarIcon: icon('account-group') }} />

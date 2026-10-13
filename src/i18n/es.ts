@@ -104,7 +104,7 @@ export const es: Dict = {
     resistances: 'Resistencias', vulnerabilities: 'Vulnerabilidades', conditionImmunities: 'Inmunidad a estados', homebrew: 'Homebrew',
     source: 'Fuente', openIn: 'Abrir en {site}', searchIn: 'Buscar en {site}', page: 'pág. {n}', type: 'Tipo', mastery: 'Maestría', damage: 'Daño', properties: 'Propiedades', armorClass: 'CA',
     strength: 'Fuerza mín.', stealth: 'Sigilo', stealthDis: 'Desventaja', subclasses: 'Subclases',
-    eraAll: 'Todas las ediciones', era2024: '5.5 (2024)', era2014: '5e (2014, legado)', edition: 'Edición', or: 'o', darkvision: 'Visión en la oscuridad',
+    favorites: '★ Favoritos', noFavorites: 'Aún no tienes favoritos: pulsa ☆ en cualquier entrada.', eraAll: 'Todas las ediciones', era2024: '5.5 (2024)', era2014: '5e (2014, legado)', edition: 'Edición', or: 'o', darkvision: 'Visión en la oscuridad',
     racialFeat: 'Dote racial (2014)',
     myNotes: 'Mis notas', notesHint: 'Escribe o pega aquí lo que quieras (se guarda solo en este móvil).',
     rulesCard: 'Ficha de reglas (resumen propio, no oficial)', rulesCardNote: 'Resumen de las mecánicas escrito para Scrollify. Texto oficial: {book} · enlaces de abajo.',
@@ -167,6 +167,10 @@ export const es: Dict = {
     linkHint: 'Escribe [[Nombre]] para enlazar otra entrada; si no existe, se crea al tocar el enlace.', links: 'Enlaces', mentionedIn: 'Mencionado en',
   },
   screen: { title: 'Pantalla', source: 'Resumen de las reglas del SRD 5.2.1 (CC BY 4.0).' },
+  search: {
+    title: 'Buscar en todo', placeholder: 'Personajes, enemigos, diario, notas, wiki…', hint: 'Busca a la vez en tus personajes, tus enemigos, el diario de campaña, tus notas de la wiki y la wiki.',
+    none: 'Nada encontrado.', kinds: { character: 'Personajes', enemy: 'Mis enemigos', journal: 'Diario', note: 'Mis notas', content: 'Wiki' },
+  },
   attack: {
     full: 'Ataque completo', target: 'Objetivo', targetAc: 'CA del objetivo (opcional)', normal: 'Normal', hit: '¡Impacta!', miss: 'Falla',
     crit: '¡Crítico! Impacta', fumble: '1 natural: falla', noAc: 'Sin CA: decide el DM', critDice: 'dados dobles por crítico',

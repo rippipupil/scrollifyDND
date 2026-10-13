@@ -3,10 +3,11 @@ import { useMemo, useState } from 'react';
 import { FlatList, ScrollView, View } from 'react-native';
 import { Chip, Field, Row, Txt } from '../../components/ui';
 import { EntryRow } from '../../components/wiki/EntryRow';
-import { keyOf, searchContent } from '../../content';
+import { getEntry, keyOf, searchContent } from '../../content';
 import type { Category } from '../../content/types';
 import { useT } from '../../i18n/useT';
 import { useHomebrew } from '../../store/homebrew';
+import { useWikiUser } from '../../store/wiki';
 import { useTheme } from '../../theme';
 import type { SearchFilters } from '../../wiki/search';
 
@@ -23,9 +24,16 @@ export default function WikiScreen() {
   const [category, setCategory] = useState<Category | undefined>();
   const [spell, setSpell] = useState<Omit<SearchFilters, 'category'>>({});
   const [era, setEra] = useState<SearchFilters['era']>();
+  const [onlyFavorites, setOnlyFavorites] = useState(false);
+  const favorites = useWikiUser((s) => s.favorites);
 
   const filters: SearchFilters = useMemo(() => ({ ...(category === 'spell' ? { category, ...spell } : category ? { category } : {}), ...(era ? { era } : {}) }), [category, spell, era]);
-  const results = useMemo(() => searchContent(query, filters, lang, homebrew, 400), [query, filters, lang, homebrew]);
+  const results = useMemo(() => {
+    if (!onlyFavorites) return searchContent(query, filters, lang, homebrew, 400);
+    // Favourites keep the order they were starred in (newest first); the search box and filters still narrow them.
+    const matching = new Set(searchContent(query, filters, lang, homebrew).map(keyOf));
+    return favorites.map((k) => getEntry(k, homebrew)).filter((e): e is NonNullable<typeof e> => !!e && matching.has(keyOf(e)));
+  }, [query, filters, lang, homebrew, onlyFavorites, favorites]);
   const toggle = <K extends keyof typeof spell>(k: K, v: (typeof spell)[K]) => setSpell((s) => ({ ...s, [k]: s[k] === v ? undefined : v }));
 
   return (
@@ -33,6 +41,7 @@ export default function WikiScreen() {
       <View style={{ padding: 10, gap: 8, backgroundColor: c.bg }}>
         <Field placeholder={t('wiki.searchPlaceholder')} value={query} onChangeText={setQuery} autoCorrect={false} clearButtonMode="while-editing" testID="wiki-search" />
         <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{ gap: 6 }}>
+          <Chip label={t('wiki.favorites')} active={onlyFavorites} onPress={() => setOnlyFavorites(!onlyFavorites)} testID="wiki-favorites" />
           <Chip label={t('wiki.all')} active={!category} onPress={() => setCategory(undefined)} />
           {CATEGORIES.map((cat) => (
             <Chip key={cat} label={t(`categories.${cat}`)} active={category === cat} onPress={() => setCategory(category === cat ? undefined : cat)} />
@@ -66,7 +75,7 @@ export default function WikiScreen() {
         ) : null}
         <Row>
           <Txt variant="small" muted>
-            {t('wiki.results', { n: results.length })}
+            {onlyFavorites && !favorites.length ? t('wiki.noFavorites') : t('wiki.results', { n: results.length })}
           </Txt>
         </Row>
       </View>
