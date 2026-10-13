@@ -4,6 +4,7 @@ import { Linking, Platform, View } from 'react-native';
 import { abilityMod, formatMod } from '../../rules/core';
 import { getEntry, keyOf } from '../../content';
 import type { ContentEntry } from '../../content/types';
+import { crLabel, creatureType, xpForCr } from '../../dm/enemy';
 import { isFallback } from '../../i18n';
 import { spellFacts } from '../../wiki/spellFacts';
 import { useT } from '../../i18n/useT';
@@ -64,7 +65,7 @@ function ExternalSpellMeta({ e }: { e: ContentEntry }) {
 
 /** Facts of an indexed (non-SRD) entry that isn't a spell: edition, book and page, plus what the index knows. */
 function ExternalMeta({ e }: { e: ContentEntry }) {
-  const { t } = useT();
+  const { t, lang } = useT();
   const d = e.data ?? {};
   const ft = (n: number) => t('sheet.speedValue', { ft: n, m: String(Math.round(n * 3) / 10).replace('.', ',') });
   return (
@@ -79,6 +80,15 @@ function ExternalMeta({ e }: { e: ContentEntry }) {
           <Meta label={t('sheet.size')} value={d.size ? String(d.size).split(' or ').map((s: string) => t(`sizes.${s}`)).join(` ${t('wiki.or')} `) : undefined} />
           <Meta label={t('wiki.speed')} value={d.speed ? ft(d.speed) : undefined} />
           <Meta label={t('wiki.darkvision')} value={d.darkvision ? ft(d.darkvision) : undefined} />
+        </>
+      ) : null}
+      {e.category === 'monster' ? (
+        <>
+          <Meta label={t('sheet.size')} value={d.size ? String(d.size).split(' or ').map((s: string) => t(`sizes.${s}`)).join(` ${t('wiki.or')} `) : undefined} />
+          <Meta label={t('wiki.type')} value={creatureType(d.type, lang)} />
+          <Meta label={t('wiki.cr')} value={d.challenge_rating != null ? `${crLabel(d.challenge_rating)} (${xpForCr(d.challenge_rating)} XP)` : undefined} />
+          <Meta label={t('wiki.ac')} value={d.ac} />
+          <Meta label={t('wiki.hp')} value={d.hp} />
         </>
       ) : null}
       {e.category === 'class' ? (
@@ -177,7 +187,7 @@ function MonsterBlock({ e }: { e: ContentEntry }) {
     <>
       <Card>
         <Txt muted style={{ fontStyle: 'italic' }}>
-          {[t(`sizes.${d.size}`), d.type, d.alignment].filter(Boolean).join(', ')}
+          {[t(`sizes.${d.size}`), creatureType(d.type, lang), d.alignment].filter(Boolean).join(', ')}
         </Txt>
         <Meta label={t('wiki.ac')} value={list(d.armor_class?.map((a: any) => a.value))} />
         <Meta label={t('wiki.hp')} value={`${d.hit_points}${d.hit_dice ? ` (${d.hit_dice})` : ''}`} />
@@ -271,7 +281,7 @@ export function EntryDetail({ entry, onAdd }: { entry: ContentEntry; onAdd?: () 
           <Meta label={t('wiki.attunement')} value={d.attunement ? t('common.yes') : undefined} />
         </Card>
       ) : null}
-      {entry.category === 'monster' ? <MonsterBlock e={entry} /> : null}
+      {entry.category === 'monster' && entry.source !== 'external' ? <MonsterBlock e={entry} /> : null}
       {entry.text ? (
         <Card>
           <Markdown text={loc(entry.text)} />

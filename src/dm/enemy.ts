@@ -45,6 +45,14 @@ export function enemySave(e: Enemy, a: Ability): number {
   return e.saves[a] ?? abilityMod(e.abilities[a]);
 }
 
+/** Experience points by challenge rating (same table in 2014 and 2024). */
+const XP_BY_CR: Record<string, number> = {
+  0: 10, 0.125: 25, 0.25: 50, 0.5: 100, 1: 200, 2: 450, 3: 700, 4: 1100, 5: 1800, 6: 2300, 7: 2900, 8: 3900, 9: 5000, 10: 5900,
+  11: 7200, 12: 8400, 13: 10000, 14: 11500, 15: 13000, 16: 15000, 17: 18000, 18: 20000, 19: 22000, 20: 25000, 21: 33000, 22: 41000,
+  23: 50000, 24: 62000, 25: 75000, 26: 90000, 27: 105000, 28: 120000, 29: 135000, 30: 155000,
+};
+export const xpForCr = (cr: number): number => XP_BY_CR[cr] ?? 0;
+
 export function crLabel(cr: number): string {
   if (cr === 0.125) return '1/8';
   if (cr === 0.25) return '1/4';
@@ -83,6 +91,11 @@ const ES_TYPES: Record<string, string> = {
   plant: 'planta', undead: 'muerto viviente', 'swarm of tiny beasts': 'enjambre de bestias diminutas',
   'swarm of tiny undead': 'enjambre de muertos vivientes diminutos',
 };
+/** Creature type in the reader's language ('celestial or fiend' → 'celestial o infernal'). */
+export function creatureType(type: string | undefined, lang: Lang): string {
+  if (!type) return '';
+  return lang === 'es' ? type.split(' or ').map((x) => ES_TYPES[x] ?? x).join(' o ') : type;
+}
 const ES_ALIGN: Record<string, string> = {
   'lawful good': 'legal bueno', 'neutral good': 'neutral bueno', 'chaotic good': 'caótico bueno', 'lawful neutral': 'legal neutral',
   neutral: 'neutral', 'chaotic neutral': 'caótico neutral', 'lawful evil': 'legal malvado', 'neutral evil': 'neutral malvado',
@@ -131,13 +144,14 @@ export function enemyFromMonster(entry: ContentEntry, lang: Lang): Enemy {
   return newEnemy({
     name: loc(entry.name, lang),
     size: d.size ?? 'Medium',
-    type: es ? ES_TYPES[d.type] ?? d.type ?? '' : d.type ?? '',
+    type: creatureType(d.type, lang),
     alignment: es ? ES_ALIGN[d.alignment] ?? d.alignment ?? '' : d.alignment ?? '',
     cr: d.challenge_rating ?? 0,
-    xp: d.xp ?? 0,
-    ac: ac?.value ?? 10,
+    // Indexed monsters outside the SRD only carry CR, AC and average HP; the rest is filled in from the book.
+    xp: d.xp ?? xpForCr(d.challenge_rating ?? 0),
+    ac: ac?.value ?? d.ac ?? 10,
     acNote: (ac?.armor ?? []).map((x: any) => x.name).join(', ') || (ac?.type && ac.type !== 'dex' ? ac.type : ''),
-    hpMax: d.hit_points ?? 1,
+    hpMax: d.hit_points ?? d.hp ?? 1,
     hpFormula: d.hit_points_roll ?? d.hit_dice ?? '',
     speed,
     abilities,
@@ -151,6 +165,8 @@ export function enemyFromMonster(entry: ContentEntry, lang: Lang): Enemy {
     passivePerception: d.senses?.passive_perception ?? 10 + abilityMod(abilities.wis),
     languages: d.languages ?? '',
     actions: KIND_FROM_SRD.flatMap(([key, kind]) => (d[key] ?? []).map((a: any) => srdAction(a, kind, lang))),
+    // Only the numbers are indexed for monsters outside the SRD: point to the book for the rest.
+    notes: entry.source === 'external' ? `${lang === 'es' ? 'Ficha completa' : 'Full stat block'}: ${entry.book ?? ''}${d.page ? `, ${lang === 'es' ? 'pág.' : 'p.'} ${d.page}` : ''}` : '',
     source: `monster:${entry.id}`,
   });
 }

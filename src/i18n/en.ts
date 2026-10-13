@@ -128,7 +128,7 @@ export const en: Dict = {
     cameraDenied: 'No permission to use the camera.', kindCharacter: 'character', kindHomebrew: 'homebrew pack', kindEnemies: 'bestiary',
   },
   dm: {
-    enemies: 'Enemies', enemiesLower: 'enemies', combat: 'Combat', newEnemy: 'New enemy', fromSrd: 'Copy from SRD bestiary',
+    enemies: 'Enemies', enemiesLower: 'enemies', combat: 'Combat', newEnemy: 'New enemy', fromSrd: 'Copy from the bestiary',
     noEnemies: 'No enemies yet. Create one or copy it from the SRD bestiary and edit it as you like.',
     name: 'Name', size: 'Size', type: 'Type', alignment: 'Alignment', cr: 'Challenge', xp: 'XP', ac: 'AC', acNote: 'AC note (armor…)',
     hp: 'HP', hpMax: 'Max HP', hpFormula: 'HP formula (e.g. 3d6+3)', speed: 'Speed', abilities: 'Abilities',

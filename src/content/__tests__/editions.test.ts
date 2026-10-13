@@ -7,7 +7,8 @@ const external = allEntries().filter((e) => e.source === 'external');
 
 test('every indexed option has a Spanish name, a book and a link', () => {
   for (const e of external) {
-    expect(e.name.es).toBeTruthy();
+    // Monsters from 2014 books have no open Spanish translation and keep their English name.
+    if (!(e.category === 'monster' && entryEra(e) === '2014')) expect(e.name.es).toBeTruthy();
     expect(e.book).toBeTruthy();
     expect(e.external && Object.keys(e.external).length).toBeTruthy();
   }
@@ -73,4 +74,18 @@ test('Chronurgy is found by its usual Spanish name', () => {
   const hit = searchContent('cronurgia', { category: 'subclass' }, 'es')[0];
   expect(hit?.id).toBe('ext-subclass-chronurgy-magic');
   expect(hit?.data.classId).toBe('wizard');
+});
+
+test('official monsters outside the SRD are indexed with their numbers only', () => {
+  const beholder = getEntry('monster:ext-monster-beholder');
+  expect(beholder?.name.es).toBe('Contemplador');
+  expect(beholder?.data).toMatchObject({ size: 'Large', type: 'aberration', challenge_rating: 13, ac: 18, hp: 190, era: '2024' });
+  expect(beholder?.text).toBeUndefined();
+  expect(beholder?.external?.aidedd).toBe('https://www.aidedd.org/monster/beholder');
+  const froghemoth = getEntry('monster:ext-monster-froghemoth');
+  expect(froghemoth && entryEra(froghemoth)).toBe('2014');
+  expect(froghemoth?.external?.aidedd).toBe('https://www.aidedd.org/dnd/monstres.php?vo=froghemoth');
+  // SRD monsters are not duplicated.
+  expect(getEntry('monster:ext-monster-goblin-warrior')).toBeUndefined();
+  expect(searchContent('contemplador', { category: ['monster'] }, 'es')[0]?.id).toBe('ext-monster-beholder');
 });

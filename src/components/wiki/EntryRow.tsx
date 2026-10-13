@@ -2,19 +2,20 @@ import { keyOf } from '../../content';
 import { SpellIcon } from '../SpellIcon';
 import { Pressable, View } from 'react-native';
 import type { ContentEntry } from '../../content/types';
-import { isFallback } from '../../i18n';
+import { crLabel, creatureType } from '../../dm/enemy';
+import { isFallback, type Lang } from '../../i18n';
 import { entryEra } from '../../wiki/search';
 import { useT } from '../../i18n/useT';
 import { useTheme } from '../../theme';
 import { Badge, Txt } from '../ui';
 
-export function entrySubtitle(e: ContentEntry, t: (k: string, v?: any) => string): string {
+export function entrySubtitle(e: ContentEntry, t: (k: string, v?: any) => string, lang: Lang = 'es'): string {
   const d = e.data ?? {};
   switch (e.category) {
     case 'spell':
       return d.level === 0 ? `${t('wiki.cantrip')} · ${t(`schools.${d.school}`)}` : `${t('wiki.level')} ${d.level} · ${t(`schools.${d.school}`)}`;
     case 'monster':
-      return `${t('wiki.cr')} ${d.challenge_rating ?? '—'} · ${d.type ?? ''}`;
+      return `${t('wiki.cr')} ${d.challenge_rating == null ? '—' : crLabel(d.challenge_rating)} · ${creatureType(d.type, lang)}`;
     case 'magic-item':
       return d.rarity ? t(`rarity.${d.rarity}`) : '';
     case 'equipment':
@@ -44,7 +45,7 @@ export function EntryRow({ entry, onPress }: { entry: ContentEntry; onPress: () 
         {isFallback(entry.text, lang) ? <Badge label="EN" /> : null}
       </View>
       <Txt variant="small" muted numberOfLines={1} style={entry.category === 'spell' ? { marginLeft: 34 } : undefined}>
-        {entrySubtitle(entry, t)}
+        {entrySubtitle(entry, t, lang)}
       </Txt>
     </Pressable>
   );

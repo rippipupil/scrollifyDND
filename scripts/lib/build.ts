@@ -523,6 +523,10 @@ export function entryLinks(e: Pick<Entry, 'category' | 'id' | 'name' | 'data'>):
       return { wikidot: wiki(`${e.id}:main`), nivel20 };
     case 'subclass':
       return e.data?.classId ? { wikidot: wiki(`${e.data.classId}:${slugWikidot(en)}`), nivel20 } : undefined;
+    case 'monster':
+      return e.data?.era === '2014'
+        ? { aidedd: `https://www.aidedd.org/dnd/monstres.php?vo=${slugAidedd(en)}`, nivel20 }
+        : { aidedd: `https://www.aidedd.org/monster/${slugAidedd(en)}`, nivel20 };
     case 'magic-item':
       return { aidedd: `https://www.aidedd.org/magic-item/${slugAidedd(en)}`, wikidot: wiki(`magic-item:${slugWikidot(en)}`), nivel20 };
     default:

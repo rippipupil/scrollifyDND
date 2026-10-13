@@ -79,3 +79,9 @@ test('in Spanish, an SRD copy gets Spanish type, alignment, metric speed and sen
   expect(en.type).toBe('fey');
   expect(en.speed).toBe('30 ft.');
 });
+
+test('an indexed monster outside the SRD becomes an enemy with its numbers and a pointer to the book', () => {
+  const e = enemyFromMonster(getEntry('monster:ext-monster-beholder')!, 'es');
+  expect(e).toMatchObject({ name: 'Contemplador', type: 'aberración', size: 'Large', cr: 13, xp: 10000, ac: 18, hpMax: 190, actions: [] });
+  expect(e.notes).toBe('Ficha completa: Monster Manual (2024), pág. 36');
+});

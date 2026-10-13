@@ -28,6 +28,16 @@ https://creativecommons.org/licenses/by/4.0/legalcode.
   [5etools](https://github.com/5etools-mirror-3/5etools-src) data. No rules text is included; the app links to
   AideDD, Wikidot and Nivel20 for it. Regenerate with `scripts/import-spell-index.ts`.
 
+## Monsters outside the SRD
+
+- `data/external/monsters-official.json` indexes official monsters that aren't in the SRD 5.2 (2024 Monster Manual,
+  Monsters of the Multiverse, Fizban's, Glory of the Giants, The Book of Many Things) with facts only — name, size,
+  creature type, challenge rating, armor class, average hit points, book and page — from the
+  [5etools](https://github.com/5etools-mirror-3/5etools-src) data. No stat block text is included; the app links to
+  AideDD (links checked; a search link where AideDD has no page). Official Spanish names for the 2024 Monster Manual come
+  from [foundryvtt-sinregistrar/translate-dnd5e-mm-2024-es](https://github.com/foundryvtt-sinregistrar/translate-dnd5e-mm-2024-es)
+  (Apache-2.0; names only). Regenerate with `scripts/import-monster-index.ts` and `scripts/oneoff/check_monster_links.py`.
+
 ## 2014 (legacy) options and 2024-era books
 
 - `data/external/legacy-2014.json`: species, subclasses, backgrounds and feats from 2014 books (the ones in the

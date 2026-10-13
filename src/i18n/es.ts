@@ -128,7 +128,7 @@ export const es: Dict = {
     cameraDenied: 'Sin permiso para usar la cámara.', kindCharacter: 'personaje', kindHomebrew: 'paquete de homebrew', kindEnemies: 'bestiario',
   },
   dm: {
-    enemies: 'Enemigos', enemiesLower: 'enemigos', combat: 'Combate', newEnemy: 'Nuevo enemigo', fromSrd: 'Copiar del bestiario SRD',
+    enemies: 'Enemigos', enemiesLower: 'enemigos', combat: 'Combate', newEnemy: 'Nuevo enemigo', fromSrd: 'Copiar del bestiario',
     noEnemies: 'Aún no tienes enemigos. Crea uno o cópialo del bestiario SRD y edítalo a tu gusto.',
     name: 'Nombre', size: 'Tamaño', type: 'Tipo', alignment: 'Alineamiento', cr: 'Desafío', xp: 'PX', ac: 'CA', acNote: 'Nota de CA (armadura…)',
     hp: 'PG', hpMax: 'PG máximos', hpFormula: 'Fórmula de PG (p. ej. 3d6+3)', speed: 'Velocidad', abilities: 'Características',

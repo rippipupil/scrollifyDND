@@ -1,0 +1,10407 @@
+[
+ {
+  "category": "monster",
+  "name": {
+   "en": "Aarakocra Aeromancer",
+   "es": "Aarakocra aeromante"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Medium",
+   "type": "elemental",
+   "challenge_rating": 4,
+   "ac": 16,
+   "hp": 66,
+   "page": 10,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Aarakocra Skirmisher",
+   "es": "Aarakocra experto en escaramuzas"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Medium",
+   "type": "elemental",
+   "challenge_rating": 0.25,
+   "ac": 12,
+   "hp": 11,
+   "page": 10,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Aberrant Cultist",
+   "es": "Sectario aberrante"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Small or Medium",
+   "type": "humanoid",
+   "challenge_rating": 8,
+   "ac": 14,
+   "hp": 137,
+   "page": 86,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Abjurer Wizard"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "humanoid",
+   "challenge_rating": 9,
+   "ac": 12,
+   "hp": 104,
+   "page": 260,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Abominable Yeti",
+   "es": "Yeti abominable"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Huge",
+   "type": "monstrosity",
+   "challenge_rating": 9,
+   "ac": 15,
+   "hp": 137,
+   "page": 340,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Adult Amethyst Dragon"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "size": "Huge",
+   "type": "dragon",
+   "challenge_rating": 16,
+   "ac": 19,
+   "hp": 229,
+   "page": 161,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Adult Crystal Dragon"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "size": "Huge",
+   "type": "dragon",
+   "challenge_rating": 12,
+   "ac": 16,
+   "hp": 172,
+   "page": 171,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Adult Emerald Dragon"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "size": "Huge",
+   "type": "dragon",
+   "challenge_rating": 14,
+   "ac": 18,
+   "hp": 207,
+   "page": 196,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Adult Kruthik"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "monstrosity",
+   "challenge_rating": 2,
+   "ac": 18,
+   "hp": 39,
+   "page": 169,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Adult Moonstone Dragon"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "size": "Huge",
+   "type": "dragon",
+   "challenge_rating": 15,
+   "ac": 19,
+   "hp": 195,
+   "page": 212,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Adult Oblex"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "ooze",
+   "challenge_rating": 5,
+   "ac": 14,
+   "hp": 75,
+   "page": 198,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Adult Sapphire Dragon"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "size": "Huge",
+   "type": "dragon",
+   "challenge_rating": 15,
+   "ac": 18,
+   "hp": 225,
+   "page": 215,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Adult Topaz Dragon"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "size": "Huge",
+   "type": "dragon",
+   "challenge_rating": 13,
+   "ac": 18,
+   "hp": 210,
+   "page": 221,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Aerosaur"
+  },
+  "book": "Bigby Presents: Glory of the Giants",
+  "data": {
+   "size": "Gargantuan",
+   "type": "monstrosity",
+   "challenge_rating": 10,
+   "ac": 14,
+   "hp": 155,
+   "page": 128,
+   "era": "2014"
+  },
+  "links": {
+   "aidedd": "https://www.google.com/search?q=site%3Aaidedd.org%20Aerosaur",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com%20Aerosaur"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Air Elemental Myrmidon"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "elemental",
+   "challenge_rating": 7,
+   "ac": 18,
+   "hp": 117,
+   "page": 122,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Alhoon"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "undead",
+   "challenge_rating": 10,
+   "ac": 15,
+   "hp": 150,
+   "page": 43,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Alkilith"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "fiend",
+   "challenge_rating": 11,
+   "ac": 17,
+   "hp": 168,
+   "page": 44,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Allip"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "undead",
+   "challenge_rating": 5,
+   "ac": 13,
+   "hp": 40,
+   "page": 45,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Altisaur"
+  },
+  "book": "Bigby Presents: Glory of the Giants",
+  "data": {
+   "size": "Gargantuan",
+   "type": "monstrosity",
+   "challenge_rating": 13,
+   "ac": 15,
+   "hp": 198,
+   "page": 129,
+   "era": "2014"
+  },
+  "links": {
+   "aidedd": "https://www.google.com/search?q=site%3Aaidedd.org%20Altisaur",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com%20Altisaur"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Ambitious Assassin"
+  },
+  "book": "The Book of Many Things",
+  "data": {
+   "size": "Small or Medium",
+   "type": "humanoid",
+   "challenge_rating": 5,
+   "ac": 16,
+   "hp": 91,
+   "page": 45,
+   "era": "2014"
+  },
+  "links": {
+   "aidedd": "https://www.google.com/search?q=site%3Aaidedd.org%20Ambitious%20Assassin",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com%20Ambitious%20Assassin"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Amethyst Dragon Wyrmling"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "size": "Medium",
+   "type": "dragon",
+   "challenge_rating": 4,
+   "ac": 17,
+   "hp": 75,
+   "page": 162,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Amethyst Greatwyrm"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "size": "Gargantuan",
+   "type": "dragon",
+   "challenge_rating": 26,
+   "ac": 21,
+   "hp": 507,
+   "page": 201,
+   "era": "2014"
+  },
+  "links": {
+   "aidedd": "https://www.google.com/search?q=site%3Aaidedd.org%20Amethyst%20Greatwyrm",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com%20Amethyst%20Greatwyrm"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Amnizu"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "fiend",
+   "challenge_rating": 18,
+   "ac": 21,
+   "hp": 202,
+   "page": 46,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Ancient Amethyst Dragon"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "size": "Gargantuan",
+   "type": "dragon",
+   "challenge_rating": 23,
+   "ac": 20,
+   "hp": 444,
+   "page": 160,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Ancient Crystal Dragon"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "size": "Gargantuan",
+   "type": "dragon",
+   "challenge_rating": 19,
+   "ac": 20,
+   "hp": 222,
+   "page": 170,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Ancient Dragon Turtle"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "size": "Gargantuan",
+   "type": "dragon",
+   "challenge_rating": 24,
+   "ac": 22,
+   "hp": 409,
+   "page": 191,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Ancient Emerald Dragon"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "size": "Gargantuan",
+   "type": "dragon",
+   "challenge_rating": 21,
+   "ac": 20,
+   "hp": 332,
+   "page": 195,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Ancient Moonstone Dragon"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "size": "Gargantuan",
+   "type": "dragon",
+   "challenge_rating": 21,
+   "ac": 20,
+   "hp": 330,
+   "page": 211,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Ancient Sapphire Dragon"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "size": "Gargantuan",
+   "type": "dragon",
+   "challenge_rating": 22,
+   "ac": 20,
+   "hp": 370,
+   "page": 214,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Ancient Sea Serpent"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "size": "Gargantuan",
+   "type": "dragon",
+   "challenge_rating": 14,
+   "ac": 17,
+   "hp": 170,
+   "page": 219,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Ancient Topaz Dragon"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "size": "Gargantuan",
+   "type": "dragon",
+   "challenge_rating": 20,
+   "ac": 20,
+   "hp": 280,
+   "page": 220,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Angry Sorrowsworn"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "monstrosity",
+   "challenge_rating": 13,
+   "ac": 18,
+   "hp": 255,
+   "page": 222,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Animal Lord",
+   "es": "Señor de los animales"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Medium",
+   "type": "celestial",
+   "challenge_rating": 20,
+   "ac": 19,
+   "hp": 323,
+   "page": 15,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Animated Breath"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "size": "Large",
+   "type": "elemental",
+   "challenge_rating": 6,
+   "ac": 15,
+   "hp": 95,
+   "page": 163,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Animated Broom",
+   "es": "Escoba animada"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Small",
+   "type": "construct",
+   "challenge_rating": 0.25,
+   "ac": 15,
+   "hp": 14,
+   "page": 16,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Annis Hag"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Large",
+   "type": "fey",
+   "challenge_rating": 6,
+   "ac": 17,
+   "hp": 90,
+   "page": 47,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Apprentice Wizard"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "humanoid",
+   "challenge_rating": 0.25,
+   "ac": 10,
+   "hp": 13,
+   "page": 259,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Arcanaloth",
+   "es": "Arcanaloth"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Medium",
+   "type": "fiend",
+   "challenge_rating": 12,
+   "ac": 18,
+   "hp": 175,
+   "page": 19,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Arch-hag",
+   "es": "Archisaga"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Large",
+   "type": "fey",
+   "challenge_rating": 21,
+   "ac": 20,
+   "hp": 333,
+   "page": 21,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Archdruid"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "humanoid",
+   "challenge_rating": 12,
+   "ac": 14,
+   "hp": 154,
+   "page": 48,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Archer"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "humanoid",
+   "challenge_rating": 3,
+   "ac": 16,
+   "hp": 75,
+   "page": 49,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Archpriest",
+   "es": "Arcipreste"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Small or Medium",
+   "type": "humanoid",
+   "challenge_rating": 12,
+   "ac": 16,
+   "hp": 240,
+   "page": 248,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Armanite"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Large",
+   "type": "fiend",
+   "challenge_rating": 7,
+   "ac": 16,
+   "hp": 94,
+   "page": 50,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Aspect of Bahamut"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "size": "Gargantuan",
+   "type": "dragon",
+   "challenge_rating": 30,
+   "ac": 23,
+   "hp": 585,
+   "page": 165,
+   "era": "2014"
+  },
+  "links": {
+   "aidedd": "https://www.google.com/search?q=site%3Aaidedd.org%20Aspect%20of%20Bahamut",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com%20Aspect%20of%20Bahamut"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Aspect of Tiamat"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "size": "Gargantuan",
+   "type": "dragon",
+   "challenge_rating": 30,
+   "ac": 23,
+   "hp": 574,
+   "page": 166,
+   "era": "2014"
+  },
+  "links": {
+   "aidedd": "https://www.google.com/search?q=site%3Aaidedd.org%20Aspect%20of%20Tiamat",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com%20Aspect%20of%20Tiamat"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Aspirant of the Comet"
+  },
+  "book": "The Book of Many Things",
+  "data": {
+   "size": "Medium",
+   "type": "humanoid",
+   "challenge_rating": 0.5,
+   "ac": 11,
+   "hp": 27,
+   "page": 91,
+   "era": "2014"
+  },
+  "links": {
+   "aidedd": "https://www.google.com/search?q=site%3Aaidedd.org%20Aspirant%20of%20the%20Comet",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com%20Aspirant%20of%20the%20Comet"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Asteria"
+  },
+  "book": "The Book of Many Things",
+  "data": {
+   "size": "Medium",
+   "type": "humanoid",
+   "challenge_rating": 18,
+   "ac": 18,
+   "hp": 195,
+   "page": 188,
+   "era": "2014"
+  },
+  "links": {
+   "aidedd": "https://www.google.com/search?q=site%3Aaidedd.org%20Asteria",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com%20Asteria"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Astral Dreadnought"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Gargantuan",
+   "type": "monstrosity",
+   "challenge_rating": 21,
+   "ac": 20,
+   "hp": 297,
+   "page": 51,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Aurnozci"
+  },
+  "book": "The Book of Many Things",
+  "data": {
+   "size": "Gargantuan",
+   "type": "fiend",
+   "challenge_rating": 22,
+   "ac": 16,
+   "hp": 370,
+   "page": 167,
+   "era": "2014"
+  },
+  "links": {
+   "aidedd": "https://www.google.com/search?q=site%3Aaidedd.org%20Aurnozci",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com%20Aurnozci"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Aurochs"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Large",
+   "type": "beast",
+   "challenge_rating": 2,
+   "ac": 11,
+   "hp": 38,
+   "page": 71,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Autumn Eladrin"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "fey",
+   "challenge_rating": 10,
+   "ac": 19,
+   "hp": 165,
+   "page": 115,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Azer Pyromancer",
+   "es": "Azer piromante"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Medium",
+   "type": "elemental",
+   "challenge_rating": 6,
+   "ac": 18,
+   "hp": 97,
+   "page": 25,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Babau"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "fiend",
+   "challenge_rating": 4,
+   "ac": 16,
+   "hp": 82,
+   "page": 52,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Bael"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Large",
+   "type": "fiend",
+   "challenge_rating": 19,
+   "ac": 18,
+   "hp": 189,
+   "page": 54,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Bag Jelly"
+  },
+  "book": "Bigby Presents: Glory of the Giants",
+  "data": {
+   "size": "Medium",
+   "type": "ooze",
+   "challenge_rating": 1,
+   "ac": 8,
+   "hp": 42,
+   "page": 120,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Balhannoth"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Large",
+   "type": "aberration",
+   "challenge_rating": 11,
+   "ac": 17,
+   "hp": 114,
+   "page": 55,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Banderhobb"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Large",
+   "type": "monstrosity",
+   "challenge_rating": 5,
+   "ac": 15,
+   "hp": 84,
+   "page": 56,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Bandit Crime Lord",
+   "es": "Señor del crimen bandido"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Small or Medium",
+   "type": "humanoid",
+   "challenge_rating": 11,
+   "ac": 17,
+   "hp": 169,
+   "page": 28,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Bandit Deceiver",
+   "es": "Bandido embaucador"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Small or Medium",
+   "type": "humanoid",
+   "challenge_rating": 7,
+   "ac": 16,
+   "hp": 130,
+   "page": 28,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Banshee",
+   "es": "Banshee"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Medium",
+   "type": "undead",
+   "challenge_rating": 4,
+   "ac": 12,
+   "hp": 54,
+   "page": 29,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Baphomet"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Huge",
+   "type": "fiend",
+   "challenge_rating": 23,
+   "ac": 22,
+   "hp": 319,
+   "page": 58,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Bard"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "humanoid",
+   "challenge_rating": 2,
+   "ac": 15,
+   "hp": 44,
+   "page": 59,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Barghest"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Large",
+   "type": "fiend",
+   "challenge_rating": 4,
+   "ac": 17,
+   "hp": 60,
+   "page": 60,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Barlgura",
+   "es": "Barlgura"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Large",
+   "type": "fiend",
+   "challenge_rating": 5,
+   "ac": 15,
+   "hp": 85,
+   "page": 31,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Barrowghast"
+  },
+  "book": "Bigby Presents: Glory of the Giants",
+  "data": {
+   "size": "Huge",
+   "type": "undead",
+   "challenge_rating": 7,
+   "ac": 12,
+   "hp": 138,
+   "page": 121,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Beholder",
+   "es": "Contemplador"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Large",
+   "type": "aberration",
+   "challenge_rating": 13,
+   "ac": 18,
+   "hp": 190,
+   "page": 36,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Beholder Zombie",
+   "es": "Contemplador zombi"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Large",
+   "type": "undead",
+   "challenge_rating": 5,
+   "ac": 15,
+   "hp": 93,
+   "page": 347,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Berbalang"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "aberration",
+   "challenge_rating": 2,
+   "ac": 14,
+   "hp": 49,
+   "page": 61,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Berserker Commander",
+   "es": "Comandante berserker"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Small or Medium",
+   "type": "humanoid",
+   "challenge_rating": 8,
+   "ac": 16,
+   "hp": 136,
+   "page": 37,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Bheur Hag"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "fey",
+   "challenge_rating": 7,
+   "ac": 17,
+   "hp": 91,
+   "page": 62,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Black Abishai"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "fiend",
+   "challenge_rating": 7,
+   "ac": 15,
+   "hp": 58,
+   "page": 38,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Black Greatwyrm"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "size": "Gargantuan",
+   "type": "dragon",
+   "challenge_rating": 27,
+   "ac": 22,
+   "hp": 533,
+   "page": 168,
+   "era": "2014"
+  },
+  "links": {
+   "aidedd": "https://www.google.com/search?q=site%3Aaidedd.org%20Black%20Greatwyrm",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com%20Black%20Greatwyrm"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Blackguard"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "humanoid",
+   "challenge_rating": 8,
+   "ac": 18,
+   "hp": 119,
+   "page": 63,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Blob of Annihilation",
+   "es": "Amasijo de aniquilación"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Gargantuan",
+   "type": "ooze",
+   "challenge_rating": 23,
+   "ac": 18,
+   "hp": 448,
+   "page": 47,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Blue Abishai"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "fiend",
+   "challenge_rating": 17,
+   "ac": 19,
+   "hp": 202,
+   "page": 39,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Blue Greatwyrm"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "size": "Gargantuan",
+   "type": "dragon",
+   "challenge_rating": 27,
+   "ac": 22,
+   "hp": 533,
+   "page": 168,
+   "era": "2014"
+  },
+  "links": {
+   "aidedd": "https://www.google.com/search?q=site%3Aaidedd.org%20Blue%20Greatwyrm",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com%20Blue%20Greatwyrm"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Blue Slaad",
+   "es": "Slaad azul"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Large",
+   "type": "aberration",
+   "challenge_rating": 7,
+   "ac": 15,
+   "hp": 133,
+   "page": 285,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Bodak"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "undead",
+   "challenge_rating": 6,
+   "ac": 15,
+   "hp": 58,
+   "page": 64,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Boggle"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Small",
+   "type": "fey",
+   "challenge_rating": 0.125,
+   "ac": 14,
+   "hp": 18,
+   "page": 65,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Bone Naga",
+   "es": "Naga ósea"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Large",
+   "type": "undead",
+   "challenge_rating": 4,
+   "ac": 15,
+   "hp": 65,
+   "page": 53,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Boneclaw"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Large",
+   "type": "undead",
+   "challenge_rating": 12,
+   "ac": 16,
+   "hp": 150,
+   "page": 66,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Boss Augustus"
+  },
+  "book": "The Book of Many Things",
+  "data": {
+   "size": "Medium",
+   "type": "monstrosity",
+   "challenge_rating": 9,
+   "ac": 13,
+   "hp": 150,
+   "page": 82,
+   "era": "2014"
+  },
+  "links": {
+   "aidedd": "https://www.google.com/search?q=site%3Aaidedd.org%20Boss%20Augustus",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com%20Boss%20Augustus"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Boss Delour"
+  },
+  "book": "The Book of Many Things",
+  "data": {
+   "size": "Small",
+   "type": "monstrosity",
+   "challenge_rating": 9,
+   "ac": 14,
+   "hp": 110,
+   "page": 83,
+   "era": "2014"
+  },
+  "links": {
+   "aidedd": "https://www.google.com/search?q=site%3Aaidedd.org%20Boss%20Delour",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com%20Boss%20Delour"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Brass Greatwyrm"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "size": "Gargantuan",
+   "type": "dragon",
+   "challenge_rating": 28,
+   "ac": 22,
+   "hp": 565,
+   "page": 208,
+   "era": "2014"
+  },
+  "links": {
+   "aidedd": "https://www.google.com/search?q=site%3Aaidedd.org%20Brass%20Greatwyrm",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com%20Brass%20Greatwyrm"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Brazen Gorgon",
+   "es": "Gorgón de latón"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Large",
+   "type": "construct",
+   "challenge_rating": 9,
+   "ac": 19,
+   "hp": 161,
+   "page": 149,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Breath Drinker"
+  },
+  "book": "The Book of Many Things",
+  "data": {
+   "size": "Medium",
+   "type": "aberration",
+   "challenge_rating": 14,
+   "ac": 18,
+   "hp": 157,
+   "page": 154,
+   "era": "2014"
+  },
+  "links": {
+   "aidedd": "https://www.google.com/search?q=site%3Aaidedd.org%20Breath%20Drinker",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com%20Breath%20Drinker"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Brontosaurus"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Gargantuan",
+   "type": "beast",
+   "challenge_rating": 5,
+   "ac": 15,
+   "hp": 121,
+   "page": 95,
+   "era": "2014"
+  },
+  "links": {
+   "aidedd": "https://www.google.com/search?q=site%3Aaidedd.org%20Brontosaurus",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com%20Brontosaurus"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Bronze Greatwyrm"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "size": "Gargantuan",
+   "type": "dragon",
+   "challenge_rating": 28,
+   "ac": 22,
+   "hp": 565,
+   "page": 208,
+   "era": "2014"
+  },
+  "links": {
+   "aidedd": "https://www.google.com/search?q=site%3Aaidedd.org%20Bronze%20Greatwyrm",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com%20Bronze%20Greatwyrm"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Brusipha"
+  },
+  "book": "The Book of Many Things",
+  "data": {
+   "size": "Medium",
+   "type": "humanoid",
+   "challenge_rating": 3,
+   "ac": 14,
+   "hp": 90,
+   "page": 127,
+   "era": "2014"
+  },
+  "links": {
+   "aidedd": "https://www.google.com/search?q=site%3Aaidedd.org%20Brusipha",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com%20Brusipha"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Bugbear Chief"
+  },
+  "book": "Monster Manual (2014)",
+  "data": {
+   "size": "Medium",
+   "type": "humanoid",
+   "challenge_rating": 3,
+   "ac": 17,
+   "hp": 65,
+   "page": 33,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Bulette Pup",
+   "es": "Bulette cachorro"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Medium",
+   "type": "monstrosity",
+   "challenge_rating": 2,
+   "ac": 16,
+   "hp": 45,
+   "page": 63,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Bulezau"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "fiend",
+   "challenge_rating": 3,
+   "ac": 14,
+   "hp": 52,
+   "page": 67,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Bullywug Bog Sage",
+   "es": "Bullywug erudito del pantano"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Medium",
+   "type": "fey",
+   "challenge_rating": 4,
+   "ac": 16,
+   "hp": 52,
+   "page": 64,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Bullywug Warrior",
+   "es": "Bullywug guerrero"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Medium",
+   "type": "fey",
+   "challenge_rating": 0.25,
+   "ac": 15,
+   "hp": 11,
+   "page": 64,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Cadaver Collector"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Large",
+   "type": "construct",
+   "challenge_rating": 14,
+   "ac": 17,
+   "hp": 189,
+   "page": 68,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Cairnwight"
+  },
+  "book": "Bigby Presents: Glory of the Giants",
+  "data": {
+   "size": "Huge",
+   "type": "undead",
+   "challenge_rating": 9,
+   "ac": 19,
+   "hp": 138,
+   "page": 122,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Cambion",
+   "es": "Cambion"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Medium",
+   "type": "fiend",
+   "challenge_rating": 5,
+   "ac": 19,
+   "hp": 105,
+   "page": 65,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Canoloth"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "fiend",
+   "challenge_rating": 8,
+   "ac": 16,
+   "hp": 120,
+   "page": 69,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Carrion Crawler",
+   "es": "Carroñero reptante"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Large",
+   "type": "monstrosity",
+   "challenge_rating": 2,
+   "ac": 13,
+   "hp": 51,
+   "page": 66,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Catoblepas"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Large",
+   "type": "monstrosity",
+   "challenge_rating": 5,
+   "ac": 14,
+   "hp": 84,
+   "page": 70,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Cave Fisher"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "monstrosity",
+   "challenge_rating": 3,
+   "ac": 16,
+   "hp": 58,
+   "page": 73,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Centaur Warden",
+   "es": "Centauro guardián"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Large",
+   "type": "fey",
+   "challenge_rating": 7,
+   "ac": 16,
+   "hp": 105,
+   "page": 67,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Ceratops"
+  },
+  "book": "Bigby Presents: Glory of the Giants",
+  "data": {
+   "size": "Gargantuan",
+   "type": "monstrosity",
+   "challenge_rating": 9,
+   "ac": 16,
+   "hp": 139,
+   "page": 129,
+   "era": "2014"
+  },
+  "links": {
+   "aidedd": "https://www.google.com/search?q=site%3Aaidedd.org%20Ceratops",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com%20Ceratops"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Champion"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "humanoid",
+   "challenge_rating": 9,
+   "ac": 18,
+   "hp": 143,
+   "page": 74,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Chasme",
+   "es": "Chasme"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Large",
+   "type": "fiend",
+   "challenge_rating": 6,
+   "ac": 15,
+   "hp": 78,
+   "page": 69,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Chitine"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Small",
+   "type": "monstrosity",
+   "challenge_rating": 0.5,
+   "ac": 14,
+   "hp": 18,
+   "page": 75,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Choker"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Small",
+   "type": "aberration",
+   "challenge_rating": 1,
+   "ac": 16,
+   "hp": 13,
+   "page": 76,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Choldrith"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "monstrosity",
+   "challenge_rating": 3,
+   "ac": 15,
+   "hp": 66,
+   "page": 77,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Cinder Hulk"
+  },
+  "book": "Bigby Presents: Glory of the Giants",
+  "data": {
+   "size": "Large",
+   "type": "elemental",
+   "challenge_rating": 7,
+   "ac": 16,
+   "hp": 84,
+   "page": 123,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Clockwork Bronze Scout"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "construct",
+   "challenge_rating": 1,
+   "ac": 13,
+   "hp": 36,
+   "page": 79,
+   "era": "2014"
+  },
+  "links": {
+   "aidedd": "https://www.google.com/search?q=site%3Aaidedd.org%20Clockwork%20Bronze%20Scout",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com%20Clockwork%20Bronze%20Scout"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Clockwork Iron Cobra"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "construct",
+   "challenge_rating": 4,
+   "ac": 13,
+   "hp": 91,
+   "page": 79,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Clockwork Oaken Bolter"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "construct",
+   "challenge_rating": 5,
+   "ac": 16,
+   "hp": 117,
+   "page": 80,
+   "era": "2014"
+  },
+  "links": {
+   "aidedd": "https://www.google.com/search?q=site%3Aaidedd.org%20Clockwork%20Oaken%20Bolter",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com%20Clockwork%20Oaken%20Bolter"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Clockwork Stone Defender"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "construct",
+   "challenge_rating": 4,
+   "ac": 16,
+   "hp": 105,
+   "page": 80,
+   "era": "2014"
+  },
+  "links": {
+   "aidedd": "https://www.google.com/search?q=site%3Aaidedd.org%20Clockwork%20Stone%20Defender",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com%20Clockwork%20Stone%20Defender"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Cloud Giant Destiny Gambler"
+  },
+  "book": "Bigby Presents: Glory of the Giants",
+  "data": {
+   "size": "Huge",
+   "type": "giant",
+   "challenge_rating": 19,
+   "ac": 15,
+   "hp": 337,
+   "page": 124,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Cloud Giant of Evil Air"
+  },
+  "book": "Bigby Presents: Glory of the Giants",
+  "data": {
+   "size": "Huge",
+   "type": "giant",
+   "challenge_rating": 12,
+   "ac": 14,
+   "hp": 200,
+   "page": 125,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Cloud Giant Smiling One"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Huge",
+   "type": "giant",
+   "challenge_rating": 11,
+   "ac": 15,
+   "hp": 250,
+   "page": 81,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Cockatrice Regent",
+   "es": "Cocatriz regente"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Large",
+   "type": "monstrosity",
+   "challenge_rating": 8,
+   "ac": 15,
+   "hp": 136,
+   "page": 75,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Colossus",
+   "es": "Coloso"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Gargantuan",
+   "type": "construct",
+   "challenge_rating": 25,
+   "ac": 23,
+   "hp": 553,
+   "page": 76,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Conjurer Wizard"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "humanoid",
+   "challenge_rating": 6,
+   "ac": 12,
+   "hp": 58,
+   "page": 260,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Copper Greatwyrm"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "size": "Gargantuan",
+   "type": "dragon",
+   "challenge_rating": 28,
+   "ac": 22,
+   "hp": 565,
+   "page": 208,
+   "era": "2014"
+  },
+  "links": {
+   "aidedd": "https://www.google.com/search?q=site%3Aaidedd.org%20Copper%20Greatwyrm",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com%20Copper%20Greatwyrm"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Corpse Flower"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Large",
+   "type": "plant",
+   "challenge_rating": 8,
+   "ac": 12,
+   "hp": 127,
+   "page": 82,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Cradle of the Cloud Scion"
+  },
+  "book": "Bigby Presents: Glory of the Giants",
+  "data": {
+   "size": "Gargantuan",
+   "type": "elemental",
+   "challenge_rating": 26,
+   "ac": 19,
+   "hp": 624,
+   "page": 166,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Cradle of the Fire Scion"
+  },
+  "book": "Bigby Presents: Glory of the Giants",
+  "data": {
+   "size": "Gargantuan",
+   "type": "elemental",
+   "challenge_rating": 25,
+   "ac": 20,
+   "hp": 555,
+   "page": 172,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Cradle of the Frost Scion"
+  },
+  "book": "Bigby Presents: Glory of the Giants",
+  "data": {
+   "size": "Gargantuan",
+   "type": "elemental",
+   "challenge_rating": 24,
+   "ac": 20,
+   "hp": 499,
+   "page": 174,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Cradle of the Hill Scion"
+  },
+  "book": "Bigby Presents: Glory of the Giants",
+  "data": {
+   "size": "Gargantuan",
+   "type": "elemental",
+   "challenge_rating": 22,
+   "ac": 19,
+   "hp": 402,
+   "page": 164,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Cradle of the Stone Scion"
+  },
+  "book": "Bigby Presents: Glory of the Giants",
+  "data": {
+   "size": "Gargantuan",
+   "type": "elemental",
+   "challenge_rating": 23,
+   "ac": 20,
+   "hp": 455,
+   "page": 168,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Cradle of the Storm Scion"
+  },
+  "book": "Bigby Presents: Glory of the Giants",
+  "data": {
+   "size": "Gargantuan",
+   "type": "elemental",
+   "challenge_rating": 27,
+   "ac": 19,
+   "hp": 682,
+   "page": 170,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Cranium Rat"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Tiny",
+   "type": "aberration",
+   "challenge_rating": 0,
+   "ac": 12,
+   "hp": 2,
+   "page": 83,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Crawling Claw",
+   "es": "Garra reptante"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Tiny",
+   "type": "undead",
+   "challenge_rating": 0,
+   "ac": 12,
+   "hp": 2,
+   "page": 83,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Crystal Dragon Wyrmling"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "size": "Medium",
+   "type": "dragon",
+   "challenge_rating": 2,
+   "ac": 14,
+   "hp": 32,
+   "page": 172,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Crystal Greatwyrm"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "size": "Gargantuan",
+   "type": "dragon",
+   "challenge_rating": 26,
+   "ac": 21,
+   "hp": 507,
+   "page": 201,
+   "era": "2014"
+  },
+  "links": {
+   "aidedd": "https://www.google.com/search?q=site%3Aaidedd.org%20Crystal%20Greatwyrm",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com%20Crystal%20Greatwyrm"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Cultist Hierophant",
+   "es": "Sectario hierofante"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Small or Medium",
+   "type": "humanoid",
+   "challenge_rating": 10,
+   "ac": 16,
+   "hp": 144,
+   "page": 85,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Cyclops Oracle",
+   "es": "Cíclope oráculo"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Huge",
+   "type": "giant",
+   "challenge_rating": 10,
+   "ac": 16,
+   "hp": 207,
+   "page": 88,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Cyclops Sentry",
+   "es": "Cíclope centinela"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Huge",
+   "type": "giant",
+   "challenge_rating": 6,
+   "ac": 14,
+   "hp": 138,
+   "page": 88,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Dao",
+   "es": "Dao"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Large",
+   "type": "elemental",
+   "challenge_rating": 11,
+   "ac": 18,
+   "hp": 200,
+   "page": 89,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Darkling"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Small",
+   "type": "fey",
+   "challenge_rating": 0.5,
+   "ac": 14,
+   "hp": 13,
+   "page": 84,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Darkling Elder"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "fey",
+   "challenge_rating": 2,
+   "ac": 15,
+   "hp": 27,
+   "page": 84,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Death Cultist",
+   "es": "Sectario de la muerte"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Small or Medium",
+   "type": "humanoid",
+   "challenge_rating": 8,
+   "ac": 17,
+   "hp": 127,
+   "page": 86,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Death Giant Reaper"
+  },
+  "book": "Bigby Presents: Glory of the Giants",
+  "data": {
+   "size": "Huge",
+   "type": "giant",
+   "challenge_rating": 12,
+   "ac": 18,
+   "hp": 172,
+   "page": 126,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Death Giant Shrouded One"
+  },
+  "book": "Bigby Presents: Glory of the Giants",
+  "data": {
+   "size": "Huge",
+   "type": "giant",
+   "challenge_rating": 15,
+   "ac": 12,
+   "hp": 195,
+   "page": 127,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Death Kiss"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Large",
+   "type": "aberration",
+   "challenge_rating": 10,
+   "ac": 15,
+   "hp": 142,
+   "page": 85,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Death Knight",
+   "es": "Caballero de la muerte"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Small or Medium",
+   "type": "undead",
+   "challenge_rating": 17,
+   "ac": 20,
+   "hp": 199,
+   "page": 92,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Death Knight Aspirant",
+   "es": "Caballero de la muerte aspirante"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Small or Medium",
+   "type": "undead",
+   "challenge_rating": 11,
+   "ac": 20,
+   "hp": 178,
+   "page": 93,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Death Slaad",
+   "es": "Slaad de la muerte"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Medium",
+   "type": "aberration",
+   "challenge_rating": 10,
+   "ac": 18,
+   "hp": 178,
+   "page": 287,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Death Tyrant",
+   "es": "Tirano sepulcral"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Large",
+   "type": "undead",
+   "challenge_rating": 14,
+   "ac": 19,
+   "hp": 195,
+   "page": 95,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Deathlock"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "undead",
+   "challenge_rating": 4,
+   "ac": 12,
+   "hp": 36,
+   "page": 86,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Deathlock Mastermind"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "undead",
+   "challenge_rating": 8,
+   "ac": 13,
+   "hp": 110,
+   "page": 87,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Deathlock Wight"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "undead",
+   "challenge_rating": 3,
+   "ac": 12,
+   "hp": 37,
+   "page": 87,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Deep Rothé"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "beast",
+   "challenge_rating": 0.25,
+   "ac": 10,
+   "hp": 13,
+   "page": 71,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Deep Scion"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "monstrosity",
+   "challenge_rating": 3,
+   "ac": 11,
+   "hp": 67,
+   "page": 88,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Deinonychus"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "beast",
+   "challenge_rating": 1,
+   "ac": 13,
+   "hp": 26,
+   "page": 95,
+   "era": "2014"
+  },
+  "links": {
+   "aidedd": "https://www.google.com/search?q=site%3Aaidedd.org%20Deinonychus",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com%20Deinonychus"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Demilich",
+   "es": "Semilich"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Tiny",
+   "type": "undead",
+   "challenge_rating": 18,
+   "ac": 20,
+   "hp": 180,
+   "page": 96,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Demogorgon"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Huge",
+   "type": "fiend",
+   "challenge_rating": 26,
+   "ac": 22,
+   "hp": 464,
+   "page": 90,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Derro"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Small",
+   "type": "aberration",
+   "challenge_rating": 0.25,
+   "ac": 13,
+   "hp": 13,
+   "page": 91,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Derro Savant"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Small",
+   "type": "aberration",
+   "challenge_rating": 3,
+   "ac": 13,
+   "hp": 36,
+   "page": 92,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Devourer"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Large",
+   "type": "undead",
+   "challenge_rating": 13,
+   "ac": 16,
+   "hp": 189,
+   "page": 93,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Dhergoloth"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "fiend",
+   "challenge_rating": 7,
+   "ac": 15,
+   "hp": 119,
+   "page": 94,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Dimetrodon"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "beast",
+   "challenge_rating": 0.25,
+   "ac": 12,
+   "hp": 19,
+   "page": 95,
+   "era": "2014"
+  },
+  "links": {
+   "aidedd": "https://www.google.com/search?q=site%3Aaidedd.org%20Dimetrodon",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com%20Dimetrodon"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Dire Troll"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Huge",
+   "type": "giant",
+   "challenge_rating": 13,
+   "ac": 15,
+   "hp": 172,
+   "page": 246,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Dire Worg",
+   "es": "Huargo terrible"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Huge",
+   "type": "fey",
+   "challenge_rating": 10,
+   "ac": 16,
+   "hp": 147,
+   "page": 335,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Displacer Beast",
+   "es": "Bestia trémula"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Large",
+   "type": "monstrosity",
+   "challenge_rating": 3,
+   "ac": 13,
+   "hp": 76,
+   "page": 98,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Diviner Wizard"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "humanoid",
+   "challenge_rating": 8,
+   "ac": 12,
+   "hp": 90,
+   "page": 261,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Dolphin"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "beast",
+   "challenge_rating": 0.125,
+   "ac": 12,
+   "hp": 11,
+   "page": 97,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Dolphin Delighter"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "fey",
+   "challenge_rating": 3,
+   "ac": 14,
+   "hp": 27,
+   "page": 97,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Dracohydra"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "size": "Huge",
+   "type": "monstrosity",
+   "challenge_rating": 11,
+   "ac": 17,
+   "hp": 218,
+   "page": 176,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Dracolich",
+   "es": "Dracoliche"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Huge or Gargantuan",
+   "type": "undead",
+   "challenge_rating": 17,
+   "ac": 20,
+   "hp": 225,
+   "page": 102,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Draconian Dreadnought"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "size": "Large",
+   "type": "monstrosity",
+   "challenge_rating": 4,
+   "ac": 16,
+   "hp": 57,
+   "page": 177,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Draconian Foot Soldier"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "size": "Medium",
+   "type": "monstrosity",
+   "challenge_rating": 0.5,
+   "ac": 14,
+   "hp": 22,
+   "page": 178,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Draconian Infiltrator"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "size": "Medium",
+   "type": "monstrosity",
+   "challenge_rating": 3,
+   "ac": 15,
+   "hp": 39,
+   "page": 178,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Draconian Mage"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "size": "Medium",
+   "type": "monstrosity",
+   "challenge_rating": 2,
+   "ac": 15,
+   "hp": 40,
+   "page": 179,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Draconian Mastermind"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "size": "Medium",
+   "type": "monstrosity",
+   "challenge_rating": 6,
+   "ac": 17,
+   "hp": 67,
+   "page": 180,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Draconic Shard"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "size": "Huge",
+   "type": "undead",
+   "challenge_rating": 17,
+   "ac": 17,
+   "hp": 168,
+   "page": 181,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Draegloth"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Large",
+   "type": "fiend",
+   "challenge_rating": 7,
+   "ac": 15,
+   "hp": 123,
+   "page": 98,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Dragon Blessed"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "size": "Medium",
+   "type": "humanoid",
+   "challenge_rating": 5,
+   "ac": 14,
+   "hp": 75,
+   "page": 188,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Dragon Chosen"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "size": "Medium",
+   "type": "humanoid",
+   "challenge_rating": 3,
+   "ac": 17,
+   "hp": 45,
+   "page": 189,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Dragon Speaker"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "size": "Small",
+   "type": "humanoid",
+   "challenge_rating": 2,
+   "ac": 13,
+   "hp": 36,
+   "page": 189,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Dragon Turtle Wyrmling"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "size": "Large",
+   "type": "dragon",
+   "challenge_rating": 4,
+   "ac": 18,
+   "hp": 90,
+   "page": 192,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Dragonblood Ooze"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "size": "Large",
+   "type": "ooze",
+   "challenge_rating": 5,
+   "ac": 14,
+   "hp": 68,
+   "page": 182,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Dragonbone Golem"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "size": "Large",
+   "type": "construct",
+   "challenge_rating": 11,
+   "ac": 17,
+   "hp": 161,
+   "page": 183,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Dragonborn of Bahamut"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "size": "Medium",
+   "type": "humanoid",
+   "challenge_rating": 8,
+   "ac": 18,
+   "hp": 93,
+   "page": 184,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Dragonborn of Sardior"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "size": "Medium",
+   "type": "humanoid",
+   "challenge_rating": 6,
+   "ac": 17,
+   "hp": 75,
+   "page": 185,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Dragonborn of Tiamat"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "size": "Medium",
+   "type": "humanoid",
+   "challenge_rating": 7,
+   "ac": 18,
+   "hp": 85,
+   "page": 185,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Dragonflesh Abomination"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "size": "Huge",
+   "type": "monstrosity",
+   "challenge_rating": 6,
+   "ac": 15,
+   "hp": 66,
+   "page": 187,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Dragonflesh Grafter"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "size": "Large",
+   "type": "monstrosity",
+   "challenge_rating": 3,
+   "ac": 14,
+   "hp": 52,
+   "page": 186,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Dragonnel"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "size": "Large",
+   "type": "dragon",
+   "challenge_rating": 2,
+   "ac": 13,
+   "hp": 58,
+   "page": 190,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Drow Arachnomancer"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "humanoid",
+   "challenge_rating": 13,
+   "ac": 15,
+   "hp": 162,
+   "page": 99,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Drow Favored Consort"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "humanoid",
+   "challenge_rating": 18,
+   "ac": 15,
+   "hp": 240,
+   "page": 100,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Drow House Captain"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "humanoid",
+   "challenge_rating": 9,
+   "ac": 16,
+   "hp": 162,
+   "page": 101,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Drow Inquisitor"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "humanoid",
+   "challenge_rating": 14,
+   "ac": 16,
+   "hp": 149,
+   "page": 102,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Drow Matron Mother"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "humanoid",
+   "challenge_rating": 20,
+   "ac": 17,
+   "hp": 247,
+   "page": 104,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Drow Shadowblade"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "humanoid",
+   "challenge_rating": 11,
+   "ac": 17,
+   "hp": 150,
+   "page": 105,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Duergar Despot"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "humanoid",
+   "challenge_rating": 12,
+   "ac": 21,
+   "hp": 119,
+   "page": 107,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Duergar Hammerer"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "construct",
+   "challenge_rating": 2,
+   "ac": 17,
+   "hp": 33,
+   "page": 112,
+   "era": "2014"
+  },
+  "links": {
+   "aidedd": "https://www.google.com/search?q=site%3Aaidedd.org%20Duergar%20Hammerer",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com%20Duergar%20Hammerer"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Duergar Kavalrachni"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "humanoid",
+   "challenge_rating": 2,
+   "ac": 16,
+   "hp": 26,
+   "page": 107,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Duergar Mind Master"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "humanoid",
+   "challenge_rating": 2,
+   "ac": 14,
+   "hp": 39,
+   "page": 108,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Duergar Screamer"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "construct",
+   "challenge_rating": 3,
+   "ac": 15,
+   "hp": 38,
+   "page": 111,
+   "era": "2014"
+  },
+  "links": {
+   "aidedd": "https://www.google.com/search?q=site%3Aaidedd.org%20Duergar%20Screamer",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com%20Duergar%20Screamer"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Duergar Soulblade"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "humanoid",
+   "challenge_rating": 1,
+   "ac": 14,
+   "hp": 27,
+   "page": 109,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Duergar Stone Guard"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "humanoid",
+   "challenge_rating": 2,
+   "ac": 18,
+   "hp": 39,
+   "page": 110,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Duergar Warlord"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "humanoid",
+   "challenge_rating": 6,
+   "ac": 20,
+   "hp": 75,
+   "page": 111,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Duergar Xarrorn"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "humanoid",
+   "challenge_rating": 2,
+   "ac": 18,
+   "hp": 26,
+   "page": 111,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Dust Hulk"
+  },
+  "book": "Bigby Presents: Glory of the Giants",
+  "data": {
+   "size": "Large",
+   "type": "elemental",
+   "challenge_rating": 5,
+   "ac": 16,
+   "hp": 68,
+   "page": 131,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Dybbuk"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "fiend",
+   "challenge_rating": 4,
+   "ac": 14,
+   "hp": 37,
+   "page": 113,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Earth Elemental Myrmidon"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "elemental",
+   "challenge_rating": 7,
+   "ac": 18,
+   "hp": 127,
+   "page": 122,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Echo of Demogorgon"
+  },
+  "book": "Bigby Presents: Glory of the Giants",
+  "data": {
+   "size": "Large",
+   "type": "fiend",
+   "challenge_rating": 6,
+   "ac": 14,
+   "hp": 85,
+   "page": 132,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Egg Hunter Adult"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "size": "Small",
+   "type": "monstrosity",
+   "challenge_rating": 5,
+   "ac": 16,
+   "hp": 52,
+   "page": 193,
+   "era": "2014"
+  },
+  "links": {
+   "aidedd": "https://www.google.com/search?q=site%3Aaidedd.org%20Egg%20Hunter%20Adult",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com%20Egg%20Hunter%20Adult"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Egg Hunter Hatchling"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "size": "Tiny",
+   "type": "monstrosity",
+   "challenge_rating": 2,
+   "ac": 14,
+   "hp": 28,
+   "page": 193,
+   "era": "2014"
+  },
+  "links": {
+   "aidedd": "https://www.google.com/search?q=site%3Aaidedd.org%20Egg%20Hunter%20Hatchling",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com%20Egg%20Hunter%20Hatchling"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Eidolon"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "undead",
+   "challenge_rating": 12,
+   "ac": 9,
+   "hp": 63,
+   "page": 114,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Elder Brain"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Large",
+   "type": "aberration",
+   "challenge_rating": 14,
+   "ac": 10,
+   "hp": 210,
+   "page": 120,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Elder Brain Dragon"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "size": "Gargantuan",
+   "type": "aberration",
+   "challenge_rating": 22,
+   "ac": 17,
+   "hp": 350,
+   "page": 194,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Elder Oblex"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Huge",
+   "type": "ooze",
+   "challenge_rating": 10,
+   "ac": 16,
+   "hp": 115,
+   "page": 199,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Elder Tempest"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Gargantuan",
+   "type": "elemental",
+   "challenge_rating": 23,
+   "ac": 19,
+   "hp": 264,
+   "page": 121,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Elemental Cataclysm",
+   "es": "Cataclismo elemental"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Gargantuan",
+   "type": "elemental",
+   "challenge_rating": 22,
+   "ac": 20,
+   "hp": 370,
+   "page": 111,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Elemental Cultist",
+   "es": "Sectario elemental"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Small or Medium",
+   "type": "humanoid",
+   "challenge_rating": 8,
+   "ac": 16,
+   "hp": 135,
+   "page": 87,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Emerald Dragon Wyrmling"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "size": "Medium",
+   "type": "dragon",
+   "challenge_rating": 2,
+   "ac": 16,
+   "hp": 39,
+   "page": 197,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Emerald Greatwyrm"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "size": "Gargantuan",
+   "type": "dragon",
+   "challenge_rating": 26,
+   "ac": 21,
+   "hp": 507,
+   "page": 201,
+   "era": "2014"
+  },
+  "links": {
+   "aidedd": "https://www.google.com/search?q=site%3Aaidedd.org%20Emerald%20Greatwyrm",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com%20Emerald%20Greatwyrm"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Empyrean",
+   "es": "Empíreo"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Huge",
+   "type": "celestial or fiend",
+   "challenge_rating": 23,
+   "ac": 22,
+   "hp": 346,
+   "page": 113,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Empyrean Iota",
+   "es": "Iota empíreo"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Medium",
+   "type": "celestial or fiend",
+   "challenge_rating": 1,
+   "ac": 13,
+   "hp": 22,
+   "page": 112,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Enchanter Wizard"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "humanoid",
+   "challenge_rating": 5,
+   "ac": 12,
+   "hp": 49,
+   "page": 261,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Enchanting Infiltrator"
+  },
+  "book": "The Book of Many Things",
+  "data": {
+   "size": "Small or Medium",
+   "type": "fey",
+   "challenge_rating": 11,
+   "ac": 18,
+   "hp": 156,
+   "page": 46,
+   "era": "2014"
+  },
+  "links": {
+   "aidedd": "https://www.google.com/search?q=site%3Aaidedd.org%20Enchanting%20Infiltrator",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com%20Enchanting%20Infiltrator"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Ettin Ceremorph"
+  },
+  "book": "Bigby Presents: Glory of the Giants",
+  "data": {
+   "size": "Large",
+   "type": "aberration",
+   "challenge_rating": 8,
+   "ac": 15,
+   "hp": 104,
+   "page": 133,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Euryale"
+  },
+  "book": "The Book of Many Things",
+  "data": {
+   "size": "Medium",
+   "type": "monstrosity",
+   "challenge_rating": 18,
+   "ac": 17,
+   "hp": 297,
+   "page": 189,
+   "era": "2014"
+  },
+  "links": {
+   "aidedd": "https://www.google.com/search?q=site%3Aaidedd.org%20Euryale",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com%20Euryale"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Evoker Wizard"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "humanoid",
+   "challenge_rating": 9,
+   "ac": 12,
+   "hp": 121,
+   "page": 262,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Eyedrake"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "size": "Large",
+   "type": "aberration",
+   "challenge_rating": 8,
+   "ac": 16,
+   "hp": 119,
+   "page": 199,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Faerie Dragon Adult",
+   "es": "Dragón feérico adulto"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Tiny",
+   "type": "dragon",
+   "challenge_rating": 2,
+   "ac": 15,
+   "hp": 35,
+   "page": 117,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Faerie Dragon Youth",
+   "es": "Dragón feérico joven"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Tiny",
+   "type": "dragon",
+   "challenge_rating": 1,
+   "ac": 13,
+   "hp": 21,
+   "page": 117,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Fate Hag"
+  },
+  "book": "The Book of Many Things",
+  "data": {
+   "size": "Medium",
+   "type": "fey",
+   "challenge_rating": 4,
+   "ac": 14,
+   "hp": 71,
+   "page": 176,
+   "era": "2014"
+  },
+  "links": {
+   "aidedd": "https://www.google.com/search?q=site%3Aaidedd.org%20Fate%20Hag",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com%20Fate%20Hag"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Female Steeder"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Large",
+   "type": "monstrosity",
+   "challenge_rating": 1,
+   "ac": 14,
+   "hp": 30,
+   "page": 231,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Fensir Devourer"
+  },
+  "book": "Bigby Presents: Glory of the Giants",
+  "data": {
+   "size": "Huge",
+   "type": "celestial",
+   "challenge_rating": 8,
+   "ac": 17,
+   "hp": 138,
+   "page": 135,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Fensir Skirmisher"
+  },
+  "book": "Bigby Presents: Glory of the Giants",
+  "data": {
+   "size": "Large",
+   "type": "giant",
+   "challenge_rating": 6,
+   "ac": 15,
+   "hp": 94,
+   "page": 135,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Fiend Cultist",
+   "es": "Sectario infernal"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Small or Medium",
+   "type": "humanoid",
+   "challenge_rating": 8,
+   "ac": 16,
+   "hp": 127,
+   "page": 87,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Firbolg Primeval Warden"
+  },
+  "book": "Bigby Presents: Glory of the Giants",
+  "data": {
+   "size": "Medium",
+   "type": "humanoid",
+   "challenge_rating": 4,
+   "ac": 16,
+   "hp": 65,
+   "page": 136,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Firbolg Wanderer"
+  },
+  "book": "Bigby Presents: Glory of the Giants",
+  "data": {
+   "size": "Medium",
+   "type": "humanoid",
+   "challenge_rating": 5,
+   "ac": 16,
+   "hp": 90,
+   "page": 137,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Fire Elemental Myrmidon"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "elemental",
+   "challenge_rating": 7,
+   "ac": 18,
+   "hp": 123,
+   "page": 123,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Fire Giant Dreadnought"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Huge",
+   "type": "giant",
+   "challenge_rating": 14,
+   "ac": 21,
+   "hp": 187,
+   "page": 124,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Fire Giant Forgecaller"
+  },
+  "book": "Bigby Presents: Glory of the Giants",
+  "data": {
+   "size": "Huge",
+   "type": "giant",
+   "challenge_rating": 18,
+   "ac": 18,
+   "hp": 312,
+   "page": 138,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Fire Giant of Evil Fire"
+  },
+  "book": "Bigby Presents: Glory of the Giants",
+  "data": {
+   "size": "Huge",
+   "type": "giant",
+   "challenge_rating": 10,
+   "ac": 18,
+   "hp": 150,
+   "page": 139,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Fire Hellion"
+  },
+  "book": "Bigby Presents: Glory of the Giants",
+  "data": {
+   "size": "Huge",
+   "type": "fiend",
+   "challenge_rating": 11,
+   "ac": 18,
+   "hp": 175,
+   "page": 140,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Firegaunt"
+  },
+  "book": "Bigby Presents: Glory of the Giants",
+  "data": {
+   "size": "Huge",
+   "type": "undead",
+   "challenge_rating": 11,
+   "ac": 15,
+   "hp": 175,
+   "page": 137,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Firenewt Warlock of Imix"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "elemental",
+   "challenge_rating": 1,
+   "ac": 10,
+   "hp": 33,
+   "page": 125,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Firenewt Warrior"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "elemental",
+   "challenge_rating": 0.5,
+   "ac": 13,
+   "hp": 27,
+   "page": 125,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Flail Snail"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Large",
+   "type": "elemental",
+   "challenge_rating": 3,
+   "ac": 16,
+   "hp": 52,
+   "page": 126,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Flameskull",
+   "es": "Calavera llameante"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Tiny",
+   "type": "undead",
+   "challenge_rating": 4,
+   "ac": 13,
+   "hp": 40,
+   "page": 120,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Flaming Skeleton",
+   "es": "Esqueleto llameante"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Medium",
+   "type": "undead",
+   "challenge_rating": 3,
+   "ac": 15,
+   "hp": 65,
+   "page": 283,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Flesh Colossus"
+  },
+  "book": "Bigby Presents: Glory of the Giants",
+  "data": {
+   "size": "Gargantuan",
+   "type": "construct",
+   "challenge_rating": 20,
+   "ac": 14,
+   "hp": 280,
+   "page": 141,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Flind"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "fiend",
+   "challenge_rating": 9,
+   "ac": 16,
+   "hp": 127,
+   "page": 127,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Flumph",
+   "es": "Flumph"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Small",
+   "type": "aberration",
+   "challenge_rating": 0.125,
+   "ac": 12,
+   "hp": 7,
+   "page": 122,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Fomorian",
+   "es": "Fomoré"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Huge",
+   "type": "giant",
+   "challenge_rating": 8,
+   "ac": 14,
+   "hp": 172,
+   "page": 123,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Fomorian Deep Crawler"
+  },
+  "book": "Bigby Presents: Glory of the Giants",
+  "data": {
+   "size": "Huge",
+   "type": "giant",
+   "challenge_rating": 10,
+   "ac": 14,
+   "hp": 184,
+   "page": 142,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Fomorian Noble"
+  },
+  "book": "Bigby Presents: Glory of the Giants",
+  "data": {
+   "size": "Huge",
+   "type": "giant",
+   "challenge_rating": 15,
+   "ac": 14,
+   "hp": 253,
+   "page": 143,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Fomorian Warlock of the Dark"
+  },
+  "book": "Bigby Presents: Glory of the Giants",
+  "data": {
+   "size": "Huge",
+   "type": "giant",
+   "challenge_rating": 12,
+   "ac": 15,
+   "hp": 207,
+   "page": 144,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Fraz-Urb'luu"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Large",
+   "type": "fiend",
+   "challenge_rating": 23,
+   "ac": 18,
+   "hp": 337,
+   "page": 129,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Froghemoth"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Huge",
+   "type": "monstrosity",
+   "challenge_rating": 10,
+   "ac": 14,
+   "hp": 161,
+   "page": 130,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Frost Giant Everlasting One"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Huge",
+   "type": "giant",
+   "challenge_rating": 12,
+   "ac": 15,
+   "hp": 189,
+   "page": 131,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Frost Giant Ice Shaper"
+  },
+  "book": "Bigby Presents: Glory of the Giants",
+  "data": {
+   "size": "Huge",
+   "type": "giant",
+   "challenge_rating": 17,
+   "ac": 16,
+   "hp": 310,
+   "page": 145,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Frost Giant of Evil Water"
+  },
+  "book": "Bigby Presents: Glory of the Giants",
+  "data": {
+   "size": "Huge",
+   "type": "giant",
+   "challenge_rating": 11,
+   "ac": 16,
+   "hp": 172,
+   "page": 146,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Frost Salamander"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Huge",
+   "type": "elemental",
+   "challenge_rating": 9,
+   "ac": 17,
+   "hp": 168,
+   "page": 132,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Frostmourn"
+  },
+  "book": "Bigby Presents: Glory of the Giants",
+  "data": {
+   "size": "Huge",
+   "type": "undead",
+   "challenge_rating": 10,
+   "ac": 13,
+   "hp": 195,
+   "page": 147,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Fury of Kostchtchie"
+  },
+  "book": "Bigby Presents: Glory of the Giants",
+  "data": {
+   "size": "Huge",
+   "type": "fiend",
+   "challenge_rating": 14,
+   "ac": 16,
+   "hp": 216,
+   "page": 148,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Galeb Duhr",
+   "es": "Galeb Duhr"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Medium",
+   "type": "elemental",
+   "challenge_rating": 6,
+   "ac": 16,
+   "hp": 123,
+   "page": 127,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Gargantua"
+  },
+  "book": "Bigby Presents: Glory of the Giants",
+  "data": {
+   "size": "Gargantuan",
+   "type": "aberration",
+   "challenge_rating": 21,
+   "ac": 17,
+   "hp": 388,
+   "page": 149,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Gas Spore Fungus",
+   "es": "Hongo espora de gas"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Large",
+   "type": "plant",
+   "challenge_rating": 0.5,
+   "ac": 8,
+   "hp": 13,
+   "page": 125,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Gauth"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "aberration",
+   "challenge_rating": 6,
+   "ac": 15,
+   "hp": 52,
+   "page": 133,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Gazer"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Tiny",
+   "type": "aberration",
+   "challenge_rating": 0.5,
+   "ac": 13,
+   "hp": 13,
+   "page": 134,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Gem Stalker"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "size": "Large",
+   "type": "monstrosity",
+   "challenge_rating": 5,
+   "ac": 17,
+   "hp": 67,
+   "page": 202,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Geryon"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Huge",
+   "type": "fiend",
+   "challenge_rating": 22,
+   "ac": 19,
+   "hp": 300,
+   "page": 136,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Ghast Gravecaller",
+   "es": "Ghast llamatumbas"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Medium",
+   "type": "undead",
+   "challenge_rating": 6,
+   "ac": 16,
+   "hp": 97,
+   "page": 130,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Ghost Dragon"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "size": "Huge",
+   "type": "undead",
+   "challenge_rating": 17,
+   "ac": 10,
+   "hp": 324,
+   "page": 203,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Giant Axe Beak",
+   "es": "Pico de hacha gigante"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Huge",
+   "type": "monstrosity",
+   "challenge_rating": 5,
+   "ac": 15,
+   "hp": 84,
+   "page": 24,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Giant Canary"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "size": "Large",
+   "type": "beast",
+   "challenge_rating": 0.5,
+   "ac": 12,
+   "hp": 26,
+   "page": 23,
+   "era": "2014"
+  },
+  "links": {
+   "aidedd": "https://www.google.com/search?q=site%3Aaidedd.org%20Giant%20Canary",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com%20Giant%20Canary"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Giant Child"
+  },
+  "book": "Bigby Presents: Glory of the Giants",
+  "data": {
+   "size": "Medium",
+   "type": "giant",
+   "challenge_rating": 0,
+   "ac": 10,
+   "hp": 4,
+   "page": 34,
+   "era": "2014"
+  },
+  "links": {
+   "aidedd": "https://www.google.com/search?q=site%3Aaidedd.org%20Giant%20Child",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com%20Giant%20Child"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Giant Goose"
+  },
+  "book": "Bigby Presents: Glory of the Giants",
+  "data": {
+   "size": "Large",
+   "type": "fey",
+   "challenge_rating": 3,
+   "ac": 13,
+   "hp": 60,
+   "page": 150,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Giant Lynx"
+  },
+  "book": "Bigby Presents: Glory of the Giants",
+  "data": {
+   "size": "Medium",
+   "type": "fey",
+   "challenge_rating": 0.5,
+   "ac": 14,
+   "hp": 22,
+   "page": 151,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Giant Ox"
+  },
+  "book": "Bigby Presents: Glory of the Giants",
+  "data": {
+   "size": "Huge",
+   "type": "fey",
+   "challenge_rating": 3,
+   "ac": 12,
+   "hp": 105,
+   "page": 152,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Giant Ram"
+  },
+  "book": "Bigby Presents: Glory of the Giants",
+  "data": {
+   "size": "Large",
+   "type": "fey",
+   "challenge_rating": 1,
+   "ac": 13,
+   "hp": 28,
+   "page": 153,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Giant Squid",
+   "es": "Calamar gigante"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Huge",
+   "type": "beast",
+   "challenge_rating": 6,
+   "ac": 12,
+   "hp": 120,
+   "page": 360,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Giant Strider"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Large",
+   "type": "elemental",
+   "challenge_rating": 1,
+   "ac": 14,
+   "hp": 22,
+   "page": 137,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Giant Tick"
+  },
+  "book": "Bigby Presents: Glory of the Giants",
+  "data": {
+   "size": "Medium",
+   "type": "monstrosity",
+   "challenge_rating": 2,
+   "ac": 14,
+   "hp": 52,
+   "page": 153,
+   "era": "2014"
+  },
+  "links": {
+   "aidedd": "https://www.google.com/search?q=site%3Aaidedd.org%20Giant%20Tick",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com%20Giant%20Tick"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Giff"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "humanoid",
+   "challenge_rating": 3,
+   "ac": 16,
+   "hp": 60,
+   "page": 138,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Gigant"
+  },
+  "book": "Bigby Presents: Glory of the Giants",
+  "data": {
+   "size": "Gargantuan",
+   "type": "monstrosity",
+   "challenge_rating": 20,
+   "ac": 17,
+   "hp": 325,
+   "page": 154,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Girallon"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Large",
+   "type": "monstrosity",
+   "challenge_rating": 4,
+   "ac": 13,
+   "hp": 59,
+   "page": 139,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Githyanki Dracomancer",
+   "es": "Dracomante githyanki"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Medium",
+   "type": "aberration",
+   "challenge_rating": 16,
+   "ac": 18,
+   "hp": 255,
+   "page": 135,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Githyanki Gish"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "humanoid",
+   "challenge_rating": 10,
+   "ac": 17,
+   "hp": 130,
+   "page": 140,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Githyanki Kith'rak"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "humanoid",
+   "challenge_rating": 12,
+   "ac": 18,
+   "hp": 180,
+   "page": 140,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Githyanki Knight",
+   "es": "Caballero githyanki"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Medium",
+   "type": "aberration",
+   "challenge_rating": 8,
+   "ac": 18,
+   "hp": 117,
+   "page": 135,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Githyanki Supreme Commander"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "humanoid",
+   "challenge_rating": 14,
+   "ac": 18,
+   "hp": 187,
+   "page": 141,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Githyanki Warrior",
+   "es": "Guerrero githyanki"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Medium",
+   "type": "aberration",
+   "challenge_rating": 3,
+   "ac": 17,
+   "hp": 49,
+   "page": 134,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Githzerai Anarch"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "humanoid",
+   "challenge_rating": 16,
+   "ac": 20,
+   "hp": 144,
+   "page": 142,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Githzerai Enlightened"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "humanoid",
+   "challenge_rating": 10,
+   "ac": 18,
+   "hp": 112,
+   "page": 143,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Githzerai Monk",
+   "es": "Monje githzerai"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Medium",
+   "type": "aberration",
+   "challenge_rating": 2,
+   "ac": 14,
+   "hp": 38,
+   "page": 136,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Githzerai Psion",
+   "es": "Psión githzerai"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Medium",
+   "type": "aberration",
+   "challenge_rating": 12,
+   "ac": 18,
+   "hp": 169,
+   "page": 137,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Githzerai Zerth",
+   "es": "Zerth githzerai"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Medium",
+   "type": "aberration",
+   "challenge_rating": 6,
+   "ac": 17,
+   "hp": 84,
+   "page": 137,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Gnoll Demoniac",
+   "es": "Gnoll demoníaco"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Medium",
+   "type": "fiend",
+   "challenge_rating": 8,
+   "ac": 16,
+   "hp": 135,
+   "page": 141,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Gnoll Fang of Yeenoghu",
+   "es": "Gnoll colmillo de Yeenoghu"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Medium",
+   "type": "fiend",
+   "challenge_rating": 4,
+   "ac": 14,
+   "hp": 71,
+   "page": 141,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Gnoll Flesh Gnawer"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "monstrosity",
+   "challenge_rating": 1,
+   "ac": 14,
+   "hp": 22,
+   "page": 144,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Gnoll Hunter"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "monstrosity",
+   "challenge_rating": 0.5,
+   "ac": 13,
+   "hp": 22,
+   "page": 144,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Gnoll Pack Lord",
+   "es": "Gnoll líder de manada"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Medium",
+   "type": "fiend",
+   "challenge_rating": 2,
+   "ac": 15,
+   "hp": 49,
+   "page": 140,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Gnoll Witherling"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "undead",
+   "challenge_rating": 0.25,
+   "ac": 12,
+   "hp": 11,
+   "page": 145,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Goblin Hexer",
+   "es": "Goblin embrujador"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Small",
+   "type": "fey",
+   "challenge_rating": 3,
+   "ac": 13,
+   "hp": 45,
+   "page": 143,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Gold Greatwyrm"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "size": "Gargantuan",
+   "type": "dragon",
+   "challenge_rating": 28,
+   "ac": 22,
+   "hp": 565,
+   "page": 208,
+   "era": "2014"
+  },
+  "links": {
+   "aidedd": "https://www.google.com/search?q=site%3Aaidedd.org%20Gold%20Greatwyrm",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com%20Gold%20Greatwyrm"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Goliath Giant-Kin"
+  },
+  "book": "Bigby Presents: Glory of the Giants",
+  "data": {
+   "size": "Medium",
+   "type": "humanoid",
+   "challenge_rating": 3,
+   "ac": 18,
+   "hp": 67,
+   "page": 155,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Goristro",
+   "es": "Goristro"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Huge",
+   "type": "fiend",
+   "challenge_rating": 17,
+   "ac": 19,
+   "hp": 310,
+   "page": 150,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Graveyard Revenant",
+   "es": "Redivivo de cementerio"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Huge",
+   "type": "undead",
+   "challenge_rating": 7,
+   "ac": 14,
+   "hp": 161,
+   "page": 260,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Gray Render"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Large",
+   "type": "monstrosity",
+   "challenge_rating": 12,
+   "ac": 19,
+   "hp": 189,
+   "page": 146,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Gray Slaad",
+   "es": "Slaad gris"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Medium",
+   "type": "aberration",
+   "challenge_rating": 9,
+   "ac": 18,
+   "hp": 150,
+   "page": 286,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Graz'zt"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Large",
+   "type": "fiend",
+   "challenge_rating": 24,
+   "ac": 20,
+   "hp": 346,
+   "page": 148,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Green Abishai"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "fiend",
+   "challenge_rating": 15,
+   "ac": 18,
+   "hp": 195,
+   "page": 40,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Green Greatwyrm"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "size": "Gargantuan",
+   "type": "dragon",
+   "challenge_rating": 27,
+   "ac": 22,
+   "hp": 533,
+   "page": 168,
+   "era": "2014"
+  },
+  "links": {
+   "aidedd": "https://www.google.com/search?q=site%3Aaidedd.org%20Green%20Greatwyrm",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com%20Green%20Greatwyrm"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Green Slaad",
+   "es": "Slaad verde"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Large",
+   "type": "aberration",
+   "challenge_rating": 8,
+   "ac": 16,
+   "hp": 144,
+   "page": 286,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Grell",
+   "es": "Grell"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Medium",
+   "type": "aberration",
+   "challenge_rating": 3,
+   "ac": 12,
+   "hp": 55,
+   "page": 157,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Gremorly's Ghost"
+  },
+  "book": "The Book of Many Things",
+  "data": {
+   "size": "Medium",
+   "type": "undead",
+   "challenge_rating": 9,
+   "ac": 12,
+   "hp": 82,
+   "page": 122,
+   "era": "2014"
+  },
+  "links": {
+   "aidedd": "https://www.google.com/search?q=site%3Aaidedd.org%20Gremorly%27s%20Ghost",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com%20Gremorly%27s%20Ghost"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Grick Ancient",
+   "es": "Grick anciano"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Large",
+   "type": "aberration",
+   "challenge_rating": 7,
+   "ac": 18,
+   "hp": 135,
+   "page": 158,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Grim Champion of Bloodshed"
+  },
+  "book": "The Book of Many Things",
+  "data": {
+   "size": "Medium",
+   "type": "undead",
+   "challenge_rating": 20,
+   "ac": 18,
+   "hp": 280,
+   "page": 161,
+   "era": "2014"
+  },
+  "links": {
+   "aidedd": "https://www.google.com/search?q=site%3Aaidedd.org%20Grim%20Champion%20of%20Bloodshed",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com%20Grim%20Champion%20of%20Bloodshed"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Grim Champion of Desolation"
+  },
+  "book": "The Book of Many Things",
+  "data": {
+   "size": "Medium",
+   "type": "undead",
+   "challenge_rating": 25,
+   "ac": 18,
+   "hp": 416,
+   "page": 162,
+   "era": "2014"
+  },
+  "links": {
+   "aidedd": "https://www.google.com/search?q=site%3Aaidedd.org%20Grim%20Champion%20of%20Desolation",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com%20Grim%20Champion%20of%20Desolation"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Grim Champion of Pestilence"
+  },
+  "book": "The Book of Many Things",
+  "data": {
+   "size": "Medium",
+   "type": "undead",
+   "challenge_rating": 15,
+   "ac": 14,
+   "hp": 120,
+   "page": 163,
+   "era": "2014"
+  },
+  "links": {
+   "aidedd": "https://www.google.com/search?q=site%3Aaidedd.org%20Grim%20Champion%20of%20Pestilence",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com%20Grim%20Champion%20of%20Pestilence"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Grinning Cat"
+  },
+  "book": "Bigby Presents: Glory of the Giants",
+  "data": {
+   "size": "Large",
+   "type": "fey",
+   "challenge_rating": 1,
+   "ac": 12,
+   "hp": 45,
+   "page": 156,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Grung"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Small",
+   "type": "humanoid",
+   "challenge_rating": 0.25,
+   "ac": 12,
+   "hp": 11,
+   "page": 149,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Grung Elite Warrior"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Small",
+   "type": "humanoid",
+   "challenge_rating": 2,
+   "ac": 13,
+   "hp": 49,
+   "page": 150,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Grung Wildling"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Small",
+   "type": "humanoid",
+   "challenge_rating": 1,
+   "ac": 16,
+   "hp": 27,
+   "page": 150,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Guard Drake"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "dragon",
+   "challenge_rating": 2,
+   "ac": 14,
+   "hp": 52,
+   "page": 151,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Gulthias Blight",
+   "es": "Marchita de Gulthias"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Gargantuan",
+   "type": "plant",
+   "challenge_rating": 16,
+   "ac": 20,
+   "hp": 264,
+   "page": 45,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Hadrosaurus"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Large",
+   "type": "beast",
+   "challenge_rating": 0.25,
+   "ac": 11,
+   "hp": 19,
+   "page": 96,
+   "era": "2014"
+  },
+  "links": {
+   "aidedd": "https://www.google.com/search?q=site%3Aaidedd.org%20Hadrosaurus",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com%20Hadrosaurus"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Harrow Hawk"
+  },
+  "book": "The Book of Many Things",
+  "data": {
+   "size": "Tiny",
+   "type": "undead",
+   "challenge_rating": 1,
+   "ac": 13,
+   "hp": 25,
+   "page": 177,
+   "era": "2014"
+  },
+  "links": {
+   "aidedd": "https://www.google.com/search?q=site%3Aaidedd.org%20Harrow%20Hawk",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com%20Harrow%20Hawk"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Harrow Hound"
+  },
+  "book": "The Book of Many Things",
+  "data": {
+   "size": "Medium",
+   "type": "undead",
+   "challenge_rating": 3,
+   "ac": 15,
+   "hp": 45,
+   "page": 164,
+   "era": "2014"
+  },
+  "links": {
+   "aidedd": "https://www.google.com/search?q=site%3Aaidedd.org%20Harrow%20Hound",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com%20Harrow%20Hound"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Haunting Revenant",
+   "es": "Redivivo de guarida"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Gargantuan",
+   "type": "undead",
+   "challenge_rating": 10,
+   "ac": 20,
+   "hp": 203,
+   "page": 260,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Hellfire Engine"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Huge",
+   "type": "construct",
+   "challenge_rating": 16,
+   "ac": 18,
+   "hp": 216,
+   "page": 152,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Helmed Horror",
+   "es": "Horror acorazado"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Medium",
+   "type": "construct",
+   "challenge_rating": 4,
+   "ac": 20,
+   "hp": 67,
+   "page": 166,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Hierophant Medusa"
+  },
+  "book": "The Book of Many Things",
+  "data": {
+   "size": "Large",
+   "type": "monstrosity",
+   "challenge_rating": 17,
+   "ac": 17,
+   "hp": 237,
+   "page": 179,
+   "era": "2014"
+  },
+  "links": {
+   "aidedd": "https://www.google.com/search?q=site%3Aaidedd.org%20Hierophant%20Medusa",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com%20Hierophant%20Medusa"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Hierophant of the Comet"
+  },
+  "book": "The Book of Many Things",
+  "data": {
+   "size": "Medium",
+   "type": "humanoid",
+   "challenge_rating": 11,
+   "ac": 15,
+   "hp": 153,
+   "page": 92,
+   "era": "2014"
+  },
+  "links": {
+   "aidedd": "https://www.google.com/search?q=site%3Aaidedd.org%20Hierophant%20of%20the%20Comet",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com%20Hierophant%20of%20the%20Comet"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Hill Giant Avalancher"
+  },
+  "book": "Bigby Presents: Glory of the Giants",
+  "data": {
+   "size": "Huge",
+   "type": "giant",
+   "challenge_rating": 12,
+   "ac": 15,
+   "hp": 220,
+   "page": 157,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Hoard Mimic"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "size": "Huge",
+   "type": "monstrosity",
+   "challenge_rating": 8,
+   "ac": 14,
+   "hp": 123,
+   "page": 204,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Hoard Scarab"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "size": "Tiny",
+   "type": "monstrosity",
+   "challenge_rating": 0.125,
+   "ac": 14,
+   "hp": 7,
+   "page": 205,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Hobgoblin Devastator"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "fey",
+   "challenge_rating": 4,
+   "ac": 13,
+   "hp": 45,
+   "page": 153,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Hobgoblin Iron Shadow"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "fey",
+   "challenge_rating": 2,
+   "ac": 15,
+   "hp": 32,
+   "page": 154,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Hobgoblin Warlord",
+   "es": "Hobgoblin señor de la guerra"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Medium",
+   "type": "fey",
+   "challenge_rating": 6,
+   "ac": 20,
+   "hp": 112,
+   "page": 171,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Hollow Dragon"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "size": "Huge",
+   "type": "undead",
+   "challenge_rating": 18,
+   "ac": 19,
+   "hp": 241,
+   "page": 206,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Hook Horror",
+   "es": "Horror ganchudo"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Large",
+   "type": "monstrosity",
+   "challenge_rating": 3,
+   "ac": 15,
+   "hp": 75,
+   "page": 173,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Howler"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Large",
+   "type": "fiend",
+   "challenge_rating": 8,
+   "ac": 16,
+   "hp": 90,
+   "page": 155,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Hulgaz"
+  },
+  "book": "The Book of Many Things",
+  "data": {
+   "size": "Large",
+   "type": "fiend",
+   "challenge_rating": 14,
+   "ac": 17,
+   "hp": 190,
+   "page": 169,
+   "era": "2014"
+  },
+  "links": {
+   "aidedd": "https://www.google.com/search?q=site%3Aaidedd.org%20Hulgaz",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com%20Hulgaz"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Hungry Sorrowsworn"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "monstrosity",
+   "challenge_rating": 11,
+   "ac": 17,
+   "hp": 225,
+   "page": 223,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Hutijin"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Large",
+   "type": "fiend",
+   "challenge_rating": 21,
+   "ac": 19,
+   "hp": 200,
+   "page": 157,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Hydroloth"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "fiend",
+   "challenge_rating": 9,
+   "ac": 15,
+   "hp": 135,
+   "page": 158,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Illusionist Wizard"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "humanoid",
+   "challenge_rating": 3,
+   "ac": 12,
+   "hp": 44,
+   "page": 263,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Initiate of the Comet"
+  },
+  "book": "The Book of Many Things",
+  "data": {
+   "size": "Medium",
+   "type": "humanoid",
+   "challenge_rating": 4,
+   "ac": 12,
+   "hp": 75,
+   "page": 93,
+   "era": "2014"
+  },
+  "links": {
+   "aidedd": "https://www.google.com/search?q=site%3Aaidedd.org%20Initiate%20of%20the%20Comet",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com%20Initiate%20of%20the%20Comet"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Intellect Devourer",
+   "es": "Devorador de intelectos"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Tiny",
+   "type": "aberration",
+   "challenge_rating": 2,
+   "ac": 12,
+   "hp": 28,
+   "page": 179,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Jackalwere",
+   "es": "Hombre chacal"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Small",
+   "type": "fiend",
+   "challenge_rating": 0.5,
+   "ac": 12,
+   "hp": 18,
+   "page": 182,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Juiblex"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Huge",
+   "type": "fiend",
+   "challenge_rating": 23,
+   "ac": 18,
+   "hp": 350,
+   "page": 160,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Juvenile Shadow Dragon",
+   "es": "Dragón sombrío juvenil"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Medium",
+   "type": "dragon",
+   "challenge_rating": 4,
+   "ac": 15,
+   "hp": 45,
+   "page": 275,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Kenku",
+   "es": "Kenku"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Medium",
+   "type": "monstrosity",
+   "challenge_rating": 0.25,
+   "ac": 13,
+   "hp": 13,
+   "page": 183,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Ki-rin"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Large",
+   "type": "celestial",
+   "challenge_rating": 12,
+   "ac": 20,
+   "hp": 153,
+   "page": 162,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Kobold Dragonshield"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Small",
+   "type": "dragon",
+   "challenge_rating": 1,
+   "ac": 15,
+   "hp": 44,
+   "page": 163,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Kobold Inventor"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Small",
+   "type": "humanoid",
+   "challenge_rating": 0.25,
+   "ac": 12,
+   "hp": 13,
+   "page": 164,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Kobold Scale Sorcerer"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Small",
+   "type": "humanoid",
+   "challenge_rating": 1,
+   "ac": 15,
+   "hp": 27,
+   "page": 165,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Korred"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Small",
+   "type": "fey",
+   "challenge_rating": 7,
+   "ac": 17,
+   "hp": 93,
+   "page": 166,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Kraken Priest"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "monstrosity",
+   "challenge_rating": 5,
+   "ac": 15,
+   "hp": 75,
+   "page": 167,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Kruthik Hive Lord"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Large",
+   "type": "monstrosity",
+   "challenge_rating": 5,
+   "ac": 20,
+   "hp": 102,
+   "page": 169,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Kuo-toa",
+   "es": "Kuo-toa"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Medium",
+   "type": "aberration",
+   "challenge_rating": 0.25,
+   "ac": 13,
+   "hp": 18,
+   "page": 189,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Kuo-toa Archpriest",
+   "es": "Kuo-toa arcipreste"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Medium",
+   "type": "aberration",
+   "challenge_rating": 6,
+   "ac": 13,
+   "hp": 105,
+   "page": 191,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Kuo-toa Monitor",
+   "es": "Kuo-toa vigilante"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Medium",
+   "type": "aberration",
+   "challenge_rating": 3,
+   "ac": 13,
+   "hp": 65,
+   "page": 190,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Kuo-toa Whip",
+   "es": "Kuo-toa látigo"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Medium",
+   "type": "aberration",
+   "challenge_rating": 1,
+   "ac": 11,
+   "hp": 45,
+   "page": 190,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Lacedon Ghoul",
+   "es": "Gul lacedón"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Medium",
+   "type": "undead",
+   "challenge_rating": 1,
+   "ac": 12,
+   "hp": 22,
+   "page": 132,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Larva",
+   "es": "Larva"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Medium",
+   "type": "fiend",
+   "challenge_rating": 0,
+   "ac": 9,
+   "hp": 9,
+   "page": 193,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Leucrotta"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Large",
+   "type": "monstrosity",
+   "challenge_rating": 3,
+   "ac": 14,
+   "hp": 67,
+   "page": 170,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Leviathan"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Gargantuan",
+   "type": "elemental",
+   "challenge_rating": 20,
+   "ac": 17,
+   "hp": 328,
+   "page": 171,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Lightning Hulk"
+  },
+  "book": "Bigby Presents: Glory of the Giants",
+  "data": {
+   "size": "Large",
+   "type": "elemental",
+   "challenge_rating": 9,
+   "ac": 15,
+   "hp": 102,
+   "page": 158,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Liondrake"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "size": "Large",
+   "type": "monstrosity",
+   "challenge_rating": 7,
+   "ac": 16,
+   "hp": 119,
+   "page": 207,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Living Portent"
+  },
+  "book": "The Book of Many Things",
+  "data": {
+   "size": "Small or Medium",
+   "type": "celestial",
+   "challenge_rating": 3,
+   "ac": 15,
+   "hp": 65,
+   "page": 180,
+   "era": "2014"
+  },
+  "links": {
+   "aidedd": "https://www.google.com/search?q=site%3Aaidedd.org%20Living%20Portent",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com%20Living%20Portent"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Lizardfolk Geomancer",
+   "es": "Hombre lagarto geomante"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Medium",
+   "type": "elemental",
+   "challenge_rating": 2,
+   "ac": 13,
+   "hp": 33,
+   "page": 197,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Lizardfolk Sovereign",
+   "es": "Hombre lagarto soberano"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Medium",
+   "type": "elemental",
+   "challenge_rating": 4,
+   "ac": 15,
+   "hp": 78,
+   "page": 197,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Lonely Sorrowsworn"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "monstrosity",
+   "challenge_rating": 9,
+   "ac": 16,
+   "hp": 112,
+   "page": 223,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Lost Sorrowsworn"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "monstrosity",
+   "challenge_rating": 7,
+   "ac": 15,
+   "hp": 78,
+   "page": 224,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Mage Apprentice",
+   "es": "Mago aprendiz"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Small or Medium",
+   "type": "humanoid",
+   "challenge_rating": 2,
+   "ac": 15,
+   "hp": 49,
+   "page": 198,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Malaxxix"
+  },
+  "book": "The Book of Many Things",
+  "data": {
+   "size": "Huge",
+   "type": "fiend",
+   "challenge_rating": 18,
+   "ac": 17,
+   "hp": 312,
+   "page": 173,
+   "era": "2014"
+  },
+  "links": {
+   "aidedd": "https://www.google.com/search?q=site%3Aaidedd.org%20Malaxxix",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com%20Malaxxix"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Male Steeder"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "monstrosity",
+   "challenge_rating": 0.25,
+   "ac": 12,
+   "hp": 13,
+   "page": 231,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Manes",
+   "es": "Mane"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Small",
+   "type": "fiend",
+   "challenge_rating": 0.125,
+   "ac": 9,
+   "hp": 9,
+   "page": 201,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Manes Vaporspawn",
+   "es": "Mane engendro vaporoso"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Medium",
+   "type": "fiend",
+   "challenge_rating": 1,
+   "ac": 13,
+   "hp": 19,
+   "page": 201,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Marid",
+   "es": "Marid"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Large",
+   "type": "elemental",
+   "challenge_rating": 11,
+   "ac": 17,
+   "hp": 229,
+   "page": 203,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Martial Arts Adept"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "humanoid",
+   "challenge_rating": 3,
+   "ac": 16,
+   "hp": 60,
+   "page": 172,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Marut"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Large",
+   "type": "construct",
+   "challenge_rating": 25,
+   "ac": 22,
+   "hp": 432,
+   "page": 173,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Master Thief"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "humanoid",
+   "challenge_rating": 5,
+   "ac": 16,
+   "hp": 84,
+   "page": 174,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Maurezhi"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "fiend",
+   "challenge_rating": 7,
+   "ac": 15,
+   "hp": 88,
+   "page": 175,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Maw Demon"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "fiend",
+   "challenge_rating": 1,
+   "ac": 13,
+   "hp": 33,
+   "page": 176,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Maw of Yeenoghu"
+  },
+  "book": "Bigby Presents: Glory of the Giants",
+  "data": {
+   "size": "Huge",
+   "type": "fiend",
+   "challenge_rating": 10,
+   "ac": 15,
+   "hp": 161,
+   "page": 159,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Meazel"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "monstrosity",
+   "challenge_rating": 1,
+   "ac": 13,
+   "hp": 35,
+   "page": 177,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Meenlock"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Small",
+   "type": "fey",
+   "challenge_rating": 2,
+   "ac": 15,
+   "hp": 31,
+   "page": 178,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Merfolk Wavebender",
+   "es": "Sirénido dominaolas"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Medium",
+   "type": "elemental",
+   "challenge_rating": 6,
+   "ac": 14,
+   "hp": 97,
+   "page": 209,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Merregon"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "fiend",
+   "challenge_rating": 4,
+   "ac": 16,
+   "hp": 45,
+   "page": 179,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Merrenoloth"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "fiend",
+   "challenge_rating": 3,
+   "ac": 13,
+   "hp": 40,
+   "page": 180,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Metallic Peacekeeper"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "size": "Medium",
+   "type": "construct",
+   "challenge_rating": 4,
+   "ac": 17,
+   "hp": 68,
+   "page": 210,
+   "era": "2014"
+  },
+  "links": {
+   "aidedd": "https://www.google.com/search?q=site%3Aaidedd.org%20Metallic%20Peacekeeper",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com%20Metallic%20Peacekeeper"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Metallic Warbler"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "size": "Tiny",
+   "type": "construct",
+   "challenge_rating": 0.25,
+   "ac": 14,
+   "hp": 14,
+   "page": 210,
+   "era": "2014"
+  },
+  "links": {
+   "aidedd": "https://www.google.com/search?q=site%3Aaidedd.org%20Metallic%20Warbler",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com%20Metallic%20Warbler"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Mezzoloth",
+   "es": "Mezzoloth"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Medium",
+   "type": "fiend",
+   "challenge_rating": 5,
+   "ac": 18,
+   "hp": 75,
+   "page": 211,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Mind Flayer",
+   "es": "Azotamentes"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Medium",
+   "type": "aberration",
+   "challenge_rating": 7,
+   "ac": 15,
+   "hp": 99,
+   "page": 214,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Mind Flayer Arcanist",
+   "es": "Azotamentes arcanista"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Medium",
+   "type": "aberration",
+   "challenge_rating": 11,
+   "ac": 16,
+   "hp": 143,
+   "page": 214,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Mindwitness"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Large",
+   "type": "aberration",
+   "challenge_rating": 5,
+   "ac": 15,
+   "hp": 75,
+   "page": 181,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Minotaur Archaeologist"
+  },
+  "book": "The Book of Many Things",
+  "data": {
+   "size": "Medium",
+   "type": "humanoid",
+   "challenge_rating": 0.25,
+   "ac": 11,
+   "hp": 18,
+   "page": 126,
+   "era": "2014"
+  },
+  "links": {
+   "aidedd": "https://www.google.com/search?q=site%3Aaidedd.org%20Minotaur%20Archaeologist",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com%20Minotaur%20Archaeologist"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Minotaur Infiltrator"
+  },
+  "book": "The Book of Many Things",
+  "data": {
+   "size": "Medium",
+   "type": "humanoid",
+   "challenge_rating": 2,
+   "ac": 13,
+   "hp": 52,
+   "page": 127,
+   "era": "2014"
+  },
+  "links": {
+   "aidedd": "https://www.google.com/search?q=site%3Aaidedd.org%20Minotaur%20Infiltrator",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com%20Minotaur%20Infiltrator"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Mist Hulk"
+  },
+  "book": "Bigby Presents: Glory of the Giants",
+  "data": {
+   "size": "Large",
+   "type": "elemental",
+   "challenge_rating": 6,
+   "ac": 15,
+   "hp": 94,
+   "page": 160,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Modron Duodrone",
+   "es": "Modrón duodrón"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Medium",
+   "type": "construct",
+   "challenge_rating": 0.25,
+   "ac": 15,
+   "hp": 11,
+   "page": 217,
+   "era": "2024"
+  },
+  "links": {
+   "aidedd": "https://www.google.com/search?q=site%3Aaidedd.org%20Modron%20Duodrone",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com%20Modron%20Duodrone"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Modron Monodrone",
+   "es": "Modrón monodrón"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Medium",
+   "type": "construct",
+   "challenge_rating": 0.125,
+   "ac": 15,
+   "hp": 5,
+   "page": 216,
+   "era": "2024"
+  },
+  "links": {
+   "aidedd": "https://www.google.com/search?q=site%3Aaidedd.org%20Modron%20Monodrone",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com%20Modron%20Monodrone"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Modron Pentadrone",
+   "es": "Modrón pentadrón"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Large",
+   "type": "construct",
+   "challenge_rating": 2,
+   "ac": 16,
+   "hp": 32,
+   "page": 218,
+   "era": "2024"
+  },
+  "links": {
+   "aidedd": "https://www.google.com/search?q=site%3Aaidedd.org%20Modron%20Pentadrone",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com%20Modron%20Pentadrone"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Modron Quadrone",
+   "es": "Modrón cuadrón"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Medium",
+   "type": "construct",
+   "challenge_rating": 1,
+   "ac": 16,
+   "hp": 22,
+   "page": 218,
+   "era": "2024"
+  },
+  "links": {
+   "aidedd": "https://www.google.com/search?q=site%3Aaidedd.org%20Modron%20Quadrone",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com%20Modron%20Quadrone"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Modron Tridrone",
+   "es": "Modrón tridrón"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Medium",
+   "type": "construct",
+   "challenge_rating": 0.5,
+   "ac": 15,
+   "hp": 16,
+   "page": 217,
+   "era": "2024"
+  },
+  "links": {
+   "aidedd": "https://www.google.com/search?q=site%3Aaidedd.org%20Modron%20Tridrone",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com%20Modron%20Tridrone"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Moloch"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Large",
+   "type": "fiend",
+   "challenge_rating": 21,
+   "ac": 19,
+   "hp": 253,
+   "page": 183,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Molydeus"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Huge",
+   "type": "fiend",
+   "challenge_rating": 21,
+   "ac": 19,
+   "hp": 216,
+   "page": 184,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Moonstone Dragon Wyrmling"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "size": "Medium",
+   "type": "dragon",
+   "challenge_rating": 2,
+   "ac": 17,
+   "hp": 39,
+   "page": 213,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Morkoth"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Large",
+   "type": "aberration",
+   "challenge_rating": 11,
+   "ac": 17,
+   "hp": 165,
+   "page": 186,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Mouth of Grolantor"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Huge",
+   "type": "giant",
+   "challenge_rating": 6,
+   "ac": 14,
+   "hp": 105,
+   "page": 187,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Mud Hulk"
+  },
+  "book": "Bigby Presents: Glory of the Giants",
+  "data": {
+   "size": "Large",
+   "type": "elemental",
+   "challenge_rating": 3,
+   "ac": 13,
+   "hp": 68,
+   "page": 161,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Mud Mephit",
+   "es": "Mefit de barro"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Small",
+   "type": "elemental",
+   "challenge_rating": 0.25,
+   "ac": 11,
+   "hp": 13,
+   "page": 207,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Myconid Adult",
+   "es": "Micónido adulto"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Medium",
+   "type": "plant",
+   "challenge_rating": 0.5,
+   "ac": 12,
+   "hp": 16,
+   "page": 223,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Myconid Sovereign",
+   "es": "Micónido soberano"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Large",
+   "type": "plant",
+   "challenge_rating": 2,
+   "ac": 13,
+   "hp": 45,
+   "page": 223,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Myconid Spore Servant",
+   "es": "Micónido siervo espora"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Small or Medium",
+   "type": "plant",
+   "challenge_rating": 1,
+   "ac": 13,
+   "hp": 37,
+   "page": 223,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Myconid Sprout",
+   "es": "Micónido brote"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Small",
+   "type": "plant",
+   "challenge_rating": 0,
+   "ac": 10,
+   "hp": 3,
+   "page": 222,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Nabassu"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "fiend",
+   "challenge_rating": 15,
+   "ac": 18,
+   "hp": 190,
+   "page": 188,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Nagpa"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "monstrosity",
+   "challenge_rating": 17,
+   "ac": 19,
+   "hp": 203,
+   "page": 189,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Narzugon"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "fiend",
+   "challenge_rating": 13,
+   "ac": 20,
+   "hp": 112,
+   "page": 190,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Necromancer Wizard"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "humanoid",
+   "challenge_rating": 9,
+   "ac": 12,
+   "hp": 110,
+   "page": 264,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Needle Blight",
+   "es": "Marchita aguja"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Medium",
+   "type": "plant",
+   "challenge_rating": 0.25,
+   "ac": 12,
+   "hp": 16,
+   "page": 43,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Neogi"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Small",
+   "type": "aberration",
+   "challenge_rating": 3,
+   "ac": 15,
+   "hp": 33,
+   "page": 192,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Neogi Hatchling"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Tiny",
+   "type": "aberration",
+   "challenge_rating": 0.125,
+   "ac": 11,
+   "hp": 7,
+   "page": 191,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Neogi Master"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "aberration",
+   "challenge_rating": 4,
+   "ac": 15,
+   "hp": 71,
+   "page": 192,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Neothelid"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Gargantuan",
+   "type": "aberration",
+   "challenge_rating": 13,
+   "ac": 16,
+   "hp": 232,
+   "page": 193,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Nightwalker"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Huge",
+   "type": "undead",
+   "challenge_rating": 20,
+   "ac": 14,
+   "hp": 337,
+   "page": 194,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Nilbog"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Small",
+   "type": "fey",
+   "challenge_rating": 1,
+   "ac": 13,
+   "hp": 7,
+   "page": 195,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Noble Prodigy",
+   "es": "Noble prodigio"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Small or Medium",
+   "type": "humanoid",
+   "challenge_rating": 10,
+   "ac": 16,
+   "hp": 148,
+   "page": 227,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Nothic",
+   "es": "Nótico"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Medium",
+   "type": "aberration",
+   "challenge_rating": 2,
+   "ac": 15,
+   "hp": 45,
+   "page": 228,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Nupperibo"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "fiend",
+   "challenge_rating": 0.5,
+   "ac": 13,
+   "hp": 11,
+   "page": 196,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Nycaloth",
+   "es": "Nycaloth"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Large",
+   "type": "fiend",
+   "challenge_rating": 9,
+   "ac": 18,
+   "hp": 152,
+   "page": 229,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Oblex Spawn"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Tiny",
+   "type": "ooze",
+   "challenge_rating": 0.25,
+   "ac": 13,
+   "hp": 18,
+   "page": 197,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Oddlewin"
+  },
+  "book": "The Book of Many Things",
+  "data": {
+   "size": "Small",
+   "type": "fey",
+   "challenge_rating": 2,
+   "ac": 13,
+   "hp": 21,
+   "page": 111,
+   "era": "2014"
+  },
+  "links": {
+   "aidedd": "https://www.google.com/search?q=site%3Aaidedd.org%20Oddlewin",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com%20Oddlewin"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Ogre Battering Ram"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Large",
+   "type": "giant",
+   "challenge_rating": 4,
+   "ac": 11,
+   "hp": 76,
+   "page": 200,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Ogre Bolt Launcher"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Large",
+   "type": "giant",
+   "challenge_rating": 2,
+   "ac": 13,
+   "hp": 59,
+   "page": 200,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Ogre Chain Brute"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Large",
+   "type": "giant",
+   "challenge_rating": 3,
+   "ac": 11,
+   "hp": 59,
+   "page": 201,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Ogre Howdah"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Large",
+   "type": "giant",
+   "challenge_rating": 2,
+   "ac": 15,
+   "hp": 59,
+   "page": 201,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Ogrillon Ogre",
+   "es": "Ogrillón"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Large",
+   "type": "giant",
+   "challenge_rating": 1,
+   "ac": 12,
+   "hp": 52,
+   "page": 231,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Oinoloth"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "fiend",
+   "challenge_rating": 12,
+   "ac": 17,
+   "hp": 119,
+   "page": 202,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Orcus"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Huge",
+   "type": "fiend",
+   "challenge_rating": 26,
+   "ac": 17,
+   "hp": 405,
+   "page": 204,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Orthon"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Large",
+   "type": "fiend",
+   "challenge_rating": 10,
+   "ac": 17,
+   "hp": 105,
+   "page": 205,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Otherworldly Corrupter"
+  },
+  "book": "The Book of Many Things",
+  "data": {
+   "size": "Small or Medium",
+   "type": "aberration",
+   "challenge_rating": 17,
+   "ac": 19,
+   "hp": 217,
+   "page": 47,
+   "era": "2014"
+  },
+  "links": {
+   "aidedd": "https://www.google.com/search?q=site%3Aaidedd.org%20Otherworldly%20Corrupter",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com%20Otherworldly%20Corrupter"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Ox"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Large",
+   "type": "beast",
+   "challenge_rating": 0.25,
+   "ac": 10,
+   "hp": 15,
+   "page": 72,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Pazrodine"
+  },
+  "book": "The Book of Many Things",
+  "data": {
+   "size": "Gargantuan",
+   "type": "dragon",
+   "challenge_rating": 21,
+   "ac": 20,
+   "hp": 330,
+   "page": 113,
+   "era": "2014"
+  },
+  "links": {
+   "aidedd": "https://www.google.com/search?q=site%3Aaidedd.org%20Pazrodine",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com%20Pazrodine"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Performer",
+   "es": "Artista"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Small or Medium",
+   "type": "humanoid",
+   "challenge_rating": 0.5,
+   "ac": 13,
+   "hp": 27,
+   "page": 236,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Performer Legend",
+   "es": "Artista legendario"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Small or Medium",
+   "type": "humanoid",
+   "challenge_rating": 10,
+   "ac": 20,
+   "hp": 162,
+   "page": 237,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Performer Maestro",
+   "es": "Artista virtuoso"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Small or Medium",
+   "type": "humanoid",
+   "challenge_rating": 6,
+   "ac": 18,
+   "hp": 110,
+   "page": 237,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Peryton",
+   "es": "Peryton"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Medium",
+   "type": "monstrosity",
+   "challenge_rating": 2,
+   "ac": 13,
+   "hp": 33,
+   "page": 238,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Phoenix"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Gargantuan",
+   "type": "elemental",
+   "challenge_rating": 16,
+   "ac": 18,
+   "hp": 175,
+   "page": 206,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Piercer",
+   "es": "Perforador"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Medium",
+   "type": "aberration",
+   "challenge_rating": 0.5,
+   "ac": 15,
+   "hp": 22,
+   "page": 240,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Pirate Admiral",
+   "es": "Pirata almirante"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Small or Medium",
+   "type": "humanoid",
+   "challenge_rating": 12,
+   "ac": 20,
+   "hp": 182,
+   "page": 242,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Pixie",
+   "es": "Pixie"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Tiny",
+   "type": "fey",
+   "challenge_rating": 0.25,
+   "ac": 15,
+   "hp": 9,
+   "page": 244,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Pixie Wonderbringer",
+   "es": "Pixie hacedor de maravillas"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Tiny",
+   "type": "fey",
+   "challenge_rating": 5,
+   "ac": 15,
+   "hp": 60,
+   "page": 244,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Poltergeist",
+   "es": "Poltergeist"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Small or Medium",
+   "type": "undead",
+   "challenge_rating": 2,
+   "ac": 12,
+   "hp": 22,
+   "page": 246,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Primeval Owlbear",
+   "es": "Oso lechuza primigenio"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Huge",
+   "type": "monstrosity",
+   "challenge_rating": 7,
+   "ac": 16,
+   "hp": 126,
+   "page": 234,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Psychic Gray Ooze",
+   "es": "Cieno gris psíquico"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Medium",
+   "type": "ooze",
+   "challenge_rating": 1,
+   "ac": 9,
+   "hp": 37,
+   "page": 151,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Quaggoth",
+   "es": "Quaggoth"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Medium",
+   "type": "monstrosity",
+   "challenge_rating": 2,
+   "ac": 13,
+   "hp": 45,
+   "page": 251,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Quaggoth Thonot",
+   "es": "Quaggoth thonot"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Medium",
+   "type": "monstrosity",
+   "challenge_rating": 3,
+   "ac": 15,
+   "hp": 67,
+   "page": 251,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Questing Knight",
+   "es": "Caballero andante"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Small or Medium",
+   "type": "humanoid",
+   "challenge_rating": 12,
+   "ac": 18,
+   "hp": 202,
+   "page": 184,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Quetzalcoatlus"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Huge",
+   "type": "beast",
+   "challenge_rating": 2,
+   "ac": 13,
+   "hp": 30,
+   "page": 96,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Quickling"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Tiny",
+   "type": "fey",
+   "challenge_rating": 1,
+   "ac": 16,
+   "hp": 10,
+   "page": 207,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Red Abishai"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "fiend",
+   "challenge_rating": 19,
+   "ac": 22,
+   "hp": 289,
+   "page": 40,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Red Greatwyrm"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "size": "Gargantuan",
+   "type": "dragon",
+   "challenge_rating": 27,
+   "ac": 22,
+   "hp": 533,
+   "page": 168,
+   "era": "2014"
+  },
+  "links": {
+   "aidedd": "https://www.google.com/search?q=site%3Aaidedd.org%20Red%20Greatwyrm",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com%20Red%20Greatwyrm"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Red Slaad",
+   "es": "Slaad rojo"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Large",
+   "type": "aberration",
+   "challenge_rating": 5,
+   "ac": 14,
+   "hp": 93,
+   "page": 285,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Redcap"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Small",
+   "type": "fey",
+   "challenge_rating": 3,
+   "ac": 14,
+   "hp": 45,
+   "page": 208,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Regisaur"
+  },
+  "book": "Bigby Presents: Glory of the Giants",
+  "data": {
+   "size": "Gargantuan",
+   "type": "monstrosity",
+   "challenge_rating": 14,
+   "ac": 17,
+   "hp": 181,
+   "page": 130,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Retriever"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Large",
+   "type": "construct",
+   "challenge_rating": 14,
+   "ac": 19,
+   "hp": 210,
+   "page": 209,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Revenant",
+   "es": "Redivivo"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Medium",
+   "type": "undead",
+   "challenge_rating": 5,
+   "ac": 13,
+   "hp": 127,
+   "page": 259,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Riffler"
+  },
+  "book": "The Book of Many Things",
+  "data": {
+   "size": "Small",
+   "type": "fey",
+   "challenge_rating": 5,
+   "ac": 15,
+   "hp": 90,
+   "page": 181,
+   "era": "2014"
+  },
+  "links": {
+   "aidedd": "https://www.google.com/search?q=site%3Aaidedd.org%20Riffler",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com%20Riffler"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Rime Hulk"
+  },
+  "book": "Bigby Presents: Glory of the Giants",
+  "data": {
+   "size": "Large",
+   "type": "elemental",
+   "challenge_rating": 5,
+   "ac": 15,
+   "hp": 85,
+   "page": 162,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Rot Troll"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Large",
+   "type": "giant",
+   "challenge_rating": 9,
+   "ac": 16,
+   "hp": 138,
+   "page": 247,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Ruin Spider"
+  },
+  "book": "The Book of Many Things",
+  "data": {
+   "size": "Large",
+   "type": "monstrosity",
+   "challenge_rating": 5,
+   "ac": 16,
+   "hp": 105,
+   "page": 182,
+   "era": "2014"
+  },
+  "links": {
+   "aidedd": "https://www.google.com/search?q=site%3Aaidedd.org%20Ruin%20Spider",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com%20Ruin%20Spider"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Runic Colossus"
+  },
+  "book": "Bigby Presents: Glory of the Giants",
+  "data": {
+   "size": "Gargantuan",
+   "type": "construct",
+   "challenge_rating": 21,
+   "ac": 20,
+   "hp": 315,
+   "page": 163,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Rutterkin"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "fiend",
+   "challenge_rating": 2,
+   "ac": 12,
+   "hp": 37,
+   "page": 210,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Sahuagin Baron",
+   "es": "Sahuagin barón"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Large",
+   "type": "fiend",
+   "challenge_rating": 5,
+   "ac": 16,
+   "hp": 76,
+   "page": 265,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Sahuagin Priest",
+   "es": "Sahuagin sacerdote"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Medium",
+   "type": "fiend",
+   "challenge_rating": 2,
+   "ac": 12,
+   "hp": 38,
+   "page": 265,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Salamander Fire Snake",
+   "es": "Salamandra serpiente de fuego"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Medium",
+   "type": "elemental",
+   "challenge_rating": 1,
+   "ac": 14,
+   "hp": 27,
+   "page": 266,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Salamander Inferno Master",
+   "es": "Salamandra maestra infernal"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Large",
+   "type": "elemental",
+   "challenge_rating": 15,
+   "ac": 18,
+   "hp": 256,
+   "page": 267,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Sapphire Dragon Wyrmling"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "size": "Medium",
+   "type": "dragon",
+   "challenge_rating": 3,
+   "ac": 16,
+   "hp": 45,
+   "page": 216,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Sapphire Greatwyrm"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "size": "Gargantuan",
+   "type": "dragon",
+   "challenge_rating": 26,
+   "ac": 21,
+   "hp": 507,
+   "page": 201,
+   "era": "2014"
+  },
+  "links": {
+   "aidedd": "https://www.google.com/search?q=site%3Aaidedd.org%20Sapphire%20Greatwyrm",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com%20Sapphire%20Greatwyrm"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Satyr Revelmaster",
+   "es": "Sátiro gran vividor"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Medium",
+   "type": "fey",
+   "challenge_rating": 6,
+   "ac": 17,
+   "hp": 82,
+   "page": 268,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Scarecrow",
+   "es": "Espantapájaros"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Medium",
+   "type": "construct",
+   "challenge_rating": 1,
+   "ac": 11,
+   "hp": 27,
+   "page": 269,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Scion of Grolantor"
+  },
+  "book": "Bigby Presents: Glory of the Giants",
+  "data": {
+   "size": "Gargantuan",
+   "type": "giant",
+   "challenge_rating": 22,
+   "ac": 18,
+   "hp": 402,
+   "page": 165,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Scion of Memnor"
+  },
+  "book": "Bigby Presents: Glory of the Giants",
+  "data": {
+   "size": "Gargantuan",
+   "type": "giant",
+   "challenge_rating": 26,
+   "ac": 20,
+   "hp": 656,
+   "page": 167,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Scion of Skoraeus"
+  },
+  "book": "Bigby Presents: Glory of the Giants",
+  "data": {
+   "size": "Gargantuan",
+   "type": "giant",
+   "challenge_rating": 23,
+   "ac": 19,
+   "hp": 444,
+   "page": 169,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Scion of Stronmaus"
+  },
+  "book": "Bigby Presents: Glory of the Giants",
+  "data": {
+   "size": "Gargantuan",
+   "type": "giant",
+   "challenge_rating": 27,
+   "ac": 20,
+   "hp": 656,
+   "page": 171,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Scion of Surtur"
+  },
+  "book": "Bigby Presents: Glory of the Giants",
+  "data": {
+   "size": "Gargantuan",
+   "type": "giant",
+   "challenge_rating": 25,
+   "ac": 20,
+   "hp": 546,
+   "page": 173,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Scion of Thrym"
+  },
+  "book": "Bigby Presents: Glory of the Giants",
+  "data": {
+   "size": "Gargantuan",
+   "type": "giant",
+   "challenge_rating": 24,
+   "ac": 19,
+   "hp": 499,
+   "page": 175,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Scout Captain",
+   "es": "Batidor capitán"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Small or Medium",
+   "type": "humanoid",
+   "challenge_rating": 3,
+   "ac": 15,
+   "hp": 66,
+   "page": 270,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Sea Spawn"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "monstrosity",
+   "challenge_rating": 1,
+   "ac": 11,
+   "hp": 32,
+   "page": 211,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Shadar-kai Gloom Weaver"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "humanoid",
+   "challenge_rating": 9,
+   "ac": 14,
+   "hp": 104,
+   "page": 213,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Shadar-kai Shadow Dancer"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "humanoid",
+   "challenge_rating": 7,
+   "ac": 15,
+   "hp": 71,
+   "page": 213,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Shadar-kai Soul Monger"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "humanoid",
+   "challenge_rating": 11,
+   "ac": 15,
+   "hp": 136,
+   "page": 214,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Shadow Demon",
+   "es": "Demonio de las sombras"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Medium",
+   "type": "fiend",
+   "challenge_rating": 4,
+   "ac": 14,
+   "hp": 66,
+   "page": 273,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Shadow Dragon",
+   "es": "Dragón sombrío"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Huge",
+   "type": "dragon",
+   "challenge_rating": 13,
+   "ac": 16,
+   "hp": 189,
+   "page": 275,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Shadow Mastiff"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "monstrosity",
+   "challenge_rating": 2,
+   "ac": 12,
+   "hp": 33,
+   "page": 215,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Shadow Mastiff Alpha"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "monstrosity",
+   "challenge_rating": 3,
+   "ac": 12,
+   "hp": 44,
+   "page": 215,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Shoosuva"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Large",
+   "type": "fiend",
+   "challenge_rating": 8,
+   "ac": 14,
+   "hp": 136,
+   "page": 216,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Sibriex"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Huge",
+   "type": "fiend",
+   "challenge_rating": 18,
+   "ac": 19,
+   "hp": 150,
+   "page": 217,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Silver Greatwyrm"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "size": "Gargantuan",
+   "type": "dragon",
+   "challenge_rating": 28,
+   "ac": 22,
+   "hp": 565,
+   "page": 208,
+   "era": "2014"
+  },
+  "links": {
+   "aidedd": "https://www.google.com/search?q=site%3Aaidedd.org%20Silver%20Greatwyrm",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com%20Silver%20Greatwyrm"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Sir Jared"
+  },
+  "book": "The Book of Many Things",
+  "data": {
+   "size": "Medium",
+   "type": "humanoid",
+   "challenge_rating": 5,
+   "ac": 20,
+   "hp": 90,
+   "page": 80,
+   "era": "2014"
+  },
+  "links": {
+   "aidedd": "https://www.google.com/search?q=site%3Aaidedd.org%20Sir%20Jared",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com%20Sir%20Jared"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Skulk"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "monstrosity",
+   "challenge_rating": 0.5,
+   "ac": 14,
+   "hp": 18,
+   "page": 219,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Skull Lord"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "undead",
+   "challenge_rating": 15,
+   "ac": 18,
+   "hp": 112,
+   "page": 220,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Slaad Tadpole",
+   "es": "Renacuajo slaad"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Tiny",
+   "type": "aberration",
+   "challenge_rating": 0.125,
+   "ac": 12,
+   "hp": 7,
+   "page": 284,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Slithering Tracker"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "ooze",
+   "challenge_rating": 3,
+   "ac": 14,
+   "hp": 39,
+   "page": 221,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Smoke Mephit",
+   "es": "Mefit de humo"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Small",
+   "type": "elemental",
+   "challenge_rating": 0.25,
+   "ac": 12,
+   "hp": 13,
+   "page": 208,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Solar Bastion Knight"
+  },
+  "book": "The Book of Many Things",
+  "data": {
+   "size": "Medium",
+   "type": "humanoid",
+   "challenge_rating": 9,
+   "ac": 20,
+   "hp": 150,
+   "page": 75,
+   "era": "2014"
+  },
+  "links": {
+   "aidedd": "https://www.google.com/search?q=site%3Aaidedd.org%20Solar%20Bastion%20Knight",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com%20Solar%20Bastion%20Knight"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Spawn of Kyuss"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "undead",
+   "challenge_rating": 5,
+   "ac": 10,
+   "hp": 76,
+   "page": 225,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Spectator",
+   "es": "Espectador"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Medium",
+   "type": "aberration",
+   "challenge_rating": 3,
+   "ac": 14,
+   "hp": 45,
+   "page": 289,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Spectral Cloud"
+  },
+  "book": "Bigby Presents: Glory of the Giants",
+  "data": {
+   "size": "Huge",
+   "type": "undead",
+   "challenge_rating": 13,
+   "ac": 11,
+   "hp": 189,
+   "page": 176,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Sphinx of Secrets",
+   "es": "Esfinge de los secretos"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Large",
+   "type": "celestial",
+   "challenge_rating": 8,
+   "ac": 16,
+   "hp": 136,
+   "page": 292,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Spined Devil",
+   "es": "Diablo espinoso"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Small",
+   "type": "fiend",
+   "challenge_rating": 2,
+   "ac": 13,
+   "hp": 45,
+   "page": 296,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Spirit Troll"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Large",
+   "type": "giant",
+   "challenge_rating": 11,
+   "ac": 17,
+   "hp": 130,
+   "page": 247,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Spotted Lion"
+  },
+  "book": "Bigby Presents: Glory of the Giants",
+  "data": {
+   "size": "Huge",
+   "type": "beast",
+   "challenge_rating": 3,
+   "ac": 15,
+   "hp": 66,
+   "page": 177,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Spring Eladrin"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "fey",
+   "challenge_rating": 10,
+   "ac": 19,
+   "hp": 165,
+   "page": 116,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Spy Master",
+   "es": "Espía maestro"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Small or Medium",
+   "type": "humanoid",
+   "challenge_rating": 10,
+   "ac": 19,
+   "hp": 137,
+   "page": 295,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Stalker of Baphomet"
+  },
+  "book": "Bigby Presents: Glory of the Giants",
+  "data": {
+   "size": "Huge",
+   "type": "fiend",
+   "challenge_rating": 12,
+   "ac": 17,
+   "hp": 200,
+   "page": 178,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Star Spawn Grue"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Small",
+   "type": "aberration",
+   "challenge_rating": 0.25,
+   "ac": 11,
+   "hp": 17,
+   "page": 227,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Star Spawn Hulk"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Large",
+   "type": "aberration",
+   "challenge_rating": 10,
+   "ac": 16,
+   "hp": 136,
+   "page": 227,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Star Spawn Larva Mage"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "aberration",
+   "challenge_rating": 16,
+   "ac": 16,
+   "hp": 168,
+   "page": 228,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Star Spawn Mangler"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "aberration",
+   "challenge_rating": 5,
+   "ac": 14,
+   "hp": 71,
+   "page": 229,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Star Spawn Seer"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "aberration",
+   "challenge_rating": 13,
+   "ac": 17,
+   "hp": 153,
+   "page": 230,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Steel Predator"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Large",
+   "type": "construct",
+   "challenge_rating": 16,
+   "ac": 20,
+   "hp": 207,
+   "page": 232,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Stegosaurus"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Huge",
+   "type": "beast",
+   "challenge_rating": 4,
+   "ac": 13,
+   "hp": 76,
+   "page": 96,
+   "era": "2014"
+  },
+  "links": {
+   "aidedd": "https://www.google.com/search?q=site%3Aaidedd.org%20Stegosaurus",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com%20Stegosaurus"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Stench Kow"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Large",
+   "type": "fiend",
+   "challenge_rating": 0.5,
+   "ac": 10,
+   "hp": 15,
+   "page": 72,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Stone Cursed"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "construct",
+   "challenge_rating": 1,
+   "ac": 17,
+   "hp": 19,
+   "page": 233,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Stone Giant Dreamwalker"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Huge",
+   "type": "giant",
+   "challenge_rating": 10,
+   "ac": 18,
+   "hp": 161,
+   "page": 234,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Stone Giant of Evil Earth"
+  },
+  "book": "Bigby Presents: Glory of the Giants",
+  "data": {
+   "size": "Huge",
+   "type": "giant",
+   "challenge_rating": 9,
+   "ac": 20,
+   "hp": 137,
+   "page": 179,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Stone Giant Rockspeaker"
+  },
+  "book": "Bigby Presents: Glory of the Giants",
+  "data": {
+   "size": "Huge",
+   "type": "giant",
+   "challenge_rating": 16,
+   "ac": 19,
+   "hp": 276,
+   "page": 180,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Storm Crab"
+  },
+  "book": "Bigby Presents: Glory of the Giants",
+  "data": {
+   "size": "Gargantuan",
+   "type": "monstrosity",
+   "challenge_rating": 11,
+   "ac": 18,
+   "hp": 155,
+   "page": 181,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Storm Giant Quintessent"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Huge",
+   "type": "giant",
+   "challenge_rating": 16,
+   "ac": 12,
+   "hp": 230,
+   "page": 235,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Storm Giant Tempest Caller"
+  },
+  "book": "Bigby Presents: Glory of the Giants",
+  "data": {
+   "size": "Huge",
+   "type": "giant",
+   "challenge_rating": 20,
+   "ac": 17,
+   "hp": 310,
+   "page": 182,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Storm Herald"
+  },
+  "book": "Bigby Presents: Glory of the Giants",
+  "data": {
+   "size": "Huge",
+   "type": "aberration",
+   "challenge_rating": 17,
+   "ac": 16,
+   "hp": 287,
+   "page": 183,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Summer Eladrin"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "fey",
+   "challenge_rating": 10,
+   "ac": 19,
+   "hp": 165,
+   "page": 116,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Swarm of Cranium Rats"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "aberration",
+   "challenge_rating": 5,
+   "ac": 12,
+   "hp": 76,
+   "page": 83,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Swarm of Dretches",
+   "es": "Enjambre de dretchs"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Large",
+   "type": "fiend",
+   "challenge_rating": 4,
+   "ac": 12,
+   "hp": 45,
+   "page": 104,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Swarm of Hoard Scarabs"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "size": "Medium",
+   "type": "monstrosity",
+   "challenge_rating": 2,
+   "ac": 14,
+   "hp": 31,
+   "page": 205,
+   "era": "2014"
+  },
+  "links": {
+   "aidedd": "https://www.google.com/search?q=site%3Aaidedd.org%20Swarm%20of%20Hoard%20Scarabs",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com%20Swarm%20of%20Hoard%20Scarabs"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Swarm of Larvae",
+   "es": "Enjambre de larvas"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Large",
+   "type": "fiend",
+   "challenge_rating": 1,
+   "ac": 13,
+   "hp": 22,
+   "page": 193,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Swarm of Lemures",
+   "es": "Enjambre de lémures"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Large",
+   "type": "fiend",
+   "challenge_rating": 3,
+   "ac": 12,
+   "hp": 45,
+   "page": 194,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Swarm of Rot Grubs"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "beast",
+   "challenge_rating": 0.5,
+   "ac": 8,
+   "hp": 22,
+   "page": 237,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Swarm of Stirges",
+   "es": "Enjambre de estirges"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Medium",
+   "type": "monstrosity",
+   "challenge_rating": 2,
+   "ac": 14,
+   "hp": 36,
+   "page": 299,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Swashbuckler"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "humanoid",
+   "challenge_rating": 3,
+   "ac": 17,
+   "hp": 66,
+   "page": 238,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Sword Wraith Commander"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "undead",
+   "challenge_rating": 8,
+   "ac": 18,
+   "hp": 127,
+   "page": 239,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Sword Wraith Warrior"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "undead",
+   "challenge_rating": 3,
+   "ac": 16,
+   "hp": 45,
+   "page": 239,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Talon Beast"
+  },
+  "book": "The Book of Many Things",
+  "data": {
+   "size": "Large",
+   "type": "monstrosity",
+   "challenge_rating": 7,
+   "ac": 14,
+   "hp": 114,
+   "page": 183,
+   "era": "2014"
+  },
+  "links": {
+   "aidedd": "https://www.google.com/search?q=site%3Aaidedd.org%20Talon%20Beast",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com%20Talon%20Beast"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Tanarukk"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "fiend",
+   "challenge_rating": 5,
+   "ac": 14,
+   "hp": 95,
+   "page": 240,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Tempest Spirit"
+  },
+  "book": "Bigby Presents: Glory of the Giants",
+  "data": {
+   "size": "Huge",
+   "type": "undead",
+   "challenge_rating": 15,
+   "ac": 12,
+   "hp": 195,
+   "page": 184,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Thorny Vegepygmy"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "plant",
+   "challenge_rating": 1,
+   "ac": 14,
+   "hp": 27,
+   "page": 253,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Thri-kreen Marauder",
+   "es": "Thri-kreen merodeador"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Medium",
+   "type": "monstrosity",
+   "challenge_rating": 1,
+   "ac": 15,
+   "hp": 33,
+   "page": 306,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Thri-kreen Psion",
+   "es": "Thri-kreen psiónico"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Medium",
+   "type": "monstrosity",
+   "challenge_rating": 8,
+   "ac": 16,
+   "hp": 149,
+   "page": 306,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Titanothere"
+  },
+  "book": "Bigby Presents: Glory of the Giants",
+  "data": {
+   "size": "Huge",
+   "type": "beast",
+   "challenge_rating": 5,
+   "ac": 16,
+   "hp": 136,
+   "page": 185,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Titivilus"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "fiend",
+   "challenge_rating": 16,
+   "ac": 20,
+   "hp": 150,
+   "page": 242,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Tlincalli"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Large",
+   "type": "monstrosity",
+   "challenge_rating": 5,
+   "ac": 15,
+   "hp": 85,
+   "page": 242,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Topaz Dragon Wyrmling"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "size": "Medium",
+   "type": "dragon",
+   "challenge_rating": 2,
+   "ac": 16,
+   "hp": 33,
+   "page": 223,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Topaz Greatwyrm"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "size": "Gargantuan",
+   "type": "dragon",
+   "challenge_rating": 26,
+   "ac": 21,
+   "hp": 507,
+   "page": 201,
+   "era": "2014"
+  },
+  "links": {
+   "aidedd": "https://www.google.com/search?q=site%3Aaidedd.org%20Topaz%20Greatwyrm",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com%20Topaz%20Greatwyrm"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Tortle"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "humanoid",
+   "challenge_rating": 0.25,
+   "ac": 17,
+   "hp": 22,
+   "page": 244,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Tortle Druid"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "humanoid",
+   "challenge_rating": 2,
+   "ac": 17,
+   "hp": 33,
+   "page": 244,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Transmuter Wizard"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "humanoid",
+   "challenge_rating": 5,
+   "ac": 12,
+   "hp": 49,
+   "page": 265,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Trapper"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Large",
+   "type": "monstrosity",
+   "challenge_rating": 3,
+   "ac": 13,
+   "hp": 68,
+   "page": 245,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Tree Blight",
+   "es": "Marchita arbórea"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Huge",
+   "type": "plant",
+   "challenge_rating": 7,
+   "ac": 15,
+   "hp": 115,
+   "page": 44,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Troglodyte",
+   "es": "Troglodita"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Medium",
+   "type": "monstrosity",
+   "challenge_rating": 0.25,
+   "ac": 11,
+   "hp": 13,
+   "page": 309,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Troll Amalgam"
+  },
+  "book": "Bigby Presents: Glory of the Giants",
+  "data": {
+   "size": "Gargantuan",
+   "type": "giant",
+   "challenge_rating": 17,
+   "ac": 15,
+   "hp": 217,
+   "page": 186,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Troll Mutate"
+  },
+  "book": "Bigby Presents: Glory of the Giants",
+  "data": {
+   "size": "Large",
+   "type": "giant",
+   "challenge_rating": 7,
+   "ac": 16,
+   "hp": 95,
+   "page": 187,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Twig Blight",
+   "es": "Marchita rama"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Small",
+   "type": "plant",
+   "challenge_rating": 0.125,
+   "ac": 14,
+   "hp": 7,
+   "page": 43,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Ulitharid"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Large",
+   "type": "aberration",
+   "challenge_rating": 9,
+   "ac": 15,
+   "hp": 127,
+   "page": 249,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Ultroloth",
+   "es": "Ultroloth"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Medium",
+   "type": "fiend",
+   "challenge_rating": 13,
+   "ac": 19,
+   "hp": 221,
+   "page": 311,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Umber Hulk",
+   "es": "Mole sombría"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Large",
+   "type": "monstrosity",
+   "challenge_rating": 5,
+   "ac": 18,
+   "hp": 93,
+   "page": 312,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Vampire Nightbringer",
+   "es": "Vampiro portador de la noche"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Small or Medium",
+   "type": "undead",
+   "challenge_rating": 8,
+   "ac": 16,
+   "hp": 142,
+   "page": 316,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Vampire Umbral Lord",
+   "es": "Vampiro señor umbral"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Small or Medium",
+   "type": "undead",
+   "challenge_rating": 15,
+   "ac": 16,
+   "hp": 187,
+   "page": 318,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Vampiric Mist"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "undead",
+   "challenge_rating": 3,
+   "ac": 13,
+   "hp": 30,
+   "page": 250,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Vargouille"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Tiny",
+   "type": "fiend",
+   "challenge_rating": 1,
+   "ac": 12,
+   "hp": 18,
+   "page": 251,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Vegepygmy"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Small",
+   "type": "plant",
+   "challenge_rating": 0.25,
+   "ac": 13,
+   "hp": 13,
+   "page": 252,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Vegepygmy Chief"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Small",
+   "type": "plant",
+   "challenge_rating": 2,
+   "ac": 14,
+   "hp": 33,
+   "page": 253,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Veiled Presence"
+  },
+  "book": "The Book of Many Things",
+  "data": {
+   "size": "Small or Medium",
+   "type": "celestial",
+   "challenge_rating": 21,
+   "ac": 20,
+   "hp": 300,
+   "page": 48,
+   "era": "2014"
+  },
+  "links": {
+   "aidedd": "https://www.google.com/search?q=site%3Aaidedd.org%20Veiled%20Presence",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com%20Veiled%20Presence"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Velociraptor"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Tiny",
+   "type": "beast",
+   "challenge_rating": 0.25,
+   "ac": 13,
+   "hp": 10,
+   "page": 96,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Venom Troll"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Large",
+   "type": "giant",
+   "challenge_rating": 7,
+   "ac": 15,
+   "hp": 94,
+   "page": 248,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Vine Blight",
+   "es": "Marchita enredadera"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Medium",
+   "type": "plant",
+   "challenge_rating": 0.5,
+   "ac": 12,
+   "hp": 19,
+   "page": 44,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Violet Fungus Necrohulk",
+   "es": "Necromole de hongo violeta"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Large",
+   "type": "plant",
+   "challenge_rating": 7,
+   "ac": 17,
+   "hp": 123,
+   "page": 126,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "War Priest"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "humanoid",
+   "challenge_rating": 9,
+   "ac": 18,
+   "hp": 117,
+   "page": 254,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Warlock of the Archfey"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "humanoid",
+   "challenge_rating": 4,
+   "ac": 13,
+   "hp": 67,
+   "page": 255,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Warlock of the Fiend"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "humanoid",
+   "challenge_rating": 7,
+   "ac": 13,
+   "hp": 78,
+   "page": 255,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Warlock of the Great Old One"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "humanoid",
+   "challenge_rating": 6,
+   "ac": 13,
+   "hp": 91,
+   "page": 256,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Warlord"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "humanoid",
+   "challenge_rating": 12,
+   "ac": 18,
+   "hp": 229,
+   "page": 257,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Warrior Commander",
+   "es": "Guerrero comandante"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Small or Medium",
+   "type": "humanoid",
+   "challenge_rating": 10,
+   "ac": 18,
+   "hp": 161,
+   "page": 321,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Wastrilith"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Large",
+   "type": "fiend",
+   "challenge_rating": 13,
+   "ac": 18,
+   "hp": 157,
+   "page": 258,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Water Elemental Myrmidon"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "elemental",
+   "challenge_rating": 7,
+   "ac": 18,
+   "hp": 127,
+   "page": 123,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Water Weird",
+   "es": "Extraño de agua"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Large",
+   "type": "elemental",
+   "challenge_rating": 3,
+   "ac": 13,
+   "hp": 65,
+   "page": 323,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Werevulture"
+  },
+  "book": "The Book of Many Things",
+  "data": {
+   "size": "Medium",
+   "type": "fiend",
+   "challenge_rating": 4,
+   "ac": 12,
+   "hp": 75,
+   "page": 184,
+   "era": "2014"
+  },
+  "links": {
+   "aidedd": "https://www.google.com/search?q=site%3Aaidedd.org%20Werevulture",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com%20Werevulture"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "White Abishai"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "fiend",
+   "challenge_rating": 6,
+   "ac": 15,
+   "hp": 68,
+   "page": 41,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "White Greatwyrm"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "size": "Gargantuan",
+   "type": "dragon",
+   "challenge_rating": 27,
+   "ac": 22,
+   "hp": 533,
+   "page": 168,
+   "era": "2014"
+  },
+  "links": {
+   "aidedd": "https://www.google.com/search?q=site%3Aaidedd.org%20White%20Greatwyrm",
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com%20White%20Greatwyrm"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Winged Kobold",
+   "es": "Kobold alado"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Small",
+   "type": "dragon",
+   "challenge_rating": 0.25,
+   "ac": 15,
+   "hp": 10,
+   "page": 185,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Winter Eladrin"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "fey",
+   "challenge_rating": 10,
+   "ac": 19,
+   "hp": 165,
+   "page": 117,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Wood Woad"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "plant",
+   "challenge_rating": 5,
+   "ac": 18,
+   "hp": 75,
+   "page": 266,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Wretched Sorrowsworn"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Small",
+   "type": "monstrosity",
+   "challenge_rating": 0.25,
+   "ac": 15,
+   "hp": 10,
+   "page": 224,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Xvart"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Small",
+   "type": "monstrosity",
+   "challenge_rating": 0.125,
+   "ac": 13,
+   "hp": 7,
+   "page": 267,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Xvart Warlock of Raxivort"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Small",
+   "type": "monstrosity",
+   "challenge_rating": 1,
+   "ac": 12,
+   "hp": 22,
+   "page": 267,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Yagnoloth"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Large",
+   "type": "fiend",
+   "challenge_rating": 11,
+   "ac": 17,
+   "hp": 147,
+   "page": 268,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Yeenoghu"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Huge",
+   "type": "fiend",
+   "challenge_rating": 24,
+   "ac": 20,
+   "hp": 333,
+   "page": 270,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Yeth Hound"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Large",
+   "type": "fey",
+   "challenge_rating": 4,
+   "ac": 14,
+   "hp": 51,
+   "page": 271,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Yeti",
+   "es": "Yeti"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Large",
+   "type": "monstrosity",
+   "challenge_rating": 3,
+   "ac": 12,
+   "hp": 51,
+   "page": 339,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Yochlol",
+   "es": "Yochlol"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Medium",
+   "type": "fiend",
+   "challenge_rating": 10,
+   "ac": 15,
+   "hp": 153,
+   "page": 341,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Young Amethyst Dragon"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "size": "Large",
+   "type": "dragon",
+   "challenge_rating": 9,
+   "ac": 18,
+   "hp": 168,
+   "page": 161,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Young Crystal Dragon"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "size": "Large",
+   "type": "dragon",
+   "challenge_rating": 5,
+   "ac": 15,
+   "hp": 95,
+   "page": 172,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Young Dragon Turtle"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "size": "Huge",
+   "type": "dragon",
+   "challenge_rating": 10,
+   "ac": 19,
+   "hp": 178,
+   "page": 192,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Young Emerald Dragon"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "size": "Large",
+   "type": "dragon",
+   "challenge_rating": 8,
+   "ac": 17,
+   "hp": 142,
+   "page": 197,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Young Kruthik"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Small",
+   "type": "monstrosity",
+   "challenge_rating": 0.125,
+   "ac": 16,
+   "hp": 9,
+   "page": 168,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Young Moonstone Dragon"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "size": "Large",
+   "type": "dragon",
+   "challenge_rating": 8,
+   "ac": 18,
+   "hp": 144,
+   "page": 213,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Young Remorhaz",
+   "es": "Remorhaz joven"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Large",
+   "type": "monstrosity",
+   "challenge_rating": 5,
+   "ac": 14,
+   "hp": 93,
+   "page": 258,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Young Sapphire Dragon"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "size": "Large",
+   "type": "dragon",
+   "challenge_rating": 9,
+   "ac": 17,
+   "hp": 157,
+   "page": 216,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Young Sea Serpent"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "size": "Huge",
+   "type": "dragon",
+   "challenge_rating": 8,
+   "ac": 16,
+   "hp": 123,
+   "page": 219,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Young Topaz Dragon"
+  },
+  "book": "Fizban's Treasury of Dragons",
+  "data": {
+   "size": "Large",
+   "type": "dragon",
+   "challenge_rating": 7,
+   "ac": 17,
+   "hp": 127,
+   "page": 223,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Yuan-ti Abomination",
+   "es": "Yuan-ti abominación"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Large",
+   "type": "monstrosity",
+   "challenge_rating": 7,
+   "ac": 15,
+   "hp": 127,
+   "page": 345,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Yuan-ti Anathema"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Huge",
+   "type": "monstrosity",
+   "challenge_rating": 12,
+   "ac": 16,
+   "hp": 189,
+   "page": 272,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Yuan-ti Broodguard"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "monstrosity",
+   "challenge_rating": 2,
+   "ac": 14,
+   "hp": 45,
+   "page": 273,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Yuan-ti Infiltrator",
+   "es": "Yuan-ti infiltrado"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Medium",
+   "type": "monstrosity",
+   "challenge_rating": 1,
+   "ac": 11,
+   "hp": 40,
+   "page": 342,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Yuan-ti Malison (Type 1)",
+   "es": "Yuan-ti corrupto (tipo 1)"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Medium",
+   "type": "monstrosity",
+   "challenge_rating": 3,
+   "ac": 12,
+   "hp": 66,
+   "page": 343,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Yuan-ti Malison (Type 2)",
+   "es": "Yuan-ti corrupto (tipo 2)"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Medium",
+   "type": "monstrosity",
+   "challenge_rating": 3,
+   "ac": 12,
+   "hp": 66,
+   "page": 343,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Yuan-ti Malison (Type 3)",
+   "es": "Yuan-ti corrupto (tipo 3)"
+  },
+  "book": "Monster Manual (2024)",
+  "data": {
+   "size": "Medium",
+   "type": "monstrosity",
+   "challenge_rating": 3,
+   "ac": 12,
+   "hp": 66,
+   "page": 344,
+   "era": "2024"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Yuan-ti Mind Whisperer"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "monstrosity",
+   "challenge_rating": 4,
+   "ac": 14,
+   "hp": 71,
+   "page": 274,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Yuan-ti Nightmare Speaker"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "monstrosity",
+   "challenge_rating": 4,
+   "ac": 14,
+   "hp": 71,
+   "page": 275,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Yuan-ti Pit Master"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Medium",
+   "type": "monstrosity",
+   "challenge_rating": 5,
+   "ac": 14,
+   "hp": 88,
+   "page": 276,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Zaratan"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Gargantuan",
+   "type": "elemental",
+   "challenge_rating": 22,
+   "ac": 21,
+   "hp": 307,
+   "page": 278,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Zariel"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Large",
+   "type": "fiend",
+   "challenge_rating": 26,
+   "ac": 21,
+   "hp": 420,
+   "page": 280,
+   "era": "2014"
+  }
+ },
+ {
+  "category": "monster",
+  "name": {
+   "en": "Zuggtmoy"
+  },
+  "book": "Mordenkainen Presents: Monsters of the Multiverse",
+  "data": {
+   "size": "Large",
+   "type": "fiend",
+   "challenge_rating": 23,
+   "ac": 18,
+   "hp": 304,
+   "page": 281,
+   "era": "2014"
+  }
+ }
+]
