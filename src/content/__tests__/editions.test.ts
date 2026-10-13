@@ -68,3 +68,9 @@ test('every indexed spell has our own bilingual rules card', () => {
   }
   expect(getEntry('spell:ext-spell-silvery-barbs')?.data.rules.es).toContain('repite el d20');
 });
+
+test('Chronurgy is found by its usual Spanish name', () => {
+  const hit = searchContent('cronurgia', { category: 'subclass' }, 'es')[0];
+  expect(hit?.id).toBe('ext-subclass-chronurgy-magic');
+  expect(hit?.data.classId).toBe('wizard');
+});

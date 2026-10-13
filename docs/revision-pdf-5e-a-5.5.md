@@ -195,8 +195,8 @@ Leyenda: **=** sigue igual de nombre en 2024 · **→** renombrada o sustituida 
 | Escuela de Nigromancia | PHB 2014 | → **Nigromante** (Arcana Unleashed) |
 | Escuela de Transmutación | PHB 2014 | → **Transmutador** (Arcana Unleashed) |
 | Magia de Guerra | Xanathar | legado (2014) |
-| Magia Cronúrgica | Wildemount | legado (2014) |
-| Magia Gravitúrgica | Wildemount | legado (2014) |
+| Magia Cronúrgica (Cronurgia) | Wildemount | legado (2014) |
+| Magia Gravitúrgica (Graviturgia) | Wildemount | legado (2014) |
 | Danzante del Filo | Tasha | = Danzante del Filo (Heroes of Faerûn) |
 | Orden de los Escribas | Tasha | legado (2014) |
 

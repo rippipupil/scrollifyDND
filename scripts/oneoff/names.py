@@ -64,7 +64,7 @@ SUBCLASS_ES = {
     ('warlock', 'The Undead'): 'El No Muerto', ('warlock', 'Undead Patron'): 'Patrón No Muerto', ('warlock', 'Vestige Patron'): 'Patrón Vestigio',
     ('warlock', 'The Archfey'): 'El Archifeérico', ('warlock', 'The Fiend'): 'El Infernal', ('warlock', 'The Great Old One'): 'El Primigenio', ('warlock', 'The Celestial'): 'El Celestial',
     # Wizard
-    ('wizard', 'War Magic'): 'Magia de Guerra', ('wizard', 'Chronurgy Magic'): 'Magia Cronúrgica', ('wizard', 'Graviturgy Magic'): 'Magia Gravitúrgica',
+    ('wizard', 'War Magic'): 'Magia de Guerra', ('wizard', 'Chronurgy Magic'): 'Magia Cronúrgica (Cronurgia)', ('wizard', 'Graviturgy Magic'): 'Magia Gravitúrgica (Graviturgia)',
     ('wizard', 'Order of Scribes'): 'Orden de los Escribas', ('wizard', 'Bladesinging'): 'Danzante del Filo', ('wizard', 'Bladesinger'): 'Danzante del Filo',
     ('wizard', 'Conjurer'): 'Conjurador', ('wizard', 'Enchanter'): 'Encantador', ('wizard', 'Necromancer'): 'Nigromante', ('wizard', 'Transmuter'): 'Transmutador',
     ('wizard', 'School of Abjuration'): 'Escuela de Abjuración', ('wizard', 'School of Conjuration'): 'Escuela de Conjuración', ('wizard', 'School of Divination'): 'Escuela de Adivinación',

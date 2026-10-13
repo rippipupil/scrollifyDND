@@ -957,7 +957,7 @@
   "category": "subclass",
   "name": {
    "en": "Chronurgy Magic",
-   "es": "Magia Cronúrgica"
+   "es": "Magia Cronúrgica (Cronurgia)"
   },
   "book": "Wildemount",
   "data": {
@@ -968,14 +968,14 @@
   },
   "links": {
    "wikidot": "https://dnd5e.wikidot.com/wizard:chronurgy",
-   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Magia+Cron%C3%BArgica"
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Magia+Cron%C3%BArgica+%28Cronurgia%29"
   }
  },
  {
   "category": "subclass",
   "name": {
    "en": "Graviturgy Magic",
-   "es": "Magia Gravitúrgica"
+   "es": "Magia Gravitúrgica (Graviturgia)"
   },
   "book": "Wildemount",
   "data": {
@@ -986,7 +986,7 @@
   },
   "links": {
    "wikidot": "https://dnd5e.wikidot.com/wizard:graviturgy",
-   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Magia+Gravit%C3%BArgica"
+   "nivel20": "https://www.google.com/search?q=site%3Anivel20.com+Magia+Gravit%C3%BArgica+%28Graviturgia%29"
   }
  },
  {

@@ -29,7 +29,8 @@ export default function NewCharacterScreen() {
   // 2014 options stay out of the way unless asked for (or already picked).
   const visible = (list: ContentEntry[], picked: (string | undefined)[]) => list.filter((e) => showLegacy || e.data?.era !== '2014' || picked.includes(keyOf(e)));
   const classes = useMemo(() => entriesOf('class', homebrew), [homebrew]);
-  const subclasses = useMemo(() => visible(entriesOf('subclass', homebrew), d.classes.map((k) => k.subclassKey)), [homebrew, showLegacy, d.classes]);
+  // Subclass lists are short, so 2014 subclasses (Chronurgy, Hexblade…) are always offered, tagged ·2014.
+  const subclasses = useMemo(() => entriesOf('subclass', homebrew), [homebrew]);
   const species = useMemo(() => visible(entriesOf('species', homebrew), [d.speciesKey]), [homebrew, showLegacy, d.speciesKey]);
   const backgrounds = useMemo(() => visible(entriesOf('background', homebrew), [d.backgroundKey]), [homebrew, showLegacy, d.backgroundKey]);
   const tag = (e: ContentEntry) => (e.source === 'homebrew' ? ' ·HB' : e.source !== 'external' ? '' : e.data?.era === '2014' ? ' ·2014' : e.book === 'PHB 2024' ? ' ·PHB' : ' ·2024');
