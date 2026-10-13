@@ -168,6 +168,21 @@ export const es: Dict = {
     linkHint: 'Escribe [[Nombre]] para enlazar otra entrada; si no existe, se crea al tocar el enlace.', links: 'Enlaces', mentionedIn: 'Mencionado en',
   },
   screen: { title: 'Pantalla', source: 'Resumen de las reglas del SRD 5.2.1 (CC BY 4.0).' },
+  guide: {
+    howItWorks: 'Cómo funciona', scaling: 'Cómo escala', tips: 'Consejos', subclasses: 'Subclases', byLevel: 'Rasgos por nivel',
+    keyNumbers: 'Números clave por nivel', subclassFeatures: 'Rasgos de subclase', subclassFeature: 'Rasgo de subclase', lv: 'nv {n}',
+    srdText: 'Texto completo (SRD 5.2)',
+    ownWords: 'Guía escrita para Scrollify con nuestras palabras, a partir de los datos de las reglas; no es texto oficial.',
+    legacyLevels: 'Subclase de 2014: los niveles son los del libro original. Con las reglas 2024 la subclase se elige a nivel 3, así que lo habitual es recibir entonces los rasgos de nivel 1 o 2. Consúltalo con tu DM.',
+    scale: {
+      rage_count: 'Furias', rage_damage_bonus: 'Daño de Furia', weapon_mastery: 'Armas con maestría', bardic_inspiration_die: 'Dado de Inspiración bárdica',
+      channel_divinity_charges: 'Usos de Canalizar divinidad', wild_shape_uses: 'Usos de Forma salvaje', second_wind_uses: 'Usos de Tomar aliento',
+      focus_points: 'Puntos de Concentración', martial_arts_die: 'Dado de Artes marciales', unarmored_movement_bonus: 'Movimiento sin armadura',
+      favored_enemies: 'Enemigo predilecto (usos de Marca del cazador)', sneak_attack: 'Ataque furtivo', sorcery_points: 'Puntos de hechicería',
+      eldritch_invocations: 'Invocaciones sobrenaturales', maxSpellLevel: 'Nivel máximo de conjuro', cantrips: 'Trucos conocidos',
+      prepared: 'Conjuros preparados', prof: 'Bonificador por competencia',
+    },
+  },
   search: {
     title: 'Buscar en todo', placeholder: 'Personajes, enemigos, diario, notas, wiki…', hint: 'Busca a la vez en tus personajes, tus enemigos, el diario de campaña, tus notas de la wiki y la wiki.',
     none: 'Nada encontrado.', kinds: { character: 'Personajes', enemy: 'Mis enemigos', journal: 'Diario', note: 'Mis notas', content: 'Wiki' },

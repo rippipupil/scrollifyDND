@@ -169,6 +169,22 @@ const out = process.argv[2];
   const backup = JSON.parse(require('fs').readFileSync(file, 'utf8'));
   console.log('backup file:', download.suggestedFilename(), backup.kind, Object.keys(backup.payload).join(','), backup.payload.characters.length, backup.payload.journal.length);
   await p.screenshot({ path: out + '/40-backup.png', fullPage: true });
+
+  // Distances in feet, then class and subclass guides
+  await p.getByTestId('units-ft').click();
+  await p.goto('http://localhost:8081/wiki/spell%3Afireball', { waitUntil: 'networkidle' });
+  await p.waitForTimeout(500);
+  console.log('fireball range in feet:', await p.getByText(/150 pies/).count());
+  await p.goto('http://localhost:8081/settings', { waitUntil: 'networkidle' });
+  await p.getByTestId('units-auto').click();
+  await p.goto('http://localhost:8081/wiki/class%3Arogue', { waitUntil: 'networkidle' });
+  await p.waitForTimeout(500);
+  console.log('class guide:', await p.getByText('Cómo funciona', { exact: true }).count(), await p.getByText('Cómo escala', { exact: true }).count(), await p.getByText(/^Subclases \(\d+\)/).innerText());
+  await p.screenshot({ path: out + '/41-class-guide.png', fullPage: true });
+  await p.goto('http://localhost:8081/wiki/subclass%3Aext-subclass-chronurgy-magic', { waitUntil: 'networkidle' });
+  await p.waitForTimeout(500);
+  console.log('subclass guide:', await p.getByText('Rasgos por nivel', { exact: true }).count());
+  await p.screenshot({ path: out + '/42-subclass-guide.png', fullPage: true });
   console.log('errors:', JSON.stringify(errors.slice(0, 10)));
   await b.close();
 })();

@@ -82,6 +82,11 @@ export default function NewCharacterScreen() {
                         } />
                     ))}
                   </Row>
+                  {ce?.data?.guide ? (
+                    <Txt variant="small" muted>
+                      {loc(ce.data.guide.summary)}
+                    </Txt>
+                  ) : null}
                   <Row>
                     <Txt style={{ flex: 1 }}>{t('sheet.classLevel')}</Txt>
                     <Stepper value={k.level} min={1} max={20} onChange={(n) => set({ classes: d.classes.map((x, i) => (i === idx ? { ...x, level: n } : x)) })} />
@@ -96,6 +101,15 @@ export default function NewCharacterScreen() {
                           <Chip key={keyOf(s)} label={`${loc(s.name)}${tag(s)}`} active={k.subclassKey === keyOf(s)} onPress={() => set({ classes: d.classes.map((x, i) => (i === idx ? { ...x, subclassKey: x.subclassKey === keyOf(s) ? undefined : keyOf(s) } : x)) })} />
                         ))}
                       </Row>
+                      {(() => {
+                        // What the chosen subclass is about, so the choice isn't made from the name alone.
+                        const guide = getEntry(k.subclassKey, homebrew)?.data?.guide;
+                        return guide ? (
+                          <Txt variant="small" muted>
+                            {loc(guide.summary)}
+                          </Txt>
+                        ) : null;
+                      })()}
                     </>
                   ) : null}
                 </Card>

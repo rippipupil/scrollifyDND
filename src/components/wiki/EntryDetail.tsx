@@ -6,11 +6,13 @@ import { getEntry, keyOf } from '../../content';
 import type { ContentEntry } from '../../content/types';
 import { crLabel, creatureType, xpForCr } from '../../dm/enemy';
 import { isFallback } from '../../i18n';
+import { classScaling } from '../../wiki/classInfo';
 import { spellFacts } from '../../wiki/spellFacts';
 import { useT } from '../../i18n/useT';
 import { useHomebrew } from '../../store/homebrew';
 import { useTheme } from '../../theme';
 import { Markdown } from '../Markdown';
+import { ClassGuide, SubclassGuide } from './ClassGuide';
 import { useWikiUser } from '../../store/wiki';
 import { Badge, Button, Card, Chip, Field, Row, Txt } from '../ui';
 
@@ -136,8 +138,15 @@ function ClassTable({ e }: { e: ContentEntry }) {
   const { t, loc } = useT();
   const c = useTheme();
   const router = useRouter();
+  const { dist } = useT();
   const levels: any[] = e.data.levels ?? [];
   const caster = e.data.casterType !== 'none';
+  // This level's own class columns (Rage, Sneak Attack…), as the "how it scales" card shows them.
+  const columns = (l: any) =>
+    classScaling([l])
+      .filter((r) => r.key !== 'prof' && r.key !== 'maxSpellLevel')
+      .map((r) => ` · ${t(`guide.scale.${r.key}`)}: ${r.kind === 'distance' && typeof r.steps[0].value === 'number' ? `+${dist(r.steps[0].value)}` : r.steps[0].value}`)
+      .join('');
   return (
     <Card title={t('wiki.classLevels')}>
       {levels.map((l) => (
@@ -146,15 +155,18 @@ function ClassTable({ e }: { e: ContentEntry }) {
             <Txt style={{ fontWeight: '700', width: 64 }}>
               {t('common.level')} {l.level}
             </Txt>
-            <Txt variant="small" muted>
+            <Txt variant="small" muted style={{ flex: 1 }}>
               {t('wiki.prof')} +{l.prof}
               {caster && l.slots ? ` · ${t('wiki.slots')}: ${l.slots.filter((n: number) => n > 0).join('/') || '—'}` : ''}
+              {columns(l)}
             </Txt>
           </Row>
           <Row wrap>
             {l.features.map((f: string) => {
               const fe = getEntry(`feature:${f}`);
-              return <Chip key={f} label={fe ? loc(fe.name) : f} onPress={fe ? () => router.push({ pathname: '/wiki/[key]', params: { key: keyOf(fe) } }) : undefined} />;
+              // Later "<class>-subclass" entries are the levels where the subclass gives its next feature.
+              const label = f.endsWith('-subclass') && l.level > 3 ? t('guide.subclassFeature') : fe ? loc(fe.name) : f;
+              return <Chip key={f} label={label} onPress={fe ? () => router.push({ pathname: '/wiki/[key]', params: { key: keyOf(fe) } }) : undefined} />;
             })}
           </Row>
         </View>
@@ -283,8 +295,10 @@ export function EntryDetail({ entry, onAdd }: { entry: ContentEntry; onAdd?: () 
         </Card>
       ) : null}
       {entry.category === 'monster' && entry.source !== 'external' ? <MonsterBlock e={entry} /> : null}
+      {entry.category === 'class' ? <ClassGuide e={entry} /> : null}
+      {entry.category === 'subclass' ? <SubclassGuide e={entry} /> : null}
       {entry.text ? (
-        <Card>
+        <Card title={d.guide && entry.category === 'subclass' ? t('guide.srdText') : undefined}>
           <Markdown text={loc(entry.text)} />
         </Card>
       ) : null}

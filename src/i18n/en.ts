@@ -168,6 +168,21 @@ export const en: Dict = {
     linkHint: "Write [[Name]] to link another page; if it doesn't exist, tapping the link creates it.", links: 'Links', mentionedIn: 'Mentioned in',
   },
   screen: { title: 'Screen', source: 'Summary of the SRD 5.2.1 rules (CC BY 4.0).' },
+  guide: {
+    howItWorks: 'How it works', scaling: 'How it scales', tips: 'Tips', subclasses: 'Subclasses', byLevel: 'Features by level',
+    keyNumbers: 'Key numbers by level', subclassFeatures: 'Subclass features', subclassFeature: 'Subclass feature', lv: 'lv {n}',
+    srdText: 'Full text (SRD 5.2)',
+    ownWords: 'Guide written for Scrollify in our own words from the rules facts; not official text.',
+    legacyLevels: '2014 subclass: levels are those of the original book. Under the 2024 rules you pick a subclass at level 3, so tables usually grant its level 1 or 2 features then. Check with your DM.',
+    scale: {
+      rage_count: 'Rages', rage_damage_bonus: 'Rage Damage', weapon_mastery: 'Weapon Masteries', bardic_inspiration_die: 'Bardic Inspiration die',
+      channel_divinity_charges: 'Channel Divinity uses', wild_shape_uses: 'Wild Shape uses', second_wind_uses: 'Second Wind uses',
+      focus_points: 'Focus Points', martial_arts_die: 'Martial Arts die', unarmored_movement_bonus: 'Unarmored Movement',
+      favored_enemies: "Favored Enemy (Hunter's Mark uses)", sneak_attack: 'Sneak Attack', sorcery_points: 'Sorcery Points',
+      eldritch_invocations: 'Eldritch Invocations', maxSpellLevel: 'Highest spell level', cantrips: 'Cantrips known',
+      prepared: 'Prepared spells', prof: 'Proficiency Bonus',
+    },
+  },
   search: {
     title: 'Search everything', placeholder: 'Characters, enemies, journal, notes, wiki…', hint: 'Searches your characters, your enemies, the campaign journal, your wiki notes and the wiki at once.',
     none: 'Nothing found.', kinds: { character: 'Characters', enemy: 'My enemies', journal: 'Journal', note: 'My notes', content: 'Wiki' },

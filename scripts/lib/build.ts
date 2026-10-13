@@ -615,5 +615,23 @@ export function buildAll(p: BuildPaths): Record<string, Entry[]> {
     return { ...e, external: spellLinks(l?.en ?? e.name.en, l?.es ?? e.name.es, '2024') };
   });
   for (const k of ['magic-items', 'classes', 'subclasses', 'species', 'backgrounds', 'feats']) out[k] = withLinks(out[k]);
+  const guides = loadGuides(path.join(p.external, '..', 'guides'));
+  for (const k of ['classes', 'subclasses', 'external']) out[k] = out[k].map((e) => withGuide(e, guides));
   return out;
+}
+
+/** Our own "how it works" guides for classes and subclasses (`data/guides/*.json`), keyed by class id or subclass entry id. */
+function loadGuides(dir: string): { classes: Record<string, unknown>; subclasses: Record<string, unknown> } {
+  const read = (f: string) => JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8'));
+  if (!fs.existsSync(dir)) return { classes: {}, subclasses: {} };
+  const files = fs.readdirSync(dir).filter((f) => f.endsWith('.json')).sort();
+  return {
+    classes: files.includes('classes.json') ? read('classes.json') : {},
+    subclasses: Object.assign({}, ...files.filter((f) => f.startsWith('subclasses')).map(read)),
+  };
+}
+
+function withGuide(e: Entry, guides: ReturnType<typeof loadGuides>): Entry {
+  const guide = e.category === 'class' ? guides.classes[e.id.replace(/^ext-class-/, '')] : e.category === 'subclass' ? guides.subclasses[e.id] : undefined;
+  return guide ? { ...e, data: { ...e.data, guide } } : e;
 }
