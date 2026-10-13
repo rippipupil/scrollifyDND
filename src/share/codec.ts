@@ -1,3 +1,4 @@
+import { sanitizeBackup, type Backup } from '../backup/backup';
 import type { ContentEntry } from '../content/types';
 import { sanitizeEnemy } from '../dm/enemy';
 import type { Enemy } from '../dm/types';
@@ -5,11 +6,12 @@ import { uid } from '../rules/core';
 import type { Character } from '../rules/types';
 import { migrateCharacter } from '../store/migrations';
 
-export type BundleKind = 'character' | 'homebrew' | 'enemies';
+export type BundleKind = 'character' | 'homebrew' | 'enemies' | 'backup';
 export type Decoded =
   | { ok: true; kind: 'character'; payload: Character }
   | { ok: true; kind: 'homebrew'; payload: ContentEntry[] }
   | { ok: true; kind: 'enemies'; payload: Enemy[] }
+  | { ok: true; kind: 'backup'; payload: Backup }
   | { ok: false; error: 'invalid' };
 
 const PREFIX = 'SCRL1:';
@@ -87,6 +89,7 @@ export function decodeBundle(text: string): Decoded {
     if (obj.kind === 'enemies' && Array.isArray(obj.payload)) {
       return { ok: true, kind: 'enemies', payload: obj.payload.filter((x: unknown) => typeof x === 'object' && x !== null).map(sanitizeEnemy) };
     }
+    if (obj.kind === 'backup') return { ok: true, kind: 'backup', payload: sanitizeBackup(obj.payload) };
     if (obj.kind === 'homebrew' && Array.isArray(obj.payload) && obj.payload.every(isEntry)) {
       return { ok: true, kind: 'homebrew', payload: obj.payload };
     }

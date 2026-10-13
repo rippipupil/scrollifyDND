@@ -171,6 +171,12 @@ export const en: Dict = {
     title: 'Search everything', placeholder: 'Characters, enemies, journal, notes, wiki…', hint: 'Searches your characters, your enemies, the campaign journal, your wiki notes and the wiki at once.',
     none: 'Nothing found.', kinds: { character: 'Characters', enemy: 'My enemies', journal: 'Journal', note: 'My notes', content: 'Wiki' },
   },
+  backup: {
+    title: 'Backup', hint: 'One file with everything: characters (with portraits), enemies, combat, homebrew, journal, wiki notes and favourites. Keep it off the phone (Drive, email…).',
+    export: 'Export full backup', restore: 'Restore backup', summary: '{characters} characters · {enemies} enemies · {journal} journal pages · {homebrew} homebrew · {notes} notes',
+    restored: 'Backup restored: {added} new items and {updated} updated. Anything newer on this phone was kept.',
+    encounterRestored: 'The saved combat was brought back too.',
+  },
   attack: {
     full: 'Full attack', target: 'Target', targetAc: 'Target AC (optional)', normal: 'Normal', hit: 'Hit!', miss: 'Miss',
     crit: 'Critical hit!', fumble: 'Natural 1: miss', noAc: 'No AC: the DM decides', critDice: 'dice doubled for the crit',

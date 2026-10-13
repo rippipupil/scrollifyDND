@@ -1,6 +1,7 @@
 import { CameraView, useCameraPermissions } from 'expo-camera';
 import { useRef, useState } from 'react';
 import { Alert, Platform, View } from 'react-native';
+import { restoreBackup } from '../backup/restore';
 import { useT } from '../i18n/useT';
 import { decodeBundle, prepareCharacterImport, type Decoded } from '../share/codec';
 import { pickBundleText } from '../share/io';
@@ -26,6 +27,10 @@ export function useApplyBundle() {
       const c = prepareCharacterImport(d.payload, ids);
       add(c);
       return t('share.imported', { name: c.name });
+    }
+    if (d.kind === 'backup') {
+      const r = restoreBackup(d.payload);
+      return [t('backup.restored', { added: r.added, updated: r.updated }), r.encounter ? t('backup.encounterRestored') : ''].filter(Boolean).join(' ');
     }
     if (d.kind === 'enemies') {
       const n = useDm.getState().importEnemies(d.payload);

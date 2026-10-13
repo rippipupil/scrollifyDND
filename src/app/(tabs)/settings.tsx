@@ -9,7 +9,14 @@ import { ShareSheet } from '../../components/ShareSheet';
 import { Button, Card, Chip, Row, Screen, Txt } from '../../components/ui';
 import { EntryRow } from '../../components/wiki/EntryRow';
 import { keyOf } from '../../content';
+import { backupName } from '../../backup/backup';
+import { collectBackup } from '../../backup/restore';
 import { useT } from '../../i18n/useT';
+import { shareBundleFile } from '../../share/io';
+import { useCharacters } from '../../store/characters';
+import { useDm } from '../../store/dm';
+import { useJournal } from '../../store/journal';
+import { useWikiUser } from '../../store/wiki';
 import { useHomebrew } from '../../store/homebrew';
 import { useSettings } from '../../store/settings';
 
@@ -23,6 +30,12 @@ export default function SettingsScreen() {
   const remove = useHomebrew((s) => s.remove);
   const [exporting, setExporting] = useState(false);
   const [importing, setImporting] = useState(false);
+  // Subscribed so the summary below stays current; the backup itself is read from the stores when exported.
+  const characters = useCharacters((s) => s.characters);
+  const enemies = useDm((s) => s.enemies);
+  const journal = useJournal((s) => s.entries);
+  const notes = useWikiUser((s) => s.notes);
+  const counts = { characters: Object.keys(characters).length, enemies: Object.keys(enemies).length, journal: Object.keys(journal).length, homebrew: entries.length, notes: Object.keys(notes).length };
   return (
     <Screen>
       <Card title={t('settings.language')}>
@@ -36,6 +49,28 @@ export default function SettingsScreen() {
           {(['system', 'light', 'dark'] as const).map((k) => (
             <Chip key={k} label={t(`settings.${k}`)} active={theme === k} onPress={() => setTheme(k)} />
           ))}
+        </Row>
+      </Card>
+      <Card title={t('backup.title')}>
+        <Txt muted>{t('backup.hint')}</Txt>
+        <Txt variant="small" muted testID="backup-summary">
+          {t('backup.summary', counts)}
+        </Txt>
+        <Row wrap>
+          <Button
+            small
+            label={t('backup.export')}
+            onPress={async () => {
+              const b = collectBackup();
+              try {
+                await shareBundleFile('backup', b, backupName());
+              } catch (e) {
+                notify(String(e));
+              }
+            }}
+            testID="backup-export"
+          />
+          <Button small kind="secondary" label={t('backup.restore')} onPress={() => setImporting(true)} testID="backup-restore" />
         </Row>
       </Card>
       <Card title={t('settings.homebrew')}>

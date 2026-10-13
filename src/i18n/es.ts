@@ -171,6 +171,12 @@ export const es: Dict = {
     title: 'Buscar en todo', placeholder: 'Personajes, enemigos, diario, notas, wiki…', hint: 'Busca a la vez en tus personajes, tus enemigos, el diario de campaña, tus notas de la wiki y la wiki.',
     none: 'Nada encontrado.', kinds: { character: 'Personajes', enemy: 'Mis enemigos', journal: 'Diario', note: 'Mis notas', content: 'Wiki' },
   },
+  backup: {
+    title: 'Copia de seguridad', hint: 'Un solo archivo con todo: personajes (con retratos), enemigos, combate, homebrew, diario, notas y favoritos de la wiki. Guárdalo fuera del móvil (Drive, correo…).',
+    export: 'Exportar copia completa', restore: 'Restaurar copia', summary: '{characters} personajes · {enemies} enemigos · {journal} páginas de diario · {homebrew} homebrew · {notes} notas',
+    restored: 'Copia restaurada: {added} elementos nuevos y {updated} actualizados. Lo que era más reciente en este móvil se ha conservado.',
+    encounterRestored: 'También se ha recuperado el combate guardado.',
+  },
   attack: {
     full: 'Ataque completo', target: 'Objetivo', targetAc: 'CA del objetivo (opcional)', normal: 'Normal', hit: '¡Impacta!', miss: 'Falla',
     crit: '¡Crítico! Impacta', fumble: '1 natural: falla', noAc: 'Sin CA: decide el DM', critDice: 'dados dobles por crítico',
