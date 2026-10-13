@@ -75,7 +75,6 @@ function ExternalMeta({ e }: { e: ContentEntry }) {
     <Card>
       <Meta label={t('wiki.edition')} value={d.era === '2014' ? t('wiki.era2014') : t('wiki.era2024')} />
       <Meta label={t('wiki.source')} value={`${e.book ?? ''}${d.page ? `, ${t('wiki.page', { n: d.page })}` : ''}`} />
-      {e.category === 'subclass' && d.classId ? <Meta label={t('wiki.class')} value={t(`classNames.${d.classId}`)} /> : null}
       {e.category === 'feat' && d.type ? <Meta label={t('wiki.type')} value={t(`featTypes.${d.type}`)} /> : null}
       {e.category === 'feat' && d.racial ? <Meta label={t('wiki.type')} value={t('wiki.racialFeat')} /> : null}
       {e.category === 'species' ? (
