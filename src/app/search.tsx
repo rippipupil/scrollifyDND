@@ -60,7 +60,7 @@ export default function SearchScreen() {
         const group = hits.filter((h) => h.kind === kind);
         if (!group.length) return null;
         return (
-          <Card key={kind} title={`${t(`search.kinds.${kind}`)} (${group.length})`} style={{ paddingHorizontal: kind === 'content' ? 0 : undefined }}>
+          <Card key={kind} title={`${t(`search.kinds.${kind}`)} (${group.length})`}>
             {group.map((h) => {
               const entry = kind === 'content' ? getEntry(h.ref, homebrew) : undefined;
               if (entry) return <EntryRow key={h.ref} entry={entry} onPress={() => open(h)} />;

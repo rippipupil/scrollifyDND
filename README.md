@@ -15,11 +15,16 @@ Fichas de personaje funcionales y wiki para **D&D 5.5 (reglas 2024)**, en **espa
 - Toca cualquier número para tirar el d20 (con ventaja o desventaja).
 - Modo edición para cambiarlo todo a mano (CA fija, PG máximos, bonificadores…).
 - Compartir fichas: archivo, código para copiar o QR. Importar desde archivo, código o escaneando el QR.
+- Retrato del personaje (cámara o galería), opciones 2014 (legado) en el asistente y subclases de libros fuera del SRD (Cronurgia, Artífice…).
+- **Ataque completo**: un botón tira ataque y daño, compara con la CA del objetivo y dobla los dados en crítico.
+- **Modo mesa**: pantalla grande que no se apaga con PG, CA, espacios de conjuro y ataques a mano.
 
 **Wiki**
 - El SRD 5.2 completo sin conexión: 339 conjuros (traducidos al español), equipo, objetos mágicos, clases y progresión, subclases, especies, trasfondos, dotes, estados, maestrías, glosario de reglas y 341 monstruos con su bloque de estadísticas.
-- Búsqueda en español o inglés, sin importar las tildes, con filtros de conjuros (nivel, clase, escuela, concentración, ritual).
-- Índice del contenido que no está en el SRD (Aasimar, trasfondos, dotes y subclases del Manual del Jugador 2024, Silvery Barbs…) con enlaces a **AideDD**, **Wikidot** y **Nivel20**.
+- Monstruos con sus rasgos y acciones en español (traducción del SRD 5.2) y los tipos de criatura traducidos.
+- Búsqueda en español o inglés, sin importar las tildes, con filtros de conjuros (nivel, clase, escuela, concentración, ritual) y de edición (5.5/2024 o 5e/2014).
+- Índice del contenido que no está en el SRD (especies, subclases, trasfondos, dotes y conjuros de los libros 2024 y de los de 2014 que siguen siendo válidos, y 620 monstruos oficiales) con sus datos básicos y enlaces a **AideDD**, **Wikidot** y **Nivel20**. Los conjuros fuera del SRD traen una ficha de reglas resumida con palabras propias.
+- Notas propias en cada entrada y **favoritos** (★).
 - «Añadir a personaje» desde cualquier conjuro, objeto o dote.
 
 **DM**
@@ -27,7 +32,14 @@ Fichas de personaje funcionales y wiki para **D&D 5.5 (reglas 2024)**, en **espa
 - Créalos de cero o copia cualquiera de los 341 monstruos del SRD (también desde su página de la wiki) y edítalo.
 - Toca un ataque para tirar el ataque y el daño; toca una característica, salvación o habilidad para tirarla.
 - Combate: añade varios enemigos a la vez (numerados, PG fijos o tirados), personajes guardados y otros (PNJ, trampas); iniciativa, orden de turnos, rondas, daño/curación/PG temporales, estados y notas por combatiente.
+- **Efectos con duración** en rondas (la pone el DM): se descuentan al empezar el turno del afectado y avisan al terminar.
+- **Diario de campaña**: sesiones, misiones, PNJ y lugares enlazados con [[Nombre]], con «Mencionado en».
+- **Pantalla del DM**: CD típicas, acciones, cobertura, luz, viaje, peligros, Agotamiento, saltos y objetos (SRD 5.2.1).
 - Exporta e importa el bestiario para no perderlo al cambiar de móvil.
+
+**Buscar en todo**: la lupa de arriba busca a la vez en personajes, enemigos, diario, tus notas y la wiki.
+
+**Copia de seguridad**: en Ajustes, un solo archivo con todo (personajes con retrato, enemigos, combate, homebrew, diario, notas y favoritos). Al restaurar se combina con lo que hay y se conserva siempre lo más reciente.
 
 **Homebrew**: crea especies, conjuros, objetos, dotes o rasgos propios y compártelos con el grupo como paquete.
 
