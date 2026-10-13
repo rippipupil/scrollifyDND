@@ -48,7 +48,7 @@ export const es: Dict = {
   sheet: {
     level: 'Nivel {n}', hp: 'Puntos de golpe', hpShort: 'PG', maxHp: 'Máximo', tempHp: 'Temporales', current: 'Actuales',
     damage: 'Daño', heal: 'Curar', temp: 'Temp.', critical: 'Crítico', amount: 'Cantidad', ac: 'CA', acLong: 'Clase de armadura',
-    initiative: 'Iniciativa', speed: 'Velocidad', speedValue: '{ft} pies ({m} m)', prof: 'Bon. competencia', passivePerception: 'Percepción pasiva',
+    initiative: 'Iniciativa', speed: 'Velocidad', speedFeet: 'en pies', prof: 'Bon. competencia', passivePerception: 'Percepción pasiva',
     savingThrows: 'Tiradas de salvación', skills: 'Habilidades', deathSaves: 'Salvaciones contra muerte', successes: 'Éxitos', failures: 'Fallos',
     rollDeathSave: 'Tirar salvación contra muerte', shortRest: 'Descanso corto', longRest: 'Descanso largo', hitDice: 'Dados de golpe',
     spendHitDie: 'Gastar dado de golpe', inspiration: 'Inspiración heroica', conditions: 'Estados', exhaustion: 'Agotamiento',
@@ -115,6 +115,7 @@ export const es: Dict = {
     history: 'Historial', clear: 'Borrar historial', invalid: 'Expresión no válida', natural20: '¡20 natural!', natural1: '1 natural…', trayHint: 'Toca un dado para tirar',
   },
   settings: {
+    units: 'Distancias', units_auto: 'Según el idioma', units_m: 'Metros', units_ft: 'Pies', unitsHint: 'Cambia las distancias de la wiki, las fichas y el DM (5 pies = 1,5 m, como en los libros en español).',
     title: 'Ajustes', language: 'Idioma', theme: 'Tema', system: 'Sistema', light: 'Claro (pergamino)', dark: 'Oscuro (moderno)',
     homebrew: 'Contenido propio (homebrew)', homebrewHint: 'Crea especies, conjuros, objetos, dotes o rasgos que no estén en el SRD y compártelos con tu grupo.',
     newEntry: 'Nueva entrada', exportPack: 'Exportar paquete', importPack: 'Importar paquete', credits: 'Créditos y licencia', about: 'Acerca de',

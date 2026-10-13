@@ -1,4 +1,5 @@
 import { Text, View } from 'react-native';
+import { useT } from '../i18n/useT';
 import { useTheme } from '../theme';
 import { parseInline, parseMarkdown } from './markdown';
 
@@ -17,9 +18,11 @@ function Inline({ text, size = 15 }: { text: string; size?: number }) {
 
 export function Markdown({ text }: { text: string }) {
   const c = useTheme();
+  // Distances follow the reader's units setting, whatever units the text was written in.
+  const { conv } = useT();
   return (
     <View style={{ gap: 8 }}>
-      {parseMarkdown(text).map((b, i) => {
+      {parseMarkdown(conv(text)).map((b, i) => {
         if (b.type === 'h') return <Text key={i} style={{ color: c.accent, fontWeight: '700', fontSize: 16, marginTop: 4 }}>{b.text}</Text>;
         if (b.type === 'list')
           return (

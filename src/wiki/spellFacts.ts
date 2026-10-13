@@ -1,23 +1,22 @@
 import { t, type Lang } from '../i18n';
+import { formatDistance, formatMiles, resolveUnit, type Unit } from '../i18n/units';
 
-/** Distance in the reader's units: feet stay feet in English; Spanish uses metres (5 ft = 1,5 m) and km. */
-function distance(amount: number, unit: string, lang: Lang): string {
-  if (lang !== 'es') return `${amount} ${unit === 'miles' ? (amount === 1 ? 'mile' : 'miles') : 'feet'}`;
-  const v = unit === 'miles' ? Math.round(amount * 15) / 10 : Math.round(amount * 3) / 10;
-  return `${String(v).replace('.', ',')} ${unit === 'miles' ? 'km' : 'm'}`;
+/** Distance in the reader's units (5 ft = 1,5 m; 1 mile = 1,5 km). */
+function distance(amount: number, kind: string, lang: Lang, units: Unit): string {
+  return kind === 'miles' ? formatMiles(amount, lang, units) : formatDistance(amount, lang, units);
 }
 
 const unit = (u: string, n: number, lang: Lang) => t(lang, `spellUnits.${u}${n === 1 ? '' : 's'}`);
 
 /** Human-readable facts of an indexed (non-SRD) spell. */
-export function spellFacts(d: any, lang: Lang): { castingTime: string; range: string; components: string; duration: string } {
+export function spellFacts(d: any, lang: Lang, units: Unit = resolveUnit('auto', lang)): { castingTime: string; range: string; components: string; duration: string } {
   const ct = d?.castingTime;
   const castingTime = ct ? `${ct.n} ${unit(ct.unit, ct.n, lang)}` : '';
 
   const r = d?.range;
   let range = '';
-  if (r?.kind === 'feet' || r?.kind === 'miles') range = distance(r.amount, r.kind, lang);
-  else if (r?.kind === 'self' && r.area) range = `${t(lang, 'spellUnits.self')} (${t(lang, 'spellUnits.areaOf', { shape: t(lang, `spellUnits.shape.${r.area.shape}`), size: distance(r.area.size, r.area.unit, lang) })})`;
+  if (r?.kind === 'feet' || r?.kind === 'miles') range = distance(r.amount, r.kind, lang, units);
+  else if (r?.kind === 'self' && r.area) range = `${t(lang, 'spellUnits.self')} (${t(lang, 'spellUnits.areaOf', { shape: t(lang, `spellUnits.shape.${r.area.shape}`), size: distance(r.area.size, r.area.unit, lang, units) })})`;
   else if (r?.kind) range = t(lang, `spellUnits.${r.kind}`);
 
   const c = d?.components;

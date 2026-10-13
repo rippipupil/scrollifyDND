@@ -15,13 +15,14 @@ import { useWikiUser } from '../../store/wiki';
 import { Badge, Button, Card, Chip, Field, Row, Txt } from '../ui';
 
 function Meta({ label, value }: { label: string; value?: string | number }) {
+  const { conv } = useT();
   if (value === undefined || value === '') return null;
   return (
     <Row>
       <Txt variant="small" muted style={{ width: 130 }}>
         {label}
       </Txt>
-      <Txt style={{ flex: 1 }}>{String(value)}</Txt>
+      <Txt style={{ flex: 1 }}>{conv(String(value))}</Txt>
     </Row>
   );
 }
@@ -45,9 +46,9 @@ function SpellMeta({ e }: { e: ContentEntry }) {
 }
 
 function ExternalSpellMeta({ e }: { e: ContentEntry }) {
-  const { t, lang } = useT();
+  const { t, lang, unit } = useT();
   const d = e.data ?? {};
-  const f = spellFacts(d, lang);
+  const f = spellFacts(d, lang, unit);
   return (
     <Card>
       <Txt muted style={{ fontStyle: 'italic' }}>
@@ -65,9 +66,9 @@ function ExternalSpellMeta({ e }: { e: ContentEntry }) {
 
 /** Facts of an indexed (non-SRD) entry that isn't a spell: edition, book and page, plus what the index knows. */
 function ExternalMeta({ e }: { e: ContentEntry }) {
-  const { t, lang } = useT();
+  const { t, lang, dist } = useT();
   const d = e.data ?? {};
-  const ft = (n: number) => t('sheet.speedValue', { ft: n, m: String(Math.round(n * 3) / 10).replace('.', ',') });
+  const ft = dist;
   return (
     <Card>
       <Meta label={t('wiki.edition')} value={d.era === '2014' ? t('wiki.era2014') : t('wiki.era2024')} />
@@ -116,7 +117,7 @@ function EquipmentMeta({ e }: { e: ContentEntry }) {
         <>
           <Meta label={t('wiki.damage')} value={`${d.weapon.damage} ${t(`damageTypes.${d.weapon.damageType}`)}${d.weapon.versatileDamage ? ` (${t('sheet.versatile')}: ${d.weapon.versatileDamage})` : ''}`} />
           <Meta label={t('wiki.properties')} value={props} />
-          <Meta label={t('wiki.range')} value={d.weapon.range ?? d.weapon.throwRange} />
+          <Meta label={t('wiki.range')} value={d.weapon.range ?? d.weapon.throwRange ? `${d.weapon.range ?? d.weapon.throwRange} ft` : undefined} />
           <Meta label={t('wiki.mastery')} value={d.weapon.mastery ? loc2(getEntry(`mastery:${d.weapon.mastery}`)?.name) : undefined} />
         </>
       ) : null}

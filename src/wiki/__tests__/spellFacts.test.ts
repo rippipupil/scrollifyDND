@@ -13,7 +13,12 @@ test('Spanish facts use metric distances and Spanish units', () => {
 });
 
 test('English facts keep feet', () => {
-  expect(spellFacts(silvery, 'en')).toEqual({ castingTime: '1 reaction', range: '60 feet', components: 'V', duration: 'Instantaneous' });
+  expect(spellFacts(silvery, 'en')).toEqual({ castingTime: '1 reaction', range: '60 ft', components: 'V', duration: 'Instantaneous' });
+});
+
+test('the units setting overrides the language default', () => {
+  expect(spellFacts(silvery, 'es', 'ft').range).toBe('60 pies');
+  expect(spellFacts(silvery, 'en', 'm').range).toBe('18 m');
 });
 
 test('areas, costly materials, concentration and plural units', () => {

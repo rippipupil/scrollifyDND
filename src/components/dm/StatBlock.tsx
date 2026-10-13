@@ -25,11 +25,12 @@ export function useDmLabels() {
 }
 
 function Line({ label, value, color }: { label: string; value: string; color?: string }) {
+  const { conv } = useT();
   if (!value) return null;
   return (
     <Txt>
       <Txt style={{ fontWeight: '700', color }}>{label}: </Txt>
-      {value}
+      {conv(value)}
     </Txt>
   );
 }
@@ -39,7 +40,7 @@ function Line({ label, value, color }: { label: string; value: string; color?: s
  * In combat, `targets` and `onApplyDamage` let a full attack hit another combatant.
  */
 export function StatBlock({ enemy: e, who, targets, onApplyDamage }: { enemy: Enemy; who?: string; targets?: AttackTarget[]; onApplyDamage?: (uid: string, amount: number) => void }) {
-  const { t } = useT();
+  const { t, conv } = useT();
   const th = useTheme();
   const L = useDmLabels();
   const roll = useRolls((s) => s.roll);
@@ -51,7 +52,7 @@ export function StatBlock({ enemy: e, who, targets, onApplyDamage }: { enemy: En
     <View key={a.uid} style={{ gap: 4 }}>
       <Txt>
         <Txt style={{ fontWeight: '700', fontStyle: 'italic' }}>{a.name || '—'}. </Txt>
-        {a.text}
+        {conv(a.text)}
       </Txt>
       {a.attackBonus !== undefined || a.damage || a.save ? (
         <Row wrap>
@@ -83,7 +84,7 @@ export function StatBlock({ enemy: e, who, targets, onApplyDamage }: { enemy: En
         <Row wrap>
           <Chip label={`${t('dm.ac')} ${e.ac}${e.acNote ? ` (${e.acNote})` : ''}`} />
           <Chip label={`${t('dm.hp')} ${e.hpMax}${e.hpFormula ? ` (${e.hpFormula})` : ''}`} />
-          {e.speed ? <Chip label={e.speed} /> : null}
+          {e.speed ? <Chip label={conv(e.speed)} /> : null}
           <Chip label={`${t('dm.cr')} ${crLabel(e.cr)}${e.xp ? ` · ${e.xp} ${t('dm.xp')}` : ''}`} />
         </Row>
         <Row wrap>

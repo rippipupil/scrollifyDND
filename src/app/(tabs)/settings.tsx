@@ -25,7 +25,7 @@ export default function SettingsScreen() {
   const checkUpdate = useUpdate((x) => x.check);
   const router = useRouter();
   const { t } = useT();
-  const { lang, theme, setLang, setTheme } = useSettings();
+  const { lang, theme, units, setLang, setTheme, setUnits } = useSettings();
   const entries = useHomebrew((s) => s.entries);
   const remove = useHomebrew((s) => s.remove);
   const [exporting, setExporting] = useState(false);
@@ -43,6 +43,16 @@ export default function SettingsScreen() {
           <Chip label="Español" active={lang === 'es'} onPress={() => setLang('es')} />
           <Chip label="English" active={lang === 'en'} onPress={() => setLang('en')} />
         </Row>
+      </Card>
+      <Card title={t('settings.units')}>
+        <Row wrap>
+          {(['auto', 'm', 'ft'] as const).map((k) => (
+            <Chip key={k} label={t(`settings.units_${k}`)} active={units === k} onPress={() => setUnits(k)} testID={`units-${k}`} />
+          ))}
+        </Row>
+        <Txt variant="small" muted>
+          {t('settings.unitsHint')}
+        </Txt>
       </Card>
       <Card title={t('settings.theme')}>
         <Row wrap>

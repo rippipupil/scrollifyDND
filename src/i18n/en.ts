@@ -48,7 +48,7 @@ export const en: Dict = {
   sheet: {
     level: 'Level {n}', hp: 'Hit Points', hpShort: 'HP', maxHp: 'Max', tempHp: 'Temporary', current: 'Current',
     damage: 'Damage', heal: 'Heal', temp: 'Temp', critical: 'Critical', amount: 'Amount', ac: 'AC', acLong: 'Armor Class',
-    initiative: 'Initiative', speed: 'Speed', speedValue: '{ft} ft ({m} m)', prof: 'Proficiency', passivePerception: 'Passive Perception',
+    initiative: 'Initiative', speed: 'Speed', speedFeet: 'in feet', prof: 'Proficiency', passivePerception: 'Passive Perception',
     savingThrows: 'Saving Throws', skills: 'Skills', deathSaves: 'Death Saves', successes: 'Successes', failures: 'Failures',
     rollDeathSave: 'Roll death save', shortRest: 'Short Rest', longRest: 'Long Rest', hitDice: 'Hit Dice',
     spendHitDie: 'Spend Hit Die', inspiration: 'Heroic Inspiration', conditions: 'Conditions', exhaustion: 'Exhaustion',
@@ -115,6 +115,7 @@ export const en: Dict = {
     history: 'History', clear: 'Clear history', invalid: 'Invalid expression', natural20: 'Natural 20!', natural1: 'Natural 1…', trayHint: 'Tap a die to roll',
   },
   settings: {
+    units: 'Distances', units_auto: 'By language', units_m: 'Metres', units_ft: 'Feet', unitsHint: 'Changes distances in the wiki, sheets and DM screens (5 ft = 1.5 m, as in the Spanish books).',
     title: 'Settings', language: 'Language', theme: 'Theme', system: 'System', light: 'Light (parchment)', dark: 'Dark (modern)',
     homebrew: 'Homebrew content', homebrewHint: "Create species, spells, items, feats or features that aren't in the SRD and share them with your group.",
     newEntry: 'New entry', exportPack: 'Export pack', importPack: 'Import pack', credits: 'Credits & license', about: 'About',

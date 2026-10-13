@@ -25,7 +25,7 @@ function Stat({ label, value, onPress, testID }: { label: string; value: string;
 
 export function HpPanel({ c, mutate }: { c: Character; mutate: Mutate }) {
   const th = useTheme();
-  const { t, lang } = useT();
+  const { t, lang, dist } = useT();
   const roll = useRolls((s) => s.roll);
   const mode = useRolls((s) => s.mode);
   const setMode = useRolls((s) => s.setMode);
@@ -55,7 +55,7 @@ export function HpPanel({ c, mutate }: { c: Character; mutate: Mutate }) {
       <Row>
         <Stat label={t('sheet.ac')} value={String(armorClass(c))} />
         <Stat label={t('sheet.initiative')} value={formatMod(initiative(c))} onPress={() => roll(t('sheet.initiative'), d20(initiative(c)))} testID="roll-initiative" />
-        <Stat label={t('sheet.speed')} value={lang === 'es' ? `${String(Math.round(speed * 0.3 * 10) / 10).replace('.', ',')} m` : `${speed} ft`} />
+        <Stat label={t('sheet.speed')} value={dist(speed)} />
         <Stat label={t('sheet.prof')} value={formatMod(charProf(c))} />
         <Stat label={t('sheet.passivePerception')} value={String(passive(c, 'perception'))} />
       </Row>

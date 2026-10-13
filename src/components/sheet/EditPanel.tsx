@@ -30,7 +30,7 @@ export function EditPanel({ c, mutate }: { c: Character; mutate: Mutate }) {
             <Chip key={a} label={t(`alignments.${a}`)} active={c.alignment === a} onPress={() => mutate((x) => ({ ...x, alignment: a }))} />
           ))}
         </Row>
-        <NumberField label={`${t('sheet.speed')} (ft)`} value={c.speed} min={0} max={200} onChange={(n) => mutate((x) => ({ ...x, speed: n ?? 30 }))} />
+        <NumberField label={`${t('sheet.speed')} (${t('sheet.speedFeet')})`} value={c.speed} min={0} max={200} onChange={(n) => mutate((x) => ({ ...x, speed: n ?? 30 }))} />
       </Card>
       <Card title={t('sheet.abilityScore')}>
         <Row wrap>
